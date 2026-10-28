@@ -6,7 +6,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from integration_units import UNITS
 from course_documents import new_doc,table_style,plain_heading
-ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist';MAT=DIST/'materials';E=lambda x:html.escape(str(x),quote=True)
+ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'course';MAT=DIST/'materials';E=lambda x:html.escape(str(x),quote=True)
 NAME='Web ilovani integratsiyalash, testlash va joriy etish'
 NAMES=['Frontend API va bazani integratsiyalash','Avtomatik unit va integratsion sinovlar','Brauzer sifati qulaylik va xavfsizlik','Reliz CI va joriy etish muhiti','Kuzatish tiklash va yakuniy himoya']
 INTRO=[

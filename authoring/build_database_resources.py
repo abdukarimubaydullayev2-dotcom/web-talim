@@ -7,7 +7,7 @@ from docx.oxml.ns import qn
 from database_units import UNITS
 from database_cases import CASES
 from course_documents import new_doc,table_style,plain_heading
-ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist';MAT=DIST/'materials'
+ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'course';MAT=DIST/'materials'
 E=lambda s:html.escape(str(s),quote=True)
 NAMES=['Ma’lumotlar modeli va loyihalash','SQLite SQL turlari va cheklovlar','Ma’lumot kiritish o‘zgartirish va qidiruv','JOIN agregatlar va murakkab hisobotlar','Tranzaksiya indeks view va migratsiya','PostgreSQL boshqaruv huquq va backup','Yakuniy kutubxona bazasi loyihasi']
 CONTEXT=[

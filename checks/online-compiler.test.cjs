@@ -6,7 +6,7 @@ nodes['lab-editor'].value='function jamiTolov(a,b){return a*b;}';
 nodes['compiler-frame-holder'].appendChild=frame=>{nodes[frame.id]=frame;};
 let runCount=0;const runModes=[];
 const context=vm.createContext({currentModule:4,currentLesson:4,activeData:()=>({lab:{starter:'starter'}}),Event:class{},runCodingLab:mode=>{runCount++;runModes.push(mode)},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},window:{addEventListener:(k,v)=>listeners.set(k,v),removeEventListener:(k,v)=>{if(listeners.get(k)===v)listeners.delete(k);}},document:{getElementById:id=>nodes[id]??null,createElement:()=>({...node(),events:{},contentWindow:{postMessage:(data,origin)=>sent.push({data,origin})},addEventListener(k,v){this.events[k]=v;}})}});
-vm.runInContext(fs.readFileSync('dist/online-compiler.js','utf8'),context);vm.runInContext('ensureOnlineCompiler()',context);
+vm.runInContext(fs.readFileSync('course/online-compiler.js','utf8'),context);vm.runInContext('ensureOnlineCompiler()',context);
 const frame=nodes['online-compiler-frame'];assert(frame.src.includes('listenToEvents=true'));assert(frame.src.includes('codeChangeEvent=true'));
 frame.events.load();assert.equal(sent[0].origin,'https://onecompiler.com');assert.equal(sent[0].data.files[0].content,nodes['lab-editor'].value);
 const message=listeners.get('message');const code='function jamiTolov(a,b){return a*b;}';

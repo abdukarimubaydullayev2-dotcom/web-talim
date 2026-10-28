@@ -1,57 +1,71 @@
 # Web Ta’lim
 
-Namangan shahar 3-sonli texnikum uchun ochiq raqamli ta’lim resursi.
+Namangan shahar 3-sonli texnikum · Tayyorlovchi Ubaydullayev Abdukarim · 3-IT · 2026/2027.
 
-Tayyorlovchi: **Ubaydullayev Abdukarim** · 3-IT · 2026/2027.
+Platforma: https://web-talim-abdukarim-2026.satinyacorn67.chatgpt.site
 
-Amaldagi platforma: https://web-talim-abdukarim-2026.satinyacorn67.chatgpt.site
+## Kirish
 
-## Tarkib
+Platformaga login/parol bilan ro‘yxatdan o‘tib kiriladi. Google yoki ChatGPT hisobi talab qilinmaydi.
+Viloyat → tuman/shahar → texnikum → o‘quvchi/o‘qituvchi tanlanadi.
+O‘quvchi guruhini o‘zi yozishi majburiy, o‘qituvchida guruh maydoni chiqmaydi.
+Keyin ism, familiya, noyob login va kamida 10 belgili parol kiritiladi.
+Hisoblar D1da saqlanadi; parollar saltli PBKDF2 hash, sessiyalar HttpOnly cookie bilan ishlaydi.
+Rol tanlovi tasniflash uchun, administrator vakolatini bermaydi.
 
-1. Kasbiy faoliyatga kirish, mehnat muhofazasi va kasbiy etika.
-2. Kompyuter arxitekturasi va operatsion tizimlar.
-3. Kompyuter tarmoqlari asoslari.
-4. Algoritm va dasturlash asoslari.
-5. Web interfeysini ishlab chiqish (Frontend).
-6. Server dasturlash (Backend).
-7. Ma’lumotlar bazasi bilan ishlash.
-8. Web ilovani integratsiyalash, testlash va joriy etish.
+## Mazmun
 
-Mavzularda konspektlar, slaydlar, javobli savollar, testlar, mos videolar va tegishli amaliy mashqlar bor. 10 savolli testning o‘tish chegarasi 60%.
+8 modul: kasbiy faoliyat va mehnat muhofazasi; kompyuter arxitekturasi;
+kompyuter tarmoqlari; dasturlash asoslari; Frontend; Backend; ma’lumotlar bazasi;
+integratsiyalash, testlash va joriy etish.
+Konspekt, slayd, javobli savol, 10 savolli test va tegishli amaliy mashqlar mavjud.
+Test o‘tish chegarasi 60%. Word konspektlar Calibri 14, interval 1, Atamalar bilan.
 
-## Lokal ochish
+## Tuzilma
 
-Statik sayt `dist/` ichida. Node yoki Python HTTP server bilan oching (faylni file:// orqali ochish Worker/WASMni cheklashi mumkin):
+- `course/` — darslar, statik JS, rasmlar, Word va ZIP materiallarining kanonik manbasi.
+- `auth/` — kirish, ro‘yxatdan o‘tish, profil, server validatsiyasi va rasmiy muassasalar katalogi.
+- `db/schema.ts` va `drizzle/` — D1 sxema va ketma-ket migratsiyalar.
+- `worker/` — barcha so‘rovlarda sessiyani tekshiradigan gateway.
+- `authoring/` — o‘quv materiallarini yaratish skriptlari va alohida demo loyihalar.
+- `checks/` — autentifikatsiya, navigatsiya, test baholashi va mashq muhitlari tekshiruvlari.
+- `public/` va `dist/` — build vaqtida hosil bo‘ladi, Gitga kiritilmaydi.
+
+## Lokal muhit
+
+Node 24 va npm kerak. `npm ci`, keyin `npm run build`.
+Har bir `drizzle/*.sql` faylini tartib bilan lokal DBga qo‘llang:
 
 ```sh
-python -m http.server 8000 --directory dist
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_tan_pet_avengers.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_married_rumiko_fujikawa.sql
+npm start
 ```
 
-Brauzerda http://localhost:8000 . Saytga kirish uchun hisob talab etilmaydi. Mashq qoralamalari shu brauzerning localStorage xotirasida saqlanadi.
+Wrangler ko‘rsatgan lokal URLni oching. Hostingda D1 binding kerak; serverli versiya oddiy statik GitHub Pagesda avtomatik ishlamaydi.
+`.openai/hosting.json` mavjud Sites loyihasiga tegishli, uni boshqa loyiha IDsi bilan almashtirmang.
 
-## Fayllar
-
-- `dist/` — platforma va yuklab olinadigan materiallar.
-- `authoring/` — o‘quv mazmuni va materiallarni qayta yaratish skriptlari.
-- `checks/` — navigatsiya, test baholashi va mashq muhitlari tekshiruvlari.
-- `authoring/integration-project/` — 8-modul uchun Node 24 HTTP API, SQLite, frontend va avtomatik testli alohida demo.
-
-Word konspektlar Calibri 14 va interval 1 bilan tayyorlangan. Mualliflik ish rejalari tavsiya etiladigan rejalar sifatida belgilangan.
-
-## Tekshirish
+## Tekshiruv
 
 ```sh
+node checks/auth-ui.test.cjs
+node checks/auth-runtime.test.mjs
 node checks/integration-module.test.cjs
-node checks/integration-js.test.cjs
-node --test authoring/integration-project/test/*.test.mjs
+node checks/database-module.test.cjs
 ```
 
-Loyiha ishga tushishi va boshqa modullarni qayta yaratish tartibi tegishli `authoring/README-*.txt` va demo README fayllarida berilgan. Word yaratish skriptlariga `python-docx` kerak; `CODEX_PRIMARY_RUNTIME_PYTHON` ishlatilgan buyruq misollari ish muhiti yo‘liga tegishli, oddiy kompyuterda mos Python interpreter bilan almashtiriladi.
+Auth runtime testi alohida lokal test bazasini yaratadi; real foydalanuvchi yoki production bazasiga tegmaydi.
+Ishchi qoralamalar shu brauzerda hisob idsi bilan ajratiladi, qurilmalar orasida avtomatik sinxronlanmaydi.
+O‘qituvchi boshqaruv paneli va parolni email/SMS orqali tiklash hali qo‘shilmagan.
 
-Docker, masofaviy CI va brauzer E2E sinovlari bajarilgani da’vo qilinmaydi; tegishli lokal ko‘rsatmalar bor. Node demo serverlar statik hostingda avtomatik ishga tushmaydi.
+## Ma’lumotlar va manbalar
 
-## Uchinchi tomon materiallari
+Texnikum katalogi: Lex.uz PF-190, 4-ilova amaldagi tahriri (2026-10-28):
+https://www.lex.uz/uz/acts/-7792559 . 14 hudud, 203 tuman/shahar, 636 davlat texnikumi.
+Nodavlat yoki boshqa tizimdagi muassasalar to‘liq qamralmagan.
 
-SQLite brauzer muhiti uchun sql.js va uning MIT litsenziyasi `dist/vendor/sqljs/` ichida saqlangan. YouTube videolari o‘z mualliflariga tegishli va rasmiy player orqali ko‘rsatiladi. Kurs materiallari uchun alohida umumiy litsenziya belgilanmagan.
+sql.js MIT litsenziyasi `course/vendor/sqljs/` ichida saqlangan; YouTube videolari o‘z mualliflariga tegishli.
+O‘quv materiallariga alohida umumiy litsenziya belgilanmagan.
+Foydalanuvchilar bazasi, parollar, sessiya tokenlari va mahalliy maxfiy sozlamalar bu repozitoriyga kiritilmaydi.
 
-Bu repozitoriy saytning joriy manba nusxasi. Repozitoriydagi o‘zgarishlar hozirgi hostingga avtomatik chiqarilmaydi.
+GitHubdagi o‘zgarishlar amaldagi hostingga avtomatik chiqarilmaydi; build va alohida publish kerak.

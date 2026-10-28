@@ -1,15 +1,15 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const index=fs.readFileSync('dist/index.html','utf8');
+const index=fs.readFileSync('course/index.html','utf8');
 let serial=0;const nodes=new Map(),storage=new Map();
 function node(id){if(!nodes.has(id))nodes.set(id,{id,innerHTML:'',textContent:'',value:'',hidden:false,children:[],lastElementChild:{querySelector:()=>true},setAttribute(k,v){this[k]=v},insertAdjacentHTML(p,s){this.innerHTML+=s},appendChild(x){this.children.push(x)},replaceChildren(...x){this.children=x},querySelectorAll(){return[]},querySelector(){return null},addEventListener(){},focus(){},scrollIntoView(){}});return nodes.get(id);}
 const ctx=vm.createContext({document:{getElementById:node,querySelector:node,querySelectorAll:()=>[],createElement:()=>node('created-'+serial++)},window:{addEventListener(){},removeEventListener(){}},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},select:id=>ctx.selected=id,showHome:()=>node('content').innerHTML='existing home',stopCodingLab(){},stopLessonVideos(){},ensureOnlineCompiler(){}});
-vm.runInContext('let currentModule=7,currentLesson=1,slideIndex=0;'+fs.readFileSync('dist/database-data.js','utf8')+'\n'+fs.readFileSync('dist/database-module.js','utf8')+'\n'+fs.readFileSync('dist/database-workspace.js','utf8')+'\nfunction activeData(){return databaseData[currentLesson]}\nfunction activeLesson(n){showDatabaseLesson(n)}\n'+index.slice(index.indexOf('function renderResources('),index.indexOf('const module2Groups='))+'\n'+index.slice(index.indexOf('function openResource('),index.indexOf('let currentLesson='))+'\nthis.data=databaseData;this.plan=databasePlan;',ctx);
+vm.runInContext('let currentModule=7,currentLesson=1,slideIndex=0;'+fs.readFileSync('course/database-data.js','utf8')+'\n'+fs.readFileSync('course/database-module.js','utf8')+'\n'+fs.readFileSync('course/database-workspace.js','utf8')+'\nfunction activeData(){return databaseData[currentLesson]}\nfunction activeLesson(n){showDatabaseLesson(n)}\n'+index.slice(index.indexOf('function renderResources('),index.indexOf('const module2Groups='))+'\n'+index.slice(index.indexOf('function openResource('),index.indexOf('let currentLesson='))+'\nthis.data=databaseData;this.plan=databasePlan;',ctx);
 const {data,plan}=ctx;assert.equal(Object.keys(data).length,70);assert.equal(plan.groups.reduce((s,g)=>s+g.hours,0),140);assert.equal(plan.theoryHours,70);assert.equal(plan.practiceHours,70);
 vm.runInContext('installDatabaseModule();showHome()',ctx);assert(node('content').innerHTML.includes('existing home'));assert.equal((node('modules').innerHTML.match(/id="m7l\d+"/g)||[]).length,70);
 let videos=0;
 for(let n=1;n<=70;n++){
  const d=data[n];assert.equal(d.number,n);assert.equal(d.quiz.length,10);assert.equal(d.qa.length,10);assert.equal(d.slides.length,15);assert.equal(new Set(d.quiz.map(q=>q.q)).size,10);
- assert.equal(!!d.assignment,n%2===0);assert(d.html.includes('Atamalar'));assert(d.html.includes('<pre')); assert(fs.existsSync('dist/'+d.download));
+ assert.equal(!!d.assignment,n%2===0);assert(d.html.includes('Atamalar'));assert(d.html.includes('<pre')); assert(fs.existsSync('course/'+d.download));
  for(const q of d.quiz){assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert(q.correct>=0&&q.correct<4);}
  if(d.videos.length)videos++;
  for(const v of d.videos)assert(/^[\w-]{11}$/.test(v.id));
@@ -28,7 +28,7 @@ for(const score of [0,5,6,10]){
 }
 vm.runInContext('currentLesson=70',ctx);node('quiz').querySelector=s=>({value:data[70].quiz[Number(s.match(/q(\d+)/)[1])].correct});vm.runInContext('finishQuiz({preventDefault(){}})',ctx);assert(node('quiz-result').innerHTML.includes('Modul yakunlandi'));
 for(let i=0;i<7;i++){vm.runInContext(`showDatabasePart(${i})`,ctx);assert(node('content').innerHTML.includes(`${i+1}-BO‘LIM`));}
-vm.runInContext('showDatabaseOverview()',ctx);for(const file of ['m7-database-ish-reja.docx','m7-database-konspektlar.zip','m7-database-loyiha.zip']){assert(fs.existsSync('dist/materials/'+file));assert(node('content').innerHTML.includes(file));}
+vm.runInContext('showDatabaseOverview()',ctx);for(const file of ['m7-database-ish-reja.docx','m7-database-konspektlar.zip','m7-database-loyiha.zip']){assert(fs.existsSync('course/materials/'+file));assert(node('content').innerHTML.includes(file));}
 
 assert(index.includes('7:databaseData'));assert(index.includes('7:70'));assert(index.includes('installDatabaseModule()'));
 let lastWorker,timerCallback;

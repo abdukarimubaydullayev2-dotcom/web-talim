@@ -7,7 +7,7 @@ from docx import Document
 from docx.shared import Inches,Pt,RGBColor
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
-ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist';BASE=json.loads((ROOT/'authoring/frontend-before-rebalance.json').read_text());old={int(k):v for k,v in BASE['resources'].items()};content={int(k):v for k,v in BASE['content'].items()}
+ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'course';BASE=json.loads((ROOT/'authoring/frontend-before-rebalance.json').read_text());old={int(k):v for k,v in BASE['resources'].items()};content={int(k):v for k,v in BASE['content'].items()}
 html_units=[[5,6],[7,8],[9,10],[11,12],[13,14],[15,16],[17],[18]]
 html_titles=['HTML hujjati tuzilishi, teglar, elementlar va atributlar','Sarlavhalar, paragraflar, matnni formatlash va maxsus belgilar','Giperhavolalar, rasmlar va fayl yo‘llari','Tartibli va tartibsiz ro‘yxatlar, HTML jadvallari','Semantik HTML va sahifa navigatsiyasi','HTML formalar va foydalanuvchi kiritish elementlari','Audio, video va multimedia elementlari','Head, title, meta va HTML sahifani yakuniy tekshirish']
 js_order=[47,48,49,50,51,52,'practice-values',53,54,55,'practice-branches',56,57,58,'practice-loops',59,60,61,'practice-arrays',62,63,64,'practice-functions',65,66,67,68,'practice-project']

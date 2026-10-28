@@ -17,7 +17,7 @@ from backend_units import UNITS
 from backend_cases import CASES
 
 ROOT=Path(__file__).resolve().parents[1]
-DIST=ROOT/'dist'
+DIST=ROOT/'course'
 MAT=DIST/'materials'
 MAT.mkdir(exist_ok=True)
 E=lambda x:html.escape(str(x),quote=True)

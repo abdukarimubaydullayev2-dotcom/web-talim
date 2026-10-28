@@ -1,5 +1,5 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const ctx=vm.createContext({});vm.runInContext(fs.readFileSync('dist/frontend-data.js','utf8')+'\n'+fs.readFileSync('dist/frontend-resources.js','utf8')+'\nthis.data=frontendData;this.groups=frontendGroups',ctx);const d=ctx.data;
+const ctx=vm.createContext({});vm.runInContext(fs.readFileSync('course/frontend-data.js','utf8')+'\n'+fs.readFileSync('course/frontend-resources.js','utf8')+'\nthis.data=frontendData;this.groups=frontendGroups',ctx);const d=ctx.data;
 assert.equal(ctx.groups[1].hours,16);assert.equal(ctx.groups[1].topics.length,8);assert.equal(ctx.groups[4].hours,56);assert.equal(ctx.groups[4].topics.length,28);assert.equal(ctx.groups.reduce((s,g)=>s+g.hours,0),220);
 for(let n=1;n<=3;n++){assert(!d[n].assignment);assert(d[n].html.includes('Vazifadan oldingi tushuntirish'));}assert.equal(d[4].assignment.mode,'files');
 const added={5:['html','head','meta','title','body','div','span'],6:['h1','h2','h3','h4','h5','h6','p','br','hr','strong','em','b'],7:['a','img'],8:['ul','ol','li','table','caption','thead','tbody','tr','th','td'],9:['header','nav','main','section','article','footer'],10:['form','label','input','button','select','option','textarea'],11:['video','audio','source'],12:[]},known=new Set();

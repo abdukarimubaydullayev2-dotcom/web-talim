@@ -1,5 +1,5 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const data=JSON.parse(fs.readFileSync('dist/module4-data.js','utf8').replace(/^const module4Data=/,'').trim().replace(/;$/,''));
+const data=JSON.parse(fs.readFileSync('course/module4-data.js','utf8').replace(/^const module4Data=/,'').trim().replace(/;$/,''));
 const solutions={
 4:`function jamiTolov(narx,son){return Number.isFinite(narx)&&narx>=0&&Number.isInteger(son)&&son>=0?narx*son:null;}`,
 5:`function maksimum(a,b,c){return [a,b,c].every(Number.isFinite)?Math.max(a,b,c):null;}`,
@@ -9,7 +9,7 @@ const solutions={
 19:`function tahlil(sonlar){if(!Array.isArray(sonlar)||!sonlar.length)return null;let summa=0,min=sonlar[0],max=sonlar[0];for(const x of sonlar){if(!Number.isFinite(x))return null;summa+=x;if(x<min)min=x;if(x>max)max=x;}return {summa,min,max};}`,
 20:`function hisobot(ballar){if(!Array.isArray(ballar)||!ballar.length)return null;let summa=0,otganlar=0;for(const ball of ballar){if(!Number.isInteger(ball)||ball<0||ball>100)return null;summa+=ball;if(ball>=60)otganlar++;}return {ortacha:summa/ballar.length,otganlar};}`
 };
-const script=fs.readFileSync('dist/coding-lab.js','utf8');
+const script=fs.readFileSync('course/coding-lab.js','utf8');
 function run(lab,code,check=true){let result;const ctx=vm.createContext({structuredClone,self:{postMessage:r=>result=r}});vm.runInContext(script+'\ncodingLabWorker();',ctx);ctx.self.onmessage({data:{code,check,functionName:lab.functionName,tests:lab.tests,inputs:[]}});return result;}
 let tests=0;
 for(const [n,code] of Object.entries(solutions)){const lab=data[n].lab;assert(lab);const result=run(lab,code);assert.equal(result.kind,'done');assert.equal(result.checks.length,lab.tests.length);assert(result.checks.every(t=>t.ok),JSON.stringify(result));tests+=result.checks.length;const bad=run(lab,`function ${lab.functionName}(){return 'wrong';}`);assert(bad.checks.every(t=>!t.ok));}

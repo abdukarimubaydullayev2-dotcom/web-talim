@@ -1,0 +1,4898 @@
+{
+  "regions": [
+    {
+      "id": "r1",
+      "name": "Qoraqalpogʻiston Respublikasi"
+    },
+    {
+      "id": "r2",
+      "name": "Andijon viloyati"
+    },
+    {
+      "id": "r3",
+      "name": "Buxoro viloyati"
+    },
+    {
+      "id": "r4",
+      "name": "Jizzax viloyati"
+    },
+    {
+      "id": "r5",
+      "name": "Qashqadaryo viloyati"
+    },
+    {
+      "id": "r6",
+      "name": "Navoiy viloyati"
+    },
+    {
+      "id": "r7",
+      "name": "Namangan viloyati"
+    },
+    {
+      "id": "r8",
+      "name": "Samarqand viloyati"
+    },
+    {
+      "id": "r9",
+      "name": "Sirdaryo viloyati"
+    },
+    {
+      "id": "r10",
+      "name": "Surxondaryo viloyati"
+    },
+    {
+      "id": "r11",
+      "name": "Toshkent viloyati"
+    },
+    {
+      "id": "r12",
+      "name": "Fargʻona viloyati"
+    },
+    {
+      "id": "r13",
+      "name": "Xorazm viloyati"
+    },
+    {
+      "id": "r14",
+      "name": "Toshkent shahri"
+    }
+  ],
+  "districts": [
+    {
+      "id": "d1",
+      "regionId": "r1",
+      "name": "Amudaryo tumani"
+    },
+    {
+      "id": "d2",
+      "regionId": "r1",
+      "name": "Beruniy tumani"
+    },
+    {
+      "id": "d3",
+      "regionId": "r1",
+      "name": "Boʻzatov tumani"
+    },
+    {
+      "id": "d4",
+      "regionId": "r1",
+      "name": "Kegeyli tumani"
+    },
+    {
+      "id": "d5",
+      "regionId": "r1",
+      "name": "Qonlikoʻl tumani"
+    },
+    {
+      "id": "d6",
+      "regionId": "r1",
+      "name": "Qoraoʻzak tumani"
+    },
+    {
+      "id": "d7",
+      "regionId": "r1",
+      "name": "Qoʻngʻirot tumani"
+    },
+    {
+      "id": "d8",
+      "regionId": "r1",
+      "name": "Moʻynoq tumani"
+    },
+    {
+      "id": "d9",
+      "regionId": "r1",
+      "name": "Nukus tumani"
+    },
+    {
+      "id": "d10",
+      "regionId": "r1",
+      "name": "Nukus shahri"
+    },
+    {
+      "id": "d11",
+      "regionId": "r1",
+      "name": "Taxiatosh tumani"
+    },
+    {
+      "id": "d12",
+      "regionId": "r1",
+      "name": "Taxtakoʻpir tumani"
+    },
+    {
+      "id": "d13",
+      "regionId": "r1",
+      "name": "Toʻrtkoʻl tumani"
+    },
+    {
+      "id": "d14",
+      "regionId": "r1",
+      "name": "Xoʻjayli tumani"
+    },
+    {
+      "id": "d15",
+      "regionId": "r1",
+      "name": "Chimboy tumani"
+    },
+    {
+      "id": "d16",
+      "regionId": "r1",
+      "name": "Shumanay tumani"
+    },
+    {
+      "id": "d17",
+      "regionId": "r1",
+      "name": "Ellikqalʼa tumani"
+    },
+    {
+      "id": "d18",
+      "regionId": "r2",
+      "name": "Andijon shahri"
+    },
+    {
+      "id": "d19",
+      "regionId": "r2",
+      "name": "Andijon tumani"
+    },
+    {
+      "id": "d20",
+      "regionId": "r2",
+      "name": "Asaka tumani"
+    },
+    {
+      "id": "d21",
+      "regionId": "r2",
+      "name": "Baliqchi tumani"
+    },
+    {
+      "id": "d22",
+      "regionId": "r2",
+      "name": "Buloqboshi tumani"
+    },
+    {
+      "id": "d23",
+      "regionId": "r2",
+      "name": "Boʻston tumani"
+    },
+    {
+      "id": "d24",
+      "regionId": "r2",
+      "name": "Jalaquduq tumani"
+    },
+    {
+      "id": "d25",
+      "regionId": "r2",
+      "name": "Izboskan tumani"
+    },
+    {
+      "id": "d26",
+      "regionId": "r2",
+      "name": "Qoʻrgʻontepa tumani"
+    },
+    {
+      "id": "d27",
+      "regionId": "r2",
+      "name": "Marhamat tumani"
+    },
+    {
+      "id": "d28",
+      "regionId": "r2",
+      "name": "Oltinkoʻl tumani"
+    },
+    {
+      "id": "d29",
+      "regionId": "r2",
+      "name": "Paxtaobod tumani"
+    },
+    {
+      "id": "d30",
+      "regionId": "r2",
+      "name": "Ulugʻnor tumani"
+    },
+    {
+      "id": "d31",
+      "regionId": "r2",
+      "name": "Xonobod shahri"
+    },
+    {
+      "id": "d32",
+      "regionId": "r2",
+      "name": "Xoʻjaobod tumani"
+    },
+    {
+      "id": "d33",
+      "regionId": "r2",
+      "name": "Shahrixon tumani"
+    },
+    {
+      "id": "d34",
+      "regionId": "r3",
+      "name": "Buxoro tumani"
+    },
+    {
+      "id": "d35",
+      "regionId": "r3",
+      "name": "Buxoro shahri"
+    },
+    {
+      "id": "d36",
+      "regionId": "r3",
+      "name": "Vobkent tumani"
+    },
+    {
+      "id": "d37",
+      "regionId": "r3",
+      "name": "Gʻijduvon tumani"
+    },
+    {
+      "id": "d38",
+      "regionId": "r3",
+      "name": "Jondor tumani"
+    },
+    {
+      "id": "d39",
+      "regionId": "r3",
+      "name": "Kogon tumani"
+    },
+    {
+      "id": "d40",
+      "regionId": "r3",
+      "name": "Kogon shahri"
+    },
+    {
+      "id": "d41",
+      "regionId": "r3",
+      "name": "Qorakoʻl tumani"
+    },
+    {
+      "id": "d42",
+      "regionId": "r3",
+      "name": "Qorovulbozor tumani"
+    },
+    {
+      "id": "d43",
+      "regionId": "r3",
+      "name": "Olot tumani"
+    },
+    {
+      "id": "d44",
+      "regionId": "r3",
+      "name": "Peshku tumani"
+    },
+    {
+      "id": "d45",
+      "regionId": "r3",
+      "name": "Romitan tumani"
+    },
+    {
+      "id": "d46",
+      "regionId": "r3",
+      "name": "Shofirkon tumani"
+    },
+    {
+      "id": "d47",
+      "regionId": "r4",
+      "name": "Arnasoy tumani"
+    },
+    {
+      "id": "d48",
+      "regionId": "r4",
+      "name": "Baxmal tumani"
+    },
+    {
+      "id": "d49",
+      "regionId": "r4",
+      "name": "Gʻallaorol tumani"
+    },
+    {
+      "id": "d50",
+      "regionId": "r4",
+      "name": "Doʻstlik tumani"
+    },
+    {
+      "id": "d51",
+      "regionId": "r4",
+      "name": "Jizzax shahri"
+    },
+    {
+      "id": "d52",
+      "regionId": "r4",
+      "name": "Zarbdor tumani"
+    },
+    {
+      "id": "d53",
+      "regionId": "r4",
+      "name": "Zomin tumani"
+    },
+    {
+      "id": "d54",
+      "regionId": "r4",
+      "name": "Mirzachoʻl tumani"
+    },
+    {
+      "id": "d55",
+      "regionId": "r4",
+      "name": "Paxtakor tumani"
+    },
+    {
+      "id": "d56",
+      "regionId": "r4",
+      "name": "Forish tumani"
+    },
+    {
+      "id": "d57",
+      "regionId": "r4",
+      "name": "Sh.Rashidov tumani"
+    },
+    {
+      "id": "d58",
+      "regionId": "r4",
+      "name": "Yangiobod tumani"
+    },
+    {
+      "id": "d59",
+      "regionId": "r4",
+      "name": "Zafarobod tuman"
+    },
+    {
+      "id": "d60",
+      "regionId": "r5",
+      "name": "Gʻuzor tumani"
+    },
+    {
+      "id": "d61",
+      "regionId": "r5",
+      "name": "Dehqonobod tumani"
+    },
+    {
+      "id": "d62",
+      "regionId": "r5",
+      "name": "Kasbi tumani"
+    },
+    {
+      "id": "d63",
+      "regionId": "r5",
+      "name": "Kitob tumani"
+    },
+    {
+      "id": "d64",
+      "regionId": "r5",
+      "name": "Koson tumani"
+    },
+    {
+      "id": "d65",
+      "regionId": "r5",
+      "name": "Koʻkdala tumani"
+    },
+    {
+      "id": "d66",
+      "regionId": "r5",
+      "name": "Qamashi tumani"
+    },
+    {
+      "id": "d67",
+      "regionId": "r5",
+      "name": "Qarshi tumani"
+    },
+    {
+      "id": "d68",
+      "regionId": "r5",
+      "name": "Qarshi shahri"
+    },
+    {
+      "id": "d69",
+      "regionId": "r5",
+      "name": "Mirishkor tumani"
+    },
+    {
+      "id": "d70",
+      "regionId": "r5",
+      "name": "Muborak tumani"
+    },
+    {
+      "id": "d71",
+      "regionId": "r5",
+      "name": "Nishon tumani"
+    },
+    {
+      "id": "d72",
+      "regionId": "r5",
+      "name": "Chiroqchi tumani"
+    },
+    {
+      "id": "d73",
+      "regionId": "r5",
+      "name": "Shahrisabz tumani"
+    },
+    {
+      "id": "d74",
+      "regionId": "r5",
+      "name": "Shahrisabz shahri"
+    },
+    {
+      "id": "d75",
+      "regionId": "r5",
+      "name": "Yakkabogʻ tumani"
+    },
+    {
+      "id": "d76",
+      "regionId": "r6",
+      "name": "Gʻozgʻon shahri"
+    },
+    {
+      "id": "d77",
+      "regionId": "r6",
+      "name": "Zarafshon shahri"
+    },
+    {
+      "id": "d78",
+      "regionId": "r6",
+      "name": "Karmana tumani"
+    },
+    {
+      "id": "d79",
+      "regionId": "r6",
+      "name": "Konimex tumani"
+    },
+    {
+      "id": "d80",
+      "regionId": "r6",
+      "name": "Qiziltepa tumani"
+    },
+    {
+      "id": "d81",
+      "regionId": "r6",
+      "name": "Navbahor tumani"
+    },
+    {
+      "id": "d82",
+      "regionId": "r6",
+      "name": "Navoiy shahri"
+    },
+    {
+      "id": "d83",
+      "regionId": "r6",
+      "name": "Nurota tumani"
+    },
+    {
+      "id": "d84",
+      "regionId": "r6",
+      "name": "Uchquduq tumani"
+    },
+    {
+      "id": "d85",
+      "regionId": "r6",
+      "name": "Xatirchi tumani"
+    },
+    {
+      "id": "d86",
+      "regionId": "r7",
+      "name": "Kosonsoy tumani"
+    },
+    {
+      "id": "d87",
+      "regionId": "r7",
+      "name": "Mingbuloq tumani"
+    },
+    {
+      "id": "d88",
+      "regionId": "r7",
+      "name": "Namangan tumani"
+    },
+    {
+      "id": "d89",
+      "regionId": "r7",
+      "name": "Namangan shahri"
+    },
+    {
+      "id": "d90",
+      "regionId": "r7",
+      "name": "Norin tumani"
+    },
+    {
+      "id": "d91",
+      "regionId": "r7",
+      "name": "Pop tumani"
+    },
+    {
+      "id": "d92",
+      "regionId": "r7",
+      "name": "Toʻraqoʻrgʻon tumani"
+    },
+    {
+      "id": "d93",
+      "regionId": "r7",
+      "name": "Uychi tumani"
+    },
+    {
+      "id": "d94",
+      "regionId": "r7",
+      "name": "Uchqoʻrgʻon tumani"
+    },
+    {
+      "id": "d95",
+      "regionId": "r7",
+      "name": "Chortoq tumani"
+    },
+    {
+      "id": "d96",
+      "regionId": "r7",
+      "name": "Chust tumani"
+    },
+    {
+      "id": "d97",
+      "regionId": "r7",
+      "name": "Yangi Namangan tumani"
+    },
+    {
+      "id": "d98",
+      "regionId": "r7",
+      "name": "Yangiqoʻrgʻon tumani"
+    },
+    {
+      "id": "d99",
+      "regionId": "r8",
+      "name": "Bulungʻur tumani"
+    },
+    {
+      "id": "d100",
+      "regionId": "r8",
+      "name": "Jomboy tumani"
+    },
+    {
+      "id": "d101",
+      "regionId": "r8",
+      "name": "Ishtixon tumani"
+    },
+    {
+      "id": "d102",
+      "regionId": "r8",
+      "name": "Kattaqoʻrgʻon tumani"
+    },
+    {
+      "id": "d103",
+      "regionId": "r8",
+      "name": "Kattaqoʻrgʻon shahri"
+    },
+    {
+      "id": "d104",
+      "regionId": "r8",
+      "name": "Qoʻshrabot tumani"
+    },
+    {
+      "id": "d105",
+      "regionId": "r8",
+      "name": "Narpay tumani"
+    },
+    {
+      "id": "d106",
+      "regionId": "r8",
+      "name": "Nurobod tumani"
+    },
+    {
+      "id": "d107",
+      "regionId": "r8",
+      "name": "Oqdaryo tumani"
+    },
+    {
+      "id": "d108",
+      "regionId": "r8",
+      "name": "Payariq tumani"
+    },
+    {
+      "id": "d109",
+      "regionId": "r8",
+      "name": "Pastdargʻom tumani"
+    },
+    {
+      "id": "d110",
+      "regionId": "r8",
+      "name": "Paxtachi tumani"
+    },
+    {
+      "id": "d111",
+      "regionId": "r8",
+      "name": "Samarqand tumani"
+    },
+    {
+      "id": "d112",
+      "regionId": "r8",
+      "name": "Samarqand shahri"
+    },
+    {
+      "id": "d113",
+      "regionId": "r8",
+      "name": "Toyloq tumani"
+    },
+    {
+      "id": "d114",
+      "regionId": "r8",
+      "name": "Urgut tumani"
+    },
+    {
+      "id": "d115",
+      "regionId": "r9",
+      "name": "Boyovut tumani"
+    },
+    {
+      "id": "d116",
+      "regionId": "r9",
+      "name": "Guliston tumani"
+    },
+    {
+      "id": "d117",
+      "regionId": "r9",
+      "name": "Guliston shahri"
+    },
+    {
+      "id": "d118",
+      "regionId": "r9",
+      "name": "Mirzaobod tumani"
+    },
+    {
+      "id": "d119",
+      "regionId": "r9",
+      "name": "Oqoltin tumani"
+    },
+    {
+      "id": "d120",
+      "regionId": "r9",
+      "name": "Sayxunobod tumani"
+    },
+    {
+      "id": "d121",
+      "regionId": "r9",
+      "name": "Sardoba tumani"
+    },
+    {
+      "id": "d122",
+      "regionId": "r9",
+      "name": "Sirdaryo tumani"
+    },
+    {
+      "id": "d123",
+      "regionId": "r9",
+      "name": "Xovos tumani"
+    },
+    {
+      "id": "d124",
+      "regionId": "r9",
+      "name": "Shirin shahri"
+    },
+    {
+      "id": "d125",
+      "regionId": "r9",
+      "name": "Yangiyer shahri"
+    },
+    {
+      "id": "d126",
+      "regionId": "r10",
+      "name": "Angor tumani"
+    },
+    {
+      "id": "d127",
+      "regionId": "r10",
+      "name": "Bandixon tumani"
+    },
+    {
+      "id": "d128",
+      "regionId": "r10",
+      "name": "Qiziriq tumani"
+    },
+    {
+      "id": "d129",
+      "regionId": "r10",
+      "name": "Boysun tumani"
+    },
+    {
+      "id": "d130",
+      "regionId": "r10",
+      "name": "Denov tumani"
+    },
+    {
+      "id": "d131",
+      "regionId": "r10",
+      "name": "Jarqoʻrgʻon tumani"
+    },
+    {
+      "id": "d132",
+      "regionId": "r10",
+      "name": "Qumqoʻrgʻon tumani"
+    },
+    {
+      "id": "d133",
+      "regionId": "r10",
+      "name": "Muzrabot tumani"
+    },
+    {
+      "id": "d134",
+      "regionId": "r10",
+      "name": "Oltinsoy tumani"
+    },
+    {
+      "id": "d135",
+      "regionId": "r10",
+      "name": "Sariosiyo tumani"
+    },
+    {
+      "id": "d136",
+      "regionId": "r10",
+      "name": "Termiz tumani"
+    },
+    {
+      "id": "d137",
+      "regionId": "r10",
+      "name": "Termiz shahri"
+    },
+    {
+      "id": "d138",
+      "regionId": "r10",
+      "name": "Uzun tumani"
+    },
+    {
+      "id": "d139",
+      "regionId": "r10",
+      "name": "Sherobod tumani"
+    },
+    {
+      "id": "d140",
+      "regionId": "r10",
+      "name": "Shoʻrchi tumani"
+    },
+    {
+      "id": "d141",
+      "regionId": "r11",
+      "name": "Angren shahri"
+    },
+    {
+      "id": "d142",
+      "regionId": "r11",
+      "name": "Bekobod shahri"
+    },
+    {
+      "id": "d143",
+      "regionId": "r11",
+      "name": "Bekobod tumani"
+    },
+    {
+      "id": "d144",
+      "regionId": "r11",
+      "name": "Boʻka tumani"
+    },
+    {
+      "id": "d145",
+      "regionId": "r11",
+      "name": "Boʻstonliq tumani"
+    },
+    {
+      "id": "d146",
+      "regionId": "r11",
+      "name": "Zangiota tumani"
+    },
+    {
+      "id": "d147",
+      "regionId": "r11",
+      "name": "Qibray tumani"
+    },
+    {
+      "id": "d148",
+      "regionId": "r11",
+      "name": "Quyi Chirchiq tumani"
+    },
+    {
+      "id": "d149",
+      "regionId": "r11",
+      "name": "Oqqoʻrgʻon tumani"
+    },
+    {
+      "id": "d150",
+      "regionId": "r11",
+      "name": "Olmaliq shahri"
+    },
+    {
+      "id": "d151",
+      "regionId": "r11",
+      "name": "Ohangaron tumani"
+    },
+    {
+      "id": "d152",
+      "regionId": "r11",
+      "name": "Ohangaron shahri"
+    },
+    {
+      "id": "d153",
+      "regionId": "r11",
+      "name": "Parkent tumani"
+    },
+    {
+      "id": "d154",
+      "regionId": "r11",
+      "name": "Piskent tumani"
+    },
+    {
+      "id": "d155",
+      "regionId": "r11",
+      "name": "Toshkent tumani"
+    },
+    {
+      "id": "d156",
+      "regionId": "r11",
+      "name": "Oʻrta Chirchiq tumani"
+    },
+    {
+      "id": "d157",
+      "regionId": "r11",
+      "name": "Chinoz tumani"
+    },
+    {
+      "id": "d158",
+      "regionId": "r11",
+      "name": "Chirchiq shahri"
+    },
+    {
+      "id": "d159",
+      "regionId": "r11",
+      "name": "Yuqori Chirchiq tumani"
+    },
+    {
+      "id": "d160",
+      "regionId": "r11",
+      "name": "Yangiyoʻl tumani"
+    },
+    {
+      "id": "d161",
+      "regionId": "r11",
+      "name": "Yangiyoʻl shahri"
+    },
+    {
+      "id": "d162",
+      "regionId": "r12",
+      "name": "Bagʻdod tumani"
+    },
+    {
+      "id": "d163",
+      "regionId": "r12",
+      "name": "Beshariq tumani"
+    },
+    {
+      "id": "d164",
+      "regionId": "r12",
+      "name": "Buvayda tumani"
+    },
+    {
+      "id": "d165",
+      "regionId": "r12",
+      "name": "Dangʻara tumani"
+    },
+    {
+      "id": "d166",
+      "regionId": "r12",
+      "name": "Yozyovon tumani"
+    },
+    {
+      "id": "d167",
+      "regionId": "r12",
+      "name": "Quva tumani"
+    },
+    {
+      "id": "d168",
+      "regionId": "r12",
+      "name": "Quvasoy shahri"
+    },
+    {
+      "id": "d169",
+      "regionId": "r12",
+      "name": "Qoʻqon shahri"
+    },
+    {
+      "id": "d170",
+      "regionId": "r12",
+      "name": "Qoʻshtepa tumani"
+    },
+    {
+      "id": "d171",
+      "regionId": "r12",
+      "name": "Margʻilon shahri"
+    },
+    {
+      "id": "d172",
+      "regionId": "r12",
+      "name": "Oltiariq tumani"
+    },
+    {
+      "id": "d173",
+      "regionId": "r12",
+      "name": "Rishton tumani"
+    },
+    {
+      "id": "d174",
+      "regionId": "r12",
+      "name": "Soʻx tumani"
+    },
+    {
+      "id": "d175",
+      "regionId": "r12",
+      "name": "Toshloq tumani"
+    },
+    {
+      "id": "d176",
+      "regionId": "r12",
+      "name": "Oʻzbekiston tumani"
+    },
+    {
+      "id": "d177",
+      "regionId": "r12",
+      "name": "Uchkoʻprik tumani"
+    },
+    {
+      "id": "d178",
+      "regionId": "r12",
+      "name": "Fargʻona tumani"
+    },
+    {
+      "id": "d179",
+      "regionId": "r12",
+      "name": "Fargʻona shahri"
+    },
+    {
+      "id": "d180",
+      "regionId": "r12",
+      "name": "Furqat tumani"
+    },
+    {
+      "id": "d181",
+      "regionId": "r13",
+      "name": "Bogʻot tumani"
+    },
+    {
+      "id": "d182",
+      "regionId": "r13",
+      "name": "Gurlan tumani"
+    },
+    {
+      "id": "d183",
+      "regionId": "r13",
+      "name": "Qoʻshkoʻpir tumani"
+    },
+    {
+      "id": "d184",
+      "regionId": "r13",
+      "name": "Tuproqqalʼa tumani"
+    },
+    {
+      "id": "d185",
+      "regionId": "r13",
+      "name": "Urganch tumani"
+    },
+    {
+      "id": "d186",
+      "regionId": "r13",
+      "name": "Urganch shahri"
+    },
+    {
+      "id": "d187",
+      "regionId": "r13",
+      "name": "Xiva tumani"
+    },
+    {
+      "id": "d188",
+      "regionId": "r13",
+      "name": "Xiva shahri"
+    },
+    {
+      "id": "d189",
+      "regionId": "r13",
+      "name": "Xonqa tumani"
+    },
+    {
+      "id": "d190",
+      "regionId": "r13",
+      "name": "Hazorasp tumani"
+    },
+    {
+      "id": "d191",
+      "regionId": "r13",
+      "name": "Shovot tumani"
+    },
+    {
+      "id": "d192",
+      "regionId": "r13",
+      "name": "Yangiariq tumani"
+    },
+    {
+      "id": "d193",
+      "regionId": "r13",
+      "name": "Yangibozor tumani"
+    },
+    {
+      "id": "d194",
+      "regionId": "r14",
+      "name": "Bektemir tumani"
+    },
+    {
+      "id": "d195",
+      "regionId": "r14",
+      "name": "Mirzo Ulugʻbek tumani"
+    },
+    {
+      "id": "d196",
+      "regionId": "r14",
+      "name": "Mirobod tumani"
+    },
+    {
+      "id": "d197",
+      "regionId": "r14",
+      "name": "Yashnobod tumani"
+    },
+    {
+      "id": "d198",
+      "regionId": "r14",
+      "name": "Sergeli tumani"
+    },
+    {
+      "id": "d199",
+      "regionId": "r14",
+      "name": "Uchtepa tumani"
+    },
+    {
+      "id": "d200",
+      "regionId": "r14",
+      "name": "Chilonzor tumani"
+    },
+    {
+      "id": "d201",
+      "regionId": "r14",
+      "name": "Shayxontohur tumani"
+    },
+    {
+      "id": "d202",
+      "regionId": "r14",
+      "name": "Yunusobod tumani"
+    },
+    {
+      "id": "d203",
+      "regionId": "r14",
+      "name": "Yangihayot tumani"
+    }
+  ],
+  "colleges": [
+    {
+      "id": "t1",
+      "regionId": "r1",
+      "districtId": "d1",
+      "name": "Amudaryo tuman 1-son texnikumi"
+    },
+    {
+      "id": "t2",
+      "regionId": "r1",
+      "districtId": "d1",
+      "name": "Amudaryo tuman 2-son texnikumi"
+    },
+    {
+      "id": "t3",
+      "regionId": "r1",
+      "districtId": "d1",
+      "name": "Amudaryo tuman 3-son texnikumi"
+    },
+    {
+      "id": "t4",
+      "regionId": "r1",
+      "districtId": "d2",
+      "name": "Beruniy tuman 1-son texnikumi"
+    },
+    {
+      "id": "t5",
+      "regionId": "r1",
+      "districtId": "d2",
+      "name": "Beruniy tuman 2-son texnikumi"
+    },
+    {
+      "id": "t6",
+      "regionId": "r1",
+      "districtId": "d2",
+      "name": "Beruniy tuman 3-son texnikumi"
+    },
+    {
+      "id": "t7",
+      "regionId": "r1",
+      "districtId": "d3",
+      "name": "Boʻzatov tuman texnikumi"
+    },
+    {
+      "id": "t8",
+      "regionId": "r1",
+      "districtId": "d4",
+      "name": "Kegeyli tuman 1-son texnikumi"
+    },
+    {
+      "id": "t9",
+      "regionId": "r1",
+      "districtId": "d4",
+      "name": "Kegeyli tuman 2-son texnikumi"
+    },
+    {
+      "id": "t10",
+      "regionId": "r1",
+      "districtId": "d4",
+      "name": "Kegeyli tuman 3-son texnikumi"
+    },
+    {
+      "id": "t12",
+      "regionId": "r1",
+      "districtId": "d5",
+      "name": "Qonlikoʻl tuman texnikumi"
+    },
+    {
+      "id": "t13",
+      "regionId": "r1",
+      "districtId": "d6",
+      "name": "Qoraoʻzak tuman 1-son texnikumi"
+    },
+    {
+      "id": "t14",
+      "regionId": "r1",
+      "districtId": "d6",
+      "name": "Qoraoʻzak tuman 2-son texnikumi"
+    },
+    {
+      "id": "t15",
+      "regionId": "r1",
+      "districtId": "d7",
+      "name": "Qoʻngʻirot Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t16",
+      "regionId": "r1",
+      "districtId": "d7",
+      "name": "Qoʻngʻirot tuman 1-son texnikumi"
+    },
+    {
+      "id": "t17",
+      "regionId": "r1",
+      "districtId": "d7",
+      "name": "Qoʻngʻirot tuman 2-son texnikumi"
+    },
+    {
+      "id": "t18",
+      "regionId": "r1",
+      "districtId": "d8",
+      "name": "Moʻynoq tuman texnikumi"
+    },
+    {
+      "id": "t19",
+      "regionId": "r1",
+      "districtId": "d9",
+      "name": "Nukus tuman 1-son texnikumi"
+    },
+    {
+      "id": "t20",
+      "regionId": "r1",
+      "districtId": "d9",
+      "name": "Nukus tuman 2-son texnikumi"
+    },
+    {
+      "id": "t21",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "1-son Nukus Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t22",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "2-son Nukus Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t23",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Nukus shahar 1-son texnikumi"
+    },
+    {
+      "id": "t24",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Nukus shahar 2-son texnikumi"
+    },
+    {
+      "id": "t25",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Nukus shahar 3-son texnikumi"
+    },
+    {
+      "id": "t26",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Nukus shahar 4-son texnikumi"
+    },
+    {
+      "id": "t27",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Nukus ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t28",
+      "regionId": "r1",
+      "districtId": "d10",
+      "name": "Qoraqalpogʻiston Respublikasi yuridik texnikumi"
+    },
+    {
+      "id": "t29",
+      "regionId": "r1",
+      "districtId": "d11",
+      "name": "Qoraqalpogʻiston Respublikasi pedagogika texnikumi"
+    },
+    {
+      "id": "t30",
+      "regionId": "r1",
+      "districtId": "d11",
+      "name": "Taxiatosh tuman 1-son texnikumi"
+    },
+    {
+      "id": "t31",
+      "regionId": "r1",
+      "districtId": "d11",
+      "name": "Taxiatosh tuman 2-son texnikumi"
+    },
+    {
+      "id": "t32",
+      "regionId": "r1",
+      "districtId": "d12",
+      "name": "Taxtakoʻpir tuman texnikumi"
+    },
+    {
+      "id": "t33",
+      "regionId": "r1",
+      "districtId": "d13",
+      "name": "Toʻrtkoʻl Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t34",
+      "regionId": "r1",
+      "districtId": "d13",
+      "name": "Toʻrtkoʻl tuman 1-son texnikumi"
+    },
+    {
+      "id": "t35",
+      "regionId": "r1",
+      "districtId": "d13",
+      "name": "Toʻrtkoʻl tuman 2-son texnikumi"
+    },
+    {
+      "id": "t36",
+      "regionId": "r1",
+      "districtId": "d13",
+      "name": "Toʻrtkoʻl tuman 3-son texnikumi"
+    },
+    {
+      "id": "t37",
+      "regionId": "r1",
+      "districtId": "d14",
+      "name": "Xoʻjayli Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t38",
+      "regionId": "r1",
+      "districtId": "d14",
+      "name": "Xoʻjayli tuman 1-son texnikumi"
+    },
+    {
+      "id": "t39",
+      "regionId": "r1",
+      "districtId": "d14",
+      "name": "Xoʻjayli tuman 2-son texnikumi"
+    },
+    {
+      "id": "t40",
+      "regionId": "r1",
+      "districtId": "d14",
+      "name": "Xoʻjayli tuman 3-son texnikumi"
+    },
+    {
+      "id": "t41",
+      "regionId": "r1",
+      "districtId": "d15",
+      "name": "Chimboy tuman texnikumi"
+    },
+    {
+      "id": "t42",
+      "regionId": "r1",
+      "districtId": "d16",
+      "name": "Shumanay tuman texnikumi"
+    },
+    {
+      "id": "t43",
+      "regionId": "r1",
+      "districtId": "d17",
+      "name": "Ellikqalʼa Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t44",
+      "regionId": "r1",
+      "districtId": "d17",
+      "name": "Ellikqalʼa tuman 1-son texnikumi"
+    },
+    {
+      "id": "t45",
+      "regionId": "r1",
+      "districtId": "d17",
+      "name": "Ellikqalʼa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t46",
+      "regionId": "r1",
+      "districtId": "d17",
+      "name": "Qoraqalpogʻiston Respublikasi “yashil” texnikumi"
+    },
+    {
+      "id": "t47",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t48",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 1-son texnikumi"
+    },
+    {
+      "id": "t49",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 2-son texnikumi"
+    },
+    {
+      "id": "t50",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 3-son texnikumi"
+    },
+    {
+      "id": "t51",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 4-son texnikumi"
+    },
+    {
+      "id": "t52",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 5-son texnikumi"
+    },
+    {
+      "id": "t53",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 6-son texnikumi"
+    },
+    {
+      "id": "t54",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 7-son texnikumi"
+    },
+    {
+      "id": "t55",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon shahar 8-son texnikumi"
+    },
+    {
+      "id": "t56",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon pedagogika texnikumi"
+    },
+    {
+      "id": "t57",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon yuridik texnikumi"
+    },
+    {
+      "id": "t58",
+      "regionId": "r2",
+      "districtId": "d18",
+      "name": "Andijon turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t59",
+      "regionId": "r2",
+      "districtId": "d19",
+      "name": "Andijon ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t60",
+      "regionId": "r2",
+      "districtId": "d19",
+      "name": "Andijon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t61",
+      "regionId": "r2",
+      "districtId": "d19",
+      "name": "Andijon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t62",
+      "regionId": "r2",
+      "districtId": "d19",
+      "name": "Andijon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t63",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t64",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka tuman 1-son texnikumi"
+    },
+    {
+      "id": "t65",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka tuman 2-son texnikumi"
+    },
+    {
+      "id": "t66",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka tuman 3-son texnikumi"
+    },
+    {
+      "id": "t67",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka tuman 4 -son texnikumi"
+    },
+    {
+      "id": "t68",
+      "regionId": "r2",
+      "districtId": "d20",
+      "name": "Asaka tuman 5-son texnikumi"
+    },
+    {
+      "id": "t69",
+      "regionId": "r2",
+      "districtId": "d21",
+      "name": "Baliqchi Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t70",
+      "regionId": "r2",
+      "districtId": "d21",
+      "name": "Baliqchi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t71",
+      "regionId": "r2",
+      "districtId": "d21",
+      "name": "Baliqchi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t72",
+      "regionId": "r2",
+      "districtId": "d22",
+      "name": "Buloqboshi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t73",
+      "regionId": "r2",
+      "districtId": "d22",
+      "name": "Buloqboshi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t74",
+      "regionId": "r2",
+      "districtId": "d23",
+      "name": "Boʻston Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t75",
+      "regionId": "r2",
+      "districtId": "d23",
+      "name": "Boʻston tuman texnikumi"
+    },
+    {
+      "id": "t76",
+      "regionId": "r2",
+      "districtId": "d24",
+      "name": "Jalaquduq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t77",
+      "regionId": "r2",
+      "districtId": "d24",
+      "name": "Jalaquduq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t78",
+      "regionId": "r2",
+      "districtId": "d25",
+      "name": "Izboskan tuman 1-son texnikumi"
+    },
+    {
+      "id": "t79",
+      "regionId": "r2",
+      "districtId": "d25",
+      "name": "Izboskan tuman 2-son texnikumi"
+    },
+    {
+      "id": "t80",
+      "regionId": "r2",
+      "districtId": "d25",
+      "name": "Andijon viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t81",
+      "regionId": "r2",
+      "districtId": "d26",
+      "name": "Qoʻrgʻontepa Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t82",
+      "regionId": "r2",
+      "districtId": "d26",
+      "name": "Qoʻrgʻontepa tuman 1-son texnikumi"
+    },
+    {
+      "id": "t83",
+      "regionId": "r2",
+      "districtId": "d26",
+      "name": "Qoʻrgʻontepa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t84",
+      "regionId": "r2",
+      "districtId": "d26",
+      "name": "Qoʻrgʻontepa tuman 3-son texnikumi"
+    },
+    {
+      "id": "t85",
+      "regionId": "r2",
+      "districtId": "d27",
+      "name": "Marhamat tuman 1-son texnikumi"
+    },
+    {
+      "id": "t86",
+      "regionId": "r2",
+      "districtId": "d27",
+      "name": "Marhamat tuman 2-son texnikumi"
+    },
+    {
+      "id": "t87",
+      "regionId": "r2",
+      "districtId": "d27",
+      "name": "Marhamat tuman 3-son texnikumi"
+    },
+    {
+      "id": "t88",
+      "regionId": "r2",
+      "districtId": "d27",
+      "name": "Marhamat tuman 4-son texnikumi"
+    },
+    {
+      "id": "t89",
+      "regionId": "r2",
+      "districtId": "d28",
+      "name": "Oltinkoʻl tuman 1-son texnikumi"
+    },
+    {
+      "id": "t90",
+      "regionId": "r2",
+      "districtId": "d28",
+      "name": "Oltinkoʻl tuman 2-son texnikumi"
+    },
+    {
+      "id": "t91",
+      "regionId": "r2",
+      "districtId": "d28",
+      "name": "Oltinkoʻl tuman 3-son texnikumi"
+    },
+    {
+      "id": "t92",
+      "regionId": "r2",
+      "districtId": "d29",
+      "name": "Paxtaobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t93",
+      "regionId": "r2",
+      "districtId": "d29",
+      "name": "Paxtaobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t94",
+      "regionId": "r2",
+      "districtId": "d29",
+      "name": "Paxtaobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t95",
+      "regionId": "r2",
+      "districtId": "d29",
+      "name": "Paxtaobod tuman 3-son texnikumi"
+    },
+    {
+      "id": "t96",
+      "regionId": "r2",
+      "districtId": "d30",
+      "name": "Ulugʻnor tuman texnikumi"
+    },
+    {
+      "id": "t97",
+      "regionId": "r2",
+      "districtId": "d31",
+      "name": "Xonobod shahar 1-son texnikumi"
+    },
+    {
+      "id": "t98",
+      "regionId": "r2",
+      "districtId": "d31",
+      "name": "Xonobod shahar 2-son texnikumi"
+    },
+    {
+      "id": "t99",
+      "regionId": "r2",
+      "districtId": "d32",
+      "name": "Xoʻjaobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t100",
+      "regionId": "r2",
+      "districtId": "d32",
+      "name": "Xoʻjaobod tuman texnikumi"
+    },
+    {
+      "id": "t101",
+      "regionId": "r2",
+      "districtId": "d33",
+      "name": "Shahrixon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t102",
+      "regionId": "r2",
+      "districtId": "d33",
+      "name": "Shahrixon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t103",
+      "regionId": "r2",
+      "districtId": "d33",
+      "name": "Shahrixon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t104",
+      "regionId": "r2",
+      "districtId": "d33",
+      "name": "Shahrixon tuman 4-son texnikumi"
+    },
+    {
+      "id": "t105",
+      "regionId": "r2",
+      "districtId": "d33",
+      "name": "Shahrixon tuman 5-son texnikumi"
+    },
+    {
+      "id": "t106",
+      "regionId": "r3",
+      "districtId": "d34",
+      "name": "Buxoro tuman 1-son texnikumi"
+    },
+    {
+      "id": "t107",
+      "regionId": "r3",
+      "districtId": "d34",
+      "name": "Buxoro viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t108",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t109",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t110",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro soliq texnikumi"
+    },
+    {
+      "id": "t111",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro yuridik texnikumi"
+    },
+    {
+      "id": "t112",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro shahar 1-son texnikumi"
+    },
+    {
+      "id": "t113",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro shahar 2-son texnikumi"
+    },
+    {
+      "id": "t114",
+      "regionId": "r3",
+      "districtId": "d35",
+      "name": "Buxoro ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t115",
+      "regionId": "r3",
+      "districtId": "d36",
+      "name": "Vobkent tuman 1-son texnikumi"
+    },
+    {
+      "id": "t116",
+      "regionId": "r3",
+      "districtId": "d36",
+      "name": "Vobkent tuman 2-son texnikumi"
+    },
+    {
+      "id": "t117",
+      "regionId": "r3",
+      "districtId": "d36",
+      "name": "Vobkent tuman 3-son texnikumi"
+    },
+    {
+      "id": "t118",
+      "regionId": "r3",
+      "districtId": "d37",
+      "name": "Gʻijduvon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t119",
+      "regionId": "r3",
+      "districtId": "d37",
+      "name": "Gʻijduvon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t120",
+      "regionId": "r3",
+      "districtId": "d37",
+      "name": "Gʻijduvon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t121",
+      "regionId": "r3",
+      "districtId": "d37",
+      "name": "Gʻijduvon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t122",
+      "regionId": "r3",
+      "districtId": "d37",
+      "name": "Gʻijduvon tuman 4-son texnikumi"
+    },
+    {
+      "id": "t123",
+      "regionId": "r3",
+      "districtId": "d38",
+      "name": "Jondor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t124",
+      "regionId": "r3",
+      "districtId": "d38",
+      "name": "Jondor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t125",
+      "regionId": "r3",
+      "districtId": "d38",
+      "name": "Jondor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t126",
+      "regionId": "r3",
+      "districtId": "d39",
+      "name": "Kogon tuman texnikumi"
+    },
+    {
+      "id": "t127",
+      "regionId": "r3",
+      "districtId": "d40",
+      "name": "Kogon shahar texnikumi"
+    },
+    {
+      "id": "t128",
+      "regionId": "r3",
+      "districtId": "d41",
+      "name": "Qorakoʻl Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t129",
+      "regionId": "r3",
+      "districtId": "d41",
+      "name": "Qorakoʻl pedagogika texnikumi"
+    },
+    {
+      "id": "t130",
+      "regionId": "r3",
+      "districtId": "d41",
+      "name": "Qorakoʻl tuman 1-son texnikumi"
+    },
+    {
+      "id": "t131",
+      "regionId": "r3",
+      "districtId": "d41",
+      "name": "Qorakoʻl tuman 2-son texnikumi"
+    },
+    {
+      "id": "t132",
+      "regionId": "r3",
+      "districtId": "d42",
+      "name": "Qorovulbozor tuman texnikumi"
+    },
+    {
+      "id": "t133",
+      "regionId": "r3",
+      "districtId": "d43",
+      "name": "Olot tuman texnikumi"
+    },
+    {
+      "id": "t134",
+      "regionId": "r3",
+      "districtId": "d44",
+      "name": "Afshona Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t135",
+      "regionId": "r3",
+      "districtId": "d44",
+      "name": "Peshku tuman 1-son texnikumi"
+    },
+    {
+      "id": "t136",
+      "regionId": "r3",
+      "districtId": "d44",
+      "name": "Peshku tuman 2-son texnikumi"
+    },
+    {
+      "id": "t137",
+      "regionId": "r3",
+      "districtId": "d45",
+      "name": "Romitan tuman 1-son texnikumi"
+    },
+    {
+      "id": "t138",
+      "regionId": "r3",
+      "districtId": "d45",
+      "name": "Romitan tuman 2-son texnikumi"
+    },
+    {
+      "id": "t139",
+      "regionId": "r3",
+      "districtId": "d45",
+      "name": "Romitan tuman 3-son texnikumi"
+    },
+    {
+      "id": "t140",
+      "regionId": "r3",
+      "districtId": "d45",
+      "name": "Romitan tuman 4-son texnikumi"
+    },
+    {
+      "id": "t141",
+      "regionId": "r3",
+      "districtId": "d46",
+      "name": "Shofirkon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t142",
+      "regionId": "r3",
+      "districtId": "d46",
+      "name": "Shofirkon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t143",
+      "regionId": "r3",
+      "districtId": "d46",
+      "name": "Shofirkon raqamli texnologiyalar texnikumi"
+    },
+    {
+      "id": "t144",
+      "regionId": "r4",
+      "districtId": "d47",
+      "name": "Arnasoy tuman texnikumi"
+    },
+    {
+      "id": "t145",
+      "regionId": "r4",
+      "districtId": "d48",
+      "name": "Baxmal tuman 1-son texnikumi"
+    },
+    {
+      "id": "t146",
+      "regionId": "r4",
+      "districtId": "d48",
+      "name": "Baxmal tuman 2-son texnikumi"
+    },
+    {
+      "id": "t147",
+      "regionId": "r4",
+      "districtId": "d48",
+      "name": "Baxmal tuman 3-son texnikumi"
+    },
+    {
+      "id": "t148",
+      "regionId": "r4",
+      "districtId": "d49",
+      "name": "Gʻallaorol Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t149",
+      "regionId": "r4",
+      "districtId": "d49",
+      "name": "Gʻallaorol tuman 1-son texnikumi"
+    },
+    {
+      "id": "t150",
+      "regionId": "r4",
+      "districtId": "d49",
+      "name": "Gʻallaorol tuman 2-son texnikumi"
+    },
+    {
+      "id": "t151",
+      "regionId": "r4",
+      "districtId": "d49",
+      "name": "Gʻallaorol tuman 3-son texnikumi"
+    },
+    {
+      "id": "t152",
+      "regionId": "r4",
+      "districtId": "d49",
+      "name": "Gʻallaorol tuman 4-son texnikumi"
+    },
+    {
+      "id": "t153",
+      "regionId": "r4",
+      "districtId": "d50",
+      "name": "Doʻstlik Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t154",
+      "regionId": "r4",
+      "districtId": "d51",
+      "name": "Jizzax yuridik texnikumi"
+    },
+    {
+      "id": "t155",
+      "regionId": "r4",
+      "districtId": "d51",
+      "name": "Jizzax shahar 1-son texnikumi"
+    },
+    {
+      "id": "t156",
+      "regionId": "r4",
+      "districtId": "d51",
+      "name": "Jizzax ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t157",
+      "regionId": "r4",
+      "districtId": "d51",
+      "name": "Jizzax shahar 3-son texnikumi"
+    },
+    {
+      "id": "t158",
+      "regionId": "r4",
+      "districtId": "d51",
+      "name": "Jizzax Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t159",
+      "regionId": "r4",
+      "districtId": "d52",
+      "name": "Zarbdor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t160",
+      "regionId": "r4",
+      "districtId": "d52",
+      "name": "Zarbdor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t161",
+      "regionId": "r4",
+      "districtId": "d53",
+      "name": "Zomin turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t162",
+      "regionId": "r4",
+      "districtId": "d53",
+      "name": "Zomin Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t163",
+      "regionId": "r4",
+      "districtId": "d53",
+      "name": "Zomin tuman 1-son texnikumi"
+    },
+    {
+      "id": "t164",
+      "regionId": "r4",
+      "districtId": "d53",
+      "name": "Jizzax viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t165",
+      "regionId": "r4",
+      "districtId": "d54",
+      "name": "Mirzachoʻl tuman 1-son texnikumi"
+    },
+    {
+      "id": "t166",
+      "regionId": "r4",
+      "districtId": "d54",
+      "name": "Mirzachoʻl tuman 2-son texnikumi"
+    },
+    {
+      "id": "t167",
+      "regionId": "r4",
+      "districtId": "d55",
+      "name": "Jizzax pedagogika texnikumi"
+    },
+    {
+      "id": "t168",
+      "regionId": "r4",
+      "districtId": "d55",
+      "name": "Paxtakor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t169",
+      "regionId": "r4",
+      "districtId": "d55",
+      "name": "Paxtakor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t170",
+      "regionId": "r4",
+      "districtId": "d56",
+      "name": "Forish tuman texnikumi"
+    },
+    {
+      "id": "t171",
+      "regionId": "r4",
+      "districtId": "d57",
+      "name": "Jizzax raqamli texnologiyalari texnikumi"
+    },
+    {
+      "id": "t172",
+      "regionId": "r4",
+      "districtId": "d57",
+      "name": "Sharof Rashidov tuman 1-son texnikumi"
+    },
+    {
+      "id": "t173",
+      "regionId": "r4",
+      "districtId": "d57",
+      "name": "Sharof Rashidov tuman 2-son texnikumi"
+    },
+    {
+      "id": "t174",
+      "regionId": "r4",
+      "districtId": "d57",
+      "name": "Sharof Rashidov tuman 3-son texnikumi"
+    },
+    {
+      "id": "t175",
+      "regionId": "r4",
+      "districtId": "d58",
+      "name": "Yangiobod tuman texnikumi"
+    },
+    {
+      "id": "t176",
+      "regionId": "r4",
+      "districtId": "d59",
+      "name": "Zafarobod tuman texnikumi"
+    },
+    {
+      "id": "t177",
+      "regionId": "r5",
+      "districtId": "d60",
+      "name": "Gʻuzor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t178",
+      "regionId": "r5",
+      "districtId": "d60",
+      "name": "Gʻuzor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t179",
+      "regionId": "r5",
+      "districtId": "d60",
+      "name": "Gʻuzor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t180",
+      "regionId": "r5",
+      "districtId": "d60",
+      "name": "Gʻuzor tuman 4-son texnikumi"
+    },
+    {
+      "id": "t181",
+      "regionId": "r5",
+      "districtId": "d61",
+      "name": "Dehqonobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t182",
+      "regionId": "r5",
+      "districtId": "d61",
+      "name": "Dehqonobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t183",
+      "regionId": "r5",
+      "districtId": "d61",
+      "name": "Dehqonobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t184",
+      "regionId": "r5",
+      "districtId": "d61",
+      "name": "Dehqonobod tuman 3-son texnikumi"
+    },
+    {
+      "id": "t185",
+      "regionId": "r5",
+      "districtId": "d62",
+      "name": "Kasbi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t186",
+      "regionId": "r5",
+      "districtId": "d62",
+      "name": "Kasbi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t187",
+      "regionId": "r5",
+      "districtId": "d62",
+      "name": "Kasbi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t188",
+      "regionId": "r5",
+      "districtId": "d62",
+      "name": "Kasbi tuman 4-son texnikumi"
+    },
+    {
+      "id": "t189",
+      "regionId": "r5",
+      "districtId": "d62",
+      "name": "Kasbi tuman 5-son texnikumi"
+    },
+    {
+      "id": "t190",
+      "regionId": "r5",
+      "districtId": "d63",
+      "name": "Kitob tuman 1-son texnikumi"
+    },
+    {
+      "id": "t191",
+      "regionId": "r5",
+      "districtId": "d63",
+      "name": "Kitob tuman 2-son texnikumi"
+    },
+    {
+      "id": "t192",
+      "regionId": "r5",
+      "districtId": "d63",
+      "name": "Kitob tuman 3-son texnikumi"
+    },
+    {
+      "id": "t193",
+      "regionId": "r5",
+      "districtId": "d64",
+      "name": "Qashqadaryo pedagogika texnikumi"
+    },
+    {
+      "id": "t194",
+      "regionId": "r5",
+      "districtId": "d64",
+      "name": "Koson tuman 1-son texnikumi"
+    },
+    {
+      "id": "t195",
+      "regionId": "r5",
+      "districtId": "d64",
+      "name": "Koson tuman 2-son texnikumi"
+    },
+    {
+      "id": "t196",
+      "regionId": "r5",
+      "districtId": "d64",
+      "name": "Koson tuman 3-son texnikumi"
+    },
+    {
+      "id": "t197",
+      "regionId": "r5",
+      "districtId": "d64",
+      "name": "Koson tuman 4-son texnikumi"
+    },
+    {
+      "id": "t198",
+      "regionId": "r5",
+      "districtId": "d65",
+      "name": "Koʻkdala tuman 1-son texnikumi"
+    },
+    {
+      "id": "t200",
+      "regionId": "r5",
+      "districtId": "d65",
+      "name": "Koʻkdala tuman 2-son texnikumi"
+    },
+    {
+      "id": "t201",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t202",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t203",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t204",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 4-son texnikumi"
+    },
+    {
+      "id": "t205",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 5-son texnikumi"
+    },
+    {
+      "id": "t206",
+      "regionId": "r5",
+      "districtId": "d66",
+      "name": "Qamashi tuman 6-son texnikumi"
+    },
+    {
+      "id": "t207",
+      "regionId": "r5",
+      "districtId": "d67",
+      "name": "Qarshi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t208",
+      "regionId": "r5",
+      "districtId": "d67",
+      "name": "Qashqadaryo viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t209",
+      "regionId": "r5",
+      "districtId": "d67",
+      "name": "Qarshi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t210",
+      "regionId": "r5",
+      "districtId": "d67",
+      "name": "Qarshi tuman 4-son texnikumi"
+    },
+    {
+      "id": "t212",
+      "regionId": "r5",
+      "districtId": "d68",
+      "name": "Qarshi Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t213",
+      "regionId": "r5",
+      "districtId": "d68",
+      "name": "Qarshi shahar 1-son texnikumi"
+    },
+    {
+      "id": "t214",
+      "regionId": "r5",
+      "districtId": "d68",
+      "name": "Qarshi shahar 2-son texnikumi"
+    },
+    {
+      "id": "t215",
+      "regionId": "r5",
+      "districtId": "d68",
+      "name": "Qarshi shahar 3-son texnikumi"
+    },
+    {
+      "id": "t216",
+      "regionId": "r5",
+      "districtId": "d68",
+      "name": "Qashqadaryo ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t217",
+      "regionId": "r5",
+      "districtId": "d69",
+      "name": "Mirishkor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t218",
+      "regionId": "r5",
+      "districtId": "d69",
+      "name": "Mirishkor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t219",
+      "regionId": "r5",
+      "districtId": "d70",
+      "name": "Muborak Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t220",
+      "regionId": "r5",
+      "districtId": "d70",
+      "name": "Muborak tuman texnikumi"
+    },
+    {
+      "id": "t221",
+      "regionId": "r5",
+      "districtId": "d71",
+      "name": "Nishon tuman texnikumi"
+    },
+    {
+      "id": "t222",
+      "regionId": "r5",
+      "districtId": "d72",
+      "name": "Chiroqchi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t223",
+      "regionId": "r5",
+      "districtId": "d72",
+      "name": "Chiroqchi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t224",
+      "regionId": "r5",
+      "districtId": "d72",
+      "name": "Chiroqchi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t225",
+      "regionId": "r5",
+      "districtId": "d73",
+      "name": "Shahrisabz tuman 1-son texnikumi"
+    },
+    {
+      "id": "t226",
+      "regionId": "r5",
+      "districtId": "d73",
+      "name": "Shahrisabz tuman 2-son texnikumi"
+    },
+    {
+      "id": "t227",
+      "regionId": "r5",
+      "districtId": "d73",
+      "name": "Shahrisabz tuman 3-son texnikumi"
+    },
+    {
+      "id": "t228",
+      "regionId": "r5",
+      "districtId": "d74",
+      "name": "Shahrisabz shahar 1-son texnikumi"
+    },
+    {
+      "id": "t229",
+      "regionId": "r5",
+      "districtId": "d74",
+      "name": "Shahrisabz shahar 2-son texnikumi"
+    },
+    {
+      "id": "t230",
+      "regionId": "r5",
+      "districtId": "d73",
+      "name": "Shahrisabz shahar 3-son texnikumi"
+    },
+    {
+      "id": "t231",
+      "regionId": "r5",
+      "districtId": "d74",
+      "name": "Shahrisabz turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t232",
+      "regionId": "r5",
+      "districtId": "d74",
+      "name": "Shahrisabz Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t233",
+      "regionId": "r5",
+      "districtId": "d75",
+      "name": "Yakkabogʻ tuman 1-son texnikumi"
+    },
+    {
+      "id": "t234",
+      "regionId": "r5",
+      "districtId": "d75",
+      "name": "Yakkabogʻ tuman 2-son texnikumi"
+    },
+    {
+      "id": "t235",
+      "regionId": "r5",
+      "districtId": "d75",
+      "name": "Yakkabogʻ tuman 3-son texnikumi"
+    },
+    {
+      "id": "t236",
+      "regionId": "r6",
+      "districtId": "d76",
+      "name": "Gʻozgʻon shahar texnikumi"
+    },
+    {
+      "id": "t237",
+      "regionId": "r6",
+      "districtId": "d77",
+      "name": "Zarafshon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t238",
+      "regionId": "r6",
+      "districtId": "d77",
+      "name": "Zarafshon shahar 1-son texnikumi"
+    },
+    {
+      "id": "t239",
+      "regionId": "r6",
+      "districtId": "d77",
+      "name": "Zarafshon shahar 2-son texnikumi"
+    },
+    {
+      "id": "t240",
+      "regionId": "r6",
+      "districtId": "d78",
+      "name": "Karmana tuman 1-son texnikumi"
+    },
+    {
+      "id": "t241",
+      "regionId": "r6",
+      "districtId": "d78",
+      "name": "Karmana tuman 2-son texnikumi"
+    },
+    {
+      "id": "t242",
+      "regionId": "r6",
+      "districtId": "d78",
+      "name": "Navoiy raqamli texnologiyalar texnikumi"
+    },
+    {
+      "id": "t243",
+      "regionId": "r6",
+      "districtId": "d79",
+      "name": "Konimex tuman texnikumi"
+    },
+    {
+      "id": "t244",
+      "regionId": "r6",
+      "districtId": "d80",
+      "name": "Qiziltepa tuman 1-son texnikumi"
+    },
+    {
+      "id": "t245",
+      "regionId": "r6",
+      "districtId": "d80",
+      "name": "Qiziltepa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t246",
+      "regionId": "r6",
+      "districtId": "d80",
+      "name": "Qiziltepa tuman 3-son texnikumi"
+    },
+    {
+      "id": "t247",
+      "regionId": "r6",
+      "districtId": "d81",
+      "name": "Navbahor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t248",
+      "regionId": "r6",
+      "districtId": "d81",
+      "name": "Navbahor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t249",
+      "regionId": "r6",
+      "districtId": "d81",
+      "name": "Navbahor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t250",
+      "regionId": "r6",
+      "districtId": "d82",
+      "name": "Navoiy Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t251",
+      "regionId": "r6",
+      "districtId": "d82",
+      "name": "Navoiy ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t252",
+      "regionId": "r6",
+      "districtId": "d82",
+      "name": "Navoiy shahar texnikumi"
+    },
+    {
+      "id": "t253",
+      "regionId": "r6",
+      "districtId": "d83",
+      "name": "Nurota tuman 1-son texnikumi"
+    },
+    {
+      "id": "t254",
+      "regionId": "r6",
+      "districtId": "d83",
+      "name": "Nurota tuman 2-son texnikumi"
+    },
+    {
+      "id": "t255",
+      "regionId": "r6",
+      "districtId": "d83",
+      "name": "Nurota tuman 3-son texnikumi"
+    },
+    {
+      "id": "t256",
+      "regionId": "r6",
+      "districtId": "d84",
+      "name": "Uchquduq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t257",
+      "regionId": "r6",
+      "districtId": "d84",
+      "name": "Uchquduq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t259",
+      "regionId": "r6",
+      "districtId": "d85",
+      "name": "Xatirchi Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t260",
+      "regionId": "r6",
+      "districtId": "d85",
+      "name": "Navoiy pedagogika texnikumi"
+    },
+    {
+      "id": "t261",
+      "regionId": "r6",
+      "districtId": "d85",
+      "name": "Xatirchi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t262",
+      "regionId": "r6",
+      "districtId": "d85",
+      "name": "Xatirchi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t263",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Kosonsoy Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t264",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Namangan pedagogika texnikumi"
+    },
+    {
+      "id": "t265",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Kosonsoy tuman 1-son texnikumi"
+    },
+    {
+      "id": "t266",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Kosonsoy tuman 2-son texnikumi"
+    },
+    {
+      "id": "t267",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Kosonsoy tuman 3-son texnikumi"
+    },
+    {
+      "id": "t268",
+      "regionId": "r7",
+      "districtId": "d86",
+      "name": "Kosonsoy tuman 4-son texnikumi"
+    },
+    {
+      "id": "t269",
+      "regionId": "r7",
+      "districtId": "d87",
+      "name": "Mingbuloq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t270",
+      "regionId": "r7",
+      "districtId": "d87",
+      "name": "Mingbuloq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t271",
+      "regionId": "r7",
+      "districtId": "d87",
+      "name": "Mingbuloq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t272",
+      "regionId": "r7",
+      "districtId": "d87",
+      "name": "Mingbuloq tuman 4-son texnikumi"
+    },
+    {
+      "id": "t273",
+      "regionId": "r7",
+      "districtId": "d88",
+      "name": "Namangan tuman 1-son texnikumi"
+    },
+    {
+      "id": "t274",
+      "regionId": "r7",
+      "districtId": "d88",
+      "name": "Namangan tuman 2-son texnikumi"
+    },
+    {
+      "id": "t275",
+      "regionId": "r7",
+      "districtId": "d88",
+      "name": "Namangan tuman 3-son texnikumi"
+    },
+    {
+      "id": "t276",
+      "regionId": "r7",
+      "districtId": "d88",
+      "name": "Namangan tuman 4-son texnikumi"
+    },
+    {
+      "id": "t277",
+      "regionId": "r7",
+      "districtId": "d88",
+      "name": "Namangan tuman 5-son texnikumi"
+    },
+    {
+      "id": "t278",
+      "regionId": "r7",
+      "districtId": "d89",
+      "name": "1-son Namangan Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t279",
+      "regionId": "r7",
+      "districtId": "d89",
+      "name": "Namangan shahar 1-son texnikumi"
+    },
+    {
+      "id": "t280",
+      "regionId": "r7",
+      "districtId": "d89",
+      "name": "Namangan shahar 2-son texnikumi"
+    },
+    {
+      "id": "t281",
+      "regionId": "r7",
+      "districtId": "d89",
+      "name": "Namangan shahar 3-son texnikumi"
+    },
+    {
+      "id": "t282",
+      "regionId": "r7",
+      "districtId": "d89",
+      "name": "Namangan shahar 4-son texnikumi"
+    },
+    {
+      "id": "t283",
+      "regionId": "r7",
+      "districtId": "d90",
+      "name": "Norin Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t284",
+      "regionId": "r7",
+      "districtId": "d90",
+      "name": "Norin tuman 1-son texnikumi"
+    },
+    {
+      "id": "t285",
+      "regionId": "r7",
+      "districtId": "d90",
+      "name": "Norin tuman 2-son texnikumi"
+    },
+    {
+      "id": "t286",
+      "regionId": "r7",
+      "districtId": "d90",
+      "name": "Namangan viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t287",
+      "regionId": "r7",
+      "districtId": "d91",
+      "name": "Pop Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t288",
+      "regionId": "r7",
+      "districtId": "d91",
+      "name": "Pop tuman 1-son texnikumi"
+    },
+    {
+      "id": "t289",
+      "regionId": "r7",
+      "districtId": "d91",
+      "name": "Pop tuman 2-son texnikumi"
+    },
+    {
+      "id": "t290",
+      "regionId": "r7",
+      "districtId": "d91",
+      "name": "Pop tuman 3-son texnikumi"
+    },
+    {
+      "id": "t291",
+      "regionId": "r7",
+      "districtId": "d92",
+      "name": "Toʻraqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t292",
+      "regionId": "r7",
+      "districtId": "d92",
+      "name": "Toʻraqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t293",
+      "regionId": "r7",
+      "districtId": "d92",
+      "name": "Toʻraqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t294",
+      "regionId": "r7",
+      "districtId": "d92",
+      "name": "Toʻraqoʻrgʻon tuman 4-son texnikumi"
+    },
+    {
+      "id": "t295",
+      "regionId": "r7",
+      "districtId": "d92",
+      "name": "Namangan ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t296",
+      "regionId": "r7",
+      "districtId": "d93",
+      "name": "Uychi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t297",
+      "regionId": "r7",
+      "districtId": "d93",
+      "name": "Uychi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t298",
+      "regionId": "r7",
+      "districtId": "d93",
+      "name": "Uychi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t299",
+      "regionId": "r7",
+      "districtId": "d93",
+      "name": "Uychi tuman 4-son texnikumi"
+    },
+    {
+      "id": "t300",
+      "regionId": "r7",
+      "districtId": "d94",
+      "name": "Uchqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t301",
+      "regionId": "r7",
+      "districtId": "d94",
+      "name": "Uchqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t302",
+      "regionId": "r7",
+      "districtId": "d94",
+      "name": "Uchqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t303",
+      "regionId": "r7",
+      "districtId": "d94",
+      "name": "Uchqoʻrgʻon tuman 4-son texnikumi"
+    },
+    {
+      "id": "t304",
+      "regionId": "r7",
+      "districtId": "d95",
+      "name": "Chortoq Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t305",
+      "regionId": "r7",
+      "districtId": "d95",
+      "name": "Chortoq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t306",
+      "regionId": "r7",
+      "districtId": "d95",
+      "name": "Chortoq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t307",
+      "regionId": "r7",
+      "districtId": "d96",
+      "name": "Chust Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t308",
+      "regionId": "r7",
+      "districtId": "d96",
+      "name": "Chust tuman 1-son texnikumi"
+    },
+    {
+      "id": "t309",
+      "regionId": "r7",
+      "districtId": "d96",
+      "name": "Chust tuman 2-son texnikumi"
+    },
+    {
+      "id": "t310",
+      "regionId": "r7",
+      "districtId": "d96",
+      "name": "Chust tuman 3-son texnikumi"
+    },
+    {
+      "id": "t311",
+      "regionId": "r7",
+      "districtId": "d97",
+      "name": "2-son Namangan Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t312",
+      "regionId": "r7",
+      "districtId": "d98",
+      "name": "Yangiqoʻrgʻon raqamli texnologiyalar texnikumi"
+    },
+    {
+      "id": "t313",
+      "regionId": "r7",
+      "districtId": "d98",
+      "name": "Yangiqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t314",
+      "regionId": "r7",
+      "districtId": "d98",
+      "name": "Yangiqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t315",
+      "regionId": "r7",
+      "districtId": "d98",
+      "name": "Yangiqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t316",
+      "regionId": "r8",
+      "districtId": "d99",
+      "name": "Bulungʻur tuman 1-son texnikumi"
+    },
+    {
+      "id": "t317",
+      "regionId": "r8",
+      "districtId": "d99",
+      "name": "Bulungʻur tuman 2-son texnikumi"
+    },
+    {
+      "id": "t318",
+      "regionId": "r8",
+      "districtId": "d99",
+      "name": "Bulungʻur tuman 3-son texnikumi"
+    },
+    {
+      "id": "t319",
+      "regionId": "r8",
+      "districtId": "d100",
+      "name": "Jomboy tuman 1-son texnikumi"
+    },
+    {
+      "id": "t320",
+      "regionId": "r8",
+      "districtId": "d100",
+      "name": "Jomboy tuman 2-son texnikumi"
+    },
+    {
+      "id": "t321",
+      "regionId": "r8",
+      "districtId": "d100",
+      "name": "Jomboy tuman 3-son texnikumi"
+    },
+    {
+      "id": "t322",
+      "regionId": "r8",
+      "districtId": "d101",
+      "name": "Ishtixon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t323",
+      "regionId": "r8",
+      "districtId": "d101",
+      "name": "Ishtixon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t324",
+      "regionId": "r8",
+      "districtId": "d101",
+      "name": "Ishtixon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t325",
+      "regionId": "r8",
+      "districtId": "d101",
+      "name": "Ishtixon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t326",
+      "regionId": "r8",
+      "districtId": "d102",
+      "name": "Kattaqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t327",
+      "regionId": "r8",
+      "districtId": "d102",
+      "name": "Kattaqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t328",
+      "regionId": "r8",
+      "districtId": "d102",
+      "name": "Kattaqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t329",
+      "regionId": "r8",
+      "districtId": "d103",
+      "name": "Kattaqoʻrgʻon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t330",
+      "regionId": "r8",
+      "districtId": "d103",
+      "name": "Kattaqoʻrgʻon shahar 1-son texnikumi"
+    },
+    {
+      "id": "t331",
+      "regionId": "r8",
+      "districtId": "d103",
+      "name": "Kattaqoʻrgʻon shahar 2-son texnikumi"
+    },
+    {
+      "id": "t332",
+      "regionId": "r8",
+      "districtId": "d103",
+      "name": "Kattaqoʻrgʻon shahar 3-son texnikumi"
+    },
+    {
+      "id": "t333",
+      "regionId": "r8",
+      "districtId": "d103",
+      "name": "Samarqand pedagogika texnikumi"
+    },
+    {
+      "id": "t334",
+      "regionId": "r8",
+      "districtId": "d104",
+      "name": "Qoʻshrabot tuman 1-son texnikumi"
+    },
+    {
+      "id": "t335",
+      "regionId": "r8",
+      "districtId": "d104",
+      "name": "Qoʻshrabot tuman 2-son texnikumi"
+    },
+    {
+      "id": "t336",
+      "regionId": "r8",
+      "districtId": "d105",
+      "name": "Narpay tuman 1-son texnikumi"
+    },
+    {
+      "id": "t337",
+      "regionId": "r8",
+      "districtId": "d105",
+      "name": "Narpay tuman 2-son texnikumi"
+    },
+    {
+      "id": "t338",
+      "regionId": "r8",
+      "districtId": "d105",
+      "name": "Narpay tuman 3-son texnikumi"
+    },
+    {
+      "id": "t339",
+      "regionId": "r8",
+      "districtId": "d106",
+      "name": "Nurobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t340",
+      "regionId": "r8",
+      "districtId": "d106",
+      "name": "Nurobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t341",
+      "regionId": "r8",
+      "districtId": "d107",
+      "name": "Oqdaryo tuman 1-son texnikumi"
+    },
+    {
+      "id": "t342",
+      "regionId": "r8",
+      "districtId": "d107",
+      "name": "Oqdaryo tuman 2-son texnikumi"
+    },
+    {
+      "id": "t343",
+      "regionId": "r8",
+      "districtId": "d108",
+      "name": "Payariq Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t344",
+      "regionId": "r8",
+      "districtId": "d108",
+      "name": "Payariq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t345",
+      "regionId": "r8",
+      "districtId": "d108",
+      "name": "Payariq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t346",
+      "regionId": "r8",
+      "districtId": "d108",
+      "name": "Payariq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t347",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t348",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom tuman 1-son texnikumi"
+    },
+    {
+      "id": "t349",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom tuman 2-son texnikumi"
+    },
+    {
+      "id": "t350",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom tuman 3-son texnikumi"
+    },
+    {
+      "id": "t351",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom tuman 4-son texnikumi"
+    },
+    {
+      "id": "t352",
+      "regionId": "r8",
+      "districtId": "d109",
+      "name": "Pastdargʻom tuman 5-son texnikumi"
+    },
+    {
+      "id": "t353",
+      "regionId": "r8",
+      "districtId": "d110",
+      "name": "Paxtachi Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t354",
+      "regionId": "r8",
+      "districtId": "d110",
+      "name": "Paxtachi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t355",
+      "regionId": "r8",
+      "districtId": "d110",
+      "name": "Paxtachi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t356",
+      "regionId": "r8",
+      "districtId": "d111",
+      "name": "Samarqand tuman texnikumi"
+    },
+    {
+      "id": "t357",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t358",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t359",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Siyob Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t360",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Soʻzangaron Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t361",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand shahar 1-son texnikumi"
+    },
+    {
+      "id": "t362",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand shahar 2-son texnikumi"
+    },
+    {
+      "id": "t363",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand shahar 3-son texnikumi"
+    },
+    {
+      "id": "t364",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand shahar 4-son texnikumi"
+    },
+    {
+      "id": "t365",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t366",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand shahar 6-son texnikumi"
+    },
+    {
+      "id": "t367",
+      "regionId": "r8",
+      "districtId": "d112",
+      "name": "Samarqand ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t368",
+      "regionId": "r8",
+      "districtId": "d113",
+      "name": "Toyloq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t369",
+      "regionId": "r8",
+      "districtId": "d113",
+      "name": "Toyloq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t370",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t371",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut tuman 1-son texnikumi"
+    },
+    {
+      "id": "t372",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut tuman 2-son texnikumi"
+    },
+    {
+      "id": "t373",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut tuman 3-son texnikumi"
+    },
+    {
+      "id": "t374",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut tuman 4-son texnikumi"
+    },
+    {
+      "id": "t375",
+      "regionId": "r8",
+      "districtId": "d114",
+      "name": "Urgut tuman 5-son texnikumi"
+    },
+    {
+      "id": "t376",
+      "regionId": "r9",
+      "districtId": "d115",
+      "name": "Boyovut tuman 1-son texnikumi"
+    },
+    {
+      "id": "t377",
+      "regionId": "r9",
+      "districtId": "d115",
+      "name": "Sirdaryo viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t378",
+      "regionId": "r9",
+      "districtId": "d116",
+      "name": "Guliston tuman 1-son texnikumi"
+    },
+    {
+      "id": "t379",
+      "regionId": "r9",
+      "districtId": "d116",
+      "name": "Guliston tuman 2-son texnikumi"
+    },
+    {
+      "id": "t380",
+      "regionId": "r9",
+      "districtId": "d117",
+      "name": "Guliston shahar 1-son texnikumi"
+    },
+    {
+      "id": "t381",
+      "regionId": "r9",
+      "districtId": "d117",
+      "name": "Sirdaryo ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t382",
+      "regionId": "r9",
+      "districtId": "d117",
+      "name": "Sirdaryo yuridik texnikumi"
+    },
+    {
+      "id": "t383",
+      "regionId": "r9",
+      "districtId": "d117",
+      "name": "Guliston Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t384",
+      "regionId": "r9",
+      "districtId": "d118",
+      "name": "Mirzaobod tuman texnikumi"
+    },
+    {
+      "id": "t385",
+      "regionId": "r9",
+      "districtId": "d119",
+      "name": "Oqoltin tuman 1-son texnikumi"
+    },
+    {
+      "id": "t386",
+      "regionId": "r9",
+      "districtId": "d119",
+      "name": "Oqoltin tuman 2-son texnikumi"
+    },
+    {
+      "id": "t387",
+      "regionId": "r9",
+      "districtId": "d119",
+      "name": "Oqoltin tuman 3-son texnikumi"
+    },
+    {
+      "id": "t388",
+      "regionId": "r9",
+      "districtId": "d120",
+      "name": "Sayxunobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t389",
+      "regionId": "r9",
+      "districtId": "d120",
+      "name": "Sayxunobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t390",
+      "regionId": "r9",
+      "districtId": "d120",
+      "name": "Sayxunobod tuman 3-son texnikumi"
+    },
+    {
+      "id": "t391",
+      "regionId": "r9",
+      "districtId": "d121",
+      "name": "Sardoba tuman 1-son texnikumi"
+    },
+    {
+      "id": "t392",
+      "regionId": "r9",
+      "districtId": "d121",
+      "name": "Sardoba tuman 2-son texnikumi"
+    },
+    {
+      "id": "t393",
+      "regionId": "r9",
+      "districtId": "d122",
+      "name": "Sirdaryo Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t394",
+      "regionId": "r9",
+      "districtId": "d122",
+      "name": "Sirdaryo pedagogika texnikumi"
+    },
+    {
+      "id": "t395",
+      "regionId": "r9",
+      "districtId": "d122",
+      "name": "Sirdaryo tuman 1-son texnikumi"
+    },
+    {
+      "id": "t396",
+      "regionId": "r9",
+      "districtId": "d122",
+      "name": "Sirdaryo tuman texnikumi"
+    },
+    {
+      "id": "t397",
+      "regionId": "r9",
+      "districtId": "d123",
+      "name": "Xovos tuman 1-son texnikumi"
+    },
+    {
+      "id": "t398",
+      "regionId": "r9",
+      "districtId": "d123",
+      "name": "Xovos tuman 2-son texnikumi"
+    },
+    {
+      "id": "t399",
+      "regionId": "r9",
+      "districtId": "d123",
+      "name": "Xovos tuman 3-son texnikumi"
+    },
+    {
+      "id": "t400",
+      "regionId": "r9",
+      "districtId": "d124",
+      "name": "Shirin energetika texnikumi"
+    },
+    {
+      "id": "t401",
+      "regionId": "r9",
+      "districtId": "d125",
+      "name": "Yangiyer Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t402",
+      "regionId": "r9",
+      "districtId": "d125",
+      "name": "Yangiyer shahar texnikumi"
+    },
+    {
+      "id": "t403",
+      "regionId": "r10",
+      "districtId": "d126",
+      "name": "Angor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t404",
+      "regionId": "r10",
+      "districtId": "d126",
+      "name": "Angor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t405",
+      "regionId": "r10",
+      "districtId": "d126",
+      "name": "Angor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t406",
+      "regionId": "r10",
+      "districtId": "d126",
+      "name": "Angor tuman 4-son texnikumi"
+    },
+    {
+      "id": "t407",
+      "regionId": "r10",
+      "districtId": "d127",
+      "name": "Bandixon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t408",
+      "regionId": "r10",
+      "districtId": "d127",
+      "name": "Bandixon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t409",
+      "regionId": "r10",
+      "districtId": "d127",
+      "name": "Bandixon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t410",
+      "regionId": "r10",
+      "districtId": "d128",
+      "name": "Qiziriq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t411",
+      "regionId": "r10",
+      "districtId": "d128",
+      "name": "Qiziriq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t412",
+      "regionId": "r10",
+      "districtId": "d129",
+      "name": "Boysun tuman 1-son texnikumi"
+    },
+    {
+      "id": "t413",
+      "regionId": "r10",
+      "districtId": "d129",
+      "name": "Boysun tuman 2-son texnikumi"
+    },
+    {
+      "id": "t414",
+      "regionId": "r10",
+      "districtId": "d129",
+      "name": "Boysun tuman 3-son texnikumi"
+    },
+    {
+      "id": "t415",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t416",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Surxondaryo pedagogika texnikumi"
+    },
+    {
+      "id": "t417",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 1-son texnikumi"
+    },
+    {
+      "id": "t418",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 2-son texnikumi"
+    },
+    {
+      "id": "t419",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 3-son texnikumi"
+    },
+    {
+      "id": "t420",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 4-son texnikumi"
+    },
+    {
+      "id": "t421",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 5-son texnikumi"
+    },
+    {
+      "id": "t422",
+      "regionId": "r10",
+      "districtId": "d130",
+      "name": "Denov tuman 6-son texnikumi"
+    },
+    {
+      "id": "t423",
+      "regionId": "r10",
+      "districtId": "d131",
+      "name": "Jarqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t424",
+      "regionId": "r10",
+      "districtId": "d131",
+      "name": "Jarqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t425",
+      "regionId": "r10",
+      "districtId": "d131",
+      "name": "Jarqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t426",
+      "regionId": "r10",
+      "districtId": "d132",
+      "name": "Qumqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t427",
+      "regionId": "r10",
+      "districtId": "d132",
+      "name": "Qumqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t428",
+      "regionId": "r10",
+      "districtId": "d132",
+      "name": "Qumqoʻrgʻon tuman 3-son texnikumi"
+    },
+    {
+      "id": "t429",
+      "regionId": "r10",
+      "districtId": "d133",
+      "name": "Muzrabot tuman 1-son texnikumi"
+    },
+    {
+      "id": "t430",
+      "regionId": "r10",
+      "districtId": "d133",
+      "name": "Muzrabot tuman texnikumi"
+    },
+    {
+      "id": "t431",
+      "regionId": "r10",
+      "districtId": "d134",
+      "name": "Oltinsoy tuman 1-son texnikumi"
+    },
+    {
+      "id": "t432",
+      "regionId": "r10",
+      "districtId": "d134",
+      "name": "Oltinsoy tuman 2-son texnikumi"
+    },
+    {
+      "id": "t433",
+      "regionId": "r10",
+      "districtId": "d135",
+      "name": "Sariosiyo Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t434",
+      "regionId": "r10",
+      "districtId": "d135",
+      "name": "Sariosiyo tuman 1-son texnikumi"
+    },
+    {
+      "id": "t435",
+      "regionId": "r10",
+      "districtId": "d135",
+      "name": "Sariosiyo tuman 2-son texnikumi"
+    },
+    {
+      "id": "t436",
+      "regionId": "r10",
+      "districtId": "d135",
+      "name": "Sariosiyo tuman 3-son texnikumi"
+    },
+    {
+      "id": "t437",
+      "regionId": "r10",
+      "districtId": "d136",
+      "name": "Surxondaryo ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t438",
+      "regionId": "r10",
+      "districtId": "d137",
+      "name": "Surxondaryo yuridik texnikumi"
+    },
+    {
+      "id": "t439",
+      "regionId": "r10",
+      "districtId": "d137",
+      "name": "Termiz Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t440",
+      "regionId": "r10",
+      "districtId": "d137",
+      "name": "Termiz shahar 1-son texnikumi"
+    },
+    {
+      "id": "t441",
+      "regionId": "r10",
+      "districtId": "d137",
+      "name": "Termiz shahar 2-son texnikumi"
+    },
+    {
+      "id": "t442",
+      "regionId": "r10",
+      "districtId": "d138",
+      "name": "Uzun tuman 1-son texnikumi"
+    },
+    {
+      "id": "t443",
+      "regionId": "r10",
+      "districtId": "d138",
+      "name": "Uzun tuman 2-son texnikumi"
+    },
+    {
+      "id": "t444",
+      "regionId": "r10",
+      "districtId": "d138",
+      "name": "Uzun tuman 3-son texnikumi"
+    },
+    {
+      "id": "t445",
+      "regionId": "r10",
+      "districtId": "d139",
+      "name": "Sherobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t446",
+      "regionId": "r10",
+      "districtId": "d139",
+      "name": "Sherobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t447",
+      "regionId": "r10",
+      "districtId": "d139",
+      "name": "Sherobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t448",
+      "regionId": "r10",
+      "districtId": "d139",
+      "name": "Surxondaryo viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t449",
+      "regionId": "r10",
+      "districtId": "d139",
+      "name": "Sherobod tuman 4-son texnikumi"
+    },
+    {
+      "id": "t450",
+      "regionId": "r10",
+      "districtId": "d140",
+      "name": "Shoʻrchi Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t451",
+      "regionId": "r10",
+      "districtId": "d140",
+      "name": "Shoʻrchi tuman 1-son texnikumi"
+    },
+    {
+      "id": "t452",
+      "regionId": "r10",
+      "districtId": "d140",
+      "name": "Shoʻrchi tuman 2-son texnikumi"
+    },
+    {
+      "id": "t453",
+      "regionId": "r10",
+      "districtId": "d140",
+      "name": "Shoʻrchi tuman 3-son texnikumi"
+    },
+    {
+      "id": "t454",
+      "regionId": "r10",
+      "districtId": "d140",
+      "name": "Shoʻrchi tuman 4-son texnikumi"
+    },
+    {
+      "id": "t455",
+      "regionId": "r11",
+      "districtId": "d141",
+      "name": "Angren Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t456",
+      "regionId": "r11",
+      "districtId": "d141",
+      "name": "Angren shahar 1-son texnikumi"
+    },
+    {
+      "id": "t457",
+      "regionId": "r11",
+      "districtId": "d141",
+      "name": "Angren shahar 2-son texnikumi"
+    },
+    {
+      "id": "t458",
+      "regionId": "r11",
+      "districtId": "d141",
+      "name": "Angren shahar 3-son texnikumi"
+    },
+    {
+      "id": "t459",
+      "regionId": "r11",
+      "districtId": "d141",
+      "name": "Angren shahar 4-son texnikumi"
+    },
+    {
+      "id": "t460",
+      "regionId": "r11",
+      "districtId": "d142",
+      "name": "Bekobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t461",
+      "regionId": "r11",
+      "districtId": "d142",
+      "name": "Bekobod shahar 1-son texnikumi"
+    },
+    {
+      "id": "t462",
+      "regionId": "r11",
+      "districtId": "d142",
+      "name": "Bekobod shahar 2-son texnikumi"
+    },
+    {
+      "id": "t463",
+      "regionId": "r11",
+      "districtId": "d143",
+      "name": "Bekobod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t464",
+      "regionId": "r11",
+      "districtId": "d143",
+      "name": "Bekobod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t465",
+      "regionId": "r11",
+      "districtId": "d143",
+      "name": "Bekobod tuman agrotexnologiyalar va biznes texnikumi"
+    },
+    {
+      "id": "t466",
+      "regionId": "r11",
+      "districtId": "d144",
+      "name": "Boʻka pedagogika texnikumi"
+    },
+    {
+      "id": "t467",
+      "regionId": "r11",
+      "districtId": "d144",
+      "name": "Boʻka tuman 1-son texnikumi"
+    },
+    {
+      "id": "t468",
+      "regionId": "r11",
+      "districtId": "d144",
+      "name": "Boʻka tuman 2-son texnikumi"
+    },
+    {
+      "id": "t469",
+      "regionId": "r11",
+      "districtId": "d145",
+      "name": "Boʻstonliq turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t470",
+      "regionId": "r11",
+      "districtId": "d145",
+      "name": "Boʻstonliq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t471",
+      "regionId": "r11",
+      "districtId": "d145",
+      "name": "Boʻstonliq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t472",
+      "regionId": "r11",
+      "districtId": "d145",
+      "name": "Boʻstonliq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t473",
+      "regionId": "r11",
+      "districtId": "d146",
+      "name": "Zangiota Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t474",
+      "regionId": "r11",
+      "districtId": "d146",
+      "name": "Zangiota tuman 1-son texnikumi"
+    },
+    {
+      "id": "t475",
+      "regionId": "r11",
+      "districtId": "d146",
+      "name": "Zangiota tuman 2-son texnikumi"
+    },
+    {
+      "id": "t476",
+      "regionId": "r11",
+      "districtId": "d147",
+      "name": "Qibray tuman texnikumi"
+    },
+    {
+      "id": "t477",
+      "regionId": "r11",
+      "districtId": "d148",
+      "name": "Toshkent viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t478",
+      "regionId": "r11",
+      "districtId": "d148",
+      "name": "Quyi Chirchiq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t479",
+      "regionId": "r11",
+      "districtId": "d149",
+      "name": "Oqqoʻrgʻon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t480",
+      "regionId": "r11",
+      "districtId": "d149",
+      "name": "Oqqoʻrgʻon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t481",
+      "regionId": "r11",
+      "districtId": "d149",
+      "name": "Toshkent viloyati ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t482",
+      "regionId": "r11",
+      "districtId": "d150",
+      "name": "Olmaliq shahar 1-son texnikumi"
+    },
+    {
+      "id": "t483",
+      "regionId": "r11",
+      "districtId": "d150",
+      "name": "Olmaliq shahar 2-son texnikumi"
+    },
+    {
+      "id": "t484",
+      "regionId": "r11",
+      "districtId": "d150",
+      "name": "Olmaliq shahar 3-son texnikumi"
+    },
+    {
+      "id": "t485",
+      "regionId": "r11",
+      "districtId": "d150",
+      "name": "Olmaliq Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t486",
+      "regionId": "r11",
+      "districtId": "d151",
+      "name": "Ohangaron tuman 1-son texnikumi"
+    },
+    {
+      "id": "t487",
+      "regionId": "r11",
+      "districtId": "d151",
+      "name": "Ohangaron tuman 2-son texnikumi"
+    },
+    {
+      "id": "t488",
+      "regionId": "r11",
+      "districtId": "d152",
+      "name": "Ohangaron shahar texnikumi"
+    },
+    {
+      "id": "t489",
+      "regionId": "r11",
+      "districtId": "d153",
+      "name": "Parkent tuman texnikumi"
+    },
+    {
+      "id": "t490",
+      "regionId": "r11",
+      "districtId": "d154",
+      "name": "Piskent tuman 1-son texnikumi"
+    },
+    {
+      "id": "t491",
+      "regionId": "r11",
+      "districtId": "d154",
+      "name": "Piskent tuman 2-son texnikumi"
+    },
+    {
+      "id": "t492",
+      "regionId": "r11",
+      "districtId": "d154",
+      "name": "Piskent tuman 3-son texnikumi"
+    },
+    {
+      "id": "t493",
+      "regionId": "r11",
+      "districtId": "d155",
+      "name": "Toshkent tuman 1-son texnikumi"
+    },
+    {
+      "id": "t494",
+      "regionId": "r11",
+      "districtId": "d155",
+      "name": "Toshkent tuman 2-son texnikumi"
+    },
+    {
+      "id": "t495",
+      "regionId": "r11",
+      "districtId": "d155",
+      "name": "Toshkent tuman 3-son texnikumi"
+    },
+    {
+      "id": "t496",
+      "regionId": "r11",
+      "districtId": "d155",
+      "name": "Toshkent raqamli iqtisodiyot va servis texnikumi"
+    },
+    {
+      "id": "t497",
+      "regionId": "r11",
+      "districtId": "d156",
+      "name": "Oʻrta Chirchiq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t498",
+      "regionId": "r11",
+      "districtId": "d156",
+      "name": "Oʻrta Chirchiq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t499",
+      "regionId": "r11",
+      "districtId": "d156",
+      "name": "Oʻrta Chirchiq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t500",
+      "regionId": "r11",
+      "districtId": "d157",
+      "name": "Chinoz tuman 1-son texnikumi"
+    },
+    {
+      "id": "t501",
+      "regionId": "r11",
+      "districtId": "d157",
+      "name": "Chinoz tuman 2-son texnikumi"
+    },
+    {
+      "id": "t502",
+      "regionId": "r11",
+      "districtId": "d158",
+      "name": "Chirchiq shahar 1-son texnikumi"
+    },
+    {
+      "id": "t503",
+      "regionId": "r11",
+      "districtId": "d158",
+      "name": "Chirchiq shahar 2-son texnikumi"
+    },
+    {
+      "id": "t504",
+      "regionId": "r11",
+      "districtId": "d159",
+      "name": "Toshkent viloyati yuridik texnikumi"
+    },
+    {
+      "id": "t505",
+      "regionId": "r11",
+      "districtId": "d159",
+      "name": "Yuqori Chirchiq tuman texnikumi"
+    },
+    {
+      "id": "t506",
+      "regionId": "r11",
+      "districtId": "d160",
+      "name": "Yangiyoʻl tuman 1-son texnikumi"
+    },
+    {
+      "id": "t507",
+      "regionId": "r11",
+      "districtId": "d160",
+      "name": "Yangiyoʻl tuman 2-son texnikumi"
+    },
+    {
+      "id": "t508",
+      "regionId": "r11",
+      "districtId": "d160",
+      "name": "Yangiyoʻl tuman 3-son texnikumi"
+    },
+    {
+      "id": "t509",
+      "regionId": "r11",
+      "districtId": "d161",
+      "name": "Yangiyoʻl Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t510",
+      "regionId": "r11",
+      "districtId": "d161",
+      "name": "Yangiyoʻl shahar 1-son texnikumi"
+    },
+    {
+      "id": "t511",
+      "regionId": "r11",
+      "districtId": "d161",
+      "name": "Yangiyoʻl shahar 2-son texnikumi"
+    },
+    {
+      "id": "t512",
+      "regionId": "r12",
+      "districtId": "d162",
+      "name": "Bagʻdod tuman 1-son texnikumi"
+    },
+    {
+      "id": "t513",
+      "regionId": "r12",
+      "districtId": "d162",
+      "name": "Bagʻdod tuman 2-son texnikumi"
+    },
+    {
+      "id": "t514",
+      "regionId": "r12",
+      "districtId": "d163",
+      "name": "Beshariq Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t515",
+      "regionId": "r12",
+      "districtId": "d163",
+      "name": "Beshariq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t516",
+      "regionId": "r12",
+      "districtId": "d163",
+      "name": "Beshariq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t517",
+      "regionId": "r12",
+      "districtId": "d164",
+      "name": "Buvayda Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t518",
+      "regionId": "r12",
+      "districtId": "d164",
+      "name": "Buvayda tuman 1-son texnikumi"
+    },
+    {
+      "id": "t519",
+      "regionId": "r12",
+      "districtId": "d164",
+      "name": "Buvayda tuman 2-son texnikumi"
+    },
+    {
+      "id": "t520",
+      "regionId": "r12",
+      "districtId": "d164",
+      "name": "Buvayda tuman 3-son texnikumi"
+    },
+    {
+      "id": "t521",
+      "regionId": "r12",
+      "districtId": "d165",
+      "name": "Dangʻara tuman 1-son texnikumi"
+    },
+    {
+      "id": "t522",
+      "regionId": "r12",
+      "districtId": "d165",
+      "name": "Dangʻara tuman 2-son texnikumi"
+    },
+    {
+      "id": "t523",
+      "regionId": "r12",
+      "districtId": "d165",
+      "name": "Dangʻara tuman 3-son texnikumi"
+    },
+    {
+      "id": "t524",
+      "regionId": "r12",
+      "districtId": "d166",
+      "name": "Yozyovon tuman 1-son texnikumi"
+    },
+    {
+      "id": "t525",
+      "regionId": "r12",
+      "districtId": "d166",
+      "name": "Yozyovon tuman 2-son texnikumi"
+    },
+    {
+      "id": "t526",
+      "regionId": "r12",
+      "districtId": "d167",
+      "name": "Quva Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t527",
+      "regionId": "r12",
+      "districtId": "d167",
+      "name": "Quva tuman 1-son texnikumi"
+    },
+    {
+      "id": "t528",
+      "regionId": "r12",
+      "districtId": "d167",
+      "name": "Quva tuman 2-son texnikumi"
+    },
+    {
+      "id": "t529",
+      "regionId": "r12",
+      "districtId": "d168",
+      "name": "Quvasoy shahar texnikumi"
+    },
+    {
+      "id": "t530",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t531",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon raqamli texnologiyalar texnikumi"
+    },
+    {
+      "id": "t532",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 6-son texnikumi"
+    },
+    {
+      "id": "t533",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 1-son texnikumi"
+    },
+    {
+      "id": "t534",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 2-son texnikumi"
+    },
+    {
+      "id": "t535",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 3-son texnikumi"
+    },
+    {
+      "id": "t536",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 4-son texnikumi"
+    },
+    {
+      "id": "t537",
+      "regionId": "r12",
+      "districtId": "d169",
+      "name": "Qoʻqon shahar 5-son texnikumi"
+    },
+    {
+      "id": "t538",
+      "regionId": "r12",
+      "districtId": "d170",
+      "name": "Fargʻona viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t539",
+      "regionId": "r12",
+      "districtId": "d170",
+      "name": "Qoʻshtepa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t540",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "Margʻilon turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t541",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "1-son Margʻilon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t542",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "2-son Margʻilon Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t543",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "Margʻilon shahar 1-son texnikumi"
+    },
+    {
+      "id": "t544",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "Margʻilon shahar 2-son texnikumi"
+    },
+    {
+      "id": "t545",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "Margʻilon shahar 3-son texnikumi"
+    },
+    {
+      "id": "t546",
+      "regionId": "r12",
+      "districtId": "d171",
+      "name": "Margʻilon shahar 4-son texnikumi"
+    },
+    {
+      "id": "t547",
+      "regionId": "r12",
+      "districtId": "d172",
+      "name": "Oltiariq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t548",
+      "regionId": "r12",
+      "districtId": "d172",
+      "name": "Oltiariq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t549",
+      "regionId": "r12",
+      "districtId": "d172",
+      "name": "Oltiariq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t550",
+      "regionId": "r12",
+      "districtId": "d173",
+      "name": "Rishton Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t551",
+      "regionId": "r12",
+      "districtId": "d173",
+      "name": "Rishton tuman 1-son texnikumi"
+    },
+    {
+      "id": "t552",
+      "regionId": "r12",
+      "districtId": "d173",
+      "name": "Rishton tuman 2-son texnikumi"
+    },
+    {
+      "id": "t553",
+      "regionId": "r12",
+      "districtId": "d174",
+      "name": "Soʻx tuman texnikumi"
+    },
+    {
+      "id": "t554",
+      "regionId": "r12",
+      "districtId": "d174",
+      "name": "Soʻx tuman 1-son texnikumi"
+    },
+    {
+      "id": "t555",
+      "regionId": "r12",
+      "districtId": "d175",
+      "name": "Toshloq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t556",
+      "regionId": "r12",
+      "districtId": "d175",
+      "name": "Toshloq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t557",
+      "regionId": "r12",
+      "districtId": "d175",
+      "name": "Toshloq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t558",
+      "regionId": "r12",
+      "districtId": "d176",
+      "name": "Oʻzbekiston tuman 1-son texnikumi"
+    },
+    {
+      "id": "t559",
+      "regionId": "r12",
+      "districtId": "d176",
+      "name": "Oʻzbekiston tuman 2-son texnikumi"
+    },
+    {
+      "id": "t560",
+      "regionId": "r12",
+      "districtId": "d176",
+      "name": "Oʻzbekiston tuman 3-son texnikumi"
+    },
+    {
+      "id": "t561",
+      "regionId": "r12",
+      "districtId": "d176",
+      "name": "Oʻzbekiston tuman 4-son texnikumi"
+    },
+    {
+      "id": "t562",
+      "regionId": "r12",
+      "districtId": "d177",
+      "name": "Uchkoʻprik tuman 1-son texnikumi"
+    },
+    {
+      "id": "t563",
+      "regionId": "r12",
+      "districtId": "d177",
+      "name": "Uchkoʻprik tuman 2-son texnikumi"
+    },
+    {
+      "id": "t564",
+      "regionId": "r12",
+      "districtId": "d178",
+      "name": "Fargʻona tumani Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t565",
+      "regionId": "r12",
+      "districtId": "d178",
+      "name": "Fargʻona tuman 1-son texnikumi"
+    },
+    {
+      "id": "t566",
+      "regionId": "r12",
+      "districtId": "d178",
+      "name": "Fargʻona tuman 2-son texnikumi"
+    },
+    {
+      "id": "t567",
+      "regionId": "r12",
+      "districtId": "d178",
+      "name": "Fargʻona tuman 3-son texnikumi"
+    },
+    {
+      "id": "t568",
+      "regionId": "r12",
+      "districtId": "d178",
+      "name": "Fargʻona tuman 4 -son texnikumi"
+    },
+    {
+      "id": "t569",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t570",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Lola Murotova nomidagi qishloq xoʻjaligiga ixtisoslashgan texnikum"
+    },
+    {
+      "id": "t571",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t572",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar 1-son texnikumi"
+    },
+    {
+      "id": "t573",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar 2-son texnikumi"
+    },
+    {
+      "id": "t574",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar 3-son texnikumi"
+    },
+    {
+      "id": "t575",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar 4-son texnikumi"
+    },
+    {
+      "id": "t576",
+      "regionId": "r12",
+      "districtId": "d179",
+      "name": "Fargʻona shahar 5-son texnikumi"
+    },
+    {
+      "id": "t577",
+      "regionId": "r12",
+      "districtId": "d180",
+      "name": "Furqat tuman texnikumi"
+    },
+    {
+      "id": "t578",
+      "regionId": "r13",
+      "districtId": "d181",
+      "name": "Bogʻot tuman 1-son texnikumi"
+    },
+    {
+      "id": "t579",
+      "regionId": "r13",
+      "districtId": "d181",
+      "name": "Bogʻot tuman 2-son texnikumi"
+    },
+    {
+      "id": "t580",
+      "regionId": "r13",
+      "districtId": "d181",
+      "name": "Bogʻot tuman 3-son texnikumi"
+    },
+    {
+      "id": "t581",
+      "regionId": "r13",
+      "districtId": "d182",
+      "name": "Gurlan tuman 1-son texnikumi"
+    },
+    {
+      "id": "t582",
+      "regionId": "r13",
+      "districtId": "d182",
+      "name": "Gurlan tuman 2-son texnikumi"
+    },
+    {
+      "id": "t583",
+      "regionId": "r13",
+      "districtId": "d182",
+      "name": "Gurlan tuman 3-son texnikumi"
+    },
+    {
+      "id": "t584",
+      "regionId": "r13",
+      "districtId": "d183",
+      "name": "Qoʻshkoʻpir tuman 1-son texnikumi"
+    },
+    {
+      "id": "t585",
+      "regionId": "r13",
+      "districtId": "d183",
+      "name": "Qoʻshkoʻpir tuman 2-son texnikumi"
+    },
+    {
+      "id": "t586",
+      "regionId": "r13",
+      "districtId": "d183",
+      "name": "Qoʻshkoʻpir tuman 3-son texnikumi"
+    },
+    {
+      "id": "t587",
+      "regionId": "r13",
+      "districtId": "d183",
+      "name": "Qoʻshkoʻpir tuman 4-son texnikumi"
+    },
+    {
+      "id": "t588",
+      "regionId": "r13",
+      "districtId": "d184",
+      "name": "Tuproqqalʼa tuman 1-son texnikumi"
+    },
+    {
+      "id": "t589",
+      "regionId": "r13",
+      "districtId": "d184",
+      "name": "Tuproqqalʼa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t590",
+      "regionId": "r13",
+      "districtId": "d185",
+      "name": "Xorazm yuridik texnikumi"
+    },
+    {
+      "id": "t591",
+      "regionId": "r13",
+      "districtId": "d185",
+      "name": "Urganch tuman 1-son texnikumi"
+    },
+    {
+      "id": "t592",
+      "regionId": "r13",
+      "districtId": "d185",
+      "name": "Urganch tuman 2-son texnikumi"
+    },
+    {
+      "id": "t593",
+      "regionId": "r13",
+      "districtId": "d185",
+      "name": "Urganch tuman 3-son texnikumi"
+    },
+    {
+      "id": "t594",
+      "regionId": "r13",
+      "districtId": "d185",
+      "name": "Xorazm viloyati “yashil” texnikumi"
+    },
+    {
+      "id": "t595",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Urganch raqamli texnologiyalar texnikumi"
+    },
+    {
+      "id": "t596",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Urganch Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t597",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Urganch shahar 1-son texnikumi"
+    },
+    {
+      "id": "t598",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Urganch shahar 2-son texnikumi"
+    },
+    {
+      "id": "t599",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Urganch shahar 3-son texnikumi"
+    },
+    {
+      "id": "t600",
+      "regionId": "r13",
+      "districtId": "d186",
+      "name": "Xorazm ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t601",
+      "regionId": "r13",
+      "districtId": "d187",
+      "name": "Xiva tuman texnikumi"
+    },
+    {
+      "id": "t602",
+      "regionId": "r13",
+      "districtId": "d188",
+      "name": "Xiva Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t603",
+      "regionId": "r13",
+      "districtId": "d188",
+      "name": "Xiva turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t604",
+      "regionId": "r13",
+      "districtId": "d188",
+      "name": "Xiva shahar texnikumi"
+    },
+    {
+      "id": "t605",
+      "regionId": "r13",
+      "districtId": "d189",
+      "name": "Xorazm pedagogika texnikumi"
+    },
+    {
+      "id": "t606",
+      "regionId": "r13",
+      "districtId": "d189",
+      "name": "Xonqa tuman 1-son texnikumi"
+    },
+    {
+      "id": "t607",
+      "regionId": "r13",
+      "districtId": "d189",
+      "name": "Xonqa tuman 2-son texnikumi"
+    },
+    {
+      "id": "t608",
+      "regionId": "r13",
+      "districtId": "d189",
+      "name": "Xonqa tuman 3-son texnikumi"
+    },
+    {
+      "id": "t609",
+      "regionId": "r13",
+      "districtId": "d189",
+      "name": "Xonqa tuman 4-son texnikumi"
+    },
+    {
+      "id": "t610",
+      "regionId": "r13",
+      "districtId": "d190",
+      "name": "Hazorasp tuman 1-son texnikumi"
+    },
+    {
+      "id": "t611",
+      "regionId": "r13",
+      "districtId": "d190",
+      "name": "Hazorasp tuman 2-son texnikumi"
+    },
+    {
+      "id": "t612",
+      "regionId": "r13",
+      "districtId": "d191",
+      "name": "Shovot tuman 1-son texnikumi"
+    },
+    {
+      "id": "t613",
+      "regionId": "r13",
+      "districtId": "d191",
+      "name": "Shovot tuman 2-son texnikumi"
+    },
+    {
+      "id": "t614",
+      "regionId": "r13",
+      "districtId": "d192",
+      "name": "Yangiariq tuman 1-son texnikumi"
+    },
+    {
+      "id": "t615",
+      "regionId": "r13",
+      "districtId": "d192",
+      "name": "Yangiariq tuman 2-son texnikumi"
+    },
+    {
+      "id": "t616",
+      "regionId": "r13",
+      "districtId": "d192",
+      "name": "Yangiariq tuman 3-son texnikumi"
+    },
+    {
+      "id": "t617",
+      "regionId": "r13",
+      "districtId": "d193",
+      "name": "Yangibozor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t618",
+      "regionId": "r13",
+      "districtId": "d193",
+      "name": "Yangibozor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t619",
+      "regionId": "r13",
+      "districtId": "d193",
+      "name": "Yangibozor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t620",
+      "regionId": "r14",
+      "districtId": "d194",
+      "name": "Respublika televideniye va radio texnikumi"
+    },
+    {
+      "id": "t621",
+      "regionId": "r14",
+      "districtId": "d195",
+      "name": "Toshkent geodeziya va kartografiya texnikumi"
+    },
+    {
+      "id": "t622",
+      "regionId": "r14",
+      "districtId": "d196",
+      "name": "Toshkent transport texnikumi"
+    },
+    {
+      "id": "t625",
+      "regionId": "r14",
+      "districtId": "d197",
+      "name": "Toshkent shahar ilgʻor kasbiy mahorat texnikumi"
+    },
+    {
+      "id": "t626",
+      "regionId": "r14",
+      "districtId": "d198",
+      "name": "Sergeli tuman 1-son texnikumi"
+    },
+    {
+      "id": "t627",
+      "regionId": "r14",
+      "districtId": "d198",
+      "name": "Sergeli tuman 2-son texnikumi"
+    },
+    {
+      "id": "t628",
+      "regionId": "r14",
+      "districtId": "d198",
+      "name": "Sergeli Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t629",
+      "regionId": "r14",
+      "districtId": "d199",
+      "name": "Toshkent shahar yuridik texnikumi"
+    },
+    {
+      "id": "t630",
+      "regionId": "r14",
+      "districtId": "d200",
+      "name": "Toshkent pedagogika texnikumi"
+    },
+    {
+      "id": "t631",
+      "regionId": "r14",
+      "districtId": "d200",
+      "name": "Chilonzor tuman 1-son texnikumi"
+    },
+    {
+      "id": "t632",
+      "regionId": "r14",
+      "districtId": "d200",
+      "name": "Chilonzor tuman 2-son texnikumi"
+    },
+    {
+      "id": "t633",
+      "regionId": "r14",
+      "districtId": "d200",
+      "name": "Chilonzor tuman 3-son texnikumi"
+    },
+    {
+      "id": "t634",
+      "regionId": "r14",
+      "districtId": "d200",
+      "name": "1-son Respublika Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t635",
+      "regionId": "r14",
+      "districtId": "d201",
+      "name": "Toshkent shahri “yashil” texnikumi"
+    },
+    {
+      "id": "t636",
+      "regionId": "r14",
+      "districtId": "d201",
+      "name": "2-son Respublika Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t637",
+      "regionId": "r14",
+      "districtId": "d201",
+      "name": "Toshkent noshirlik-matbaa texnikumi"
+    },
+    {
+      "id": "t638",
+      "regionId": "r14",
+      "districtId": "d201",
+      "name": "Shayxontohur tuman texnikumi"
+    },
+    {
+      "id": "t639",
+      "regionId": "r14",
+      "districtId": "d202",
+      "name": "Yunusobod Abu Ali ibn Sino nomidagi Jamoat salomatligi texnikumi"
+    },
+    {
+      "id": "t641",
+      "regionId": "r14",
+      "districtId": "d203",
+      "name": "Toshkent turizm va madaniy meros texnikumi"
+    },
+    {
+      "id": "t642",
+      "regionId": "r14",
+      "districtId": "d203",
+      "name": "Toshkent iqtisodiyot va soliq texnikumi"
+    },
+    {
+      "id": "t643",
+      "regionId": "r14",
+      "districtId": "d197",
+      "name": "Toshkent turizm va mehmonxona menejmenti texnikumi"
+    }
+  ],
+  "source": "https://www.lex.uz/uz/acts/-7792559",
+  "checkedOn": "2026-10-28",
+  "note": "PF-190 farmonining 4-ilovasi amaldagi tahriridagi davlat texnikumlari. Boshqa tizim yoki nodavlat texnikumlar to‘liq qamralmasligi mumkin."
+}
