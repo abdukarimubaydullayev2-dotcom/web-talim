@@ -1,0 +1,362 @@
+{
+  "name": "Web ilovani integratsiyalash, testlash va joriy etish",
+  "hours": 90,
+  "paras": 45,
+  "theoryHours": 40,
+  "practiceHours": 50,
+  "groups": [
+    {
+      "number": 1,
+      "name": "Frontend API va bazani integratsiyalash",
+      "hours": 18,
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ilova arxitekturasi va qabul mezonlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Integratsiya va Talab vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 2,
+          "title": "Amaliy mashg‘ulot — Ilova arxitekturasi va qabul mezonlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, sxemada uch qatlam, ikki qabul mezoni va ilova chegarasi ko‘rsatiladi."
+        },
+        {
+          "number": 3,
+          "title": "API shartnomasi va xato javoblari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Shartnoma va Status vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 4,
+          "title": "Amaliy mashg‘ulot — API shartnomasi va xato javoblari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, konsolda true false false chiqadi."
+        },
+        {
+          "number": 5,
+          "title": "Fetch va interfeys holatlarini bog‘lash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Fetch va Yuklanish holati vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 6,
+          "title": "Amaliy mashg‘ulot — Fetch va interfeys holatlarini bog‘lash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, ishlayotgan lokal ilovada tasks massivi qaytadi; server to‘xtasa xato ko‘rinadi."
+        },
+        {
+          "number": 7,
+          "title": "Same origin CORS va muhit sozlamalari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Origin va Same origin vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 8,
+          "title": "Amaliy mashg‘ulot — Same origin CORS va muhit sozlamalari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, frontend va API bitta originda ochiladi; baza data katalogida saqlanadi."
+        },
+        {
+          "number": 9,
+          "title": "Frontend API va SQLite bilan to‘liq CRUD oqimi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, uch qatlamda yaratish, yangilash va o‘chirish ishlaydi; xato holati foydalanuvchiga tushunarli chiqadi."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Avtomatik unit va integratsion sinovlar",
+      "hours": 18,
+      "topics": [
+        {
+          "number": 10,
+          "title": "Test strategiyasi va unit sinovlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Test darajasi va Arrange Act Assert vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 11,
+          "title": "Amaliy mashg‘ulot — Test strategiyasi va unit sinovlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, 4 tekshiruv o‘tdi chiqadi; assertion buzilsa Run xato qaytaradi."
+        },
+        {
+          "number": 12,
+          "title": "HTTP API integratsion sinovlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Haqiqiy HTTP va Izolyatsiya vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 13,
+          "title": "Amaliy mashg‘ulot — HTTP API integratsion sinovlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, hTTP testlar vaqtinchalik port va alohida baza bilan o‘tadi; jarayon yakunlanadi."
+        },
+        {
+          "number": 14,
+          "title": "Baza fixturelari va ma’lumot izchilligi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Fixture va Xotira bazasi vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 15,
+          "title": "Amaliy mashg‘ulot — Baza fixturelari va ma’lumot izchilligi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, cRUD, filter, cheklov va alohida bazalar sinovlari o‘tadi."
+        },
+        {
+          "number": 16,
+          "title": "Asinxron xato va tashqi bog‘liqlikni almashtirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Dependency injection va Stub vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 17,
+          "title": "Amaliy mashg‘ulot — Asinxron xato va tashqi bog‘liqlikni almashtirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, hTTP 503 chiqadi va bo‘sh ro‘yxat tekshiruvi o‘tadi."
+        },
+        {
+          "number": 18,
+          "title": "Mustaqil avtomatik test to‘plamini kengaytirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, qo‘shilgan sinovlar ham o‘tadi, ataylab buzilgan assertion esa xato kodi bilan tugaydi."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Brauzer sifati qulaylik va xavfsizlik",
+      "hours": 18,
+      "topics": [
+        {
+          "number": 19,
+          "title": "Brauzer oqimi va E2E sinov",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "E2E va Playwright vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 20,
+          "title": "Amaliy mashg‘ulot — Brauzer oqimi va E2E sinov",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, lokal demo brauzerida yangi vazifa ko‘rinadi. Bu parcha Playwright test kontekstida ishlaydi."
+        },
+        {
+          "number": 21,
+          "title": "Qulaylik klaviatura va moslashuvchan interfeys",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Label va Klaviatura vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 22,
+          "title": "Amaliy mashg‘ulot — Qulaylik klaviatura va moslashuvchan interfeys",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, har band uchun o‘tdi yoki nuqson, brauzer va kuzatuv yoziladi."
+        },
+        {
+          "number": 23,
+          "title": "XSS kirish nazorati va xavfsizlik regressiyasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "XSS va Parametrli SQL vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 24,
+          "title": "Amaliy mashg‘ulot — XSS kirish nazorati va xavfsizlik regressiyasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, kiritma matn sifatida ko‘rinadi, katta tana 413, noto‘g‘ri maydon 400 bilan qaytadi."
+        },
+        {
+          "number": 25,
+          "title": "Unumdorlik o‘lchovi va nuqson hisoboti",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Bazaviy o‘lchov va Namuna hajmi vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 26,
+          "title": "Amaliy mashg‘ulot — Unumdorlik o‘lchovi va nuqson hisoboti",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, median: 100 ms chiqadi; misol faqat 5 ta oldindan berilgan o‘lchovni tahlil qiladi."
+        },
+        {
+          "number": 27,
+          "title": "Brauzer sifati auditi va nuqsonni tuzatish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, audit jadvali, takrorlash qadamlari va qayta tekshiruv dalili tayyor bo‘ladi."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Reliz CI va joriy etish muhiti",
+      "hours": 18,
+      "topics": [
+        {
+          "number": 28,
+          "title": "Git reliz va takrorlanuvchi yig‘ish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Commit va Tag vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 29,
+          "title": "Amaliy mashg‘ulot — Git reliz va takrorlanuvchi yig‘ish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, toza manba holati, to‘liq SHA va test natijasi reliz qaydiga kiritiladi."
+        },
+        {
+          "number": 30,
+          "title": "CI jarayoni va avtomatik sifat darvozasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "CI va Workflow vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 31,
+          "title": "Amaliy mashg‘ulot — CI jarayoni va avtomatik sifat darvozasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, lokal check va test muvaffaqiyatli tugaydi. GitHub workflow faqat o‘z repongizga joylanganda ishlaydi."
+        },
+        {
+          "number": 32,
+          "title": "Konfiguratsiya konteyner va doimiy saqlash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Konfiguratsiya va Konteyner vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 33,
+          "title": "Amaliy mashg‘ulot — Konfiguratsiya konteyner va doimiy saqlash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, docker mavjud bo‘lsa demo 3000 portda ochiladi, volume qayta ishga tushishda ma’lumotni saqlaydi."
+        },
+        {
+          "number": 34,
+          "title": "Joriy etish rejasi HTTPS va smoke sinov",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Staging va Reverse proxy vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 35,
+          "title": "Amaliy mashg‘ulot — Joriy etish rejasi HTTPS va smoke sinov",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, smoke uch endpointni o‘qib PASS chiqaradi; haqiqiy HTTPS faqat sozlangan hostingda tekshiriladi."
+        },
+        {
+          "number": 36,
+          "title": "Reliz nomzodi va joriy etish dalillari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, manba, tekshiruvlar va muhit dalili bog‘lanadi; hostingga chiqarilmagan holat yashirilmaydi."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Kuzatish tiklash va yakuniy himoya",
+      "hours": 18,
+      "topics": [
+        {
+          "number": 37,
+          "title": "Loglar monitoring va xizmat holati",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Strukturali log va Korrelyatsiya vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 38,
+          "title": "Amaliy mashg‘ulot — Loglar monitoring va xizmat holati",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, har so‘rov uchun qisqa JSON log va javobda X-Request-Id mavjud bo‘ladi."
+        },
+        {
+          "number": 39,
+          "title": "Backup tiklash va sxema o‘zgarishi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Zaxira va Izchil nusxa vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 40,
+          "title": "Amaliy mashg‘ulot — Backup tiklash va sxema o‘zgarishi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, yopiq bazadan nusxa olinadi, yangi katalogda eski vazifalar ko‘rinadi."
+        },
+        {
+          "number": 41,
+          "title": "Nosozlikka javob va xavfsiz rollback",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Incident va Rollback vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 42,
+          "title": "Amaliy mashg‘ulot — Nosozlikka javob va xavfsiz rollback",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, runbook kod qaytishi va ma’lumotni tiklashni alohida ko‘rsatadi."
+        },
+        {
+          "number": 43,
+          "title": "Qabul sinovi hujjatlar va loyiha himoyasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Qabul sinovi va Dalil jadvali vazifalarini izohlaydi, namuna oqimini va xato holatini tushuntiradi."
+        },
+        {
+          "number": 44,
+          "title": "Amaliy mashg‘ulot — Qabul sinovi hujjatlar va loyiha himoyasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, talablar dalillar bilan bog‘lanadi, cheklovlar va qolgan ishlar aniq yoziladi."
+        },
+        {
+          "number": 45,
+          "title": "Yakuniy loyiha namoyishi tiklash va himoya",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Topshiriqni bajarib, integratsiya, test, tiklash va hujjatlar bitta loyiha himoyasida dalil bilan ko‘rsatiladi."
+        }
+      ]
+    }
+  ],
+  "author": "Ubaydullayev Abdukarim",
+  "year": "2026/2027",
+  "status": "Tavsiya etiladigan mualliflik ish rejasi"
+}

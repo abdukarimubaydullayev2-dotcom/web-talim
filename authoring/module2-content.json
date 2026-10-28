@@ -1,0 +1,1012 @@
+{
+  "lessons": {
+    "1": {
+      "sections": [
+        [
+          "Kompyuter arxitekturasi nimani ifodalaydi",
+          "Kompyuter arxitekturasi dasturlar bajarilishi uchun zarur bo‘lgan mantiqiy tuzilma, buyruqlar, xotira bilan ishlash va qurilmalar o‘rtasidagi aloqalarni ifodalaydi. Arxitektura bilan tashkil etishni farqlash kerak: buyruqlar to‘plami dasturchiga ko‘rinadigan imkoniyatlarni, muayyan protsessordagi kesh va ichki ijro bloklari esa ularning qanday amalga oshirilishini bildiradi. Bir xil buyruqlar to‘plamiga ega ikki protsessorning tezligi va energiya sarfi turlicha bo‘lishi mumkin."
+        ],
+        [
+          "Asosiy qismlar va ularning vazifasi",
+          "Protsessor buyruqlarni bajaradi; RAM ishlayotgan dastur va ma’lumotlarni vaqtincha saqlaydi; SSD yoki HDD fayllarni quvvat o‘chganidan keyin ham saqlaydi. Ona plata komponentlarni bog‘laydi, quvvat manbai ularni elektr bilan ta’minlaydi. Kiritish qurilmalari axborotni tizimga uzatadi, chiqarish qurilmalari natijani ko‘rsatadi. GPU tasvir hosil qilish va parallel hisoblash ishlariga xizmat qiladi. Har bir qurilmaning vazifasini uning tashqi ko‘rinishidan ko‘ra tizimdagi axborot oqimi orqali tushunish foydali."
+        ],
+        [
+          "Saqlanadigan dastur tamoyili",
+          "Fon Neyman modelida dastur buyruqlari va ma’lumotlar umumiy xotirada saqlanadi. Protsessor navbatdagi buyruqni oladi, dekodlaydi va bajaradi; kerak bo‘lsa xotiradan o‘qiydi yoki unga yozadi. Zamonaviy protsessorlarda bu jarayon konveyer, kesh va parallel ijro bilan murakkablashgan. Harvard yondashuvida buyruq va ma’lumot yo‘llari ajratiladi; zamonaviy tizimlarda bu yondashuvlarning ayrim xususiyatlari birgalikda uchraydi."
+        ],
+        [
+          "Dastur ishga tushganda axborot oqimi",
+          "Matn muharririni ochganda OT uning zarur qismlarini diskdan RAMga yuklaydi. CPU buyruqlarni bajaradi, klaviatura kiritishi drayverlar orqali dasturga yetkaziladi, tasvir grafik tizim orqali monitorga chiqadi. Saqlash buyrug‘i berilganda ma’lumot fayl tizimi orqali diskka yoziladi. RAMning katta bo‘lishi fayllarning avtomatik saqlanishini anglatmaydi: elektr uzilsa saqlanmagan tahrir yo‘qolishi mumkin."
+        ],
+        [
+          "Unumdorlikni tizim sifatida baholash",
+          "Tezlik faqat CPU chastotasiga bog‘liq emas. Yetarli RAM bo‘lmasa tizim diskdan yordamchi xotira sifatida ko‘proq foydalanadi; sekin disk dastur ochilishini cheklaydi. Grafik vazifada GPU, katta loyihani kompilyatsiya qilishda CPU va RAM muhim bo‘ladi. Shuning uchun kompyuterni tanlashdan avval foydalanuvchi vazifasi, dasturlar talabi, kengaytirish imkoniyati va umumiy xarajat aniqlanadi."
+        ],
+        [
+          "Bir fayl ikki xil xotirada",
+          "Talaba loyiha kodini muharrirda o‘zgartirdi, ammo Save buyrug‘ini bermadi. Ekranda yangi kod ko‘rinishi uning diskka yozilganini isbotlamaydi: muharrir ishchi nusxani RAMda ushlab turishi mumkin. Elektr uzilganda diskdagi oldingi nusxa qoladi. Avtomatik saqlash bo‘lsa uning yo‘li va ish tartibi tekshiriladi. Bu misol CPU, RAM va disk vazifalarini ajratadi. Dastur qayta ochilgach oxirgi o‘zgarish ko‘rinsa ham, uni qaysi mexanizm saqlagani aniqlanmasdan umumiy xulosa chiqarilmaydi."
+        ]
+      ],
+      "task": "Matn muharririda hujjat yaratish jarayonini klaviatura → dastur → RAM → saqlash qurilmasi → monitor aloqalari bilan chizing. Har bir bosqichda CPUning rolini yozing.",
+      "answer": "Klaviatura kiritishi OT va drayver orqali dasturga yetadi. CPU tahrirlash buyruqlarini bajaradi, ishchi ma’lumot RAMda turadi, grafik tizim natijani ko‘rsatadi. Saqlashdan so‘ng fayl diskda saqlanadi.",
+      "terms": "Arxitektura=Kompyuterning dasturchiga ko‘rinadigan mantiqiy tuzilishi;CPU=Buyruqlarni bajaruvchi markaziy protsessor;RAM=Ishchi ma’lumot saqlanadigan energiyaga bog‘liq xotira;Saqlanadigan dastur=Dastur buyruqlarining xotirada ma’lumot sifatida saqlanish tamoyili;Periferiya=Tizimga kiritish chiqarish yoki boshqa xizmat ko‘rsatuvchi qo‘shimcha qurilmalar"
+    },
+    "2": {
+      "sections": [
+        [
+          "Tarixni texnologik o‘zgarish orqali tushunish",
+          "Hisoblash qurilmalarining rivoji hisobni avtomatlashtirish, tezlikni oshirish va o‘lchamni kamaytirish ehtiyojidan kelib chiqqan. Mexanik hisoblash vositalaridan elektromexanik, so‘ng elektron qurilmalarga o‘tilgan. Kompyuter avlodlari odatda asosiy elektron elementlar o‘zgarishi bilan tushuntiriladi. Davrlarning chegaralari barcha manbalarda bir xil emas; tasnifni qat’iy sana yodlashdan ko‘ra texnologik farq orqali o‘rganish to‘g‘riroq."
+        ],
+        [
+          "Elektron lampadan tranzistorgacha",
+          "Birinchi elektron kompyuterlarda lampalar ko‘p elektr sarflagan, kuchli qizigan va katta joy egallagan. Ma’lumot kiritish ham bugungi interaktiv usuldan ancha farq qilgan. Tranzistorlar lampalarga qaraganda ixchamroq, kamroq quvvat talab qiladigan va ishonchliroq qurilmalar yaratishga imkon bergan. Dasturlash tillarining rivoji mashina buyruqlaridan yuqoriroq darajada fikrlashga sharoit yaratgan."
+        ],
+        [
+          "Integral sxema va mikroprotsessor",
+          "Integral sxemada ko‘plab elektron elementlar bitta yarimo‘tkazgich kristallida birlashtiriladi. Mikroprotsessor CPU vazifalarini bitta integral qurilmada amalga oshirishga yo‘l ochdi. Shaxsiy kompyuterlar, ish stansiyalari va keyinchalik mobil qurilmalar keng tarqaldi. Kichrayish faqat korpus o‘lchamini emas, ishlab chiqarish narxi, energiya sarfi va ommaviy foydalanish imkoniyatini ham o‘zgartirdi."
+        ],
+        [
+          "Zamonaviy tizimlarning xususiyatlari",
+          "Bugungi kompyuterlarda ko‘p yadroli protsessor, kesh iyerarxiyasi, yuqori tezlikdagi SSD, GPU va tarmoq ulanishi birgalikda ishlaydi. Mobil tizimlarda energiya samaradorligi, serverda uzluksiz xizmat va kengaytirish, ish stansiyasida maxsus hisoblash quvvati ustun bo‘lishi mumkin. Sun’iy intellekt vazifalari uchun tezlatkichlar qo‘llanadi, biroq har bir oddiy dastur bunday bloklardan bir xil foyda ko‘rmaydi."
+        ],
+        [
+          "Texnik taraqqiyotni baholash",
+          "Kompyuterni faqat ishlab chiqarilgan yiliga qarab baholash yetarli emas. Buyruqlar arxitekturasi, dasturiy moslik, xotira, saqlash, energiya samaradorligi va xizmat ko‘rsatish imkoniyati ham hisobga olinadi. Eski qurilma yengil vazifa uchun yetarli bo‘lishi, yangi qurilma esa noto‘g‘ri tanlangan konfiguratsiya tufayli talabni bajarmasligi mumkin. Tarixiy rivojlanish kompyuterlarning qo‘llanish doirasi nega kengayganini tushuntiradi."
+        ],
+        [
+          "Avlod bilan qo‘llanish sohasini adashtirmaslik",
+          "Mainframe, shaxsiy kompyuter va server atamalari vazifa hamda foydalanish shaklini bildiradi; ular lampa, tranzistor yoki mikroprotsessor kabi element bazasi tasnifi bilan aynan bir xil emas. Masalan, server ham zamonaviy mikroprotsessorga asoslanishi mumkin. Talaba tarixiy jadval tuzganda davr, asosiy texnologiya, foydalanuvchi bilan aloqa va qo‘llanish misolini alohida ustunlarga yozadi. Sun’iy intellekt ishlatilgan har bir kompyuterni yangi apparat avlodi deb atash aniq texnik ta’rif bermaydi."
+        ]
+      ],
+      "task": "Lampa, tranzistor, integral sxema va mikroprotsessorni o‘lcham, issiqlik va ishonchlilik bo‘yicha taqqoslang. So‘ng maktab kompyuteri bilan serverning vazifalarini ajrating.",
+      "answer": "Elementlar integratsiyasi odatda o‘lcham va energiya sarfini kamaytirib, imkoniyatlarni oshirgan. Server xizmat uzluksizligi va ko‘p foydalanuvchi yukiga, o‘quv kompyuteri esa dars dasturlariga mos tanlanadi.",
+      "terms": "Tranzistor=Elektr signalini boshqaradigan yarimo‘tkazgich element;Integral sxema=Bitta kristallda birlashtirilgan elektron sxema;Mikroprotsessor=CPU vazifasini bajaruvchi integral qurilma;Server=Boshqa tizimlarga xizmat ko‘rsatuvchi kompyuter yoki dastur;Energiya samaradorligi=Bajarilgan ishga nisbatan quvvat sarfining maqbulligi"
+    },
+    "3": {
+      "sections": [
+        [
+          "CPUning asosiy vazifasi",
+          "Markaziy protsessor dastur buyruqlarini bajaradi va hisoblash jarayonini boshqaradi. Buyruq manzilini ko‘rsatuvchi registr navbatdagi buyruqni tanlashda qatnashadi. Dekoder buyruqni ichki amallarga ajratadi; ijro bloklari hisoblash va ma’lumot ko‘chirishni bajaradi. Zamonaviy CPU bir nechta buyruq bilan bir vaqtda turli bosqichlarda ishlashi mumkin. Bu imkoniyat chastotadan tashqari unumdorlik manbai hisoblanadi."
+        ],
+        [
+          "ALU boshqaruv qurilmasi va registrlar",
+          "ALU butun sonlar ustidagi arifmetik va mantiqiy amallarni bajaradi; suzuvchi nuqtali hisoblar uchun alohida ijro birliklari bo‘lishi mumkin. Boshqaruv qismi amallar ketma-ketligi va signallarini muvofiqlashtiradi. Registrlar CPU ichidagi juda tez xotira bo‘lib, operand, manzil va holatni saqlaydi. RAM bilan registr bir xil emas: registrlar juda kichik hajmli va bevosita buyruq bajarilishiga yaqin joylashgan."
+        ],
+        [
+          "Kesh va xotira iyerarxiyasi",
+          "CPUga nisbatan RAMga murojaat kechikishi katta bo‘lishi mumkin. Kesh yaqinda yoki yaqin kelajakda kerak bo‘lishi ehtimol qilingan ma’lumot nusxalarini saqlaydi. L1 odatda eng yaqin va kichik, keyingi darajalar kattaroq bo‘ladi; aniq tuzilma modelga bog‘liq. Keshga mos kelgan murojaat hit, topilmagan murojaat miss deyiladi. Kesh hajmi ko‘payishi har qanday dastur tezligini bir xil oshirmaydi."
+        ],
+        [
+          "Chastota yadro va oqimlar",
+          "Chastota bir sekunddagi taktlar sonini bildiradi. Bir taktga bajariladigan foydali ish arxitektura va dasturga bog‘liq bo‘lgani uchun GHzning o‘zi turli CPUlarni to‘liq taqqoslamaydi. Jismoniy yadro mustaqil ijro resurslariga ega; mantiqiy oqim apparat resurslaridan samaraliroq foydalanishga yordam beradi, lekin to‘liq qo‘shimcha yadroga teng emas. Dastur parallel ishlay olmasa yadro sonining foydasi cheklanadi."
+        ],
+        [
+          "Tanlash va kuzatish",
+          "CPU tanlashda soket, ona plata qo‘llab-quvvatlashi, sovitish, quvvat talabi va vazifaga mos sinov natijalari hisobga olinadi. Issiqlik oshganda himoya mexanizmi chastotani pasaytirishi mumkin; bu throttling deyiladi. Ish jarayonida yuk, chastota va haroratni birgalikda talqin qilish kerak. Quvvatga oid ishlab chiqaruvchi ko‘rsatkichlarini tizimning har lahzadagi aniq iste’moli deb qabul qilish noto‘g‘ri."
+        ],
+        [
+          "Buyruq bajarilishini misolda ko‘rish",
+          "A va B sonlarini qo‘shib Cga yozish uchun protsessor qiymatlarni xotira yoki registrdan oladi, ALUda hisoblaydi va natijani belgilangan joyga yozadi. Operandlar keshda bo‘lsa tashqi xotiraga murojaat kamayishi mumkin. Lekin tayyor bo‘lmagan ma’lumotni kutish yoki shartli o‘tishni noto‘g‘ri bashorat qilish ijroni sekinlashtiradi. CPU modelini baholashda aynan ish turiga yaqin sinov kerakligi shundan kelib chiqadi. Qo‘shimcha yadro bitta ketma-ket qo‘shish amalini avtomatik bir necha bo‘lakka ajratmaydi."
+        ]
+      ],
+      "task": "Bir xil GHzli ikki protsessor nega turlicha tez ishlashini izohlang. Bir yadroga bog‘liq dastur va parallel kompilyatsiya uchun tanlash mezonlarini ajrating.",
+      "answer": "Arxitektura, bir taktga bajariladigan ish, kesh, xotira va sovitish farq qiladi. Bir oqimli vazifada bitta yadro samaradorligi, parallel vazifada esa dastur foydalana oladigan yadrolar va yetarli RAM muhim.",
+      "terms": "ALU=Arifmetik va mantiqiy amallar bloki;Registr=Protsessor ichidagi tezkor kichik xotira;Kesh=Ma’lumot nusxalarini tez olishga xizmat qiluvchi xotira;Takt chastotasi=Bir sekunddagi taktlar soni;Throttling=Himoya yoki quvvat cheklovi sabab ishlash tezligining pasayishi"
+    },
+    "4": {
+      "sections": [
+        [
+          "Ona plataning tizimdagi o‘rni",
+          "Ona plata CPU, RAM, kengaytirish qurilmalari va saqlash vositalarini elektr hamda mantiqiy jihatdan bog‘laydi. Undagi yo‘llar signal uzatadi, quvvatni boshqarish elementlari komponentlarga mos kuchlanish hosil qiladi. Plata o‘lchami korpus, kengaytirish joylari va ulagichlar soniga ta’sir qiladi. ATX va microATX kabi form-faktorlar montaj joylashuvi bilan bog‘liq, lekin bir xil form-faktor barcha funksiyalar tengligini anglatmaydi."
+        ],
+        [
+          "Soket chipset va CPU mosligi",
+          "Soket protsessorning fizik va elektr ulanish joyidir. Soket bir xil bo‘lishi moslikning zarur shartlaridan biri, ammo har doim yetarli emas. Chipset, plata quvvat zanjiri, CPU avlodi va BIOS/UEFI versiyasi ham tekshiriladi. Ishlab chiqaruvchining CPU support list hujjati asosiy dalil bo‘ladi. Eski plataga yangi CPU o‘rnatishdan avval kerakli firmware versiyasi mavjudligi aniqlanadi."
+        ],
+        [
+          "RAM va kengaytirish slotlari",
+          "DIMM slotlari tegishli DDR avlodiga mos ishlab chiqiladi. DDR avlodlari shakli o‘xshash bo‘lsa ham o‘zaro almashtirilmaydi. PCI Express slotlari GPU va boshqa kengaytirish kartalarini ulaydi; slotning uzunligi va uning elektr liniyalari soni har doim bir xil bo‘lavermaydi. Qurilma ishlashi uchun mexanik joy, elektr interfeys, mavjud liniyalar va firmware qo‘llab-quvvatlashi birgalikda mos bo‘lishi kerak."
+        ],
+        [
+          "Saqlash va tashqi interfeyslar",
+          "SATA portlari mos disklarni, M.2 ulagichi esa plata imkoniyatiga qarab SATA yoki PCIe qurilmasini qo‘llashi mumkin. M.2 shakl omili NVMe protokoli bilan sinonim emas. USB ulagichining shakli, masalan Type-C, uning tezligini o‘zi belgilamaydi. Ichki front-panel, audio, ventilyator va USB headerlar ham qo‘llanma bo‘yicha ulanadi. Noto‘g‘ri ulagichga kuch ishlatish kontaktni shikastlashi mumkin."
+        ],
+        [
+          "Montaj va xizmat ko‘rsatish",
+          "Kompyuter tokdan ajratiladi, ishlab chiqaruvchi ko‘rsatmasiga muvofiq qoldiq quvvat va statik elektr xavfi kamaytiriladi. Platani korpusga mos tayanchlar bilan mahkamlash qisqa tutashuvning oldini oladi. CPU quvvat kabeli va GPU kabeli tashqi o‘xshashligiga qarab almashtirilmaydi. Har bir ulanish qo‘llanmadagi belgi bilan solishtiriladi; PSU ichini ochish o‘quv mashg‘uloti tarkibiga kirmaydi."
+        ],
+        [
+          "Portlar bo‘lishadigan resurslar",
+          "Plata qo‘llanmasida ikkinchi M.2 slot ishlatilganda ayrim SATA portlari o‘chishi yozilgan bo‘lishi mumkin. Yangi SSD qo‘shilgach eski disk ko‘rinmay qolsa, bu darhol disk ishdan chiqqanini anglatmaydi. Portlar jadvali va ulanishlar tekshiriladi. Shuningdek, tashqi USB-C port faqat ma’lumot uzatishi, video yoki yuqori quvvatni qo‘llamasligi mumkin. Har bir ulagich uchun shakl, protokol va funksiyani alohida qayd qilish noto‘g‘ri adapter xaridining oldini oladi."
+        ]
+      ],
+      "task": "Ona plata rasmini olib CPU soketi, RAM sloti, PCIe, M.2, SATA va quvvat ulagichlarini belgilang. Tanlangan CPU qo‘llab-quvvatlanishini qaysi hujjat tasdiqlashini yozing.",
+      "answer": "Moslik plata ishlab chiqaruvchisining aniq model uchun CPU ro‘yxati va BIOS talabi bilan tekshiriladi. M.2 va SATA qurilmalarining protokol mosligi ham alohida tekshiriladi.",
+      "terms": "Soket=CPU ulanish joyi;Chipset=Plata kiritish chiqarish imkoniyatlarini boshqarishda qatnashuvchi mikrosxemalar;Form-faktor=Qurilmaning standart o‘lcham va montaj shakli;DIMM=Stol kompyuteri RAM moduli shakli;PCIe=Yuqori tezlikdagi ketma-ket kengaytirish interfeysi"
+    },
+    "5": {
+      "sections": [
+        [
+          "Shina tushunchasi",
+          "Shina kompyuter qismlari o‘rtasida axborot uzatish qoidalari va signal yo‘llari majmuasidir. Boshlang‘ich modelda adres, ma’lumot va boshqaruv shinalari ajratiladi. Zamonaviy kompyuterlardagi barcha ulanishlar bitta umumiy parallel shina emas: PCIe singari interfeyslar nuqtadan nuqtaga ketma-ket bog‘lanishlardan foydalanadi. Klassik modelni signal vazifalarini tushuntiruvchi soddalashtirilgan tasvir sifatida qabul qilish kerak."
+        ],
+        [
+          "Adres ma’lumot va boshqaruv signallari",
+          "Adres kerakli xotira yoki qurilma joylashuvini ko‘rsatadi. Ma’lumot yo‘li uzatiladigan qiymatni olib yuradi. Boshqaruv signallari o‘qish yoki yozish, tayyorlik, vaqt va ruxsat kabi holatlarni belgilaydi. Masalan, CPU RAMdan qiymat o‘qishda manzilni ko‘rsatadi, o‘qish talabini beradi va javobni oladi. Adresni ma’lumotning o‘zi bilan adashtirmaslik zarur: uy raqami xat ichidagi matn emas."
+        ],
+        [
+          "Razryad kengligi va o‘tkazuvchanlik",
+          "Adres razryadlari nazariy adreslash imkoniyatiga ta’sir qiladi. Bayt bilan adreslanadigan soddalashtirilgan tizimda n bit adres 2 ning n-darajasi ta bayt manzilini ifodalaydi. Amaldagi fizik xotira imkoniyati CPU, plata va OT cheklovlariga ham bog‘liq. O‘tkazuvchanlik vaqt birligida uzatiladigan ma’lumot miqdoridir. Uni kechikishdan ajratish kerak: katta hajm tez uzatilishi birinchi javob tez kelishini anglatmaydi."
+        ],
+        [
+          "PCIe liniyalari va protokol xarajati",
+          "PCIe x1, x4 yoki x16 belgilari liniyalar soniga taalluqli. Avlod oshishi liniya imkoniyatini o‘zgartiradi, ammo haqiqiy foydali tezlik qurilma, ulanish va protokol xarajatiga bog‘liq. Qurilma va slot ko‘pincha umumiy qo‘llab-quvvatlanadigan rejimda ishlaydi. CPU va chipset liniyalarini taqsimlash ayrim M.2 yoki SATA portlarining birgalikda ishlashiga ta’sir qilishi mumkin; qo‘llanmadagi jadval tekshiriladi."
+        ],
+        [
+          "DMA va uzilishlar",
+          "DMA qurilmaga CPUning har bir baytni qo‘lda ko‘chirishisiz xotira bilan ma’lumot almashish imkonini beradi. CPU almashuvni tashkil etadi, qurilma ish tugaganini uzilish orqali xabar qilishi mumkin. Uzilish tashqi hodisaga javob berishga yordam beradi; u doimiy ravishda qurilmani so‘rab turish ehtiyojini kamaytiradi. Bu mexanizmlar drayverlar va OT nazorati bilan ishlaydi, shuning uchun apparat hamda dasturiy qatlam bir-biriga bog‘liq."
+        ],
+        [
+          "Birliklar bilan hisoblash",
+          "Soddalashtirilgan parallel yo‘l bir uzatishda 8 bayt va sekundiga 100 million uzatishni bajarsa, nazariy xom o‘tkazuvchanlik 800 million bayt/s bo‘ladi. Haqiqiy foydali tezlik protokol, kutish, qurilmalar kelishuvi va boshqa ishlar tufayli pastroq bo‘lishi mumkin. Nazariy hisobni bevosita real fayl ko‘chirish natijasi deb yozish mumkin emas. PCIe kabi kodlash va paket tuzilmasiga ega interfeysda esa aynan shu avlodning foydali tezlik hisoblash qoidasi qo‘llanadi."
+        ]
+      ],
+      "task": "Soddalashtirilgan 16 bit adresli, bayt bilan adreslanadigan tizim nechta manzilni ifodalaydi? So‘ng o‘qish va yozish jarayonlarida adres hamda ma’lumot yo‘lini ko‘rsating.",
+      "answer": "2^16 = 65 536 bayt, ya’ni 64 KiB nazariy adres maydoni. O‘qishda ma’lumot xotiradan CPUga, yozishda CPUdan xotiraga uzatiladi; boshqaruv talabi amal turini belgilaydi.",
+      "terms": "Shina=Qismlar o‘rtasida signal almashish tizimi;Adres=Ma’lumot joylashuvini ko‘rsatuvchi qiymat;O‘tkazuvchanlik=Vaqt birligidagi uzatish hajmi;Kechikish=So‘rovdan javobgacha vaqt;DMA=To‘g‘ridan to‘g‘ri xotiraga murojaat orqali ma’lumot uzatish mexanizmi"
+    },
+    "6": {
+      "sections": [
+        [
+          "Talabdan konfiguratsiyaga o‘tish",
+          "Konfiguratsiya qurilmalar ro‘yxatini eng qimmat qismlardan tuzish emas, foydalanuvchi ishini bajaradigan muvozanatli tizim yaratishdir. Dastlab dasturlar, bir vaqtdagi vazifalar, fayllar hajmi, monitorlar soni va budjet aniqlanadi. Web dasturchi uchun muharrir, brauzer, lokal server, ma’lumotlar bazasi va virtual muhitning birgalikdagi talabi muhim. Kelajakdagi yangilash va xizmat xarajati ham rejalashtiriladi."
+        ],
+        [
+          "CPU va ona plata juftligi",
+          "CPU soketi, chipset va firmware qo‘llab-quvvatlashi tekshiriladi. Platada kerakli RAM slotlari, disk ulagichlari va kengaytirish imkoniyati bo‘lishi lozim. Komponentning savdo nomi yetarli ma’lumot bermaydi: aniq model va reviziya qayd qilinadi. Integratsiyalashgan grafika mavjudligi ham protsessor modelidan tekshiriladi; platadagi video chiqishning o‘zi mustaqil grafik protsessor borligini anglatmaydi."
+        ],
+        [
+          "RAM GPU va diskni moslashtirish",
+          "RAM avlodi, modul turi, sig‘imi va qo‘llanadigan rejim plata bilan mos bo‘lishi kerak. Katta loyiha va virtual mashina RAMga talabni oshiradi. Grafik karta vazifa talab qilganda tanlanadi; oddiy web ishlarining hammasi diskret GPU talab qilmaydi. SSD tizim va dastur fayllariga tez murojaatni ta’minlaydi, lekin zaxira nusxa o‘rnini bosmaydi. Saqlash hajmi amaldagi ish va o‘sish zaxirasiga qarab belgilanadi."
+        ],
+        [
+          "Korpus quvvat va sovitish",
+          "Korpus plata form-faktori, GPU uzunligi, CPU sovitgichi balandligi va kabel joylashuviga mos bo‘ladi. PSUning quvvati bilan birga sifatli himoya, zarur ulagich va ishlab chiqaruvchi talabi ham baholanadi. Havo kirishi va chiqishi to‘silmaydi. Sovitish yomon bo‘lsa qimmat CPU ham barqaror yuqori unumdorlik bermaydi. Noutbukda kengaytirish cheklovlari stol kompyuteridan boshqacha bo‘lishi mumkin."
+        ],
+        [
+          "Moslik dalillari va yakuniy tanlov",
+          "Har bir muhim moslik uchun dalil yoziladi: CPU support list, RAM qo‘llab-quvvatlash ma’lumoti, disk interfeysi va PSU ulagichlari. QVL ro‘yxatida yo‘qlik har doim mos emaslikni anglatmaydi, ammo ro‘yxatda sinovdan o‘tgan variant qo‘shimcha ishonch beradi. Yakuniy konfiguratsiya talabni qamrab olishi, budjetga sig‘ishi va zaif bo‘g‘ini asoslangan bo‘lishi kerak. Narxlar tekshirilgan sana bilan qayd qilinadi."
+        ],
+        [
+          "Konfiguratsiya bo‘yicha qaror namunasi",
+          "Ikki taklifdan birida kuchli CPU, ammo kam RAM va sekin disk, ikkinchisida o‘rtacha CPU, yetarli RAM va SSD bor deb olaylik. Brauzer, muharrir va lokal serverni birga ishlatish uchun ikkinchi variant muvozanatliroq bo‘lishi mumkin. Bu yakuniy mahsulot tavsiyasi emas, tanlash usulining misolidir. Qaror real ish sinovi va dastur talabiga tayansin. Ish boshlanishidagi ehtiyoj keyinchalik konteyner, katta ma’lumotlar bazasi yoki virtual mashina qo‘shilganda o‘zgarishi mumkin."
+        ]
+      ],
+      "task": "Web dasturlash sinfi uchun konfiguratsiya jadvali tuzing: komponent, kerakli xususiyat, tanlov sababi, moslik dalili. Narx o‘rniga budjet ulushlarini ko‘rsating.",
+      "answer": "Jadvalda CPU va plata mosligi, RAM avlodi va sig‘imi, SSD protokoli, grafik ehtiyoj, PSU ulagichlari hamda korpus o‘lchami birgalikda asoslanishi kerak.",
+      "terms": "Konfiguratsiya=Tizimni tashkil etuvchi qurilmalar va sozlamalar majmuasi;Moslik=Komponentlarning birgalikda to‘g‘ri ishlash qobiliyati;QVL=Ishlab chiqaruvchi tekshirgan qurilmalar ro‘yxati;Budjet=Ajratilgan xarajat chegarasi;Yangilash zaxirasi=Kelajakda imkoniyatni oshirish uchun qoldirilgan resurs"
+    },
+    "7": {
+      "sections": [
+        [
+          "Unumdorlikni vazifa bilan bog‘lash",
+          "Ikki konfiguratsiyani bir xil vazifa va sharoitda taqqoslash kerak. Brauzer ochilishi, loyiha kompilyatsiyasi, arxiv yaratish va grafik render turli resurslarga tayanadi. Bitta umumiy ball barcha foydalanuvchi tajribasini ifodalamaydi. Sinovda dastur versiyasi, fayl to‘plami, quvvat rejimi va fon jarayonlari qayd etiladi; aks holda natijani takrorlash qiyinlashadi."
+        ],
+        [
+          "Zaif bo‘g‘inni aniqlash",
+          "CPU band bo‘lib disk va RAMda katta muammo bo‘lmasa hisoblash resursi chegaraga yetgan bo‘lishi mumkin. RAM yetishmasligi va diskka tez-tez murojaat xotira bosimini ko‘rsatadi. GPU vazifasida video xotira hajmi yoki GPUning o‘zi cheklov bo‘lishi mumkin. Yuk foizlarini alohida surat sifatida emas, vaqt davomida vazifa bilan birga kuzatish lozim. Bir yadro to‘liq band bo‘lsa umumiy CPU foizi past ko‘rinishi ham mumkin."
+        ],
+        [
+          "Quvvatni rejalash",
+          "PSU tanlashda komponentlarning yuk ostidagi talabi, qisqa muddatli yuqori iste’mol va ishlab chiqaruvchi tavsiyasi hisobga olinadi. PSU yorlig‘idagi nominal quvvat devordan doim shuncha elektr olinadi degani emas. Samaradorlik kirish va chiqish quvvati nisbatidir; sertifikatning o‘zi barcha himoya va sifat xususiyatlarini to‘liq tasdiqlamaydi. Modular PSU kabellari turli modellarda pinlar bo‘yicha farq qilishi mumkin, ularni aralashtirish mumkin emas."
+        ],
+        [
+          "Sovitish va barqarorlik",
+          "Issiqlik CPUdan termointerfeys orqali sovitgichga, undan havoga o‘tadi. Chang, noto‘g‘ri o‘rnatilgan sovitgich yoki to‘silgan havo oqimi haroratni oshiradi. Yuqori haroratda chastota pasayishi natijani yomonlashtiradi. Universal normal harorat raqamini barcha CPUga qo‘llash to‘g‘ri emas; modelning ruxsat etilgan ko‘rsatkichlari tekshiriladi. Stress sinovi o‘qituvchi nazoratida va harorat kuzatuvi bilan bajariladi."
+        ],
+        [
+          "Tanlovni son bilan asoslash",
+          "Bir xil test uch marta bajarilib, o‘rtacha yoki median vaqt solishtiriladi. Masalan, A tizim ishni 60 soniyada, B tizim 45 soniyada bajarsa vaqt 25 foiz kamaygan; ish bajarish tezligi esa 60/45 bo‘yicha taxminan 1,33 baravar. Foizning qaysi kattalikka nisbatan hisoblangani yoziladi. Yakuniy xulosa narx, sarflangan vaqt, shovqin, energiya va xizmat qulayligini birgalikda ko‘rsatadi."
+        ],
+        [
+          "Sinovdagi adolat va takrorlanuvchanlik",
+          "Bir tizim elektr tarmog‘ida, ikkinchisi batareyani tejash rejimida o‘lchansa taqqoslash noto‘g‘ri bo‘ladi. Dastlabki ishga tushirishda kesh sovuq, keyingi sinovda esa ma’lumot keshda bo‘lishi mumkin. Shu sabab sinov sharti va natija turi aniq yoziladi. Juda farqli natija chiqsa median, tarqalish va fon jarayonlari tekshiriladi. Unumdorlik oshganini aytish uchun faqat bir marta olingan eng yaxshi natijani tanlab ko‘rsatish yetarli emas."
+        ]
+      ],
+      "task": "Bir xil loyiha A tizimda 80 soniya, B tizimda 64 soniyada yig‘ildi. Vaqt tejalishi va tezlik nisbatini hisoblang. Sovitish yomonlashsa natija nega o‘zgarishini izohlang.",
+      "answer": "Vaqt (80−64)/80×100 = 20 foiz kamaygan. Tezlik nisbati 80/64 = 1,25. Issiqlik cheklovi CPU chastotasini tushirib, test vaqtini uzaytirishi mumkin.",
+      "terms": "Bottleneck=Umumiy tezlikni cheklovchi resurs;Benchmark=Taqqoslash uchun belgilangan sinov;PSU=Elektr quvvat manbai;Termointerfeys=CPU va sovitgich orasidagi issiqlik o‘tkazuvchi qatlam;Median=Tartiblangan natijalarning o‘rtadagi qiymati"
+    },
+    "8": {
+      "sections": [
+        [
+          "Mashg‘ulot maqsadi va jihozlar",
+          "Maqsad kompyuterni taxmin asosida emas, dalil asosida tavsiflashdir. Ishlaydigan o‘quv kompyuteri, uning qo‘llanmasi, kuzatuv jadvali va kerak bo‘lsa o‘qituvchi ochib ko‘rsatadigan tizim bloki tayyorlanadi. Ishchi kompyuterdan tashkiliy ma’lumotlarni ko‘chirish talab qilinmaydi. Seriya raqami, litsenziya kaliti va hisobga oid maxfiy ma’lumotlar ochiq hisobotga kiritilmaydi."
+        ],
+        [
+          "Dasturiy aniqlash bosqichlari",
+          "Windowsda Settings ichidagi About orqali CPU, RAM va tizim turini yozing. Task Managerning Performance bo‘limida CPU yadrolari, xotira va disk ko‘rsatkichlarini kuzating. Win+R orqali msinfo32 dasturini ochib tizim modeli va firmware rejimini tekshiring. Device Managerda qurilma nomlarini solishtiring. Linuxda lscpu, free -h, lsblk va lspci buyruqlari tegishli ma’lumotni ko‘rsatadi; ularning mavjudligi distributivga bog‘liq."
+        ],
+        [
+          "Fizik komponentlarni aniqlash",
+          "Korpusni faqat tokdan ajratilgan va o‘qituvchi ruxsat bergan qurilmada oching. Plata modeli, RAM moduli, disk shakli va kabellarini ko‘z bilan aniqlang. Kontaktlarga tegmang, CPU sovitgichini yoki PSU qopqog‘ini ajratmang. Ko‘rinmaydigan belgini taxmin bilan to‘ldirmang: aniqlanmadi deb yozib, qo‘llanma bilan tekshiring. Noutbukni ochish bu boshlang‘ich mashq uchun zarur emas."
+        ],
+        [
+          "Kuzatuv jadvali va tekshirish",
+          "Hisobotda komponent, aniqlangan model, asosiy parametr, dalil manbai va vazifa ustunlari bo‘lsin. Masalan, RAM uchun sig‘im va tizim ko‘rsatgan tezlik, disk uchun model va hajm qayd etiladi. Windowsdagi disk 0 raqami uning doim bir xil fizik portda ekanini kafolatlamaydi. Dasturiy ma’lumot bilan yorliq farq qilsa, birliklar, foydalanish mumkin bo‘lgan hajm va qurilma konfiguratsiyasi tekshiriladi."
+        ],
+        [
+          "Natijani talqin qilish va baholash",
+          "Yakuniy hisobot kompyuter web dasturlash uchun qaysi jihatdan yetarli, qaysi jihatdan cheklanganini tushuntiradi. Faqat qurilma nomlarini ko‘chirish yetarli emas: kamida uchta parametrning amaliy ma’nosi yoziladi. Baholashda xavfsizlik, ma’lumotning aniqligi, dalilning mavjudligi va xulosaning asosliligi tekshiriladi. Komponentni yangilash taklifi aniqlangan cheklov bilan bog‘lanishi kerak."
+        ],
+        [
+          "Hajm farqini izohlash",
+          "Disk yorlig‘idagi ishlab chiqaruvchi hajmi bilan OT ko‘rsatadigan son farq qilishi mumkin. O‘nlik GB 10 ning 9-darajasi bayt, ikkilik GiB esa 2 ning 30-darajasi baytdir. Bundan tashqari bo‘limlar va tizim fayllari ham foydalaniladigan bo‘sh joyni kamaytiradi. Umumiy hajm, bo‘lim hajmi va bo‘sh joy uch xil qiymat ekanini jadvalda ajrating. RAMning o‘rnatilgan va foydalanish mumkin bo‘lgan hajmi ham apparat rezervi yoki OT cheklovi tufayli farqlanishi mumkin."
+        ]
+      ],
+      "task": "CPU, ona plata, RAM, disk va grafik adapter bo‘yicha kamida besh qatorli inventar jadval tuzing. Har bir qatorga dalil va bir jumlalik vazifa yozing.",
+      "answer": "Bajarilgan ishda besh komponent, ularning tekshirilgan xususiyatlari va ma’lumot olingan vosita ko‘rsatiladi. Masalan, RAM hajmi ko‘p dastur bilan ishlashga, SSD esa yuklanish va faylga murojaat vaqtiga ta’sir qiladi.",
+      "terms": "Inventar=Tizim qurilmalarining qayd etilgan ro‘yxati;Device Manager=Windows qurilmalarini boshqarish vositasi;msinfo32=Windows tizim ma’lumotlari vositasi;Model=Qurilmaning aniq mahsulot belgisi;Dalil=Qaydning to‘g‘riligini tasdiqlovchi kuzatuv"
+    },
+    "9": {
+      "sections": [
+        [
+          "RAMning vazifasi",
+          "RAM CPU ishlatayotgan dastur kodlari va ma’lumotlarni tezkor saqlaydi. Ko‘p ishlatiladigan DRAM yacheykalari ma’lumotni saqlash uchun davriy yangilashni talab qiladi. Elektr o‘chsa odatda undagi ishchi ma’lumot yo‘qoladi. Diskda bo‘sh joy ko‘p bo‘lishi RAMning o‘rnini to‘liq bosa olmaydi: virtual xotira imkoniyatni kengaytiradi, lekin kechikish va tezlik jihatidan farq qiladi."
+        ],
+        [
+          "DDR avlodlari va modul shakllari",
+          "DDR oilasidagi avlodlar signal, kuchlanish, kontakt va ishlash imkoniyatlari bilan farq qiladi. Plata uchun belgilangan avloddan foydalaniladi; DDR4 va DDR5 o‘zaro mexanik yoki elektr almashtirish uchun mo‘ljallanmagan. Stol kompyuterlarida DIMM, ayrim noutbuklarda SO-DIMM, ba’zi tizimlarda esa plataga kavsharlangan xotira ishlatiladi. Noutbukdagi har bir RAMni keyinchalik almashtirish mumkin deb o‘ylash noto‘g‘ri."
+        ],
+        [
+          "Sig‘im uzatish tezligi va kechikish",
+          "Sig‘im bir vaqtda faol ma’lumot hajmini belgilaydi. DDR tezligi ko‘pincha MT/s bilan ifodalanadi; bu takt chastotasi bilan aynan bir ko‘rsatkich emas. CAS latency taktlar sonida beriladi, shuning uchun kichik CL har doim kamroq nanosekund degani emas. Soddalashtirilgan hisobda CAS vaqti CL×2000/MT/s nanosekund bo‘ladi. Masalan, 3200 MT/s va CL16 taxminan 10 ns beradi; bu to‘liq tizim kechikishi emas."
+        ],
+        [
+          "Kanallar va aralash modullar",
+          "Xotira kanallari bir nechta ma’lumot yo‘li orqali o‘tkazuvchanlikni oshirishi mumkin. Modullar qo‘llanmadagi tavsiya etilgan slotlarga joylanadi. Turli sig‘im yoki tezlikdagi modullar birgalikda ishlashi mumkin, ammo rejim va barqarorlik CPU hamda plataga bog‘liq. Eng yuqori yorliq tezligi avtomatik kafolatlanmaydi; standart rejim va XMP/EXPO kabi profil farqlanadi. Profilni yoqishdan oldin qo‘llab-quvvatlash va barqarorlik tekshiriladi."
+        ],
+        [
+          "Tanlash va nosozlik belgisi",
+          "RAM tanlashda real dasturlar talabi, bo‘sh slotlar, maksimal sig‘im va modul mosligi ko‘riladi. Tez-tez diskka sahifalash, dasturlar yopilishi yoki tizimning sekinlashishi xotira yetishmasligiga aloqador bo‘lishi mumkin, lekin bitta belgi yakuniy tashxis emas. Tasodifiy xatolarda diagnostika vositasi va apparat tekshiruvi qo‘llanadi. Xotira testi xatosiz yakunlanishi barcha nosozliklar mutlaqo yo‘qligini kafolatlamaydi."
+        ],
+        [
+          "Sig‘im va tezlikni ajratish",
+          "Talaba katta virtual mashina ochganda xotira yetishmasa, biroz tezroq lekin xuddi shuncha sig‘imli RAM muammoni hal qilmasligi mumkin. Avval maksimal faol ishchi hajm aniqlanadi, keyin mos sig‘im tanlanadi. Aksincha, sig‘im yetarli bo‘lsa, xotira o‘tkazuvchanligiga sezgir ayrim vazifalarda kanal rejimi muhimlashadi. Har bir holatda foyda dasturning haqiqiy chekloviga bog‘liq. Bir xil modeldagi to‘plam va tavsiya etilgan slotlar barqaror sozlashni osonlashtiradi."
+        ]
+      ],
+      "task": "3200 MT/s CL16 va 3600 MT/s CL18 modullarning soddalashtirilgan CAS vaqtini hisoblang. Nega birini faqat CLga qarab tezroq deyish mumkin emas?",
+      "answer": "Ikkalasida ham CL×2000/MT/s = 10 ns. Umumiy unumdorlik o‘tkazuvchanlik, boshqa tayminglar, kanal rejimi va CPU qo‘llab-quvvatlashiga ham bog‘liq.",
+      "terms": "DRAM=Davriy yangilash talab qiluvchi operativ xotira;DDR=Bir taktning ikki fazasida ma’lumot uzatish texnologiyasi;MT/s=Bir sekunddagi million uzatish;CAS latency=Ustun so‘rovidan ma’lumot chiqishigacha taktlar soni;Xotira kanali=CPU va RAM o‘rtasidagi ma’lumot yo‘li"
+    },
+    "10": {
+      "sections": [
+        [
+          "ROM va qayta yoziladigan firmware",
+          "ROM atamasi o‘qishga mo‘ljallangan doimiy xotirani bildiradi. Zamonaviy platadagi firmware odatda qayta dasturlanadigan flash xotirada saqlanadi. Shuning uchun kundalik nutqdagi BIOS chipini mutlaqo o‘zgarmas ROM deb tasvirlash to‘liq emas. Firmware apparat ishga tushishini tashkil qiladi; OT esa keyingi dastur va resurs boshqaruvini amalga oshiradi. Bu ikki qatlamning vazifasi bir-biridan farq qiladi."
+        ],
+        [
+          "BIOS va UEFI",
+          "BIOS an’anaviy firmware muhitini, UEFI esa zamonaviy standart interfeys va yuklanish muhitini bildiradi. UEFI boot yozuvlari va EFI dasturlaridan foydalanishi mumkin. Grafik menyu mavjudligi yoki sichqoncha ishlashi firmware turini aniqlashning yagona mezoni emas. UEFI GPT bilan ko‘p qo‘llanadi, eski BIOS esa ko‘pincha MBR asosidagi yuklanish bilan bog‘liq; real qo‘llab-quvvatlash OT va qurilmaga ham bog‘liq."
+        ],
+        [
+          "Ishga tushish ketma-ketligi",
+          "Quvvat berilgach firmware komponentlarni boshlang‘ich holatga keltiradi va apparatni tekshiradi. So‘ng belgilangan yuklanish qurilmasi yoki yozuvi tanlanadi, yuklagich OT yadrosini ishga tushiradi. Ekran chiqmasligi, boot qurilma topilmasligi va OT ichidagi dastur xatosi turli bosqichlarga tegishli. Belgining qaysi bosqichda paydo bo‘lishi diagnostika yo‘lini belgilaydi."
+        ],
+        [
+          "CPU keshining boshqa xotiralardan farqi",
+          "Kesh CPU bilan RAM o‘rtasidagi tezlik farqini yumshatadi; u odatda tezkor SRAM texnologiyasidan foydalanadi. Kesh foydalanuvchi hujjatlari uchun alohida disk emas va uning hajmini OTdagi oddiy fayl bilan oshirib bo‘lmaydi. Registr, kesh, RAM va disk iyerarxiyasi tezlik, hajm va narx farqlarini ko‘rsatadi. Yuqori darajadagi xotira tezroq, ammo odatda kichikroq bo‘ladi."
+        ],
+        [
+          "Firmware sozlamasi va yangilash",
+          "Yuklanish tartibi, vaqt, virtualizatsiya va ayrim apparat rejimlari firmwareda saqlanadi. Batareya bilan bog‘liq muammo vaqtning qayta o‘rnatilishiga sabab bo‘lishi mumkin; bu firmware kodi butunlay o‘chdi degani emas. Yangilash faqat aniq plata modeli uchun rasmiy ko‘rsatma va asosli ehtiyoj bilan bajariladi. Jarayonda elektr uzilishi tizimni ishga tushmaydigan holatga keltirishi mumkin, shuning uchun bu darsda yangilash amaliyoti bajarilmaydi."
+        ],
+        [
+          "Yuklanishdagi xatoni bosqichga ajratish",
+          "Kompyuter firmware menyusiga kirsa, ammo OTni topmasa, muammo har doim CPU yoki RAM buzilgan degani emas. Disk aniqlanishi, UEFI boot yozuvi, yuklagich va disk holati tekshiriladi. OT ish stoli ochilib, faqat brauzer ishlamasa firmware yangilashdan boshlash asosli emas. Har bir belgi tegishli qatlamga bog‘lanadi. Vaqt sozlamasining tez-tez qaytishi va yuklagich buzilishi bir xil muammo sifatida qayd qilinmaydi; kuzatuvlar alohida yoziladi."
+        ]
+      ],
+      "task": "CPU registri, kesh, RAM, SSD va firmware flashini tezlik, vazifa hamda elektr o‘chganda ma’lumot saqlanishi bo‘yicha taqqoslang.",
+      "answer": "Registr va kesh CPU ishini tezlashtiradi, RAM faol dasturlarni saqlaydi, SSD fayllarni uzoq muddat saqlaydi, flash esa firmware kodini saqlaydi. Kesh va RAM odatda energiyaga bog‘liq, SSD va flash esa doimiy saqlashga xizmat qiladi.",
+      "terms": "Firmware=Apparatni boshlang‘ich boshqaruvchi dastur;UEFI=Firmware va yuklanish uchun standart interfeys;Flash=Elektr o‘chganda ham ma’lumot saqlaydigan qayta yoziluvchi xotira;POST=Ishga tushishdagi apparat tekshiruvi;Bootloader=OTni yuklashni boshlaydigan dastur"
+    },
+    "11": {
+      "sections": [
+        [
+          "Ma’lumotni uzoq muddat saqlash",
+          "HDD va SSD elektr uzilganidan keyin ham fayllarni saqlaydi. Ular RAMdan vazifasi va ishlash tezligi bilan farq qiladi. Saqlash vositasini baholashda sig‘im, ketma-ket uzatish, tasodifiy murojaat, kechikish, chidamlilik va narx birgalikda ko‘riladi. Katta faylni ketma-ket ko‘chirish natijasi minglab kichik fayllar bilan ishlash tajribasini to‘liq ifodalamaydi."
+        ],
+        [
+          "HDD ishlash prinsipi",
+          "HDD aylanuvchi magnit plastinalar va o‘qish-yozish kallagidan foydalanadi. Kerakli sektorni topish uchun mexanik harakat kerak bo‘ladi; shu sabab tasodifiy murojaat kechikishi yuqoriroq. Katta sig‘imdagi arxiv uchun foydali bo‘lishi mumkin. Ishlayotgan diskka zarba berish xavfli. G‘ayrioddiy taqillash eshitilsa takroriy sinovlar bilan yuklamasdan muhim fayllarni himoyalash va mutaxassisga murojaat qilish ustun turadi."
+        ],
+        [
+          "SATA SSD va NVMe SSD",
+          "SSD ma’lumotni flash xotirada saqlaydi va mexanik kallakka ehtiyoj sezmaydi. SATA SSD SATA interfeysidan, NVMe SSD odatda PCIe ulanishi va NVMe protokolidan foydalanadi. M.2 qurilmaning shakli bo‘lib, unda SATA yoki PCIe asosidagi qurilma bo‘lishi mumkin. Plata ulagichi va qurilma protokoli mos kelishi shart. Eng yuqori reklama tezligi barcha ishda doimiy tezlik bo‘lib qolmaydi."
+        ],
+        [
+          "Chidamlilik va haqiqiy tezlik",
+          "SSD yozish chidamliligi TBW kabi ko‘rsatkichlarda ifodalanishi mumkin; bu belgilangan hajmga yetganda darhol ishdan chiqish vaqti degani emas. Bo‘sh joy, kontroller, flash turi, harorat va vaqtinchalik yozish keshi real tezlikka ta’sir qiladi. TRIM bo‘shatilgan bloklar haqida qurilmaga ma’lumot berishga yordam beradi. SSDni HDD kabi majburiy takroriy defragmentatsiya qilish zarur degan xulosa noto‘g‘ri; OTning mos optimallashtirish mexanizmi ishlatiladi."
+        ],
+        [
+          "Tanlash va ma’lumot xavfsizligi",
+          "OT va ishchi loyihalar uchun tez murojaat, arxiv uchun sig‘im ustun bo‘lishi mumkin. Disk holati SMART orqali kuzatiladi, lekin yaxshi holat ko‘rsatkichi nosozlik bo‘lmasligini kafolatlamaydi. RAID yoki ikkinchi bo‘limning mavjudligi mustaqil zaxira nusxa o‘rnini bosmaydi. Muhim loyiha alohida joyga nusxalanadi va qayta tiklash sinovi o‘tkaziladi. Diskni formatlashdan oldin model va tanlangan nishon tekshiriladi."
+        ],
+        [
+          "Disk hajmi va zaxira strategiyasi",
+          "Bitta katta diskni C va Dga bo‘lish ikki mustaqil qurilma yaratmaydi. Fizik disk ishdan chiqsa ikkala bo‘lim ma’lumoti xavf ostida qoladi. Ishchi loyiha uchun tashqi disk yoki boshqariladigan boshqa saqlash joyidagi alohida nusxa kerak. Zaxiraning mavjudligi bilan birga uning o‘qilishi va tiklanishi tekshiriladi. Ransomware yoki tasodifiy o‘chirishga qarshi versiyalash va uzib saqlanadigan nusxa foydali bo‘lishi mumkin; aniq usul tashkilot tartibiga moslanadi."
+        ]
+      ],
+      "task": "Tizim diski, katta video arxiv va tezkor loyiha katalogi uchun qurilma tanlab, sababini yozing. M.2 SATA diskni faqat PCIe qo‘llaydigan slotga tanlashdagi xatoni tushuntiring.",
+      "answer": "Tanlov vazifa va moslikka asoslanadi. Shakl bir xil bo‘lsa ham protokol mos kelmasligi mumkin; plata qo‘llanmasi tekshiriladi. Har qanday tanlovda alohida zaxira nusxa zarur.",
+      "terms": "HDD=Magnit plastinali saqlash qurilmasi;SSD=Yarimo‘tkazgichli saqlash qurilmasi;NVMe=Tezkor saqlash qurilmalari uchun protokol;IOPS=Bir sekunddagi kiritish chiqarish amallari;TBW=Yozish chidamliligini ifodalovchi umumiy yozilgan terabayt ko‘rsatkichi"
+    },
+    "12": {
+      "sections": [
+        [
+          "GPUning vazifasi",
+          "GPU ko‘plab o‘xshash amallarni parallel bajarishga moslashtirilgan protsessordir. Grafikada geometrik hisoblar, tekstura bilan ishlash va piksellarni hosil qilishda qatnashadi. CPU esa umumiy boshqaruv va murakkab ketma-ket vazifalarda muhim. Grafik vazifa ham CPU, RAM, disk va drayverlarga bog‘liq; GPU barcha ishni yakka bajarmaydi. Ayrim hisoblash dasturlari GPU tezlatishidan foydalanishi mumkin."
+        ],
+        [
+          "Integratsiyalashgan va diskret grafika",
+          "Integratsiyalashgan grafik blok CPU yoki tizim chipi tarkibida bo‘lib, ko‘pincha tizim RAMidan foydalanadi. Diskret karta odatda alohida GPU va o‘z videoxotirasiga ega. Birinchisi quvvat va xarajat jihatidan tejamkor bo‘lishi, ikkinchisi og‘ir grafik ishlar uchun ko‘proq imkoniyat berishi mumkin. Aniq natija model va vazifaga bog‘liq; har qanday diskret karta har qanday integratsiyalashgan grafikadan tez degan qoida yo‘q."
+        ],
+        [
+          "Videoxotira va grafik ish jarayoni",
+          "Videoxotirada kadr buferlari, teksturalar va hisoblash ma’lumotlari turadi. Sig‘im yetishmasa ma’lumot ko‘chirish ortib, ish sekinlashishi mumkin. Lekin VRAM hajmi GPUning hisoblash quvvatini o‘zi belgilamaydi. Yuqori aniqlikdagi tasvir ko‘proq pikselni qayta ishlashni talab qiladi; monitorning yangilanish chastotasi esa sekundda ko‘rsatiladigan yangilanishlar bilan bog‘liq. Ruxsat, sifat sozlamalari va xotira talabi birgalikda baholanadi."
+        ],
+        [
+          "Ulanish va moslik",
+          "Grafik karta PCIe sloti, korpus joyi, PSU quvvati va kerakli quvvat ulagichlariga mos bo‘ladi. Monitor HDMI yoki DisplayPort orqali mos portga ulanadi. Diskret GPU ishlatilayotgan bo‘lsa monitorni qayerga ulash qurilma konfiguratsiyasiga bog‘liq. Ulagich shakli, kabel sifati va versiya imkoniyatlari qo‘llab-quvvatlanadigan ruxsat hamda yangilanishga ta’sir qiladi. Adapter har doim barcha funksiyani saqlamaydi."
+        ],
+        [
+          "Drayver va kuzatuv",
+          "Drayver OT hamda grafik qurilma o‘rtasidagi aloqani ta’minlaydi. Uni rasmiy ishlab chiqaruvchi yoki OT yangilash manbasidan olish ma’qul. Tasvir buzilishi apparat, kabel, monitor yoki drayver bilan bog‘liq bo‘lishi mumkin; bitta belgi GPUni almashtirish uchun yetarli dalil emas. Yuk va harorat bir xil vazifada kuzatiladi. Web dasturlashda avvalo real grafik talab bor-yo‘qligi aniqlanadi."
+        ],
+        [
+          "Tasvir nega noto‘g‘ri chiqishi mumkin",
+          "Monitor kabeli ona plataning video portiga ulangan, lekin CPUda integratsiyalashgan grafika mavjud emas deb tasavvur qiling. Bunday holatda diskret karta o‘rnatilgani bilan o‘sha portdan tasvir chiqmasligi mumkin. Avval tizim konfiguratsiyasi va kabel joyi tekshiriladi. Boshqa vaziyatda ruxsatning pastligi asosiy grafik drayver bilan bog‘liq bo‘lishi mumkin. Kabel, monitor va GPUni ketma-ket ma’lum ishlaydigan qism bilan sinash sababni ajratishga yordam beradi, lekin elektr xavfsizligi saqlanadi."
+        ]
+      ],
+      "task": "Oddiy web dasturlash, ko‘p monitorli ofis va murakkab 3D sahna uchun grafik ehtiyojni taqqoslang. VRAM hajmi bir xil kartalar nega teng emasligini yozing.",
+      "answer": "Web ishida integratsiyalashgan grafika yetishi mumkin; monitor soni chiqish imkoniyatiga bog‘liq. 3D vazifada GPU quvvati, VRAM, drayver va dastur qo‘llab-quvvatlashi birgalikda baholanadi.",
+      "terms": "GPU=Parallel hisoblashga mos grafik protsessor;VRAM=Grafik ma’lumot saqlovchi videoxotira;Kadr buferi=Ekranga chiqariladigan tasvir ma’lumotlari joyi;Tekstura=Grafik sirt tasviri;Ruxsat=Ekrandagi piksel o‘lchamlari"
+    },
+    "13": {
+      "sections": [
+        [
+          "Periferiyani tasniflash",
+          "Kiritish qurilmasi foydalanuvchi yoki muhitdan axborot oladi: klaviatura, sichqoncha, mikrofon va skaner bunga misol. Chiqarish qurilmasi natijani beradi: monitor, printer va karnay. Sensorli ekran kabi qurilma ikkala vazifani ham bajarishi mumkin. Tasnif qurilmaning vazifasiga asoslanadi; USB orqali ulangan har bir qurilma bir xil turga kirmaydi. Saqlash va tarmoq qurilmalari ham alohida vazifalarga ega."
+        ],
+        [
+          "Klaviatura sichqoncha va audio",
+          "Klaviaturada til joylashuvi, maxsus tugmalar va ergonomika, sichqonchada sezgirlik hamda ish sirtiga moslik muhim. Simsiz ulanishda quvvat va qabul qilgich holati tekshiriladi. Mikrofon kiritish, karnay yoki quloqchin chiqarish yo‘nalishida ishlaydi. OTda noto‘g‘ri tanlangan audio qurilma tovush yo‘qolishiga sabab bo‘lishi mumkin. Mikrofon ruxsati faqat zarur dasturga beriladi."
+        ],
+        [
+          "Monitorning asosiy ko‘rsatkichlari",
+          "Diagonal ekran o‘lchamini, ruxsat piksellar sonini, yangilanish chastotasi tasvirning yangilanish imkoniyatini bildiradi. Rang aniqligi, yorqinlik va ko‘rish burchagi vazifaga qarab muhim. Yuqori ruxsat juda kichik matn hosil qilsa masshtablash sozlanadi. Ruxsat va chastota GPU, monitor, port va kabelning birgalikdagi imkoniyati bilan cheklanadi. Faqat kabel shakliga qarab eng yuqori rejimni kafolatlab bo‘lmaydi."
+        ],
+        [
+          "Printer va skaner",
+          "Printer tanlashda siyohli yoki lazerli texnologiya, rang, ikki tomonlama chiqarish va sarf materiallari xarajati hisobga olinadi. Skaner qog‘ozdagi tasvirni raqamlashtiradi; OCR esa tasvirdagi matnni belgilar sifatida tanishga urinadi. DPI va PPI atamalari turli bosqichlarga taalluqli bo‘lishi mumkin. Yuqori sifat sozlamasi fayl hajmi va vaqtni oshiradi, lekin manbadagi yo‘q detalni yaratmaydi."
+        ],
+        [
+          "Ulash va nosozlikni izlash",
+          "Avval quvvat va fizik ulanish, keyin OT aniqlashi, drayver, standart qurilma va dastur sozlamasi tekshiriladi. USB hubning quvvat imkoniyati yetishmasa qurilma barqaror ishlamasligi mumkin. Tarmoq printerida qurilma manzili va foydalanish ruxsati ham muhim. Noma’lum drayver to‘plamini o‘rnatish o‘rniga ishlab chiqaruvchi hujjati tekshiriladi. Sinov har safar bitta o‘zgarish bilan bajariladi."
+        ],
+        [
+          "Skaner sifati va fayl hajmi",
+          "Matnli hujjatni skanerlashda rang, ruxsat va siqish tanlovi kerakli natijaga mos bo‘ladi. Juda katta ruxsat keraksiz katta fayl yaratishi, juda past ruxsat esa harflarni tanishni yomonlashtirishi mumkin. OCR natijasida xatolar bo‘lishi tabiiy, ayniqsa sifatsiz surat yoki aralash alifboda. Tanilgan matn asl hujjat bilan solishtiriladi. Shaxsiy hujjatni noma’lum bulutli OCR xizmatiga yuborish oddiy skanerlash bilan bir xil maxfiylik holati emas."
+        ]
+      ],
+      "task": "Sensorli ekran, mikrofon, printer va skanerni tasniflang. Printer chiqarmayotganida tekshirish ketma-ketligini tuzing.",
+      "answer": "Sensorli ekran kiritish va chiqarish, mikrofon kiritish, printer chiqarish, skaner kiritish qurilmasidir. Printerda quvvat, kabel yoki tarmoq, navbat, standart printer, drayver va test sahifasi tekshiriladi.",
+      "terms": "Periferiya=Kompyuterga xizmat ko‘rsatuvchi tashqi yoki qo‘shimcha qurilma;OCR=Tasvirdagi matnni avtomatik tanish;DPI=Bir dyuymga to‘g‘ri keladigan nuqtalar ko‘rsatkichi;USB hub=Bitta USB ulanishini bir nechta portga ajratuvchi qurilma;Masshtablash=Interfeys elementlarining ko‘rinish o‘lchamini moslash"
+    },
+    "14": {
+      "sections": [
+        [
+          "Ishga tayyorgarlik va xavfsizlik",
+          "RAM yoki disk o‘rnatishdan oldin muhim fayllar zaxiralanadi va moslik tekshiriladi. Kompyuter to‘liq o‘chiriladi, tarmoq kabeli uziladi; noutbuk batareyasi bo‘yicha ishlab chiqaruvchi ko‘rsatmasi bajariladi. Statik elektrga qarshi tartib qo‘llanadi, qismlar chetidan ushlanadi. Elektr tarmog‘iga ulangan tizimda RAM yoki ichki disk o‘rnatilmaydi. PSU qopqog‘i ochilmaydi."
+        ],
+        [
+          "RAM o‘rnatish bosqichlari",
+          "Qo‘llanmadan bir yoki ikki modul uchun tavsiya etilgan slotlarni aniqlang. Modul avlodi va kesigi slotga mosligini tekshiring. Qulfni yo‘riqnoma bo‘yicha ochib, modulni tekis joylashtiring va ikki tomoni to‘liq o‘tirganini ko‘ring. Kuch bilan noto‘g‘ri yo‘nalishda bosmang. Ishga tushgach firmware yoki OTda umumiy sig‘im tekshiriladi. Dastlab standart xotira rejimida barqarorlik baholanadi."
+        ],
+        [
+          "SATA diskni ulash",
+          "Disk korpusning mos joyiga mahkamlanadi. SATA ma’lumot kabeli disk va plata portiga, PSUdan mos quvvat kabeli diskka ulanadi. Ulagichlarning yo‘nalishi tekshiriladi va kabel ventilyatorga tegmaydigan qilib joylashtiriladi. Modular PSUga boshqa model kabeli ulanmaydi. HDD ishlayotgan paytda siljitilmaydi. Eski diskdagi mavjud ma’lumotni saqlash vazifasi oldindan aniqlanadi."
+        ],
+        [
+          "M.2 diskni o‘rnatish",
+          "Plata qo‘llanmasidan slot protokoli va disk uzunligi tekshiriladi. Disk belgilangan burchakda joylashtirilib, mos tayanchga ehtiyotkor mahkamlanadi. Termal yostiq yoki sovitgich bo‘lsa rasmiy ko‘rsatma bajariladi. Vint haddan tashqari siqilmaydi. Ayrim M.2 slotlar boshqa portlar bilan resurs bo‘lishishi mumkin; o‘rnatishdan keyin barcha mavjud disklar aniqlanishi tekshiriladi."
+        ],
+        [
+          "OTda tekshirish va yakuniy dalil",
+          "Firmwareda ko‘ringan yangi disk fayl menejerida darhol chiqmasligi mumkin: bo‘lim va fayl tizimi yaratilmagan bo‘lishi ehtimol. Disk Managementda nishon diskning model va hajmi tekshiriladi. Initsializatsiya yoki formatlash faqat yangi bo‘sh o‘quv diskida o‘qituvchi nazoratida bajariladi; mavjud diskka bunday amal ma’lumot yo‘qotishi mumkin. Yakunda RAM sig‘imi, disk modeli va o‘rnatishdan oldingi holat bilan farq hisobotga yoziladi."
+        ],
+        [
+          "O‘rnatilgandan keyin tizim ochilmasa",
+          "RAM qo‘shilgandan keyin yuklanish bo‘lmasa tokdan ajratib, modulning joylashuvi va slot tavsiyasi tekshiriladi. Avvalgi ishlaydigan konfiguratsiyaga qaytib sinash sababni ajratadi. Disk o‘rnatilgandan keyin eski OT yo‘qolgandek ko‘rinsa boot tartibi va resurs bo‘lishadigan portlar ko‘riladi. Darhol formatlash bajarilmaydi. Har bir qayta joylashtirish quvvat o‘chirilgan holatda bajariladi va komponentga kuch ishlatilmaydi. Ba’zi tizimlarda yangi RAM bilan boshlang‘ich tayyorlash vaqt olishi mumkin; aniq qo‘llanma hisobga olinadi."
+        ]
+      ],
+      "task": "RAM yoki bo‘sh o‘quv diskini o‘qituvchi nazoratida o‘rnating. Oldingi va keyingi sig‘im, ulanish turi, aniqlash natijasi hamda bajarilgan xavfsizlik choralarini yozing.",
+      "answer": "Natijada qurilma firmware va OTda to‘g‘ri aniqlanishi, kabel va modul mahkam joylashishi hamda mavjud fayllar saqlanishi kerak. Formatlash bajarilgan bo‘lsa nishon disk dalili alohida qayd etiladi.",
+      "terms": "ESD=Statik elektr razryadi;SATA=Disklar uchun ulanish interfeysi;M.2=Kichik modul uchun shakl va ulagich oilasi;Bo‘lim=Diskdagi mantiqiy ajratilgan hudud;Initsializatsiya=Diskning bo‘lim jadvalini boshlang‘ich tayyorlash"
+    },
+    "15": {
+      "sections": [
+        [
+          "Tayyorlash va ulanish rejasini tuzish",
+          "Mashg‘ulot uchun monitor, klaviatura, sichqoncha va printer tayyorlanadi. Qurilma holati, quvvat talabi, kabel turi va mavjud portlar qayd qilinadi. Ulagichlar egilmagan, simlar shikastlanmagan bo‘lishi kerak. Qurilma kuchlanish talabiga mos quvvat manbai ishlatiladi. Stol ustidagi kabellar yurishga xalaqit bermaydigan qilib joylashtiriladi; zararli kabel bilan sinov davom ettirilmaydi."
+        ],
+        [
+          "Monitorni ulash va sozlash",
+          "Monitorni mos video chiqishga ulang, uning input menyusida to‘g‘ri manbani tanlang. OTda tavsiya etilgan ruxsat, qulay masshtab va qo‘llanadigan yangilanish chastotasini belgilang. Ikki monitorda duplicate va extend rejimlarini solishtiring. Tasvir bo‘lmasa avval quvvat, signal manbai va kabel tekshiriladi. Monitorni to‘g‘ri GPU chiqishiga ulash tizim konfiguratsiyasi asosida hal qilinadi."
+        ],
+        [
+          "Klaviatura sichqoncha va audio",
+          "USB qurilmalarni ulang va OT aniqlashini kuzating. Klaviatura tilini o‘zgartirib test matni kiriting, sichqoncha tugmalari va aylantirishni sinang. Simsiz qurilmada batareya va qabul qilgich juftligini tekshiring. Audio sozlamada chiqish va kirish qurilmasini alohida tanlang; past tovushda sinov bajaring. Mikrofon kerak bo‘lmagan paytda yozuv dasturini yopib, ruxsatlarni tekshiring."
+        ],
+        [
+          "Printerni o‘rnatish va tekshirish",
+          "Printerni ishlab chiqaruvchi ko‘rsatmasi bo‘yicha USB yoki o‘quv tarmog‘iga ulang. OT tavsiya qilgan yoki rasmiy drayverni o‘rnating. To‘g‘ri printer tanlanganini, qog‘oz va sarf materiali borligini tekshirib, test sahifasini chiqaring. Navbatda qolgan ishlar yoki offline holati kuzatiladi. Tarmoq printerini ochiq barcha tarmoqqa chiqarish mashg‘ulot maqsadi emas; faqat ruxsat etilgan mahalliy muhit ishlatiladi."
+        ],
+        [
+          "Qabul sinovi va hisobot",
+          "Har bir qurilma uchun ulanish turi, tanlangan sozlama, sinov va natija yoziladi. Monitor uchun test tasviri, klaviatura uchun matn, audio uchun qisqa yozuv, printer uchun test sahifasi dalil bo‘ladi. Muammo bo‘lsa bitta o‘zgarish kiritilib qayta sinov qilinadi. Ish yakunida foydalanuvchining avvalgi qulay sozlamalari tiklanadi va vaqtinchalik yozuvlar o‘chiriladi."
+        ],
+        [
+          "Printer muammosining kichik ssenariysi",
+          "Test sahifa chiqmayapti, lekin printer yoqilgan. Avval foydalanuvchi aynan qaysi printerni tanlagani, qurilma offline emasligi va navbatda to‘xtagan ish borligi ko‘riladi. Shundan keyin kabel yoki tarmoq hamda drayver tekshiriladi. Bitta test boshqa kompyuterdan muvaffaqiyatli chiqsa printer mexanizmi ishlashiga dalil kuchayadi, lekin foydalanuvchi kompyuteridagi ruxsat yoki navbat muammosi qolishi mumkin. Sarf materiali va qog‘oz holati ham dasturiy sozlamadan alohida tekshiriladi."
+        ]
+      ],
+      "task": "To‘rtta qurilma uchun ulash va qabul sinovi jadvalini to‘ldiring. Kamida bitta noto‘g‘ri sozlamani xavfsiz tarzda aniqlab, tuzatishdan oldingi va keyingi natijani solishtiring.",
+      "answer": "Masalan, monitorning noto‘g‘ri signal manbai yoki boshqa standart printer tanlangani aniqlanadi. Tuzatishdan so‘ng funksional sinov muvaffaqiyatli o‘tishi dalil bilan ko‘rsatiladi.",
+      "terms": "Plug and Play=Qurilmani avtomatik aniqlash mexanizmi;Extend=Ish stolini bir nechta ekranga kengaytirish;Duplicate=Bir xil tasvirni ekranga nusxalash;Print queue=Chop etishni kutayotgan ishlar navbati;Drayver=OTning qurilma bilan ishlashini ta’minlovchi dastur"
+    },
+    "16": {
+      "sections": [
+        [
+          "Operatsion tizimning zarurati",
+          "Operatsion tizim apparat resurslarini boshqaradi va dasturlar uchun xizmatlar taqdim etadi. Ilova har bir disk yoki klaviatura modeli uchun barcha past darajadagi buyruqlarni o‘zi yozmaydi; OT va drayverlar yordamidan foydalanadi. OT foydalanuvchi, dastur va apparat o‘rtasidagi boshqaruv qatlamidir. Kompyuter firmware bilan ishga tushishni boshlaydi, ammo umumiy dasturlarni muntazam boshqarish OT vazifasidir."
+        ],
+        [
+          "Asosiy boshqaruv vazifalari",
+          "Jarayonlarni rejalashtirish CPU vaqtini taqsimlaydi, xotira boshqaruvi dasturlarga adres maydoni beradi, fayl tizimi fayllarni tartiblaydi. Kiritish-chiqarish boshqaruvi qurilma bilan almashuvni, xavfsizlik esa foydalanuvchi va dastur vakolatlarini nazorat qiladi. OT xatolar haqida axborot to‘playdi va tarmoq xizmatlarini taqdim etadi. Bir xizmatdagi muammo butun tizim nosozligiga teng emas, chunki qatlamlar va himoya chegaralari mavjud."
+        ],
+        [
+          "OT turlari",
+          "Stol tizimi interaktiv ishlashga, server tizimi xizmat ko‘rsatishga, mobil tizim quvvat va sensor interfeysiga moslashtiriladi. Ichki qurilma OTsi maxsus apparat vazifalariga xizmat qiladi. Real vaqt tizimida faqat o‘rtacha tezlik emas, vazifani belgilangan muddatda bajarish kafolati muhim. Bu tasniflar qat’iy ajralgan emas: bir tizim bir nechta vazifani qo‘llashi mumkin."
+        ],
+        [
+          "Ko‘p vazifalilik va foydalanuvchi muhiti",
+          "Ko‘p vazifalilik bir nechta jarayonning resurslardan navbat bilan yoki parallel foydalanishini tashkil qiladi. Ko‘p foydalanuvchilik hisoblar, huquqlar va izolyatsiya bilan bog‘liq. Grafik interfeys qulay boshqaruv beradi; buyruq qatori avtomatlashtirish va aniq amallar uchun foydali. Interfeys OTning butun o‘zi emas: oynalar yopilganda ham yadro va fon xizmatlari ishlashda davom etadi."
+        ],
+        [
+          "OT tanlash mezonlari",
+          "Dasturiy moslik, apparat drayverlari, xavfsizlik yangilanishlari, foydalanish huquqi va boshqarish qulayligi tekshiriladi. Web dasturchi uchun brauzer, muharrir, server vositalari va konteyner yoki virtual muhit talablari muhim. Faqat tashqi ko‘rinish asosida tanlash yetarli emas. Tizim versiyasi qo‘llab-quvvatlanayotganini rasmiy manbadan tekshirish, yangilash va zaxiralashni rejalash ekspluatatsiyaning bir qismidir."
+        ],
+        [
+          "OT va ilova vazifalarini ajratish",
+          "Brauzer sahifadagi HTMLni talqin qiladi, lekin tarmoq adapteriga barcha buyruqlarni bevosita o‘zi bermaydi. OTning tarmoq xizmati va drayveri bilan hamkorlik qiladi. Muharrir faylni qanday tahrirlashni belgilaydi, OT esa saqlash va ruxsat xizmatini beradi. Shu sabab bitta ilovani almashtirish bilan apparat drayveri muammosi har doim hal bo‘lmaydi. Resurs boshqaruvi tushunchasi dastur xatosi, OT xatosi va apparat muammosini bir-biridan ajratishga yordam beradi."
+        ]
+      ],
+      "task": "Brauzerda sahifa ochish jarayonida OTning kamida beshta xizmatini ko‘rsating. Qaysi xizmat bo‘lmasa qanday muammo yuzaga kelishini yozing.",
+      "answer": "Jarayon rejalash, xotira ajratish, tarmoq, fayl keshi, grafik va qurilma xizmatlari qatnashadi. Masalan, DNS yoki tarmoq muammosi brauzer ishlasa ham sayt ochilmasligiga sabab bo‘lishi mumkin.",
+      "terms": "OT=Operatsion tizim;Resurs=CPU vaqti xotira yoki qurilma kabi boshqariladigan imkoniyat;Xizmat=Fon rejimida vazifa bajaruvchi tizim komponenti;Real vaqt tizimi=Belgilangan vaqt talabiga javob beruvchi tizim;Interfeys=Foydalanuvchi yoki dastur bilan aloqa usuli"
+    },
+    "17": {
+      "sections": [
+        [
+          "Yadro va yordamchi qatlamlar",
+          "Yadro resurslarni boshqaruvchi markaziy komponentdir. U jarayonlar, xotira, uzilishlar va qurilmalar bilan ishlashni tashkil qiladi. Grafik qobiq, ko‘plab xizmatlar va dasturlar yadrodan tashqarida ishlaydi. Monolit, mikroyadro va aralash yondashuvlar komponentlarning qayerda ishlashi hamda qanday aloqa qilishida farq qiladi. Tasnif tizimni tushunishga yordam beradi, lekin mahsulotning barcha xususiyatini bitta nom bilan izohlab bo‘lmaydi."
+        ],
+        [
+          "User mode va kernel mode",
+          "Protsessorning himoya rejimlari dastur vakolatini cheklaydi. User mode dasturlari yadro uchun ajratilgan resurslarga bevosita erkin kira olmaydi; kerakli xizmatni nazorat qilinadigan yo‘l orqali so‘raydi. Kernel mode kengroq apparat vakolatiga ega. Oddiy ilova xatosi ko‘pincha shu jarayon bilan chegaralanadi; yadro darajasidagi xato butun tizimga ta’sir qilishi mumkin. Bu izolyatsiya barcha xavfni mutlaqo yo‘qotmaydi."
+        ],
+        [
+          "Tizim chaqiriqlari",
+          "Dastur fayl o‘qish, jarayon yaratish yoki tarmoqdan foydalanish uchun OT xizmatini chaqiradi. Yuqori darajadagi kutubxona yoki API so‘rovni tegishli tizim chaqirig‘iga olib borishi mumkin. Yadro parametr va ruxsatlarni tekshiradi, amalni bajarib natija yoki xato qaytaradi. Har bir API chaqirig‘i albatta yadroga o‘tadi degani emas. Tizim chaqirig‘i himoyalangan chegaradan o‘tish mexanizmidir."
+        ],
+        [
+          "Drayverlar va qurilmalar",
+          "Drayver qurilmaga xos boshqaruvni OTning umumiy kiritish-chiqarish tizimi bilan bog‘laydi. Barcha drayverlar faqat kernel mode ichida ishlaydi degan fikr noto‘g‘ri: foydalanuvchi rejimida ishlaydigan drayver modellari ham bor. Muammo noto‘g‘ri versiya, qurilma mosligi yoki apparat holatidan kelib chiqishi mumkin. Shu sabab drayver yangilash aniq model va OTga mos rasmiy paket bilan bajariladi."
+        ],
+        [
+          "GUI buyruq qatori va xavfsizlik",
+          "Grafik qobiq va terminal foydalanuvchi niyatini dasturiy so‘rovlarga aylantiradi. Administrator hisobidan ishlashning o‘zi barcha dasturga avtomatik yadro rejimi beradi degani emas. Vakolat oshirish va CPU rejimi turli tushunchalardir. Muhim amallar uchun ruxsat nazorati, jarayon izolyatsiyasi va drayver imzosi kabi mexanizmlar birgalikda himoya hosil qiladi. Xatoni aniqlashda qatlamni to‘g‘ri topish muhim."
+        ],
+        [
+          "Vakolat bilan rejimni farqlash",
+          "Administrator bo‘lib kirgan foydalanuvchining matn muharriri ham odatda user mode ichida ishlaydi. Administratorlik hisobga berilgan huquqlarni, CPU rejimi esa bajarilayotgan kodning apparat vakolatini bildiradi. Ilova faylga yozmoqchi bo‘lsa yadro ruxsatni hisob ma’lumotlari asosida tekshiradi. Bu ikki tushunchani aralashtirish barcha xatoni administrator sifatida ochish orqali hal qilishga olib kelishi mumkin. Bunday odat keraksiz xavf tug‘diradi; xato sababi yo‘l, fayl qulfi yoki noto‘g‘ri format ham bo‘lishi mumkin."
+        ]
+      ],
+      "task": "Matn faylini saqlash so‘rovini ilova → API → tizim chaqirig‘i → fayl tizimi → drayver → qurilma ketma-ketligida tushuntiring.",
+      "answer": "Ilova so‘rov beradi, OT ruxsatni tekshiradi, fayl tizimi joylashuvni boshqaradi, drayver qurilmaga mos amalni bajaradi. Natija yoki xato ilovaga qaytariladi; ma’lumot kesh orqali ham o‘tishi mumkin.",
+      "terms": "Kernel=OT yadrosi;User mode=Cheklangan vakolatli dastur ijro rejimi;Kernel mode=Yadro darajasidagi vakolatli ijro rejimi;System call=OT xizmatiga nazoratli murojaat;API=Dasturiy komponent xizmatlarini chaqirish interfeysi"
+    },
+    "18": {
+      "sections": [
+        [
+          "Tizimlarni vazifa asosida taqqoslash",
+          "Windows va Linux oilasidagi tizimlar apparat hamda dasturlarni boshqaradi, ammo tarqatish, boshqaruv va dastur ekotizimi bilan farq qiladi. Windows mahsulot versiyalari orqali, Linux esa yadro atrofida tuzilgan distributivlar orqali taqdim etiladi. Distributiv yadro, tizim vositalari, paket boshqaruvi va ko‘pincha ish stolini birlashtiradi. Bir oilaning barcha tizimlariga bitta xususiyatni mutlaq tatbiq etish noto‘g‘ri."
+        ],
+        [
+          "Interfeys va kataloglar",
+          "Windowsda disk harflari, masalan C:, keng uchraydi. Linuxda katalog daraxti / ildizidan boshlanadi va disk bo‘limlari kerakli nuqtaga ulanadi. Foydalanuvchi fayllari ko‘pincha /home ichida joylashadi. Yo‘l ajratgichlari, registr sezgirligi va ruxsat talqini tizimga hamda fayl tizimiga bog‘liq. Linuxda katta-kichik harf farqi odatda muhim bo‘lgani uchun loyiha nomlari izchil yoziladi."
+        ],
+        [
+          "Dastur o‘rnatish va yangilash",
+          "Windowsda rasmiy o‘rnatuvchi, do‘kon yoki paket vositalari, Linuxda distributivning paket ombori va paket menejeri ishlatilishi mumkin. Faqat yuklab olingan fayl kengaytmasiga qarab ishonchlilik aniqlanmaydi. Dastur manbai, imzo, mos arxitektura va yangilanish yo‘li tekshiriladi. Ubuntu kabi tizimlarda apt ombor metama’lumotini yangilash bilan paketlarning o‘zini yangilash alohida amallardir."
+        ],
+        [
+          "Ruxsat va boshqaruv",
+          "Windowsda foydalanuvchi guruhlari va ACL, Linuxda egasi, guruhi va ruxsat bitlari asosiy mexanizmlar qatoriga kiradi. Linux sudo orqali ma’muriy amal bajarish imkonini beradi; bu har bir buyruqni doim yuqori vakolatda bajarish kerak degani emas. Har ikki muhitda kundalik ish cheklangan huquqda olib boriladi. Faylni ocholmaslik format, yo‘l yoki ruxsat muammosi bo‘lishi mumkin."
+        ],
+        [
+          "Web dasturlashdagi qo‘llanish",
+          "Brauzer, muharrir va ko‘plab web vositalari har ikkala muhitda ishlaydi. Ishchi kompyuter bilan serverning muhit farqi yo‘llar, qator oxiri, bog‘liqliklar va ruxsatlarda ko‘rinishi mumkin. Virtual mashina yoki WSL kabi imkoniyatlar o‘quv muhitini kengaytiradi, lekin alohida talab va cheklovlarga ega. Tanlov loyiha, foydalaniladigan dastur va jamoa ish tartibiga asoslanadi."
+        ],
+        [
+          "Loyihani boshqa muhitga ko‘chirish",
+          "Lokal sahifada Images/Logo.png deb yozilgan yo‘l serverdagi images/logo.png bilan mos kelmasligi mumkin. Katta-kichik harfga sezgir muhit bunday xatoni yuzaga chiqaradi. Loyiha fayl nomlarini izchil kichik harfda yuritish va nisbiy yo‘llardan tartibli foydalanish muhitlar o‘rtasidagi muammoni kamaytiradi. Dastur bog‘liqliklari va konfiguratsiya ham alohida qayd qilinadi. Windows yoki Linux nomining o‘zi barcha dastur mosligini kafolatlamaydi; aniq versiya, kutubxona va arxitektura tekshiriladi."
+        ]
+      ],
+      "task": "Windows va Linux uchun foydalanuvchi katalogi, dastur o‘rnatish, ruxsat va yangilash usullarini to‘rt mezon bo‘yicha taqqoslang.",
+      "answer": "Jadvalda bir xil vazifa ikki muhitda qanday bajarilishi ko‘rsatiladi. Masalan, Linuxda /home va paket menejeri, Windowsda foydalanuvchi profili va rasmiy o‘rnatuvchi yoki paket vositasi ishlatiladi.",
+      "terms": "Distributiv=Linux yadrosi va tizim dasturlari to‘plami;Paket menejeri=Dasturlar va bog‘liqliklarni boshqaruvchi vosita;Root=Kontekstga qarab ildiz katalog yoki ma’muriy hisob;sudo=Ruxsat bo‘yicha boshqa vakolatda buyruq bajarish vositasi;Mount=Fayl tizimini katalog daraxtiga ulash"
+    },
+    "19": {
+      "sections": [
+        [
+          "Dastur jarayon va oqim",
+          "Dastur diskdagi ko‘rsatmalar to‘plami, jarayon esa uning bajarilayotgan nusxasi va resurslaridir. Jarayon virtual adres maydoni, ochiq resurslar va identifikatorga ega. Oqim jarayon ichidagi ijro ketma-ketligidir. Bitta jarayonning oqimlari ko‘plab resurslarni bo‘lishadi, biroq har bir oqim o‘z ijro holati va stekiga ega. Bir dastur bir nechta jarayon yaratishi mumkin."
+        ],
+        [
+          "Jarayon holatlari",
+          "Soddalashtirilgan modelda jarayon tayyor, bajarilayotgan va kutayotgan holatlarda bo‘ladi. Tayyor jarayon CPU vaqtini kutadi; kutayotgan jarayon esa disk yoki tarmoq kabi hodisani kutishi mumkin. Rejalashtiruvchi qaysi oqim bajarilishini tanlaydi. Bir yadroda ham tez almashinish ko‘p vazifa bir vaqtda ishlayotgandek taassurot beradi. Bir nechta yadro ayrim vazifalarni haqiqatan parallel bajarishga imkon beradi."
+        ],
+        [
+          "Rejalashtirish va kontekst almashishi",
+          "OT vaqt bo‘lagi, ustuvorlik va tayyorlikni hisobga olib resurs taqsimlaydi. Kontekst almashishida registrlar va ijro holati saqlanib, boshqa oqimniki tiklanadi. Bu almashishning ham xarajati bor; oqimlar sonini cheksiz oshirish tezlikni doim oshirmaydi. Yuqori ustuvorlik bir jarayonni tezlashtirib, boshqalarning javob berishini yomonlashtirishi mumkin. O‘quv mashg‘ulotida tizim jarayonlari ustuvorligi o‘zgartirilmaydi."
+        ],
+        [
+          "Parallel ishlash va sinxronlash",
+          "Bir nechta oqim umumiy ma’lumotni bir vaqtda o‘zgartirsa poyga holati yuz berishi mumkin. Lock va boshqa sinxronlash mexanizmlari muvofiqlashtirishga xizmat qiladi. Resurslar bir-birini kutib qolsa deadlock paydo bo‘lishi ehtimol. Shu sabab parallel dasturlash faqat ishni bo‘lib yuborish emas; umumiy ma’lumot va ketma-ketlikni boshqarish hamdir. Ketma-ket qism katta bo‘lsa qo‘shimcha yadro foydasi kamayadi."
+        ],
+        [
+          "Kuzatish va xavfsiz yakunlash",
+          "Task Manager yoki Linuxdagi ps va top vositalari jarayonlarni ko‘rsatadi. PID jarayon identifikatori bo‘lib, keyinchalik boshqa jarayonga qayta berilishi mumkin. CPU va xotira yukini dastur vazifasi bilan birga talqin qiling. Faqat javob bermayotgan o‘quv ilovasini yakunlash mumkin; saqlanmagan ish yo‘qoladi. Noma’lum tizim jarayonini to‘xtatish o‘rniga uning vazifasi tekshiriladi."
+        ],
+        [
+          "Bir dastur ko‘p jarayon yaratishi",
+          "Brauzer sahifalar, kengaytmalar va yordamchi vazifalar uchun bir nechta jarayon ishlatishi mumkin. Shuning uchun Task Managerda bir xil nom takrorlanishi o‘z-o‘zidan zararli dastur belgisi emas. Har birining vazifasi, manbasi va umumiy resurs ishlatilishi ko‘riladi. Bitta sahifa og‘ir hisob bajarsa boshqalari javob berishda davom etishi mumkin; bu ajratishning foydasidir. Biroq jarayonlar izolyatsiyasi mutlaq xavfsizlik kafolati emas, yangilanish va ruxsatlar nazorati baribir kerak."
+        ]
+      ],
+      "task": "Brauzerning bir nechta jarayoni borligini kuzating. Tayyor va kutayotgan holatni farqlang hamda ko‘p oqim nega doim tezlik bermasligini izohlang.",
+      "answer": "Kutayotgan jarayonga hozir CPU ajratish foyda bermasligi mumkin, chunki hodisa tugamagan. Oqimlar boshqaruvi va umumiy resurslar xarajati, ketma-ket ish ulushi tezlanishni cheklaydi.",
+      "terms": "Process=Resurslarga ega bajarilayotgan dastur nusxasi;Thread=Jarayon ichidagi ijro oqimi;PID=Jarayon identifikatori;Kontekst almashishi=Ijro holatini saqlab boshqa oqimga o‘tish;Deadlock=Resurslarni o‘zaro kutish tufayli davom eta olmaslik"
+    },
+    "20": {
+      "sections": [
+        [
+          "Fayl tizimining vazifasi",
+          "Fayl tizimi ma’lumotni nomlangan fayl va kataloglarda saqlash, topish va boshqarish qoidalaridir. Fayl nomi, hajmi, vaqti va ruxsatlari metama’lumot hisoblanadi. Diskning fizik qurilma ekanini, bo‘lim uning ajratilgan hududi, fayl tizimi esa shu hududdagi tashkil etish usuli ekanini farqlash kerak. Diskni bo‘lish bilan formatlash turli amallardir."
+        ],
+        [
+          "Yo‘l va kataloglar",
+          "Absolyut yo‘l fayl joyini ildizdan boshlab, nisbiy yo‘l esa joriy katalogga nisbatan ifodalaydi. Fayl kengaytmasi odatda formatga ishora qiladi, ammo uni almashtirish mazmunni avtomatik o‘zgartirmaydi. Masalan, rasm nomini .docx qilish uni Word hujjatiga aylantirmaydi. Kengaytmalarni ko‘rsatish noma’lum fayllarni to‘g‘ri ajratishga yordam beradi. Loyiha kataloglari tushunarli nom va izchil tuzilma bilan yaratiladi."
+        ],
+        [
+          "FAT32 exFAT va NTFS",
+          "FAT32 ko‘plab qurilmalar bilan mos, lekin bitta fayl hajmi 4 GiBdan kichik bo‘lishi kerak. exFAT katta faylli ko‘chma qurilmalarda qulay bo‘lishi mumkin; moslik qurilmadan tekshiriladi. NTFS Windows tizimlarida ruxsatlar, jurnal va boshqa imkoniyatlarni qo‘llaydi. Tanlashda faqat maksimal hajm emas, qurilma qo‘llab-quvvatlashi, ruxsat va tiklash ehtiyoji hisobga olinadi."
+        ],
+        [
+          "Linux fayl tizimlari va jurnal",
+          "Linuxda ext4 kabi fayl tizimlari keng qo‘llanadi, boshqa variantlar ham mavjud. Jurnallash uzilishdan keyin tuzilma izchilligini tiklashga yordam beradi, biroq foydalanuvchi faylining barcha tahririni saqlash yoki zaxiralashni kafolatlamaydi. Ruxsatlar faylni kim o‘qishi, yozishi yoki bajarishini cheklaydi. Turli fayl tizimlari o‘rtasida nusxalashda ayrim metama’lumot va ruxsatlar saqlanmasligi mumkin."
+        ],
+        [
+          "Formatlash va xavfsiz ajratish",
+          "Formatlash mavjud ma’lumotga zarar yetkazishi mumkin; nishon qurilma model va hajm bilan tekshiriladi. Tez format maxfiy ma’lumotni ishonchli yo‘q qilish bilan teng emas. Ko‘chma qurilmani yozish tugamasdan uzish fayl buzilishiga olib kelishi mumkin, shuning uchun chiqarish funksiyasidan foydalaniladi. Xatoli fayl tizimini tuzatishdan avval muhim ma’lumot nusxalanadi; tiklash vositasining vazifasi va xavfi tushuniladi."
+        ],
+        [
+          "Fayl nomi bilan format farqi",
+          "Talaba oddiy matn faylini hisobot.docx deb qayta nomladi. Word uni ocholmasa, muammo fayl tizimi buzilganini anglatmaydi: ichki mazmun DOCX tuzilmasiga mos emas. Haqiqiy konvertatsiya kerakli dasturda Save As yoki eksport orqali bajariladi. Shuningdek, yashirilgan kengaytma sabab hisobot.docx.exe kabi nom noto‘g‘ri talqin qilinishi mumkin. Noma’lum fayl ishga tushirilmaydi. Fayl tizimi tashkiliy tuzilma, fayl formati esa fayl ichidagi ma’lumot qoidasi ekanini ajrating."
+        ]
+      ],
+      "task": "6 GiBli video faylni ko‘chirish uchun FAT32 tanlanganda nima bo‘ladi? exFAT yoki NTFS tanlovini qurilma mosligi va ruxsatlar asosida izohlang.",
+      "answer": "FAT32ning bitta fayl chegarasi sabab ko‘chirish bajarilmaydi. exFAT ko‘chma moslik uchun, NTFS esa Windows ruxsatlari kerak bo‘lgan muhitda tanlanishi mumkin; qabul qiluvchi qurilma qo‘llashi tekshiriladi.",
+      "terms": "Fayl tizimi=Fayllarni saqlash va boshqarish tuzilmasi;Metama’lumot=Fayl haqidagi tavsiflovchi ma’lumot;Absolyut yo‘l=Ildizdan boshlangan to‘liq manzil;Jurnallash=O‘zgarishlarni qayd etish orqali izchillikni saqlash mexanizmi;Formatlash=Bo‘limda fayl tizimini yaratish amali"
+    },
+    "21": {
+      "sections": [
+        [
+          "Mashg‘ulot doirasi va xavfsizlik",
+          "Yuklanuvchi USB OT o‘rnatuvchisini yoki sinov muhitini ishga tushiradi. ISO faylni oddiy ko‘chirish ko‘pincha yuklanuvchi muhit yaratmaydi; maxsus yozish amali talab qilinadi. USBdagi barcha fayllar o‘chishi mumkin, shuning uchun ular oldindan boshqa joyga nusxalanadi. Ishchi kompyuter diskiga o‘rnatish bajarilmaydi: bu mashqda faqat USB tayyorlash va yuklanishni tekshirish ko‘zda tutiladi."
+        ],
+        [
+          "ISO va vositani tayyorlash",
+          "O‘quv vazifasiga mos OT tasviri uning rasmiy saytidan olinadi. Arxitektura, versiya va USB uchun talab tekshiriladi. Rasmiy manbada nazorat yig‘indisi berilsa yuklangan fayl bilan solishtiriladi; yig‘indi manbasining o‘zi ham ishonchli bo‘lishi kerak. Windowsda Get-FileHash, Linuxda sha256sum kabi vositalar hash hisoblay oladi. USB yozish dasturi rasmiy ishlab chiqaruvchi manbasidan olinadi."
+        ],
+        [
+          "USBga yozish ketma-ketligi",
+          "Faqat ishlatiladigan USBni ulang va model hamda hajmini yozib oling. Dasturda ISO va nishon USBni tanlang. UEFI yoki boshqa yuklanish rejimi OT ko‘rsatmasiga mos bo‘lsin; ayrim vositalar tayyor tasvirni bevosita yozib, bo‘limni o‘zi yaratadi. Yakuniy nishon tekshirilib, yozish boshlanadi va tekshirish tugashi kutiladi. Jarayon davomida USB uzilmaydi."
+        ],
+        [
+          "Bir martalik boot menyusi",
+          "Kompyuter qayta ishga tushiriladi va ishlab chiqaruvchi ko‘rsatgan boot menyu tugmasi ishlatiladi. F12, Esc yoki boshqa tugma modelga qarab farq qiladi. Bir martalik USB tanlovi doimiy boot tartibini o‘zgartirishdan qulayroq. UEFI mos yozuv tanlanadi. Secure Bootni odat bo‘yicha o‘chirib yuborish kerak emas; mos rasmiy tasvir ishlatiladi va muammo aniq ko‘rsatma bilan hal qilinadi."
+        ],
+        [
+          "Natijani tekshirish",
+          "O‘rnatuvchining boshlang‘ich oynasi yoki diskka o‘rnatmaydigan sinov muhiti ochilgani yuklanish dalilidir. Install yoki diskni o‘chirish bosqichiga o‘tilmaydi. USBdan chiqqach kompyuter ichki diskdan odatdagidek yuklanishi tekshiriladi. Hisobotga ISO manbasi, hash tekshiruvi, USB tavsifi, yuklanish rejimi va natija yoziladi. Oldingi firmware sozlamalari o‘zgargan bo‘lsa tiklanadi."
+        ],
+        [
+          "Yuklanuvchi USB ko‘rinmasa",
+          "Avval ISO yozish muvaffaqiyati va USBning boshqa portda aniqlanishi tekshiriladi. Keyin firmware rejimi, tasvir arxitekturasi va rasmiy o‘rnatish ko‘rsatmasi solishtiriladi. USB menyuda yo‘qligi darhol ichki diskni o‘chirish yoki barcha xavfsizlik funksiyalarini o‘chirishga asos bo‘lmaydi. Kerak bo‘lsa qayta yozishdan oldin to‘g‘ri nishon yana tekshiriladi. Muammo yozuvi ekran xabari va bajarilgan tekshiruvlar bilan hujjatlashtiriladi; bir xil urinish sababsiz takrorlanmaydi."
+        ]
+      ],
+      "task": "Bo‘sh o‘quv USBda yuklanuvchi muhit yarating. ISO nazorat yig‘indisi, USB modeli va yuklanishning muvaffaqiyatli dalilini hisobotga kiriting.",
+      "answer": "Qabul mezoni: to‘g‘ri tasvir to‘g‘ri USBga yozilgan, o‘rnatuvchi yoki sinov oynasi ochilgan, ichki disk o‘zgarmagan va oddiy yuklanish qayta ishlagan.",
+      "terms": "ISO=Disk tasvirini saqlovchi fayl formati;Hash=Fayldan hisoblangan nazorat qiymati;Boot menu=Yuklanish manbasini tanlash menyusi;Secure Boot=Yuklanish komponentlari ishonchini tekshirish mexanizmi;O‘rnatish muhiti=OT o‘rnatuvchisini ishga tushiruvchi vosita"
+    },
+    "22": {
+      "sections": [
+        [
+          "O‘rnatishdan oldingi reja",
+          "OT o‘rnatish ma’lumotni yo‘qotish xavfi borligi sabab virtual mashina yoki alohida bo‘sh o‘quv diskida bajariladi. Muhim fayllar va kerak bo‘lsa disk shifrlashining tiklash kaliti xavfsiz joyga saqlanadi; kalit hisobotga kiritilmaydi. Apparat talablari, litsenziya va tarmoq mavjudligi tekshiriladi. O‘rnatish turini belgilamasdan disk bo‘limlarini o‘chirish mumkin emas. O‘qituvchi nishon muhitni tasdiqlaydi."
+        ],
+        [
+          "Virtual muhit yoki diskni tayyorlash",
+          "Virtual mashinada CPU, RAM va disk resurslari host tizimga yetarli zaxira qoldirib ajratiladi. Rasmiy ISO ulanadi va mos firmware rejimi tanlanadi. Fizik disk bo‘lsa uning model va hajmi qayd qilinadi, boshqa muhim disklar bilan adashishning oldi olinadi. Snapshot o‘quv tajribasini qaytarishga yordam beradi, lekin host qurilma buzilishiga qarshi mustaqil zaxira emas."
+        ],
+        [
+          "O‘rnatuvchi bilan ishlash",
+          "Til, klaviatura, vaqt mintaqasi va o‘rnatish varianti tanlanadi. Disk bo‘limi bosqichida o‘qituvchi nazoratisiz erase yoki delete ishlatilmaydi. Yuklagich uchun kerakli tizim bo‘limlarini o‘rnatuvchi odatda o‘zi tashkil qilishi mumkin. Jarayon tugagach qayta yuklanadi va ISO yoki USBdan takroriy o‘rnatishga qaytib ketmasligi tekshiriladi. Menyu nomlari OT versiyasiga qarab farqlanishi mumkin."
+        ],
+        [
+          "Hisob va dastlabki sozlamalar",
+          "Foydalanuvchi hisobi va kuchli parol yaratiladi; parol ochiq hisobotga yozilmaydi. Kundalik ish uchun cheklangan hisobdan foydalanish rejalashtiriladi. Vaqt mintaqasi Toshkentga, klaviatura kerakli tillarga moslanadi. Tarmoq ulanishining ommaviy yoki ishonchli mahalliy turi to‘g‘ri tanlanadi. Maxfiylik ruxsatlari vazifa ehtiyojiga qarab belgilanadi. Tizimning yangilanish holati tekshiriladi."
+        ],
+        [
+          "O‘rnatishdan keyingi qabul sinovi",
+          "Qurilmalar to‘g‘ri aniqlangani, tarmoq, ovoz va ekran ishlashi tekshiriladi. Rasmiy yangilanishlar va drayverlar o‘rnatilib, zarur qayta yuklash bajariladi. Matn fayli yaratish, saqlash, qayta ochish va qayta yuklangandan keyin hisobga kirish sinovi o‘tkaziladi. Hisobotda versiya, ajratilgan resurs, disk tuzilmasi va funksional sinov natijalari bo‘ladi. Ish muvaffaqiyati faqat ish stoli ochilishi bilan cheklanmaydi."
+        ],
+        [
+          "Disk tanlashdagi mas’uliyat",
+          "O‘rnatuvchidagi disk 0 yoki birinchi ko‘ringan satr doim bo‘sh disk degani emas. Hajm, model va mavjud bo‘limlar birgalikda tekshiriladi. Fizik tizimda bir nechta muhim disk bo‘lsa mashg‘ulot virtual muhitga ko‘chirilishi xavfni kamaytiradi. O‘rnatish tugaganidan keyin OT ishlashi bilan birga ma’lumot saqlanishi va qayta yuklanish tekshiriladi. Virtual mashinada clipboard yoki umumiy papka ulash kabi imkoniyatlar faqat vazifa uchun zarur bo‘lsa yoqiladi."
+        ]
+      ],
+      "task": "Virtual mashinada OT o‘rnating va beshta qabul sinovini bajaring: yuklanish, hisobga kirish, fayl saqlash, tarmoq va qurilma holati.",
+      "answer": "Natijada OT qayta yuklangandan keyin ham ishlashi, fayl saqlanishi va asosiy qurilmalar aniqlanishi kerak. Hisobotda xatolar hamda ularning yechimi bo‘ladi, maxfiy hisob ma’lumotlari bo‘lmaydi.",
+      "terms": "Virtual mashina=Dasturiy yaratilgan alohida kompyuter muhiti;Host=Virtual muhitni ishga tushirayotgan asosiy tizim;Guest=Virtual mashinadagi OT;Snapshot=Virtual muhitning vaqt nuqtasidagi holati;Litsenziya=Dasturdan foydalanish huquqi shartlari"
+    },
+    "23": {
+      "sections": [
+        [
+          "Drayver vazifasi va moslik",
+          "Drayver OTga qurilma bilan qanday ishlashni bildiradi. Paket qurilma modeli, OT oilasi, versiyasi va arxitekturasiga mos bo‘lishi kerak. Bir xil savdo nomi ostida turli apparat reviziyalari mavjud bo‘lishi mumkin. Qurilma ishlayotgan bo‘lsa ham yangi drayverga haqiqiy ehtiyoj va chiqarilish izohi tekshiriladi. Noma’lum avtomatik drayver to‘plami barcha muammoni xavfsiz hal qiladi degan qarash noto‘g‘ri."
+        ],
+        [
+          "Boshlang‘ich holatni qayd qilish",
+          "Device Manager ochilib ogohlantirish belgili yoki noma’lum qurilma aniqlanadi. Properties ichida device status, drayver versiyasi va hardware IDs ko‘riladi. Qurilma identifikatori mos paketni topishga yordam beradi; internetdan tasodifiy o‘rnatuvchi yuklashga sabab bo‘lmaydi. Joriy versiya va holat yozib olinadi. Qaytish imkoniyati uchun kerakli tiklash nuqtasi yoki zaxira rejalashtiriladi."
+        ],
+        [
+          "Ishonchli manbadan o‘rnatish",
+          "Avval OTning yangilash vositasi, keyin kompyuter yoki qurilma ishlab chiqaruvchisining aniq model sahifasi tekshiriladi. Yuklangan paket manbasi, imzosi va mosligi baholanadi. O‘rnatuvchi ko‘rsatmasi bajariladi, zarur administrator ruxsati faqat shu amalga beriladi. O‘rnatish tugagach talab qilinsa tizim qayta yuklanadi. Haydovchi imzosini tekshirish himoyasini o‘chirish odatiy yechim sifatida ishlatilmaydi."
+        ],
+        [
+          "Tekshirish va funksional sinov",
+          "Device Managerda status va yangi versiya ko‘riladi. Tarmoq adapterida ulanish, audioda ovoz, grafikada tavsiya etilgan ruxsat kabi haqiqiy funksiya sinovdan o‘tkaziladi. Ogohlantirish belgisi yo‘qligi barcha funksiyalar mukammal ishlashini o‘zi tasdiqlamaydi. Xuddi shuningdek, qurilma xatosi doim drayverdan emas: kabel, quvvat, apparat yoki firmware ham tekshiriladi."
+        ],
+        [
+          "Muammo bo‘lsa qaytish",
+          "Yangilashdan keyin muammo boshlangan bo‘lsa avvalgi drayverga Roll Back Driver imkoniyati mavjudligi tekshiriladi. Olib tashlash va qayta o‘rnatish faqat aniq qurilma uchun, tarmoq uzilishi yoki ekran muammosi ehtimoli hisobga olinib bajariladi. Har bir o‘zgarish va natija hisobotga yoziladi. Bir vaqtning o‘zida ko‘plab drayverlarni almashtirish sababni ajratishni qiyinlashtiradi."
+        ],
+        [
+          "Xato kodi sababning o‘zi emas",
+          "Device Managerdagi ogohlantirish ma’lum qurilmada muammo borligini bildiradi, ammo aniq sabab drayver, resurs, apparat yoki ulanish bo‘lishi mumkin. Xato tavsifi rasmiy hujjat bilan solishtiriladi. Yangi drayver o‘rnatilgandan keyin avval ishlagan funksiya buzilsa, versiya farqi va rollback tekshiriladi. Bir vaqtning o‘zida BIOS yangilash, OT qayta o‘rnatish va drayver almashtirish sababni ajratishni qiyinlashtiradi. Diagnostika bitta o‘zgarish va qayta sinov tamoyiliga tayanadi."
+        ]
+      ],
+      "task": "O‘quv qurilmasi uchun eski va yangi drayver versiyasi, rasmiy manba, o‘rnatish va funksional sinov jadvalini tuzing. Keraksiz yangilashni majburan bajarmang.",
+      "answer": "Qabul mezoni: aniq qurilmaga mos rasmiy paket ishlatilgan, holat tekshirilgan va funksiya sinovi o‘tgan. Muammo yuz bersa qaytish yo‘li hujjatlashtirilgan.",
+      "terms": "Hardware ID=Apparatni aniqlash identifikatori;Driver package=Drayver fayllari va o‘rnatish ma’lumotlari to‘plami;Digital signature=Paket manbasi va yaxlitligini tekshirish belgisi;Rollback=Avvalgi versiyaga qaytish;Device status=OT qayd etgan qurilma holati"
+    },
+    "24": {
+      "sections": [
+        [
+          "Firmware sozlamalariga kirish",
+          "BIOS/UEFI menyusi kompyuter ishga tushishida ishlab chiqaruvchi ko‘rsatgan tugma yoki OTning kengaytirilgan qayta yuklash yo‘li bilan ochiladi. Tugma barcha kompyuterda bir xil emas. Sozlashdan avval aniq model qo‘llanmasi va hozirgi holat qayd qilinadi. Ishchi kompyuterda shifrlash tiklash kaliti mavjudligi tekshiriladi, ammo u ochiq hujjatga kiritilmaydi. Har bir o‘zgarish asosli va qaytariladigan bo‘lishi kerak."
+        ],
+        [
+          "Boot tartibi va yuklanish yozuvlari",
+          "Doimiy boot tartibi tizim qaysi manbani avval tekshirishini belgilaydi. Bir martalik menyu esa joriy qayta yuklash uchun tanlov beradi. UEFI yozuvlari disk nomidan tashqari OT yuklagichini ham ko‘rsatishi mumkin. Noto‘g‘ri yozuv tanlansa OT diskda turgan bo‘lsa ham yuklanmasligi mumkin. Muammoni hal qilishda avval diskning aniqlanishi, keyin boot yozuvi va rejim mosligi ko‘riladi."
+        ],
+        [
+          "Virtualizatsiya",
+          "Intel VT-x yoki AMD-V kabi apparat imkoniyatlari virtual mashinani samarali ishlatishga yordam beradi. Menyudagi nom modelga bog‘liq. Funksiyani yoqishning o‘zi virtual mashina o‘rnatmaydi; hypervisor va OT talabi ham bo‘lishi kerak. IOMMU yoki VT-d qurilmalar bilan bog‘liq alohida virtualizatsiya imkoniyatidir, u asosiy CPU virtualizatsiyasi bilan aynan bir narsa emas. Dastur xabariga qarab kerakli funksiya tekshiriladi."
+        ],
+        [
+          "Xavfsizlik va xotira rejimlari",
+          "Secure Boot ishonchli yuklanish komponentlarini tekshirishga xizmat qiladi; uni muammo chiqmasdan oldin o‘chirib qo‘yish zarur emas. TPM kalitlarni himoyalash kabi vazifalarda qatnashadi. SATA rejimini yoki TPM holatini tushunmasdan o‘zgartirish yuklanish va shifrlangan ma’lumotga kirishga ta’sir qilishi mumkin. XMP/EXPO profili ham oddiy standart RAM sozlamasidan farq qiladi va moslik hamda barqarorlik talab qiladi."
+        ],
+        [
+          "Saqlash va qaytish tartibi",
+          "Faqat rejalashtirilgan bitta sozlama o‘zgartiriladi. Save and Exit bilan saqlash va Discard bilan bekor qilish farqi aniq tushuniladi. Qayta yuklangach kerakli funksiya ishlashi va oddiy yuklanish saqlangani tekshiriladi. Load defaults barcha muammo uchun zararsiz tugma emas: disk va xavfsizlik rejimlari o‘zgarishi mumkin. Ishlab chiqaruvchi hujjatisiz firmware yangilash bajarilmaydi."
+        ],
+        [
+          "Sozlama o‘zgarsa shifrlash ta’siri",
+          "Firmware yoki xavfsizlik sozlamasi o‘zgarganda ayrim shifrlangan tizimlar tiklash kalitini so‘rashi mumkin. Bu holatni chetlab o‘tishga urinish o‘rniga tashkilotning tiklash tartibi qo‘llanadi. Kalit oldindan borligi tekshiriladi, lekin uni o‘quv hisobotiga qo‘shish mumkin emas. Shu sabab ishchi kompyuterda TPMni tozalash yoki disk rejimini tasodifiy almashtirish mashg‘ulot vazifasi hisoblanmaydi. Boshlang‘ich holat va qaytish rejasi sozlashdan oldin tayyor bo‘lishi zarur."
+        ]
+      ],
+      "task": "Virtual mashina ishga tushmayotgan vaziyat uchun tekshirish rejasini yozing: CPU imkoniyati, firmware sozlamasi, OT va hypervisor talabi.",
+      "answer": "Avval xabarning mazmuni va qo‘llab-quvvatlash tekshiriladi. Faqat kerakli virtualizatsiya sozlamasi yoqilib qayta yuklanadi, so‘ng dasturda tekshiriladi; disk va Secure Boot rejimi sababsiz o‘zgartirilmaydi.",
+      "terms": "Boot order=Yuklanish manbalari ustuvorligi;Hypervisor=Virtual mashinalarni boshqaruvchi qatlam;TPM=Kalitlarni himoyalashga xizmat qiluvchi xavfsizlik moduli;VT-x=Intel apparat virtualizatsiyasi imkoniyati;Discard=Kiritilgan o‘zgarishni saqlamasdan chiqish"
+    },
+    "25": {
+      "sections": [
+        [
+          "Monitoringning maqsadi",
+          "Monitoring resurs ishlatilishini vaqt davomida kuzatib, muammoni dalil bilan aniqlashdir. Bir lahzadagi yuqori foiz har doim nosozlik emas: kompilyatsiya paytida CPUning faol bo‘lishi tabiiy. Kuzatuv avval bo‘sh holatda, keyin belgilangan vazifa vaqtida bajariladi. Dastur, vaqt, vazifa hajmi va quvvat rejimi qayd qilinsa natijalar taqqoslanadi. Monitoring bilan yuk beruvchi stress sinovi bir xil amal emas."
+        ],
+        [
+          "CPU va RAMni talqin qilish",
+          "CPU umumiy foizi barcha yadro yukini o‘rtacha ko‘rsatishi mumkin; bitta yadro chegaraga yetganida umumiy foiz past qoladi. RAMda ishlatilgan, mavjud, keshlangan va ajratilgan qiymatlar turlicha ma’noga ega. OTning bo‘sh RAMdan kesh uchun foydalanishi odatiy. Xotira bosimi va diskka sahifalash ortishi foydalanuvchi sezadigan kechikishga sabab bo‘lishi mumkin. Faqat kesh ko‘pligi asosida xotirani tozalash dasturi o‘rnatilmaydi."
+        ],
+        [
+          "Disk faolligi va kechikish",
+          "Disk active time, o‘qish-yozish hajmi va javob vaqti birgalikda ko‘riladi. 100 foiz faollik maksimal MB/sga yetganlikni doim anglatmaydi: ko‘p kichik so‘rov va yuqori kechikish diskni band qilishi mumkin. Yangilanish, antivirus skaneri yoki fayl indekslash fon yukini oshiradi. Disk salomatligi shubhali bo‘lsa avval ma’lumot himoyalanadi; uzoq og‘ir test muammoni kuchaytirishi mumkin."
+        ],
+        [
+          "Tarmoq va birliklar",
+          "Tarmoq tezligi bit/s, fayl hajmi ko‘pincha bayt bilan beriladi; 1 bayt 8 bit. 100 Mbit/s ulanishning nazariy hajmi 12,5 MB/s bo‘lib, real foydali tezlik protokol va boshqa cheklovlar sabab pastroq bo‘ladi. Tarmoq adapteri ulanish tezligi internetning kafolatlangan tezligi emas. DNS kechikishi, Wi-Fi signali yoki server yukini faqat lokal adapter foizidan aniqlab bo‘lmaydi."
+        ],
+        [
+          "Xulosani dalilga bog‘lash",
+          "Task Manager va Resource Monitor Windowsda, top, free, vmstat kabi vositalar Linuxda kuzatuv beradi. Bir nechta davr o‘lchanib, yuk paytidagi o‘zgarishlar yoziladi. Optimallashtirishdan oldin dastur va fon vazifasi aniqlanadi; himoya vositasini o‘chirish tezlikni baholashning odatiy usuli emas. O‘zgarishdan so‘ng aynan bir vazifa qayta bajarilib, natija avvalgi holat bilan solishtiriladi."
+        ],
+        [
+          "Ko‘rsatkichlar o‘rtasidagi bog‘lanish",
+          "Bir loyiha ochilganda RAM to‘lib, disk faolligi ortdi va interfeys sekinlashdi deb olaylik. Bu xotira bosimi bilan bog‘liq bo‘lishi mumkin. Biroq diskdagi yangilanish ham xuddi shu paytda ishlagan bo‘lsa qo‘shimcha tekshiruv kerak. Ortiqcha test ilovasi yopilib aynan o‘sha vazifa qaytariladi. Natija yaxshilansa taxmin kuchayadi. CPU, RAM, disk va tarmoq bir-biriga ta’sir qilgani uchun bitta foizdan universal xulosa chiqarilmaydi."
+        ]
+      ],
+      "task": "Brauzer va kod muharriri bilan ishlashda bo‘sh holat hamda loyiha ochilgan holatdagi CPU, RAM, disk va tarmoq ko‘rsatkichlarini uch martadan qayd qiling.",
+      "answer": "Hisobotda o‘lchov vaqti, vazifa, ko‘rsatkichlar va cheklov ehtimoli ajratiladi. 100 foiz disk faolligi bilan past MB/s kuzatilsa so‘rov turi va kechikish tekshiriladi, faqat tezlik reklamasiga suyanilmaydi.",
+      "terms": "Monitoring=Ko‘rsatkichlarni kuzatish;Baseline=Taqqoslash uchun boshlang‘ich holat;Paging=Xotira sahifalarini yordamchi saqlash bilan almashish;Active time=Qurilmaning ish bilan band vaqti;Throughput=Vaqt birligida bajarilgan foydali ish hajmi"
+    },
+    "26": {
+      "sections": [
+        [
+          "Identifikatsiya autentifikatsiya va ruxsat",
+          "Identifikatsiya foydalanuvchi kimligini bildiradi, autentifikatsiya shu da’voni tekshiradi, avtorizatsiya esa nima qilishga ruxsat borligini belgilaydi. Kuchli parol faylga ortiqcha ruxsat berilganini tuzatmaydi. Hisoblar har bir foydalanuvchining ishini ajratish va mas’uliyatni qayd qilishga xizmat qiladi. Bitta umumiy administrator hisobini barcha o‘quvchiga berish kim nima qilganini aniqlashni qiyinlashtiradi."
+        ],
+        [
+          "Standart va ma’muriy hisoblar",
+          "Kundalik ish standart hisobda bajariladi, administrator vakolati faqat kerakli sozlash uchun qo‘llanadi. Guruhlar ko‘plab hisoblarning ruxsatlarini birgalikda boshqarishni osonlashtiradi. Eng kam vakolat tamoyili vazifaga yetarli bo‘lgan huquqnigina berishni anglatadi. O‘quv hisoblari haqiqiy shaxsiy hisobdan alohida yaratiladi. Hisobni o‘chirishdan oldin unga tegishli fayllar va kirish oqibatlari tekshiriladi."
+        ],
+        [
+          "Parol va qo‘shimcha himoya",
+          "Uzun, noyob parol yoki parol iborasi tanlanadi; bir parolni bir nechta xizmatga ishlatishdan saqlaniladi. Parol menejeri va mavjud bo‘lsa ko‘p omilli autentifikatsiya yordam beradi. Parol, tiklash kodlari va kalitlar konspekt topshirig‘ining dalili sifatida ko‘rsatilmaydi. Shubhali sahifaga kirish ma’lumotini kiritish parolning uzunligidan qat’i nazar xavf tug‘diradi; manzil va so‘rov sababi tekshiriladi."
+        ],
+        [
+          "Fayl va papka huquqlari",
+          "Windows NTFS ruxsatlari foydalanuvchi hamda guruhlar uchun o‘qish, yozish va boshqa amallarni boshqaradi; meros olish yuqori papka qoidalarini davom ettiradi. Tarmoq ulash ruxsati bilan fayl tizimi ruxsati alohida qatlamdir. Linuxda egasi, guruhi va boshqalar uchun r, w, x huquqlari mavjud. Katalogdagi x o‘tish imkoniyatiga tegishli; oddiy fayldagi x esa bajarish bilan bog‘liq."
+        ],
+        [
+          "Ruxsatni sinash va tiklash",
+          "Amal faqat maxsus o‘quv papkasida bajariladi. Bitta hisobga o‘qish, boshqasiga tahrirlash huquqi berilib, har ikkisida haqiqiy sinov o‘tkaziladi. Tizim kataloglari yoki barcha disk uchun Everyone Full Control berish muammoni tuzatish usuli emas. Noto‘g‘ri huquq minimal zarur ruxsatga qaytariladi. Yakuniy dalil kim qaysi amalni bajara olgani va qaysi amal rad etilganini ko‘rsatadi."
+        ],
+        [
+          "Faylni ko‘rish va o‘chirish farqi",
+          "Ruxsat tizimida fayl mazmuniga kirish va katalog yozuvini o‘zgartirish turli amallardir. Shu sabab faqat faylning ruxsatini ko‘rib o‘chirish imkonsiz deb qat’iy aytish mumkin emas; katalog va meros qoidalari ham hisobga olinadi. O‘quv sinovida real foydalanuvchi hisobida bajarilgan natija yoziladi. Administrator hisobi bilan sinash cheklangan foydalanuvchining haqiqiy imkoniyatini to‘liq ko‘rsatmaydi. Tizim papkalarida ommaviy ruxsat almashtirishdan saqlaniladi."
+        ]
+      ],
+      "task": "Ikki o‘quv hisobi va bitta test papka uchun o‘qish hamda tahrirlash ruxsatlarini loyihalang. Har hisobda o‘qish, yangi fayl yaratish va o‘chirish natijasini yozing.",
+      "answer": "Faqat o‘qish huquqli hisob matnni ko‘radi, lekin o‘zgartira olmaydi; tahrirlash huquqli hisobga belgilangan doirada o‘zgartirish ruxsat etiladi. Amaldagi natija guruh a’zoligi va meros qoidalari bilan tekshiriladi.",
+      "terms": "Autentifikatsiya=Hisob egasi da’vosini tekshirish;Avtorizatsiya=Ruxsat etilgan amallarni aniqlash;ACL=Obyektga kirish qoidalari ro‘yxati;Meros olish=Yuqori obyekt ruxsatlarining pastga o‘tishi;Eng kam vakolat=Vazifaga kerakligidan ortiq huquq bermaslik"
+    },
+    "27": {
+      "sections": [
+        [
+          "Amaliy ishning maqsadi",
+          "Maqsad himoyani o‘chirib tajriba qilish emas, antivirus, firewall, yangilanish va zaxira nusxaning holatini tekshirishdir. Alohida o‘quv kompyuteri yoki virtual mashina ishlatiladi. Haqiqiy zararli dastur yuklanmaydi. Dastlab tizim versiyasi va boshlang‘ich himoya holati yoziladi. Xavfsizlik vositalari bir-birini to‘ldiradi: antivirus mavjudligi barcha fishing yoki noto‘g‘ri ruxsatlarni avtomatik bartaraf etmaydi."
+        ],
+        [
+          "Antivirus holatini tekshirish",
+          "Windows Security yoki tizimdagi rasmiy himoya vositasida real vaqt himoyasi, ta’rif yangilanishi va oxirgi tekshiruv holati ko‘riladi. Ruxsat etilgan oddiy test katalogida tezkor tekshiruv bajarilib, natija qayd qilinadi. Karantindagi noma’lum fayl tajriba uchun qayta tiklanmaydi. Bir nechta real vaqt antivirusini sababsiz yonma-yon o‘rnatish ziddiyat va ortiqcha yuk keltirishi mumkin; tashkilot siyosati hisobga olinadi."
+        ],
+        [
+          "Firewall va tarmoq profili",
+          "Faol tarmoq profili va firewall yoqilganligi tekshiriladi. Ommaviy Wi-Fi xususiy ishonchli tarmoq deb belgilanmaydi. Dasturga ruxsat berish zarur bo‘lsa faqat aniq dastur, yo‘nalish va kerakli profil doirasida qoida yaratiladi. Barcha portni ochish yoki firewallni butunlay o‘chirish ishlatilmaydi. O‘quv qoida yaratilgan bo‘lsa uning maqsadi va olib tashlash tartibi yoziladi."
+        ],
+        [
+          "Yangilanishlarni boshqarish",
+          "OT va xavfsizlik yangilanishlari holati rasmiy vositada tekshiriladi. Zarur qayta yuklash rejalashtiriladi, ishchi fayllar avval saqlanadi. Yangilanishdan keyin asosiy dastur va qurilmalar sinovdan o‘tkaziladi. Tizim versiyasi qo‘llab-quvvatlanmasa bu alohida muammo sifatida qayd qilinadi; faqat antivirus mavjudligi eskirgan tizimni to‘liq xavfsiz qilmaydi. Soxta update oynasidan o‘rnatuvchi olinmaydi."
+        ],
+        [
+          "Zaxiralash va qayta tiklash sinovi",
+          "Test papkasida uchta oddiy fayl yarating, ularni alohida joyga nusxalang va nusxa vaqti hamda manzilini yozing. Asl test faylining nusxasi o‘zgartirilib, zaxiradan boshqa bo‘sh papkaga qayta tiklanadi; mazmun solishtiriladi. 3-2-1 yondashuvi uch nusxa, ikki xil saqlash turi va bittasini boshqa joyda saqlashni ko‘zlaydi. Bulutdagi oddiy sinxronlash o‘chirishni ham tarqatishi mumkin, shuning uchun versiya va tiklash imkoniyati tekshiriladi."
+        ],
+        [
+          "Sinxronlash va zaxira farqi",
+          "Loyiha fayli sinxron papkadan tasodifan o‘chirilsa o‘chirish boshqa qurilmalarga ham tarqalishi mumkin. Versiya tarixi yoki axlatdan qaytarish mavjud bo‘lsa yordam beradi, ammo ularning muddati va qamrovi tekshiriladi. Alohida zaxira esa ma’lum vaqt holatini saqlash uchun mo‘ljallanadi. Sinov uchun haqiqiy muhim fayl emas, alohida yaratilgan test fayli ishlatiladi. Zaxira nusxa mavjud degan belgi faqat uni ochish va tiklash muvaffaqiyatli bo‘lganda amaliy ishonch beradi."
+        ]
+      ],
+      "task": "Antivirus, firewall, yangilanish va zaxira uchun holat jadvalini tuzing. Uchta test faylini zaxiralab, ulardan bittasini boshqa katalogga tiklang va mazmunini tekshiring.",
+      "answer": "Qabul mezoni: himoya faol, yangilanish holati tushuntirilgan, zaxira alohida joyda va tiklangan fayl o‘qiladi. Himoyani o‘chirish yoki zararli dastur ishga tushirish bajarilmaydi.",
+      "terms": "Antivirus=Zararli faoliyatni aniqlash va cheklash vositasi;Firewall=Tarmoq almashuvini qoida asosida filtrlash vositasi;Karantin=Shubhali faylni izolyatsiya qilish;Backup=Qayta tiklash uchun alohida nusxa;Restore=Zaxiradan ma’lumotni qaytarish"
+    },
+    "28": {
+      "sections": [
+        [
+          "Dalil yig‘ish tamoyili",
+          "Diagnostika vositasi ko‘rsatgan har bir ogohlantirish foydalanuvchi muammosining sababi bo‘lavermaydi. Muammo boshlangan vaqt, bajarilgan amal va qayta takrorlanish sharti yoziladi. Avval tizimning odatiy holati kuzatiladi, keyin muammoli vazifa bajariladi. Shaxsiy fayl nomlari, hisoblar va tarmoq ma’lumotlari tushgan skrinshotlar topshirishdan oldin tozalanadi. Maqsad foydali dalil yig‘ish, ortiqcha ma’lumot nusxalash emas."
+        ],
+        [
+          "Task Manager bilan tekshirish",
+          "Processes bo‘limida CPU, RAM va disk bo‘yicha saralab eng faol ilovalar topiladi. Performance bo‘limida vaqt bo‘yicha grafik ko‘riladi. Startup ro‘yxati tizimga kirishda boshlanadigan dasturlarni ko‘rsatishi mumkin, ammo noma’lum xizmatni ko‘r-ko‘rona o‘chirish mumkin emas. Faqat maxsus ochilgan o‘quv ilovasini yakunlash sinovi bajariladi; saqlanmagan fayl yo‘qolishi oldindan hisobga olinadi."
+        ],
+        [
+          "Event Viewer bilan ishlash",
+          "Windows Logs ichidagi System va Application yozuvlari muammo vaqtiga filtrlab ko‘riladi. Source, Event ID, vaqt va tavsif qayd qilinadi. Event ID manba bilan birga talqin qilinadi; bir raqamni barcha muammo uchun universal kod deb bo‘lmaydi. Elektr uzilishidan keyingi kutilmagan o‘chish yozuvi oqibatni ko‘rsatishi mumkin, lekin elektr uzilganining aniq sababini o‘zi isbotlamaydi."
+        ],
+        [
+          "Device Manager va tizim vositalari",
+          "Device Managerda qurilma statusi, xato kodi va drayver ma’lumoti tekshiriladi. msinfo32 tizim tavsifini, Resource Monitor batafsil resurs faolligini ko‘rsatadi. Windows Memory Diagnostic xotira tekshiruvini rejalashi mumkin; qayta yuklash talabini oldindan hisobga oling. Diskka yozuvchi yoki tizimni tuzatuvchi vositani ishga tushirishdan oldin uning maqsadi va zaxira zarurati baholanadi."
+        ],
+        [
+          "Hisobot va xulosa",
+          "Dalil jadvalida belgi, vaqt, vosita, kuzatuv, taxmin va tekshirish natijasi alohida bo‘ladi. Bitta dalildan darhol yakuniy tashxis qo‘yilmaydi. Masalan, yuqori RAM ishlatilishi, paging va sekinlashish birga kuzatilsa xotira bosimi taxmini kuchayadi. Tuzatishdan keyin aynan o‘sha vazifa takrorlanadi. Tizim o‘zgarmagan bo‘lsa bu ham natija sifatida yoziladi."
+        ],
+        [
+          "Logdagi vaqtni moslashtirish",
+          "Muammo 10:15da bo‘lgan bo‘lsa, boshqa kunning ogohlantirishini sabab sifatida tanlash noto‘g‘ri. Tizim soati va vaqt mintaqasi tekshiriladi, hodisalar shu oraliqqa filtrlanadi. Bir xil vaqt oralig‘ida takrorlanadigan xato va foydalanuvchi amali o‘rtasidagi bog‘liqlik izlanadi. Bog‘liqlik sababni to‘liq isbotlamaydi, lekin keyingi sinovga yo‘l ko‘rsatadi. Logdan olingan satr shaxsiy hisob yoki fayl yo‘lini ochib qo‘ysa, topshiriladigan nusxada u yashiriladi."
+        ]
+      ],
+      "task": "Task Manager, Event Viewer va Device Managerdan bittadan foydali kuzatuv tanlang. Dalil va taxminni ikki alohida ustunda yozing.",
+      "answer": "Masalan, dalil: muammo vaqtida ilova xatosi qayd etilgan. Taxmin: muayyan modul yoki drayver bilan ziddiyat. Taxmin qayta sinov yoki rasmiy xato tavsifi bilan tekshirilmaguncha yakuniy sabab deb yozilmaydi.",
+      "terms": "Log=Hodisalar qaydi;Event ID=Muayyan manbadagi hodisa identifikatori;Source=Hodisani yozgan komponent;Diagnostika=Muammo sababini dalil bilan aniqlash;Gipoteza=Tekshirish talab qiladigan taxmin"
+    },
+    "29": {
+      "sections": [
+        [
+          "Muammoni aniq tariflash",
+          "Diagnostika avval nima ishlamayotgani va nima ishlayotganini ajratishdan boshlanadi. Faqat internet yo‘q degan gap o‘rniga Wi-Fi ulanganmi, lokal tarmoq ishlaydimi, IP bilan ulanish bormi va domen nomi ochiladimi degan savollar qo‘yiladi. Oxirgi o‘zgarish va muammo boshlangan vaqt yoziladi. Tajriba faqat o‘qituvchi ajratgan muhitda o‘tkaziladi; boshqa kompyuterlarga aralashilmaydi."
+        ],
+        [
+          "Yuklanish va apparat muammolari",
+          "Quvvat yo‘qligi, tasvir yo‘qligi, boot qurilma topilmasligi va OT xatosi alohida bosqichlardir. Rozetka, kabel, monitor manbai va tashqi qurilma kabi oddiy sabablar avval tekshiriladi. Disk ko‘rinmasa ulanish va firmware aniqlashi baholanadi. Diskni darhol formatlash yoki OTni qayta o‘rnatish boshlang‘ich diagnostika emas. Qimmatli fayllar xavf ostida bo‘lsa birinchi maqsad ularni saqlashdir."
+        ],
+        [
+          "Dastur va drayver muammolari",
+          "Muammo faqat bitta ilovadami yoki barcha dasturlardami aniqlanadi. Rasmiy yangilanish, diskdagi bo‘sh joy, ruxsat va xato jurnali ko‘riladi. Yangilashdan keyin boshlangan qurilma muammosida avvalgi versiyaga qaytish imkoniyati baholanadi. Bir vaqtning o‘zida ko‘p o‘zgarish kiritilmaydi. Ishlayotgan konfiguratsiya va bajarilgan amallar yozilsa noto‘g‘ri tajribadan qaytish osonlashadi."
+        ],
+        [
+          "Tarmoqni qatlamma-qatlam tekshirish",
+          "ipconfig /all orqali adres va gateway ko‘riladi; Windowsdagi 169.254 bilan boshlanuvchi IPv4 avtomatik lokal adres DHCPdan javob olinmaganini ko‘rsatishi mumkin. Gatewayga ping lokal ulanishni, nslookup domen yechilishini tekshirishga yordam beradi. Pingga javob yo‘qligi doim uzilish degani emas: ICMP filtrlangan bo‘lishi mumkin. DNS muammosini barcha tarmoq ishlamayapti degan xulosa bilan aralashtirmaslik kerak."
+        ],
+        [
+          "Tekshirish qaytish va eskalatsiya",
+          "Eng kam ta’sirli sinovdan murakkabroq sinovga o‘tiladi. Tuzatishdan so‘ng dastlabki muammo qayta tekshiriladi, yangi muammo yo‘qligi kuzatiladi. Ish joyi avvalgi xavfsiz holatga qaytariladi. Diskda shikastlanish, kuyish hidi, elektr xavfi yoki tashkilot boshqaruvidagi cheklov bo‘lsa ish to‘xtatilib mas’ul mutaxassisga topshiriladi. Xulosa kuzatuv, sabab va bajarilgan yechimni ajratib yozadi."
+        ],
+        [
+          "DNS va ulanishni ajratish",
+          "Kompyuter lokal gatewayga yetadi, boshqa tekshirilgan IPga ulanish bor, ammo nom bilan sayt ochilmaydi. Bu DNS muammosi taxminini kuchaytiradi, lekin tekshiriladigan serverning o‘zi ishlashi va brauzer sozlamasi ham hisobga olinadi. nslookup natijasi, belgilangan DNS va ruxsat etilgan tarmoq sozlamasi tekshiriladi. Begona ommaviy DNSni tashkilot siyosatiga zid ravishda majburan qo‘yish o‘rniga ruxsat etilgan konfiguratsiya tiklanadi. Muammo tuzalgach nom orqali ulanish qayta sinovdan o‘tkaziladi."
+        ]
+      ],
+      "task": "O‘qituvchi bergan noto‘g‘ri DNS yoki noto‘g‘ri monitor manbai vaziyatini tashxislang. Har bir sinov, natija, keyingi qaror va tiklash amalini qayd eting.",
+      "answer": "DNS vaziyatida fizik ulanish va IP ishlashi tekshiriladi, so‘ng nom yechilishi ajratiladi. Faqat o‘quv sozlamasi to‘g‘rilanadi va sayt qayta sinovdan o‘tadi. Monitor vaziyatida esa avval signal manbai va kabel ko‘riladi.",
+      "terms": "DHCP=IP sozlamalarini avtomatik beruvchi xizmat;DNS=Domen nomini tegishli yozuvga moslashtiruvchi tizim;Gateway=Boshqa tarmoqqa chiqish yo‘li;ICMP=Tarmoq boshqaruv xabarlarining protokoli;Eskalatsiya=Muammoni vakolatli mutaxassisga topshirish"
+    },
+    "30": {
+      "sections": [
+        [
+          "Kompleks ish ssenariysi",
+          "Vazifa web dasturlash uchun berilgan o‘quv kompyuteri yoki virtual mashinani tekshirish va foydalanishga tayyorligini asoslashdir. O‘quvchi apparat inventari, OT holati, qurilmalar, xavfsizlik va diagnostika bilimini birlashtiradi. Ishchi muhitdagi shaxsiy ma’lumotlar ko‘chirilmaydi. Ish boshlanishidan oldin ruxsat etilgan amallar, mavjud zaxira va qaytarish rejasi belgilanadi. Tizimni qayta o‘rnatish faqat topshiriqda alohida ko‘zda tutilgan bo‘lsa bajariladi."
+        ],
+        [
+          "Birinchi bosqich inventar va talab",
+          "CPU, RAM, saqlash, grafika, OT versiyasi va mavjud qurilmalar qayd qilinadi. Muharrir, brauzer, lokal server va loyiha fayllari uchun zarur resurslar bilan solishtiriladi. Aniq model va dalil manbai yoziladi. Talabga javob bermaydigan qism uchun mos yangilash taklifi beriladi; taxminiy narx yoki ishlash tezligi dalilsiz o‘ylab topilmaydi. Moslik ishlab chiqaruvchi hujjati bilan tekshiriladi."
+        ],
+        [
+          "Ikkinchi bosqich sozlash va himoya",
+          "Vaqt, klaviatura, ekran va kerakli foydalanuvchi sozlamalari tekshiriladi. Drayver holati va yangilanishlar rasmiy vositalardan baholanadi. Antivirus va firewall faol bo‘lishi, o‘quv papkasiga ruxsatlar minimal zarur doirada berilishi tekshiriladi. Test loyiha alohida joyga zaxiralanib, boshqa katalogga qayta tiklanadi. Hisob parollari va tiklash kalitlari hisobotdan tashqarida saqlanadi."
+        ],
+        [
+          "Uchinchi bosqich funksional va diagnostik sinov",
+          "Loyiha ochish, fayl saqlash, brauzerda lokal sahifa ko‘rish va tarmoq ishlashini tekshiring. Vazifa paytida CPU, RAM va disk kuzatiladi. O‘qituvchi kiritgan bitta xavfsiz sozlama xatosi dalil asosida aniqlanadi va tuzatiladi. Tuzatishdan keyin aynan o‘sha vazifa qayta bajarilib, natija solishtiriladi. Bajarilmagan test muvaffaqiyatli deb belgilanmaydi."
+        ],
+        [
+          "Yakuniy hisobot va baholash",
+          "Hisobotda maqsad, muhit, boshlang‘ich holat, bajarilgan ish, sinov dalillari, muammo sababi va tavsiya bo‘ladi. Baholash 100 ball: inventar va moslik 20, OT va drayver tekshiruvi 20, xavfsizlik va zaxira 20, diagnostika va qayta sinov 25, hisobotning aniqligi 15. Xavfli amalni bajarish o‘rniga uning nega to‘xtatilgani asoslanishi ijobiy baholanadi. Yakunda tizim ishlaydigan xavfsiz holatda topshiriladi."
+        ],
+        [
+          "Hisobotdagi xulosani himoya qilish",
+          "Yakuniy himoyada o‘quvchi kompyuter tez ishlaydi degan umumiy jumla bilan cheklanmaydi. Qaysi loyiha, qaysi dastur va qanday resurs yukida sinov o‘tgani ko‘rsatiladi. Bajarilmagan talab bo‘lsa ochiq qayd qilinadi va uni bajarish yo‘li taklif etiladi. Tavsiya aniqlangan cheklovga bog‘lanadi: RAM bosimi bo‘lmasa RAM qo‘shish asosiy yechim sifatida yozilmaydi. Hisobot boshqa mutaxassis aynan shu tekshiruvni qayta bajarishi mumkin bo‘ladigan darajada aniq bo‘lishi lozim."
+        ]
+      ],
+      "task": "Yuqoridagi besh baholash yo‘nalishi bo‘yicha yakuniy hisobot tayyorlang. Har bir talab yoniga dalil, bajarilish holati va qolgan cheklovni yozing.",
+      "answer": "Yaxshi ishda barcha xulosalar kuzatuv bilan tasdiqlanadi, zaxiradan tiklash sinovi bajariladi, diagnostika oldin va keyin solishtiriladi. Natija bajarilgan mezonlar yig‘indisi bilan 100 ballik tizimda hisoblanadi.",
+      "terms": "Qabul sinovi=Tizim talabni bajarayotganini tekshirish;Hisobot=Bajarilgan ish va dalillar hujjati;Mezon=Baholash uchun aniq talab;Qaytarish rejasi=O‘zgarish muvaffaqiyatsiz bo‘lsa avvalgi holatga qaytish tartibi;Funksional sinov=Foydalanuvchi vazifasining ishlashini tekshirish"
+    }
+  },
+  "questions": {
+    "1": "RAM va diskning vazifalari qanday farq qiladi?|Buyruq olish dekodlash va bajarish qanday bog‘langan?|Zaif bo‘g‘in nima uchun vazifaga bog‘liq?",
+    "2": "Avlodlar qaysi texnologik farqqa asoslanadi?|Integral sxema qanday o‘zgarishga yo‘l ochdi?|Server atamasi kompyuter avlodini bildiradimi?",
+    "3": "ALU registr va kesh nima qiladi?|GHz nega yagona taqqoslash mezoni emas?|Issiqlik CPU tezligiga qanday ta’sir qiladi?",
+    "4": "Soket bir xil bo‘lsa moslik kafolatlanadimi?|M.2 va NVMe qanday farq qiladi?|PCIe slotining uzunligi nimani kafolatlamaydi?",
+    "5": "Adres va ma’lumotning farqi nima?|Kechikish va o‘tkazuvchanlik qanday farqlanadi?|DMA nima uchun kerak?",
+    "6": "Konfiguratsiya tuzish nimadan boshlanadi?|RAM va diskning mosligi qanday tekshiriladi?|Korpus va PSU tanlashda nimalar hisobga olinadi?",
+    "7": "Zaif bo‘g‘in qanday aniqlanadi?|Sinov natijasining takrorlanishi nega zarur?|Vaqt kamayishi bilan tezlik oshishi foizi nega farq qiladi?",
+    "8": "Apparat xususiyatlari qaysi vositalarda aniqlanadi?|Hisobotda qaysi maxfiy ma’lumotlar bo‘lmasligi kerak?|GB va GiB qanday farqlanadi?",
+    "9": "MT/s va takt chastotasi bir xilmi?|Sig‘im bilan kanal rejimi nimaga ta’sir qiladi?|CL qiymatini qaysi ko‘rsatkich bilan birga talqin qilish kerak?",
+    "10": "Firmware bilan OT qanday farq qiladi?|UEFI yuklanish ketma-ketligi qanday?|Kesh va doimiy saqlashning farqi nima?",
+    "11": "HDD va SSD qanday ishlaydi?|M.2 shakli qaysi protokolni kafolatlamaydi?|Nega ikkinchi bo‘lim zaxira emas?",
+    "12": "GPU va CPU vazifalari qanday farqlanadi?|Integratsiyalashgan grafika qaysi xotiradan foydalanishi mumkin?|VRAM hajmi nega yagona tezlik mezoni emas?",
+    "13": "Kiritish va chiqarish qurilmalari qanday ajratiladi?|Monitor ruxsati va yangilanish chastotasi nimani bildiradi?|OCR natijasi nega tekshiriladi?",
+    "14": "RAM o‘rnatishdan avval nima tekshiriladi?|SATA va M.2 o‘rnatish bosqichlari qanday farq qiladi?|Nega yangi diskni darhol formatlash mumkin emas?",
+    "15": "Monitor tasvir bermasa birinchi nima tekshiriladi?|Audio kirish va chiqish qurilmalari qanday ajratiladi?|Printerning qabul sinovi nima?",
+    "16": "OT qanday resurslarni boshqaradi?|GUI bilan OT bir xil tushunchami?|Real vaqt talabi oddiy tezlikdan qanday farq qiladi?",
+    "17": "Tizim chaqirig‘i nima uchun zarur?|User mode va kernel mode qanday farq qiladi?|Administrator hisobi CPU rejimini bildiradimi?",
+    "18": "Linux distributivi nimadan tashkil topadi?|Windows va Linux yo‘llari qanday farqlanadi?|Loyihani ko‘chirishda harf registri nega muhim?",
+    "19": "Dastur jarayon va oqimning farqi nima?|Tayyor holat kutish holatidan qanday farq qiladi?|Parallel ishda poyga holati nima?",
+    "20": "Disk bo‘limi fayl tizimi va fayl formati qanday farqlanadi?|FAT32da katta fayl cheklovi qanday?|Jurnallash nega zaxiraning o‘rnini bosmaydi?",
+    "21": "ISOni nusxalash va tasvirni yozish qanday farq qiladi?|USB nishoni qanday tekshiriladi?|Yuklanish muvaffaqiyati qanday isbotlanadi?",
+    "22": "OTni qaysi o‘quv muhitida o‘rnatish ma’qul?|Disk tanlashda qaysi dalillar kerak?|O‘rnatishdan keyingi qabul sinovlari nimalar?",
+    "23": "Drayver mosligi qanday aniqlanadi?|Yangilashdan keyingi funksiya qanday sinaladi?|Rollback qachon foydali bo‘ladi?",
+    "24": "Bir martalik boot menyusi nima?|VT-x va hypervisor qanday bog‘langan?|Load defaults nega doim zararsiz emas?",
+    "25": "Baseline nima uchun olinadi?|Disk faolligi va MB/s qanday farq qiladi?|Tarmoqdagi bit va bayt qanday bog‘langan?",
+    "26": "Autentifikatsiya va avtorizatsiya qanday farq qiladi?|Eng kam vakolat tamoyili nima?|Ruxsat real foydalanuvchi hisobida nega sinaladi?",
+    "27": "Antivirus va firewall qanday farq qiladi?|Zaxiradan qayta tiklash nega sinaladi?|Sinxronlashning o‘zi qaysi xavfni bartaraf etmaydi?",
+    "28": "Event ID qaysi ma’lumot bilan birga talqin qilinadi?|Dalil va taxmin qanday farqlanadi?|Log vaqti nega muammo vaqti bilan solishtiriladi?",
+    "29": "Yuklanish bosqichi qanday aniqlanadi?|DNS muammosi lokal ulanishdan qanday ajratiladi?|Qachon ish mutaxassisga topshiriladi?",
+    "30": "Kompleks ishning besh baholash yo‘nalishi qaysilar?|Qabul sinovi qanday dalil beradi?|Yangilash tavsiyasi nimaga asoslanishi kerak?"
+  },
+  "references": {
+    "hardware": [
+      "Intel asosiy apparat komponentlari va yig‘ish qo‘llanmasi",
+      "https://www.intel.com/content/www/us/en/gaming/resources/how-to-build-a-gaming-pc.html"
+    ],
+    "board": [
+      "Intel ona plata tuzilishi va tanlash mezonlari",
+      "https://www.intel.com/content/www/us/en/gaming/resources/how-to-choose-a-motherboard.html"
+    ],
+    "ram": [
+      "Intel RAM mosligi va parametrlarini tushunish",
+      "https://www.intel.com/content/www/us/en/gaming/resources/how-much-ram-gaming.html"
+    ],
+    "kernel": [
+      "Microsoft user mode va kernel mode",
+      "https://learn.microsoft.com/en-nz//windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode"
+    ],
+    "arch": [
+      "Microsoft yadro komponentlari arxitekturasi",
+      "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/"
+    ],
+    "files": [
+      "Microsoft fayl tizimlari imkoniyatlarini taqqoslash",
+      "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+    ],
+    "usb": [
+      "Ubuntu yuklanuvchi USB tayyorlash",
+      "https://documentation.ubuntu.com/desktop/en/latest/how-to/create-a-bootable-usb-stick/"
+    ],
+    "install": [
+      "Ubuntu Desktop o‘rnatish qo‘llanmasi",
+      "https://ubuntu.com/tutorials/install-ubuntu-desktop"
+    ],
+    "driver": [
+      "Microsoft Device Manager orqali drayver yangilash",
+      "https://support.microsoft.com/en-us/windows/update-drivers-through-device-manager-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6"
+    ],
+    "errors": [
+      "Microsoft qurilma xato kodlari",
+      "https://support.microsoft.com/en-us/windows/hardware/drivers/error-codes-in-device-manager-in-windows"
+    ],
+    "backup": [
+      "Microsoft zaxiralash va tiklash",
+      "https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup"
+    ]
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "name": "Server dasturlash (Backend)",
+  "hours": 180,
+  "paras": 90,
+  "theoryHours": 90,
+  "practiceHours": 90,
+  "groups": [
+    {
+      "number": 1,
+      "name": "Backend va HTTP asoslari",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 1,
+          "title": "Backend vazifalari va mijoz server arxitekturasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Backend va Mijoz tushunchalarini izohlaydi; Server qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 2,
+          "title": "Amaliy mashg‘ulot — Backend vazifalari va mijoz server arxitekturasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Texnikum kutubxonasi uchun kitob qidirish va kitob berish jarayonini chizing. Har bir bosqich mijozdami yoki serverdami bajarilishini yozing."
+        },
+        {
+          "number": 3,
+          "title": "HTTP so‘rovi javobi URL va status kodlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "HTTP va URL tushunchalarini izohlaydi; Metod qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 4,
+          "title": "Amaliy mashg‘ulot — HTTP so‘rovi javobi URL va status kodlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Brauzer Network oynasida o‘zingiz ochgan sahifaning bir so‘rovini toping. Metod, yo‘l, status, Content-Type va javob tanasini qayd eting."
+        },
+        {
+          "number": 5,
+          "title": "REST API resurslar endpointlar va JSON shartnomasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "API va Resurs tushunchalarini izohlaydi; CRUD qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 6,
+          "title": "Amaliy mashg‘ulot — REST API resurslar endpointlar va JSON shartnomasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Vazifalar uchun GET ro‘yxat, GET bitta, POST, PATCH va DELETE endpointlarini jadval qiling. Har biriga kirish, status va javob misolini yozing."
+        },
+        {
+          "number": 7,
+          "title": "Node js LTS terminal va dasturlash muhitini tayyorlash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Node js va LTS tushunchalarini izohlaydi; Terminal qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 8,
+          "title": "Amaliy mashg‘ulot — Node js LTS terminal va dasturlash muhitini tayyorlash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Node 24 LTS va muharrirni tayyorlang. backend-dars katalogida index.cjs yarating va konsolga o‘z guruhingiz nomini chiqaring."
+        },
+        {
+          "number": 9,
+          "title": "Node http moduli bilan birinchi server",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "node http va createServer tushunchalarini izohlaydi; req qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 10,
+          "title": "Amaliy mashg‘ulot — Node http moduli bilan birinchi server",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Serverni lokal terminalda ishga tushiring. /health yo‘liga 200, noma’lum yo‘lga 404 beradigan shart qo‘shing. Har ikkisini brauzer bilan tekshiring."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Node js modullar va asinxron ishlash",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 11,
+          "title": "CommonJS modullari va kodni fayllarga ajratish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Modul va module exports tushunchalarini izohlaydi; require qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 12,
+          "title": "Amaliy mashg‘ulot — CommonJS modullari va kodni fayllarga ajratish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "price.cjs ichiga narx va son bo‘yicha jami hisoblovchi funksiya joylang. index.cjs dan uni chaqirib ikki holatni tekshiring."
+        },
+        {
+          "number": 13,
+          "title": "Fayllar kataloglar path va JSON saqlash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "node fs promises va Kodlash tushunchalarini izohlaydi; Path qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 14,
+          "title": "Amaliy mashg‘ulot — Fayllar kataloglar path va JSON saqlash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Faqat alohida mashq katalogida uchta vazifani JSONga saqlang, qayta o‘qing va sarlavhalarini chiqaring. Buzilgan JSON holatini ham try/catch bilan qayd eting."
+        },
+        {
+          "number": 15,
+          "title": "Asinxron amallar Promise async await va xatolar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Promise va async tushunchalarini izohlaydi; await qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 16,
+          "title": "Amaliy mashg‘ulot — Asinxron amallar Promise async await va xatolar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Berilgan funksiyani mavjud va noto‘g‘ri id bilan chaqiring. Har ikkala natijani qayd eting; ushlanmagan Promise xatosi qolmasin."
+        },
+        {
+          "number": 17,
+          "title": "npm package json skriptlar va muhit o‘zgaruvchilari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "npm va package json tushunchalarini izohlaydi; Lock fayl qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 18,
+          "title": "Amaliy mashg‘ulot — npm package json skriptlar va muhit o‘zgaruvchilari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Loyiha uchun start skriptini yozing. .gitignore ga node_modules, .env va mashq bazasini qo‘shing. Maxfiy qiymatsiz .env.example tuzing."
+        },
+        {
+          "number": 19,
+          "title": "Event loop bloklovchi amallar va parallel so‘rovlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Event loop va Bloklovchi kod tushunchalarini izohlaydi; I O qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 20,
+          "title": "Amaliy mashg‘ulot — Event loop bloklovchi amallar va parallel so‘rovlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Namuna tartibini oldindan yozing va konsolda sinang. Keyin katta bo‘lmagan hisoblash qo‘shib timer qachon ishlashini kuzating."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Express va REST API",
+      "hours": 24,
+      "topics": [
+        {
+          "number": 21,
+          "title": "Express ilovasi va middleware ketma ketligi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Express va Ilova tushunchalarini izohlaydi; Middleware qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 22,
+          "title": "Amaliy mashg‘ulot — Express ilovasi va middleware ketma ketligi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Express loyihasini o‘rnating. Oddiy vaqt logi yozadigan middleware va /health endpointi yarating; middleware tartibini tushuntiring."
+        },
+        {
+          "number": 23,
+          "title": "Route parametrlar query va identifikatorni tekshirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Route va Path parametr tushunchalarini izohlaydi; Query parametr qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 24,
+          "title": "Amaliy mashg‘ulot — Route parametrlar query va identifikatorni tekshirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Bitta id route va page query parametri qo‘shing. 7, abc, -1 va juda katta son holatlarini alohida tekshiring."
+        },
+        {
+          "number": 25,
+          "title": "JSON tana va serverda kirishni tekshirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "JSON parser va Tip tekshiruvi tushunchalarini izohlaydi; Chegara qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 26,
+          "title": "Amaliy mashg‘ulot — JSON tana va serverda kirishni tekshirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Title uchun 1–120 belgi qoidasini yozing. Bo‘sh, null, son, 120 va 121 belgili qiymatlarni sinab natija jadvali tuzing."
+        },
+        {
+          "number": 27,
+          "title": "Xotirada CRUD va REST javoblarini ishlab chiqish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Xotira ro‘yxati va Yaratish tushunchalarini izohlaydi; Yangilash qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 28,
+          "title": "Amaliy mashg‘ulot — Xotirada CRUD va REST javoblarini ishlab chiqish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Oldingi Express ilovasiga xotiradagi vazifalar uchun CRUD qo‘shing. Yaratish, topish, yangilash va o‘chirishning statuslarini qayd eting."
+        },
+        {
+          "number": 29,
+          "title": "Express Router servis va repository qatlamlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Router va Controller tushunchalarini izohlaydi; Servis qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 30,
+          "title": "Amaliy mashg‘ulot — Express Router servis va repository qatlamlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "CRUD kodini routes, service va repository vazifalariga ajrating. HTTPga tegishli va bazaga tegishli ikki qarorni yozma ravishda farqlang."
+        },
+        {
+          "number": 31,
+          "title": "Xatolar sahifalash va izchil API javoblari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Error middleware va Express 5 async tushunchalarini izohlaydi; Sahifalash qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 32,
+          "title": "Amaliy mashg‘ulot — Xatolar sahifalash va izchil API javoblari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ro‘yxatga sahifalash qo‘shing. 1-sahifa, 2-sahifa, limit 0 va limit 500 holatlarini sinang. 404 va 500 javoblarini ajrating."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "SQL SQLite va doimiy saqlash",
+      "hours": 24,
+      "topics": [
+        {
+          "number": 33,
+          "title": "Relatsion model SQLite jadval va cheklovlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Relatsion model va SQLite tushunchalarini izohlaydi; Primary key qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 34,
+          "title": "Amaliy mashg‘ulot — Relatsion model SQLite jadval va cheklovlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Kitoblar jadvali uchun id, title va year ustunlarini loyihalang. Majburiy ustun va mantiqiy yil chegarasini yozing."
+        },
+        {
+          "number": 35,
+          "title": "SQL INSERT SELECT WHERE ORDER BY va LIMIT",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "INSERT va SELECT tushunchalarini izohlaydi; WHERE qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 36,
+          "title": "Amaliy mashg‘ulot — SQL INSERT SELECT WHERE ORDER BY va LIMIT",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Beshta vazifa kiriting. Bajarilganlar va bajarilmaganlarni alohida tanlang; nom bo‘yicha va id bo‘yicha tartib natijalarini solishtiring."
+        },
+        {
+          "number": 37,
+          "title": "SQL UPDATE DELETE va tranzaksiya",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "UPDATE va DELETE tushunchalarini izohlaydi; Tranzaksiya qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 38,
+          "title": "Amaliy mashg‘ulot — SQL UPDATE DELETE va tranzaksiya",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Faqat demo bazada bitta satrni yangilang va tranzaksiyani bekor qiling. WHERE qo‘llanganda va qo‘llanmaganda qamrovni SELECT bilan taqqoslang."
+        },
+        {
+          "number": 39,
+          "title": "Tashqi kalit JOIN agregatlar va indeks",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Foreign key va JOIN tushunchalarini izohlaydi; Agregat qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 40,
+          "title": "Amaliy mashg‘ulot — Tashqi kalit JOIN agregatlar va indeks",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Users va tasks bog‘lanishini chizing. Vazifasi yo‘q foydalanuvchi ham chiqishi uchun LEFT JOIN bilan hisobot tuzing."
+        },
+        {
+          "number": 41,
+          "title": "Node sqlite tayyorlangan va parametrli so‘rovlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "node sqlite va DatabaseSync tushunchalarini izohlaydi; Prepared statement qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 42,
+          "title": "Amaliy mashg‘ulot — Node sqlite tayyorlangan va parametrli so‘rovlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Baza faylida parametrli INSERT va SELECT yozing. Qo‘shtirnoq qatnashgan title qiymatini oddiy ma’lumot sifatida saqlanishini tekshiring."
+        },
+        {
+          "number": 43,
+          "title": "SQLite repository va doimiy CRUD API",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Doimiy saqlash va Repository interfeysi tushunchalarini izohlaydi; Qayta ochish qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 44,
+          "title": "Amaliy mashg‘ulot — SQLite repository va doimiy CRUD API",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Massiv repositoryni SQLite repository bilan almashtiring. Serverni to‘xtatib qayta ochgach yaratilgan vazifa qolganini tekshiring."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Autentifikatsiya sessiya va ruxsatlar",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 45,
+          "title": "Autentifikatsiya parol xeshi salt va scrypt",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Autentifikatsiya va Parol xeshi tushunchalarini izohlaydi; Salt qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 46,
+          "title": "Amaliy mashg‘ulot — Autentifikatsiya parol xeshi salt va scrypt",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Faqat sun’iy mashq paroli bilan ikki xil salt yarating. Bir xil parolning hosilalari nega farq qilishini tushuntiring; ochiq parolni bazaga yoki logga yozmang."
+        },
+        {
+          "number": 47,
+          "title": "Ro‘yxatdan o‘tish tekshiruv va takroriy email",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Ro‘yxatdan o‘tish va Email normalizatsiyasi tushunchalarini izohlaydi; Parol siyosati qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 48,
+          "title": "Amaliy mashg‘ulot — Ro‘yxatdan o‘tish tekshiruv va takroriy email",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Signup endpointini parametrli SQL va xeshlash bilan bog‘lang. Noto‘g‘ri format, qisqa parol va takroriy emailni sinang; javobda hash yo‘qligini tekshiring."
+        },
+        {
+          "number": 49,
+          "title": "Login sessiya cookie va sessiya ombori",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Sessiya va express session tushunchalarini izohlaydi; MemoryStore qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 50,
+          "title": "Amaliy mashg‘ulot — Login sessiya cookie va sessiya ombori",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Lokal loyihada login muvaffaqiyatidan keyin regenerate qilib faqat userId saqlang. Keyingi /api/me so‘rovida shu hisob aniqlanganini tekshiring."
+        },
+        {
+          "number": 51,
+          "title": "Avtorizatsiya rol va resurs egasini tekshirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Avtorizatsiya va Egalik tushunchalarini izohlaydi; Rol qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 52,
+          "title": "Amaliy mashg‘ulot — Avtorizatsiya rol va resurs egasini tekshirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ikki sun’iy hisob yarating. Birinchi hisob vazifasini ikkinchi hisob orqali o‘qish, yangilash va o‘chirish so‘rovlarining barchasi rad etilishini tekshiring."
+        },
+        {
+          "number": 53,
+          "title": "Logout CSRF sessiya muddati va kirish urinishlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Logout va CSRF tushunchalarini izohlaydi; CSRF token qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 54,
+          "title": "Amaliy mashg‘ulot — Logout CSRF sessiya muddati va kirish urinishlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Sessiyali POST so‘rovini token bilan va tokensiz yuboring. Logoutdan keyin eski sessiya yordamida himoyalangan route ochilmasligini tekshiring."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Validatsiya xavfsizlik va yaxlitlik",
+      "hours": 16,
+      "topics": [
+        {
+          "number": 55,
+          "title": "Kirish sxemasi maydonlar ro‘yxati va biznes validatsiya",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Allowlist va Mass assignment tushunchalarini izohlaydi; Tip va oraliq qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 56,
+          "title": "Amaliy mashg‘ulot — Kirish sxemasi maydonlar ro‘yxati va biznes validatsiya",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "PATCH uchun ruxsat etilgan maydonlar ro‘yxatini yozing. role, user_id, done matni va bo‘sh obyekt holatlarini rad eting."
+        },
+        {
+          "number": 57,
+          "title": "SQL injection XSS CORS va himoya chegaralari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "SQL injection va XSS tushunchalarini izohlaydi; CORS qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 58,
+          "title": "Amaliy mashg‘ulot — SQL injection XSS CORS va himoya chegaralari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Frontend ro‘yxatidagi title chiqarishni textContent bilan yozing. SQL qidiruvda parametr ishlating; shu ikki himoyaning qaysi muhitga tegishli ekanini tushuntiring."
+        },
+        {
+          "number": 59,
+          "title": "Konfiguratsiya loglar xato javobi va maxfiy ma’lumot",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Konfiguratsiya va Maxfiy ma’lumot tushunchalarini izohlaydi; Log yozuvi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 60,
+          "title": "Amaliy mashg‘ulot — Konfiguratsiya loglar xato javobi va maxfiy ma’lumot",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Login, muvaffaqiyatli CRUD va 500 holati uchun xavfsiz log shaklini tuzing. Hech birida parol yoki cookie bo‘lmasligini tekshiring."
+        },
+        {
+          "number": 61,
+          "title": "Tranzaksion biznes amal va ma’lumot yaxlitligi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Biznes amal va Tranzaksiya chegarasi tushunchalarini izohlaydi; ROLLBACK qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 62,
+          "title": "Amaliy mashg‘ulot — Tranzaksion biznes amal va ma’lumot yaxlitligi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Demo bazada audit jadvali bilan tranzaksiyani sinang. Ikkinchi amal ataylab cheklovga zid bo‘lganda birinchi o‘zgarish ham qolmaganini SELECT bilan tekshiring."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Frontend bilan bog‘lash va testlash",
+      "hours": 16,
+      "topics": [
+        {
+          "number": 63,
+          "title": "Frontend fetch bir origin va sessiya cookie",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Bir origin va Fetch tushunchalarini izohlaydi; Cookie yuborish qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 64,
+          "title": "Amaliy mashg‘ulot — Frontend fetch bir origin va sessiya cookie",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Oldingi frontend ro‘yxatini lokal APIga ulang. 200, 401 va server o‘chiq holatlari uchun ko‘rinadigan xabarlarni yozing."
+        },
+        {
+          "number": 65,
+          "title": "Forma CRUD yuklanish bo‘sh va xato holatlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Holat modeli va Takroriy yuborish tushunchalarini izohlaydi; FormData qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 66,
+          "title": "Amaliy mashg‘ulot — Forma CRUD yuklanish bo‘sh va xato holatlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Vazifa qo‘shish formasiga loading, xato va bo‘sh ro‘yxat ko‘rinishini qo‘shing. Server rad etsa forma qiymati yo‘qolib ketmasin."
+        },
+        {
+          "number": 67,
+          "title": "Node test runner va funksiyalarni unit testlash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Unit test va node test tushunchalarini izohlaydi; Assert qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 68,
+          "title": "Amaliy mashg‘ulot — Node test runner va funksiyalarni unit testlash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Validator uchun null, son, bo‘sh, 1, 120 va 121 belgili holatlarni test qiling. Bir shartni ataylab buzib testning qizil bo‘lishini kuzating."
+        },
+        {
+          "number": 69,
+          "title": "API integratsion test va ruxsat regressiyasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Integratsion test va Vaqtinchalik baza tushunchalarini izohlaydi; Dinamik port qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 70,
+          "title": "Amaliy mashg‘ulot — API integratsion test va ruxsat regressiyasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "API uchun signup, login, yaratish, begona foydalanuvchi rad etilishi va logout holatlarini vaqtinchalik bazada tekshiring."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Joylashtirish va xizmatni boshqarish",
+      "hours": 12,
+      "topics": [
+        {
+          "number": 71,
+          "title": "Node serverni joylashtirish va doimiy disk",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Runtime hosting va Build va start tushunchalarini izohlaydi; PORT qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 72,
+          "title": "Amaliy mashg‘ulot — Node serverni joylashtirish va doimiy disk",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Tanlanadigan Node hosting uchun runtime, start, port, muhit va doimiy disk talablarini yozing. Shaxsiy hisob talab qiladigan joylashtirishni o‘qituvchi bilan bajaring."
+        },
+        {
+          "number": 73,
+          "title": "HTTPS origin reverse proxy va xavfsiz cookie",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "HTTPS va Origin tushunchalarini izohlaydi; Reverse proxy qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 74,
+          "title": "Amaliy mashg‘ulot — HTTPS origin reverse proxy va xavfsiz cookie",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Lokal HTTP va joylashtirilgan HTTPS uchun cookie va origin sozlamalarini taqqoslang. Proksi ishlatilsa uning nechta qatlam ekanini hujjatlashtiring."
+        },
+        {
+          "number": 75,
+          "title": "Monitoring backup tiklash va xizmatni to‘xtatish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Health endpoint va Backup tushunchalarini izohlaydi; Tiklash sinovi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 76,
+          "title": "Amaliy mashg‘ulot — Monitoring backup tiklash va xizmatni to‘xtatish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Demo bazaning xavfsiz nusxasini SQLite backup interfeysi yoki yopilgan bazani ko‘chirish bilan oling. Nusxani alohida katalogda ochib satrlar sonini solishtiring."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Yakuniy Backend loyiha",
+      "hours": 28,
+      "topics": [
+        {
+          "number": 77,
+          "title": "Yakuniy loyiha talablari API shartnomasi va ER diagramma",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Loyiha chegarasi va Qabul mezoni tushunchalarini izohlaydi; ER model qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 78,
+          "title": "Amaliy mashg‘ulot — Yakuniy loyiha talablari API shartnomasi va ER diagramma",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Yakuniy ish uchun users, tasks va sessions sxemasini chizing. Beshta muvaffaqiyat va beshta rad etish qabul mezonini yozing."
+        },
+        {
+          "number": 79,
+          "title": "Loyiha tuzilishi baza sxemasi va sessiya ombori",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Tuzilma va Baza ishga tushishi tushunchalarini izohlaydi; Sessiya ombori qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 80,
+          "title": "Amaliy mashg‘ulot — Loyiha tuzilishi baza sxemasi va sessiya ombori",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Yuklab olingan loyihani alohida katalogda oching. Har fayl vazifasini yozing, yangi demo baza yaratilganini tekshiring."
+        },
+        {
+          "number": 81,
+          "title": "Loyihada ro‘yxatdan o‘tish login va chiqish oqimi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Kirish oqimi va Parol tekshiruvi tushunchalarini izohlaydi; Sessiya almashishi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 82,
+          "title": "Amaliy mashg‘ulot — Loyihada ro‘yxatdan o‘tish login va chiqish oqimi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Yakuniy loyiha orqali yangi mashq hisobini yarating. Login oldingi va keyingi cookie farqini, logoutdan keyingi 401ni qayd eting."
+        },
+        {
+          "number": 83,
+          "title": "Loyihada foydalanuvchiga tegishli vazifalar CRUD",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Egalik ustuni va Izolyatsiya tushunchalarini izohlaydi; PATCH shartnomasi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 84,
+          "title": "Amaliy mashg‘ulot — Loyihada foydalanuvchiga tegishli vazifalar CRUD",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ikki hisobda alohida vazifalar yarating. Ro‘yxatlar aralashmasligi, boshqa id bilan PATCH va DELETE 404 olishini tekshiring."
+        },
+        {
+          "number": 85,
+          "title": "Loyihaning frontend interfeysi va holatlarini birlashtirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Birlashtirish va Kirish ko‘rinishi tushunchalarini izohlaydi; Asinxron interfeys qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 86,
+          "title": "Amaliy mashg‘ulot — Loyihaning frontend interfeysi va holatlarini birlashtirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Loyiha interfeysida qo‘shish, bajarildi belgilash va o‘chirishni sinang. Bo‘sh ro‘yxat, noto‘g‘ri parol va server o‘chiq holatlarini tekshiring."
+        },
+        {
+          "number": 87,
+          "title": "Yakuniy loyiha funksional xavfsizlik va regressiya sinovlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Funksional sinov va Salbiy sinov tushunchalarini izohlaydi; Ruxsat sinovi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 88,
+          "title": "Amaliy mashg‘ulot — Yakuniy loyiha funksional xavfsizlik va regressiya sinovlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Testlarni ishga tushiring. Qaysi test CSRF, qaysi test egalik va qaysi test validatsiyani tekshirayotganini hisobotda ko‘rsating."
+        },
+        {
+          "number": 89,
+          "title": "Loyihani hujjatlashtirish joylashtirish va himoya",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "README va Namoyish tushunchalarini izohlaydi; Joylashtirish rejasi qo‘llanishini namunada ajratadi."
+        },
+        {
+          "number": 90,
+          "title": "Amaliy mashg‘ulot — Loyihani hujjatlashtirish joylashtirish va himoya",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "README ni boshqa o‘quvchiga bering va toza katalogdan ishga tushirishni tekshirtiring. 5 daqiqalik himoyada ikki hisob izolyatsiyasini namoyish qiling."
+        }
+      ]
+    }
+  ],
+  "status": "Tavsiya etiladigan mualliflik ish rejasi",
+  "stack": "Node.js 24 LTS · Express 5 · SQLite",
+  "author": "Ubaydullayev Abdukarim",
+  "year": "2026/2027"
+}

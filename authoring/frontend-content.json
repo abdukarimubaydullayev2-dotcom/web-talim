@@ -1,0 +1,3377 @@
+{
+  "1": {
+    "terms": [
+      [
+        "Frontend",
+        "Foydalanuvchi brauzerda ko‘radigan va boshqaradigan interfeys qismidir. U kontent, uslub va xatti-harakatni birlashtiradi."
+      ],
+      [
+        "Interfeys",
+        "Matn, navigatsiya, forma va tugmalar orqali inson bilan dastur aloqasini tashkil qiladi."
+      ],
+      [
+        "HTML",
+        "Kontent tuzilishi va ma’nosini belgilaydi; sarlavha bilan tugmaning vazifasi farqlanadi."
+      ],
+      [
+        "CSS",
+        "Rang, o‘lcham, joylashuv va turli ekranlarga mos ko‘rinishni boshqaradi."
+      ],
+      [
+        "JavaScript",
+        "Hodisalarga javob berish, ma’lumotni qayta ishlash va interfeysni o‘zgartirish imkonini beradi."
+      ]
+    ],
+    "code": "O‘quvchi kutubxona saytida kitob nomini ko‘radi, kerakli bo‘limni tanlaydi va ma’lumotni o‘qiydi. U ko‘rib, ishlatayotgan sahifa — frontend interfeysiga misol.",
+    "task": "Kundalik foydalanadigan bitta saytni eslang. Uning foydalanuvchisi kim, u yerda qanday ma’lumot ko‘rinadi va foydalanuvchi qanday ish bajaradi? Og‘zaki izohlang.",
+    "pitfall": "Chiroyli ko‘rinishning o‘zi foydalanish qulayligi va ishlaydigan xizmatni kafolatlamaydi.",
+    "expected": "O‘quvchi frontendning vazifasini o‘z so‘zlari bilan tushuntiradi va hayotiy misol keltiradi.",
+    "mode": "study",
+    "teaching": "Frontendni foydalanuvchi bilan aloqa qismi sifatida ko‘ring: saytning maqsadi, undagi axborot va odam bajara oladigan amallarni ajrating. HTML, CSS va JavaScript nomlarini bu darsda faqat umumiy texnologiyalar sifatida eshitasiz; ularning kodini yozish talab qilinmaydi.",
+    "prerequisite": "Boshlang‘ich mavzu. Dasturlash tajribasi talab qilinmaydi."
+  },
+  "2": {
+    "terms": [
+      [
+        "Internet",
+        "Ko‘plab tarmoqlarni bog‘lovchi infratuzilma; WWW uning ustida ishlaydigan xizmatlardan biridir."
+      ],
+      [
+        "WWW",
+        "Giperhavolalar bilan bog‘langan veb-resurslar tizimidir; Internet bilan aynan bir tushuncha emas."
+      ],
+      [
+        "Brauzer",
+        "Resurslarni so‘raydi, HTML va CSSni talqin qiladi, JavaScriptni bajaradi va sahifani ko‘rsatadi."
+      ],
+      [
+        "Server",
+        "So‘rovga javoban resurs yoki xizmat natijasini taqdim etadi; brauzer bilan vazifasi farqlanadi."
+      ],
+      [
+        "URL",
+        "Resurs manzili bo‘lib, sxema, host, yo‘l va qo‘shimcha qismlardan tuzilishi mumkin."
+      ]
+    ],
+    "code": "Brauzerda sayt manzili kiritiladi. Brauzer serverga so‘rov yuboradi; server javob qaytaradi; brauzer sahifani ko‘rsatadi. Bitta sayt bir nechta sahifadan iborat bo‘lishi mumkin.",
+    "task": "Internet va WWWni, sayt va sahifani, brauzer va serverni juftlab farqlang. Saytni ochish jarayonini oddiy gaplar bilan ketma-ket ayting.",
+    "pitfall": "Brauzer ilovasi, qidiruv tizimi va Internetni bir-biriga tenglashtirmang.",
+    "expected": "O‘quvchi uch juft tushunchaning farqini va brauzer–server aloqasining asosiy ketma-ketligini aytadi.",
+    "mode": "study",
+    "teaching": "Internet — aloqa infratuzilmasi, WWW — uning ustidagi veb-xizmat. Brauzer so‘rovchi dastur, server javob beruvchi tizim. URL — manzil; ushbu bosqichda murakkab query yoki fragmentni yozish va HTML havola yaratish so‘ralmaydi.",
+    "prerequisite": "1-mavzu: frontend va foydalanuvchi interfeysi."
+  },
+  "3": {
+    "terms": [
+      [
+        "Frontend",
+        "Brauzerda interfeysni tashkil qiladi; serverdan olingan natijani foydalanuvchiga ko‘rsatishi mumkin."
+      ],
+      [
+        "Backend",
+        "Serverdagi biznes qoidalari, ruxsatlar va ma’lumot bilan ishlashni bajaradi."
+      ],
+      [
+        "Tuzilma",
+        "HTML sahifadagi ma’noli elementlar va ularning o‘zaro joylashishini ifodalaydi."
+      ],
+      [
+        "Taqdimot",
+        "CSS tuzilmaning ko‘rinishini belgilaydi; kontentning ma’nosini almashtirmaydi."
+      ],
+      [
+        "Xatti-harakat",
+        "JavaScript foydalanuvchi harakatiga javob beradi; mijozdagi tekshiruv server tekshiruvini almashtirmaydi."
+      ]
+    ],
+    "code": "Kutubxona sahifasidagi kitob nomi va tugma foydalanuvchiga ko‘rinadi — frontend. Serverda kitobning mavjudligini tekshirish — backend. Tuzilma, ko‘rinish va xatti-harakatning vazifalari bir-biridan farq qiladi.",
+    "task": "Kitobni qidirish misolida foydalanuvchiga ko‘rinadigan va serverda bajariladigan ishlarni ajrating. HTML, CSS va JavaScriptning vazifasini bir jumladan ayting. Kod yozmang.",
+    "pitfall": "Parol yoki maxfiy API kalitini frontend kodida yashirish mumkin deb o‘ylamang.",
+    "expected": "O‘quvchi frontend va backend ishlarini ajratadi; HTMLni tuzilma, CSSni ko‘rinish, JavaScriptni xatti-harakat bilan bog‘laydi.",
+    "mode": "study",
+    "teaching": "Avval interfeysdagi ko‘rinadigan ma’lumot va amallarni toping. Keyin serverda bajarilishi mumkin bo‘lgan tekshirishni ajrating. Uch texnologiya nomi ularning vazifasini taqqoslash uchun beriladi: email formasi, CSS qoidasi yoki JavaScript dasturi hali yaratilmaydi.",
+    "prerequisite": "1–2-mavzular: interfeys, brauzer va server."
+  },
+  "4": {
+    "terms": [
+      [
+        "Muharrir",
+        "Kod yozish, faylni saqlash va loyiha bo‘ylab ishlash vositasidir; brauzer vazifasini bajarmaydi."
+      ],
+      [
+        "Loyiha papkasi",
+        "Bir yechimga tegishli HTML, CSS, JavaScript va media fayllarni tartiblaydi."
+      ],
+      [
+        "index.html",
+        "Ko‘p statik hostinglarda bosh hujjat sifatida ishlatiladigan kelishilgan nomdir."
+      ],
+      [
+        "Nisbiy yo‘l",
+        "Resurs joylashuvini joriy hujjat manziliga nisbatan aniqlaydi; papka tuzilishiga bog‘liq."
+      ],
+      [
+        "DevTools",
+        "Brauzerning element, uslub, konsol va tarmoq holatini tekshirish vositalaridir."
+      ]
+    ],
+    "code": "frontend-loyiha/\n  index.html\n  assets/",
+    "task": "Kompyuterda frontend-loyiha papkasini oching. VS Code orqali shu papkada bo‘sh index.html fayli va assets papkasini yarating. Fayl nomi va kengaytmasini tekshiring, saqlang va brauzerda oching.",
+    "pitfall": "Saqlanmagan tahrir yoki xato fayl yo‘li sabab eski natijani ko‘rish mumkin.",
+    "expected": "VS Codedagi papka daraxtida index.html va assets ko‘rinadi. Bo‘sh index.html brauzerda bo‘sh sahifa ochishi tabiiy; HTML kodi keyingi mavzuda o‘rganiladi.",
+    "mode": "files",
+    "teaching": "VS Code menyusidan File → Open Folder orqali papkani oching. New File bilan index.html, New Folder bilan assets yarating. Faylni saqlang va fayl menejeridan brauzerda oching. Muharrir faylni tahrirlaydi, brauzer uni ko‘rsatadi. Hozircha hech qanday HTML tegi yozilmaydi.",
+    "prerequisite": "1–3-mavzular: frontend va brauzer vazifalari."
+  },
+  "5": {
+    "terms": [
+      [
+        "HTML",
+        "Gipermatnni belgilash tili bo‘lib, hujjat tuzilishi va semantikasini ifodalaydi."
+      ],
+      [
+        "DOCTYPE",
+        "Brauzerga standart HTML rejimini tanlash uchun beriladigan deklaratsiyadir."
+      ],
+      [
+        "html",
+        "Hujjatning asosiy ildiz elementi; lang atributi asosiy tilni bildiradi."
+      ],
+      [
+        "head",
+        "Kodlash, sarlavha va boshqa metama’lumotlar joylashadigan qismdir."
+      ],
+      [
+        "body",
+        "Foydalanuvchiga sahifada taqdim etiladigan asosiy kontent joylashadigan qismdir."
+      ],
+      [
+        "Teg",
+        "Element yozuvining ochuvchi yoki yopuvchi qismidir; barcha elementlarda yopuvchi teg mavjud emas."
+      ],
+      [
+        "Element",
+        "Boshlanishi, atributlari va mumkin bo‘lgan mazmuni bilan hujjatning bir bo‘lagini ifodalaydi."
+      ],
+      [
+        "Atribut",
+        "Elementga qo‘shimcha xususiyat yoki qiymat beradi; masalan, havolaning href manzili."
+      ],
+      [
+        "Ichma-ichlik",
+        "Ichki element tashqi elementning chegarasida to‘g‘ri joylashishi kerak."
+      ],
+      [
+        "Bo‘sh element",
+        "img va input kabi elementlar HTMLda ichki kontent va yopuvchi teg olmaydi."
+      ]
+    ],
+    "code": "<!doctype html>\n<html lang=\"uz\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Mening sahifam</title>\n</head>\n<body>Salom, bu mening birinchi sahifam.<div title=\"Tashqi element\">\n  <span title=\"Ichki element\">HTML elementlari</span>\n</div></body>\n</html>",
+    "task": "Berilgan HTML skeletida faqat title matni va body ichidagi oddiy matnni o‘zgartiring. Hujjatni ko‘ring; brauzer yorlig‘i bilan sahifadagi matnni farqlang. Namunadagi tashqi va ichki elementni, ochuvchi va yopuvchi teglarni toping. title atributining qiymatini o‘zgartiring. span tegini divdan oldin yopib, ichma-ichlikni saqlang.",
+    "pitfall": "HTMLni hisoblash algoritmlarini bajaruvchi dasturlash tili sifatida ta’riflamang.",
+    "expected": "Brauzer yorlig‘ida title matni, sahifada esa body ichidagi matn ko‘rinadi. Sarlavha yoki paragraf teglari bu topshiriqda kerak emas.",
+    "mode": "html",
+    "teaching": "DOCTYPE standart hujjat rejimini bildiradi. html ildiz element, lang asosiy til, head xizmat ma’lumotlari, meta charset matn kodlanishi, title brauzer yorlig‘i nomi, body ko‘rinadigan mazmundir. Hozir faqat shu skelet va oddiy matn bilan ishlang; h1 va p 6-mavzuda o‘rganiladi. Teg — <div> kabi yozuv; element uning mazmuni bilan birga qaraladi. Bu misolda div tashqi guruh, span ichki matn guruhidir; bezak berilmagan. title atributi izoh matnini beradi. Yopuvchi tegda / yoziladi. Ichma-ich teglar teskari tartibda yopiladi. class orqali CSS yoki strong orqali formatlash hali vazifa emas.",
+    "prerequisite": "4-mavzu: muharrir, papka va fayl yaratish."
+  },
+  "6": {
+    "terms": [
+      [
+        "Sarlavha",
+        "h1–h6 hujjatning mantiqiy bo‘lim darajalarini bildiradi; daraja faqat matn kattaligi uchun tanlanmaydi."
+      ],
+      [
+        "Paragraf",
+        "p mustaqil matn paragrafini ifodalaydi; brauzer oddiy bo‘shliqlarni odatda birlashtiradi."
+      ],
+      [
+        "br",
+        "Matndagi ma’noli satr uzilishini beradi, masalan manzilda."
+      ],
+      [
+        "hr",
+        "Mavzuviy uzilish yoki bo‘limlar orasidagi o‘tishni ifodalaydi."
+      ],
+      [
+        "Iyerarxiya",
+        "Sarlavhalar kontent tuzilmasini aks ettirishi va mantiqiy ketma-ketlikda tanlanishi kerak."
+      ],
+      [
+        "strong",
+        "Mazmunning muhimligini semantik ravishda bildiradi; ko‘pincha qalin ko‘rinadi."
+      ],
+      [
+        "em",
+        "Gapdagi urg‘uni ifodalaydi; shunchaki qiyshiq shrift tanlash bilan bir xil emas."
+      ],
+      [
+        "b",
+        "Qo‘shimcha muhimlik bermasdan e’tiborni jalb qiluvchi matn bo‘lagi uchun ishlatiladi."
+      ],
+      [
+        "Belgi havolasi",
+        "&lt; va &amp; kabi yozuvlar HTMLda maxsus belgini matn sifatida ko‘rsatadi."
+      ],
+      [
+        "Semantika",
+        "Elementning vazifasi va ma’nosidir; tashqi ko‘rinish CSS orqali alohida boshqariladi."
+      ]
+    ],
+    "code": "<h1>Texnikum yangiliklari</h1>\n<h2>IT haftaligi</h2><p>Ochiq darslar bo‘lib o‘tadi.</p>\n<hr><h2>Manzil</h2><p>Namangan shahri<br>3-sonli texnikum</p>\n<p><strong>Muhim:</strong> topshiriqni <em>bugun</em> yuboring.</p>\n<p>HTMLda paragraf: &lt;p&gt;Matn&lt;/p&gt;</p>\n<p>Mualliflik belgisi: &copy; 2026</p>",
+    "task": "Yangiliklar sahifasiga bitta asosiy sarlavha, ikki bo‘lim sarlavhasi va paragraflar qo‘shing. Eslatma matniga muhimlik va urg‘u qo‘shing; teglarni bajariladigan kod emas, matn sifatida ko‘rsating.",
+    "pitfall": "Sarlavha darajasini faqat kattaroq yozuv olish uchun tanlamang. br bilan katta bo‘shliqlar yasamang; bu darsda sahifa dizayni talab qilinmaydi.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "h1 asosiy sarlavha, h2 uning ostidagi bo‘lim sarlavhasidir; h1–h6 darajalari mazmun iyerarxiyasini bildiradi. p paragrafni, br ma’noli satr uzilishini, hr mavzuviy ajralishni bildiradi. Endi shu teglar bilan mashq qiling; rang va shriftni o‘zgartirish talab qilinmaydi. strong muhim mazmun, em urg‘u, b e’tibor jalb qiluvchi matn uchun ishlatiladi. &lt; va &gt; belgisi tegni matn sifatida ko‘rsatadi; &amp; — ampersand, &copy; — mualliflik belgisi. Avval belgilarni qanday yozishni o‘qing, keyin namuna ichidagi matnni tahrirlang.",
+    "prerequisite": "4–5-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "7": {
+    "terms": [
+      [
+        "href",
+        "Havolaning manzilini belgilaydi; qiymat nisbiy yo‘l, mutlaq URL yoki fragment bo‘lishi mumkin."
+      ],
+      [
+        "Fragment",
+        "#belgi hujjatdagi mos idga o‘tish uchun ishlatiladi."
+      ],
+      [
+        "Nisbiy havola",
+        "Masalan, about.html joriy joylashuvga nisbatan boshqa hujjatni ko‘rsatadi."
+      ],
+      [
+        "Havola matni",
+        "Foydalanuvchiga havola maqsadini aytishi kerak; faqat shu yerga bosing deyish yetarli bo‘lmasligi mumkin."
+      ],
+      [
+        "Yangi oyna",
+        "target=\"_blank\" boshqa kontekstni ochadi; xavfsiz odat sifatida rel=\"noopener\" qo‘llanadi."
+      ],
+      [
+        "src",
+        "Rasm resursining manzilini belgilaydi; noto‘g‘ri yo‘l rasmning ochilmasligiga olib keladi."
+      ],
+      [
+        "alt",
+        "Rasmning vazifasiga mos matnli muqobildir; ma’noli rasm mazmunini tushuntiradi."
+      ],
+      [
+        "Dekorativ rasm",
+        "Faqat bezak bo‘lsa alt=\"\" ishlatilishi mumkin; ma’lumotli rasmga bu qoida ko‘r-ko‘rona qo‘llanmaydi."
+      ],
+      [
+        "O‘lcham",
+        "width va height tomonlar nisbatini oldindan ko‘rsatib, sahifa sakrashini kamaytirishga yordam beradi."
+      ],
+      [
+        "Fayl yo‘li",
+        "Rasmning joylashuvini ko‘rsatadi: to‘liq HTTPS manzili yoki loyiha papkasiga nisbiy yo‘l bo‘lishi mumkin."
+      ]
+    ],
+    "code": "<a href=\"#aloqa\">Aloqa bo‘limi</a>\n<a href=\"https://developer.mozilla.org/\" target=\"_blank\" rel=\"noopener\">MDN qo‘llanmasi</a>\n<p id=\"aloqa\">Aloqa: Namangan shahar 3-sonli texnikum</p>\n<img src=\"https://web-talim-abdukarim-2026.satinyacorn67.chatgpt.site/assets/texnikum-building-2026.jpg\"\n     alt=\"Namangan shahar 3-sonli texnikum binosi\" width=\"300\">",
+    "task": "Ichki bo‘limga va tashqi qo‘llanmaga havola yarating; klaviatura bilan ikkala havolani sinang. Namunadagi rasmni ko‘ring. alt matnini rasm mazmuniga mos qayta yozing. width qiymatini 200 va 300 qilib solishtiring. src manzilini ataylab xato qilib, matnli muqobilning vazifasini kuzating.",
+    "pitfall": "hrefdagi #nom bilan nishon element idsi bir xil bo‘lishi kerak.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "a havola yaratadi, href manzilni belgilaydi. href=\"#aloqa\" shu hujjatdagi id=\"aloqa\" nishoniga boradi. target=\"_blank\" alohida oynani tanlaydi; rel=\"noopener\" ochilgan oynaga tegishli bog‘lanishni cheklaydi. Bu darsda section yoki nav kerak emas; ular 9-mavzuda tushuntiriladi. img rasmni joylaydi va yopuvchi teg olmaydi. src rasm manzili, alt rasm mazmunining matnli muqobili, width esa namuna uchun piksel kengligidir. Internetga ulanish rasmni yuklash uchun kerak. O‘z loyihangizda assets ichidagi rasmga nisbiy yo‘l ham ishlatiladi; SVG yozish va CSS bezash bu darsning vazifasi emas.",
+    "prerequisite": "4–6-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "8": {
+    "terms": [
+      [
+        "ul",
+        "Tartibning o‘zi muhim bo‘lmagan ro‘yxatni ifodalaydi."
+      ],
+      [
+        "ol",
+        "Qadamlar yoki reyting kabi tartib ma’noli bo‘lgan ro‘yxatni ifodalaydi."
+      ],
+      [
+        "li",
+        "Ro‘yxatning alohida bandi bo‘lib, ul yoki ol tarkibida keladi."
+      ],
+      [
+        "Ichki ro‘yxat",
+        "Boshqa ro‘yxat bandining ichiga joylashtiriladi va iyerarxiyani ko‘rsatadi."
+      ],
+      [
+        "Ro‘yxat semantikasi",
+        "Kontentni yordamchi texnologiyalarda ham bandlar sifatida anglashga yordam beradi."
+      ],
+      [
+        "table",
+        "Qator va ustunlar bo‘yicha bog‘langan jadval ma’lumotlari uchun ishlatiladi."
+      ],
+      [
+        "tr",
+        "Jadval qatorini ifodalaydi; uning ichida sarlavha yoki oddiy kataklar keladi."
+      ],
+      [
+        "th",
+        "Sarlavha katagi; scope yordamida tegishli qator yoki ustun bilan bog‘lanishi mumkin."
+      ],
+      [
+        "td",
+        "Oddiy ma’lumot katagini ifodalaydi."
+      ],
+      [
+        "caption",
+        "Jadvalning maqsadini tushuntiradigan sarlavhani beradi."
+      ]
+    ],
+    "code": "<h2>Kurs yo‘li</h2>\n<ol><li>HTML<ul><li>Teglar</li><li>Formalar</li></ul></li><li>CSS</li><li>JavaScript</li></ol>\n<table><caption>Kurs soatlari</caption>\n<thead><tr><th scope=\"col\">Bo‘lim</th><th scope=\"col\">Soat</th></tr></thead>\n<tbody><tr><td>HTML</td><td>16</td></tr><tr><td>CSS</td><td>36</td></tr></tbody></table>",
+    "task": "Kurs bo‘limlari va ularning ikki mavzusini ichma-ich ro‘yxatga joylang. Uchta bo‘lim uchun soatlar jadvalini caption, thead, tbody va scope bilan yarating.",
+    "pitfall": "Ichki ulni oldingi li bilan bog‘lamasdan tashqariga chiqarib qo‘ymang.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "ul tartibsiz, ol tartibli ro‘yxatni boshlaydi. Har bir band li ichida yoziladi. Ichma-ich ro‘yxat tashqi li ichiga qo‘yiladi va yopiladi. Ro‘yxatdagi CSS yoki JavaScript so‘zlari oddiy kontentdir; ularning kodini yozish shart emas. table jadval, caption uning nomi, tr satr, th sarlavha katagi, td ma’lumot katagidir. thead sarlavha satrlarini, tbody ma’lumot satrlarini guruhlaydi. scope=\"col\" sarlavha qaysi ustunga tegishli ekanini bildiradi. Katak chegarasi, rang va padding CSS bo‘limida o‘rganiladi; hozir HTML tuzilishi tekshiriladi.",
+    "prerequisite": "4–7-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "9": {
+    "terms": [
+      [
+        "header",
+        "Sahifa yoki bo‘limning kirish mazmuni va sarlavhasini guruhlaydi."
+      ],
+      [
+        "nav",
+        "Asosiy navigatsiya havolalari guruhini ifodalaydi."
+      ],
+      [
+        "main",
+        "Hujjatning asosiy mazmunini bildiradi; odatiy sahifada bitta ko‘rinadigan main bo‘ladi."
+      ],
+      [
+        "section va article",
+        "section mavzuviy guruh, article esa mustaqil tarqatish mumkin bo‘lgan mazmun uchun tanlanadi."
+      ],
+      [
+        "footer",
+        "Sahifa yoki tegishli bo‘limning yakuniy ma’lumotlarini beradi."
+      ],
+      [
+        "Navigatsiya",
+        "Mazmun bo‘limlari yoki sahifalar orasida o‘tish imkonini beradi."
+      ],
+      [
+        "id",
+        "Hujjat ichidagi noyob identifikator; bir sahifada takrorlanmasligi kerak."
+      ],
+      [
+        "Anchor",
+        "Fragmentli havola nishon idga olib boradi."
+      ],
+      [
+        "Sarlavha",
+        "Bo‘lim maqsadini tushuntiradi va hujjat iyerarxiyasida joy oladi."
+      ],
+      [
+        "Klaviatura",
+        "Havolalarga Tab bilan borish va Enter bilan ochish imkoniyati tekshiriladi."
+      ]
+    ],
+    "code": "<header><h1>Texnikum blogi</h1><nav><a href=\"#xabar\">Xabarlar</a> <a href=\"#aloqa\">Aloqa</a></nav></header>\n<main><section id=\"xabar\"><h2>Xabarlar</h2><article><h3>Ochiq dars</h3><p>Frontend taqdimoti.</p></article></section><section id=\"aloqa\"><h2>Aloqa</h2><p>Namangan shahri</p></section></main>\n<footer>2026 — O‘quv loyiha</footer>",
+    "task": "Blog sahifasini semantik bo‘limlar bilan tuzing va har tegni nima sabab tanlaganingizni yozing. Faqat HTML bilan uch bo‘limli sahifa tuzing. nav ichidagi uchta a havolasini bo‘limlarning id qiymatlariga ulang va har bir o‘tishni sinang. Yashiriladigan menyu yoki JavaScript hodisasi kerak emas.",
+    "pitfall": "Har bir divni ma’nosini tekshirmasdan sectionga almashtirmang.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "header kirish qismi, nav navigatsiya, main asosiy mazmun, section mavzuviy bo‘lim, article mustaqil mazmun, footer yakun qismidir. Tegni ma’nosiga qarab tanlang. Ushbu teglar avtomatik ustun, rang yoki interaktiv menyu yaratmaydi; vazifa faqat ma’noli HTML tuzilmasini qurishdir. 9-mavzudagi nav, main va sectionni 7-mavzudagi a, href va id bilan birlashtiring. Har nishonning idsi yagona bo‘lsin. Havola bosilishi brauzerning HTML funksiyasi bilan bo‘limga o‘tadi; buning uchun JavaScript yozilmaydi.",
+    "prerequisite": "4–8-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "10": {
+    "terms": [
+      [
+        "form",
+        "Foydalanuvchi qiymatlarini yig‘ish va yuborish jarayonini guruhlaydi."
+      ],
+      [
+        "input turi",
+        "type qiymati maydon vazifasiga mos kiritish va ayrim brauzer tekshiruvlarini tanlaydi."
+      ],
+      [
+        "name",
+        "Forma yuborilganda qiymatning kalitini belgilaydi; faqat id bunga teng emas."
+      ],
+      [
+        "required",
+        "Maydon majburiyligini brauzerga bildiradi; server tekshiruvi baribir zarur."
+      ],
+      [
+        "method",
+        "GET qiymatlari odatda URL so‘rov qismida, POST esa so‘rov tanasida yuboriladi."
+      ],
+      [
+        "label",
+        "Maydon yorlig‘ini for va id orqali input bilan bog‘laydi; placeholder uning o‘rnini bosmaydi."
+      ],
+      [
+        "select",
+        "Oldindan belgilangan option qiymatlari orasidan tanlash imkonini beradi."
+      ],
+      [
+        "textarea",
+        "Ko‘p satrli matn kiritish maydonidir; boshlang‘ich matn teglar orasida yoziladi."
+      ],
+      [
+        "checkbox va radio",
+        "Checkbox mustaqil belgilar, bir xil name radio guruhi esa bitta tanlov uchun ishlatiladi."
+      ],
+      [
+        "button turi",
+        "form ichida type=\"button\" oddiy amal, type=\"submit\" esa yuborish uchun aniq ko‘rsatiladi."
+      ]
+    ],
+    "code": "<form><label for=\"ism\">Ism</label><input id=\"ism\" name=\"ism\" required>\n<label for=\"email\">Email</label><input id=\"email\" name=\"email\" type=\"email\" required>\n<label for=\"kurs\">Kurs</label><select id=\"kurs\" name=\"kurs\"><option>HTML</option><option>Keyingi kurs</option></select>\n<label><input type=\"radio\" name=\"vaqt\" value=\"ertalab\"> Ertalab</label><label><input type=\"radio\" name=\"vaqt\" value=\"kechqurun\"> Kechqurun</label>\n<label><input type=\"checkbox\" name=\"rozilik\"> Shartlarni o‘qidim</label><label for=\"izoh\">Izoh</label><textarea id=\"izoh\" name=\"izoh\"></textarea><button type=\"submit\">Yuborish</button></form>",
+    "task": "Ism va email maydonli HTML forma tuzing; har maydonga label, name va required qo‘shing. Yuborish tugmasini bosing va brauzerning bo‘sh yoki noto‘g‘ri email uchun chiqargan xabarini kuzating. JavaScript yozmang. Kurs tanlash, bitta radio guruhi, rozilik belgisi va izoh maydonini yarating.",
+    "pitfall": "Brauzerdagi required yoki email tekshiruvi ma’lumot serverda xavfsizligini kafolatlamaydi.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "form maydonlarni guruhlaydi. input matn oladi; type=\"email\" email shaklini brauzerga bildiradi, name maydon nomi, id esa label bilan bog‘lanish nuqtasi. label for qiymati input id qiymatiga teng bo‘ladi. required bo‘sh qiymatni HTML orqali cheklaydi. button type=\"submit\" brauzer tekshiruvini chaqiradi. Bu misolda ma’lumot serverga yuborilmaydi; JavaScript validatsiyasi hali talab qilinmaydi. select ro‘yxatdan tanlash, option uning bandi, textarea ko‘p qatorli matn uchun xizmat qiladi. Bir xil namega ega radio maydonlaridan bittasi tanlanadi; checkbox mustaqil belgilanadi. button type=\"submit\" formani yuborish amalini boshlaydi. Bu darsda faqat brauzerning HTML xatti-harakatini kuzating; tanlovni JavaScript orqali o‘qimang.",
+    "prerequisite": "4–9-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "11": {
+    "terms": [
+      [
+        "audio",
+        "Ovoz resursini sahifaga joylashtiradi; controls boshqaruvni foydalanuvchiga ko‘rsatadi."
+      ],
+      [
+        "video",
+        "Video kontent uchun element; controls, poster va o‘lcham parametrlari vazifaga mos tanlanadi."
+      ],
+      [
+        "source",
+        "Bir media elementiga format variantlarini taqdim etishi mumkin."
+      ],
+      [
+        "track",
+        "Video uchun subtitr yoki boshqa matn yo‘laklarini bog‘lashga xizmat qiladi."
+      ],
+      [
+        "Muqobil mazmun",
+        "Video tushuntirishining matni yoki transkripti axborotdan foydalanishni yengillashtiradi."
+      ]
+    ],
+    "code": "<video controls width=\"320\" preload=\"metadata\">\n <source src=\"dars.mp4\" type=\"video/mp4\">\n Brauzeringiz videoni ko‘rsata olmadi.\n</video>\n<p>Video faylni loyiha papkasiga qo‘ying. Dars matni shu yerda beriladi.</p>",
+    "task": "O‘zingizga tegishli media fayl bilan controlsli video va uning matnli bayonini yarating.",
+    "pitfall": "Fayl taqdim etilmagan bo‘lsa demo video o‘ynamaydi; bu teg noto‘g‘riligini anglatmaydi.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "video va audio media elementlaridir. controls brauzer boshqaruv tugmalarini chiqaradi; source src fayl manzili, type media turini bildiradi. preload=\"metadata\" dastlab xizmat ma’lumotlarini yuklashni so‘raydi. Namuna dars.mp4 faylini o‘z kompyuteringizdagi loyiha papkasida talab qiladi. Oddiy matnli bayon video mazmunini tushunishga yordam beradi; JavaScript pleer yozish shart emas.",
+    "prerequisite": "4–10-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "12": {
+    "terms": [
+      [
+        "title",
+        "Brauzer varag‘i va hujjat nomini belgilaydi; h1 bilan vazifasi farqlanadi."
+      ],
+      [
+        "charset",
+        "UTF-8 kabi kodlashni belgilaydi, belgilar to‘g‘ri talqin qilinishiga yordam beradi."
+      ],
+      [
+        "viewport",
+        "Mobil ko‘rinishda sahifa kengligini qurilma kengligiga moslash uchun ishlatiladi."
+      ],
+      [
+        "description",
+        "Sahifa mazmunining qisqa metama’lumoti; qidiruv tizimi uni har doim aynan ko‘rsatishi shart emas."
+      ],
+      [
+        "lang",
+        "Hujjat tilini ko‘rsatadi va talaffuz hamda yordamchi vositalarga ma’no beradi."
+      ]
+    ],
+    "code": "<!doctype html><html lang=\"uz\"><head>\n<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"description\" content=\"Frontend bo‘yicha o‘quv sahifa\"><title>Frontend kursi</title>\n</head><body><h1>O‘zbekcha sahifa</h1></body></html>",
+    "task": "HTML hujjat head qismiga kodlash, viewport, description va mazmunli title yozing.",
+    "pitfall": "Viewport metasi bo‘lmasa responsive CSS mobil qurilmada kutilgan ko‘rinishni bermasligi mumkin.",
+    "expected": "Namuna HTML teg va atributlari asosida ko‘rinadi. Topshiriqdagi mazmun, teglar tartibi va tegishli brauzer amalini tekshiring; CSS yoki JavaScript qo‘shish talab qilinmaydi.",
+    "mode": "html",
+    "teaching": "head ichida title, meta charset, meta name=\"viewport\" va meta name=\"description\" yoziladi. charset kodlashni, title brauzer yorlig‘i nomini, description mazmun tavsifini bildiradi. Viewport metasi mobil oynaning mantiqiy kengligini belgilaydi; responsive CSS maketi 4-bo‘limda o‘rganiladi. Hozir CSS media query yoki JavaScript qo‘shilmadi.",
+    "prerequisite": "4–11-mavzularda o‘tilgan vositalar va HTML tushunchalari."
+  },
+  "13": {
+    "terms": [
+      [
+        "CSS",
+        "Hujjatning ko‘rinishi va joylashuvini boshqaradigan uslublar tilidir."
+      ],
+      [
+        "Selektor",
+        "Qaysi elementlarga uslub qo‘llanishini tanlaydi."
+      ],
+      [
+        "Deklaratsiya",
+        "Xususiyat va qiymatdan tuzilgan uslub amalidir."
+      ],
+      [
+        "Kaskad",
+        "Bir elementga taalluqli qoidalar orasidagi ustunlikni aniqlaydi."
+      ],
+      [
+        "Meros",
+        "Ayrim xususiyatlar ota elementdan bolaga o‘tishi mumkin; hamma xususiyat meros bo‘lmaydi."
+      ]
+    ],
+    "code": "<style>body{font-family:Arial;color:#173f34}h1{color:#176f58}</style>\n<h1>CSS bilan salom</h1><p>Matn uslubi ota elementdan kelishi mumkin.</p>",
+    "task": "Bir sahifaning sarlavha va matniga alohida rang bering; qaysi xususiyat meros qolganini izohlang.",
+    "pitfall": "CSS elementning ma’nosini o‘zgartirmaydi; ko‘rinish va semantika alohida tanlanadi.",
+    "expected": "",
+    "mode": "css"
+  },
+  "14": {
+    "terms": [
+      [
+        "Inline",
+        "style atributi orqali bevosita elementga yoziladigan uslubdir."
+      ],
+      [
+        "Internal",
+        "HTMLdagi style elementi ichida beriladigan uslublardir."
+      ],
+      [
+        "External",
+        "link orqali ulanadigan alohida CSS faylida saqlanadi."
+      ],
+      [
+        "Qayta foydalanish",
+        "Bitta tashqi fayl bir nechta sahifaga bir xil uslub bera oladi."
+      ],
+      [
+        "Ulanish yo‘li",
+        "href noto‘g‘ri bo‘lsa CSS yuklanmaydi; brauzer Network vositasida tekshiriladi."
+      ]
+    ],
+    "code": "<p style=\"color:navy\">Inline CSS namunasi</p>\n<style>p { color: navy; }</style>\n<!-- Tashqi usulda head ichiga: <link rel=\"stylesheet\" href=\"style.css\"> -->",
+    "task": "Bir xil matnni uch usul bilan bezashni taqqoslang; mahalliy loyihada style.css faylini ulang.",
+    "pitfall": "Ko‘p inline uslublar keyingi tahrir va bir xillikni saqlashni qiyinlashtiradi.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "Inline CSS elementning style atributiga, internal CSS style tegiga, external CSS esa alohida .css fayliga yoziladi. Tashqi fayl link rel=\"stylesheet\" va href bilan ulanadi. Hozir 13-mavzuda tanishilgan color qoidasini uch xil joyda yozishni solishtiring; yangi dizayn xususiyatlari talab qilinmaydi."
+  },
+  "15": {
+    "terms": [
+      [
+        "Selektor",
+        "Uslub qo‘llanadigan elementlar to‘plamini belgilaydi."
+      ],
+      [
+        "Xususiyat",
+        "Masalan, color yoki padding ko‘rinishning o‘zgartiriladigan tomonidir."
+      ],
+      [
+        "Qiymat",
+        "Xususiyat uchun tanlangan rang, uzunlik yoki kalit so‘zdir."
+      ],
+      [
+        "Deklaratsiya bloki",
+        "Jingalak qavs ichida uslub deklaratsiyalari yoziladi."
+      ],
+      [
+        "Sintaksis",
+        "Xususiyatdan keyin ikki nuqta, deklaratsiyalar orasida nuqtali vergul ishlatiladi."
+      ]
+    ],
+    "code": "<style>\np { color: navy; }\n</style>\n<p>CSS sintaksisi</p>",
+    "task": "p { color: navy; } qoidasidagi selektor, xususiyat va qiymatni ajrating. Faqat rang qiymatini almashtiring; jingalak qavs, ikki nuqta va nuqtali vergulning vazifasini ayting.",
+    "pitfall": "Qavs yoki ikki nuqta xatosida ayrim deklaratsiyalar e’tiborga olinmasligi mumkin.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "p — selektor, color — xususiyat, navy — qiymat. Deklaratsiya xususiyat: qiymat; ko‘rinishida, qoida esa selektor { deklaratsiya } ko‘rinishida yoziladi. Bu darsning maqsadi yangi dizayn xususiyatlarini ko‘paytirish emas, sintaksisni tushunishdir."
+  },
+  "16": {
+    "terms": [
+      [
+        "Element selektori",
+        "p kabi teg nomi barcha mos elementlarni tanlaydi."
+      ],
+      [
+        "Class selektori",
+        ".card bir sinfga tegishli qayta ishlatiladigan elementlarni tanlaydi."
+      ],
+      [
+        "ID selektori",
+        "#intro hujjatdagi noyob elementni tanlash uchun ishlatiladi."
+      ],
+      [
+        "Sinflar",
+        "Bir element bir nechta classga ega bo‘lishi mumkin."
+      ],
+      [
+        "Maxsuslik",
+        "Bir xil kaskad sharoitida ID, class va teg selektorlari turli ustunlikka ega."
+      ]
+    ],
+    "code": "<style>p { color: navy; } .kurs { color: green; } #kirish { color: brown; }</style>\n<p id=\"kirish\" class=\"kurs\">Kirish</p><p class=\"kurs\">Davom</p>",
+    "task": "Ikki paragrafga umumiy class, bittasiga yagona id bering. Element, class va ID selektorlarini color bilan solishtiring; padding yoki maket qo‘shmang.",
+    "pitfall": "IDni takrorlash va keraksiz yuqori maxsuslik bilan uslublarni murakkablashtirmang.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "p element nomini, .kurs class qiymatini, #kirish ID qiymatini tanlaydi. HTML class va id atributlari selektor bilan bog‘lanadi. Bitta elementga bir nechta qoida mos kelsa, shu misolda ID qoidasining maxsusligi yuqori. Hozir faqat oldin o‘tilgan color bilan natijani kuzating."
+  },
+  "17": {
+    "terms": [
+      [
+        "color",
+        "Matnning old rangini belgilaydi."
+      ],
+      [
+        "background-color",
+        "Element fon rangini belgilaydi."
+      ],
+      [
+        "HEX",
+        "Rangni o‘n oltilik kanal qiymatlari bilan ifodalaydi."
+      ],
+      [
+        "RGB",
+        "Qizil, yashil va ko‘k kanallari orqali rangni ifodalaydi."
+      ],
+      [
+        "Kontrast",
+        "Matn va fonning o‘qilishi uchun yetarli ajralishini ta’minlash kerak."
+      ]
+    ],
+    "code": "<style>.eslatma { color: #173f34; background-color: rgb(233,243,236); }</style>\n<p class=\"eslatma\">O‘qilishi oson ranglar</p>",
+    "task": "Ikki xil rang mavzusi yarating; matn va fonni tekshirib qaysi biri oson o‘qilishini asoslang.",
+    "pitfall": "Faqat rang bilan xato yoki muvaffaqiyat ma’nosini bermang; matnli belgi ham qo‘shing.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "color matn rangini, background-color fon rangini belgilaydi. Rang nomi, # bilan HEX va rgb(qizil,yashil,ko‘k) usullarini solishtiring. Matn fon ustida yaxshi o‘qilishi kerak. Bu darsda padding va joylashuv talab qilinmaydi."
+  },
+  "18": {
+    "terms": [
+      [
+        "font-family",
+        "Asosiy shrift va zaxira shriftlar ro‘yxatini belgilaydi."
+      ],
+      [
+        "font-size",
+        "Matn o‘lchamini boshqaradi; rem foydalanuvchi asosiy o‘lchami bilan bog‘liq."
+      ],
+      [
+        "font-weight",
+        "Shrift qalinligini belgilaydi."
+      ],
+      [
+        "line-height",
+        "Satrlar orasidagi qator balandligini boshqaradi."
+      ],
+      [
+        "text-align",
+        "Matnning o‘z qatori ichida tekislanishini belgilaydi, element maketini emas."
+      ]
+    ],
+    "code": "<style>body { font-family: Arial, sans-serif; } h1 { font-size: 30px; font-weight: 700; } p { font-size: 18px; line-height: 1.6; text-align: left; }</style>\n<h1>Kurs sarlavhasi</h1><p>O‘qiladigan matn.</p>",
+    "task": "Sarlavha va asosiy matn uchun ikki darajali shrift tizimi yarating; masshtabni oshirib tekshiring.",
+    "pitfall": "Juda kichik matn va haddan tashqari zich line-height o‘qishni qiyinlashtiradi.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "font-family shriftlar ketma-ketligini, font-size bu misolda pxdagi o‘lchamni, font-weight qalinlikni, line-height qator balandligini va text-align tekislanishni belgilaydi. 700 qalin shrift vazni, 1.6 esa shrift o‘lchamiga nisbiy qator koeffitsiyentidir. rem va viewport birliklari keyingi responsive bo‘limda o‘rganiladi."
+  },
+  "19": {
+    "terms": [
+      [
+        "list-style",
+        "Ro‘yxat belgilarini boshqaradi; mazmunning ro‘yxat semantikasi saqlanadi."
+      ],
+      [
+        "border-collapse",
+        "Jadval katak chegaralarini birlashtirish rejimini belgilaydi."
+      ],
+      [
+        "padding",
+        "Katakdagi matn bilan uning chegarasi orasida joy beradi."
+      ],
+      [
+        "thead",
+        "Jadval sarlavhalarini guruhlaydi va alohida uslub berishga yordam beradi."
+      ],
+      [
+        "Overflow",
+        "Kichik ekranda keng jadval uchun gorizontal aylantirish qo‘llanishi mumkin."
+      ]
+    ],
+    "code": "<style>table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:12px}th{background:#edf4ef}ul{list-style-type:square}</style>\n<ul><li>HTML</li><li>CSS</li></ul><table><tr><th>Kurs</th><th>Soat</th></tr><tr><td>HTML</td><td>28</td></tr></table>",
+    "task": "Ro‘yxat va jadvalni yagona dizayn bilan bezang; katak matnlari chegaraga yopishmasin.",
+    "pitfall": "Ro‘yxat belgilarini o‘chirish ma’no va navigatsiyaga qanday ta’sir qilishini hisobga oling.",
+    "expected": "",
+    "mode": "css"
+  },
+  "20": {
+    "terms": [
+      [
+        "border",
+        "Chegara qalinligi, uslubi va rangini belgilaydi."
+      ],
+      [
+        "border-radius",
+        "Burchaklarni yumaloqlashga xizmat qiladi."
+      ],
+      [
+        "outline",
+        "Ko‘pincha fokusni ajratish uchun ishlatiladi va odatda joylashuv o‘lchamiga ta’sir qilmaydi."
+      ],
+      [
+        "Chegara uslubi",
+        "solid, dashed kabi qiymatlar ko‘rinishni tanlaydi."
+      ],
+      [
+        "Fokus belgisi",
+        "Klaviatura foydalanuvchisi qayerdaligini bilishi uchun ko‘rinib turishi kerak."
+      ]
+    ],
+    "code": "<style>.karta { border: 2px solid green; border-radius: 12px; } button { outline: 2px solid navy; }</style>\n<div class=\"karta\"><h2>Kurs kartasi</h2><button>Boshlash</button></div>",
+    "task": "Kartaga border va border-radius bering. Tugmaga doim ko‘rinadigan outline qo‘shib, borderdan farqini kuzating. :focus va :hover qoidalarini yozish bu darsda talab qilinmaydi.",
+    "pitfall": "outline:none yozib uning o‘rniga fokus ko‘rsatkichini bermaslik qulaylikni buzadi.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "border kenglik, uslub va rang bilan yoziladi; border-radius burchakni yumaloqlaydi. outline element tashqarisidagi belgi bo‘lib, maket uchun border kabi joy egallamaydi. Hozir outline doim ko‘rinadigan oddiy qoida bilan beriladi; holat selektorlari 28-mavzuda keladi."
+  },
+  "21": {
+    "terms": [
+      [
+        "Kontent",
+        "Element ichidagi matn yoki boshqa asosiy mazmun maydonidir."
+      ],
+      [
+        "Padding",
+        "Kontent bilan chegara orasidagi ichki oraliqdir."
+      ],
+      [
+        "Border",
+        "Kontent va padding atrofidagi chegaradir."
+      ],
+      [
+        "Margin",
+        "Element tashqarisidagi qo‘shni elementlar bilan oraliqdir."
+      ],
+      [
+        "box-sizing",
+        "border-box rejimida e’lon qilingan width padding va borderni ham qamrab oladi."
+      ]
+    ],
+    "code": "<style>*{box-sizing:border-box}.box{width:240px;padding:20px;border:4px solid #176f58;margin:16px;background:#edf4ef}</style>\n<div class=\"box\">Border-box: tashqi chegara kengligi 240px.</div>",
+    "task": "width 240px, padding 20px va border 4px uchun content-box va border-box natijalarini taqqoslang.",
+    "pitfall": "Content-box holatida yakuniy chegara kengligi 240+40+8=288px bo‘ladi; margin bunga qo‘shimcha.",
+    "expected": "",
+    "mode": "css"
+  },
+  "22": {
+    "terms": [
+      [
+        "width",
+        "Element kontent yoki tanlangan box-sizing kengligini belgilaydi."
+      ],
+      [
+        "max-width",
+        "Elementning eng katta kengligini cheklaydi."
+      ],
+      [
+        "min-height",
+        "Kontent ko‘payganda kengayish imkonini saqlagan holda minimal balandlik beradi."
+      ],
+      [
+        "Nisbiy birlik",
+        "% konteynerga, rem ildiz shriftiga, vw esa viewportga bog‘liq."
+      ],
+      [
+        "Overflow",
+        "Kontent belgilangan maydonga sig‘masa boshqarish qoidasi tanlanadi."
+      ]
+    ],
+    "code": "<style>.container{width:90%;max-width:700px;margin:auto}.card{min-height:100px;padding:16px;background:#edf4ef}</style>\n<div class=\"container\"><div class=\"card\">Mos o‘lchamdagi blok</div></div>",
+    "task": "Konteynerni 90% va max-width bilan cheklang; uzun matn qo‘shib balandlikni kuzating.",
+    "pitfall": "Qattiq height matnni kesishi mumkin; vazifaga qarab min-height tanlang.",
+    "expected": "",
+    "mode": "css"
+  },
+  "23": {
+    "terms": [
+      [
+        "block",
+        "Odatdagi oqimda yangi qatordan boshlanadigan blokli joylashuvdir."
+      ],
+      [
+        "inline",
+        "Matn oqimi ichida joylashadi; width odatiy inline elementda kutilgandek ishlamasligi mumkin."
+      ],
+      [
+        "inline-block",
+        "Matn oqimida turib o‘lcham va ichki oraliq olish imkonini beradi."
+      ],
+      [
+        "display:none",
+        "Elementni joylashuvdan va odatda yordamchi texnologiyalar ko‘rishidan olib tashlaydi."
+      ],
+      [
+        "visibility",
+        "hidden element ko‘rinmaydi, ammo joyi odatda saqlanadi."
+      ]
+    ],
+    "code": "<style>.belgi{display:inline-block;padding:8px;background:#dceee2}.blok{display:block;margin:12px 0}</style>\n<span class=\"belgi\">HTML</span><span class=\"belgi\">CSS</span><a class=\"blok\" href=\"#\">Alohida qator</a>",
+    "task": "Bir xil spanlarga inline, block va inline-block berib farqlarni izohlang.",
+    "pitfall": "Yashirilgan elementning klaviatura va accessibility holatini ham hisobga oling.",
+    "expected": "",
+    "mode": "css"
+  },
+  "24": {
+    "terms": [
+      [
+        "relative",
+        "Elementni odatdagi joyiga nisbatan siljitadi va oqimdagi joyini saqlaydi."
+      ],
+      [
+        "absolute",
+        "Oqimdan chiqadi va odatda eng yaqin joylashtirilgan ajdodiga nisbatan turadi."
+      ],
+      [
+        "fixed",
+        "Ko‘pincha viewportga nisbatan joylashadi, ayrim ajdod xususiyatlari bu kontekstni o‘zgartirishi mumkin."
+      ],
+      [
+        "sticky",
+        "Aylantirish chegarasida belgilangan offsetga yopishib turishi mumkin."
+      ],
+      [
+        "z-index",
+        "Qatlam tartibini kontekst ichida boshqaradi; barcha elementlarni global tartibga solmaydi."
+      ]
+    ],
+    "code": "<style>.card{position:relative;padding:40px;border:1px solid #ccc}.badge{position:absolute;top:8px;right:8px;background:#176f58;color:white;padding:6px}</style>\n<div class=\"card\"><span class=\"badge\">Yangi</span>Kurs kartasi</div>",
+    "task": "Karta burchagiga absolute belgi qo‘ying; ota relative bo‘lmaganda farqini tekshiring.",
+    "pitfall": "Yuqori z-index har qanday boshqa stacking contextdan ustun bo‘lishini kafolatlamaydi.",
+    "expected": "",
+    "mode": "css"
+  },
+  "25": {
+    "terms": [
+      [
+        "Normal oqim",
+        "Elementlarning odatiy hujjat tartibida joylashishidir."
+      ],
+      [
+        "Konteyner",
+        "Mazmun kengligi va ichki tartib uchun umumiy chegarani beradi."
+      ],
+      [
+        "Maket",
+        "Sahifaning katta bo‘limlari va ularning o‘zaro joylashuvini ifodalaydi."
+      ],
+      [
+        "Bo‘shliq",
+        "gap, padding va margin turli darajadagi oraliqlarni boshqaradi."
+      ],
+      [
+        "DOM tartibi",
+        "O‘qish va fokus tartibiga ta’sir qiladi; vizual tartib bilan mantiqiy mos bo‘lishi kerak."
+      ]
+    ],
+    "code": "<style>body{margin:0}.layout{max-width:900px;margin:auto;padding:20px}header,main,footer{padding:20px;background:#edf4ef;margin-bottom:12px}</style>\n<div class=\"layout\"><header>Sarlavha</header><main>Asosiy kontent</main><footer>Yakun</footer></div>",
+    "task": "Header, asosiy kontent va footerli maket yarating; konteyner kengligini cheklang.",
+    "pitfall": "Barcha bo‘limlarni absolute bilan joylashtirish kontent o‘sganda maketni buzishi mumkin.",
+    "expected": "",
+    "mode": "css"
+  },
+  "26": {
+    "terms": [
+      [
+        "Flex konteyner",
+        "display:flex bevosita bolalar uchun bir o‘lchovli joylashuvni yoqadi."
+      ],
+      [
+        "Asosiy o‘q",
+        "flex-direction asosiy yo‘nalishni belgilaydi."
+      ],
+      [
+        "justify-content",
+        "Elementlarni asosiy o‘q bo‘ylab taqsimlaydi."
+      ],
+      [
+        "align-items",
+        "Elementlarni ko‘ndalang o‘q bo‘ylab tekislaydi."
+      ],
+      [
+        "flex-wrap",
+        "Joy yetmasa elementlarning keyingi qatorga o‘tishini boshqaradi."
+      ]
+    ],
+    "code": "<style>.kartalar { display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap; } .karta { width: 180px; padding: 20px; background: #edf4ef; }</style>\n<div class=\"kartalar\"><div class=\"karta\">1</div><div class=\"karta\">2</div><div class=\"karta\">3</div></div>",
+    "task": "Uch kartani Flexboxda joylashtiring; tor oynada yangi qatorga o‘tishini ta’minlang.",
+    "pitfall": "row va column holatida asosiy hamda ko‘ndalang o‘qlar almashishini yodda tuting.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "display:flex bolalarni asosiy o‘q bo‘ylab joylaydi. justify-content asosiy o‘q, align-items ko‘ndalang o‘q tekislanishini, gap oraliqni, flex-wrap esa sig‘magan bolalarning yangi qatorga o‘tishini boshqaradi. Hozir eni 180px bo‘lgan kartalar bilan ishlang; flex-grow, shrink va basis tafsilotlari 34-mavzuda keladi."
+  },
+  "27": {
+    "terms": [
+      [
+        "Grid konteyner",
+        "display:grid qator va ustunli ikki o‘lchovli joylashuvni tashkil qiladi."
+      ],
+      [
+        "Track",
+        "Gridning qatori yoki ustuni hisoblanadi."
+      ],
+      [
+        "fr",
+        "Qolgan erkin joyning ulushini ifodalaydi."
+      ],
+      [
+        "gap",
+        "Qator va ustunlar orasidagi oraliqni belgilaydi."
+      ],
+      [
+        "minmax",
+        "Track uchun eng kichik va eng katta o‘lcham chegarasini yozadi."
+      ]
+    ],
+    "code": "<style>.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid>div{padding:24px;background:#edf4ef}</style>\n<div class=\"grid\"><div>1</div><div>2</div><div>3</div><div>4</div></div>",
+    "task": "grid-template-columns: repeat(3, 1fr) bilan uch teng ustun va gap yarating. grid-column: span 2 bilan bitta kartani ikki ustunga yoyib natijani solishtiring.",
+    "pitfall": "Gridni faqat ikki o‘lcham, Flexni faqat qator deb mutlaq cheklamang; vazifaga mosini tanlang.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "display:grid konteynerni panjaraga aylantiradi. grid-template-columns ustunlarni, repeat(3,1fr) uch teng ulushni, gap oraliqni bildiradi. grid-column:span 2 elementni ikki ustunga yoyadi. minmax(min,max) trekning eng kichik va katta chegarasini ifodalaydi; auto-fit bilan responsive shakl 35-mavzuda keladi."
+  },
+  "28": {
+    "terms": [
+      [
+        "Psevdoklass",
+        "Elementning holati yoki munosabatini tanlaydi, masalan :hover."
+      ],
+      [
+        "focus-visible",
+        "Fokus ko‘rsatkichini foydalanuvchi kiritish usuliga mos ko‘rsatishga yordam beradi."
+      ],
+      [
+        "Psevdoelement",
+        "Elementning ma’lum qismi yoki yaratilgan kontentini bezaydi."
+      ],
+      [
+        "content",
+        "::before va ::after uchun yaratiladigan kontent qiymatini beradi."
+      ],
+      [
+        "Muqobil amal",
+        "Hoverdagi muhim ma’lumot klaviatura va sensor foydalanuvchiga ham yetishi kerak."
+      ]
+    ],
+    "code": "<style>button{padding:12px}button:hover{background:#dceee2}button:focus-visible{outline:3px solid #176f58}h2::before{content:\"★ \";color:#176f58}</style>\n<h2>Kurs</h2><button>Tanlash</button>",
+    "task": "Tugmaga hover va fokus uslubi, sarlavhaga bezak psevdoelement qo‘shing.",
+    "pitfall": "Muhim ko‘rsatma yoki ma’lumotni faqat CSS content ichida yashirmang.",
+    "expected": "",
+    "mode": "css"
+  },
+  "29": {
+    "terms": [
+      [
+        "transform",
+        "Elementni vizual siljitish, burish yoki masshtablashga xizmat qiladi."
+      ],
+      [
+        "transition",
+        "O‘zgaradigan xususiyat qiymatlari orasidagi o‘tishni yumshatadi."
+      ],
+      [
+        "keyframes",
+        "Animatsiyaning bosqichlaridagi uslub qiymatlarini belgilaydi."
+      ],
+      [
+        "animation",
+        "Keyframes davomiyligi va takrorlanishi kabi parametrlarni qo‘llaydi."
+      ],
+      [
+        "Reduced motion",
+        "Harakatni kamaytirishni afzal ko‘rgan foydalanuvchiga mos uslub berishga yordam beradi."
+      ]
+    ],
+    "code": "<style>button{padding:16px;transition:transform .2s}button:hover{transform:translateY(-3px)}@media(prefers-reduced-motion:reduce){button{transition:none}}</style>\n<button>Yumshoq o‘tish</button>",
+    "task": "Kartaga oddiy transform va transition qo‘shing; reduced-motion rejimida harakatni kamaytiring.",
+    "pitfall": "Barcha xususiyatga transition:all yozish o‘rniga kerakli xususiyatlarni aniq belgilang.",
+    "expected": "",
+    "mode": "css"
+  },
+  "30": {
+    "terms": [
+      [
+        "Talab",
+        "Sahifada qanday kontent va amallar bo‘lishini oldindan belgilaydi."
+      ],
+      [
+        "Semantik skelet",
+        "HTML tuzilmasini dizayndan avval ma’noli elementlar bilan tashkil qiladi."
+      ],
+      [
+        "Dizayn tizimi",
+        "Rang, shrift, oraliq va komponentlarni izchil tanlashga yordam beradi."
+      ],
+      [
+        "Qabul mezoni",
+        "Tayyor ishni aniq tekshirish mumkin bo‘lgan talabdir."
+      ],
+      [
+        "Tekshiruv",
+        "Sahifa tor ekranda, klaviatura bilan va uzun matn bilan sinab ko‘riladi."
+      ]
+    ],
+    "code": "<style>body{font:16px Arial;margin:0}.wrap{max-width:900px;margin:auto;padding:24px}.cards{display:flex;gap:16px;flex-wrap:wrap}.card{flex:1 1 180px;background:#edf4ef;padding:24px}</style>\n<main class=\"wrap\"><h1>IT kurslari</h1><div class=\"cards\"><article class=\"card\"><h2>HTML</h2><p>Tuzilma</p></article><article class=\"card\"><h2>CSS</h2><p>Dizayn</p></article></div></main>",
+    "task": "HTML va CSS bilan o‘quv markazi sahifasini yarating: navigatsiya, uch karta, aloqa qismi va footer bo‘lsin.",
+    "pitfall": "Tayyor dizaynni baholashda faqat tashqi o‘xshashlik emas, semantika va moslashuvni ham tekshiring.",
+    "expected": "",
+    "mode": "css"
+  },
+  "31": {
+    "terms": [
+      [
+        "Responsive dizayn",
+        "Kontentning turli ekran va foydalanish sharoitiga moslashishidir."
+      ],
+      [
+        "Viewport",
+        "Brauzerning sahifa ko‘rsatiladigan maydonidir."
+      ],
+      [
+        "Breakpoint",
+        "Maket o‘zgarishi zarur bo‘lgan kenglik shartidir."
+      ],
+      [
+        "Mobile first",
+        "Avval tor ekran uchun asosiy uslub, keyin kattaroq ekran uchun kengaytirish usulidir."
+      ],
+      [
+        "Mos kontent",
+        "Matn, rasm va boshqaruvlar faqat kichraytirilmaydi, foydalanishga mos qayta joylashtiriladi."
+      ]
+    ],
+    "code": "<style>.cards{display:grid;gap:16px}@media(min-width:700px){.cards{grid-template-columns:repeat(3,1fr)}}.cards>div{background:#edf4ef;padding:24px}</style>\n<div class=\"cards\"><div>1</div><div>2</div><div>3</div></div>",
+    "task": "Bitta ustunli mobil va uch ustunli keng ekran ko‘rinishini yarating.",
+    "pitfall": "Breakpointni faqat telefon modeli nomiga emas, kontent sig‘ishiga qarab tanlang.",
+    "expected": "",
+    "mode": "css"
+  },
+  "32": {
+    "terms": [
+      [
+        "Viewport metasi",
+        "width=device-width sahifa viewportini qurilma kengligi bilan moslashtiradi."
+      ],
+      [
+        "rem",
+        "Ildiz element shrift o‘lchamiga nisbiy birlikdir."
+      ],
+      [
+        "em",
+        "Qo‘llanish kontekstiga qarab element shrift o‘lchami bilan bog‘liq bo‘ladi."
+      ],
+      [
+        "Foiz",
+        "Tanlangan xususiyat uchun tegishli kontekst o‘lchamiga nisbatan hisoblanadi."
+      ],
+      [
+        "vw",
+        "Viewport kengligining yuzdan bir ulushidir; matnni faqat vw bilan cheklash noqulay bo‘lishi mumkin."
+      ]
+    ],
+    "code": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>.wrap{width:90%;max-width:60rem;margin:auto}h1{font-size:clamp(1.5rem,4vw,3rem)}</style>\n<main class=\"wrap\"><h1>Mos sarlavha</h1></main>",
+    "task": "Viewport va rem birliklaridan foydalanib o‘qiladigan mobil sahifa tuzing.",
+    "pitfall": "Foydalanuvchi zoomini o‘chiradigan sozlamalar bilan matn kattalashtirishni cheklamang.",
+    "expected": "",
+    "mode": "css"
+  },
+  "33": {
+    "terms": [
+      [
+        "Media query",
+        "Sharoitga mos CSS qoidalarini faollashtiradi."
+      ],
+      [
+        "min-width",
+        "Kamida belgilangan kenglikka yetganda qoidani qo‘llaydi."
+      ],
+      [
+        "max-width",
+        "Belgilangan kenglikdan oshmagan holatni tanlaydi."
+      ],
+      [
+        "Kaskad tartibi",
+        "Bir nechta media qoidasi bir vaqtda mos kelganda ham kaskad ishlaydi."
+      ],
+      [
+        "Chegara sinovi",
+        "Breakpointning pastida, o‘zida va yuqorisida maket tekshiriladi."
+      ]
+    ],
+    "code": "<style>.box{background:#edf4ef;padding:24px}@media(min-width:600px){.box{background:#d6e8f5}}@media(min-width:900px){.box{max-width:700px;margin:auto}}</style>\n<div class=\"box\">Oyna kengligini o‘zgartiring.</div>",
+    "task": "600px va 900px chegaralarda o‘zgaradigan maket tuzing; har chegaraning ikki tomonini sinang.",
+    "pitfall": "Faqat bitta ekran o‘lchamida ko‘rish responsive yechimni tekshirish uchun yetarli emas.",
+    "expected": "",
+    "mode": "css"
+  },
+  "34": {
+    "terms": [
+      [
+        "flex-wrap",
+        "Elementlarning qatorga sig‘maganida yangi qatorga o‘tishiga ruxsat beradi."
+      ],
+      [
+        "flex-basis",
+        "Asosiy o‘qdagi boshlang‘ich o‘lchamni belgilaydi."
+      ],
+      [
+        "flex-grow",
+        "Erkin joyni elementlar orasida taqsimlash ulushidir."
+      ],
+      [
+        "flex-shrink",
+        "Joy yetishmaganda qisqarish ulushini belgilaydi."
+      ],
+      [
+        "min-width",
+        "Uzun kontentli flex bola uchun min-width:0 qisqarishga yordam berishi mumkin."
+      ]
+    ],
+    "code": "<style>.layout{display:flex;gap:20px;flex-wrap:wrap}.item{flex:1 1 240px;min-width:0;padding:24px;background:#edf4ef}</style>\n<div class=\"layout\"><div class=\"item\">Asosiy qism</div><div class=\"item\">Yon qism</div></div>",
+    "task": "Ikki ustunli maketni tor ekranda ketma-ket joylashadigan qiling.",
+    "pitfall": "Uzun URL yoki so‘z minimal kenglikni oshirib sahifani tashqariga chiqarishi mumkin.",
+    "expected": "",
+    "mode": "css"
+  },
+  "35": {
+    "terms": [
+      [
+        "auto-fit",
+        "Joyga qarab takroriy ustunlarni joylashtirib, bo‘sh tracklarni yig‘ishi mumkin."
+      ],
+      [
+        "minmax",
+        "Kartalar kengligi uchun minimal va moslashuvchan maksimal qiymat beradi."
+      ],
+      [
+        "repeat",
+        "Bir xil track ta’rifini qayta yozmasdan takrorlaydi."
+      ],
+      [
+        "fr",
+        "Erkin joydan ulush ajratadi; kontent minimumlari ham ta’sir qilishi mumkin."
+      ],
+      [
+        "gap",
+        "Kartalar orasidagi oraliqni qator va ustunlarda bir xilda boshqaradi."
+      ]
+    ],
+    "code": "<style>.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}.cards>article{padding:24px;background:#edf4ef}</style>\n<div class=\"cards\"><article>HTML</article><article>CSS</article><article>JavaScript</article></div>",
+    "task": "Kartalar gridini ko‘p breakpoint yozmasdan ekran kengligiga moslashtiring.",
+    "pitfall": "Minimum track viewportdan keng bo‘lsa gorizontal chiqib ketish yuz berishi mumkin.",
+    "expected": "",
+    "mode": "css"
+  },
+  "36": {
+    "terms": [
+      [
+        "Mobil navigatsiya",
+        "Kichik maydonda havolalar va menyu boshqaruvini foydalanishga qulay joylashtiradi."
+      ],
+      [
+        "button",
+        "Menyuni ochish amali uchun semantik boshqaruvdir; havola navigatsiya uchun ishlatiladi."
+      ],
+      [
+        "aria-expanded",
+        "Yoyiladigan qismning hozirgi ochiq yoki yopiqligini bildiradi."
+      ],
+      [
+        "Fokus",
+        "Klaviatura bilan menyuga kirish va undan chiqish yo‘li saqlanadi."
+      ],
+      [
+        "Sensor boshqaruv",
+        "Tugmalar orasida yetarli joy va aniq nom bo‘lishi muhim."
+      ]
+    ],
+    "code": "<style>nav{display:flex;gap:16px;flex-wrap:wrap}a{padding:12px;background:#edf4ef}</style>\n<nav aria-label=\"Asosiy\"><a href=\"#\">Bosh sahifa</a><a href=\"#\">Kurslar</a><a href=\"#\">Aloqa</a></nav>",
+    "task": "HTML va CSS bilan navigatsiya havolalarini flex-wrap yordamida tor ekranda yangi qatorga o‘tkazing. Havolalarni bosish uchun yetarli oraliq qoldiring. JavaScript bilan ochilib-yopiladigan menyu talab qilinmaydi.",
+    "pitfall": "Ekranga sig‘magan havolalarni shunchaki yashirmang. Ochilib-yopiladigan JavaScript menyusi 76-mavzuda o‘rganiladi; bu yerda havolalar doim ko‘rinadi.",
+    "expected": "",
+    "mode": "css",
+    "teaching": "Mobil navigatsiyada avval mavjud HTML havolalariga e’tibor bering. CSS display:flex, gap, flex-wrap va padding bilan o‘qiladigan, bosish qulay ko‘rinish yaratiladi. button va aria-expanded keyingi interaktiv darslar uchun tanishtiriladi, lekin ularni JavaScript bilan boshqarish bu vazifaning sharti emas."
+  },
+  "37": {
+    "terms": [
+      [
+        "Bootstrap",
+        "Tayyor CSS sinflari va ayrim JavaScript komponentlari to‘plamidir."
+      ],
+      [
+        "Ulanish",
+        "Versiyaga mos CSS va kerak bo‘lsa JavaScript bundle ulanadi."
+      ],
+      [
+        "Container",
+        "Mazmunning responsive kengligini boshqaradi."
+      ],
+      [
+        "Utility",
+        "Oraliq, rang va joylashuv kabi bitta vazifaga yo‘naltirilgan sinflardir."
+      ],
+      [
+        "Versiya",
+        "Turli asosiy versiya hujjatlari va sinflarini aralashtirmaslik kerak."
+      ]
+    ],
+    "code": "<!-- Bootstrap CSSni rasmiy hujjatdagi usul bilan ulang. -->\n<div class=\"container p-4\"><h1>Bootstrap sahifa</h1><button class=\"btn btn-primary\">Boshlash</button></div>",
+    "task": "Bootstrap 5.3 hujjatidan CSS ulanishini oling va container hamda btn bilan boshlang‘ich sahifa yarating.",
+    "pitfall": "Kutubxona ulanmagan bo‘lsa class nomlarining o‘zi tayyor dizaynni yaratmaydi.",
+    "expected": "",
+    "mode": "css"
+  },
+  "38": {
+    "terms": [
+      [
+        "Container",
+        "Responsive ustunlar uchun umumiy konteynerdir."
+      ],
+      [
+        "Row",
+        "Grid ustunlarini guruhlaydi."
+      ],
+      [
+        "col",
+        "Kenglikni grid ustunlari ulushi bilan belgilaydi."
+      ],
+      [
+        "Breakpoint sinfi",
+        "col-md-6 kabi sinf ma’lum kenglikdan boshlab ishlaydi."
+      ],
+      [
+        "Gutter",
+        "Ustunlar va qatorlar orasidagi oraliqni tashkil qiladi."
+      ]
+    ],
+    "code": "<!-- Bootstrap 5 CSS talab qilinadi. -->\n<div class=\"container\"><div class=\"row g-3\"><div class=\"col-12 col-md-6\">Birinchi ustun</div><div class=\"col-12 col-md-6\">Ikkinchi ustun</div></div></div>",
+    "task": "Mobil ekranda bitta, md kenglikdan boshlab ikki ustunli Bootstrap maket yarating.",
+    "pitfall": "Ustunlarni row va container tuzilmasisiz tasodifiy joylashtirish kutilmagan oraliq beradi.",
+    "expected": "",
+    "mode": "css"
+  },
+  "39": {
+    "terms": [
+      [
+        "Navbar",
+        "Navigatsiyani tashkil etuvchi Bootstrap komponentidir."
+      ],
+      [
+        "Card",
+        "Mazmun, sarlavha va amallarni birlashtiradigan komponentdir."
+      ],
+      [
+        "Alert",
+        "Holat yoki xabarni ko‘rsatadi, lekin rang bilan cheklanmasligi kerak."
+      ],
+      [
+        "Modal",
+        "Ochiq oynada fokus va yopish imkonini boshqarish talab etiladi."
+      ],
+      [
+        "JavaScript bundle",
+        "Modal kabi interaktiv komponentlar uchun tegishli skript kerak bo‘lishi mumkin."
+      ]
+    ],
+    "code": "<!-- Bootstrap CSS va modal uchun JS bundle kerak. -->\n<div class=\"card\"><div class=\"card-body\"><h2 class=\"card-title\">HTML kursi</h2><p class=\"card-text\">Boshlang‘ich bosqich</p><button class=\"btn btn-success\">Tanlash</button></div></div>\n<div class=\"alert alert-info\" role=\"status\">Ro‘yxat ochiq.</div>",
+    "task": "Navbar, uch karta va xabar komponentini yarating; modal qo‘shsangiz klaviatura bilan yopishni tekshiring.",
+    "pitfall": "Modal tashqi ko‘rinishi tayyor bo‘lsa ham fokus va Esc bilan ishlash sinovdan o‘tishi kerak.",
+    "expected": "",
+    "mode": "css"
+  },
+  "40": {
+    "terms": [
+      [
+        "Kompozitsiya",
+        "Tayyor komponentlarni bitta foydalanuvchi vazifasiga mos birlashtirishdir."
+      ],
+      [
+        "Grid",
+        "Maketni responsive ustunlarda tashkil etadi."
+      ],
+      [
+        "Moslashtirish",
+        "Bootstrap ustidan yozilgan uslublar izchil nomlanadi va kaskad tekshiriladi."
+      ],
+      [
+        "Accessibility",
+        "Semantika, yorliq, kontrast va fokus komponentdan qat’i nazar baholanadi."
+      ],
+      [
+        "Qabul sinovi",
+        "Mobil, keng ekran va klaviaturada bajariladigan vazifalar tekshiriladi."
+      ]
+    ],
+    "code": "<!-- Bootstrap CSSni ulang. -->\n<main class=\"container py-4\"><h1>Kurslar</h1><div class=\"row g-3\"><article class=\"col-12 col-md-6\"><div class=\"card p-3\"><h2>HTML</h2><button class=\"btn btn-primary\">Batafsil</button></div></article><article class=\"col-12 col-md-6\"><div class=\"card p-3\"><h2>CSS</h2><p>Dizayn asoslari</p></div></article></div></main>",
+    "task": "Bootstrap yordamida o‘quv markazining responsive sahifasini yarating va beshta qabul sinovi yozing.",
+    "pitfall": "Kutubxona mavjudligi foydalanish qulayligini avtomatik kafolatlamaydi.",
+    "expected": "",
+    "mode": "css"
+  },
+  "41": {
+    "terms": [
+      [
+        "JavaScript",
+        "Brauzerda hisoblash va xatti-harakatni boshqaradigan dasturlash tilidir."
+      ],
+      [
+        "Dvigatel",
+        "Kodning sintaksisini tahlil qilib, amallarni bajaradi."
+      ],
+      [
+        "Konsol",
+        "Natija, xabar va xatolarni kuzatish vositasidir."
+      ],
+      [
+        "Sinxron amal",
+        "Joriy bajarilish ketma-ketligida yakunlanadi."
+      ],
+      [
+        "Web API",
+        "DOM va fetch kabi brauzer muhiti taqdim etadigan imkoniyatlardir."
+      ]
+    ],
+    "code": "console.log(\"Salom, Frontend!\");\nconsole.log(4 + 6);",
+    "task": "Konsolga salomlashuv va ikkita son yig‘indisini chiqaring; JavaScript bilan DOM farqini yozing.",
+    "pitfall": "JavaScript tili bilan brauzer taqdim etadigan barcha APIlarni bir xil tushuncha deb olmang.",
+    "expected": "Salom, Frontend!\n10",
+    "mode": "js"
+  },
+  "42": {
+    "terms": [
+      [
+        "script",
+        "HTMLga JavaScript ulash uchun ishlatiladi."
+      ],
+      [
+        "src",
+        "Tashqi JavaScript fayli manzilini bildiradi."
+      ],
+      [
+        "defer",
+        "Oddiy tashqi skriptni hujjat tahlilidan keyin bajarishga yordam beradi."
+      ],
+      [
+        "DOM tayyorligi",
+        "Element mavjud bo‘lmasdan unga murojaat qilish xato berishi mumkin."
+      ],
+      [
+        "Ajratish",
+        "HTML, CSS va JS fayllarini tartiblash keyingi tahrirni yengillashtiradi."
+      ]
+    ],
+    "code": "<script>\nconsole.log(\"JavaScript HTMLga ulandi\");\n</script>\n<!-- Alohida app.js fayli uchun: <script src=\"app.js\" defer></script> -->",
+    "task": "HTMLdagi script ichiga console.log bilan xabar yozing va konsolda tekshiring. Kompyuterdagi loyihada shu satrni app.jsga ko‘chiring va src orqali ulang. DOM elementini topish yoki o‘zgartirish talab qilinmaydi.",
+    "pitfall": "src orqali fayl ulangan script ichiga yana alohida ishlashini kutib kod yozmang.",
+    "expected": "",
+    "mode": "web",
+    "teaching": "script ichidagi matn JavaScript sifatida bajariladi. src tashqi .js fayliga yo‘l beradi; defer tashqi skriptni hujjat o‘qilib bo‘lgach bajaradi. Ichki script va tashqi src usulini alohida sinang. console.log 41-mavzuda ko‘rilgan; document.getElementById va textContent DOM bo‘limida keladi."
+  },
+  "43": {
+    "terms": [
+      [
+        "let",
+        "Qayta qiymat berish mumkin bo‘lgan blok doirasidagi bog‘lanish yaratadi."
+      ],
+      [
+        "const",
+        "Bog‘lanishga boshqa qiymat qayta berilishini cheklaydi; obyekt ichini muzlatmaydi."
+      ],
+      [
+        "var",
+        "Funksiya doirasi va ko‘tarilish xatti-harakatiga ega eskiroq e’lon usulidir."
+      ],
+      [
+        "Identifikator",
+        "Nomlash qoidalariga mos, katta-kichik harfni farqlaydigan nomdir."
+      ],
+      [
+        "O‘zlashtirish",
+        "Hisoblangan qiymatni bog‘lanishga beradi; tenglik tekshirishidan farq qiladi."
+      ]
+    ],
+    "code": "const kurs = \"Frontend\";\nlet ism = \"Ali\";\nconsole.log(kurs);\nconsole.log(ism);\nism = \"Vali\";\nconsole.log(ism);",
+    "task": "const bilan kurs nomini, let bilan o‘quvchi ismini saqlang. Ismni qayta o‘zlashtiring va ikkala holatni console.log bilan chiqaring. Narx hisoblash yoki matematik operator talab qilinmaydi.",
+    "pitfall": "const massiv elementini o‘zgartirish bilan const nomiga boshqa massiv berish bir xil emas.",
+    "expected": "Frontend\nAli\nVali",
+    "mode": "js",
+    "teaching": "const va let nomlangan qiymat saqlaydi. = o‘zlashtirishdir. constga qayta qiymat berilmaydi; letga beriladi. var eski kodda uchraydi, bu mashqda let va const ishlatiladi. Sonlarni ko‘paytirish va += 45-mavzuda o‘rganiladi."
+  },
+  "44": {
+    "terms": [
+      [
+        "number",
+        "Oddiy butun va kasr sonlar uchun ishlatiladigan turdir."
+      ],
+      [
+        "string",
+        "Matn qiymati bo‘lib, bitta belgi ham shu tur bilan ifodalanadi."
+      ],
+      [
+        "boolean",
+        "true yoki false mantiqiy qiymatidir."
+      ],
+      [
+        "null va undefined",
+        "null ataylab bo‘sh qiymat, undefined esa qiymat yo‘qligini ko‘rsatadigan alohida qiymatdir."
+      ],
+      [
+        "object",
+        "Xususiyatli tuzilmalar turidir; typeof null tarixiy sabab bilan object qaytaradi."
+      ]
+    ],
+    "code": "console.log(typeof 12);\nconsole.log(typeof \"12\");\nconsole.log(typeof true);\nconsole.log(typeof undefined);\nconsole.log(typeof null);",
+    "task": "Beshta turga misol yozing va typeof null natijasi nega alohida talqin qilinishini izohlang.",
+    "pitfall": "typeof null natijasini null oddiy obyekt ekanining isboti deb qabul qilmang.",
+    "expected": "number\nstring\nboolean\nundefined\nobject",
+    "mode": "js"
+  },
+  "45": {
+    "terms": [
+      [
+        "Arifmetik operator",
+        "+, -, *, /, % va ** hisoblash amallarini ifodalaydi."
+      ],
+      [
+        "Qat’iy tenglik",
+        "=== operandlarni majburiy turga o‘girmasdan tengligini tekshiradi."
+      ],
+      [
+        "Mantiqiy operator",
+        "&&, || va ! shartlarni birlashtirish yoki inkor qilishga xizmat qiladi."
+      ],
+      [
+        "Ustuvorlik",
+        "Amallar tartibi qavs va operator qoidalariga bog‘liq."
+      ],
+      [
+        "Satr ulash",
+        "+ satr bilan ishlaganda matn ulashga olib kelishi mumkin."
+      ]
+    ],
+    "code": "console.log((8 + 12) / 2);\nconsole.log(\"2\" + 3);\nconsole.log(60 >= 0 && 60 <= 100);",
+    "task": "O‘rtacha, qoldiq va 0–100 oraliq tekshiruvini yozing.",
+    "pitfall": "0<=x<=100 zanjiri o‘rniga x>=0 && x<=100 yoziladi.",
+    "expected": "10\n23\ntrue",
+    "mode": "js"
+  },
+  "46": {
+    "terms": [
+      [
+        "console.log",
+        "Qiymatlarni konsolga chiqaradi."
+      ],
+      [
+        "prompt",
+        "Brauzerda satr yoki bekor qilinganda null beradi; har muhitda mavjud emas."
+      ],
+      [
+        "Number",
+        "Qiymatni songa o‘girishga urinadi; yaroqsiz matn NaN berishi mumkin."
+      ],
+      [
+        "Validatsiya",
+        "Kirish turini, bo‘shligini va masala cheklovini tekshiradi."
+      ],
+      [
+        "Number.isFinite",
+        "Faqat chekli number qiymati uchun true qaytaradi."
+      ]
+    ],
+    "code": "const xom = \"12\";\nconst son = Number(xom);\nconsole.log(Number.isFinite(son));\nconsole.log(son + 3);",
+    "task": "prompt orqali ikkita qiymat oling, Number bilan songa aylantiring va console.log orqali yig‘indini chiqaring. Bo‘sh satr va noto‘g‘ri matnni alohida berib, Number hamda Number.isFinite natijasini kuzating. if bilan rad etish keyingi darsda bajariladi.",
+    "pitfall": "Number(\"\") 0 beradi; majburiy qiymat uchun bo‘sh kirishni alohida tekshiring.",
+    "expected": "true\n15",
+    "mode": "js",
+    "teaching": "prompt javobni satr sifatida qaytaradi; bekor qilinsa null bo‘lishi mumkin. Number satrni songa aylantiradi, console.log natijani ko‘rsatadi, Number.isFinite son chekliligini tekshiradi. Hozir natijalarni kuzating; if/else sharti 48-mavzuda tushuntirilgach qaror chiqariladi."
+  },
+  "47": {
+    "terms": [
+      [
+        "Bog‘lanish",
+        "let qayta qiymat beriladigan, const esa qayta bog‘lanmaydigan nomni ifodalaydi."
+      ],
+      [
+        "Tur",
+        "Son va satr farqlanadi: arifmetik amal oldidan satrning son ko‘rinishi Number bilan olinadi."
+      ],
+      [
+        "O‘zlashtirish",
+        "Qiymatni nomga yozishdir; = qiymat beradi, === esa tenglikni tekshiradi."
+      ],
+      [
+        "Kuzatish",
+        "console.log qiymat yoki hisob natijasini konsolda ko‘rsatadi; u sahifa elementini o‘zgartirmaydi."
+      ],
+      [
+        "Kirish",
+        "prompt javobi satr yoki null bo‘lishi mumkin. Number.isFinite aylantirilgan qiymatni kuzatishga yordam beradi."
+      ]
+    ],
+    "mode": "js",
+    "code": "const narx = 12000;\nlet miqdor = 3;\nlet jami = narx * miqdor;\nconsole.log(jami);\nmiqdor = 5;\njami = narx * miqdor;\nconsole.log(jami);",
+    "task": "Daftar narxi va soni asosida jami to‘lovni hisoblang. Avval tayyor sonlar, keyin prompt va Number bilan ishlang. Uch xil miqdor uchun kutilgan va haqiqiy natijani yozing. if yoki funksiya yaratish shart emas.",
+    "pitfall": "\"12000\" + \"3\" satrlarni ulaydi; son hisoblash uchun qiymat turi oldin tekshiriladi.",
+    "expected": "36000\n60000",
+    "teaching": "Avval 43–46-mavzulardagi let, const, ma’lumot turi va operatorlarni eslang. Narx va miqdorni sonlarda saqlang, ko‘paytirish natijasini boshqa nomga yozing. So‘ng xuddi shu qiymatlarni prompt orqali berib Number bilan aylantiring. Hozir shart, sikl, massiv yoki DOM talab qilinmaydi; noto‘g‘ri qiymat kelganda chiqadigan natijani kuzatishning o‘zi kifoya."
+  },
+  "48": {
+    "terms": [
+      [
+        "if",
+        "Rost shartga mos blokni bajaradi."
+      ],
+      [
+        "else if",
+        "Oldingi shart mos kelmaganda keyingi shartni tekshiradi."
+      ],
+      [
+        "else",
+        "Oldingi shartlar mos kelmagandagi yo‘lni bajaradi."
+      ],
+      [
+        "Chegara",
+        "Qaror almashadigan nuqta; tenglik kiritilishi sinov bilan aniqlanadi."
+      ],
+      [
+        "Blok",
+        "Jingalak qavs ichidagi birga boshqariladigan amallar guruhidir."
+      ]
+    ],
+    "code": "const ball = 60;\nif (ball < 0 || ball > 100) console.log(\"Xato\");\nelse if (ball >= 60) console.log(\"O‘tdi\");\nelse console.log(\"Qayta o‘qish\");",
+    "task": "59,60,61 ball uchun qaror chiqaring, −1 va 101 ni yaroqsiz deb belgilang.",
+    "pitfall": ">60 bilan >=60 chegarasi bir xil natija bermaydi.",
+    "expected": "O‘tdi",
+    "mode": "js"
+  },
+  "49": {
+    "terms": [
+      [
+        "switch",
+        "Bitta ifoda qiymati bo‘yicha variant tanlaydi."
+      ],
+      [
+        "case",
+        "Mos kelishi tekshiriladigan variant qiymatidir."
+      ],
+      [
+        "break",
+        "Switchdan chiqib keyingi blokka o‘tadi."
+      ],
+      [
+        "default",
+        "Hech bir case mos kelmaganda bajariladigan yo‘ldir."
+      ],
+      [
+        "Fall-through",
+        "Break bo‘lmasa keyingi case tanasi ham bajarilishi mumkin."
+      ]
+    ],
+    "code": "const amal = \"+\";\nswitch (amal) {\n case \"+\": console.log(2 + 3); break;\n case \"*\": console.log(2 * 3); break;\n default: console.log(\"Noma’lum amal\");\n}",
+    "task": "Ikki son uchun to‘rt amalli kalkulyator yarating; nolga bo‘lish va noma’lum amal holatini ajrating.",
+    "pitfall": "case qiymati 1 soni bo‘lsa \"1\" satri bilan qat’iy teng hisoblanmaydi.",
+    "expected": "5",
+    "mode": "js"
+  },
+  "50": {
+    "terms": [
+      [
+        "Masala modeli",
+        "Kirish, chiqish va cheklovlarni aniq ifodalaydi."
+      ],
+      [
+        "Tarmoqlanish",
+        "Shart natijasiga qarab hisoblash yo‘lini tanlaydi."
+      ],
+      [
+        "Tenglik holati",
+        "Maksimum yoki taqqoslash masalasida alohida e’tiborga olinadi."
+      ],
+      [
+        "Test to‘plami",
+        "Oddiy, teng, chegara va yaroqsiz holatlarni qamrab oladi."
+      ],
+      [
+        "Dalil",
+        "Kutilgan hamda haqiqiy natijani solishtirish xulosaga asos bo‘ladi."
+      ]
+    ],
+    "code": "const a = -8, b = -3;\nlet katta;\nif (a > b) { katta = a; }\nelse { katta = b; }\nconsole.log(katta);",
+    "task": "Uch son maksimumini shartlar yordamida toping va teng hamda manfiy sonlar bilan sinang.",
+    "pitfall": "Maksimumni 0 dan boshlash barcha sonlar manfiy bo‘lganda xato beradi.",
+    "expected": "-3",
+    "mode": "js",
+    "teaching": "48-mavzudagi if/else va 45-mavzudagi taqqoslashni qo‘llang. Dastlab ikki sonni taqqoslang, so‘ng uchinchi sonni hozirgi maksimum bilan solishtiring. Yangi ternar sintaksis kiritilmaydi."
+  },
+  "51": {
+    "terms": [
+      [
+        "Shart",
+        "Boolean natija asosida qaysi blok ishlashini tanlaydi."
+      ],
+      [
+        "Chegara",
+        "Qaror o‘zgaradigan qiymat; masalan 60 ballning o‘zi ham sinovga kiradi."
+      ],
+      [
+        "Yaroqli oraliq",
+        "Kirishning qabul qilinadigan qiymat chegaralaridir; 0–100 ball misolida manfiy yoki 101 qiymat yaroqsiz."
+      ],
+      [
+        "Ketma-ket tekshirish",
+        "if va else if yuqoridan pastga tekshiriladi; birinchi mos tarmoq bajariladi."
+      ],
+      [
+        "switch",
+        "Aniq variantlar uchun case va default bilan tanlash; break keyingi casega o‘tishni to‘xtatadi."
+      ]
+    ],
+    "mode": "js",
+    "code": "const ball = 60;\nif (ball < 0 || ball > 100) { console.log(\"Yaroqsiz ball\"); }\nelse if (ball >= 60) { console.log(\"O‘tdi\"); }\nelse { console.log(\"Qayta o‘qish\"); }",
+    "task": "Ball bo‘yicha qaror dasturini yozing. −1, 0, 59, 60, 100 va 101 uchun natijani oldindan yozib, kod bilan solishtiring. Keyin +, −, * va / amallarini switch bilan tanlang; nolga bo‘lishni alohida tekshiring.",
+    "pitfall": "Umumiy shartni birinchi qo‘yish maxsus holatni yopib qo‘yishi mumkin; chegaralarni ikki tomondan sinang.",
+    "expected": "O‘tdi",
+    "teaching": "48–50-mavzulardagi if/else va switchdan foydalaning. Ballni baholashda avval yaroqsiz oraliqni, keyin o‘tish chegarasini tekshiring. if va switchni bitta usulga majburlamang: ball oraliqlari ifga, amal nomlari switchga qulay. Sikl yoki massiv hali kerak emas."
+  },
+  "52": {
+    "terms": [
+      [
+        "for",
+        "Boshlanish, shart va yangilashni sarlavhada birlashtiradigan sikldir."
+      ],
+      [
+        "while",
+        "Tanadan oldin davom etish shartini tekshiradi."
+      ],
+      [
+        "Iteratsiya",
+        "Siklning bitta aylanishidir."
+      ],
+      [
+        "Hisoblagich",
+        "Qaysi bosqichdaligini saqlaydigan o‘zgaruvchidir."
+      ],
+      [
+        "Tugash",
+        "Holat shartni yolg‘on qiladigan yo‘nalishda o‘zgarishi kerak."
+      ]
+    ],
+    "code": "let summa = 0;\nfor (let i = 1; i <= 4; i++) summa += i;\nconsole.log(summa);",
+    "task": "1 dan n gacha yig‘indini for va while bilan alohida yozing, natijalarni solishtiring.",
+    "pitfall": "Hisoblagichni yangilamaslik tugamaydigan sikl keltirishi mumkin.",
+    "expected": "10",
+    "mode": "js"
+  },
+  "53": {
+    "terms": [
+      [
+        "do...while",
+        "Avval tanani, keyin shartni bajaradi; kamida bir marta ishlaydi."
+      ],
+      [
+        "break",
+        "Joriy siklni to‘xtatadi."
+      ],
+      [
+        "continue",
+        "Qolgan tana amallarini tashlab keyingi iteratsiyaga o‘tadi."
+      ],
+      [
+        "Old shart",
+        "while dastlab yolg‘on bo‘lsa tanasi umuman ishlamaydi."
+      ],
+      [
+        "Yangilash",
+        "Continue ishlatilganda ham tugashga eltuvchi holat o‘zgarishi saqlanishi kerak."
+      ]
+    ],
+    "code": "for (let i = 1; i <= 5; i++) {\n if (i === 2) continue;\n if (i === 4) break;\n console.log(i);\n}",
+    "task": "1–10 ichida 3 ni tashlab, 8 da to‘xtaydigan sikl yozing; do...while bilan bir martalik ishni ko‘rsating.",
+    "pitfall": "While tanasidagi yangilashga yetmasdan continue qilish cheksiz siklga olib kelishi mumkin.",
+    "expected": "1\n3",
+    "mode": "js"
+  },
+  "54": {
+    "terms": [
+      [
+        "Akkumulyator",
+        "Takrorlash davomida yig‘iladigan natijani saqlaydi."
+      ],
+      [
+        "Yig‘indi boshlanishi",
+        "Qo‘shish uchun odatda 0 olinadi."
+      ],
+      [
+        "Ko‘paytma boshlanishi",
+        "Ko‘paytirish uchun odatda 1 olinadi."
+      ],
+      [
+        "Sikl chegarasi",
+        "Oxirgi qiymatni qamrab olish uchun < va <= farqlanadi."
+      ],
+      [
+        "Mustaqil tekshiruv",
+        "Yig‘indini formula yoki qo‘lda hisob bilan solishtirish mumkin."
+      ]
+    ],
+    "code": "let summa = 0, kopaytma = 1;\nfor (let i = 1; i <= 4; i++) {summa += i; kopaytma *= i;}\nconsole.log(summa, kopaytma);",
+    "task": "1–n yig‘indi va ko‘paytmasini hisoblang; n=1,4 va yaroqsiz kirishlar uchun test yozing.",
+    "pitfall": "Ko‘paytmani 0 dan boshlash barcha natijani 0 qilib qo‘yadi.",
+    "expected": "10 24",
+    "mode": "js"
+  },
+  "55": {
+    "terms": [
+      [
+        "Hisoblagich",
+        "Har aylanishda belgilangan qadam bilan o‘zgaradigan qiymat."
+      ],
+      [
+        "Akkumulyator",
+        "Sikl davomida umumiy natijani yig‘adigan o‘zgaruvchi."
+      ],
+      [
+        "Boshlang‘ich qiymat",
+        "Yig‘indi uchun 0 tanlanadi; noto‘g‘ri boshlanish butun natijani o‘zgartiradi."
+      ],
+      [
+        "Tugash sharti",
+        "Siklning qachon to‘xtashini belgilaydi; hisoblagich shartga yaqinlashishi kerak."
+      ],
+      [
+        "Solishtirish",
+        "Bir masalani for va while bilan yechib, bir xil kirishda natijalarini tekshirish."
+      ]
+    ],
+    "mode": "js",
+    "code": "const n = 5;\nlet summa = 0;\nfor (let i = 1; i <= n; i++) { summa += i; }\nconsole.log(summa);\nlet juftlar = 0;\nfor (let i = 1; i <= n; i++) { if (i % 2 === 0) juftlar++; }\nconsole.log(juftlar);",
+    "task": "1 dan n gacha yig‘indi va juft sonlar miqdorini hisoblang. for yechimini whilega o‘giring. n=1, n=5 va n=10 holatlarini tekshiring; har bir siklning tugash shartini tushuntiring.",
+    "pitfall": "i < n va i <= n bir xil emas. Hisoblagich yangilanmasa sikl tugamasligi mumkin.",
+    "expected": "15\n2",
+    "teaching": "52–54-mavzulardagi for, while, do...while, break va continuega tayaning. Avval nning kichik qiymatini tanlab, har aylanishda i va summa qanday o‘zgarganini qog‘ozda yozing. Keyin kodni bajaring. Massiv, funksiya va sahifa elementlari bilan ishlash bu mashqning talabi emas."
+  },
+  "56": {
+    "terms": [
+      [
+        "Massiv",
+        "Tartiblangan elementlar to‘plami; JavaScript Array uzunligi o‘zgarishi mumkin."
+      ],
+      [
+        "Indeks",
+        "Element o‘rni 0 dan boshlanadi."
+      ],
+      [
+        "length",
+        "Massiv uzunligi bo‘lib, oxirgi odatiy indeks length−1 dir."
+      ],
+      [
+        "Element",
+        "Indeks orqali olinadigan qiymatdir."
+      ],
+      [
+        "Mavjud bo‘lmagan indeks",
+        "Oddiy o‘qishda undefined berishi mumkin; bu son deb ishlatilmasligi kerak."
+      ]
+    ],
+    "code": "const ballar = [60, 80, 90];\nconsole.log(ballar[0]);\nconsole.log(ballar.length);\nconsole.log(ballar[ballar.length - 1]);",
+    "task": "Besh ball massivini yarating, birinchi va oxirgi qiymatni chiqaring hamda bir elementni yangilang.",
+    "pitfall": "i<=massiv.length sikli odatda ortiqcha indeksni ham o‘qiydi.",
+    "expected": "60\n3\n90",
+    "mode": "js"
+  },
+  "57": {
+    "terms": [
+      [
+        "push",
+        "Massiv oxiriga element qo‘shib yangi uzunlikni qaytaradi."
+      ],
+      [
+        "pop",
+        "Oxirgi elementni olib tashlab o‘sha qiymatni qaytaradi."
+      ],
+      [
+        "shift",
+        "Birinchi elementni olib tashlaydi."
+      ],
+      [
+        "unshift",
+        "Boshiga element qo‘shib yangi uzunlikni qaytaradi."
+      ],
+      [
+        "includes",
+        "Qiymat mavjudligini boolean sifatida tekshiradi."
+      ]
+    ],
+    "code": "const kurslar = [\"HTML\", \"CSS\"];\nkurslar.push(\"JS\");\nconsole.log(kurslar.includes(\"JS\"));\nconsole.log(kurslar.pop());\nconsole.log(kurslar);",
+    "task": "Ro‘yxat boshiga va oxiriga kurs qo‘shing, olib tashlang va mavjudlikni tekshiring.",
+    "pitfall": "push qaytargan qiymatni yangi massiv deb qabul qilmang; u uzunlikdir.",
+    "expected": "true\nJS\n[\"HTML\",\"CSS\"]",
+    "mode": "js"
+  },
+  "58": {
+    "terms": [
+      [
+        "map",
+        "Har elementdan yangi qiymat hisoblab yangi massiv qaytaradi."
+      ],
+      [
+        "filter",
+        "Shartga mos elementlardan yangi massiv yaratadi."
+      ],
+      [
+        "find",
+        "Birinchi mos elementni, topilmasa undefined qaytaradi."
+      ],
+      [
+        "forEach",
+        "Har element uchun amal bajaradi; yangi massiv qaytarmaydi."
+      ],
+      [
+        "Callback",
+        "Boshqa funksiyaga berilib u tomonidan chaqiriladigan funksiyadir."
+      ]
+    ],
+    "code": "const ballar = [40, 60, 80];\n// callbackning tayyor qolipi: function(x) { return ...; }\nconsole.log(ballar.map(function(x) { return x + 5; }));\nconsole.log(ballar.filter(function(x) { return x >= 60; }));\nconsole.log(ballar.find(function(x) { return x > 70; }));",
+    "task": "Berilgan callback qoliplarini saqlang. mapda qo‘shiladigan 5 sonini 10ga, filterdagi 60ni 70ga o‘zgartiring. Natijalarni oldindan yozib, konsol bilan solishtiring. Mustaqil funksiya yoki arrow function yozish shart emas.",
+    "pitfall": "forEach natijasini map qaytargan massiv o‘rnida ishlatmang.",
+    "expected": "[45,65,85]\n[60,80]\n80",
+    "mode": "js",
+    "teaching": "Bu metodlar har bir element uchun callbackni chaqiradi. Tayyor function(x) { return ...; } qolipida x joriy element, return metodga natija uzatadi. Avval shu qolipning ma’nosini tushuning, keyin faqat uning ichidagi arifmetik ifoda yoki shartni o‘zgartiring. Funksiya yaratish keyingi, arrow sintaksisi 62-mavzuda batafsil o‘rganiladi."
+  },
+  "59": {
+    "terms": [
+      [
+        "Indeks",
+        "Massivdagi o‘rin 0 dan boshlanadi; oxirgi odatiy indeks length − 1."
+      ],
+      [
+        "Massivni ko‘rish",
+        "Sikl bilan har elementga indeks orqali murojaat qilish."
+      ],
+      [
+        "Filtrlash",
+        "Shartga mos elementlarni ajratish; bu darsda oddiy for va push bilan bajarish mumkin."
+      ],
+      [
+        "Yangi massiv",
+        "Natijani alohida massivga yig‘ish asl ro‘yxatni saqlab qoladi."
+      ],
+      [
+        "Bo‘sh natija",
+        "Hech bir element shartga mos kelmagan holat ham tekshiriladi."
+      ]
+    ],
+    "mode": "js",
+    "code": "const ballar = [40, 60, 80];\nconst otganlar = [];\nfor (let i = 0; i < ballar.length; i++) {\n if (ballar[i] >= 60) otganlar.push(ballar[i]);\n}\nconsole.log(otganlar);\nconsole.log(otganlar.length);",
+    "task": "Ballar ro‘yxatidan 60 va undan yuqori natijalarni alohida massivga yig‘ing. Asl ro‘yxat o‘zgarmasin. Bo‘sh ro‘yxat, hech kim o‘tmagan ro‘yxat va barcha o‘tgan ro‘yxatni sinang.",
+    "pitfall": "i <= massiv.length odatda mavjud bo‘lmagan indeksni ham o‘qiydi; i < massiv.length ishlatiladi.",
+    "expected": "[60,80]\n2",
+    "teaching": "56–58-mavzularda massiv va metodlar ko‘rildi. Avval for bilan elementlarni o‘qing, if bilan shartni tekshiring, push bilan yangi ro‘yxatga qo‘shing. map/filter uchun oldin tushuntirilgan callback qoliplarini kuzatish mumkin; yangi funksiya yozish bu mashqda majburiy emas."
+  },
+  "60": {
+    "terms": [
+      [
+        "Funksiya",
+        "Qayta ishlatiladigan hisoblash yoki amal qismini ifodalaydi."
+      ],
+      [
+        "E’lon",
+        "function nomi va parametrlar bilan vazifa ta’riflanadi."
+      ],
+      [
+        "Parametr",
+        "Funksiya ta’rifidagi kirish nomidir."
+      ],
+      [
+        "Argument",
+        "Chaqiruvda berilgan haqiqiy qiymatdir."
+      ],
+      [
+        "Chaqiruv",
+        "Funksiyani tegishli argumentlar bilan bajarishdir."
+      ]
+    ],
+    "code": "function salom(ism) {\n console.log(\"Salom, \" + ism);\n}\nsalom(\"Abdukarim\");",
+    "task": "Ism parametrli salom funksiyasini yozing; uning ichida console.log bilan salomlashuv chiqaring. Funksiyani uch xil ism argumenti bilan chaqiring. return bilan qiymat qaytarish keyingi darsga qoldiriladi.",
+    "pitfall": "Funksiya nomi bilan uni qavs orqali chaqirish bir xil emas.",
+    "expected": "Salom, Abdukarim",
+    "mode": "js",
+    "teaching": "function funksiyani e’lon qiladi; qavs ichidagi ism parametrdir. salom(\"Ali\") chaqiruvida \"Ali\" argument bo‘ladi. Funksiya tanasidagi console.log har chaqiruvda ishlaydi. Hozir natijani ko‘rsatish o‘rganiladi; return orqali hisoblash natijasini qaytarish 61-mavzuning vazifasidir."
+  },
+  "61": {
+    "terms": [
+      [
+        "return",
+        "Natijani chaqirgan joyga qaytaradi va funksiyani tugatadi."
+      ],
+      [
+        "Standart parametr",
+        "Argument undefined bo‘lsa ishlatiladigan boshlang‘ich qiymatdir."
+      ],
+      [
+        "undefined",
+        "Return bajarilmagan oddiy funksiya qaytaradigan qiymatdir."
+      ],
+      [
+        "Yon ta’sir",
+        "Funksiya tashqi holat yoki ko‘rinishga o‘zgarish kiritishi mumkin."
+      ],
+      [
+        "Qayta foydalanish",
+        "Qaytarilgan qiymat boshqa ifodaga yoki funksiyaga berilishi mumkin."
+      ]
+    ],
+    "code": "function jami(narx, son = 1) {return narx * son;}\nconsole.log(jami(5000));\nconsole.log(jami(5000, 3));",
+    "task": "Standart miqdori 1 bo‘lgan to‘lov funksiyasini yozing; argument berilgan va berilmagan holatni sinang.",
+    "pitfall": "console.log natijani ko‘rsatadi, lekin funksiyaning return qiymatini avtomatik belgilamaydi.",
+    "expected": "5000\n15000",
+    "mode": "js"
+  },
+  "62": {
+    "terms": [
+      [
+        "Funksional ifoda",
+        "Funksiya qiymati o‘zgaruvchiga bog‘lanishi mumkin."
+      ],
+      [
+        "Arrow function",
+        "Qisqa funksiya yozuvi; o‘z this bog‘lanishiga ega emas."
+      ],
+      [
+        "Qisqa return",
+        "Qavssiz bitta ifoda natijasi bevosita qaytariladi."
+      ],
+      [
+        "Blokli return",
+        "Jingalak qavs ishlatilsa return aniq yozilishi kerak."
+      ],
+      [
+        "Obyekt qaytarish",
+        "Qisqa arrowdan obyekt qaytarishda odatda qavs bilan o‘raladi."
+      ]
+    ],
+    "code": "const kvadrat = x => x * x;\nconst karta = nom => ({nom});\nconsole.log(kvadrat(4));\nconsole.log(karta(\"HTML\"));",
+    "task": "Oddiy funksiyani arrowga o‘giring; bitta ifoda va blokli ko‘rinishlarni solishtiring.",
+    "pitfall": "x => { x * x } return bo‘lmagani uchun kutilgan sonni qaytarmaydi.",
+    "expected": "16\n{\"nom\":\"HTML\"}",
+    "mode": "js"
+  },
+  "63": {
+    "terms": [
+      [
+        "Parametr",
+        "Funksiya ta’rifidagi kirish nomi; argument chaqiruvdagi haqiqiy qiymat."
+      ],
+      [
+        "return",
+        "Natijani chaqiruv joyiga qaytaradi va funksiyani tugatadi."
+      ],
+      [
+        "Standart qiymat",
+        "Argument berilmaganda qo‘llanadigan boshlang‘ich parametr qiymati."
+      ],
+      [
+        "Sof hisoblash",
+        "Bir xil kirishga bir xil hisob natijasi beruvchi, tashqi holatni o‘zgartirmaydigan funksiya."
+      ],
+      [
+        "Qayta foydalanish",
+        "Bitta hisoblashni turli argumentlar bilan chaqirish; natijani alohida chiqarish."
+      ]
+    ],
+    "mode": "js",
+    "code": "function tolov(narx, son = 1) { return narx * son; }\nconsole.log(tolov(5000));\nconsole.log(tolov(5000, 3));\nconst kvadrat = x => x * x;\nconsole.log(kvadrat(4));",
+    "task": "Narx va miqdorni qabul qilib jami to‘lovni qaytaradigan funksiya yozing. Miqdor berilmasa 1 bo‘lsin. Uch xil chaqiruv bilan tekshiring. Oddiy functionni arrowga o‘giring va natijalar bir xil ekanini tekshiring.",
+    "pitfall": "console.log natijani ko‘rsatadi, ammo funksiyadan qiymat qaytarmaydi. Returnni ko‘rsatish bilan almashtirmang.",
+    "expected": "5000\n15000\n16",
+    "teaching": "60–62-mavzulardagi e’lon, parametr, return va arrow yozuvini eslang. Hisobni funksiya ichida bajaring va return qiling; console.logni tashqarida ishlating. Avval oddiy function yozuvini sinang, so‘ng xuddi shu hisobni arrow bilan ifodalang. Obyekt va DOM hali vazifa emas."
+  },
+  "64": {
+    "terms": [
+      [
+        "Obyekt",
+        "Kalit va qiymatlardan tuzilgan xususiyatli ma’lumotdir."
+      ],
+      [
+        "Xususiyat",
+        "Obyektdagi nomlangan qiymatdir."
+      ],
+      [
+        "Metod",
+        "Obyekt xususiyati sifatida ishlatiladigan funksiyadir."
+      ],
+      [
+        "Nuqtali murojaat",
+        "Oldindan ma’lum nomdagi xususiyatni o‘qish usulidir."
+      ],
+      [
+        "Qavsli murojaat",
+        "Kalit o‘zgaruvchidan yoki maxsus satrdan olinganda qulaydir."
+      ]
+    ],
+    "code": "const kurs = {nom: \"HTML\", soat: 28, tavsif() {return this.nom + \" kursi\";}};\nconsole.log(kurs.nom);\nconsole.log(kurs[\"soat\"]);\nconsole.log(kurs.tavsif());",
+    "task": "Kurs uchun nom, soat va tavsif metodli obyekt tuzing; bitta xususiyatni yangilang.",
+    "pitfall": "Obyekt metodida this kerak bo‘lsa arrow bilan oddiy metodning farqini hisobga oling.",
+    "expected": "HTML\n28\nHTML kursi",
+    "mode": "js"
+  },
+  "65": {
+    "terms": [
+      [
+        "trim",
+        "Satr chetidagi bo‘shliqlarni olib yangi satr qaytaradi."
+      ],
+      [
+        "includes",
+        "Berilgan matn bo‘lagi mavjudligini tekshiradi."
+      ],
+      [
+        "slice",
+        "Tanlangan oraliq bo‘lagini ajratadi."
+      ],
+      [
+        "split",
+        "Satrni ajratkich bo‘yicha bo‘lib massiv qaytaradi."
+      ],
+      [
+        "O‘zgarmaslik",
+        "String metodlari asl satrni joyida tahrirlamaydi; yangi natijani olish kerak."
+      ]
+    ],
+    "code": "const matn = \"  HTML CSS JS  \";\nconst toza = matn.trim();\nconsole.log(toza.includes(\"CSS\"));\nconsole.log(toza.split(\" \"));",
+    "task": "Kiritilgan qidiruv matnini tozalang va kurs nomlaridan bo‘lak qidiring.",
+    "pitfall": "JavaScript length UTF-16 kod birliklarini sanaydi; ko‘rinadigan belgilar soniga doim teng emas.",
+    "expected": "true\n[\"HTML\",\"CSS\",\"JS\"]",
+    "mode": "js"
+  },
+  "66": {
+    "terms": [
+      [
+        "Date",
+        "Sana va vaqt bilan ishlash obyektidir; vaqt zonasi natijaga ta’sir qilishi mumkin."
+      ],
+      [
+        "Math.floor",
+        "Sonni pastki butun tomonga yaxlitlaydi."
+      ],
+      [
+        "Math.round",
+        "Eng yaqin butun qiymatga yaxlitlaydi."
+      ],
+      [
+        "Math.random",
+        "0 kiritilgan, 1 kiritilmagan oraliqda psevdotasodifiy qiymat beradi."
+      ],
+      [
+        "ISO sana",
+        "Almashuvda aniq format va vaqt zonasini ko‘rsatish chalkashlikni kamaytiradi."
+      ]
+    ],
+    "code": "const sana = new Date(\"2026-10-27T00:00:00Z\");\nconsole.log(sana.getUTCFullYear());\nconsole.log(Math.floor(4.8));\nconsole.log(Math.round(4.8));",
+    "task": "1–6 tasodifiy butun son formulasini yozing; Date natijasida mahalliy va UTC vaqt farqini tushuntiring.",
+    "pitfall": "Math.random kriptografik maxfiy kod va parol yaratish uchun mo‘ljallanmagan.",
+    "expected": "2026\n4\n5",
+    "mode": "js"
+  },
+  "67": {
+    "terms": [
+      [
+        "Integratsiya",
+        "Shart, sikl, funksiya va massivni bitta masalada birlashtirishdir."
+      ],
+      [
+        "Validatsiya",
+        "Kirishlar uchun tur, oraliq va bo‘shlik talablarini tekshiradi."
+      ],
+      [
+        "Agregat",
+        "Bir nechta qiymatdan olingan umumiy ko‘rsatkichdir."
+      ],
+      [
+        "Test",
+        "Kutilgan natijaga nisbatan bajarishni tekshiradi."
+      ],
+      [
+        "Refaktoring",
+        "Tashqi natijani saqlagan holda kod tuzilishini yaxshilashdir."
+      ]
+    ],
+    "code": "function ortacha(sonlar) {\n if (!sonlar.length) return null;\n let summa = 0;\n for (let i = 0; i < sonlar.length; i++) summa += sonlar[i];\n return summa / sonlar.length;\n}\nconsole.log(ortacha([40,60,80]));",
+    "task": "Ballar massivining o‘rtachasi, maksimumi va o‘tganlar sonini qaytaradigan hisobot yozing; noto‘g‘ri elementlarni rad eting.",
+    "pitfall": "Bitta oddiy testdan o‘tish barcha chegara holatlarda to‘g‘rilikni isbotlamaydi.",
+    "expected": "60",
+    "mode": "js",
+    "teaching": "52-mavzudagi for, 56-mavzudagi massiv indeksi va 61-mavzudagi returnni birlashtiring. Avval bo‘sh massivni ajrating, keyin siklda yig‘indini hisoblab elementlar soniga bo‘ling. Hali tushuntirilmagan reduce metodini ishlatish shart emas."
+  },
+  "68": {
+    "terms": [
+      [
+        "Talab",
+        "Dasturdan kutiladigan aniq natija: son, o‘rtacha va o‘tganlar miqdori."
+      ],
+      [
+        "Ma’lumot",
+        "Kirish uchun sonlardan iborat ballar massivi olinadi."
+      ],
+      [
+        "Hisoblash",
+        "Sikl orqali yig‘indi va shart orqali o‘tganlar soni topiladi."
+      ],
+      [
+        "Bo‘sh holat",
+        "Element bo‘lmaganda o‘rtacha hisoblanmaydi; nolga bo‘lish o‘rniga tushunarli xabar chiqariladi."
+      ],
+      [
+        "Qabul sinovi",
+        "Oldindan yozilgan kutilgan natija haqiqiy konsol natijasi bilan solishtiriladi."
+      ]
+    ],
+    "mode": "js",
+    "code": "const ballar = [40, 60, 80];\nlet summa = 0, otganlar = 0;\nfor (let i = 0; i < ballar.length; i++) {\n summa += ballar[i];\n if (ballar[i] >= 60) otganlar++;\n}\nif (ballar.length === 0) console.log(\"Ball yo‘q\");\nelse { console.log(summa / ballar.length); console.log(otganlar); }",
+    "task": "Konsolda ballar soni, o‘rtachasi, maksimumi va 60 balldan o‘tganlar miqdorini ko‘rsatadigan hisobot yarating. Hisoblashni funksiyalarga ajrating. Bo‘sh massiv, bitta ball va turli ballar bilan kamida uchta qabul sinovi yozing. HTML yoki DOM qo‘shmang.",
+    "pitfall": "Tayyor misolni aynan ko‘chirish topshiriqni tugatmaydi: maksimum, alohida funksiyalar va mustaqil sinovlar ham bajarilishi kerak.",
+    "expected": "60\n2",
+    "teaching": "41–67-mavzulardagi JavaScript asoslarini birlashtiring. Avval kirish va chiqishni yozing, keyin hisoblashni alohida funksiyalarga ajrating. Bo‘sh massivni tekshirgach sikl bilan yig‘indi va o‘tganlar miqdorini toping. Natija console.log orqali chiqadi. DOM, fetch, localStorage yoki veb-interfeys yaratish talab qilinmaydi; ular keyingi bo‘limlarda o‘rganiladi."
+  },
+  "69": {
+    "terms": [
+      [
+        "DOM",
+        "Brauzer HTML hujjatini tugunlar daraxti sifatida ifodalaydigan modeldir."
+      ],
+      [
+        "Element tuguni",
+        "Teg bilan bog‘langan hujjat bo‘lagidir."
+      ],
+      [
+        "Matn tuguni",
+        "Element ichidagi matnni ifodalaydi."
+      ],
+      [
+        "document",
+        "Joriy hujjat bilan ishlashga kirish obyektidir."
+      ],
+      [
+        "Dinamik o‘zgarish",
+        "JavaScript DOMni o‘zgartirganda brauzer ko‘rinishni yangilashi mumkin."
+      ]
+    ],
+    "code": "<h1>Texnikum</h1>\n<p>Frontend kursi</p>\n<script>console.log(document.body.children.length);</script>",
+    "task": "Namunadagi HTML uchun body → h1 va p → matn tugunlari bog‘lanishini qog‘ozda chizing. Berilgan tayyor konsol satrini kuzating. Elementni qidirish va matnini o‘zgartirish keyingi mavzularda bajariladi.",
+    "pitfall": "HTML manba kodi bilan joriy DOM har doim aynan bir xil bo‘lib qolmaydi.",
+    "expected": "",
+    "mode": "web",
+    "teaching": "DOM — HTMLning brauzer xotirasidagi tugunli ko‘rinishi. document hujjatni, document.body uning body qismini bildiradi; children element farzandlar to‘plami, length ularning sonidir. Skript ham element ekanini hisobga oling. Ushbu tayyor satr faqat kuzatiladi; selektorlar 70-mavzuda, matnni o‘zgartirish 71-mavzuda keladi."
+  },
+  "70": {
+    "terms": [
+      [
+        "getElementById",
+        "Bitta id bo‘yicha element yoki null qaytaradi."
+      ],
+      [
+        "querySelector",
+        "CSS selektoriga mos birinchi element yoki null qaytaradi."
+      ],
+      [
+        "querySelectorAll",
+        "Mos elementlarning statik NodeList to‘plamini qaytaradi."
+      ],
+      [
+        "Null tekshiruvi",
+        "Element topilmagan holatni xatoga aylantirmasdan ajratadi."
+      ],
+      [
+        "Selektor sintaksisi",
+        "Class uchun nuqta, ID uchun panjara belgisi ishlatiladi."
+      ]
+    ],
+    "code": "<p class=\"kurs\">HTML</p><p class=\"kurs\">CSS</p>\n<p id=\"xabar\">Kurslar ro‘yxati</p>\n<script>\nconsole.log(document.getElementById(\"xabar\"));\nconsole.log(document.querySelector(\".kurs\"));\nconsole.log(document.querySelectorAll(\".kurs\").length);\n</script>",
+    "task": "ID, class va teg orqali elementni topib konsolga chiqaring. Mavjud bo‘lmagan IDni ham sinang va nullni kuzating. Topilgan elementning matni yoki uslubini hozircha o‘zgartirmang.",
+    "pitfall": "querySelectorAll natijasini bitta element deb olib textContent yozmang; kerak bo‘lsa aylantiring.",
+    "expected": "",
+    "mode": "web",
+    "teaching": "getElementById IDni #siz, querySelector CSS selektorini, querySelectorAll barcha mos elementlarni qabul qiladi. Bitta element topilmasa null keladi. Hozir natijani konsolda ko‘ring; textContent orqali o‘zgartirish keyingi mavzu."
+  },
+  "71": {
+    "terms": [
+      [
+        "textContent",
+        "Matnni HTML sifatida talqin qilmasdan o‘zgartiradi."
+      ],
+      [
+        "setAttribute",
+        "Atribut qiymatini belgilaydi."
+      ],
+      [
+        "classList",
+        "Sinflarni add, remove va toggle bilan boshqaradi."
+      ],
+      [
+        "style",
+        "Elementning inline uslub xususiyatlariga murojaat beradi."
+      ],
+      [
+        "Xavfsiz matn",
+        "Tashqi ma’lumotni innerHTMLga berish o‘rniga textContent tanlash ko‘p hollarda xavfsizroqdir."
+      ]
+    ],
+    "code": "<style>.faol{background:#dceee2;padding:20px}</style><p id=\"xabar\">Kutilyapti</p>\n<script>const x=document.getElementById(\"xabar\");x.textContent=\"Tayyor\";x.classList.add(\"faol\");x.setAttribute(\"title\",\"Holat xabari\");</script>",
+    "task": "Xabar matni, title atributi va holat classini o‘zgartiring.",
+    "pitfall": "Ishonchsiz matnni tekshirmasdan innerHTML orqali joylashtirmang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "72": {
+    "terms": [
+      [
+        "createElement",
+        "Yangi DOM elementi yaratadi."
+      ],
+      [
+        "append",
+        "Yaratilgan element yoki matnni oxiriga qo‘shadi."
+      ],
+      [
+        "remove",
+        "Elementni ota tuzilmadan olib tashlaydi."
+      ],
+      [
+        "textContent",
+        "Yangi elementning matnini belgilaydi."
+      ],
+      [
+        "Hodisa bog‘lash",
+        "Yangi yaratilgan elementga ham addEventListener ulash mumkin."
+      ]
+    ],
+    "code": "<ul id=\"royxat\"></ul>\n<script>const li=document.createElement(\"li\");li.textContent=\"HTML\";document.getElementById(\"royxat\").append(li);</script>",
+    "task": "createElement bilan yangi li yarating, textContent bering va mavjud ulga append qiling. Alohida satrda remove chaqirib farqni kuzating. Inputdan qiymat olish yoki tugma hodisasi keyingi darsga qoldiriladi.",
+    "pitfall": "Elementni faqat yaratish uni avtomatik sahifaga qo‘shmaydi; DOMga ulash kerak.",
+    "expected": "",
+    "mode": "web",
+    "teaching": "createElement yangi elementni xotirada yaratadi; textContent matn beradi; append uni sahifaga qo‘shadi; remove sahifadan olib tashlaydi. Avval qo‘shishni sinang, so‘ng remove satrini qo‘shib yana bajaring. click/input hodisalari 73-mavzuda o‘rganiladi."
+  },
+  "73": {
+    "terms": [
+      [
+        "click",
+        "Bosish yoki tegishli klaviatura amali natijasidagi hodisadir."
+      ],
+      [
+        "input",
+        "Maydon qiymati foydalanuvchi tomonidan o‘zgarganda yuz beradi."
+      ],
+      [
+        "change",
+        "Element turiga qarab tanlov yoki tasdiqlangan o‘zgarishni bildiradi."
+      ],
+      [
+        "submit",
+        "Forma yuborish jarayonidagi hodisadir."
+      ],
+      [
+        "addEventListener",
+        "Hodisa nomi va bajariladigan callbackni elementga bog‘laydi."
+      ]
+    ],
+    "code": "<button id=\"tugma\">Bosish</button><p id=\"holat\">0 marta</p>\n<script>let son=0;document.getElementById(\"tugma\").addEventListener(\"click\",()=>{son++;document.getElementById(\"holat\").textContent=son+\" marta\";});</script>",
+    "task": "Tugmada click va matn maydonida input hodisasini qo‘llang; natijani sahifada ko‘rsating.",
+    "pitfall": "addEventListenerga callback o‘rniga funksiyani darhol chaqirish natijasini bermang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "74": {
+    "terms": [
+      [
+        "Holat",
+        "Ilovaning joriy qiymatini saqlaydi."
+      ],
+      [
+        "Render",
+        "Holatni foydalanuvchi ko‘rinishiga chiqaradi."
+      ],
+      [
+        "Hodisa",
+        "Holatni yangilashga sabab bo‘ladigan harakatdir."
+      ],
+      [
+        "Chegara",
+        "Masalan, hisoblagich manfiy bo‘lmasligi kabi talabdir."
+      ],
+      [
+        "Yagona manba",
+        "Qiymatni faqat DOM matnidan tasodifan o‘qish o‘rniga holat o‘zgaruvchisida boshqarish mumkin."
+      ]
+    ],
+    "code": "<button id=\"minus\">−</button><output id=\"son\">0</output><button id=\"plus\">+</button>\n<script>let n=0;const out=document.getElementById(\"son\");document.getElementById(\"plus\").onclick=()=>{out.textContent=++n;};document.getElementById(\"minus\").onclick=()=>{n=Math.max(0,n-1);out.textContent=n;};</script>",
+    "task": "Qo‘shish, ayirish va tiklash tugmali hisoblagich yarating; 0 dan pastga tushmasin.",
+    "pitfall": "Ko‘rinishni yangilab holatni yangilamaslik keyingi amallarda nomuvofiqlik keltiradi.",
+    "expected": "",
+    "mode": "web"
+  },
+  "75": {
+    "terms": [
+      [
+        "Validatsiya",
+        "Qiymatning masala shartiga mosligini tekshiradi."
+      ],
+      [
+        "preventDefault",
+        "Forma hodisasining odatiy navigatsiyasini to‘xtatishi mumkin."
+      ],
+      [
+        "Trim",
+        "Majburiy matnning faqat bo‘shliqlardan iboratligini aniqlashga yordam beradi."
+      ],
+      [
+        "Xato xabari",
+        "Qaysi maydonda nima tuzatish kerakligini tushuntiradi."
+      ],
+      [
+        "Server tekshiruvi",
+        "Mijozdagi tekshiruvni chetlab o‘tish mumkinligi sabab serverda ham bajariladi."
+      ]
+    ],
+    "code": "<form id=\"forma\"><label>Ism <input id=\"ism\" required></label><button>Tekshirish</button></form><p id=\"xabar\" role=\"status\"></p>\n<script>document.getElementById(\"forma\").onsubmit=e=>{e.preventDefault();const ism=document.getElementById(\"ism\").value.trim();document.getElementById(\"xabar\").textContent=ism?\"Salom, \"+ism:\"Ismni kiriting\";};</script>",
+    "task": "Ism va email formasini tekshiring; foydalanuvchiga aniq xato hamda muvaffaqiyat xabari bering.",
+    "pitfall": "Faqat alert bilan umumiy xabar chiqarish qaysi maydon xato ekanini yetarli tushuntirmasligi mumkin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "76": {
+    "terms": [
+      [
+        "Menyu",
+        "Boshqaruv orqali havolalar guruhini ochib-yopishi mumkin."
+      ],
+      [
+        "Tab",
+        "Bir to‘plamdagi tegishli panelni tanlash boshqaruvidir."
+      ],
+      [
+        "Modal",
+        "Asosiy ko‘rinish ustida alohida vazifa uchun ochiladigan oynadir."
+      ],
+      [
+        "ARIA holati",
+        "Masalan aria-expanded ochiqlik, aria-selected esa tanlanganlikni bildiradi."
+      ],
+      [
+        "Fokus boshqaruvi",
+        "Modalga kirish va yopilganda avvalgi boshqaruvga qaytish tekshiriladi."
+      ]
+    ],
+    "code": "<button id=\"och\" aria-expanded=\"false\" aria-controls=\"menu\">Menyu</button><nav id=\"menu\" hidden><a href=\"#\">Kurslar</a></nav>\n<script>document.getElementById(\"och\").onclick=()=>{const m=document.getElementById(\"menu\");m.hidden=!m.hidden;document.getElementById(\"och\").setAttribute(\"aria-expanded\",String(!m.hidden));};</script>",
+    "task": "Menyu va ikki panelni almashtiruvchi tablar yarating; tanlangan holatni ko‘rinishda va atributda yangilang.",
+    "pitfall": "Panel ko‘rinishi va aria-selected holati bir-biriga zid qolmasin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "77": {
+    "terms": [
+      [
+        "localStorage",
+        "Bir origin uchun satr ko‘rinishidagi qiymatlarni brauzerda saqlash vositasidir."
+      ],
+      [
+        "setItem",
+        "Kalitga satr qiymatini saqlaydi."
+      ],
+      [
+        "getItem",
+        "Saqlangan satrni yoki topilmasa null qaytaradi."
+      ],
+      [
+        "JSON",
+        "Massiv va obyektlarni satrga aylantirib saqlashga yordam beradi."
+      ],
+      [
+        "Cheklov",
+        "Saqlash bloklanishi yoki kvota to‘lishi mumkin; maxfiy ma’lumot uchun xavfsiz ombor emas."
+      ]
+    ],
+    "code": "<input id=\"ism\" placeholder=\"Ismingiz\"><button id=\"saqla\">Saqlash</button><p id=\"xabar\"></p>\n<script>const i=document.getElementById(\"ism\");try{i.value=localStorage.getItem(\"ism\")||\"\";}catch(e){}document.getElementById(\"saqla\").onclick=()=>{try{localStorage.setItem(\"ism\",i.value);document.getElementById(\"xabar\").textContent=\"Saqlandi\";}catch(e){document.getElementById(\"xabar\").textContent=\"Saqlash mavjud emas\";}};</script>",
+    "task": "Ism yoki mavzu tanlovini saqlang; qayta ochish, kalit yo‘qligi va saqlash xatosini sinang.",
+    "pitfall": "Brauzer saqlashi boshqa qurilmaga avtomatik ko‘chmaydi; onlayn mashq oynasida saqlash cheklangan bo‘lishi mumkin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "78": {
+    "terms": [
+      [
+        "Vazifalar ro‘yxati",
+        "Qo‘shish, ko‘rsatish va o‘chirish amallariga ega mini-ilovadir."
+      ],
+      [
+        "Holat massivi",
+        "Vazifalar ma’lumotini DOMdan alohida boshqaradi."
+      ],
+      [
+        "Render funksiyasi",
+        "Holat o‘zgarganda ko‘rinishni izchil qayta yaratadi."
+      ],
+      [
+        "Saqlash qatlami",
+        "Holatni JSON satr orqali saqlab va qayta o‘qib oladi."
+      ],
+      [
+        "Xavfsiz chiqarish",
+        "Kiritilgan matn yangi elementning textContentiga beriladi."
+      ]
+    ],
+    "code": "<input id=\"vazifa\"><button id=\"qosh\">Qo‘shish</button><ul id=\"list\"></ul>\n<script>const list=document.getElementById(\"list\");document.getElementById(\"qosh\").onclick=()=>{const input=document.getElementById(\"vazifa\"),matn=input.value.trim();if(!matn)return;const li=document.createElement(\"li\");li.textContent=matn;li.onclick=()=>li.remove();list.append(li);input.value=\"\";};</script>",
+    "task": "Vazifalar ro‘yxatini massivga ajrating; o‘chirish va localStorage orqali qayta yuklashni qo‘shing.",
+    "pitfall": "DOM elementlarini JSON sifatida saqlash o‘rniga vazifaning oddiy ma’lumotini saqlang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "79": {
+    "terms": [
+      [
+        "Git",
+        "Taqsimlangan versiyalarni boshqarish tizimidir."
+      ],
+      [
+        "Repository",
+        "Loyiha tarixini saqlaydigan Git tuzilmasidir."
+      ],
+      [
+        "Commit",
+        "Tanlangan o‘zgarishlarning tarixdagi qaydidir."
+      ],
+      [
+        "Branch",
+        "Mustaqil rivojlanish yo‘lini ifodalaydi."
+      ],
+      [
+        "GitHub",
+        "Git repositorylarini joylashtirish va hamkorlik platformasidir; Gitning o‘zi bilan bir xil emas."
+      ]
+    ],
+    "code": "Git — fayllar o‘zgarish tarixini boshqarish vositasi.\nRepository — loyiha va uning tarixi.\nCommit — tarixdagi mazmunli saqlangan holat.\nGitHub — repositoryni onlayn joylash va hamkorlik xizmati.",
+    "task": "Git va GitHub vazifalarini ajrating. Faylning birinchi va tuzatilgan nusxasi misolida commit tarixining foydasini yozing. Git buyruqlarini bajarish 80-mavzuda o‘rganiladi.",
+    "pitfall": "Git ishlashi uchun har doim GitHub yoki internet bo‘lishi shart emas.",
+    "expected": "O‘quvchi Git, repository, commit va GitHub vazifalarini misol bilan ajratadi; terminal buyrug‘i talab qilinmaydi.",
+    "mode": "files",
+    "teaching": "Bir faylning eski va yangi nusxalarini solishtirishni tasavvur qiling. Git o‘zgarishlar tarixini, GitHub esa onlayn joylash va hamkorlikni ta’minlaydi. git status yoki git log hali mustaqil bajarilmaydi; avval tushunchalar, keyingi darsda o‘rnatish va buyruqlar o‘rganiladi."
+  },
+  "80": {
+    "terms": [
+      [
+        "git init",
+        "Joriy loyiha uchun yangi Git repository yaratadi."
+      ],
+      [
+        "git status",
+        "Kuzatilayotgan va tayyorlangan o‘zgarishlar holatini ko‘rsatadi."
+      ],
+      [
+        "git add",
+        "Keyingi commit uchun tanlangan mazmunni staging maydoniga tayyorlaydi."
+      ],
+      [
+        "git commit",
+        "Stagingdagi o‘zgarishlarni izoh bilan qayd qiladi."
+      ],
+      [
+        "Staging",
+        "Ishchi fayllar bilan commit orasidagi tanlash bosqichidir."
+      ]
+    ],
+    "code": "git init\ngit status\ngit add index.html\ngit commit -m \"HTML skeletini qo‘shish\"\ngit status",
+    "task": "Yangi o‘quv papkasida repository oching; index.htmlni stagingga qo‘yib mazmunli commit yarating.",
+    "pitfall": "git adddan keyin fayl yana o‘zgarsa yangi tahrir avtomatik stagingga kirmaydi.",
+    "expected": "",
+    "mode": "git"
+  },
+  "81": {
+    "terms": [
+      [
+        "Remote",
+        "Masofadagi repository uchun nomlangan manzildir."
+      ],
+      [
+        "origin",
+        "Ko‘p loyihalarda asosiy remote uchun ishlatiladigan kelishilgan nomdir."
+      ],
+      [
+        "push",
+        "Mahalliy commitlarni masofadagi tegishli branchga yuboradi."
+      ],
+      [
+        "pull",
+        "Masofadagi o‘zgarishlarni olib birlashtirish jarayonini bajaradi."
+      ],
+      [
+        "Autentifikatsiya",
+        "Hisobning ruxsati talab qilinishi mumkin; token va kalitlar kodga qo‘shilmaydi."
+      ]
+    ],
+    "code": "git remote -v\ngit branch --show-current\n# Remote manzilni o‘zingizga tegishli repository bilan belgilang.\n# git remote add origin REPOSITORY_MANZILI\n# git push -u origin BRANCH_NOMI",
+    "task": "O‘zingizning o‘quv repositoryingizni GitHub bilan bog‘lang; pushdan keyin fayllar ko‘rinishini tekshiring.",
+    "pitfall": "Tasodifiy branch nomi yoki begona remote manziliga push qilmang; avval remote va branchni tekshiring.",
+    "expected": "",
+    "mode": "git"
+  },
+  "82": {
+    "terms": [
+      [
+        "README",
+        "Loyihaning maqsadi, ishga tushirish tartibi va imkoniyatlarini tushuntiradi."
+      ],
+      [
+        ".gitignore",
+        "Hali kuzatilmayotgan fayllarni mos qoidalar orqali e’tibordan chetda qoldiradi."
+      ],
+      [
+        "Tarix",
+        "git log commitlar ketma-ketligini ko‘rsatadi."
+      ],
+      [
+        "git diff",
+        "O‘zgarishlarni solishtirishga yordam beradi."
+      ],
+      [
+        "Commit izohi",
+        "Qanday mazmunli o‘zgarish qilinganini tushuntirishi kerak."
+      ]
+    ],
+    "code": "git status\ngit diff\ngit log --oneline\n# .gitignorega misollar: node_modules/ va .env\n# README: maqsad, fayllar, ishga tushirish, sinovlar.",
+    "task": "README va .gitignore yarating; stagingdan oldin diffni ko‘rib, ikki mazmunli commit qiling.",
+    "pitfall": ".gitignore ilgari commit qilingan maxfiy ma’lumotni tarixdan avtomatik o‘chirmaydi.",
+    "expected": "",
+    "mode": "git"
+  },
+  "83": {
+    "terms": [
+      [
+        "JSON",
+        "Ma’lumot almashish uchun matn formatidir."
+      ],
+      [
+        "JSON.stringify",
+        "JavaScript qiymatini JSON satrga aylantiradi."
+      ],
+      [
+        "JSON.parse",
+        "JSON matnini qiymatga aylantiradi; noto‘g‘ri matnda xato beradi."
+      ],
+      [
+        "Format talabi",
+        "JSON kalitlari va satrlarida qo‘shtirnoq ishlatiladi, funksiya yozilmaydi."
+      ],
+      [
+        "Tekshirish",
+        "Parse muvaffaqiyati ma’lumot kerakli tuzilmada ekanini avtomatik kafolatlamaydi."
+      ]
+    ],
+    "code": "const matn = '{\"nom\":\"HTML\",\"soat\":28}';\nconst kurs = JSON.parse(matn);\nconsole.log(kurs.nom);\nconsole.log(JSON.stringify(kurs));",
+    "task": "Kurslar massivini JSONga aylantiring, qayta o‘qing va majburiy maydonlarni tekshiring.",
+    "pitfall": "JSON JavaScript obyekt literalining barcha imkoniyatlarini qabul qilmaydi.",
+    "expected": "HTML\n{\"nom\":\"HTML\",\"soat\":28}",
+    "mode": "js"
+  },
+  "84": {
+    "terms": [
+      [
+        "API",
+        "Dasturlar orasidagi muloqot interfeysidir."
+      ],
+      [
+        "HTTP so‘rovi",
+        "Metod, URL, sarlavha va mumkin bo‘lgan tanadan tuziladi."
+      ],
+      [
+        "HTTP javobi",
+        "Holat kodi, sarlavhalar va mumkin bo‘lgan ma’lumot tanasini beradi."
+      ],
+      [
+        "REST",
+        "Resurslar va bir xil interfeys kabi tamoyillarga asoslangan arxitektura uslubidir."
+      ],
+      [
+        "Status",
+        "200,404 va500 kabi kodlar javob ma’nosini tushuntirishga yordam beradi."
+      ]
+    ],
+    "code": "<h1>API so‘rov-javobi</h1><p>GET /api/kurslar → 200 va JSON ma’lumoti</p><p>Topilmagan resurs → 404</p>",
+    "task": "Kurslarni olish, bitta kursni ko‘rish va yangi kurs yaratish uchun metod hamda resurs yo‘lini taklif qiling.",
+    "pitfall": "Har qanday HTTP API REST tamoyillariga to‘liq mos deb hisoblanmaydi.",
+    "expected": "",
+    "mode": "web"
+  },
+  "85": {
+    "terms": [
+      [
+        "fetch",
+        "So‘rovni boshlaydi va Response uchun Promise qaytaradi."
+      ],
+      [
+        "Response.ok",
+        "200–299 holat kodlari uchun muvaffaqiyatni bildiradi."
+      ],
+      [
+        "json",
+        "Javob tanasini JSON sifatida o‘qishning asinxron usulidir."
+      ],
+      [
+        "HTTP xatosi",
+        "404 yoki500 fetch Promisesini o‘z-o‘zidan rad etmaydi; ok tekshiriladi."
+      ],
+      [
+        "CORS",
+        "Brauzerning originlar orasidagi resurs o‘qish qoidalaridir; mijoz kodi server ruxsatini majburlamaydi."
+      ]
+    ],
+    "code": "<pre id=\"natija\">So‘rov yuborilmoqda...</pre>\n<script>\nfetch(\"https://jsonplaceholder.typicode.com/todos/1\")\n .then(function(javob) { return javob.json(); })\n .then(function(data) { document.getElementById(\"natija\").textContent = JSON.stringify(data); })\n .catch(function(xato) { document.getElementById(\"natija\").textContent = String(xato); });\n</script>",
+    "task": "Avval fetch, json va tayyor then/catch zanjiri izohini o‘qing. Namunada faqat todos/1 manzilini todos/2ga o‘zgartiring va qaytgan JSONni solishtiring. async/await yozish yoki mustaqil Promise zanjiri qurish talab qilinmaydi.",
+    "pitfall": "Internet yoki tashqi API mavjud bo‘lmasa xato chiqishi tabiiy; muvaffaqiyatni soxta ma’lumot bilan almashtirmang.",
+    "expected": "",
+    "mode": "web",
+    "teaching": "fetch manzilga so‘rov yuborib kelajak natijani bildiruvchi Promise qaytaradi. Tayyor .then birinchi javob kelganda, keyingisi json o‘qilganda ishlaydi; .catch xato bo‘lsa ishlaydi. javob.json() javob tanasini JSON sifatida o‘qiydi. Ushbu qolipni izohi bilan kuzatib, hozir faqat manzilni o‘zgartiring. Promise zanjirini mustaqil yaratish 86-mavzuda, async/await 87-mavzuda o‘rganiladi."
+  },
+  "86": {
+    "terms": [
+      [
+        "Promise",
+        "Kelajakdagi muvaffaqiyat yoki xato natijasini ifodalaydi."
+      ],
+      [
+        "then",
+        "Muvaffaqiyatli natija bilan keyingi amalni bog‘laydi."
+      ],
+      [
+        "catch",
+        "Rad etilgan holat yoki oldingi zanjirdagi xatoni ushlaydi."
+      ],
+      [
+        "finally",
+        "Muvaffaqiyat va xatodan qat’i nazar yakuniy tozalashga xizmat qiladi."
+      ],
+      [
+        "Zanjir",
+        "Keyingi then avvalgi qaytargan qiymat yoki Promisega bog‘liq bo‘ladi."
+      ]
+    ],
+    "code": "<pre id=\"natija\"></pre>\n<script>Promise.resolve([\"HTML\",\"CSS\"]).then(k=>k.join(\", \")).then(matn=>{document.getElementById(\"natija\").textContent=matn;}).catch(e=>{document.getElementById(\"natija\").textContent=e.message;});</script>",
+    "task": "Promise zanjirida ma’lumotni o‘zgartiring, xato holatini ham ataylab yarating va catchni tekshiring.",
+    "pitfall": "then ichidagi Promise yoki qiymatni qaytarmaslik keyingi bosqichni noto‘g‘ri natijaga olib kelishi mumkin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "87": {
+    "terms": [
+      [
+        "async",
+        "Funksiya natijasini Promise sifatida beradi."
+      ],
+      [
+        "await",
+        "Async funksiya bajarilishini Promise hal bo‘lguncha shu nuqtada davom ettirmay turadi."
+      ],
+      [
+        "try...catch",
+        "Await paytidagi rad etilish yoki sinxron xatoni ushlaydi."
+      ],
+      [
+        "Ketma-ketlik",
+        "Ikki mustaqil awaitni ketma-ket yozish ularni parallel boshlamaydi."
+      ],
+      [
+        "Promise.all",
+        "Mustaqil ishlarni birgalikda kutishda qo‘llanishi mumkin."
+      ]
+    ],
+    "code": "<p id=\"xabar\">Kutilyapti</p>\n<script>async function boshlash(){try{const kurslar=await Promise.resolve([\"HTML\",\"CSS\"]);document.getElementById(\"xabar\").textContent=kurslar.join(\" / \");}catch(e){document.getElementById(\"xabar\").textContent=e.message;}}boshlash();</script>",
+    "task": "then zanjirini async/awaitga o‘giring va xatoni try...catch bilan ko‘rsating.",
+    "pitfall": "await barcha brauzer ishlarini to‘liq muzlatadi degan talqin noto‘g‘ri; u tegishli async oqimga ta’sir qiladi.",
+    "expected": "",
+    "mode": "web"
+  },
+  "88": {
+    "terms": [
+      [
+        "Ma’lumot modeli",
+        "APIdan kelgan maydonlar va kutilgan turlarni belgilaydi."
+      ],
+      [
+        "Render",
+        "Tekshirilgan ma’lumotdan DOM elementlarini yaratadi."
+      ],
+      [
+        "createElement",
+        "Natijalar uchun semantik elementlarni yaratadi."
+      ],
+      [
+        "textContent",
+        "Tashqi matnni HTMLga aylantirmasdan ko‘rsatadi."
+      ],
+      [
+        "Bo‘sh javob",
+        "Yaroqli lekin elementlari yo‘q to‘plam alohida xabar olishi kerak."
+      ]
+    ],
+    "code": "<ul id=\"kurslar\"></ul>\n<script>const data=[{nom:\"HTML\"},{nom:\"CSS\"}];const list=document.getElementById(\"kurslar\");for(const kurs of data){const li=document.createElement(\"li\");li.textContent=kurs.nom;list.append(li);}</script>",
+    "task": "O‘quv API yoki berilgan JSONdan kartalar yarating; yo‘q maydon va bo‘sh ro‘yxatni tekshiring.",
+    "pitfall": "API matnini tekshirmasdan innerHTMLga kiritish kod talqin qilinishiga olib kelishi mumkin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "89": {
+    "terms": [
+      [
+        "Loading",
+        "So‘rov davom etayotganini foydalanuvchiga bildiradi."
+      ],
+      [
+        "Error",
+        "So‘rov yoki ma’lumotni qayta ishlash muvaffaqiyatsizligini tushuntiradi."
+      ],
+      [
+        "Empty",
+        "So‘rov muvaffaqiyatli, ammo mos natija yo‘qligini bildiradi."
+      ],
+      [
+        "Retry",
+        "Xatodan keyin foydalanuvchiga qayta urinish imkonini beradi."
+      ],
+      [
+        "Holat modeli",
+        "Loading, success, empty va error bir-biriga zid ko‘rinmasligi kerak."
+      ]
+    ],
+    "code": "<button id=\"ol\">Yuklash</button><p id=\"holat\" role=\"status\"></p>\n<script>document.getElementById(\"ol\").onclick=async()=>{const h=document.getElementById(\"holat\");h.textContent=\"Yuklanmoqda…\";try{const data=await Promise.resolve([]);h.textContent=data.length?\"Tayyor\":\"Natija topilmadi\";}catch(e){h.textContent=\"Xato: \"+e.message;}};</script>",
+    "task": "Loading, bo‘sh natija, muvaffaqiyat va xato holatini alohida sinab ko‘rsating.",
+    "pitfall": "Bo‘sh ro‘yxatni ulanish xatosi deb, xatoni esa muvaffaqiyat deb ko‘rsatmang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "90": {
+    "terms": [
+      [
+        "Qidiruv",
+        "Foydalanuvchi kiritishiga mos ma’lumotni tanlaydi."
+      ],
+      [
+        "Filtrlash",
+        "Shartga mos elementlardan yangi to‘plam hosil qiladi."
+      ],
+      [
+        "Normalizatsiya",
+        "Qidiruvni trim va kelishilgan harf registri bilan bir xillashtirishi mumkin."
+      ],
+      [
+        "Poyga holati",
+        "Oldin boshlangan so‘rov keyin tugab yangi natijani almashtirib qo‘yishi mumkin."
+      ],
+      [
+        "Bekor qilish",
+        "AbortController yoki so‘rov identifikatori eskirgan natijani cheklashga yordam beradi."
+      ]
+    ],
+    "code": "<input id=\"q\" placeholder=\"Kurs qidiring\"><ul id=\"list\"></ul>\n<script>const kurslar=[\"HTML\",\"CSS\",\"JavaScript\"];function render(){const q=document.getElementById(\"q\").value.trim().toLowerCase();document.getElementById(\"list\").replaceChildren(...kurslar.filter(x=>x.toLowerCase().includes(q)).map(x=>{const li=document.createElement(\"li\");li.textContent=x;return li;}));}document.getElementById(\"q\").oninput=render;render();</script>",
+    "task": "Ro‘yxatni APIdan oling, qidiruv maydoni bilan filtrlang, loading va xato holatini ko‘rsating.",
+    "pitfall": "Har klavish bosilganda keraksiz ko‘p so‘rov yubormaslik uchun talabga mos debounce qo‘llanishi mumkin.",
+    "expected": "",
+    "mode": "web"
+  },
+  "91": {
+    "terms": [
+      [
+        "Texnik topshiriq",
+        "Loyiha kimga qanday vazifani bajarishda yordam berishini va cheklovlarini belgilaydi."
+      ],
+      [
+        "Auditoriya",
+        "Interfeysdan foydalanadigan insonlar va ularning ehtiyojlaridir."
+      ],
+      [
+        "Foydalanuvchi oqimi",
+        "Maqsadga erishishdagi qadamlar ketma-ketligidir."
+      ],
+      [
+        "Funksional talab",
+        "Tizim bajarishi kerak bo‘lgan aniq amalni ifodalaydi."
+      ],
+      [
+        "Qabul mezoni",
+        "Talab bajarilganini kuzatib tekshirish mumkin bo‘lgan shartdir."
+      ]
+    ],
+    "code": "<h1>Loyiha topshirig‘i</h1><ul><li>Auditoriya: texnikum o‘quvchilari</li><li>Maqsad: kurs tanlash</li><li>Amal: kursni qidirish va ko‘rish</li><li>Mezon: mos natija va bo‘sh holat ko‘rsatiladi</li></ul>",
+    "task": "O‘quv markazi, portfolio yoki kutubxona loyihasini tanlang. Besh funksional talab, uch sifat talabi va besh qabul mezoni yozing.",
+    "pitfall": "Chiroyli va tez bo‘lsin kabi umumiy istakni o‘lchab bo‘ladigan mezonga aylantiring.",
+    "expected": "",
+    "mode": "web"
+  },
+  "92": {
+    "terms": [
+      [
+        "Sayt xaritasi",
+        "Sahifalar va ularning bog‘lanishini ko‘rsatadigan rejalashtirish hujjatidir."
+      ],
+      [
+        "Navigatsiya",
+        "Asosiy sahifalar va foydalanuvchi yo‘llarini ochiq qiladi."
+      ],
+      [
+        "Kontent iyerarxiyasi",
+        "Muhim mazmun va bo‘ysunuvchi bo‘limlar tartibini ko‘rsatadi."
+      ],
+      [
+        "Wireframe",
+        "Sahifa qismlarining sodda joylashuv chizmasidir."
+      ],
+      [
+        "Izchillik",
+        "Bir xil navigatsiya va atamalar sahifalar bo‘ylab saqlanadi."
+      ]
+    ],
+    "code": "<nav><a href=\"#bosh\">Bosh sahifa</a> <a href=\"#kurslar\">Kurslar</a> <a href=\"#aloqa\">Aloqa</a></nav>\n<main><section id=\"bosh\"><h1>O‘quv markazi</h1></section><section id=\"kurslar\"><h2>Kurslar</h2></section><section id=\"aloqa\"><h2>Aloqa</h2></section></main>",
+    "task": "Tanlangan loyiha uchun sahifalar xaritasi va bosh sahifa wireframeini tuzing; barcha havola yo‘llarini belgilang.",
+    "pitfall": "Sahifalar xaritasi bilan tayyor dastur yoki vizual dizayn bir xil hujjat emas.",
+    "expected": "",
+    "mode": "web"
+  },
+  "93": {
+    "terms": [
+      [
+        "header",
+        "Sahifa yoki bo‘limning kirish mazmuni va sarlavhasini guruhlaydi."
+      ],
+      [
+        "nav",
+        "Asosiy navigatsiya havolalari guruhini ifodalaydi."
+      ],
+      [
+        "main",
+        "Hujjatning asosiy mazmunini bildiradi; odatiy sahifada bitta ko‘rinadigan main bo‘ladi."
+      ],
+      [
+        "section va article",
+        "section mavzuviy guruh, article esa mustaqil tarqatish mumkin bo‘lgan mazmun uchun tanlanadi."
+      ],
+      [
+        "footer",
+        "Sahifa yoki tegishli bo‘limning yakuniy ma’lumotlarini beradi."
+      ]
+    ],
+    "code": "<header><h1>Texnikum blogi</h1><nav><a href=\"#xabar\">Xabarlar</a></nav></header>\n<main><article id=\"xabar\"><h2>Ochiq dars</h2><p>Frontend loyihalari taqdimoti.</p></article></main>\n<footer>2026 — O‘quv loyiha</footer>",
+    "task": "Tanlangan loyiha uchun to‘liq index.html skeleti yarating: lang, meta, sarlavha, nav, main, bo‘limlar va footer bo‘lsin. Bo‘lim sarlavhalari kontent xaritasiga mos kelsin.",
+    "pitfall": "Semantik skeletni tayyorlagach dizayn qo‘shing; faqat ko‘rinish uchun teg tanlamang.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "94": {
+    "terms": [
+      [
+        "Navigatsiya",
+        "Mazmun bo‘limlari yoki sahifalar orasida o‘tish imkonini beradi."
+      ],
+      [
+        "id",
+        "Hujjat ichidagi noyob identifikator; bir sahifada takrorlanmasligi kerak."
+      ],
+      [
+        "Anchor",
+        "Fragmentli havola nishon idga olib boradi."
+      ],
+      [
+        "Sarlavha",
+        "Bo‘lim maqsadini tushuntiradi va hujjat iyerarxiyasida joy oladi."
+      ],
+      [
+        "Klaviatura",
+        "Havolalarga Tab bilan borish va Enter bilan ochish imkoniyati tekshiriladi."
+      ]
+    ],
+    "code": "<nav aria-label=\"Asosiy\"><a href=\"#kurs\">Kurs</a> <a href=\"#savol\">Savollar</a></nav>\n<main><section id=\"kurs\"><h2>Kurs</h2><p>HTML, CSS, JS.</p></section>\n<section id=\"savol\"><h2>Savollar</h2><p>Qanday boshlaymiz?</p></section></main>",
+    "task": "Loyihadagi barcha sahifa va bo‘limlar uchun navigatsiya yarating. Bosh sahifaga qaytish, fragment va tashqi havolalarni sinov jadvaliga kiriting.",
+    "pitfall": "Fayl nomidagi katta-kichik harf hostingda muhim bo‘lishi mumkin; mahalliy ishlagan havolani nashrda ham tekshiring.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "95": {
+    "terms": [
+      [
+        "font-family",
+        "Asosiy shrift va zaxira shriftlar ro‘yxatini belgilaydi."
+      ],
+      [
+        "font-size",
+        "Matn o‘lchamini boshqaradi; rem foydalanuvchi asosiy o‘lchami bilan bog‘liq."
+      ],
+      [
+        "font-weight",
+        "Shrift qalinligini belgilaydi."
+      ],
+      [
+        "line-height",
+        "Satrlar orasidagi qator balandligini boshqaradi."
+      ],
+      [
+        "text-align",
+        "Matnning o‘z qatori ichida tekislanishini belgilaydi, element maketini emas."
+      ]
+    ],
+    "code": "<style>body{font-family:Arial,sans-serif}h1{font-size:2rem;font-weight:700}p{font-size:1rem;line-height:1.6;text-align:left}</style>\n<h1>Kurs sarlavhasi</h1><p>Qulay o‘qiladigan asosiy matn.</p>",
+    "task": "Loyihaga asosiy ranglar, ikki shrift darajasi, oraliqlar va tugma uslubidan iborat dizayn tizimi qo‘llang. Uslublarni tashqi CSSga ajrating.",
+    "pitfall": "Har sahifada tasodifiy rang va shrift ishlatish o‘rniga bir xil qoidalarni saqlang.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "96": {
+    "terms": [
+      [
+        "auto-fit",
+        "Joyga qarab takroriy ustunlarni joylashtirib, bo‘sh tracklarni yig‘ishi mumkin."
+      ],
+      [
+        "minmax",
+        "Kartalar kengligi uchun minimal va moslashuvchan maksimal qiymat beradi."
+      ],
+      [
+        "repeat",
+        "Bir xil track ta’rifini qayta yozmasdan takrorlaydi."
+      ],
+      [
+        "fr",
+        "Erkin joydan ulush ajratadi; kontent minimumlari ham ta’sir qilishi mumkin."
+      ],
+      [
+        "gap",
+        "Kartalar orasidagi oraliqni qator va ustunlarda bir xilda boshqaradi."
+      ]
+    ],
+    "code": "<style>.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}.cards>article{padding:24px;background:#edf4ef}</style>\n<div class=\"cards\"><article>HTML</article><article>CSS</article><article>JavaScript</article></div>",
+    "task": "Loyihaning asosiy maketini Grid, karta yoki navigatsiyasini Flexbox bilan yarating. Tor va keng ekranda natijani izohlang.",
+    "pitfall": "Faqat bitta texnologiyadan majburan foydalanish o‘rniga vazifaga mos joylashuv tanlang.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "97": {
+    "terms": [
+      [
+        "src",
+        "Rasm resursining manzilini belgilaydi; noto‘g‘ri yo‘l rasmning ochilmasligiga olib keladi."
+      ],
+      [
+        "alt",
+        "Rasmning vazifasiga mos matnli muqobildir; ma’noli rasm mazmunini tushuntiradi."
+      ],
+      [
+        "Dekorativ rasm",
+        "Faqat bezak bo‘lsa alt=\"\" ishlatilishi mumkin; ma’lumotli rasmga bu qoida ko‘r-ko‘rona qo‘llanmaydi."
+      ],
+      [
+        "O‘lcham",
+        "width va height tomonlar nisbatini oldindan ko‘rsatib, sahifa sakrashini kamaytirishga yordam beradi."
+      ],
+      [
+        "Moslashuv",
+        "CSS max-width:100% va height:auto rasmni konteynerga sig‘dirishda ishlatiladi."
+      ]
+    ],
+    "code": "<img src=\"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27300%27 height=%27120%27%3E%3Crect width=%27300%27 height=%27120%27 fill=%27%23176f58%27/%3E%3C/svg%3E\" alt=\"Yashil rang namunasi\" width=\"300\" height=\"120\">",
+    "task": "Loyihaga rasmlar, uchta kurs kartasi va zarur bo‘lsa jadval joylashtiring. Har ma’lumotli rasmga mazmunli alt va o‘lcham bering.",
+    "pitfall": "Rasm mavjud bo‘lmaganida ham kontent mazmuni tushunarli qolishini tekshiring.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "98": {
+    "terms": [
+      [
+        "Media query",
+        "Sharoitga mos CSS qoidalarini faollashtiradi."
+      ],
+      [
+        "min-width",
+        "Kamida belgilangan kenglikka yetganda qoidani qo‘llaydi."
+      ],
+      [
+        "max-width",
+        "Belgilangan kenglikdan oshmagan holatni tanlaydi."
+      ],
+      [
+        "Kaskad tartibi",
+        "Bir nechta media qoidasi bir vaqtda mos kelganda ham kaskad ishlaydi."
+      ],
+      [
+        "Chegara sinovi",
+        "Breakpointning pastida, o‘zida va yuqorisida maket tekshiriladi."
+      ]
+    ],
+    "code": "<style>.box{background:#edf4ef;padding:24px}@media(min-width:600px){.box{background:#d6e8f5}}@media(min-width:900px){.box{max-width:700px;margin:auto}}</style>\n<div class=\"box\">Oyna kengligini o‘zgartiring.</div>",
+    "task": "Loyihani 360px, 768px va 1280px kengliklarda tekshiring. Gorizontal chiqish, o‘qilmaydigan matn va bosish qiyin tugmalarni tuzating.",
+    "pitfall": "Bu kengliklar sinov misollari; haqiqiy moslashuv ularning orasidagi o‘lchamlarda ham ishlashi kerak.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "99": {
+    "terms": [
+      [
+        "Navbar",
+        "Navigatsiyani tashkil etuvchi Bootstrap komponentidir."
+      ],
+      [
+        "Card",
+        "Mazmun, sarlavha va amallarni birlashtiradigan komponentdir."
+      ],
+      [
+        "Alert",
+        "Holat yoki xabarni ko‘rsatadi, lekin rang bilan cheklanmasligi kerak."
+      ],
+      [
+        "Modal",
+        "Ochiq oynada fokus va yopish imkonini boshqarish talab etiladi."
+      ],
+      [
+        "JavaScript bundle",
+        "Modal kabi interaktiv komponentlar uchun tegishli skript kerak bo‘lishi mumkin."
+      ]
+    ],
+    "code": "<!-- Bootstrap CSS va modal uchun JS bundle kerak. -->\n<div class=\"card\"><div class=\"card-body\"><h2 class=\"card-title\">HTML kursi</h2><p class=\"card-text\">Boshlang‘ich bosqich</p><button class=\"btn btn-success\">Tanlash</button></div></div>\n<div class=\"alert alert-info\" role=\"status\">Ro‘yxat ochiq.</div>",
+    "task": "Loyihangizning bitta qismini Bootstrap bilan takomillashtiring; navbar, card yoki alert tanlang. Ulanish versiyasi va o‘z CSSingiz ustunligini hujjatlashtiring.",
+    "pitfall": "Bootstrapning bir nechta versiyasini bir vaqtda ulash va mos kelmaydigan atributlardan foydalanishdan saqlaning.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "100": {
+    "terms": [
+      [
+        "Obyekt",
+        "Kalit va qiymatlardan tuzilgan xususiyatli ma’lumotdir."
+      ],
+      [
+        "Xususiyat",
+        "Obyektdagi nomlangan qiymatdir."
+      ],
+      [
+        "Metod",
+        "Obyekt xususiyati sifatida ishlatiladigan funksiyadir."
+      ],
+      [
+        "Nuqtali murojaat",
+        "Oldindan ma’lum nomdagi xususiyatni o‘qish usulidir."
+      ],
+      [
+        "Qavsli murojaat",
+        "Kalit o‘zgaruvchidan yoki maxsus satrdan olinganda qulaydir."
+      ]
+    ],
+    "code": "const kurs = {nom: \"HTML\", soat: 28, tavsif() {return this.nom + \" kursi\";}};\nconsole.log(kurs.nom);\nconsole.log(kurs[\"soat\"]);\nconsole.log(kurs.tavsif());",
+    "task": "Loyiha ma’lumotini obyekt va massivlarda tashkil qiling. Hisoblash yoki filtrlash funksiyalarini DOMdan alohida yozib kamida beshta kirish bilan sinang.",
+    "pitfall": "Biznes hisobini faqat tugma ichidagi uzun callbackga yashirish testlashni qiyinlashtiradi.",
+    "expected": "HTML\n28\nHTML kursi",
+    "mode": "js",
+    "project": true
+  },
+  "101": {
+    "terms": [
+      [
+        "click",
+        "Bosish yoki tegishli klaviatura amali natijasidagi hodisadir."
+      ],
+      [
+        "input",
+        "Maydon qiymati foydalanuvchi tomonidan o‘zgarganda yuz beradi."
+      ],
+      [
+        "change",
+        "Element turiga qarab tanlov yoki tasdiqlangan o‘zgarishni bildiradi."
+      ],
+      [
+        "submit",
+        "Forma yuborish jarayonidagi hodisadir."
+      ],
+      [
+        "addEventListener",
+        "Hodisa nomi va bajariladigan callbackni elementga bog‘laydi."
+      ]
+    ],
+    "code": "<button id=\"tugma\">Bosish</button><p id=\"holat\">0 marta</p>\n<script>let son=0;document.getElementById(\"tugma\").addEventListener(\"click\",()=>{son++;document.getElementById(\"holat\").textContent=son+\" marta\";});</script>",
+    "task": "Loyihaga ishlaydigan menyu, tugmalar va input hodisalarini ulang. Holat, ko‘rinish va aria atributlari birga yangilansin.",
+    "pitfall": "Bir hodisaga takroriy listener qo‘shilib qolsa bitta bosishda ikki marta amal bajarilishi mumkin.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "102": {
+    "terms": [
+      [
+        "Validatsiya",
+        "Qiymatning masala shartiga mosligini tekshiradi."
+      ],
+      [
+        "preventDefault",
+        "Forma hodisasining odatiy navigatsiyasini to‘xtatishi mumkin."
+      ],
+      [
+        "Trim",
+        "Majburiy matnning faqat bo‘shliqlardan iboratligini aniqlashga yordam beradi."
+      ],
+      [
+        "Xato xabari",
+        "Qaysi maydonda nima tuzatish kerakligini tushuntiradi."
+      ],
+      [
+        "Server tekshiruvi",
+        "Mijozdagi tekshiruvni chetlab o‘tish mumkinligi sabab serverda ham bajariladi."
+      ]
+    ],
+    "code": "<form id=\"forma\"><label>Ism <input id=\"ism\" required></label><button>Tekshirish</button></form><p id=\"xabar\" role=\"status\"></p>\n<script>document.getElementById(\"forma\").onsubmit=e=>{e.preventDefault();const ism=document.getElementById(\"ism\").value.trim();document.getElementById(\"xabar\").textContent=ism?\"Salom, \"+ism:\"Ismni kiriting\";};</script>",
+    "task": "Loyiha formasida majburiy maydonlar, email va bo‘shliq tekshiruvini yarating. Xato qaysi maydonda ekanini ko‘rsating va forma ma’lumotini saqlab qoling.",
+    "pitfall": "Haqiqiy shaxsiy ma’lumot yig‘masdan o‘quv namunalari bilan sinang; mijoz tekshiruvi server o‘rnini bosmaydi.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "103": {
+    "terms": [
+      [
+        "Vazifalar ro‘yxati",
+        "Qo‘shish, ko‘rsatish va o‘chirish amallariga ega mini-ilovadir."
+      ],
+      [
+        "Holat massivi",
+        "Vazifalar ma’lumotini DOMdan alohida boshqaradi."
+      ],
+      [
+        "Render funksiyasi",
+        "Holat o‘zgarganda ko‘rinishni izchil qayta yaratadi."
+      ],
+      [
+        "Saqlash qatlami",
+        "Holatni JSON satr orqali saqlab va qayta o‘qib oladi."
+      ],
+      [
+        "Xavfsiz chiqarish",
+        "Kiritilgan matn yangi elementning textContentiga beriladi."
+      ]
+    ],
+    "code": "<input id=\"vazifa\"><button id=\"qosh\">Qo‘shish</button><ul id=\"list\"></ul>\n<script>const list=document.getElementById(\"list\");document.getElementById(\"qosh\").onclick=()=>{const input=document.getElementById(\"vazifa\"),matn=input.value.trim();if(!matn)return;const li=document.createElement(\"li\");li.textContent=matn;li.onclick=()=>li.remove();list.append(li);input.value=\"\";};</script>",
+    "task": "Loyiha holatini oddiy ma’lumot modeliga ajrating. JSON orqali saqlash va tiklashni qo‘shing; buzilgan JSON va saqlash mavjud bo‘lmagan holatni boshqaring.",
+    "pitfall": "Saqlangan ma’lumot tuzilmasi o‘zgarsa eski yozuvni o‘qish uchun versiya yoki tekshirish qoidasi kerak bo‘lishi mumkin.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "104": {
+    "terms": [
+      [
+        "Loading",
+        "So‘rov davom etayotganini foydalanuvchiga bildiradi."
+      ],
+      [
+        "Error",
+        "So‘rov yoki ma’lumotni qayta ishlash muvaffaqiyatsizligini tushuntiradi."
+      ],
+      [
+        "Empty",
+        "So‘rov muvaffaqiyatli, ammo mos natija yo‘qligini bildiradi."
+      ],
+      [
+        "Retry",
+        "Xatodan keyin foydalanuvchiga qayta urinish imkonini beradi."
+      ],
+      [
+        "Holat modeli",
+        "Loading, success, empty va error bir-biriga zid ko‘rinmasligi kerak."
+      ]
+    ],
+    "code": "<button id=\"ol\">Yuklash</button><p id=\"holat\" role=\"status\"></p>\n<script>document.getElementById(\"ol\").onclick=async()=>{const h=document.getElementById(\"holat\");h.textContent=\"Yuklanmoqda…\";try{const data=await Promise.resolve([]);h.textContent=data.length?\"Tayyor\":\"Natija topilmadi\";}catch(e){h.textContent=\"Xato: \"+e.message;}};</script>",
+    "task": "Tashqi o‘quv APIni loyihaga ulang. Loading, muvaffaqiyat, bo‘sh va xato holatlari hamda qayta urinish boshqaruvini yarating.",
+    "pitfall": "API javob tuzilmasi, ruxsat va tarmoq holatini tekshiring; maxfiy API kalitini frontendga yozmang.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "105": {
+    "terms": [
+      [
+        "README",
+        "Loyihaning maqsadi, ishga tushirish tartibi va imkoniyatlarini tushuntiradi."
+      ],
+      [
+        ".gitignore",
+        "Hali kuzatilmayotgan fayllarni mos qoidalar orqali e’tibordan chetda qoldiradi."
+      ],
+      [
+        "Tarix",
+        "git log commitlar ketma-ketligini ko‘rsatadi."
+      ],
+      [
+        "git diff",
+        "O‘zgarishlarni solishtirishga yordam beradi."
+      ],
+      [
+        "Commit izohi",
+        "Qanday mazmunli o‘zgarish qilinganini tushuntirishi kerak."
+      ]
+    ],
+    "code": "git status\ngit diff\ngit log --oneline\n# .gitignorega misollar: node_modules/ va .env\n# README: maqsad, fayllar, ishga tushirish, sinovlar.",
+    "task": "Loyihani Git orqali bosqichma-bosqich saqlang. README, .gitignore, mazmunli commitlar va o‘zingizga tegishli GitHub repository havolasini tayyorlang.",
+    "pitfall": "Commitdan oldin git diff va git status bilan aynan qaysi fayllar ketayotganini tekshiring.",
+    "expected": "",
+    "mode": "git",
+    "project": true
+  },
+  "106": {
+    "terms": [
+      [
+        "Funksional sinov",
+        "Talab qilingan amal kutilgan natija berishini tekshiradi."
+      ],
+      [
+        "Chegara sinovi",
+        "Bo‘sh, minimal, maksimal va noodatiy kirishlarni tekshiradi."
+      ],
+      [
+        "Responsive sinov",
+        "Turli kenglik va kattalashtirishda kontentni tekshiradi."
+      ],
+      [
+        "Accessibility sinovi",
+        "Klaviatura, yorliq, fokus va ma’noli tuzilmani baholaydi."
+      ],
+      [
+        "Regressiya",
+        "Tuzatishdan keyin avval ishlagan amallarni qayta sinashdir."
+      ]
+    ],
+    "code": "<h1>Sinov jurnali</h1><table><tr><th>Holat</th><th>Kutilgan</th><th>Natija</th></tr><tr><td>Bo‘sh qidiruv</td><td>Barcha kurslar</td><td>Tekshiring</td></tr><tr><td>Mos kelmagan so‘z</td><td>Natija topilmadi</td><td>Tekshiring</td></tr></table>",
+    "task": "Loyihangiz uchun kamida o‘nta test yozing: oddiy, chegara, mobil, klaviatura va tarmoq xatolari bo‘lsin. Uchta xatoni dalil bilan tuzating.",
+    "pitfall": "Faqat konsolda xato yo‘qligi barcha funksiyalar talabga mos ekanini isbotlamaydi.",
+    "expected": "",
+    "mode": "web"
+  },
+  "107": {
+    "terms": [
+      [
+        "Deployment",
+        "Loyiha fayllarini foydalaniladigan hosting muhitiga chiqarishdir."
+      ],
+      [
+        "Build",
+        "Vosita ishlatilsa ishlab chiqarishga mos chiqish fayllarini yaratadi."
+      ],
+      [
+        "Nisbiy yo‘l",
+        "Nashr yo‘li va papka nomlari bilan mos kelishi kerak."
+      ],
+      [
+        "HTTPS",
+        "Tarmoq aloqasini himoyalaydi; xizmatning barcha jihati xavfsizligini kafolatlamaydi."
+      ],
+      [
+        "Qayta tekshirish",
+        "Nashrdagi havola, rasm, API va navigatsiya mahalliy holatdan alohida sinaladi."
+      ]
+    ],
+    "code": "<h1>Nashrga tayyorlik</h1><ol><li>Fayllar va yo‘llarni tekshirish</li><li>Build talabini aniqlash</li><li>Hostingga joylash</li><li>Havola, rasm va funksiyalarni tekshirish</li></ol>",
+    "task": "O‘zingizga tegishli o‘quv loyihani hostingga joylang yoki nashr yo‘riqnomasini tayyorlang; URL va qabul sinovlarini hisobotga kiriting.",
+    "pitfall": "API kaliti, .env yoki shaxsiy ma’lumotni ommaviy statik fayllarga qo‘shmang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "108": {
+    "terms": [
+      [
+        "HTML",
+        "Kontentning tuzilishi va ma’nosini belgilaydi."
+      ],
+      [
+        "CSS",
+        "Ko‘rinish va responsive joylashuvni boshqaradi."
+      ],
+      [
+        "JavaScript",
+        "Hisoblash va xatti-harakatni tashkil etadi."
+      ],
+      [
+        "DOM va API",
+        "DOM hujjatni boshqaradi, API esa dasturlar muloqotini ta’minlaydi."
+      ],
+      [
+        "Git",
+        "Loyiha tarixini boshqaradi va hamkorlikda o‘zgarishlarni kuzatishga yordam beradi."
+      ]
+    ],
+    "code": "<h1>Frontend bilim xaritasi</h1><ul><li>HTML → semantika va forma</li><li>CSS → maket va responsive</li><li>JS → mantiq va hodisa</li><li>API → ma’lumot</li><li>Git → tarix</li></ul>",
+    "task": "Besh texnologiyaning loyihadagi vazifasini yozing; har biri uchun bitta xato va tuzatish misolini ko‘rsating.",
+    "pitfall": "Atamalarni yoddan sanash bilan ularni ishlaydigan loyihada qo‘llashni bir xil baholamang.",
+    "expected": "",
+    "mode": "web"
+  },
+  "109": {
+    "terms": [
+      [
+        "Talab",
+        "Sahifada qanday kontent va amallar bo‘lishini oldindan belgilaydi."
+      ],
+      [
+        "Semantik skelet",
+        "HTML tuzilmasini dizayndan avval ma’noli elementlar bilan tashkil qiladi."
+      ],
+      [
+        "Dizayn tizimi",
+        "Rang, shrift, oraliq va komponentlarni izchil tanlashga yordam beradi."
+      ],
+      [
+        "Qabul mezoni",
+        "Tayyor ishni aniq tekshirish mumkin bo‘lgan talabdir."
+      ],
+      [
+        "Tekshiruv",
+        "Sahifa tor ekranda, klaviatura bilan va uzun matn bilan sinab ko‘riladi."
+      ]
+    ],
+    "code": "<style>body{font:16px Arial;margin:0}.wrap{max-width:900px;margin:auto;padding:24px}.cards{display:flex;gap:16px;flex-wrap:wrap}.card{flex:1 1 180px;background:#edf4ef;padding:24px}</style>\n<main class=\"wrap\"><h1>IT kurslari</h1><div class=\"cards\"><article class=\"card\"><h2>HTML</h2><p>Tuzilma</p></article><article class=\"card\"><h2>CSS</h2><p>Dizayn</p></article></div></main>",
+    "task": "Mustaqil mini-loyiha yarating: semantik HTML, responsive CSS, kamida ikki JavaScript amali, validatsiyali forma va hujjatlashtirilgan sinovlar bo‘lsin. API yoki saqlashni vazifaga mos qo‘shing.",
+    "pitfall": "Namunani shunchaki ko‘chirish o‘rniga talabga mos mustaqil yechim va qarorlar izohini taqdim eting.",
+    "expected": "",
+    "mode": "web",
+    "project": true
+  },
+  "110": {
+    "terms": [
+      [
+        "Taqdimot",
+        "Loyihaning auditoriyasi, vazifasi va yechimini dalil bilan tushuntiradi."
+      ],
+      [
+        "Demo",
+        "Oldindan tayyorlangan foydalanuvchi oqimini amalda ko‘rsatadi."
+      ],
+      [
+        "Baholash mezoni",
+        "Natijani oldindan ma’lum talablar bilan solishtiradi."
+      ],
+      [
+        "Refleksiya",
+        "Qiyinchilik, tuzatish va keyingi yaxshilashni tahlil qiladi."
+      ],
+      [
+        "Hisobot",
+        "Kod, ishga tushirish tartibi, sinovlar va manbalarni birlashtiradi."
+      ]
+    ],
+    "code": "<h1>Loyiha himoyasi</h1><ol><li>Muammo va auditoriya</li><li>Asosiy foydalanuvchi oqimi</li><li>Responsive va klaviatura sinovi</li><li>Xato va tuzatish</li><li>Keyingi rivojlanish</li></ol>",
+    "task": "Loyihani taqdim eting va o‘zingiz baholang: talab va semantika 20, dizayn/responsive 20, funksiyalar 25, sinov va qulaylik 20, Git/README va taqdimot 15 ball.",
+    "pitfall": "Faqat chiroyli demo bilan cheklanmay, xato va cheklovlarni ham ochiq ko‘rsating.",
+    "expected": "",
+    "mode": "web"
+  }
+}

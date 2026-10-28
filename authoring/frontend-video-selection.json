@@ -1,0 +1,608 @@
+{
+  "6": [
+    {
+      "id": "dgcyvjQiJnQ",
+      "title": "HTMLda dasturlash | 6. Headings (Sarlavhalar)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Ushbu dars mavzuning sarlavhalar qismini tushuntiradi. Xatboshi, formatlash va maxsus belgilarni konspektdan davom ettiring.",
+      "task": "h1, h2 va h3 sarlavhalari bilan matnning mazmuniy tuzilishini yarating.",
+      "source": "https://www.youtube.com/watch?v=dgcyvjQiJnQ",
+      "verifiedFrom": "https://www.youtube.com/watch?v=dgcyvjQiJnQ",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "7": [
+    {
+      "id": "L9GXV5ze6rk",
+      "title": "HTMLda dasturlash | 13. Links (Havolalar)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML havolalari va sahifalar orasida o‘tish haqida. Rasmlar va fayl yo‘llari bo‘yicha qolgan izohlar konspektda.",
+      "task": "a tegi bilan bitta tashqi havola va bitta sahifa ichidagi havola yarating; manzillarni tekshiring.",
+      "source": "https://www.youtube.com/watch?v=L9GXV5ze6rk",
+      "verifiedFrom": "https://www.youtube.com/watch?v=L9GXV5ze6rk",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "94": [
+    {
+      "id": "L9GXV5ze6rk",
+      "title": "HTMLda dasturlash | 13. Links (Havolalar)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML havolalari va sahifalar orasida o‘tish haqida. Rasmlar va fayl yo‘llari bo‘yicha qolgan izohlar konspektda.",
+      "task": "a tegi bilan bitta tashqi havola va bitta sahifa ichidagi havola yarating; manzillarni tekshiring.",
+      "source": "https://www.youtube.com/watch?v=L9GXV5ze6rk",
+      "verifiedFrom": "https://www.youtube.com/watch?v=L9GXV5ze6rk",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "9": [
+    {
+      "id": "px8yVVPtEnI",
+      "title": "HTMLda dasturlash | 24. Layout va Semantics",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML sahifasining mazmuniy bo‘limlari va semantik tuzilishi haqida. Hozircha sahifa ko‘rinishini CSS bilan bezash talab etilmaydi.",
+      "task": "header, nav, main va footer qismlaridan iborat HTML tuzilma yarating va har birining vazifasini tushuntiring.",
+      "source": "https://www.youtube.com/watch?v=px8yVVPtEnI",
+      "verifiedFrom": "https://www.youtube.com/watch?v=px8yVVPtEnI",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "93": [
+    {
+      "id": "px8yVVPtEnI",
+      "title": "HTMLda dasturlash | 24. Layout va Semantics",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML sahifasining mazmuniy bo‘limlari va semantik tuzilishi haqida. Hozircha sahifa ko‘rinishini CSS bilan bezash talab etilmaydi.",
+      "task": "header, nav, main va footer qismlaridan iborat HTML tuzilma yarating va har birining vazifasini tushuntiring.",
+      "source": "https://www.youtube.com/watch?v=px8yVVPtEnI",
+      "verifiedFrom": "https://www.youtube.com/watch?v=px8yVVPtEnI",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "10": [
+    {
+      "id": "VRnb0W8F27Q",
+      "title": "HTMLda dasturlash | 21. Forms, 1-qism",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML forma yaratish asoslari. Boshqa boshqaruv elementlari va validatsiya mavzuning konspektida kengaytirilgan.",
+      "task": "Ism va elektron pochta maydonlari, label hamda yuborish tugmasidan iborat forma yarating. JavaScript bu videoning vazifasi emas.",
+      "source": "https://www.youtube.com/watch?v=VRnb0W8F27Q",
+      "verifiedFrom": "https://www.youtube.com/watch?v=VRnb0W8F27Q",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "102": [
+    {
+      "id": "VRnb0W8F27Q",
+      "title": "HTMLda dasturlash | 21. Forms, 1-qism",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "HTML forma yaratish asoslari. Boshqa boshqaruv elementlari va validatsiya mavzuning konspektida kengaytirilgan.",
+      "task": "Ism va elektron pochta maydonlari, label hamda yuborish tugmasidan iborat forma yarating. JavaScript bu videoning vazifasi emas.",
+      "source": "https://www.youtube.com/watch?v=VRnb0W8F27Q",
+      "verifiedFrom": "https://www.youtube.com/watch?v=VRnb0W8F27Q",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "13": [
+    {
+      "id": "KPPhQ0F-SDY",
+      "title": "CSS | 1. Kirish",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "CSS kursiga kirish va o‘rganish yo‘nalishi. HTML bilan bog‘lash usullarini konspektdagi misollar orqali ko‘ring.",
+      "task": "HTML va CSS vazifalarini taqqoslang; CSS sahifaning qaysi ko‘rinishlarini boshqarishini uchta misolda yozing.",
+      "source": "https://www.youtube.com/watch?v=KPPhQ0F-SDY",
+      "verifiedFrom": "https://www.youtube.com/watch?v=KPPhQ0F-SDY",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "15": [
+    {
+      "id": "0UsPKt4gU9I",
+      "title": "CSS | 4. Selectors (Tanlab oluvchilar)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "CSS selektorlari va qoidaning tuzilishi tushuntiriladi.",
+      "task": "Bir xil matnni teg, class va id selektori bilan alohida tanlab, rangini o‘zgartirib ko‘ring.",
+      "source": "https://www.youtube.com/watch?v=0UsPKt4gU9I",
+      "verifiedFrom": "https://www.youtube.com/watch?v=0UsPKt4gU9I",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "16": [
+    {
+      "id": "0UsPKt4gU9I",
+      "title": "CSS | 4. Selectors (Tanlab oluvchilar)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "CSS selektorlari va qoidaning tuzilishi tushuntiriladi.",
+      "task": "Bir xil matnni teg, class va id selektori bilan alohida tanlab, rangini o‘zgartirib ko‘ring.",
+      "source": "https://www.youtube.com/watch?v=0UsPKt4gU9I",
+      "verifiedFrom": "https://www.youtube.com/watch?v=0UsPKt4gU9I",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "17": [
+    {
+      "id": "9xtKs3eqSuM",
+      "title": "CSS | 26. Background",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Mavzuning fon xossalari qismiga mos dars. Rang tizimlari konspektda tushuntirilgan; videodagi qo‘shimcha effektlar majburiy emas.",
+      "task": "Sahifa foni va bitta matn blokining fon rangini o‘zgartiring.",
+      "source": "https://www.youtube.com/watch?v=9xtKs3eqSuM",
+      "verifiedFrom": "https://www.youtube.com/watch?v=9xtKs3eqSuM",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "18": [
+    {
+      "id": "_Rhv5VdZTSo",
+      "title": "CSS | 44. Fonts",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Shriftlar, ularning turlari va sahifada qo‘llanishi haqida. Qolgan matn xossalarini konspektdan o‘rganing.",
+      "task": "font-family va font-size orqali sarlavha bilan asosiy matnni farqlang; matn o‘qilishini baholang.",
+      "source": "https://www.youtube.com/watch?v=_Rhv5VdZTSo",
+      "verifiedFrom": "https://www.youtube.com/watch?v=_Rhv5VdZTSo",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "95": [
+    {
+      "id": "_Rhv5VdZTSo",
+      "title": "CSS | 44. Fonts",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Shriftlar, ularning turlari va sahifada qo‘llanishi haqida. Qolgan matn xossalarini konspektdan o‘rganing.",
+      "task": "font-family va font-size orqali sarlavha bilan asosiy matnni farqlang; matn o‘qilishini baholang.",
+      "source": "https://www.youtube.com/watch?v=_Rhv5VdZTSo",
+      "verifiedFrom": "https://www.youtube.com/watch?v=_Rhv5VdZTSo",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "20": [
+    {
+      "id": "WKUqpFVQnj8",
+      "title": "CSS | 12. Box model. Margin, Padding, Border",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Blok modeli, tashqi va ichki bo‘shliq hamda chegara tushuntiriladi. Border-radius va outline konspektda alohida yoritilgan.",
+      "task": "Bitta blokda border, padding va marginni navbat bilan o‘zgartiring va uchalasining farqini yozing.",
+      "source": "https://www.youtube.com/watch?v=WKUqpFVQnj8",
+      "verifiedFrom": "https://www.youtube.com/watch?v=WKUqpFVQnj8",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "21": [
+    {
+      "id": "WKUqpFVQnj8",
+      "title": "CSS | 12. Box model. Margin, Padding, Border",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Blok modeli, tashqi va ichki bo‘shliq hamda chegara tushuntiriladi. Border-radius va outline konspektda alohida yoritilgan.",
+      "task": "Bitta blokda border, padding va marginni navbat bilan o‘zgartiring va uchalasining farqini yozing.",
+      "source": "https://www.youtube.com/watch?v=WKUqpFVQnj8",
+      "verifiedFrom": "https://www.youtube.com/watch?v=WKUqpFVQnj8",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "24": [
+    {
+      "id": "2vnZeG8Cwcg",
+      "title": "CSS | 21. Joylashish va static qiymati",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Joylashishning boshlang‘ich tushunchasi va static oqimi haqida. Boshqa position qiymatlari hamda z-index uchun konspektni davom ettiring.",
+      "task": "Uchta blokni odatiy oqimda joylashtiring va static holatda ularning ketma-ketligini tushuntiring.",
+      "source": "https://www.youtube.com/watch?v=2vnZeG8Cwcg",
+      "verifiedFrom": "https://www.youtube.com/watch?v=2vnZeG8Cwcg",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "25": [
+    {
+      "id": "2vnZeG8Cwcg",
+      "title": "CSS | 21. Joylashish va static qiymati",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Joylashishning boshlang‘ich tushunchasi va static oqimi haqida. Boshqa position qiymatlari hamda z-index uchun konspektni davom ettiring.",
+      "task": "Uchta blokni odatiy oqimda joylashtiring va static holatda ularning ketma-ketligini tushuntiring.",
+      "source": "https://www.youtube.com/watch?v=2vnZeG8Cwcg",
+      "verifiedFrom": "https://www.youtube.com/watch?v=2vnZeG8Cwcg",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "26": [
+    {
+      "id": "j06i3epVpsI",
+      "title": "CSS | 55. Flexbox: asoslari va terminlari",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Flex konteyner, elementlar va asosiy terminlarga kirish.",
+      "task": "Uchta kartochkani display:flex orqali joylashtiring; konteyner va elementlarni ajrating.",
+      "source": "https://www.youtube.com/watch?v=j06i3epVpsI",
+      "verifiedFrom": "https://www.youtube.com/watch?v=j06i3epVpsI",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "27": [
+    {
+      "id": "tc_W8ZGiVv4",
+      "title": "CSS | 61. CSS Grid",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "CSS Grid haqida boshlang‘ich tushuncha. Moslashuvchan Grid uchun ushbu mavzudagi media query misollarini konspektdan davom ettiring.",
+      "task": "Uch ustunli Grid yarating. Moslashuvchan mavzuda bo‘lsangiz, konspekt asosida kichik ekranda uni bitta ustunga o‘tkazing.",
+      "source": "https://www.youtube.com/watch?v=tc_W8ZGiVv4",
+      "verifiedFrom": "https://www.youtube.com/watch?v=tc_W8ZGiVv4",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "35": [
+    {
+      "id": "tc_W8ZGiVv4",
+      "title": "CSS | 61. CSS Grid",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "CSS Grid haqida boshlang‘ich tushuncha. Moslashuvchan Grid uchun ushbu mavzudagi media query misollarini konspektdan davom ettiring.",
+      "task": "Uch ustunli Grid yarating. Moslashuvchan mavzuda bo‘lsangiz, konspekt asosida kichik ekranda uni bitta ustunga o‘tkazing.",
+      "source": "https://www.youtube.com/watch?v=tc_W8ZGiVv4",
+      "verifiedFrom": "https://www.youtube.com/watch?v=tc_W8ZGiVv4",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "30": [
+    {
+      "id": "8ObQlXKIUCc",
+      "title": "CSS | 60. Flexbox yordamida loyihani yaxshilash",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Flexboxni loyiha tuzilishida qo‘llashga oid amaliy dars. Bu butun yakuniy loyiha yoki barcha responsive usullar darsi emas.",
+      "task": "O‘z sahifangizdagi bitta qator yoki kartochkalar guruhini Flexbox bilan tartiblang. Faqat hozirgacha o‘tilgan xossalardan foydalaning.",
+      "source": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "verifiedFrom": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "34": [
+    {
+      "id": "8ObQlXKIUCc",
+      "title": "CSS | 60. Flexbox yordamida loyihani yaxshilash",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Flexboxni loyiha tuzilishida qo‘llashga oid amaliy dars. Bu butun yakuniy loyiha yoki barcha responsive usullar darsi emas.",
+      "task": "O‘z sahifangizdagi bitta qator yoki kartochkalar guruhini Flexbox bilan tartiblang. Faqat hozirgacha o‘tilgan xossalardan foydalaning.",
+      "source": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "verifiedFrom": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "96": [
+    {
+      "id": "8ObQlXKIUCc",
+      "title": "CSS | 60. Flexbox yordamida loyihani yaxshilash",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Flexboxni loyiha tuzilishida qo‘llashga oid amaliy dars. Bu butun yakuniy loyiha yoki barcha responsive usullar darsi emas.",
+      "task": "O‘z sahifangizdagi bitta qator yoki kartochkalar guruhini Flexbox bilan tartiblang. Faqat hozirgacha o‘tilgan xossalardan foydalaning.",
+      "source": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "verifiedFrom": "https://www.youtube.com/watch?v=8ObQlXKIUCc",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "31": [
+    {
+      "id": "OaJqZX3YGv4",
+      "title": "CSS | 40. Media queries",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Turli ekranlar uchun CSS media so‘rovlarini qo‘llash haqida. Responsive kirish mavzusida kodni kuzating; amaliy talablar konspektdagi bosqichga mos.",
+      "task": "Kichik va katta ekranda nimalar o‘zgarishi kerakligini yozing. Media query o‘tilgan bo‘lsa, konspektdagi misolni sinab ko‘ring.",
+      "source": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "verifiedFrom": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "33": [
+    {
+      "id": "OaJqZX3YGv4",
+      "title": "CSS | 40. Media queries",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Turli ekranlar uchun CSS media so‘rovlarini qo‘llash haqida. Responsive kirish mavzusida kodni kuzating; amaliy talablar konspektdagi bosqichga mos.",
+      "task": "Kichik va katta ekranda nimalar o‘zgarishi kerakligini yozing. Media query o‘tilgan bo‘lsa, konspektdagi misolni sinab ko‘ring.",
+      "source": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "verifiedFrom": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "98": [
+    {
+      "id": "OaJqZX3YGv4",
+      "title": "CSS | 40. Media queries",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Turli ekranlar uchun CSS media so‘rovlarini qo‘llash haqida. Responsive kirish mavzusida kodni kuzating; amaliy talablar konspektdagi bosqichga mos.",
+      "task": "Kichik va katta ekranda nimalar o‘zgarishi kerakligini yozing. Media query o‘tilgan bo‘lsa, konspektdagi misolni sinab ko‘ring.",
+      "source": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "verifiedFrom": "https://www.youtube.com/watch?v=OaJqZX3YGv4",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "32": [
+    {
+      "id": "gJdlxBua_F8",
+      "title": "CSS | 34. Foiz (%) o‘lchov birligi",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Mavzuning foizli o‘lchovlar qismiga oid dars. Viewport, rem va em birliklari konspektda berilgan.",
+      "task": "Ichki blok kengligini 50% qilib belgilang va ota blok kengligi o‘zgarganda natijani kuzating.",
+      "source": "https://www.youtube.com/watch?v=gJdlxBua_F8",
+      "verifiedFrom": "https://www.youtube.com/watch?v=gJdlxBua_F8",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "37": [
+    {
+      "id": "3rHnxyysBMo",
+      "title": "Bootstrap | 3. Bootstrapni o‘rnatib olish",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Loyihaga Bootstrapni ulash ko‘rsatiladi. Videodagi versiya yoki CDN manzili farq qilsa, konspektdagi versiya va ulash kodidan foydalaning.",
+      "task": "Konspektdagi Bootstrap CSS havolasini ulang va oddiy konteyner ko‘rinishini tekshiring.",
+      "source": "https://www.youtube.com/watch?v=3rHnxyysBMo",
+      "verifiedFrom": "https://www.youtube.com/watch?v=3rHnxyysBMo",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "38": [
+    {
+      "id": "lSCLF_CWn7A",
+      "title": "Bootstrap | 5. Grid (1-qism)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Bootstrap Grid tuzilishiga oid dars. To‘liq komponentlar yoki yakuniy loyiha emas; versiya farqlarida konspektga amal qiling.",
+      "task": "container, row va col bilan uchta ustun yarating; ekran torayganda ularning holatini tekshiring.",
+      "source": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "verifiedFrom": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "40": [
+    {
+      "id": "lSCLF_CWn7A",
+      "title": "Bootstrap | 5. Grid (1-qism)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Bootstrap Grid tuzilishiga oid dars. To‘liq komponentlar yoki yakuniy loyiha emas; versiya farqlarida konspektga amal qiling.",
+      "task": "container, row va col bilan uchta ustun yarating; ekran torayganda ularning holatini tekshiring.",
+      "source": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "verifiedFrom": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "99": [
+    {
+      "id": "lSCLF_CWn7A",
+      "title": "Bootstrap | 5. Grid (1-qism)",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Bootstrap Grid tuzilishiga oid dars. To‘liq komponentlar yoki yakuniy loyiha emas; versiya farqlarida konspektga amal qiling.",
+      "task": "container, row va col bilan uchta ustun yarating; ekran torayganda ularning holatini tekshiring.",
+      "source": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "verifiedFrom": "https://www.youtube.com/watch?v=lSCLF_CWn7A",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "41": [
+    {
+      "id": "zzqv7AJFoBo",
+      "title": "Javascript | 2. Javascript nima?",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "JavaScript nima ekanligi va undan foydalanish haqida kirish darsi.",
+      "task": "HTML, CSS va JavaScript vazifalarini bittadan misol bilan tushuntiring.",
+      "source": "https://www.youtube.com/watch?v=zzqv7AJFoBo",
+      "verifiedFrom": "https://t.me/s/ulugbeksamigjonov/13",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "42": [
+    {
+      "id": "vrxG9a4Lh58",
+      "title": "Javascript | 4. Javascript va HTML",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "JavaScript kodini HTML hujjatiga ulash va ishga tushirish usullari haqida.",
+      "task": "HTMLga script faylini ulang va console.log orqali xabar chiqaring; DOM bilan ishlash hali talab etilmaydi.",
+      "source": "https://www.youtube.com/watch?v=vrxG9a4Lh58",
+      "verifiedFrom": "https://t.me/s/ulugbeksamigjonov?before=29",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "43": [
+    {
+      "id": "ZJabcpg3iBs",
+      "title": "Javascript | 8. let, const va var",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "O‘zgaruvchi e’lon qilish va let, const, var orasidagi farqlar haqida.",
+      "task": "O‘zgarmas qiymatni const, o‘zgaradigan qiymatni let bilan e’lon qilib konsolga chiqaring.",
+      "source": "https://www.youtube.com/watch?v=ZJabcpg3iBs",
+      "verifiedFrom": "https://t.me/s/ulugbeksamigjonov?q=%23javascript",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "44": [
+    {
+      "id": "JPS-Vr4pSTE",
+      "title": "Javascript | 9. Javascriptdagi ma’lumot turlari",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "JavaScriptdagi ma’lumot turlari tushuntiriladi.",
+      "task": "Matn, son va mantiqiy qiymat yarating, typeof natijalarini konspekt bilan solishtiring.",
+      "source": "https://www.youtube.com/watch?v=JPS-Vr4pSTE",
+      "verifiedFrom": "https://t.me/s/ulugbeksamigjonov?q=%23javascript",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "69": [
+    {
+      "id": "3rXEiCPHuDc",
+      "title": "DOM 1 — Document Object Model",
+      "channel": "Frontend Kundaligi",
+      "language": "O‘zbekcha",
+      "coverage": "Document obyekti va elementlarni tanlash usullari: getElementById, querySelector hamda boshqa selektorlar. Kirish mavzusida tushunchalarni kuzatish kifoya.",
+      "task": "DOM kirishida hujjat daraxtini chizing; selektorlar mavzusida esa id va class orqali bittadan element tanlang.",
+      "source": "https://www.youtube.com/watch?v=3rXEiCPHuDc",
+      "verifiedFrom": "https://www.youtube.com/watch?v=3rXEiCPHuDc",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "70": [
+    {
+      "id": "3rXEiCPHuDc",
+      "title": "DOM 1 — Document Object Model",
+      "channel": "Frontend Kundaligi",
+      "language": "O‘zbekcha",
+      "coverage": "Document obyekti va elementlarni tanlash usullari: getElementById, querySelector hamda boshqa selektorlar. Kirish mavzusida tushunchalarni kuzatish kifoya.",
+      "task": "DOM kirishida hujjat daraxtini chizing; selektorlar mavzusida esa id va class orqali bittadan element tanlang.",
+      "source": "https://www.youtube.com/watch?v=3rXEiCPHuDc",
+      "verifiedFrom": "https://www.youtube.com/watch?v=3rXEiCPHuDc",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "79": [
+    {
+      "id": "JtVnOZ26XHA",
+      "title": "Git va GitHub o‘zi nima?",
+      "channel": "Saidbek Arislonov",
+      "language": "O‘zbekcha",
+      "coverage": "Git va GitHub vazifalari haqida nazariy tanishuv. Buyruqlarni bajarish keyingi amaliy mavzularda o‘rganiladi.",
+      "task": "Git va GitHub farqini, versiyalar tarixini saqlashning ikki foydasini yozing.",
+      "source": "https://www.youtube.com/watch?v=JtVnOZ26XHA",
+      "verifiedFrom": "https://t.me/s/saidbekarislonov?before=50",
+      "checkedOn": "2026-10-27",
+      "verification": "Muallif sahifasidagi sarlavha va tavsif asosida tanlangan."
+    }
+  ],
+  "47": [
+    {
+      "id": "yq_wbNtt4jw",
+      "title": "JavaScript: asosiy operatorlar",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Operatorlar haqidagi avvalgi darsni takrorlash uchun. Bu aynan ushbu amaliy ishning tayyor yechimi emas.",
+      "task": "Ikki son ustida arifmetik amallarni bajarib, natijalarni console.log orqali chiqaring.",
+      "source": "https://www.youtube.com/watch?v=yq_wbNtt4jw",
+      "duration": "13:09"
+    }
+  ],
+  "51": [
+    {
+      "id": "MVWjDj_OAEc",
+      "title": "JavaScript: if/else",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "if/else bo‘yicha mustahkamlash videosi. Bu aynan amaliy topshiriqning tayyor yechimi emas.",
+      "task": "Ballga qarab o‘tdi yoki qayta o‘qish kerak xabarini chiqaradigan shart yozing.",
+      "source": "https://www.youtube.com/watch?v=MVWjDj_OAEc",
+      "duration": "9:15"
+    }
+  ],
+  "55": [
+    {
+      "id": "GJ3ppci17eY",
+      "title": "For sikli — yangi sikl turi",
+      "channel": "Khan Academy Uzbek",
+      "language": "O‘zbekcha",
+      "coverage": "For sikli bo‘yicha takrorlash. While va do/while farqlarini konspektdan davom ettiring.",
+      "task": "1 dan 10 gacha sonlar yig‘indisini for orqali hisoblang.",
+      "source": "https://www.youtube.com/watch?v=GJ3ppci17eY",
+      "duration": "12:57"
+    }
+  ],
+  "59": [
+    {
+      "id": "JWyTwyMfsBo",
+      "title": "JavaScript: Array",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Massivlar bo‘yicha takrorlash. Barcha massiv metodlari bu videoda qamrab olingan deb hisoblanmaydi.",
+      "task": "Massivdagi sonlar yig‘indisini hisoblang; konspektdagi metodlardan birini qo‘llang.",
+      "source": "https://www.youtube.com/watch?v=JWyTwyMfsBo",
+      "duration": "10:12"
+    }
+  ],
+  "63": [
+    {
+      "id": "uCYtOcs5BSY",
+      "title": "JavaScript: funksiya va uni e’lon qilish",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Funksiya asoslarini mustahkamlash. Arrow va default parametrlar konspektda alohida berilgan.",
+      "task": "Ikki parametr oladigan va natija qaytaradigan funksiya tuzing, uch xil qiymatda sinang.",
+      "source": "https://www.youtube.com/watch?v=uCYtOcs5BSY",
+      "duration": "6:48"
+    }
+  ],
+  "68": [
+    {
+      "id": "uCYtOcs5BSY",
+      "title": "JavaScript: funksiya va uni e’lon qilish",
+      "channel": "Ulugbek Samigjonov",
+      "language": "O‘zbekcha",
+      "coverage": "Konsol mini loyihasida funksiyalardan foydalanish uchun takrorlash. Bu ball hisoboti loyihasining tayyor video yechimi emas.",
+      "task": "Hisoblashni alohida funksiyaga ajrating va natijani console.log bilan tekshiring.",
+      "source": "https://www.youtube.com/watch?v=uCYtOcs5BSY",
+      "duration": "6:48"
+    }
+  ],
+  "109": [],
+  "110": []
+}

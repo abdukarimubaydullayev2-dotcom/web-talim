@@ -1,0 +1,551 @@
+{
+  "name": "Ma’lumotlar bazasi bilan ishlash",
+  "hours": 140,
+  "paras": 70,
+  "theoryHours": 70,
+  "practiceHours": 70,
+  "groups": [
+    {
+      "number": 1,
+      "name": "Ma’lumotlar modeli va loyihalash",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 1,
+          "title": "Ma’lumotlar bazasi va boshqaruv tizimining vazifalari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Ma’lumot va Baza vazifalarini izohlaydi; MBBT qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 2,
+          "title": "Amaliy mashg‘ulot — Ma’lumotlar bazasi va boshqaruv tizimining vazifalari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ma’lumotlar bazasi va boshqaruv tizimining vazifalari mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 3,
+          "title": "Jadval satr ustun va ma’lumot lug‘ati",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Jadval va Satr vazifalarini izohlaydi; Ustun qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 4,
+          "title": "Amaliy mashg‘ulot — Jadval satr ustun va ma’lumot lug‘ati",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Jadval satr ustun va ma’lumot lug‘ati mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 5,
+          "title": "Birlamchi nomzod va tashqi kalitlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Primary key va Nomzod kalit vazifalarini izohlaydi; UNIQUE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 6,
+          "title": "Amaliy mashg‘ulot — Birlamchi nomzod va tashqi kalitlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Birlamchi nomzod va tashqi kalitlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 7,
+          "title": "ER diagramma va bog‘lanish kardinalligi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Entity va Birga ko‘p vazifalarini izohlaydi; Ko‘pga ko‘p qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 8,
+          "title": "Amaliy mashg‘ulot — ER diagramma va bog‘lanish kardinalligi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "ER diagramma va bog‘lanish kardinalligi mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 9,
+          "title": "Normalizatsiya va takroriy ma’lumot muammolari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Anomaliya va Birinchi normal shakl vazifalarini izohlaydi; Ikkinchi normal shakl qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 10,
+          "title": "Amaliy mashg‘ulot — Normalizatsiya va takroriy ma’lumot muammolari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Normalizatsiya va takroriy ma’lumot muammolari mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "SQLite SQL turlari va cheklovlar",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 11,
+          "title": "SQLite muhitida ishlash va SQL buyruqlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "SQLite va SQL vazifalarini izohlaydi; DDL qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 12,
+          "title": "Amaliy mashg‘ulot — SQLite muhitida ishlash va SQL buyruqlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "SQLite muhitida ishlash va SQL buyruqlari mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 13,
+          "title": "Ma’lumot turlari aniqlik va NULL",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "SQLite tiplash va INTEGER vazifalarini izohlaydi; REAL qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 14,
+          "title": "Amaliy mashg‘ulot — Ma’lumot turlari aniqlik va NULL",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ma’lumot turlari aniqlik va NULL mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 15,
+          "title": "CREATE TABLE va ma’lumot cheklovlari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "CREATE TABLE va NOT NULL vazifalarini izohlaydi; CHECK qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 16,
+          "title": "Amaliy mashg‘ulot — CREATE TABLE va ma’lumot cheklovlari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "CREATE TABLE va ma’lumot cheklovlari mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 17,
+          "title": "Foreign key o‘chirish siyosati va referensial yaxlitlik",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Foreign key nazorati va RESTRICT vazifalarini izohlaydi; CASCADE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 18,
+          "title": "Amaliy mashg‘ulot — Foreign key o‘chirish siyosati va referensial yaxlitlik",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Foreign key o‘chirish siyosati va referensial yaxlitlik mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 19,
+          "title": "ALTER DROP va sxemani o‘zgartirish tartibi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "ALTER TABLE va ADD COLUMN vazifalarini izohlaydi; RENAME qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 20,
+          "title": "Amaliy mashg‘ulot — ALTER DROP va sxemani o‘zgartirish tartibi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "ALTER DROP va sxemani o‘zgartirish tartibi mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Ma’lumot kiritish o‘zgartirish va qidiruv",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 21,
+          "title": "INSERT va yangi yozuvlarni boshqarish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Ustun ro‘yxati va Ko‘p satrli INSERT vazifalarini izohlaydi; DEFAULT qo‘llash qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 22,
+          "title": "Amaliy mashg‘ulot — INSERT va yangi yozuvlarni boshqarish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "INSERT va yangi yozuvlarni boshqarish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 23,
+          "title": "SELECT WHERE mantiqiy shartlar va NULL filtri",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Proyeksiya va WHERE vazifalarini izohlaydi; Ustuvorlik qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 24,
+          "title": "Amaliy mashg‘ulot — SELECT WHERE mantiqiy shartlar va NULL filtri",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "SELECT WHERE mantiqiy shartlar va NULL filtri mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 25,
+          "title": "UPDATE DELETE va ta’sir qamrovini nazorat qilish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "UPDATE va DELETE vazifalarini izohlaydi; Oldindan SELECT qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 26,
+          "title": "Amaliy mashg‘ulot — UPDATE DELETE va ta’sir qamrovini nazorat qilish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "UPDATE DELETE va ta’sir qamrovini nazorat qilish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 27,
+          "title": "ORDER BY LIMIT va matn bo‘yicha qidiruv",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "ORDER BY va LIMIT OFFSET vazifalarini izohlaydi; LIKE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 28,
+          "title": "Amaliy mashg‘ulot — ORDER BY LIMIT va matn bo‘yicha qidiruv",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "ORDER BY LIMIT va matn bo‘yicha qidiruv mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 29,
+          "title": "Satr sana CASE va COALESCE funksiyalari",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Satr funksiyasi va Sana formati vazifalarini izohlaydi; CASE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 30,
+          "title": "Amaliy mashg‘ulot — Satr sana CASE va COALESCE funksiyalari",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Satr sana CASE va COALESCE funksiyalari mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "JOIN agregatlar va murakkab hisobotlar",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 31,
+          "title": "COUNT SUM AVG GROUP BY va HAVING",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Agregat va COUNT farqi vazifalarini izohlaydi; GROUP BY qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 32,
+          "title": "Amaliy mashg‘ulot — COUNT SUM AVG GROUP BY va HAVING",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "COUNT SUM AVG GROUP BY va HAVING mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 33,
+          "title": "INNER JOIN va bir nechta jadvaldan axborot olish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "INNER JOIN va ON sharti vazifalarini izohlaydi; Alias qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 34,
+          "title": "Amaliy mashg‘ulot — INNER JOIN va bir nechta jadvaldan axborot olish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "INNER JOIN va bir nechta jadvaldan axborot olish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 35,
+          "title": "LEFT JOIN NULL va bog‘lanmagan yozuvlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "LEFT JOIN va Bog‘lanmagan satr vazifalarini izohlaydi; COUNT tanlovi qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 36,
+          "title": "Amaliy mashg‘ulot — LEFT JOIN NULL va bog‘lanmagan yozuvlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "LEFT JOIN NULL va bog‘lanmagan yozuvlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 37,
+          "title": "Ichki so‘rov EXISTS va to‘plamlarni birlashtirish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Ichki so‘rov va EXISTS vazifalarini izohlaydi; IN qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 38,
+          "title": "Amaliy mashg‘ulot — Ichki so‘rov EXISTS va to‘plamlarni birlashtirish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Ichki so‘rov EXISTS va to‘plamlarni birlashtirish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 39,
+          "title": "CTE va oynali funksiyalar bilan hisobot",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "CTE va Oynali funksiya vazifalarini izohlaydi; OVER qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 40,
+          "title": "Amaliy mashg‘ulot — CTE va oynali funksiyalar bilan hisobot",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "CTE va oynali funksiyalar bilan hisobot mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Tranzaksiya indeks view va migratsiya",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 41,
+          "title": "VIEW va triggerdan maqsadli foydalanish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "VIEW va Abstraksiya vazifalarini izohlaydi; Trigger qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 42,
+          "title": "Amaliy mashg‘ulot — VIEW va triggerdan maqsadli foydalanish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "VIEW va triggerdan maqsadli foydalanish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 43,
+          "title": "Tranzaksiya ACID COMMIT va ROLLBACK",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Atomiklik va Izchillik vazifalarini izohlaydi; Izolyatsiya qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 44,
+          "title": "Amaliy mashg‘ulot — Tranzaksiya ACID COMMIT va ROLLBACK",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Tranzaksiya ACID COMMIT va ROLLBACK mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 45,
+          "title": "SAVEPOINT va bir vaqtdagi yozuvlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "SAVEPOINT va ROLLBACK TO vazifalarini izohlaydi; RELEASE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 46,
+          "title": "Amaliy mashg‘ulot — SAVEPOINT va bir vaqtdagi yozuvlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "SAVEPOINT va bir vaqtdagi yozuvlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 47,
+          "title": "Indeks va EXPLAIN QUERY PLAN",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Indeks va Qo‘shma indeks vazifalarini izohlaydi; Reja qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 48,
+          "title": "Amaliy mashg‘ulot — Indeks va EXPLAIN QUERY PLAN",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Indeks va EXPLAIN QUERY PLAN mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 49,
+          "title": "Migratsiya parametrli SQL va sxema versiyasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Migratsiya versiyasi va Boshqarilgan o‘zgarish vazifalarini izohlaydi; Parametr qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 50,
+          "title": "Amaliy mashg‘ulot — Migratsiya parametrli SQL va sxema versiyasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Migratsiya parametrli SQL va sxema versiyasi mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "PostgreSQL boshqaruv huquq va backup",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 51,
+          "title": "PostgreSQL server psql va SQLite bilan farqlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Mijoz server modeli va psql vazifalarini izohlaydi; Ulanish qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 52,
+          "title": "Amaliy mashg‘ulot — PostgreSQL server psql va SQLite bilan farqlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "PostgreSQL server psql va SQLite bilan farqlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 53,
+          "title": "PostgreSQL schema identity va qat’iy turlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Schema va Identity vazifalarini izohlaydi; NUMERIC qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 54,
+          "title": "Amaliy mashg‘ulot — PostgreSQL schema identity va qat’iy turlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "PostgreSQL schema identity va qat’iy turlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 55,
+          "title": "Rollar GRANT REVOKE va eng kam huquq",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Rol va GRANT vazifalarini izohlaydi; REVOKE qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 56,
+          "title": "Amaliy mashg‘ulot — Rollar GRANT REVOKE va eng kam huquq",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Rollar GRANT REVOKE va eng kam huquq mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 57,
+          "title": "MVCC izolyatsiya va blokirovkani kuzatish",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "MVCC va Read Committed vazifalarini izohlaydi; Repeatable Read qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 58,
+          "title": "Amaliy mashg‘ulot — MVCC izolyatsiya va blokirovkani kuzatish",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "MVCC izolyatsiya va blokirovkani kuzatish mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 59,
+          "title": "Zaxira nusxa pg dump va alohida bazaga tiklash",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Mantiqiy backup va Custom format vazifalarini izohlaydi; Tiklash qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 60,
+          "title": "Amaliy mashg‘ulot — Zaxira nusxa pg dump va alohida bazaga tiklash",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Zaxira nusxa pg dump va alohida bazaga tiklash mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Yakuniy kutubxona bazasi loyihasi",
+      "hours": 20,
+      "topics": [
+        {
+          "number": 61,
+          "title": "Yakuniy kutubxona bazasi talablari va ER modeli",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Talab va Qabul mezoni vazifalarini izohlaydi; Tarix qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 62,
+          "title": "Amaliy mashg‘ulot — Yakuniy kutubxona bazasi talablari va ER modeli",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Yakuniy kutubxona bazasi talablari va ER modeli mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 63,
+          "title": "Loyiha sxemasi cheklov va boshlang‘ich ma’lumotlar",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Sxema skripti va Seed vazifalarini izohlaydi; Foreign key tartibi qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 64,
+          "title": "Amaliy mashg‘ulot — Loyiha sxemasi cheklov va boshlang‘ich ma’lumotlar",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Loyiha sxemasi cheklov va boshlang‘ich ma’lumotlar mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 65,
+          "title": "Loyiha hisobotlari qarzdorlik va kitob harakati",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "As of sana va Qarzdorlik vazifalarini izohlaydi; JOIN hisobot qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 66,
+          "title": "Amaliy mashg‘ulot — Loyiha hisobotlari qarzdorlik va kitob harakati",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Loyiha hisobotlari qarzdorlik va kitob harakati mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 67,
+          "title": "Backenddan parametrli so‘rov va baza integratsiyasi",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Driver va Parametrli SELECT vazifalarini izohlaydi; Ulanish hayoti qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 68,
+          "title": "Amaliy mashg‘ulot — Backenddan parametrli so‘rov va baza integratsiyasi",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Backenddan parametrli so‘rov va baza integratsiyasi mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        },
+        {
+          "number": 69,
+          "title": "Loyiha sinovlari zaxiradan tiklash va himoya",
+          "kind": "Nazariy",
+          "hours": 2,
+          "outcome": "Unit sinov va Salbiy sinov vazifalarini izohlaydi; Rollback sinovi qo‘llanishini misolda ajratadi."
+        },
+        {
+          "number": 70,
+          "title": "Amaliy mashg‘ulot — Loyiha sinovlari zaxiradan tiklash va himoya",
+          "kind": "Amaliy",
+          "hours": 2,
+          "outcome": "Loyiha sinovlari zaxiradan tiklash va himoya mavzusi bo‘yicha amaliy natija oladi va uning to‘g‘riligini dalil bilan tekshiradi."
+        }
+      ]
+    }
+  ],
+  "author": "Ubaydullayev Abdukarim",
+  "year": "2026/2027",
+  "status": "Tavsiya etiladigan mualliflik ish rejasi"
+}

@@ -1,0 +1,308 @@
+{
+  "2": [
+    {
+      "id": "0phykyc3iPw",
+      "title": "Kompyuterlar bosib o‘tgan yo‘l Kompyuter evolyutsiyasi",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Kompyuterlarning tarixiy rivojlanishi va avlodlari bilan bog‘liq video. Taqvimdagi tarix qismiga qo‘shimcha tushuntirish.",
+      "task": "Rivojlanishdagi uchta texnologik o‘zgarish va ularning natijasini yozing.",
+      "source": "https://www.youtube.com/watch?v=0phykyc3iPw"
+    }
+  ],
+  "3": [
+    {
+      "id": "eEI2yxnpPQA",
+      "title": "Protsessor tanlash Intel yoki AMD Yadro oqim va L3",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "CPU parametrlari, yadro, oqim va kesh tushunchalariga aloqador video. ALU va registrlar tuzilishi konspektda berilgan.",
+      "task": "Chastota, yadro va kesh ko‘rsatkichlarini ajratib yozing.",
+      "source": "https://www.youtube.com/watch?v=eEI2yxnpPQA"
+    }
+  ],
+  "4": [
+    {
+      "id": "j8bSwQcdHWI",
+      "title": "Ona plata nima Unda nimalar bor",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Ona plataning vazifasi va undagi komponentlarni tanishga oid video.",
+      "task": "CPU soketi, RAM sloti va kengaytirish ulagichini rasmda belgilang.",
+      "source": "https://www.youtube.com/watch?v=j8bSwQcdHWI"
+    }
+  ],
+  "6": [
+    {
+      "id": "qdQ7JtYRQXk",
+      "title": "Protsessor uchun ona plata tanlash",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Konfiguratsiya uchun plata va protsessor tanlash qismiga mos. Boshqa komponentlar mosligini konspekt orqali to‘ldiring.",
+      "task": "Tanlangan CPU va plata mosligini qaysi rasmiy hujjat bilan tekshirishingizni yozing.",
+      "source": "https://www.youtube.com/watch?v=qdQ7JtYRQXk"
+    }
+  ],
+  "7": [
+    {
+      "id": "eEI2yxnpPQA",
+      "title": "Protsessor tanlash va parametrlarini solishtirish",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Konfiguratsiyalarni CPU parametrlari bo‘yicha taqqoslashga yordam beradi. PSU va sovitish mezonlarini konspektdan o‘qing.",
+      "task": "Ikki CPUni taqqoslashda chastotadan tashqari ikki mezon keltiring.",
+      "source": "https://www.youtube.com/watch?v=eEI2yxnpPQA"
+    }
+  ],
+  "8": [
+    {
+      "id": "_OQ7vNnD6gw",
+      "title": "RAM videokarta protsessor va xotira hajmini aniqlash",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Kompyuterning asosiy qurilmalari va xotira hajmini tizimdan aniqlash mashqiga mos.",
+      "task": "O‘quv kompyuteringizning uchta parametrini dalil bilan qayd qiling.",
+      "source": "https://www.youtube.com/watch?v=_OQ7vNnD6gw"
+    }
+  ],
+  "9": [
+    {
+      "id": "6C5TiNwbg-E",
+      "title": "Xotira turlari Operativ xotira vazifasi",
+      "channel": "Buxoro davlat universiteti",
+      "language": "O‘zbekcha",
+      "coverage": "RAM nima ekanligi va uning vazifasi haqida umumiy dars. Chastota va kechikish hisoblarini konspekt bilan davom ettiring.",
+      "task": "RAM va SSD vazifalarini taqqoslang. RAM elektr o‘chganda qanday xususiyatga ega?",
+      "source": "https://www.youtube.com/watch?v=6C5TiNwbg-E"
+    },
+    {
+      "id": "Lrh6TY9Syo8",
+      "title": "Tezkor xotira tanlash DDR3 DDR4 DDR5",
+      "channel": "OTAJON NIKO",
+      "language": "O‘zbekcha",
+      "coverage": "RAM avlodlari va tanlashga oid qo‘shimcha video. Videodagi mahsulot va narx misollarini joriy tavsiya sifatida qabul qilishdan oldin tekshiring.",
+      "task": "Ona plata RAM avlodiga moslikni qanday tekshirishingizni yozing.",
+      "source": "https://www.youtube.com/watch?v=Lrh6TY9Syo8"
+    }
+  ],
+  "10": [
+    {
+      "id": "IRwxRqxmX38",
+      "title": "BIOS nima BIOSga kirish va Boot menu",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "ROM va firmware mavzusining BIOS hamda yuklanish menyusi qismiga aloqador. CPU keshi konspektda alohida yoritilgan.",
+      "task": "Firmware bilan OT vazifasini ajrating. Boot menyusi nima qiladi?",
+      "source": "https://www.youtube.com/watch?v=IRwxRqxmX38"
+    }
+  ],
+  "11": [
+    {
+      "id": "FC_2ljPpeSU",
+      "title": "SSD va HDD farqi nimada",
+      "channel": "Texnoplov",
+      "language": "O‘zbekcha",
+      "coverage": "Saqlash qurilmalarining farqini tushuntiradigan video. NVMe va M.2 tafsilotlarini konspektdan to‘ldiring.",
+      "task": "HDD va SSDni ishlash prinsipi va qo‘llanish vazifasi bo‘yicha taqqoslang.",
+      "source": "https://www.youtube.com/watch?v=FC_2ljPpeSU"
+    }
+  ],
+  "12": [
+    {
+      "id": "c0rHGLKf9ug",
+      "title": "Video karta nima",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "GPU va videokartaning umumiy vazifasiga oid video. Integratsiyalashgan va diskret grafika farqini konspekt bilan solishtiring.",
+      "task": "GPU va CPU vazifalarini ikki misol bilan ajrating.",
+      "source": "https://www.youtube.com/watch?v=c0rHGLKf9ug"
+    }
+  ],
+  "14": [
+    {
+      "id": "hB39fUhx-Zc",
+      "title": "Noutbukga tezkor xotira o‘rnatish DDR3 DDR4 SODIMM",
+      "channel": "SHAXSIY KOMPYUTER",
+      "language": "O‘zbekcha",
+      "coverage": "RAM o‘rnatish qismiga oid amaliy ko‘rsatma. Disk o‘rnatish mavzusi konspektda berilgan. O‘z qurilmangiz uchun ishlab chiqaruvchi yo‘riqnomasini tekshiring.",
+      "task": "Ishni boshlashdan oldingi xavfsizlik va moslik tekshiruvlarini yozing. Amaliy ishni o‘qituvchi nazoratida bajaring.",
+      "source": "https://www.youtube.com/watch?v=hB39fUhx-Zc"
+    }
+  ],
+  "17": [
+    {
+      "id": "hUP3Rle_-88",
+      "title": "Operatsion tizimlar Terminal va CMD",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Foydalanuvchi interfeysi va buyruq qatori qismiga aloqador video. Kernel va user mode tafsilotlarini konspektdan o‘qing.",
+      "task": "Grafik interfeys va buyruq qatori orqali bir xil vazifaga misol keltiring.",
+      "source": "https://www.youtube.com/watch?v=hUP3Rle_-88"
+    }
+  ],
+  "18": [
+    {
+      "id": "Z6RWPikefd4",
+      "title": "Operatsion tizim turlari va farqlari",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "OT oilalari va ularning farqlariga kirish. Windows va Linux taqqoslashini konspekt bilan bog‘lang.",
+      "task": "Windows va Linuxni fayl yo‘llari, dastur o‘rnatish va ruxsatlar bo‘yicha solishtiring.",
+      "source": "https://www.youtube.com/watch?v=Z6RWPikefd4"
+    }
+  ],
+  "20": [
+    {
+      "id": "ArnKGgK8llA",
+      "title": "Fayl va papkalar strukturasi",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Fayl, papka va katalog tuzilmasi qismiga mos. NTFS, FAT32 va exFAT xususiyatlarini konspektdan o‘qing.",
+      "task": "Loyiha uchun katalog daraxti chizing va absolyut hamda nisbiy yo‘l yozing.",
+      "source": "https://www.youtube.com/watch?v=ArnKGgK8llA"
+    }
+  ],
+  "21": [
+    {
+      "id": "WTf9a5uZmS4",
+      "title": "Rufus dasturi bilan fleshkaga Windows yozish",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Yuklanuvchi USB yaratish jarayoniga oid video. ISOni rasmiy manbadan oling va nishon USBni tekshiring.",
+      "task": "USBdagi fayllarni zaxiralash va to‘g‘ri nishonni tanlash ketma-ketligini yozing.",
+      "source": "https://www.youtube.com/watch?v=WTf9a5uZmS4"
+    }
+  ],
+  "22": [
+    {
+      "id": "HDfCbOx8WCk",
+      "title": "Operatsion tizimni kompyuterga o‘rnatish uslublari",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "OT o‘rnatish mavzusiga oid video. Amaliyotni virtual mashina yoki bo‘sh o‘quv diskida bajarish tartibini konspektdan o‘qing.",
+      "task": "O‘rnatishdan oldingi tayyorgarlik va keyingi uchta qabul sinovini yozing.",
+      "source": "https://www.youtube.com/watch?v=HDfCbOx8WCk"
+    }
+  ],
+  "23": [
+    {
+      "id": "doThHawqG8Q",
+      "title": "Drayverlar",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Drayver tushunchasi va qurilmalar bilan ishlashiga oid video. Device Manager orqali tekshirish bosqichlarini konspekt bilan to‘ldiring.",
+      "task": "Drayverning aniq qurilma va OTga mosligi qanday tekshirilishini yozing.",
+      "source": "https://www.youtube.com/watch?v=doThHawqG8Q"
+    }
+  ],
+  "24": [
+    {
+      "id": "IRwxRqxmX38",
+      "title": "BIOS va Boot menyusidan foydalanish",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "BIOSga kirish va yuklanish manbasini tanlash qismiga mos. Virtualizatsiya hamda xavfsizlik sozlamalari konspektda berilgan.",
+      "task": "Bir martalik boot tanlovi va doimiy boot tartibini farqlang.",
+      "source": "https://www.youtube.com/watch?v=IRwxRqxmX38"
+    }
+  ],
+  "26": [
+    {
+      "id": "JmUrKZnG9Kw",
+      "title": "Foydalanuvchilar ularning turlari va ruxsatlari",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Foydalanuvchi hisoblari va ruxsatlar tushunchasiga aloqador dars.",
+      "task": "Standart va administrator hisoblari uchun ikki vazifani ajrating.",
+      "source": "https://www.youtube.com/watch?v=JmUrKZnG9Kw"
+    }
+  ],
+  "27": [
+    {
+      "id": "Z36Tbp_MnIE",
+      "title": "Kompyuter viruslari",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Zararli dasturlar va ulardan himoyalanish mavzusiga kirish. Firewall, yangilanish va zaxira bo‘yicha amaliy bosqichlar konspektda berilgan.",
+      "task": "Antivirus, firewall va zaxiralashning vazifasini alohida yozing.",
+      "source": "https://www.youtube.com/watch?v=Z36Tbp_MnIE"
+    }
+  ],
+  "13": [
+    {
+      "id": "zQRx2wWquLI",
+      "title": "Kompyuterning tashqi qurilmalari",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Kiritish va chiqarish qurilmalari bilan tanishish qismiga mos.",
+      "task": "Besh qurilmani kiritish va chiqarish guruhlariga ajrating.",
+      "source": "https://www.youtube.com/watch?v=zQRx2wWquLI"
+    }
+  ],
+  "15": [
+    {
+      "id": "zQRx2wWquLI",
+      "title": "Kompyuterning tashqi qurilmalari",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Amaliy ish oldidan ulanadigan periferik qurilmalarni tanish uchun. Ularni ulash va sinash bosqichlari konspektda berilgan.",
+      "task": "Har bir qurilmaning vazifasi va ulashdan keyingi sinovini yozing.",
+      "source": "https://www.youtube.com/watch?v=zQRx2wWquLI"
+    }
+  ],
+  "19": [
+    {
+      "id": "T3vqMmBSMoc",
+      "title": "Dispetcher zadach haqida",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Task Manager orqali jarayonlarni kuzatish qismiga aloqador. Oqim, rejalashtirish va sinxronlash konspektda tushuntirilgan.",
+      "task": "Bitta ilovaning jarayonlari va CPU yukini kuzating. Noma’lum tizim jarayonlarini to‘xtatmang.",
+      "source": "https://www.youtube.com/watch?v=T3vqMmBSMoc"
+    }
+  ],
+  "25": [
+    {
+      "id": "T3vqMmBSMoc",
+      "title": "Dispetcher zadach haqida",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Task Manager orqali resurslarni kuzatishga oid. CPU, RAM va disk yukini konspektdagi mezonlar bilan talqin qiling.",
+      "task": "Bo‘sh holat va dastur ochilgan holatdagi resurs yukini solishtiring.",
+      "source": "https://www.youtube.com/watch?v=T3vqMmBSMoc"
+    }
+  ],
+  "28": [
+    {
+      "id": "T3vqMmBSMoc",
+      "title": "Dispetcher zadach haqida",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Diagnostika vositalaridan Task Manager qismiga mos. Event Viewer va Device Manager bosqichlarini konspektdan davom ettiring.",
+      "task": "Bir kuzatuvni dalil, bir taxminni tekshirish rejasi bilan yozing.",
+      "source": "https://www.youtube.com/watch?v=T3vqMmBSMoc"
+    }
+  ],
+  "29": [
+    {
+      "id": "T3vqMmBSMoc",
+      "title": "Dispetcher zadach orqali jarayonlarni ko‘rish",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Dastur sekinlashuvi va resurs yukini tekshirish bosqichiga aloqador. Yuklanish, disk va tarmoq diagnostikasi konspektda berilgan.",
+      "task": "Sekinlashishda qaysi jarayon resurs ishlatayotganini qayd qiling. Dalilsiz yakuniy tashxis yozmang.",
+      "source": "https://www.youtube.com/watch?v=T3vqMmBSMoc"
+    }
+  ],
+  "30": [
+    {
+      "id": "_OQ7vNnD6gw",
+      "title": "Kompyuter xususiyatlarini aniqlash",
+      "channel": "Manba: YouTube",
+      "language": "O‘zbekcha",
+      "coverage": "Kompleks ishning kompyuter konfiguratsiyasini tekshirish bosqichiga mos.",
+      "task": "Yakuniy hisobot uchun CPU, RAM va disk ma’lumotlarini to‘plang.",
+      "source": "https://www.youtube.com/watch?v=_OQ7vNnD6gw"
+    }
+  ]
+}

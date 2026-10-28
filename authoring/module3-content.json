@@ -1,0 +1,1860 @@
+{
+  "lessons": {
+    "1": {
+      "sections": [
+        [
+          "Tarmoq tushunchasi va maqsadi",
+          "Kompyuter tarmog‘i qurilmalar orasida belgilangan qoidalar asosida ma’lumot almashish imkonini beradi. Ulanish simli yoki simsiz bo‘lishi mumkin. Maqsad faqat internetga chiqish emas: lokal fayl, printer, dastur va server xizmatini birga ishlatish ham tarmoq vazifasidir. Internet uzilganda mahalliy tarmoqdagi ayrim xizmatlar ishlashda davom etishi mumkin."
+        ],
+        [
+          "Asosiy komponentlar",
+          "Tugunlar — kompyuter, telefon, server va printer kabi ishtirokchilardir. Adapter ularni uzatish muhitiga ulaydi. Switch mahalliy segmentdagi kadrlarni, router esa tarmoqlar orasidagi paketlarni uzatadi. Access point simsiz mijozlarni tarmoqqa bog‘laydi. Kabel, radioaloqa, protokol, adres va xizmat dasturlari birgalikda ishlaydi. Bir komponent ishlashi qolgan qatlamlar ham sozligini kafolatlamaydi."
+        ],
+        [
+          "Mijoz server va teng huquqli almashuv",
+          "Mijoz xizmat so‘raydi, server esa uni taqdim etadi. Masalan, brauzer lokal web-serverdan sahifa so‘raydi. Server so‘zi ham xizmat dasturini, ham shu xizmatni yuritadigan qurilmani bildirishi mumkin. Teng huquqli modelda qurilmalar resurs taqdim etishi va olishi mumkin. Qaysi model tanlanishi markaziy boshqaruv, foydalanuvchi soni va xavfsizlik talabiga bog‘liq."
+        ],
+        [
+          "Tarmoq resurslari va ruxsatlar",
+          "Umumiy papka, printer, ma’lumotlar bazasi va internet chiqishi resurs hisoblanadi. Ulanish mavjudligi ulardan istalgancha foydalanish huquqini bermaydi. Kim o‘qishi, tahrirlashi yoki boshqarishi aniq belgilanadi. Sinf tarmog‘ida har bir o‘quvchi o‘z vazifasi doirasida ishlaydi. Shaxsiy fayllar ochiq ulashilmaydi, umumiy qurilmada seans yakunlanadi."
+        ],
+        [
+          "Amaliy vaziyat",
+          "Sinfdagi o‘nta kompyuter bir printerdan foydalanadi. Switch lokal aloqani, printer xizmatini esa tegishli qurilma va dastur ta’minlaydi. Internet bo‘lmasa ham to‘g‘ri sozlangan lokal chop etish ishlashi mumkin. Biroq printer o‘chirilgan, ruxsat noto‘g‘ri yoki manzil o‘zgargan bo‘lsa xizmat to‘xtaydi. Muammoni internet yo‘q degan umumiy izoh bilan cheklamasdan kerakli komponent tekshiriladi."
+        ]
+      ],
+      "task": "O‘nta kompyuter va bitta printerli tarmoqda tugun, muhit, xizmat va ruxsatni ajrating. Internet uzilganda qaysi ishlar davom etishi mumkinligini yozing.",
+      "answer": "Lokal ulanish va printer xizmati ishlasa mahalliy chop etish davom etishi mumkin. Tashqi saytlarga chiqish esa tashqi ulanishga bog‘liq. Javobda shartlar alohida ko‘rsatiladi.",
+      "terms": [
+        [
+          "Tugun",
+          "Tarmoqda qatnashuvchi qurilma"
+        ],
+        [
+          "Protokol",
+          "Almashuv qoidalari majmuasi"
+        ],
+        [
+          "Server",
+          "Xizmat taqdim etuvchi dastur yoki qurilma"
+        ],
+        [
+          "Mijoz",
+          "Xizmatdan foydalanuvchi dastur yoki qurilma"
+        ],
+        [
+          "Resurs",
+          "Tarmoq orqali foydalaniladigan imkoniyat"
+        ]
+      ],
+      "questions": [
+        [
+          "Tarmoqning vazifasi faqat internetmi?",
+          "Yo‘q, lokal resurs almashuvi ham bor",
+          "Ha, faqat saytlar",
+          "Ha, faqat brauzer",
+          "Faqat telefon ulash"
+        ],
+        [
+          "Brauzer lokal serverdan sahifa so‘raydi. Brauzerning roli nima?",
+          "Mijoz",
+          "Switch",
+          "Kabel",
+          "Gateway"
+        ],
+        [
+          "Internet uzildi. Lokal printer ishlashi mumkinmi?",
+          "Mahalliy aloqa soz bo‘lsa mumkin",
+          "Hech qachon",
+          "Faqat yangi CPU bilan",
+          "Faqat Wi-Fi nomini almashtirib"
+        ],
+        [
+          "Resursni ko‘rish nimani kafolatlamaydi?",
+          "Tahrirlash ruxsatini",
+          "Tarmoq mavjudligini",
+          "Resurs nomini",
+          "So‘rov imkonini"
+        ],
+        [
+          "Tarmoqni tashkil qilishda nimalar birga kerak?",
+          "Qurilmalar muhit va protokollar",
+          "Faqat kabel rangi",
+          "Faqat ekran hajmi",
+          "Faqat dastur nomi"
+        ]
+      ]
+    },
+    "2": {
+      "sections": [
+        [
+          "Qamrov bo‘yicha tasnif",
+          "PAN, LAN, MAN va WAN tarmoqning qamrovi hamda boshqaruv ko‘lamini tushuntiradi. Bu atamalar uchun har holatda qat’iy bitta kilometr chegarasini qo‘llash to‘g‘ri emas. Texnologiya, tashkilot va xizmat turi ham farq qiladi. Internet ko‘plab alohida tarmoqlarni bog‘lagan tarmoqlar tizimidir; har bir WANni internetning o‘zi deb atash mumkin emas."
+        ],
+        [
+          "PAN va LAN",
+          "PAN foydalanuvchi yaqinidagi shaxsiy qurilmalar aloqasiga misol bo‘ladi, masalan telefon va simsiz quloqchin. LAN sinfxona, ofis yoki bino ichidagi mahalliy aloqa bo‘lib, ko‘pincha bitta tashkilot boshqaradi. LAN simli Ethernet yoki simsiz Wi-Fi bilan qurilishi mumkin. Simsiz bo‘lish global tarmoq degani emas; qamrov va ulanish muhiti turli mezondir."
+        ],
+        [
+          "MAN va WAN",
+          "MAN shahar miqyosidagi obyektlarni, WAN esa uzoq hududlardagi tarmoqlarni bog‘lashga oid atamalardir. Filiallar orasidagi aloqa provayder liniyasi yoki boshqa xizmat orqali tashkil etilishi mumkin. Masofa oshganda kechikish, xizmat narxi, zaxira yo‘l va operator mas’uliyati ahamiyatli bo‘ladi. Internet orqali himoyalangan tunnel WAN xizmatining bir qismi bo‘lishi mumkin, lekin fizik masofani yo‘qotmaydi."
+        ],
+        [
+          "Tezlik va kechikish",
+          "Kanal tezligi vaqt birligidagi uzatish imkoniyati, kechikish esa javobga ketgan vaqtni ifodalaydi. Katta fayl ko‘chirishda o‘tkazuvchanlik, masofaviy interaktiv ishda kechikish muhim bo‘lishi mumkin. Lokal tarmoq har doim barcha WANdan tez degan mutlaq qoida yo‘q. Real natija qurilmalar, yuklama, vosita va xizmat shartlariga bog‘liq."
+        ],
+        [
+          "Tanlash misoli",
+          "Bitta sinfxona uchun LAN, o‘qituvchi telefoni bilan quloqchin uchun PAN misol bo‘ladi. Ikki shahardagi texnikum filiallari aloqasi WANga yaqin vazifadir. Talaba tasnifni qurilma soni bilan emas, qamrov va boshqaruv bilan asoslaydi. Yuzta qurilmali LAN bo‘lishi mumkin, kichik sonli qurilma esa uzoq hududlar orasida ishlashi mumkin."
+        ]
+      ],
+      "task": "PAN, LAN, MAN va WANga bittadan o‘quv misol toping. Qamrov, boshqaruv va xizmat ehtiyojini ko‘rsating.",
+      "answer": "Telefon va quloqchin — PAN, sinf — LAN, shahar obyektlari — MAN, hududlararo filiallar — WAN misoli. Chegaralar aniq kilometr bilan emas, vazifa bilan asoslanadi.",
+      "terms": [
+        [
+          "PAN",
+          "Shaxsiy yaqin qurilmalar tarmog‘i"
+        ],
+        [
+          "LAN",
+          "Mahalliy tarmoq"
+        ],
+        [
+          "MAN",
+          "Shahar miqyosidagi tarmoq"
+        ],
+        [
+          "WAN",
+          "Keng hududlarni bog‘lovchi tarmoq"
+        ],
+        [
+          "Kechikish",
+          "So‘rov va javob orasidagi vaqt"
+        ]
+      ],
+      "questions": [
+        [
+          "Sinfdagi Ethernet tarmog‘i qaysi turga misol?",
+          "LAN",
+          "Faqat WAN",
+          "Faqat PAN",
+          "Faqat MAN"
+        ],
+        [
+          "Telefon va quloqchin aloqasi qaysi turga yaqin?",
+          "PAN",
+          "WAN",
+          "MAN",
+          "Provayder magistrali"
+        ],
+        [
+          "Wi-Fi bo‘lish qamrovning qaysi turini kafolatlaydi?",
+          "Hech birini, bu boshqa mezon",
+          "Doim WAN",
+          "Doim MAN",
+          "Doim global"
+        ],
+        [
+          "Turli shahardagi filiallar aloqasi qaysi turga yaqin?",
+          "WAN",
+          "Faqat PAN",
+          "Faqat bitta segment",
+          "Faqat Bluetooth"
+        ],
+        [
+          "Interaktiv masofaviy ishda qaysi ko‘rsatkich muhim?",
+          "Kechikish",
+          "Faqat kabel rangi",
+          "Faqat qurilmalar nomi",
+          "Faqat SSID uzunligi"
+        ]
+      ]
+    },
+    "3": {
+      "sections": [
+        [
+          "Fizik va mantiqiy topologiya",
+          "Topologiya tugunlar va aloqalarning tuzilishini tasvirlaydi. Fizik topologiya real ulanishni, mantiqiy topologiya esa ma’lumot almashish yo‘lini ko‘rsatadi. Ular har doim bir xil bo‘lavermaydi. Chizmada qurilma nomlari va kabel yoki radioaloqa turi ko‘rsatiladi. Topologiya tanlashda narx, kengaytirish, boshqaruv va nosozlikka chidamlilik hisobga olinadi."
+        ],
+        [
+          "Shina va halqa",
+          "Shinada qurilmalar umumiy aloqa yo‘liga bog‘lanadi. Klassik umumiy kabeldagi uzilish ko‘plab tugunga ta’sir qilishi mumkin. Halqada tugunlar yopiq yo‘l bo‘ylab ulanadi; ma’lumot harakati ishlatilgan texnologiyaga bog‘liq. Oddiy halqadagi bitta uzilish xavfi bilan zaxira halqali yechimlar farqlanadi. Bu modellarni barcha zamonaviy Ethernet tizimlariga bir xil qo‘llash mumkin emas."
+        ],
+        [
+          "Yulduz",
+          "Yulduzda tugunlar markaziy qurilmaga alohida yo‘l bilan ulanadi. Sinf LANida switch markaz bo‘lishi mumkin. Bitta kompyuter kabeli uzilsa odatda shu qurilma aloqasi yo‘qoladi; markaziy switch ishdan chiqsa unga bog‘liq ko‘plab qurilmalar uziladi. Nosozlikni ajratish va yangi tugun qo‘shish qulay, ammo port, kabel va markaziy quvvat rejalashtiriladi."
+        ],
+        [
+          "Daraxt va mesh",
+          "Daraxt iyerarxik tarmoqlarni tasvirlaydi: asosiy va quyi switchlar orasida bog‘lanish mavjud. Yuqori bog‘lanish uzilsa quyi guruhlar tashqi aloqani yo‘qotishi mumkin. Meshda bir nechta muqobil yo‘l bor; to‘liq mesh barcha tugun juftlarini bog‘laydi. n tugunli to‘liq meshda yo‘naltirilmagan bog‘lanishlar n×(n−1)/2 ta. Ko‘p yo‘l boshqaruv va marshrut tanlashni talab qiladi."
+        ],
+        [
+          "Tanlash va xatoga chidamlilik",
+          "Kichik sinf uchun yulduz ko‘pincha sodda yechim bo‘ladi. Ikki xonani iyerarxik switchlar bilan bog‘lash daraxtga misol. Muqobil kabelni shunchaki qo‘shish xavfsizlikni avtomatik oshirmaydi: noto‘g‘ri L2 halqa broadcast bo‘ronini keltirishi mumkin. Zaxira yo‘llar STP yoki tegishli texnologiya bilan boshqariladi. Talaba chizmada bitta komponent buzilsa kimga ta’sir qilishini belgilaydi."
+        ]
+      ],
+      "task": "Besh kompyuterli yulduz chizing. Bitta kabel va markaziy switch buzilishini alohida tahlil qiling. Besh tugunli to‘liq mesh bog‘lanishlarini hisoblang.",
+      "answer": "Kabel xatosi bitta tugunga, markaziy switch xatosi esa barcha bog‘liq tugunga ta’sir qiladi. To‘liq mesh uchun 5×4/2 = 10 bog‘lanish kerak.",
+      "terms": [
+        [
+          "Topologiya",
+          "Tugun va aloqalar tuzilishi"
+        ],
+        [
+          "Yulduz",
+          "Markaziy qurilmaga alohida ulanishlar"
+        ],
+        [
+          "Shina",
+          "Umumiy aloqa yo‘liga ulanish"
+        ],
+        [
+          "Mesh",
+          "Muqobil aloqalari ko‘p tuzilma"
+        ],
+        [
+          "STP",
+          "Ethernetdagi ortiqcha L2 yo‘llarni halqasiz boshqarish mexanizmi"
+        ]
+      ],
+      "questions": [
+        [
+          "Yulduzda bitta PC kabeli uzilsa odatda nima bo‘ladi?",
+          "Shu PC aloqasi yo‘qoladi",
+          "Barcha switchlar buziladi",
+          "Barcha disklar o‘chadi",
+          "Barcha parollar almashadi"
+        ],
+        [
+          "5 tugunli to‘liq meshda nechta bog‘lanish bor?",
+          "10",
+          "5",
+          "20",
+          "25"
+        ],
+        [
+          "Markaziy switch xatosi nimaga ta’sir qiladi?",
+          "Unga bog‘liq tugunlarga",
+          "Faqat bitta faylga",
+          "Faqat printer siyohiga",
+          "Faqat DNS nomiga"
+        ],
+        [
+          "Fizik topologiya nimani ko‘rsatadi?",
+          "Haqiqiy ulanish tuzilishini",
+          "Faqat ilova menyusini",
+          "Faqat IP sonini",
+          "Faqat foydalanuvchi rolini"
+        ],
+        [
+          "Zaxira L2 kabel qo‘shilganda nima hisobga olinadi?",
+          "Halqani boshqarish",
+          "Faqat kabel rangi",
+          "Faqat kompyuter yoshi",
+          "Faqat ekran ruxsati"
+        ]
+      ]
+    },
+    "4": {
+      "sections": [
+        [
+          "Tarmoq adapteri va hub",
+          "Adapter qurilmani tarmoqqa ulaydi; unda ulanish imkoniyati va kanal darajasidagi identifikator mavjud. Hub kelgan signalni boshqa portlarga takrorlaydigan eskiroq umumiy muhit qurilmasidir. Hub manzil jadvali asosida kerakli portni tanlamaydi. Shu sabab hub bilan switch bir xil vazifa bajaradi deb soddalashtirish ma’lumot almashish farqini yashiradi."
+        ],
+        [
+          "Switch",
+          "Oddiy L2 switch kelgan kadrning manba MAC manzilidan port jadvalini o‘rganadi. Manzil ma’lum bo‘lsa kadrni kerakli yo‘nalishga uzatadi. Broadcast va noma’lum manzilga uzatish odatda tegishli VLAN ichidagi boshqa portlarga tarqatilishi mumkin. Switch barcha trafikni doim faqat bitta portga uzatadi degan qoida noto‘g‘ri. Boshqariladigan switch VLAN va boshqa imkoniyatlarga ega bo‘lishi mumkin."
+        ],
+        [
+          "Router va modem",
+          "Router IP tarmoqlarini bog‘laydi va marshrut jadvali bo‘yicha keyingi yo‘lni tanlaydi. Default gateway odatda lokal tarmoqdan tashqariga chiqishdagi router interfeysidir. Modem provayderning tegishli kirish muhiti bilan aloqa o‘rnatadi. Uy qurilmasi bir korpusda router, switch, Wi-Fi AP va modem funksiyalarini birlashtirishi mumkin, lekin bu mantiqiy vazifalar baribir farq qiladi."
+        ],
+        [
+          "Access point va repeater",
+          "Access point simsiz mijozlarni taqsimlash tarmog‘iga ulaydi. AP bo‘lishning o‘zi DHCP yoki internet marshrutlash xizmati borligini anglatmaydi. Repeater signal yoki simsiz qamrovni kengaytirishda qatnashadi. Simsiz takrorlash umumiy radio vaqtidan foydalangani sabab foydali tezlikka ta’sir qilishi mumkin. Kuchli signal ko‘rinishi internetga chiqish ishlashini kafolatlamaydi."
+        ],
+        [
+          "Qurilmani vazifa bilan tanlash",
+          "Bitta segmentda o‘nta PCni bog‘lash uchun yetarli portli switch, boshqa tarmoqqa chiqish uchun router, simsiz ulanish uchun AP kerak bo‘lishi mumkin. Port tezligi, PoE talabi, boshqaruv, quvvat va kengayish zaxirasi tekshiriladi. Qurilma nomidan ko‘ra uning aniq modeli va ishlash rejimi muhim. APga qo‘shimcha DHCPni tasodifiy yoqish mijozlarda qarama-qarshi sozlamalar paydo qilishi mumkin."
+        ]
+      ],
+      "task": "Sinf LANi uchun adapter, switch, router va AP vazifasini jadvalda ajrating. Qaysi qurilmalar bir korpusda bo‘lishi mumkinligini yozing.",
+      "answer": "Switch lokal kadr almashuvini, router tarmoqlararo yo‘lni, AP radio kirishni ta’minlaydi. Bir korpusdagi funksiyalarni alohida tekshirish kerak.",
+      "terms": [
+        [
+          "NIC",
+          "Tarmoq interfeys adapteri"
+        ],
+        [
+          "Hub",
+          "Signalni boshqa portlarga takrorlovchi qurilma"
+        ],
+        [
+          "Switch",
+          "Kanal darajasida kadrlarni portlarga uzatuvchi qurilma"
+        ],
+        [
+          "Router",
+          "IP tarmoqlar orasida paket yo‘naltiruvchi qurilma"
+        ],
+        [
+          "AP",
+          "Simsiz mijozlar uchun kirish nuqtasi"
+        ]
+      ],
+      "questions": [
+        [
+          "Qaysi qurilma odatda IP tarmoqlarini bog‘laydi?",
+          "Router",
+          "Oddiy hub",
+          "Klaviatura",
+          "Monitor"
+        ],
+        [
+          "Hub switchdan qanday farqlanadi?",
+          "MAC jadvali bilan port tanlamaydi",
+          "Har doim kuchliroq shifrlaydi",
+          "Har doim DNS beradi",
+          "Faqat Wi-Fi ishlatadi"
+        ],
+        [
+          "AP mavjudligi nimani kafolatlamaydi?",
+          "Internetga marshrutni",
+          "Radio kirish funksiyasini",
+          "Simsiz mijoz imkonini",
+          "SSID sozlanishini"
+        ],
+        [
+          "Bitta korpusdagi Wi-Fi routerda nima bo‘lishi mumkin?",
+          "Bir nechta mantiqiy funksiya",
+          "Faqat bitta simsiz kabel",
+          "Faqat modem funksiyasi",
+          "Faqat switch nomi"
+        ],
+        [
+          "Oddiy L2 switch jadvalni nimadan o‘rganadi?",
+          "Manba MAC va kirish portidan",
+          "Faqat IP parolidan",
+          "Faqat DNS nomidan",
+          "Faqat fayl hajmidan"
+        ]
+      ]
+    },
+    "5": {
+      "sections": [
+        [
+          "Topshiriq va talablar",
+          "Amaliy ssenariy: bitta xonada sakkiz PC, bitta printer, o‘qituvchi noutbuki va internet chiqishi kerak. Ish simulyator yoki qog‘oz sxemada bajariladi. Dastlab tugunlar soni, ulanish turi, masofa, joylashuv, ruxsat va kengaytirish ehtiyoji aniqlanadi. Real qurilma mavjud bo‘lmasa sxema amalda qurilgan tarmoq deb qayd etilmaydi."
+        ],
+        [
+          "Topologiya va qurilmalar tanlovi",
+          "Yulduz markaziga portlari yetarli switch joylashtiriladi. Sakkiz PC, printer, AP va router uplinki kabi barcha ulanishlar hisoblanadi. Port zaxirasi keyingi kengayishni yengillashtiradi. Simsiz noutbuk uchun AP, tashqi tarmoq uchun router belgilanadi. Birlashtirilgan qurilma ishlatilsa uning qaysi port va funksiyasi nima vazifa bajarishi yoziladi."
+        ],
+        [
+          "Manzil va xizmat rejasi",
+          "O‘quv misolida 192.168.10.0/24 tarmog‘i tanlanadi. Gateway 192.168.10.1, printer uchun oldindan ajratilgan noyob manzil ko‘rsatilishi mumkin. DHCP havzasi statik manzillar bilan to‘qnashmasligi kerak. Har bir tugun nomi, manzil olish usuli va kerakli resurs bilan qayd qilinadi. Internetga chiqish uchun DNS, router yo‘li va provayder xizmati ham kerak bo‘ladi."
+        ],
+        [
+          "Sxemani tekshirish",
+          "Chizmada kompyuterlar, switch, router, AP va printer tushunarli belgilanadi. Simli yo‘llar bilan radio ulanish bir-biridan ajratiladi. Har tugunning markazga yo‘li tekshiriladi. Bitta kabel uzilishi va switch quvvati yo‘qolishi oqibati izohlanadi. Natijada qurilmalar ro‘yxati, port hisobi, IP rejasi va sinov ssenariysi bo‘lishi kerak."
+        ],
+        [
+          "Baholash va hisobot",
+          "Sxema talablarni qamrab olishi, port hisobi yetishi, manzillar noyob va ruxsatlar aniq bo‘lishi tekshiriladi. Simulyatsiya natijasi real fizik kabel sinovining o‘rnini bosmaydi. Bajarilgan ish, taxmin va keyin tekshiriladigan bandlar alohida yoziladi. Foydalanuvchi uchun qulaylik bilan birga kabel tartibi, quvvat va xizmat uzilishi xavfi ham ko‘rsatiladi."
+        ]
+      ],
+      "task": "Ssenariy uchun LAN chizmasi, portlar soni, qurilmalar ro‘yxati va IP rejasini tuzing. Bitta komponent xatosini tahlil qiling.",
+      "answer": "Sakkiz PC, printer, AP va router uchun jami kamida 11 switch ulanishi kerak bo‘lishi mumkin. Birlashtirilgan qurilma yoki ulanish arxitekturasi tanlansa hisob qayta asoslanadi.",
+      "terms": [
+        [
+          "Sxema",
+          "Tarmoqning hujjatlashtirilgan chizmasi"
+        ],
+        [
+          "Uplink",
+          "Yuqori yoki boshqa tarmoq qurilmasiga ulanish"
+        ],
+        [
+          "IP rejasi",
+          "Manzillar va xizmat parametrlarini taqsimlash hujjati"
+        ],
+        [
+          "Port zaxirasi",
+          "Kelajak ulanishlari uchun bo‘sh imkoniyat"
+        ],
+        [
+          "Simulyatsiya",
+          "Model muhitida tekshirish"
+        ]
+      ],
+      "questions": [
+        [
+          "Sxema nimadan boshlanadi?",
+          "Talablarni aniqlashdan",
+          "Darhol kabel sotib olishdan",
+          "Faqat fon tanlashdan",
+          "IPni tasodifiy yozishdan"
+        ],
+        [
+          "8 PC printer AP va router uplinki uchun nechta ulanish kerak?",
+          "11",
+          "8",
+          "9",
+          "4"
+        ],
+        [
+          "Statik printer manzili DHCP havzasi bilan qanday bog‘lanadi?",
+          "To‘qnashmaydigan qilib ajratiladi",
+          "Barcha mijozga aynan shu IP beriladi",
+          "Gateway bilan bir xil qilinadi",
+          "DNS o‘rniga yoziladi"
+        ],
+        [
+          "Simulyatsiya natijasi nimani kafolatlamaydi?",
+          "Fizik kabelning sozligini",
+          "Modeldagi ulanishni",
+          "Sxema mavjudligini",
+          "Manzil rejasini"
+        ],
+        [
+          "Port zaxirasi nima uchun kerak?",
+          "Kelajakdagi kengayish uchun",
+          "Faqat logotip uchun",
+          "Faqat printer rangi uchun",
+          "Faqat ekran o‘lchami uchun"
+        ]
+      ]
+    },
+    "6": {
+      "sections": [
+        [
+          "Qatlamli modelning maqsadi",
+          "OSI modeli tarmoq vazifalarini yettita qatlamga ajratib tushuntiradigan tayanch modeldir. U real internetning har bir dasturini yettita mustaqil paketga bo‘ladi degani emas. Model protokol vazifalarini farqlash, qurilmalar o‘rnini tushunish va nosozlikni tartib bilan izlashga yordam beradi. Bir xizmat bir nechta qatlam imkoniyatidan birga foydalanadi."
+        ],
+        [
+          "Fizik kanal va tarmoq qatlamlari",
+          "Fizik qatlam signal, ulagich va uzatish muhitiga tegishli. Kanal qatlamida lokal bog‘lanishdagi kadrlar va MAC manzillar bilan ishlanadi. Tarmoq qatlamida IP adreslash hamda tarmoqlararo yo‘naltirish tushuntiriladi. Kabel chirog‘i yonishi fizik ulanishga dalil bo‘lishi mumkin, lekin IP sozlamasi yoki internet xizmati ishlashini o‘zi tasdiqlamaydi."
+        ],
+        [
+          "Transport va yuqori qatlamlar",
+          "Transport vazifalari ilova jarayonlari o‘rtasidagi almashuvga tegishli, TCP va UDP bunga misol. Seans muloqotni tashkil qilish, taqdimot ma’lumot ko‘rinishini moslashtirish, amaliy qatlam esa dastur xizmatlari bilan bog‘lanadi. Zamonaviy protokollarda yuqori qatlam vazifalari ko‘pincha birga amalga oshiriladi. HTTPSni faqat bitta oddiy qatlam yorlig‘iga tiqishdan ko‘ra HTTP va TLS vazifalarini ajratish foydaliroq."
+        ],
+        [
+          "Kapsullash va qabul qilish",
+          "Yuboruvchi ilova ma’lumoti transport va tarmoq xizmatlari orqali uzatiladi, lokal muhitda esa kadrga joylanadi. Har bir sarlavha tegishli bosqichga kerakli boshqaruv axborotini qo‘shadi. Qabul tomonda ma’lumot teskari tartibda talqin qilinadi. Kadr, IP paket va TCP segment turli darajadagi birliklardir; ularni barcha holatda sinonim ishlatish aniq tahlilga xalaqit beradi."
+        ],
+        [
+          "Nosozlikni qatlam bilan izlash",
+          "Sayt ochilmasa kabel yoki Wi-Fi ulanishi, IP va gateway, DNS, keyin xizmatning o‘zi tekshiriladi. Lokal aloqa borligida DNS xatosini kabelni qayta-qayta almashtirish bilan tuzatish kutilmaydi. Qatlamli yondashuv taxminlarni kichik sinovlarga ajratadi. Bitta muvaffaqiyatli ping barcha amaliy xizmatlar va ruxsatlar to‘g‘ri ekanini isbotlamaydi."
+        ]
+      ],
+      "task": "Sayt ochilmayotgan vaziyat uchun fizik ulanishdan dastur xizmatigacha beshta tekshiruv yozing. Har tekshiruv qaysi vazifani ajratishini ayting.",
+      "answer": "Kabel yoki SSID, IP/maska, gatewayga ulanish, DNS yechilishi va HTTPS xizmati tartib bilan ko‘riladi. Bir bosqich natijasi keyingi bosqichni tekshirishga yo‘l ko‘rsatadi.",
+      "terms": [
+        [
+          "OSI",
+          "Tarmoq vazifalarini yetti qatlamga ajratuvchi tayanch model"
+        ],
+        [
+          "Kadr",
+          "Kanal darajasidagi ma’lumot birligi"
+        ],
+        [
+          "Paket",
+          "Tarmoq darajasidagi ma’lumot birligi"
+        ],
+        [
+          "Segment",
+          "TCP transportidagi ma’lumot birligi"
+        ],
+        [
+          "Kapsullash",
+          "Ma’lumotga tegishli protokol boshqaruv axborotini qo‘shish"
+        ]
+      ],
+      "questions": [
+        [
+          "OSI modelida nechta qatlam bor?",
+          "7",
+          "4",
+          "3",
+          "10"
+        ],
+        [
+          "MAC va lokal kadrlar qaysi qatlamga tegishli?",
+          "Kanal",
+          "Faqat amaliy",
+          "Faqat seans",
+          "Faqat taqdimot"
+        ],
+        [
+          "IP marshrutlash qaysi qatlam bilan bog‘liq?",
+          "Tarmoq",
+          "Fizik",
+          "Seans",
+          "Taqdimot"
+        ],
+        [
+          "Kabel chirog‘i yonishi nimani kafolatlamaydi?",
+          "DNS va sayt ishlashini",
+          "Fizik ulanish belgisini",
+          "Portning elektr faolligini",
+          "Signal borligini"
+        ],
+        [
+          "Kapsullash nima qiladi?",
+          "Boshqaruv axborotini qo‘shadi",
+          "Faylni o‘chiradi",
+          "IPni parolga aylantiradi",
+          "Kabelni qisqartiradi"
+        ]
+      ]
+    },
+    "7": {
+      "sections": [
+        [
+          "TCP/IP va OSI aloqasi",
+          "TCP/IP modeli internet protokollari vazifalarini odatda kanalga kirish, internet, transport va amaliy darajalarda tushuntiradi. Ba’zi darsliklarda fizik daraja alohida olinib besh qatlamli ko‘rinish beriladi. Bu farq modelning taqdim etilishidir. OSI bilan moslashtirganda yuqori uch qatlam vazifalari TCP/IP amaliy qismida birlashishi mumkin. Model protokolning haqiqiy xizmatini tushunishga yordam beradi."
+        ],
+        [
+          "Ethernet IP va ARP",
+          "Ethernet lokal tarmoqdagi kadr almashish qoidalarini belgilaydi. IP paketlarni adreslash va tarmoqlar orasida yetkazishda qatnashadi. IPv4 lokal segmentida kerakli IP yoki next-hopning MAC manzilini topish uchun ARP ishlatiladi. Masofadagi serverga ketayotgan paketning lokal kadr manzili odatda gateway MAC manzili bo‘ladi. Har bir routerda kanal sarlavhasi keyingi bog‘lanishga mos qayta tuziladi."
+        ],
+        [
+          "TCP va UDP",
+          "TCP tartibli, ishonchli bayt oqimini, qayta uzatish va oqim boshqaruvini taqdim etadi. UDP datagrammalarni ulanish o‘rnatmasdan uzatadi, o‘zi yetkazish va tartibni kafolatlamaydi. Bu UDPdan foydalangan dastur hech qachon ishonchlilik qo‘sha olmaydi degani emas. Ilova vazifasiga qarab o‘z nazorat mexanizmini qo‘llashi mumkin. Kechikish, yo‘qotish va protokol xarajati birga baholanadi."
+        ],
+        [
+          "HTTP HTTPS DNS va DHCP",
+          "HTTP web so‘rov va javoblari uchun ishlatiladi, HTTPS esa HTTP almashuvini TLS bilan himoyalaydi. DNS nomlar uchun turli resurs yozuvlarini topishga, DHCP mijozga tarmoq parametrlarini berishga xizmat qiladi. DNS IPni avtomatik taqsimlamaydi, DHCP esa domen mazmunini topib bermaydi. Har xizmat transport, port va xavfsizlik talabi bilan alohida ko‘riladi."
+        ],
+        [
+          "Port va xizmatlar",
+          "Port raqami bitta hostdagi tegishli transport yakun nuqtasini farqlashga yordam beradi. Odatdagi xizmatlarda DNS 53, HTTP 80, HTTPS 443 porti uchraydi, lekin dastur boshqa portda ham sozlanishi mumkin. HTTPSning hamma versiyasi faqat TCPga bog‘liq emas: HTTP/3 QUIC orqali UDP ustida ishlaydi. Port ochiqligi xizmatning ishonchli yoki to‘g‘ri sozlanganini o‘zi isbotlamaydi."
+        ]
+      ],
+      "task": "Brauzerda sayt ochishda DNS, IP, transport va HTTPS vazifalarini ajrating. DHCP bu jarayondan oldin nima berishini yozing.",
+      "answer": "DHCP tarmoq parametrlarini beradi. DNS nom uchun yozuv topadi, IP yo‘naltirishni, transport almashuvni, HTTPS esa web muloqotini himoyalangan shaklda tashkil etadi.",
+      "terms": [
+        [
+          "TCP",
+          "Ishonchli tartibli bayt oqimi transporti"
+        ],
+        [
+          "UDP",
+          "Datagrammalarni kafolatsiz uzatuvchi transport"
+        ],
+        [
+          "HTTP",
+          "Web so‘rov javob protokoli"
+        ],
+        [
+          "TLS",
+          "Aloqani kriptografik himoyalash protokoli"
+        ],
+        [
+          "Port",
+          "Transport yakun nuqtasining raqamli belgisi"
+        ]
+      ],
+      "questions": [
+        [
+          "IP va DHCP qanday farq qiladi?",
+          "IP adreslaydi, DHCP parametr beradi",
+          "Ikkalasi faqat sayt ochadi",
+          "DHCP kabel uzatadi",
+          "IP faqat parol saqlaydi"
+        ],
+        [
+          "TCP nimani taqdim etadi?",
+          "Tartibli ishonchli bayt oqimi",
+          "Faqat elektr signal",
+          "Faqat domen ro‘yxati",
+          "Faqat radio kanal"
+        ],
+        [
+          "UDPning o‘zi nimani kafolatlamaydi?",
+          "Yetkazish va tartibni",
+          "Datagramma uzatish imkonini",
+          "Port mavjudligini",
+          "Sarlavha bo‘lishini"
+        ],
+        [
+          "HTTPSdagi himoya qaysi protokol bilan bog‘liq?",
+          "TLS",
+          "ARP",
+          "DHCP",
+          "ICMP"
+        ],
+        [
+          "DNSning odatdagi porti qaysi?",
+          "53",
+          "67",
+          "80",
+          "443"
+        ]
+      ]
+    },
+    "8": {
+      "sections": [
+        [
+          "IPv4 yozilishi va manzil vazifasi",
+          "IPv4 manzil 32 bitdan iborat bo‘lib, odatda nuqta bilan ajratilgan to‘rtta 0–255 oralig‘idagi son ko‘rinishida yoziladi. Manzil hostning tarmoq interfeysiga tegishli bo‘ladi. U universal inson identifikatori emas: bir qurilmada bir nechta interfeys va manzil bo‘lishi mumkin. IPning yolg‘iz o‘zi tarmoq chegarasini to‘liq belgilamaydi, maska yoki prefiks ham kerak."
+        ],
+        [
+          "Maska va prefiks",
+          "Subnet maska tarmoq va host bitlarini ajratadi. /24 prefiks 24 ta tarmoq biti va 8 ta host biti borligini bildiradi; unga 255.255.255.0 mos keladi. Tarmoq manzili IP va maskaning bitli AND amali bilan olinadi. Masalan, 192.168.10.25/24 tarmog‘i 192.168.10.0/24. Shu oddiy subnetda hostlar .1–.254, broadcast .255 bo‘ladi."
+        ],
+        [
+          "Private public va maxsus adreslar",
+          "RFC 1918 private bloklari 10.0.0.0/8, 172.16.0.0/12 va 192.168.0.0/16. Ular alohida ichki tarmoqlarda takror ishlatilishi mumkin, global internetda bevosita yo‘naltirilmaydi. Public adreslar global marshrutlash uchun ajratilishi mumkin, lekin har private bo‘lmagan IP avtomatik oddiy public host adresi emas: loopback, link-local va boshqa maxsus bloklar ham bor. 127.0.0.1 loopback misolidir."
+        ],
+        [
+          "Gateway va mahalliy qaror",
+          "Host manzil va maska orqali nishon o‘z subnetidami aniqlaydi. Mahalliy nishonga lokal yo‘l, boshqa subnetga esa marshrut jadvali va odatda default gateway ishlatiladi. Gateway manzili hostning bevosita yetadigan subnetida bo‘lishi kerak. DNS nom yechishga xizmat qiladi va gateway bilan bir xil tushuncha emas. Ularning son qiymati bir qurilmada teng bo‘lishi vazifalarni birlashtirmaydi."
+        ],
+        [
+          "Subnet hisobini qo‘llash",
+          "Oddiy ko‘p hostli IPv4 subnetda foydalaniladigan hostlar ko‘pincha 2^h−2 formula bilan hisoblanadi; /31 va /32 kabi maxsus holatlar bundan farq qiladi. /26 prefiksda 6 host biti, 64 adres va odatdagi LAN uchun 62 host joyi bor. 192.168.10.64/26 misolida broadcast .127, odatdagi host oralig‘i .65–.126. Hisob bitlar yoki blok chegaralari bilan tekshiriladi."
+        ]
+      ],
+      "task": "192.168.10.70/26 uchun tarmoq, broadcast va host oralig‘ini toping. 192.168.10.130 shu subnetdami?",
+      "answer": "Tarmoq 192.168.10.64, broadcast 192.168.10.127, hostlar .65–.126. .130 boshqa /26 blokda, shuning uchun bu subnetga kirmaydi.",
+      "terms": [
+        [
+          "IPv4",
+          "32 bitli IP adreslash versiyasi"
+        ],
+        [
+          "Subnet maska",
+          "Tarmoq va host bitlarini ajratuvchi niqob"
+        ],
+        [
+          "Prefiks",
+          "Tarmoq bitlari soni"
+        ],
+        [
+          "Broadcast",
+          "Subnetdagi barcha tugunlarga mo‘ljallangan adres turi"
+        ],
+        [
+          "Gateway",
+          "Boshqa tarmoqqa chiqishdagi yo‘naltiruvchi interfeys"
+        ]
+      ],
+      "questions": [
+        [
+          "/24 qaysi maskaga mos?",
+          "255.255.255.0",
+          "255.255.0.0",
+          "255.0.0.0",
+          "255.255.255.252"
+        ],
+        [
+          "192.168.10.70/26 tarmoq manzili qaysi?",
+          "192.168.10.64",
+          "192.168.10.0",
+          "192.168.10.70",
+          "192.168.10.127"
+        ],
+        [
+          "Private blok qaysi?",
+          "172.16.0.0/12",
+          "172.0.0.0/8",
+          "8.8.8.0/24",
+          "127.0.0.0/8"
+        ],
+        [
+          "Oddiy /26 subnetda nechta host manzili bor?",
+          "62",
+          "64",
+          "26",
+          "254"
+        ],
+        [
+          "Gatewayning vazifasi nima?",
+          "Boshqa tarmoqqa yo‘l",
+          "Faqat nom yechish",
+          "Faqat MAC yorlig‘i",
+          "Faqat printer xotirasi"
+        ]
+      ]
+    },
+    "9": {
+      "sections": [
+        [
+          "Amaliy muhit va boshlang‘ich holat",
+          "Sozlash o‘qituvchi ajratgan lokal o‘quv tarmog‘i yoki simulyatorda bajariladi. Ishchi tarmoq parametrlari ruxsatsiz o‘zgartirilmaydi. Avval DHCP yoki statik rejim, joriy IP, maska, gateway va DNS qayd qilinadi. Masofadan ulanib turilgan kompyuterda IPni almashtirish aloqa uzilishiga olib kelishi mumkin. Qaytish rejasi oldindan belgilanadi."
+        ],
+        [
+          "Adres rejasini tayyorlash",
+          "Misolda gateway 192.168.50.1/24, PC1 .10, PC2 .11 bo‘ladi. Statik manzillar boshqalarga ajratilmagan va DHCP havzasi bilan to‘qnashmaydigan bo‘lishi kerak. .0 tarmoq va .255 broadcast manzili oddiy /24 hostga berilmaydi. DNS uchun faqat o‘quv rejasida belgilangan resolver tanlanadi; tasodifiy tashqi server tashkilot talabiga zid bo‘lishi mumkin."
+        ],
+        [
+          "Parametrlarni kiritish",
+          "Windowsning adapter IPv4 sozlamasida IP, maska, gateway va DNS tegishli maydonlarga yoziladi. Linuxda ishlatilayotgan tarmoq boshqaruv vositasiga mos usul tanlanadi; menyu distributivga qarab farq qiladi. Parametrlarni kiritgach saqlash va tarmoq holati tekshiriladi. Qurilma nomi yoki MAC asosida kerakli interfeys tanlanadi, Ethernet bilan Wi-Fi sozlamasi adashtirilmaydi."
+        ],
+        [
+          "Bosqichli tekshirish",
+          "Windowsda ipconfig /all, Linuxda ip addr va ip route yordamida amaldagi holat ko‘riladi. So‘ng o‘quvdagi boshqa host va gatewayga ping sinovi bajariladi. DNS uchun nslookup ishlatilishi mumkin. Ping javobi bloklangan bo‘lsa boshqa ruxsat etilgan funksional xizmat sinovi tanlanadi. DNS so‘rovi ishlashi barcha tashqi sayt ochilishini kafolatlamaydi."
+        ],
+        [
+          "Tiklash va hisobot",
+          "Sinov tugagach boshlang‘ich konfiguratsiya yoki o‘qituvchi belgilagan DHCP rejimi qaytariladi. Hisobotda oldingi parametr, yangi parametr, maqsad, sinov va natija yoziladi. Tashqi IP, hisob va maxfiy tarmoq tafsilotlari ochiq tarqatilmaydi. Muvaffaqiyat IP kiritilgani emas, kerakli xizmat ishlagani va avvalgi xavfsiz holatga qaytish tekshirilganidir."
+        ]
+      ],
+      "task": "Ajratilgan muhitda ikki hostni bir /24 subnetga sozlang. IP ko‘rsatish, o‘zaro ulanish va DNS sinovi natijasini qayd qiling.",
+      "answer": "PC1 .10 va PC2 .11 noyob bo‘ladi, maskalari bir xil. Lokal aloqa sinovdan o‘tadi; tashqi xizmat talab qilinsa to‘g‘ri gateway va DNS alohida tekshiriladi.",
+      "terms": [
+        [
+          "Statik IP",
+          "Qo‘lda yoki belgilangan tartibda ajratilgan manzil"
+        ],
+        [
+          "DNS resolver",
+          "Nomlar bo‘yicha javob topuvchi xizmat"
+        ],
+        [
+          "Interfeys",
+          "Tarmoqqa ulanishning mantiqiy yoki fizik nuqtasi"
+        ],
+        [
+          "IP to‘qnashuvi",
+          "Bir subnetda bir manzilning nomaqbul takrorlanishi"
+        ],
+        [
+          "DHCP havzasi",
+          "Server mijozlarga beradigan manzillar to‘plami"
+        ]
+      ],
+      "questions": [
+        [
+          "Sozlashdan oldin nima qayd qilinadi?",
+          "Boshlang‘ich parametrlar",
+          "Faqat fon rasmi",
+          "Faqat klaviatura turi",
+          "Faqat monitor soni"
+        ],
+        [
+          "Oddiy /24da hostga qaysi adres berilmaydi?",
+          "Broadcast .255",
+          "Bo‘sh .10",
+          "Bo‘sh .11",
+          "Bo‘sh .20"
+        ],
+        [
+          "IP to‘qnashuvi nima?",
+          "Bir manzilning takror berilishi",
+          "Ikki xil DNS nomi",
+          "Bitta kabel kategoriyasi",
+          "Ikki alohida subnet"
+        ],
+        [
+          "Gateway va DNS bir xil vazifami?",
+          "Yo‘q, yo‘naltirish va nom yechish farqli",
+          "Ha, ikkalasi parol",
+          "Ha, ikkalasi kabel",
+          "Ha, faqat printer"
+        ],
+        [
+          "Mashg‘ulot oxirida nima tekshiriladi?",
+          "Konfiguratsiya qaytarilgani",
+          "Parol ommaga berilgani",
+          "Firewall o‘chirilgani",
+          "Barcha hisob o‘chirilgani"
+        ]
+      ]
+    },
+    "10": {
+      "sections": [
+        [
+          "Tekshiruv vositalarining vazifasi",
+          "ping, adres ko‘rsatish va yo‘l kuzatish turli savollarga javob beradi. ping odatda ICMP echo so‘rovi va javobi orqali yetib borish hamda round-trip vaqtini ko‘rsatadi. Bu TCP yoki HTTPS xizmati ishlashining to‘liq sinovi emas. Vositalar faqat ajratilgan o‘quv tugunlari va ruxsat etilgan manzillarda ishlatiladi; umumiy tarmoqni ommaviy skanerlash talab qilinmaydi."
+        ],
+        [
+          "Mahalliy parametrlarni ko‘rish",
+          "Windowsda ipconfig /all adapter manzillari, maska, gateway va DNS kabi ma’lumotlarni ko‘rsatadi. Linuxda zamonaviy tizimlarda ip addr va ip route qulay; ifconfig eski yoki alohida paket bo‘lishi mumkin. Bir nechta adapter mavjud bo‘lsa qaysi biri vazifada qatnashayotgani aniqlanadi. Virtual adapter manzili fizik Ethernet manzili deb yozilmaydi."
+        ],
+        [
+          "Ping ketma-ketligi",
+          "Avval kerakli interfeysning sozlamasi, so‘ng o‘quv hosti, gateway va kerak bo‘lsa ruxsat etilgan tashqi nishon tekshiriladi. ping -n 4 <o‘quv_IP> Windowsda to‘rtta so‘rov yuboradi. Yo‘qotish va vaqt yoziladi. Javob yo‘qligi kabel uzilganini yakka o‘zi isbotlamaydi: firewall, ICMP siyosati, noto‘g‘ri manzil yoki yo‘l muammosi ham bo‘lishi mumkin."
+        ],
+        [
+          "Yo‘l kuzatish",
+          "tracert <nishon> Windowsda, traceroute esa ko‘plab Linux muhitlarida oraliq marshrutlash bosqichlari haqida ma’lumot beradi. Ular TTL kamayishi va javob xabarlaridan foydalanadi. Yulduzcha javob ko‘rinmaganini bildiradi; keyingi bosqich javob bersa bu nuqtada barcha trafik uzilgan degani emas. Oraliq qurilma javoblarni cheklashi mumkin. Yo‘l vaqt davomida o‘zgarishi ham mumkin."
+        ],
+        [
+          "Dalil va xulosa",
+          "Jadvalga vaqt, buyruq, nishon, natija, ehtimoliy sabab va keyingi tekshiruv yoziladi. Bir xil test o‘zgarishdan oldin va keyin takrorlanadi. DNS nomi bilan xato, IP bilan muvaffaqiyat kuzatilsa nom yechish alohida tekshiriladi. Buyruq chiqishidagi shaxsiy yoki tashkilotga oid manzillar ommaga chiqarilmaydi. Tashxis bir-birini to‘ldiruvchi dalillarga tayanadi."
+        ]
+      ],
+      "task": "Ruxsat etilgan ikki lokal manzilda ping sinovi bajaring. Bitta ruxsat etilgan nishonga tracert natijasini yozib, yulduzchalar nimani anglatishini izohlang.",
+      "answer": "Ping yetib borish haqida cheklangan dalil beradi. Tracertdagi yulduzcha oraliq javob kelmaganini bildiradi; yakuniy nishon natijasi va xizmat sinovi bilan solishtiriladi.",
+      "terms": [
+        [
+          "ICMP",
+          "Tarmoq boshqaruv xabarlari protokoli"
+        ],
+        [
+          "RTT",
+          "So‘rov va javobning borib qaytish vaqti"
+        ],
+        [
+          "TTL",
+          "Paketning tarmoqda cheksiz aylanishini cheklovchi qiymat"
+        ],
+        [
+          "Traceroute",
+          "Oraliq yo‘l bosqichlarini kuzatish vositasi"
+        ],
+        [
+          "Packet loss",
+          "Yo‘qolgan yoki javobi olinmagan paketlar ulushi"
+        ]
+      ],
+      "questions": [
+        [
+          "Ping muvaffaqiyati nimani kafolatlamaydi?",
+          "HTTPS xizmatini",
+          "Echo javobi kelganini",
+          "Nishonga ayrim aloqa borligini",
+          "RTT o‘lchanganini"
+        ],
+        [
+          "Tracertdagi yulduzcha nimani bildiradi?",
+          "Oraliq javob olinmaganini",
+          "Disk o‘chganini",
+          "DNS doim buzilganini",
+          "Har doim kabel uzilganini"
+        ],
+        [
+          "Linuxda interfeyslarni ko‘rish vositasi qaysi?",
+          "ip addr",
+          "format",
+          "notepad",
+          "shutdown"
+        ],
+        [
+          "Bir nechta adapter bo‘lsa nima aniqlanadi?",
+          "Vazifadagi haqiqiy interfeys",
+          "Faqat ekran foni",
+          "Faqat fayl nomi",
+          "Faqat printer markasi"
+        ],
+        [
+          "Oldin va keyingi test nega bir xil bo‘ladi?",
+          "O‘zgarish samarasini solishtirish uchun",
+          "Faqat vaqt o‘tkazish uchun",
+          "Parol topish uchun",
+          "Tarmoqni yashirish uchun"
+        ]
+      ]
+    },
+    "11": {
+      "sections": [
+        [
+          "Ethernet tushunchasi",
+          "Ethernet lokal tarmoqdagi kadr almashish texnologiyalari oilasidir. U faqat bitta kabel tezligi yoki ulagich nomi emas. Zamonaviy switchli to‘liq dupleks ulanishlarda qurilmalar alohida bog‘lanish orqali bir vaqtda yuborib qabul qilishi mumkin. Eski umumiy muhitdagi collision tushunchasini barcha zamonaviy Ethernet aloqalariga bir xil tatbiq etish noto‘g‘ri."
+        ],
+        [
+          "UTP juftliklar va ulagich",
+          "UTP kabelda izolyatsiyalangan simlar juft qilib o‘ralgan. O‘ralish elektromagnit xalaqit ta’sirini kamaytirishga xizmat qiladi. Oddiy Ethernet patch-kabelida to‘rtta juftlik va amalda RJ-45 deb ataladigan 8P8C ulagich uchraydi. Juftliklarni ajratib yuborish yoki haddan ortiq yechish signal sifatini yomonlashtiradi. Kabelni elektr simiga parallel noto‘g‘ri joylashtirish ham xalaqitni oshirishi mumkin."
+        ],
+        [
+          "Kategoriya va ulanish sifati",
+          "Cat5e va Cat6 kabi kategoriyalar kabelning belgilangan elektr ishlash talablariga tegishli. Cat5e bilan odatdagi 1 Gbit/s Ethernet kanali uchun 100 metrgacha umumiy kanal loyihasi keng qo‘llanadi, lekin tezlik kabelning o‘zi bilangina belgilanmaydi. Port, ulagich, uzunlik, montaj va muhit ham mos bo‘lishi kerak. Cat6 yozuvi har qanday masofada istalgan tezlikni kafolatlamaydi."
+        ],
+        [
+          "Tezlik va haqiqiy uzatish",
+          "Portdagi 1 Gbit/s link tezligi fayl ko‘chirishda doim 125 MB/s chiqadi degani emas. Kadr va protokol xarajati, disk, CPU va boshqa yuklar foydali natijani kamaytiradi. 100 Mbit/s bilan 100 MB/s orasida sakkiz baravar birlik farqi mavjud. Linkning kutilmagan past tezligi kabel juftligi yoki port rejimi muammosini tekshirishga sabab bo‘lishi mumkin, lekin bitta belgi yetarli tashxis emas."
+        ],
+        [
+          "Uzatish muhitini tanlash",
+          "Mis kabel qulay va keng tarqalgan, optik tola esa uzunroq masofa, elektromagnit xalaqitga chidamlilik va tegishli katta tezlik talablarida ishlatiladi. Optik modul, tola turi va ulagich mosligi tekshiriladi. PoE elektr quvvatini mos tarmoq kabeli orqali yetkazishi mumkin; barcha port va qurilmalar bir xil PoE talabiga ega emas. Ishlab chiqaruvchi talabi va kabel standarti asos bo‘ladi."
+        ]
+      ],
+      "task": "1 Gbit/s kanalning nazariy bayt tezligini hisoblang. Cat yozuvi bor kabel nega yakka o‘zi haqiqiy tezlikni kafolatlamasligini izohlang.",
+      "answer": "1 milliard bit/s ÷ 8 = 125 million bayt/s. Bu xom nazariy qiymat; foydali tezlik protokol va qurilma cheklovlariga bog‘liq.",
+      "terms": [
+        [
+          "Ethernet",
+          "Lokal kadr almashish texnologiyalari oilasi"
+        ],
+        [
+          "UTP",
+          "Ekranlanmagan o‘ralgan juftlik kabel"
+        ],
+        [
+          "8P8C",
+          "Sakkiz pozitsiya va kontaktli ulagich shakli"
+        ],
+        [
+          "Full duplex",
+          "Bir vaqtda ikki yo‘nalishda almashuv"
+        ],
+        [
+          "PoE",
+          "Tarmoq kabeli orqali mos qurilmaga quvvat uzatish"
+        ]
+      ],
+      "questions": [
+        [
+          "1 Gbit/s nazariy necha MB/s?",
+          "125",
+          "1000",
+          "8",
+          "1"
+        ],
+        [
+          "UTPda simlar nega juft o‘raladi?",
+          "Xalaqit ta’sirini kamaytirish uchun",
+          "Faqat rang ajratish uchun",
+          "Faqat kabelni og‘ir qilish uchun",
+          "Faqat parol saqlash uchun"
+        ],
+        [
+          "Cat yozuvi nimani yakka o‘zi kafolatlamaydi?",
+          "Haqiqiy fayl uzatish tezligini",
+          "Kategoriya belgisini",
+          "Elektr talablar sinfini",
+          "Kabel turiga ishorani"
+        ],
+        [
+          "Full duplex qanday almashuv?",
+          "Bir vaqtda ikki yo‘nalish",
+          "Faqat navbat bilan",
+          "Faqat radio orqali",
+          "Faqat bitta fayl"
+        ],
+        [
+          "Optik tola qaysi sharoitda foydali?",
+          "Masofa va xalaqit talabi yuqorida",
+          "Faqat klaviatura uchun",
+          "Faqat printer siyohida",
+          "Faqat disk bo‘limida"
+        ]
+      ]
+    },
+    "12": {
+      "sections": [
+        [
+          "Switchning kadr bilan ishlashi",
+          "L2 switch manba MAC manzilini kirish porti bilan bog‘lab o‘rganadi. Belgilangan MAC ma’lum bo‘lsa mos portga uzatadi, nishon shu kirish portida bo‘lsa keraksiz qayta uzatishni cheklaydi. Noma’lum unicast va broadcast tegishli VLAN doirasida boshqa portlarga tarqatilishi mumkin. Jadval vaqt o‘tishi va qurilmalar ko‘chishi bilan yangilanadi. Switchning barcha modellari faqat L2 emas, ayrimlari routing ham bajaradi."
+        ],
+        [
+          "Routerning paket bilan ishlashi",
+          "Router nishon IPni marshrut jadvali bilan solishtirib keyingi interfeys yoki next-hopni tanlaydi. Eng uzun mos prefiks tamoyili aniqroq yo‘lni ustun qiladi. Keyingi kanal uchun yangi kadr tuziladi; odatdagi routingda yakuniy nishon IP saqlanadi, TTL esa kamayadi. NAT ishlatilsa tegishli adres yoki port tarjimasi ham bo‘lishi mumkin. Routing bilan NAT aynan bir tushuncha emas."
+        ],
+        [
+          "MAC IP va ARP farqi",
+          "MAC lokal kanal almashuvida, IP esa tarmoqlararo adreslashda xizmat qiladi. IPv4 host masofadagi serverga chiqayotganda avval lokal gatewayning MAC manzilini ARP yordamida olishi mumkin. Routerlar o‘tganda kanal manzillari o‘zgaradi. Serverning MAC manzili butun internet bo‘ylab o‘zgarmay yuradi degan tasavvur noto‘g‘ri. ARP keshi vaqtinchalik lokal mosliklarni saqlaydi."
+        ],
+        [
+          "Lokal va masofaviy aloqa misoli",
+          "192.168.10.10/24 host .20ga murojaat qilsa nishon lokal hisoblanadi va to‘g‘ridan-to‘g‘ri kanal aloqasi kerak. 192.168.20.20ga murojaatda tegishli marshrut yoki gateway ishlatiladi. Maska noto‘g‘ri bo‘lsa host nishonni xato lokal deb hisoblab, kerakli yo‘lga chiqa olmasligi mumkin. IP manzilni tekshirish bilan cheklanmay prefiks ham ko‘riladi."
+        ],
+        [
+          "Nosozlik belgilarini ajratish",
+          "Switch portidagi link, MAC jadvali va tegishli VLAN tekshiriladi. Routerda interfeys manzili, marshrut va ruxsat qoidalari ko‘riladi. Kabel to‘g‘ri bo‘lsa ham noto‘g‘ri VLAN yoki gateway aloqani buzishi mumkin. Boshqaruv faqat ajratilgan o‘quv muhitida bajariladi. Ishlayotgan tarmoqda tasodifiy port yoki VLAN almashtirish boshqa foydalanuvchilar ishini to‘xtatishi mumkin."
+        ]
+      ],
+      "task": "Bir subnetdagi va boshqa subnetdagi nishonga yuborishda lokal kadr nishoni kim bo‘lishini yozing.",
+      "answer": "Lokal nishonda uning MAC manzili, masofaviy nishonda esa lokal gateway MAC manzili ishlatiladi. Yakuniy nishon IP alohida maydondir.",
+      "terms": [
+        [
+          "MAC jadvali",
+          "Switchdagi manzil va port mosliklari"
+        ],
+        [
+          "Marshrut jadvali",
+          "Nishon tarmoqlar va keyingi yo‘llar ro‘yxati"
+        ],
+        [
+          "ARP",
+          "IPv4 lokal qo‘shni IP manzilini MACga moslashtirish"
+        ],
+        [
+          "Next hop",
+          "Keyingi uzatish bosqichi"
+        ],
+        [
+          "VLAN",
+          "Mantiqiy ajratilgan kanal tarmog‘i"
+        ]
+      ],
+      "questions": [
+        [
+          "Switch qaysi ma’lumotdan MAC jadvalini o‘rganadi?",
+          "Manba MAC va kirish porti",
+          "Faqat DNS nomi",
+          "Faqat parol",
+          "Faqat nishon domeni"
+        ],
+        [
+          "Masofadagi serverga lokal kadr odatda kimga yuboriladi?",
+          "Gateway MAC manziliga",
+          "Server MAC manziliga butun yo‘lda",
+          "Printerga",
+          "DHCP paroliga"
+        ],
+        [
+          "Routing bilan NAT qanday?",
+          "Turli vazifalar",
+          "Mutlaqo bir xil",
+          "Faqat Wi-Fi nomlari",
+          "Faqat fayl formatlari"
+        ],
+        [
+          "Router yo‘l tanlashda qaysi moslik ustun?",
+          "Eng uzun mos prefiks",
+          "Eng qisqa fayl nomi",
+          "Eng katta MAC",
+          "Eng chiroyli kabel"
+        ],
+        [
+          "Noto‘g‘ri maska nimaga olib kelishi mumkin?",
+          "Lokal va masofaviy nishonni xato ajratishga",
+          "Faqat monitor o‘chishiga",
+          "Disk formati o‘zgarishiga",
+          "Printer siyohi tugashiga"
+        ]
+      ]
+    },
+    "13": {
+      "sections": [
+        [
+          "Wi-Fi va SSID",
+          "Wi-Fi radio orqali mahalliy ulanishni tashkil qiladi. SSID tarmoq nomi, internetning mavjudligi esa alohida xizmatdir. Bir xil SSID turli APlarda ko‘rsatilishi mumkin. Begona qurilma tanish nomni takrorlay oladi, shuning uchun faqat nomga qarab ishonish yetarli emas. Ulanishdagi autentifikatsiya va tashkilot belgilagan profil ham hisobga olinadi."
+        ],
+        [
+          "Chastota diapazoni va kanal",
+          "2,4 GHz, 5 GHz va mos tizimlarda 6 GHz diapazonlari ishlatiladi; imkoniyat apparat va hududiy qoidalarga bog‘liq. Kanal radio resursni bo‘lishish usulidir. Kengroq kanal har sharoitda tezroq natija bermaydi: qo‘shni tarmoqlar, shovqin, devor va mijoz imkoniyati ta’sir qiladi. Radio muhit umumiy bo‘lgani uchun bitta APga ko‘p faol mijoz ulanishi vaqt resursini bo‘lishadi."
+        ],
+        [
+          "Qamrov va joylashuv",
+          "APni yopiq metall javon, qalin devor orti yoki kuchli xalaqit manbaiga qo‘yish sifatsiz qamrov keltirishi mumkin. Signal kuchi, foydali tezlik, kechikish va paket yo‘qotish birga baholanadi. Kuchli signal internet ishlayotganini kafolatlamaydi: DHCP, DNS, uplink va provayder ham ishlashi kerak. Qamrovni kuchaytirishdan oldin real joylarda o‘lchov olinadi."
+        ],
+        [
+          "Himoya rejimlari",
+          "Mos qurilmalarda WPA3 yoki tashkilot belgilagan zamonaviy himoya ishlatiladi; eski mijozlarda WPA2-AES muvofiqligi talab qilinishi mumkin. WEP va eski TKIP kabi yondashuvlar zamonaviy himoya uchun mos emas. Kuchli noyob ulanish paroli bilan AP boshqaruv paroli alohida ko‘riladi. WPS kabi qulayliklar zarur bo‘lmasa o‘chirib qo‘yiladi. Mehmon tarmog‘i ichki resurslardan kerakli darajada ajratiladi."
+        ],
+        [
+          "Ulanishdagi amaliy qaror",
+          "Mijoz SSIDni tanlab to‘g‘ri autentifikatsiyadan o‘tadi, IP parametrlarini oladi va kerakli xizmatni sinaydi. SSIDni yashirish mustahkam shifrlash o‘rnini bosmaydi. Ochiq Wi-Fida maxfiy ish ehtiyotkorlik bilan bajariladi; HTTPS va xizmatning haqiqiy manzili tekshiriladi. AP sozlamalari faqat vakolat doirasida o‘zgartiriladi, boshqa tashkilot radio tarmog‘i sinov nishoni qilinmaydi."
+        ]
+      ],
+      "task": "APni joylashtirish va xavfsizlik uchun beshta mezon tuzing. Signal kuchli, sayt ochilmayotgan vaziyatga uch ehtimoliy sabab yozing.",
+      "answer": "Joylashuv, kanal, mijoz yuklamasi, zamonaviy shifrlash va boshqaruv ruxsati ko‘riladi. Sayt muammosida IP, gateway/uplink va DNS alohida tekshiriladi.",
+      "terms": [
+        [
+          "SSID",
+          "Simsiz tarmoq nomi"
+        ],
+        [
+          "Kanal",
+          "Radio resursning belgilangan qismi"
+        ],
+        [
+          "WPA3",
+          "Zamonaviy Wi-Fi xavfsizlik protokollari oilasi"
+        ],
+        [
+          "AES",
+          "Simmetrik shifrlash algoritmi"
+        ],
+        [
+          "Mehmon tarmog‘i",
+          "Asosiy resurslardan ajratilishi mumkin bo‘lgan kirish muhiti"
+        ]
+      ],
+      "questions": [
+        [
+          "SSID nimani anglatadi?",
+          "Tarmoq nomini",
+          "Internet tezligini",
+          "CPU modelini",
+          "DNS parolini"
+        ],
+        [
+          "Kuchli signal nimani kafolatlamaydi?",
+          "Internet xizmati ishlashini",
+          "Radio signal borligini",
+          "AP yaqinligini",
+          "Qabul darajasi ko‘rinishini"
+        ],
+        [
+          "SSIDni yashirish nima o‘rnini bosmaydi?",
+          "Kuchli shifrlashni",
+          "Tarmoq nomini",
+          "AP mavjudligini",
+          "Radio diapazonni"
+        ],
+        [
+          "WEP qanday baholanadi?",
+          "Zamonaviy himoya uchun eskirgan",
+          "Eng yangi himoya",
+          "Parolsiz VPN",
+          "Fayl tizimi"
+        ],
+        [
+          "Keng kanal har doim tezroqmi?",
+          "Yo‘q, muhit va yuklama muhim",
+          "Ha, istisnosiz",
+          "Faqat SSID uzun bo‘lsa",
+          "Faqat AP rangi qora bo‘lsa"
+        ]
+      ]
+    },
+    "14": {
+      "sections": [
+        [
+          "Tayyorgarlik va materiallar",
+          "O‘quv patch-kabeli uchun mos UTP kabel, unga mos 8P8C ulagich, krimper va kabel tester tayyorlanadi. Kabel qurilmadan va PoE manbasidan uzilgan bo‘ladi. Kesuvchi asbob ehtiyotkorlik bilan ishlatiladi, sim parchalarining ko‘zga yoki qurilmaga tushishiga yo‘l qo‘yilmaydi. Real magistral va ishlab turgan portlar ruxsatsiz ajratilmaydi."
+        ],
+        [
+          "T568A va T568B",
+          "Bir xil standart ikkala uchda qo‘llansa odatdagi to‘g‘ri patch-kabel hosil bo‘ladi. T568Bda kontakt 1 dan 8 gacha: oq-to‘q sariq, to‘q sariq, oq-yashil, ko‘k, oq-ko‘k, yashil, oq-jigarrang, jigarrang. T568Ada yashil va to‘q sariq juftlik joylari tegishli ravishda almashadi. Kontaktlarni sanash yo‘nalishi ulagichning ko‘rsatmadagi holati bilan tekshiriladi; faqat yodlangan rangni teskari qarab qo‘yish xatodir."
+        ],
+        [
+          "Tayyorlash va siqish",
+          "Tashqi qobiq ehtiyotkor ochiladi, ichki izolyatsiya shikastlanmaydi. Juftliklar zarur minimal qismda yechilib, tanlangan standart bo‘yicha tekislanadi. Simlar teng kesiladi va ulagich kanaliga oxirigacha kirgani ko‘riladi. Tashqi qobiq ham mahkamlash joyiga yetishi kerak. Mos krimper bilan siqiladi; qattiq va ko‘p tolali kabelga mos ulagich turi oldindan tanlanadi."
+        ],
+        [
+          "Tester va funksional sinov",
+          "Oddiy tester uzilish, noto‘g‘ri ketma-ketlik yoki qisqa tutashuv kabi holatlarni ko‘rsatishi mumkin. Arzon continuity tester barcha split pair yoki yuqori chastotali sifat muammosini aniqlamasligi mumkin. Kabel sertifikatsiyasi kengroq maxsus o‘lchov talab qiladi. Tester natijasidan keyin o‘quv portlariga ulab link va ruxsat etilgan aloqa sinovi bajariladi. Tekshirish quvvatdan uzilgan kabeldan boshlanadi."
+        ],
+        [
+          "Hisobot va xatoni tuzatish",
+          "Hisobotda standart, ikki uchning rang ketma-ketligi, kabel uzunligi, tester natijasi va funksional sinov bo‘ladi. Ulagichga yetmagan sim, ortiqcha yechilgan juftlik yoki qobiqning mahkamlanmasligi alohida ko‘riladi. Xato topilsa kabel ajratilib qayta tayyorlanadi. Tester yashil chiqdi degan yozuv o‘rniga qanday sinov o‘tgani va uning cheklovi aniq ko‘rsatiladi."
+        ]
+      ],
+      "task": "O‘qituvchi nazoratida ikkala uchi T568B bo‘lgan kabel tayyorlang. Kontaktlar tartibi va tester natijasini yozib, link sinovi bajaring.",
+      "answer": "Ranglar bir xil standartda ketma-ket ulanadi, barcha zarur kontaktlar to‘g‘ri tutashadi va link ishlaydi. Oddiy tester natijasi yuqori tezlik sertifikati deb ko‘rsatilmaydi.",
+      "terms": [
+        [
+          "T568B",
+          "O‘ralgan juftliklarni kontaktlarga joylash standarti"
+        ],
+        [
+          "Krimper",
+          "Ulagich kontaktlarini siqish asbobi"
+        ],
+        [
+          "Continuity",
+          "Elektr uzluksizligi"
+        ],
+        [
+          "Split pair",
+          "Ketma-ketlik ko‘rinsa ham noto‘g‘ri juftlik tuzilishi"
+        ],
+        [
+          "Patch-kabel",
+          "Qurilmalarni ulash uchun tayyorlangan kabel"
+        ]
+      ],
+      "questions": [
+        [
+          "To‘g‘ri patch-kabel uchun ikki uchda nima qo‘llanadi?",
+          "Bir xil standart",
+          "Tasodifiy ikki tartib",
+          "Faqat rang uzunligi",
+          "Faqat bitta sim"
+        ],
+        [
+          "T568Bda birinchi kontakt rangi qaysi?",
+          "Oq-to‘q sariq",
+          "Ko‘k",
+          "Jigarrang",
+          "Oq-jigarrang"
+        ],
+        [
+          "Oddiy tester nimani kafolatlamaydi?",
+          "Yuqori tezlik sertifikatsiyasini",
+          "Uzilish sinovini",
+          "Kontakt ketma-ketligi ko‘rinishini",
+          "Elektr tutashuv tekshiruvini"
+        ],
+        [
+          "Siqishdan avval kabel qanday bo‘ladi?",
+          "Qurilma va PoEdan uzilgan",
+          "Faol portga ulangan",
+          "Elektr simiga tekkan",
+          "Himoyasiz ochiq tarmoqda"
+        ],
+        [
+          "Tashqi qobiq nima uchun mahkamlanadi?",
+          "Mexanik tortilishni kamaytirish uchun",
+          "IP berish uchun",
+          "DNS yechish uchun",
+          "Radio kanalni oshirish uchun"
+        ]
+      ]
+    },
+    "15": {
+      "sections": [
+        [
+          "Talab va boshlang‘ich holat",
+          "Ikki simli PC va bitta simsiz mijozni ajratilgan o‘quv tarmog‘iga ulash rejalashtiriladi. Switch, AP va kerak bo‘lsa router funksiyalari ajratiladi. Boshlang‘ich konfiguratsiya yoziladi; qurilmadagi zavod reset tugmasi sababsiz bosilmaydi. Mashg‘ulot ishchi muassasa tarmog‘iga zarar yetkazmaydigan alohida muhitda olib boriladi."
+        ],
+        [
+          "Simli ulanishlar",
+          "Tekshirilgan kabellar bilan PClar switchning ajratilgan portlariga ulanadi. Port indikatorlari va kelishilgan link tezligi ko‘riladi. AP uplinki tanlangan topologiyaga mos portga ulanadi. Bitta switchda keraksiz qo‘shimcha kabel bilan halqa yaratilmaydi. Qurilmalarga kerakli quvvat, PoE ishlatilsa mos standart va quvvat talabi ta’minlanadi."
+        ],
+        [
+          "AP ish rejimi va IP",
+          "Agar asosiy router DHCP bersa, qo‘shimcha qurilma AP rejimida ishlatilishi mumkin. Keraksiz ikkinchi DHCP serveri o‘chirilib, AP boshqaruv manzili rejaga mos noyob qilib belgilanadi. Router rejimi tanlansa boshqa subnet va routing/NAT oqibatlari tushuniladi. Qaysi port uplink bo‘lishi modelga bog‘liq; aniq qo‘llanma tekshiriladi."
+        ],
+        [
+          "Simsiz parametrlar va himoya",
+          "SSID, mos kanal, kuchli noyob parol va mos zamonaviy himoya rejimi belgilanadi. Boshqaruvga kirish vakolati ham alohida himoyalanadi. Haqiqiy parol topshiriladigan skrinshotda ko‘rsatilmaydi. Mijoz SSIDga ulanib IP olgani tekshiriladi. Mehmon ajratilishi yoki client isolation yoqilgan bo‘lsa mijozlar orasidagi ping ishlamasligi kutiladigan siyosat bo‘lishi mumkin."
+        ],
+        [
+          "Funksional tekshirish",
+          "Har bir hostda IP, maska, gateway va DNS yoziladi. Simli lokal xizmat, simsiz ulanish va kerak bo‘lsa tashqi xizmat sinovdan o‘tkaziladi. Xatoda fizik ulanish, DHCP, subnet, ruxsat va izolyatsiya tartib bilan ko‘riladi. Yakunda boshlang‘ich holat tiklanadi yoki o‘qituvchi qabul qilgan konfiguratsiya topshiriladi. Hisobotda sxema va har bir sinov natijasi bo‘ladi."
+        ]
+      ],
+      "task": "Ikki PCni switchga, bitta mijozni APga ulang. Manzil olish va ruxsat etilgan xizmat sinovlarini jadvalda qayd qiling.",
+      "answer": "Bitta rejalashtirilgan DHCP manbasi, noyob manzillar va mos subnetlar bo‘ladi. Izolyatsiya siyosati bilan haqiqiy nosozlik ajratiladi.",
+      "terms": [
+        [
+          "AP rejimi",
+          "Simsiz kirishni mavjud LANga bog‘lash rejimi"
+        ],
+        [
+          "Client isolation",
+          "Simsiz mijozlar orasidagi to‘g‘ridan to‘g‘ri aloqani cheklash"
+        ],
+        [
+          "Boshqaruv manzili",
+          "Qurilmani sozlashga kirishdagi IP"
+        ],
+        [
+          "DHCP manbasi",
+          "Parametr beruvchi server"
+        ],
+        [
+          "Link tezligi",
+          "Ikki interfeys kelishgan uzatish rejimi"
+        ]
+      ],
+      "questions": [
+        [
+          "Asosiy router DHCP berayotgan APda nima tekshiriladi?",
+          "Keraksiz ikkinchi DHCP yo‘qligi",
+          "Faqat SSID uzunligi",
+          "Faqat ekran foni",
+          "Faqat printer qog‘ozi"
+        ],
+        [
+          "AP boshqaruv IPsi qanday bo‘ladi?",
+          "Rejaga mos noyob",
+          "Barcha PC bilan bir xil",
+          "Har doim broadcast",
+          "Har doim 0.0.0.0"
+        ],
+        [
+          "Client isolation nimani cheklashi mumkin?",
+          "Mijozlar o‘zaro aloqasini",
+          "Faqat elektr quvvatini",
+          "Faqat fayl hajmini",
+          "Faqat CPU tezligini"
+        ],
+        [
+          "Uplink porti qanday aniqlanadi?",
+          "Model qo‘llanmasiga qarab",
+          "Faqat rang taxmini bilan",
+          "Faqat kabel uzunligi bilan",
+          "Faqat SSID bilan"
+        ],
+        [
+          "Hisobotga qanday parol yoziladi?",
+          "Haqiqiy parol yozilmaydi",
+          "Barcha hisob paroli",
+          "Administrator siri",
+          "Tiklash kodlari"
+        ]
+      ]
+    },
+    "16": {
+      "sections": [
+        [
+          "Himoyalanadigan qiymatlar",
+          "Tarmoq xavfsizligi ma’lumot maxfiyligi, yaxlitligi va kerak paytdagi mavjudligini saqlashga xizmat qiladi. Aktiv, tahdid va zaiflik ajratiladi: masalan, o‘quv bazasi aktiv, parolning oshkor bo‘lishi xavfga sabab, umumiy zaif parol esa zaiflikdir. Xavf ehtimol va oqibat bilan baholanadi. Faqat antivirus o‘rnatilganiga qarab tarmoqni to‘liq xavfsiz deb bo‘lmaydi."
+        ],
+        [
+          "Zararli dastur va tarqalish",
+          "Virus boshqa fayl yoki dasturga bog‘liq ko‘payishi, worm tarmoq orqali tarqalishi, trojan esa foydali dastur ko‘rinishida zararli vazifa yashirishi mumkin. Ransomware ma’lumotni shifrlash yoki kirishni cheklash bilan tovlamachilik qiladi. Tasniflar ayrim dasturda birga uchraydi. Bu darsda haqiqiy zararli kod ishlatilmaydi; tahdidlar tasviriy ssenariy va himoya qarori orqali tahlil qilinadi."
+        ],
+        [
+          "Fishing va ijtimoiy muhandislik",
+          "Fishing foydalanuvchini soxta manzil, shoshilinch xabar yoki taqlid qilingan xizmat bilan aldab ma’lumot berishga undaydi. Logotip va HTTPS qulfi sayt egasining halolligini o‘zi isbotlamaydi. So‘rov mustaqil rasmiy kanal orqali tekshiriladi. Parol, OTP va tiklash kodi boshqalarga berilmaydi; o‘zingiz boshlamagan MFA tasdiqlanmaydi. Bosim va shoshilish tekshirishni chetlab o‘tishga sabab bo‘lmasligi kerak."
+        ],
+        [
+          "Ruxsatsiz kirish va parol xavfi",
+          "Parolni taxminlash, qayta ishlatilgan oshkor paroldan foydalanish va ortiqcha vakolat xavf tug‘diradi. Noyob uzun parol, parol menejeri, MFA va eng kam vakolat tamoyili himoyani kuchaytiradi. Tarmoq resursiga kira olish uni ko‘chirish yoki ommaga chiqarish ruxsatini anglatmaydi. Hisoblar individual bo‘lsa mas’uliyat va tekshirish osonlashadi."
+        ],
+        [
+          "Hodisa bo‘lsa harakat",
+          "Shubhali fayl ochilgan yoki hisobga begona kirish sezilgan bo‘lsa mas’ulga xabar beriladi, zarur izolyatsiya tashkilot tartibida bajariladi. Dalilni yo‘qotadigan ommaviy o‘chirish yoki tasodifiy tozalashdan oldin ko‘rsatma olinadi. Muhim ma’lumot mustaqil zaxirada bo‘ladi va tiklash sinovi bajariladi. Hisobotda vaqt, belgi, ko‘rilgan xavfsiz chora va mas’ul qayd etiladi."
+        ]
+      ],
+      "task": "Sun’iy fishing xabari uchun shubhali belgilar, tekshirish kanali va xavfsiz javobni yozing. Hech qanday haqiqiy login ma’lumoti ishlatmang.",
+      "answer": "Shoshiltirish, noma’lum manzil va kod so‘rovi ajratiladi. Havolani bosish o‘rniga oldindan ma’lum rasmiy manzil orqali holat tekshiriladi.",
+      "terms": [
+        [
+          "Aktiv",
+          "Himoyalanadigan resurs"
+        ],
+        [
+          "Tahdid",
+          "Zarar keltirishi mumkin bo‘lgan hodisa"
+        ],
+        [
+          "Zaiflik",
+          "Himoyadagi kamchilik"
+        ],
+        [
+          "Fishing",
+          "Aldov orqali ma’lumot yoki amal olishga urinish"
+        ],
+        [
+          "MFA",
+          "Turli omillar bilan hisob egasini tekshirish"
+        ]
+      ],
+      "questions": [
+        [
+          "HTTPS belgisi nimani o‘zi isbotlamaydi?",
+          "Sayt egasining halolligini",
+          "TLS aloqa mavjudligini",
+          "Manzil ko‘rinishini",
+          "Brauzer ulanishini"
+        ],
+        [
+          "O‘zingiz boshlamagan MFA so‘rovi kelsa nima qilinadi?",
+          "Tasdiqlanmaydi va tekshiriladi",
+          "Darhol tasdiqlanadi",
+          "Kod yuboriladi",
+          "Parol yoziladi"
+        ],
+        [
+          "Ransomware xavfiga qarshi nima muhim?",
+          "Sinovdan o‘tgan alohida zaxira",
+          "Faqat fon rasmi",
+          "Faqat katta monitor",
+          "Faqat parolsiz ulanish"
+        ],
+        [
+          "Shubhali xabar qanday tekshiriladi?",
+          "Mustaqil rasmiy kanal orqali",
+          "Faqat xabardagi havola bilan",
+          "Faqat logotip bilan",
+          "Faqat jo‘natuvchi va’dasi bilan"
+        ],
+        [
+          "Individual hisoblar nega foydali?",
+          "Vakolat va mas’uliyatni ajratadi",
+          "Barcha parolni bir xil qiladi",
+          "Xatoni butunlay yo‘qotadi",
+          "Antivirus o‘rnini bosadi"
+        ]
+      ]
+    },
+    "17": {
+      "sections": [
+        [
+          "Qatlamli himoya",
+          "Tarmoq himoyasi bir vositaga emas, bir-birini to‘ldiruvchi choralar tizimiga tayanadi. Hisob, qurilma, tarmoq va ma’lumot qatlamlari alohida nazorat qilinadi. Yangilanish, eng kam vakolat, ruxsatli konfiguratsiya va zaxira birgalikda ishlaydi. Xavfsizlik sozlamasi xizmat maqsadiga mos bo‘lishi kerak; barcha kirishni to‘sish ham kerakli xizmat mavjudligini buzishi mumkin."
+        ],
+        [
+          "Firewall",
+          "Firewall trafikni manzil, port, yo‘nalish, ulanish holati yoki boshqa mezonlar asosida filtrlashi mumkin. Host firewallda qurilmaning o‘zi, tarmoq firewallda segmentlar orasidagi o‘tish nazorat qilinadi. Qoidalar minimal zarur ruxsat bilan yoziladi. Muammoni tekshirish uchun firewallni butunlay o‘chirish o‘rniga aniq xizmat, profil va qoida tekshiriladi. NAT bilan firewall bir xil funksiya emas."
+        ],
+        [
+          "Antivirus va yangilanish",
+          "Antivirus zararli fayl yoki xatti-harakatni aniqlashga yordam beradi, ammo har yangi tahdidni mutlaqo aniqlash kafolati yo‘q. OT va dasturlar yangilanadi, rasmiy manbalar ishlatiladi. Karantindagi fayl sinov uchun qayta tiklanmaydi. Bir nechta real vaqt antivirusini sababsiz o‘rnatish ziddiyat keltirishi mumkin. Foydalanuvchi qarori va hisob himoyasi ham zarur."
+        ],
+        [
+          "VPN chegaralari",
+          "VPN belgilangan tugunlar orasida himoyalangan tunnel tashkil qiladi. U umumiy tarmoq ustidan tashkilot resursiga nazoratli kirish yoki maxsus trafikni himoyalash uchun ishlatilishi mumkin. VPN barcha yo‘ldagi trafikni doim avtomatik qamrab olmaydi: split tunneling siyosati farq qiladi. VPN serveri yoki manzil xizmatining ishonchliligi alohida masaladir. VPN fishing, zararli fayl va ortiqcha ruxsatlarni o‘zi tuzatmaydi."
+        ],
+        [
+          "Autentifikatsiya va huquqlar",
+          "Autentifikatsiya kimlik da’vosini, avtorizatsiya esa ruxsat etilgan ishni tekshiradi. MFA mavjud bo‘lsa qo‘llanadi, tiklash kodlari xavfsiz saqlanadi. Guruh va rol vazifaga mos huquq beradi. Umumiy administrator hisobini kundalik ishlatish cheklanadi. Ruxsat o‘zgargach tegishli foydalanuvchi bilan haqiqiy kirish sinovi bajariladi, maxfiy kalit hisobotga yozilmaydi."
+        ]
+      ],
+      "task": "Lokal web xizmatiga faqat o‘quv segmentidan kirish kerak. Firewall, hisob va zaxira bo‘yicha himoya rejasini yozing.",
+      "answer": "Aniq port va segment doirasida qoida, zarur foydalanuvchi huquqi va alohida tiklash sinovli nusxa belgilanadi. VPN borligi qo‘shimcha ruxsat nazoratini bekor qilmaydi.",
+      "terms": [
+        [
+          "Firewall",
+          "Trafikni qoidalar bilan filtrlovchi himoya"
+        ],
+        [
+          "VPN",
+          "Belgilangan tugunlar orasidagi virtual himoyalangan tunnel"
+        ],
+        [
+          "Autentifikatsiya",
+          "Kimlik da’vosini tekshirish"
+        ],
+        [
+          "Avtorizatsiya",
+          "Ruxsat etilgan amallarni belgilash"
+        ],
+        [
+          "Split tunneling",
+          "Faqat tanlangan trafikni VPNga yo‘naltirish"
+        ]
+      ],
+      "questions": [
+        [
+          "VPN nimani o‘zi bartaraf etmaydi?",
+          "Fishing va zararli fayllarni",
+          "Tunnel himoyasini",
+          "Belgilangan yo‘lni",
+          "Ulangan server bilan aloqani"
+        ],
+        [
+          "Firewall muammosida nima tekshiriladi?",
+          "Aniq xizmat va qoida",
+          "Butun himoya majburiy o‘chiriladi",
+          "Barcha port ochiladi",
+          "Barcha hisobga admin beriladi"
+        ],
+        [
+          "Autentifikatsiya nimani tekshiradi?",
+          "Kimlik da’vosini",
+          "Faqat kabelni",
+          "Faqat fayl hajmini",
+          "Faqat ekran ruxsatini"
+        ],
+        [
+          "Avtorizatsiya nimani belgilaydi?",
+          "Ruxsat etilgan amallarni",
+          "Faqat parol uzunligini",
+          "Faqat router rangini",
+          "Faqat signal kuchini"
+        ],
+        [
+          "NAT va firewall qanday tushunchalar?",
+          "Turli funksiyalar",
+          "Har doim aynan bir xil",
+          "Faqat Wi-Fi nomlari",
+          "Faqat antivirus turlari"
+        ]
+      ]
+    },
+    "18": {
+      "sections": [
+        [
+          "Ikki xizmatning farqi",
+          "DHCP hostga tarmoq konfiguratsiyasini yetkazadi, DNS esa nomlar bo‘yicha resurs yozuvlarini topadi. Bir qurilma ikkala xizmatni ham taqdim etishi mumkin, lekin ularning vazifasi boshqa. DHCP ishlamasa mijoz kerakli IPni ololmasligi, DNS ishlamasa esa IP aloqasi bor bo‘lsa ham nom orqali xizmat topilmasligi mumkin. Tashxisda bu belgilar ajratiladi."
+        ],
+        [
+          "DHCP jarayoni",
+          "Oddiy boshlang‘ich DHCPv4 olish jarayoni Discover, Offer, Request va Acknowledge ketma-ketligi bilan tushuntiriladi. Server manzil havzasi va ijara yozuvlarini boshqaradi. Mijozga IPdan tashqari maska, router va DNS kabi parametrlar berilishi mumkin. Ijara muddati tugashidan oldin yangilanishga urinish bo‘ladi; barcha yangilanish jarayonlari to‘liq boshlang‘ich to‘rtta broadcast bilan bir xil emas."
+        ],
+        [
+          "DNS tuzilishi va yozuvlar",
+          "DNS taqsimlangan iyerarxik tizimdir. Resolver so‘rovga javob topadi, authoritative server tegishli zona yozuvlarini taqdim etadi. A IPv4, AAAA IPv6, MX pochta almashuvi, CNAME boshqa nomga moslik kabi yozuv turlari mavjud. DNS faqat bitta nomni bitta IPga aylantiruvchi oddiy lug‘at emas. Bir nom bir nechta yozuvga, bitta xizmat esa bir nechta adresga ega bo‘lishi mumkin."
+        ],
+        [
+          "Kesh va tekshirish",
+          "DNS javoblari TTLga muvofiq vaqtincha keshlanishi mumkin; o‘zgarish hamma joyda darhol ko‘rinmasligi mumkin. nslookup example.com yordamida resolver javobi tekshiriladi, natija xizmatning o‘zi ishlashidan alohida talqin qilinadi. Windowsda ipconfig /displaydns lokal keshni ko‘rsatishi mumkin. Keshni sababsiz tozalash yoki DNSni tasodifiy almashtirish o‘rniga muammo avval dalil bilan ajratiladi."
+        ],
+        [
+          "O‘quv misoli va diagnostika",
+          "PC kerakli subnetdan IP oldi va gatewayga yetdi, ammo sayt nomi ochilmadi. DNS manzili va ruxsat etilgan nom so‘rovi tekshiriladi. Boshqa holatda 169.254/16 link-local adres DHCPdan kerakli konfiguratsiya olinmaganini ko‘rsatishi mumkin. Biroq yakuniy sabab kabel, server, VLAN yoki mijoz sozlamasidan kelib chiqishi mumkin. Test natijasi bilan sababni bir xil deb yozish mumkin emas."
+        ]
+      ],
+      "task": "ipconfig /all orqali DHCP va DNS holatini ko‘ring. Ruxsat etilgan domen uchun nslookup natijasini yozing, har bir chiqish nimani bildirganini izohlang.",
+      "answer": "DHCP manzili va ijara, DNS resolver manzili va qaytgan yozuv ajratiladi. Nom yechilishi bilan web serverning ishlashi ikki alohida sinovdir.",
+      "terms": [
+        [
+          "DHCP",
+          "Tarmoq parametrlarini avtomatik yetkazish protokoli"
+        ],
+        [
+          "Lease",
+          "Manzildan foydalanish uchun ajratilgan vaqt"
+        ],
+        [
+          "Resolver",
+          "DNS javobini topuvchi mijoz xizmati"
+        ],
+        [
+          "A yozuvi",
+          "Nomga bog‘liq IPv4 resurs yozuvi"
+        ],
+        [
+          "Authoritative server",
+          "Zona uchun ishonchli yozuvlarni taqdim etuvchi server"
+        ]
+      ],
+      "questions": [
+        [
+          "DHCP mijozga nima berishi mumkin?",
+          "IP maska gateway va DNS",
+          "Faqat sayt matni",
+          "Faqat MAC ishlab chiqaruvchisi",
+          "Faqat fayl formati"
+        ],
+        [
+          "Boshlang‘ich DHCPv4 ketma-ketligi qaysi?",
+          "Discover Offer Request ACK",
+          "ACK Request Offer Discover",
+          "DNS TCP HTTP TLS",
+          "ARP MX CNAME AAAA"
+        ],
+        [
+          "A yozuvi nimaga tegishli?",
+          "IPv4 adresga",
+          "Faqat parolga",
+          "Faqat IPv6ga",
+          "Faqat kabelga"
+        ],
+        [
+          "IP bilan ulanish bor nom bilan yo‘q. Nima tekshiriladi?",
+          "DNS",
+          "Faqat monitor",
+          "Faqat RAM avlodi",
+          "Faqat printer"
+        ],
+        [
+          "DNS javobi kelishi nimani kafolatlamaydi?",
+          "Web server ishlashini",
+          "Nom uchun yozuv qaytganini",
+          "Resolver javob berganini",
+          "So‘rov bajarilganini"
+        ]
+      ]
+    },
+    "19": {
+      "sections": [
+        [
+          "Muammoni chegaralash",
+          "Amaliy ssenariy o‘qituvchi ajratgan tarmoq yoki simulyatorda bajariladi. Avval nima ishlayotgani, nima ishlamayotgani va oxirgi o‘zgarish yoziladi. Bitta PC muammosi bilan barcha sinf muammosi ajratiladi. O‘quvchi faqat ruxsat etilgan tugunlarni tekshiradi; tarmoqdagi barcha qurilmalarga ommaviy so‘rov yoki xabar yuborish bu vazifaga kirmaydi."
+        ],
+        [
+          "Fizik va lokal tekshiruv",
+          "Kabel joylashuvi, port linki, Wi-Fi ulanishi va adapter holati ko‘riladi. Ishlaydigan ma’lum o‘quv kabeli bilan bitta almashtirish sinovi sababni ajratishi mumkin. Keyin IP, maska va bir xil subnetdagi test tuguni tekshiriladi. Noto‘g‘ri statik IP, DHCP javobi yo‘qligi yoki ikki hostda bir xil IP bo‘lishi farqli vaziyatlardir."
+        ],
+        [
+          "Gateway va DNSni ajratish",
+          "Mahalliy tugun ishlasa, keyin default gateway va kerakli yo‘l tekshiriladi. IP bilan ruxsat etilgan xizmatga ulanish bor-u nom bilan yo‘q bo‘lsa DNSga e’tibor beriladi. Ping javobi filtrlangan bo‘lishi mumkinligi yodda tutiladi. Tashkilot DNSini o‘zboshimchalik bilan tashqi serverga almashtirish o‘rniga ruxsat etilgan konfiguratsiya qaytariladi."
+        ],
+        [
+          "Bitta o‘zgarish va qayta sinov",
+          "Har sinovdan oldin taxmin va kutilgan natija yoziladi. Bir vaqtda kabel, IP, DNS va firewallni o‘zgartirish qaysi chora ishlaganini yashiradi. Masalan, noto‘g‘ri maska tuzatilgach avvalgi nishon qayta sinovdan o‘tkaziladi. Aloqa tiklansa keyin DNS va ilova funksiyasi ko‘riladi. Natija yo‘q bo‘lsa xavfsiz boshlang‘ich holatga qaytiladi."
+        ],
+        [
+          "Hisobot va eskalatsiya",
+          "Hisobot ustunlari: belgi, tekshiruv, dalil, taxmin, o‘zgarish va qayta sinov. Nosozlikni bartaraf etish bilan vaqtinchalik chetlab o‘tish farqlanadi. Kabelda elektr yoki kuyish belgilari, boshqaruv vakolati yetishmasligi yoki xizmatning ko‘plab foydalanuvchiga ta’siri bo‘lsa mas’ul mutaxassisga topshiriladi. Yakuniy xulosa tasdiqlangan faktlar va qolgan cheklovlarni ajratadi."
+        ]
+      ],
+      "task": "O‘qituvchi kiritgan noto‘g‘ri maska yoki DNS parametrini aniqlang. O‘zgarishdan oldingi va keyingi bir xil sinovni hujjatlashtiring.",
+      "answer": "Noto‘g‘ri parametr dalil bilan ajratiladi, bitta sozlama tuzatiladi, lokal va kerakli ilova sinovi qaytariladi. Xulosa tekshirilmagan sababni faktga aylantirmaydi.",
+      "terms": [
+        [
+          "Baseline",
+          "Taqqoslash uchun boshlang‘ich holat"
+        ],
+        [
+          "Gipoteza",
+          "Tekshiriladigan taxmin"
+        ],
+        [
+          "Funksional sinov",
+          "Kerakli xizmat vazifasini bajarishni tekshirish"
+        ],
+        [
+          "Eskalatsiya",
+          "Muammoni vakolatli mutaxassisga topshirish"
+        ],
+        [
+          "Qayta sinov",
+          "O‘zgarishdan keyin oldingi tekshiruvni takrorlash"
+        ]
+      ],
+      "questions": [
+        [
+          "Bir vaqtda ko‘p sozlama almashtirishning kamchiligi nima?",
+          "Sababni ajratish qiyinlashadi",
+          "Har doim tez yechim beradi",
+          "Barcha logni saqlaydi",
+          "Har doim xavfsiz"
+        ],
+        [
+          "Lokal xizmat ishlaydi tashqi yo‘q. Keyin nima ko‘riladi?",
+          "Gateway va yo‘l",
+          "Faqat klaviatura",
+          "Faqat printer siyohi",
+          "Faqat fayl nomi"
+        ],
+        [
+          "IP ishlaydi nom ishlamaydi. Qaysi xizmat tekshiriladi?",
+          "DNS",
+          "Faqat monitor",
+          "Faqat USB",
+          "Faqat GPU"
+        ],
+        [
+          "Tuzatishdan keyin nima qilinadi?",
+          "Xuddi shu vazifa qayta sinaladi",
+          "Faqat tayyor deyiladi",
+          "Barcha fayl o‘chiriladi",
+          "Firewall doim o‘chiriladi"
+        ],
+        [
+          "Vakolat yetmasa qanday yo‘l tutiladi?",
+          "Mas’ulga topshiriladi",
+          "Ruxsat chetlab o‘tiladi",
+          "Parol taxmin qilinadi",
+          "Begona hisob ishlatiladi"
+        ]
+      ]
+    },
+    "20": {
+      "sections": [
+        [
+          "Yakuniy ish maqsadi",
+          "O‘quvchi kichik LANni rejalash, ulash, adreslash, tekshirish va himoyalashni birlashtiradi. Ssenariyda uchta PC, bitta switch, bitta simsiz mijoz va AP yoki router mavjud. Ish real ajratilgan jihozda yoki simulyatorda bajarilishi ko‘rsatiladi. Mavjud bo‘lmagan fizik sinov bajarildi deb yozilmaydi. Kerakli vakolat, zaxira konfiguratsiya va qaytarish rejasi oldindan belgilanadi."
+        ],
+        [
+          "Reja va qurilmalar",
+          "Yulduz sxemasi, port hisobi, kabel turi va qurilmalarning vazifasi yoziladi. Misolda 192.168.60.0/24 subneti ishlatiladi. Router .1, statik o‘quv hostlar .10–.12 bo‘lishi mumkin; AP manzili va DHCP havzasi to‘qnashmaydigan qilib ajratiladi. DNS manbasi belgilangan xizmatga mos bo‘ladi. Qurilma bir nechta funksiyani birlashtirsa ular sxemada tushuntiriladi."
+        ],
+        [
+          "Ulash va xavfsizlik",
+          "Kabellar avval testerda, keyin linkda tekshiriladi. APda mos himoya va noyob parol belgilanadi. Kundalik mijozga ortiqcha boshqaruv huquqi berilmaydi, barcha portlar sababsiz ochilmaydi. Haqiqiy parollar hisobotda berilmaydi. DHCP serveri va kerakli resurs ruxsatlari tekshiriladi. Mehmon yoki mijoz izolyatsiyasi bo‘lsa kutilgan aloqa natijasi shunga mos belgilanadi."
+        ],
+        [
+          "Qabul sinovlari va nosozlik",
+          "Har hostning IP, maska, gateway va DNS parametrlari tekshiriladi. Lokal aloqa, nom yechish va kerakli dastur xizmati alohida sinaladi. O‘qituvchi bitta xavfsiz konfiguratsiya xatosini kiritadi; o‘quvchi uni bosqichli diagnostika bilan aniqlaydi va qayta sinov qiladi. Internetga chiqish topshiriqda mavjud bo‘lmasa, tashqi sayt sinovi bajarilmagan deb aniq yoziladi. Natija rejalashtirilgan talabga nisbatan baholanadi."
+        ],
+        [
+          "Hisobot va 100 ballik mezon",
+          "Yakuniy hujjat sxema, qurilmalar ro‘yxati, IP jadvali, xavfsizlik sozlamalari va sinov dalillarini qamrab oladi. Baholash: reja va sxema 20 ball, ulanish va kabel 20, adreslash va xizmatlar 20, diagnostika hamda qayta sinov 25, xavfsizlik va hisobot 15. Bu amaliy ish mezoni platformadagi 10 savolli nazariy o‘zini tekshirish testidan alohida qo‘llanadi. Tizim xavfsiz ishlaydigan holatda topshiriladi."
+        ]
+      ],
+      "task": "Ssenariy uchun sxema, IP jadvali va beshta qabul sinovidan iborat yakuniy hisobot tayyorlang. Bitta nosozlikning sababi va yechimini dalil bilan izohlang.",
+      "answer": "Talablar, bajarilgan ish va sinov natijalari bir-biriga mos bo‘ladi. Natijada ishlaydigan lokal ulanish, kerakli xizmatlar, himoya va qaytarish tartibi ko‘rsatiladi.",
+      "terms": [
+        [
+          "Qabul mezoni",
+          "Natija tayyorligini belgilovchi talab"
+        ],
+        [
+          "IP jadvali",
+          "Host va tarmoq parametrlarining hujjati"
+        ],
+        [
+          "Konfiguratsiya",
+          "Tizimning tanlangan sozlamalari"
+        ],
+        [
+          "Izolyatsiya",
+          "Aloqa doirasini ajratish yoki cheklash"
+        ],
+        [
+          "Yakuniy hisobot",
+          "Ish va dalillarni jamlovchi hujjat"
+        ]
+      ],
+      "questions": [
+        [
+          "Yakuniy LAN ishida nima birga bo‘ladi?",
+          "Sxema adreslash sinov va himoya",
+          "Faqat kabel rangi",
+          "Faqat SSID",
+          "Faqat internet reklama"
+        ],
+        [
+          "Uch hostga manzillar qanday beriladi?",
+          "Noyob va rejaga mos",
+          "Barchasiga aynan bir xil",
+          "Barchasiga broadcast",
+          "Faqat DNS nomi bilan"
+        ],
+        [
+          "Internet talab qilinmagan bo‘lsa qanday qayd qilinadi?",
+          "Tashqi sinov bajarilmagan deb",
+          "Internet to‘liq ishladi deb",
+          "Barcha test avtomatik o‘tdi deb",
+          "Xato yo‘q deb"
+        ],
+        [
+          "Amaliy ishda diagnostika necha ball?",
+          "25",
+          "10",
+          "50",
+          "5"
+        ],
+        [
+          "Amaliy baho va nazariy test qanday qo‘llanadi?",
+          "Alohida mezonlar bilan",
+          "Mutlaqo bitta natija sifatida",
+          "Faqat vaqtga qarab",
+          "Faqat guruh fikri bilan"
+        ]
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "Tarmoq tuzilishi va asosiy qurilmalar",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Kompyuter tarmoqlari haqida umumiy tushuncha. Tarmoqning maqsadi, asosiy komponentlari va tarmoq resurslari.",
+          "practical": false
+        },
+        {
+          "number": 2,
+          "title": "LAN, MAN, WAN va PAN tarmoqlari. Mahalliy va global tarmoqlarning xususiyatlari va qo‘llanish sohalari.",
+          "practical": false
+        },
+        {
+          "number": 3,
+          "title": "Shina, yulduz, halqa, daraxt va mesh topologiyalari. Topologiyalarning afzallik va cheklovlari.",
+          "practical": false
+        },
+        {
+          "number": 4,
+          "title": "Tarmoq kartasi, hub, switch, router, modem, access point va repeater qurilmalarining vazifalari.",
+          "practical": false
+        },
+        {
+          "number": 5,
+          "title": "Amaliy mashg‘ulot: berilgan shart asosida kichik LAN tarmog‘i sxemasini tuzish va qurilmalarni joylashtirish.",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Tarmoq modellari, protokollar va adreslash",
+      "topics": [
+        {
+          "number": 6,
+          "title": "OSI modeli: fizik, kanal, tarmoq, transport, seans, taqdimot va amaliy qatlamlar. Qatlamlarning o‘zaro aloqasi.",
+          "practical": false
+        },
+        {
+          "number": 7,
+          "title": "TCP/IP modeli. Ethernet, IP, TCP, UDP, HTTP/HTTPS, DNS va DHCP protokollarining vazifalari.",
+          "practical": false
+        },
+        {
+          "number": 8,
+          "title": "IPv4 adreslash. IP manzil, subnet maska, tarmoq va host qismi. Private va public IP manzillar.",
+          "practical": false
+        },
+        {
+          "number": 9,
+          "title": "Amaliy mashg‘ulot: IP manzil, subnet maska, gateway va DNS parametrlarini sozlash hamda tekshirish.",
+          "practical": true
+        },
+        {
+          "number": 10,
+          "title": "Amaliy mashg‘ulot: ping, ipconfig/ifconfig, tracert/traceroute kabi vositalar yordamida ulanishni tekshirish.",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Simli va simsiz tarmoqlarni tashkil etish",
+      "topics": [
+        {
+          "number": 11,
+          "title": "Ethernet texnologiyasi. UTP kabel, RJ-45 ulagich, kabel kategoriyalari va ma’lumot uzatish tezligi.",
+          "practical": false
+        },
+        {
+          "number": 12,
+          "title": "Switch va router ishlash prinsipi. MAC va IP manzillar asosida ma’lumotlarni uzatish.",
+          "practical": false
+        },
+        {
+          "number": 13,
+          "title": "Wi-Fi tarmoqlari, SSID, kanal, xavfsizlik rejimlari va access pointning vazifasi.",
+          "practical": false
+        },
+        {
+          "number": 14,
+          "title": "Amaliy mashg‘ulot: UTP kabelini RJ-45 ulagichga ulash, kabelni tekshirish va tarmoq qurilmasiga ulash.",
+          "practical": true
+        },
+        {
+          "number": 15,
+          "title": "Amaliy mashg‘ulot: switch orqali kompyuterlarni ulash, Wi-Fi access pointni sozlash va qurilmalarni tarmoqqa ulash.",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Tarmoq xizmatlari, xavfsizlik va diagnostika",
+      "topics": [
+        {
+          "number": 16,
+          "title": "Tarmoq xavfsizligi tushunchasi. Viruslar, ruxsatsiz kirish, fishing, parol hujumlari va ma’lumotlarni himoyalash.",
+          "practical": false
+        },
+        {
+          "number": 17,
+          "title": "Firewall, antivirus, VPN va autentifikatsiya vositalari. Tarmoqni himoyalashning asosiy qoidalari.",
+          "practical": false
+        },
+        {
+          "number": 18,
+          "title": "DHCP va DNS xizmatlari. IP manzilni avtomatik berish, domen nomlarini IP manzilga moslashtirish va tarmoq xizmatlari.",
+          "practical": false
+        },
+        {
+          "number": 19,
+          "title": "Amaliy mashg‘ulot: kabel, IP manzil, gateway, DNS va ulanish bilan bog‘liq oddiy nosozliklarni bosqichma-bosqich aniqlash.",
+          "practical": true
+        },
+        {
+          "number": 20,
+          "title": "Amaliy mashg‘ulot: kichik LAN tarmog‘ini tashkil etish, IP sozlamalarini kiritish, ulanishni tekshirish va xavfsizlik parametrlarini sozlash.",
+          "practical": true
+        }
+      ]
+    }
+  ],
+  "references": {
+    "network": [
+      "Cisco: kompyuter tarmoqlari",
+      "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-computer-networking.html"
+    ],
+    "switch": [
+      "Cisco: switch va router vazifalari",
+      "https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-vs-router.html"
+    ],
+    "ip": [
+      "RFC 1918: xususiy IPv4 manzillari",
+      "https://www.rfc-editor.org/rfc/rfc1918.html"
+    ],
+    "dhcp": [
+      "RFC 2131: DHCP",
+      "https://www.rfc-editor.org/info/rfc2131/"
+    ],
+    "dns": [
+      "RFC 1034: DNS tushunchalari",
+      "https://www.rfc-editor.org/info/rfc1034/"
+    ],
+    "ping": [
+      "Microsoft: ping",
+      "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping"
+    ],
+    "config": [
+      "Microsoft: ipconfig",
+      "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ipconfig"
+    ],
+    "cable": [
+      "Fluke Networks: T568A va T568B",
+      "https://www.flukenetworks.com/knowledge-base/application-or-standards-articles-copper/differences-between-wiring-codes-t568a-vs"
+    ]
+  }
+}

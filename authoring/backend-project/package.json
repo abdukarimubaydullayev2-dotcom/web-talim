@@ -1,0 +1,9 @@
+{
+  "name": "web-talim-backend-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "6-modul uchun Node 24 Express SQLite o‘quv loyihasi",
+  "engines": {"node": ">=24 <25"},
+  "scripts": {"start": "node --env-file-if-exists=.env server.cjs", "test": "node --test"},
+  "dependencies": {"express": "^5.1.0", "express-session": "^1.18.2"}
+}

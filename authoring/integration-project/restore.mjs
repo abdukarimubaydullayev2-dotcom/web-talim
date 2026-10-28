@@ -1,0 +1,3 @@
+import {copyFile,mkdir} from 'node:fs/promises';import {resolve,join} from 'node:path';import {constants} from 'node:fs';import {DatabaseSync} from 'node:sqlite';
+const [source,target]=process.argv.slice(2);if(!source||!target)throw new Error('node restore.mjs BACKUP.sqlite NEW_DIR');
+await mkdir(resolve(target),{recursive:true});const dest=join(resolve(target),'tasks.sqlite');await copyFile(resolve(source),dest,constants.COPYFILE_EXCL);const db=new DatabaseSync(dest);try{if(Object.values(db.prepare('PRAGMA integrity_check').get())[0]!=='ok')throw new Error('integrity xato');console.log('RESTORE OK',db.prepare('SELECT COUNT(*) AS count FROM tasks').get());}finally{db.close();}

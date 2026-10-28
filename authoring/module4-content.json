@@ -1,0 +1,1832 @@
+{
+  "lessons": {
+    "1": {
+      "sections": [
+        [
+          "Algoritmning vazifasi",
+          "Algoritm — berilgan turdagi masalani yechish uchun bajaruvchiga tushunarli tartibda tuzilgan ko‘rsatmalar ketma-ketligi. U kirish ma’lumotlarini natijaga aylantiradi. Masalan, to‘rtburchak yuzi uchun ikki tomon olinadi, ularning yaroqliligi tekshiriladi va ko‘paytiriladi. Algoritm dasturdan oldin ham so‘z yoki sxema bilan ifodalanishi mumkin."
+        ],
+        [
+          "Aniqlik va tushunarlilik",
+          "Har qadamning ma’nosi aniq bo‘lishi, bajaruvchi esa shu amalni bajara olishi kerak. «Biroz qo‘sh» ko‘rsatmasi yetarli emas; «yig‘indiga 5 ni qo‘sh» aniqroq. Inson uchun tushunarli jumla kompyuterga bevosita buyruq bo‘lavermaydi. Bajaruvchi imkoniyati va masala shartlari birga hisobga olinadi."
+        ],
+        [
+          "Diskretlik va natijaviylik",
+          "Diskretlik yechimni alohida qadamlarga ajratishdir. Har qadamdan keyin holat o‘zgarishini kuzatish mumkin. Ushbu moduldagi yakunlanuvchi hisoblash algoritmi chekli qadamdan so‘ng natija yoki yaroqsiz kirish haqida tushunarli xabar berishi kerak. Tugash sharti bo‘lmagan takrorlash talab etilgan natijaviylikni buzishi mumkin."
+        ],
+        [
+          "Kirish va chiqish shartlari",
+          "Algoritm qaysi qiymatlar uchun mo‘ljallangani oldindan belgilanadi. Musbat uzunlik talab qilingan masalaga manfiy sonni ko‘r-ko‘rona qo‘llash to‘g‘ri emas. Ommaviylik bitta algoritmning shu turdagi turli yaroqli kirishlar uchun ishlashini anglatadi; u har qanday masalani yechadi degani emas."
+        ],
+        [
+          "Tekshirish usuli",
+          "Avval oddiy misol qo‘lda hisoblanadi, so‘ng algoritm qadamlari shu qiymatlar bilan bajariladi. Natija kutilgan qiymat bilan solishtiriladi. Faqat bitta muvaffaqiyatli misol barcha holatda to‘g‘rilikni isbotlamaydi. Nol, chegara va noto‘g‘ri kirish kabi holatlar ham rejalashtiriladi."
+        ]
+      ],
+      "task": "Ikki sonning o‘rtachasini topish algoritmini yozing. 8 va 12 uchun qadamlar jadvalini tuzing.",
+      "answer": "Kirish a va b; yig‘indi a+b; natija yig‘indi/2. 8+12=20, 20/2=10. Qavs bo‘lmasa amallar tartibi o‘zgarishi mumkin.",
+      "terms": [
+        [
+          "Algoritm",
+          "Masalani yechish uchun tartiblangan ko‘rsatmalar"
+        ],
+        [
+          "Bajaruvchi",
+          "Ko‘rsatmalarni bajara oladigan shaxs yoki tizim"
+        ],
+        [
+          "Diskretlik",
+          "Yechimning alohida qadamlardan tuzilishi"
+        ],
+        [
+          "Kirish",
+          "Algoritmga beriladigan ma’lumot"
+        ],
+        [
+          "Chiqish",
+          "Algoritm hosil qiladigan natija"
+        ]
+      ],
+      "questions": [
+        [
+          "Aniq ko‘rsatma qaysi?",
+          "Yig‘indiga 5 ni qo‘sh",
+          "Biroz o‘zgartir",
+          "Tezroq hisobla",
+          "Chiroyli qil"
+        ],
+        [
+          "Algoritm dastur bo‘lishi shartmi?",
+          "Yo‘q, so‘z yoki sxema ham bo‘ladi",
+          "Ha, faqat exe",
+          "Ha, faqat JavaScript",
+          "Faqat brauzer"
+        ],
+        [
+          "8 va 12 ning o‘rtachasi nechchi?",
+          "10",
+          "20",
+          "14",
+          "8"
+        ],
+        [
+          "Diskretlik nimani talab qiladi?",
+          "Alohida bajariladigan qadamlarni",
+          "Faqat grafikani",
+          "Faqat katta xotirani",
+          "Faqat internetni"
+        ],
+        [
+          "Bitta testning o‘tishi nimani kafolatlamaydi?",
+          "Barcha holatda to‘g‘rilikni",
+          "Shu natijani kuzatishni",
+          "Kod ishlaganini",
+          "Misol bajarilganini"
+        ]
+      ],
+      "code": "const a = 8;\nconst b = 12;\nconst ortacha = (a + b) / 2;\nconsole.log(ortacha);",
+      "output": "10"
+    },
+    "2": {
+      "sections": [
+        [
+          "Ifodalash usulini tanlash",
+          "Bir yechim so‘z, psevdokod va blok-sxemada ifodalanishi mumkin. Ularning vazifasi bir xil mantiqni o‘qilishi qulay shaklda ko‘rsatishdir. Usulni tanlash auditoriya va murakkablikka bog‘liq. Bir shakldan boshqasiga o‘tganda kirish, shart, amal va chiqishning ma’nosi saqlanishi kerak."
+        ],
+        [
+          "So‘z bilan yozish",
+          "Oddiy masalada raqamlangan ko‘rsatmalar qulay: ma’lumotni ol, tekshir, hisobla va natijani ber. Uzun matnda shart yo‘llari chalkashishi mumkin. Shu sabab har jumlada bitta asosiy amal beriladi, «aks holda» kabi bog‘lanishlar ochiq yoziladi. Belgilar va birliklar oldindan tushuntiriladi."
+        ],
+        [
+          "Psevdokod",
+          "Psevdokod muayyan dasturlash tili sintaksisiga to‘liq bog‘lanmaydi. KIRIT, AGAR, AKS HOLDA, CHIQAR kabi ko‘rsatmalar bilan mantiq ifodalanadi. Ichkariga surish qaysi amallar bir shartga tegishli ekanini ko‘rsatadi. Psevdokodni JavaScript dvigateliga to‘g‘ridan-to‘g‘ri kiritib bajarib bo‘lmaydi."
+        ],
+        [
+          "Blok-sxema belgilari",
+          "Boshlash va tugatish odatda oval, hisoblash to‘g‘ri to‘rtburchak, kiritish va chiqarish parallelogram, shart esa romb bilan beriladi. Strelkalar boshqaruv oqimini ko‘rsatadi. Romb chiqishlari ha va yo‘q deb belgilanadi. O‘q yo‘nalishi va tugash nuqtasi yo‘q sxema to‘liq hisoblanmaydi."
+        ],
+        [
+          "Shakllar mosligini tekshirish",
+          "Juftlik masalasida sonni olish, 2 ga bo‘lgandagi qoldiqni tekshirish va ikki natijadan birini chiqarish barcha shaklda bir xil bo‘ladi. Sxema toza chizilgani mantiqiy to‘g‘rilikni kafolatlamaydi. 0, musbat va manfiy juft hamda toq sonlar bilan qadamlar kuzatiladi."
+        ]
+      ],
+      "task": "Sonni juft yoki toqligini aniqlashni uch shaklda ifodalang.",
+      "answer": "So‘zda va psevdokodda n % 2 === 0 sharti ajratiladi. Sxemada kirishdan keyin romb va ikki chiqish yo‘li, so‘ng umumiy tugash bo‘ladi.",
+      "terms": [
+        [
+          "Psevdokod",
+          "Til sintaksisidan erkinroq algoritm yozuvi"
+        ],
+        [
+          "Blok-sxema",
+          "Algoritm oqimini belgilar bilan ifodalash"
+        ],
+        [
+          "Romb",
+          "Shartni tekshirish bloki"
+        ],
+        [
+          "Strelka",
+          "Boshqaruv oqimi yo‘nalishi"
+        ],
+        [
+          "Parallelogram",
+          "Kiritish yoki chiqarish bloki"
+        ]
+      ],
+      "questions": [
+        [
+          "Blok-sxemada shart qaysi shakl bilan beriladi?",
+          "Romb",
+          "Oval",
+          "Aylana ichidagi rasm",
+          "Faqat matn sarlavhasi"
+        ],
+        [
+          "Psevdokodning vazifasi nima?",
+          "Algoritm mantiqini ifodalash",
+          "Faqat fayl saqlash",
+          "Kompyuterni o‘chirish",
+          "Internet yaratish"
+        ],
+        [
+          "Rombdan chiqishlar qanday belgilanadi?",
+          "Ha va yo‘q",
+          "Faqat rang bilan",
+          "Faqat raqam hajmi bilan",
+          "Hech qanday belgi kerak emas"
+        ],
+        [
+          "Sxemadagi strelka nimani ko‘rsatadi?",
+          "Amallar bajarilish yo‘lini",
+          "Faqat kabelni",
+          "Faqat ekran chegarasini",
+          "Faqat muallifni"
+        ],
+        [
+          "Shakl almashtirilganda nima saqlanadi?",
+          "Algoritmning mantiqi",
+          "Faqat matn uzunligi",
+          "Faqat shrift",
+          "Faqat fayl nomi"
+        ]
+      ],
+      "code": "const n = 7;\nconsole.log(n % 2 === 0 ? \"Juft\" : \"Toq\");",
+      "output": "Toq"
+    },
+    "3": {
+      "sections": [
+        [
+          "Boshqaruv tuzilmalari",
+          "Chiziqli ketma-ketlik, tanlash va takrorlash ko‘plab algoritmlarning tayanch tuzilmalaridir. Bir dasturda ular birgalikda uchrashi mumkin. Masalan, qiymatlarni olish chiziqli, yaroqliligini tekshirish shartli, ro‘yxatni qayta ishlash esa takrorlanuvchi qism bo‘ladi. Algoritm turi uning matni uzunligidan aniqlanmaydi."
+        ],
+        [
+          "Chiziqli algoritm",
+          "Amallar belgilangan tartibda birin-ketin bajariladi. To‘rtburchak perimetrida a va b olinadi, yig‘indi hisoblanadi, ikki baravar qilinadi va chiqariladi. Qadamlarni o‘rin almashtirish ma’lumot tayyor bo‘lmasdan ishlatilishiga olib kelishi mumkin. Har yangi qiymat oldingi ma’lumotga qanday bog‘langani ko‘rsatiladi."
+        ],
+        [
+          "Tarmoqlanish",
+          "Shart natijasiga ko‘ra yo‘llardan biri tanlanadi. Ikki sondan kattasini topishda a>b tekshiriladi; tenglik holati ham maqsadga qarab belgilanadi. Shart ifodasi bilan o‘zlashtirish bir xil emas. Har yo‘lda yakuniy natija qanday hosil bo‘lishi aniq ko‘rinishi kerak."
+        ],
+        [
+          "Takrorlash",
+          "Bir xil amal turli qiymatlar uchun qayta bajariladi. Takrorlashning boshlanishi, davom etish sharti va holat o‘zgarishi birga rejalashtiriladi. 1 dan n gacha yig‘indida hisoblagich 1 dan boshlanadi va har safar ortadi. O‘zgarish yo‘q bo‘lsa tugamaydigan sikl paydo bo‘lishi mumkin."
+        ],
+        [
+          "Ichma-ich qo‘llash",
+          "Sikl ichida shart bilan faqat musbat qiymatlar jamlanishi mumkin. Tashqi tuzilma takrorlashni, ichki shart esa qo‘shiladigan elementni tanlaydi. Qadamlar jadvali har iteratsiyadagi indeks, shart va yig‘indini qayd qiladi. Shu usul yakuniy raqamdan tashqari xatoning qayerdan kelganini ham ko‘rsatadi."
+        ]
+      ],
+      "task": "1 dan 5 gacha sonlar ichidan faqat juftlarini jamlash algoritmini yozing.",
+      "answer": "Sikl barcha sonlarni ko‘radi, shart 2 va 4 ni tanlaydi, natija 6. Bu takrorlash va tarmoqlanishning birlashgan misoli.",
+      "terms": [
+        [
+          "Ketma-ketlik",
+          "Amallarning belgilangan tartibda bajarilishi"
+        ],
+        [
+          "Tarmoqlanish",
+          "Shart asosida bajarish yo‘lini tanlash"
+        ],
+        [
+          "Sikl",
+          "Amallarni qayta bajarish tuzilmasi"
+        ],
+        [
+          "Iteratsiya",
+          "Siklning bitta aylanishi"
+        ],
+        [
+          "Hisoblagich",
+          "Takrorlash holatini sanovchi o‘zgaruvchi"
+        ]
+      ],
+      "questions": [
+        [
+          "Perimetrni formula bilan hisoblashning asosiy tuzilmasi qaysi?",
+          "Chiziqli",
+          "Faqat cheksiz sikl",
+          "Faqat tasodifiy tanlash",
+          "Faqat massiv"
+        ],
+        [
+          "Shart nimani belgilaydi?",
+          "Qaysi yo‘l bajarilishini",
+          "Fayl hajmini",
+          "Monitor rangini",
+          "Kod shriftini"
+        ],
+        [
+          "1 dan 5 gacha juftlar yig‘indisi nechchi?",
+          "6",
+          "15",
+          "5",
+          "10"
+        ],
+        [
+          "Siklda holat o‘zgarmasa nima xavfi bor?",
+          "Tugamaydigan takrorlash",
+          "Faqat fayl kichrayishi",
+          "Faqat shrift almashishi",
+          "Faqat nom o‘zgarishi"
+        ],
+        [
+          "Sikl ichida shart ishlatish mumkinmi?",
+          "Ha, tuzilmalar birlashadi",
+          "Hech qachon",
+          "Faqat internet bilan",
+          "Faqat rasm ichida"
+        ]
+      ],
+      "code": "let summa = 0;\nfor (let i = 1; i <= 5; i++) {\n  if (i % 2 === 0) summa += i;\n}\nconsole.log(summa);",
+      "output": "6"
+    },
+    "4": {
+      "sections": [
+        [
+          "Shartdan modelga o‘tish",
+          "Amaliy masalada birinchi ish kod yozish emas, talabni aniqlashdir. Berilgan qiymatlar, izlanayotgan natija, o‘lchov birligi va cheklovlar yoziladi. Misol: mahsulot narxi va sonidan jami to‘lov topish. Narx manfiy bo‘lmasligi, son esa butun va manfiy bo‘lmasligi shart qilib olinadi."
+        ],
+        [
+          "Kirish va chiqish jadvali",
+          "Kirishlar narx va son, chiqish jami to‘lovdir. Pul birligi bir xil olinadi; bu darsda qiymatlar butun so‘mda beriladi. Son 0 bo‘lsa jami 0 chiqishi yaroqli holat. Son 2,5 bo‘lsa donalab sotiladigan mahsulot uchun kirish rad etiladi. Cheklov natijaga ta’sir qiladi."
+        ],
+        [
+          "Algoritm va blok-sxema",
+          "Boshlashdan keyin ma’lumot olinadi va tekshirish rombiga o‘tiladi. Yaroqli bo‘lsa narx×son hisoblanadi; yaroqsiz bo‘lsa tushunarli xabar chiqariladi. Ikkala yo‘l tugashga keladi. Chizmada tekshiruvdan o‘tmasdan hisoblashga kiradigan yashirin yo‘l qolmasligi kerak."
+        ],
+        [
+          "Qo‘lda bajarish",
+          "Narx 12000, son 3 uchun natija 36000 bo‘ladi. Jadvalda boshlang‘ich qiymatlar, tekshirish natijasi va jami qayd qilinadi. So‘ng narx 0, son 0, manfiy narx va kasr son holatlari ko‘riladi. Kutilgan chiqish sinovdan oldin yozilsa xato natijani oqlash kamayadi."
+        ],
+        [
+          "Hisobot va mezon",
+          "Topshirish to‘plami masala modeli, kirish-chiqish jadvali, blok-sxema, kod yoki psevdokod va test jadvalidan iborat. Tekshiruvlar aynan shartdagi cheklovlarga tayanadi. Birlik yozilmagan yoki noto‘g‘ri kirish jim qabul qilingan yechim izoh bilan tuzatiladi. Natija bilan birga uning hosil bo‘lish yo‘li baholanadi."
+        ]
+      ],
+      "task": "Donalab sotiladigan mahsulot uchun jami to‘lov sxemasini tuzing; beshta sinov holatini yozing.",
+      "answer": "12000 va 3 uchun 36000; nol son uchun 0. Manfiy narx va kasr son rad etiladi. Qiymatlar chekli son bo‘lishi ham tekshiriladi.",
+      "terms": [
+        [
+          "Model",
+          "Masalaning muhim ma’lumot va bog‘lanishlari"
+        ],
+        [
+          "Cheklov",
+          "Yaroqli kirish uchun qo‘yilgan talab"
+        ],
+        [
+          "Validatsiya",
+          "Kirish qiymatlarini talabga solishtirish"
+        ],
+        [
+          "Test holati",
+          "Kirish va kutiladigan natija jufti"
+        ],
+        [
+          "Birlik",
+          "Qiymatning o‘lchov yoki pul belgisi"
+        ]
+      ],
+      "questions": [
+        [
+          "12000 so‘mdan 3 dona narxi qancha?",
+          "36000 so‘m",
+          "12003 so‘m",
+          "4000 so‘m",
+          "15000 so‘m"
+        ],
+        [
+          "Donalab mahsulotda 2.5 soni qanday baholanadi?",
+          "Butun son talabi bo‘lsa rad etiladi",
+          "Doim 3 ga o‘zgartiriladi",
+          "Doim 2 ga o‘zgartiriladi",
+          "Doim qabul qilinadi"
+        ],
+        [
+          "Kutilgan natija qachon yozilgani ma’qul?",
+          "Sinovdan avval",
+          "Faqat xato chiqqach",
+          "Faqat nashrdan keyin",
+          "Hech qachon"
+        ],
+        [
+          "Narx va son qaysi ma’lumotlar?",
+          "Kirish",
+          "Faqat chiqish",
+          "Faqat sarlavha",
+          "Faqat xotira manzili"
+        ],
+        [
+          "Sxemada yaroqsiz kirish yo‘li nima beradi?",
+          "Tushunarli xato xabarini",
+          "Tasodifiy natijani",
+          "Har doim nolni",
+          "Har doim cheksizlikni"
+        ]
+      ],
+      "code": "const narx = 12000;\nconst son = 3;\nif (Number.isFinite(narx) && narx >= 0 &&\n    Number.isInteger(son) && son >= 0) {\n  console.log(narx * son);\n} else {\n  console.log(\"Yaroqsiz kirish\");\n}",
+      "output": "36000"
+    },
+    "5": {
+      "sections": [
+        [
+          "Yechimni mustaqil rejalash",
+          "Amaliy masala: uchta chekli sonning eng kattasini topish. Kirishlar a, b, c; chiqish ularning maksimumidir. Teng qiymatlar ham ruxsat etiladi. Dastlab faqat musbat sonlarga mos yechim tuzib qo‘yish xato: cheklovda manfiy sonlar taqiqlanmagan bo‘lsa ular ham ko‘riladi."
+        ],
+        [
+          "Boshlang‘ich qiymat",
+          "Maksimum uchun a boshlang‘ich qiymat qilib olinadi. Keyin b va c shu qiymat bilan solishtiriladi. Maksimumni 0 dan boshlash barcha kirishlar manfiy bo‘lganda noto‘g‘ri natija beradi. Boshlang‘ich qiymat tanlovi algoritmning qaysi ma’lumotlarga ishlashini belgilaydi."
+        ],
+        [
+          "Solishtirish qadamlari",
+          "Agar b joriy maksimumdan katta bo‘lsa maksimum yangilanadi. Keyin c bilan ayni amal bajariladi. Har solishtirishdan keyin ko‘rilgan qiymatlar ichidagi eng katta son saqlanadi. Bu qoida qadamlarning to‘g‘riligini tushuntirishga yordam beradi va ro‘yxat masalasiga ham kengayadi."
+        ],
+        [
+          "Sinovlar to‘plami",
+          "Birinchi, ikkinchi va uchinchi qiymat maksimum bo‘ladigan holatlar tanlanadi. Barcha son teng, ikkita maksimum teng va barcha son manfiy holatlar qo‘shiladi. Masalan, −8, −3, −9 uchun −3 kutiladi. Sinov jadvaliga haqiqiy natija va o‘tdi yoki xato yoziladi."
+        ],
+        [
+          "Xatoni tuzatish",
+          "Natija xato bo‘lsa kodni tasodifiy almashtirish o‘rniga qadamlar jadvali bilan ilk farq topiladi. O‘sha qadamning sharti yoki o‘zlashtirishi tuzatiladi. Tuzatishdan keyin avval muvaffaqiyatli bo‘lgan testlar ham qayta bajariladi. Bu qayta sinov boshqa holatni buzib qo‘ymaslikka yordam beradi."
+        ]
+      ],
+      "task": "Uch son maksimumi uchun yechim va kamida olti test tuzing.",
+      "answer": "Boshlang‘ich maksimum a bo‘ladi; keyingi ikki son bilan tekshiriladi. −8,−3,−9 natijasi −3; 4,4,4 natijasi 4.",
+      "terms": [
+        [
+          "Maksimum",
+          "Ko‘rilayotgan qiymatlarning eng kattasi"
+        ],
+        [
+          "Boshlang‘ich qiymat",
+          "Hisoblash boshlanishidagi holat"
+        ],
+        [
+          "Qadamlar jadvali",
+          "Har bosqichdagi qiymatlarni qayd qilish"
+        ],
+        [
+          "Chegara testi",
+          "Cheklov yaqinidagi qiymatlar bilan sinov"
+        ],
+        [
+          "Qayta sinov",
+          "Tuzatishdan keyin tekshiruvni takrorlash"
+        ]
+      ],
+      "questions": [
+        [
+          "Manfiy sonlar maksimumini 0 dan boshlash nega xato?",
+          "0 kirishdagi maksimum bo‘lmasligi mumkin",
+          "Manfiy son yo‘q",
+          "Solishtirish mumkin emas",
+          "Faqat ekran sababli"
+        ],
+        [
+          "−8 −3 −9 maksimumi nechchi?",
+          "−3",
+          "0",
+          "−9",
+          "−8"
+        ],
+        [
+          "4 4 4 uchun maksimum nechchi?",
+          "4",
+          "0",
+          "12",
+          "Tenglik taqiqlangan"
+        ],
+        [
+          "Tuzatishdan keyin nima qilinadi?",
+          "Oldingi testlar ham qaytariladi",
+          "Faqat fayl nomi almashadi",
+          "Barcha testlar o‘chiriladi",
+          "Faqat shrift tekshiriladi"
+        ],
+        [
+          "Uch son maksimumining kirishi nima?",
+          "Uchta berilgan son",
+          "Faqat maksimum nomi",
+          "Faqat konsol",
+          "Faqat natija"
+        ]
+      ],
+      "code": "const a = -8, b = -3, c = -9;\nlet engKatta = a;\nif (b > engKatta) engKatta = b;\nif (c > engKatta) engKatta = c;\nconsole.log(engKatta);",
+      "output": "-3"
+    },
+    "6": {
+      "sections": [
+        [
+          "Til va dastur",
+          "Dasturlash tili ma’lumot va amallarni formal qoidalar bilan ifodalash imkonini beradi. Dastur esa shu tilda yozilgan ko‘rsatmalar va ta’riflar to‘plamidir. Bir algoritm turli tillarda amalga oshirilishi mumkin. Til tanlash vazifa, ish muhiti va mavjud vositalarga bog‘liq; barcha til faqat bitta sohada ishlaydi degan qoida yo‘q."
+        ],
+        [
+          "JavaScript muhiti",
+          "Ushbu modulda misollar JavaScript bilan beriladi, chunki u Web dasturlashga bevosita bog‘liq. Misollarni brauzerning dasturchi vositalari konsolida yoki Node.js muhitida bajarish mumkin. console.log natijani konsolga chiqaradi. Brauzerdagi prompt kabi imkoniyatlar esa Node.jsda avtomatik mavjud emas."
+        ],
+        [
+          "Bajarilish jarayoni",
+          "Dvigatel kod sintaksisini tahlil qiladi va tegishli amallarni bajaradi; zamonaviy dvigatellar tarjima va optimallashtirishdan ham foydalanadi. «JavaScript hech qachon kompilyatsiya qilinmaydi» kabi mutlaq fikr to‘g‘ri emas. Boshlovchi uchun avvalo ko‘rsatmalar tartibi va qiymatlar qanday o‘zgarishini tushunish muhim."
+        ],
+        [
+          "Dastur tuzilishi va xatolar",
+          "Izohlar maqsadni tushuntiradi, o‘zgaruvchilar ma’lumotni saqlaydi, ifodalar hisoblaydi, boshqaruv operatorlari bajarilish yo‘lini belgilaydi. Sintaksis xatosi yozuv qoidasi buzilishidir. Bajarilishdagi xato dastur ishlaganda yuz beradi; mantiqiy xatoda esa dastur noto‘g‘ri natija chiqarishi mumkin. Xabar va satr raqami muammoni izlashga yordam beradi."
+        ]
+      ],
+      "task": "Ikki son yig‘indisini chiqaradigan dasturni ishga tushiring. Bitta sintaksis va bitta mantiqiy xatoni ataylab o‘zgartirib taqqoslang.",
+      "answer": "Qavsni yopmaslik sintaksis xatosi; yig‘indi o‘rniga ayirish mantiqiy xato. Tuzatgach 4+6 uchun 10 kutiladi.",
+      "terms": [
+        [
+          "Dastur",
+          "Til qoidalari bilan yozilgan ko‘rsatmalar"
+        ],
+        [
+          "Sintaksis",
+          "Tilning yozuv qoidalari"
+        ],
+        [
+          "Dvigatel",
+          "JavaScript kodini bajaruvchi tizim"
+        ],
+        [
+          "Konsol",
+          "Natija va xabarlar ko‘rinadigan vosita"
+        ],
+        [
+          "Mantiqiy xato",
+          "Dastur ishlasa ham talabga zid natija"
+        ]
+      ],
+      "questions": [
+        [
+          "console.log qayerga chiqaradi?",
+          "Konsolga",
+          "Har doim printerga",
+          "Faqat faylga",
+          "Faqat URLga"
+        ],
+        [
+          "Bir algoritm turli tillarda yoziladimi?",
+          "Ha",
+          "Hech qachon",
+          "Faqat rasmda",
+          "Faqat bitta qurilmada"
+        ],
+        [
+          "Yig‘indi o‘rniga ayirish qanday xato?",
+          "Mantiqiy",
+          "Faqat shrift",
+          "Faqat ulanish",
+          "Faqat nomlash"
+        ],
+        [
+          "Node.jsda prompt doim mavjudmi?",
+          "Yo‘q, brauzer APIlari farq qiladi",
+          "Ha, hamma joyda",
+          "Faqat monitor bilan",
+          "Faqat raqam uchun"
+        ],
+        [
+          "Sintaksis xabarida nima foydali?",
+          "Xabar va koddagi joylashuv",
+          "Faqat kompyuter rangi",
+          "Faqat fayl ikonasi",
+          "Faqat vaqt"
+        ]
+      ],
+      "code": "// Ikki sonning yig‘indisi\nconst a = 4;\nconst b = 6;\nconsole.log(a + b);",
+      "output": "10"
+    },
+    "7": {
+      "sections": [
+        [
+          "Nom va qiymat",
+          "O‘zgaruvchi qiymatga murojaat qilish uchun nom beradi. let bilan yaratilgan bog‘lanishga keyin yangi qiymat berish mumkin. O‘zlashtirish tenglikni isbotlash emas: u hisoblangan qiymatni nom bilan bog‘laydi. Masalan, son = son + 1 avval eski qiymatni o‘qiydi, bir qo‘shadi va natijani qayta saqlaydi."
+        ],
+        [
+          "const mazmuni",
+          "const e’lon qilinganda boshlang‘ich qiymat talab qiladi va shu bog‘lanishga keyin boshqa qiymatni o‘zlashtirish mumkin emas. Biroq const massivning elementlari o‘zgarishi mumkin: bog‘lanishning o‘zgarmasligi obyektning mutlaq muzlatilgani degani emas. Oddiy qiymat qayta berilmasa const ishlatish niyatni aniqroq ko‘rsatadi."
+        ],
+        [
+          "Identifikator va uslub",
+          "Nom raqam bilan boshlanmaydi, kalit so‘z o‘rnida ishlatilmaydi va katta-kichik harf farqlanadi. Jami va jami alohida nomlardir. Tushunarli narx, miqdor, jamiTolov kabi nomlar x yoki a1 dan ko‘ra maqsadni yaxshiroq ochadi. Ushbu misollarda lotin harflari va camelCase uslubi bir xilda qo‘llanadi."
+        ],
+        [
+          "Ko‘rinish doirasi",
+          "let va const blok doirasiga ega. Jingalak qavs ichida e’lon qilingan nom odatda tashqaridan ko‘rinmaydi. E’lon qilinmagan nomga tayangan kodni tuzatish kerak; yashirin global holatlar xatoni ko‘paytiradi. Nomni e’lon qilish, unga qiymat berish va qiymatni o‘qish amallari alohida tushuniladi."
+        ]
+      ],
+      "task": "Narx va miqdordan jami hisoblang; miqdorni yangilang va jami qiymatini qayta hisoblash zarurligini ko‘rsating.",
+      "answer": "Narx const bo‘lishi mumkin, o‘zgaradigan miqdor let bo‘ladi. Oldin hisoblangan jami avtomatik qayta hisoblanmaydi; yangi ifoda bajariladi.",
+      "terms": [
+        [
+          "O‘zgaruvchi",
+          "Qiymatga nom orqali murojaat qilish vositasi"
+        ],
+        [
+          "Identifikator",
+          "Koddagi nom"
+        ],
+        [
+          "O‘zlashtirish",
+          "Qiymatni bog‘lanishga berish"
+        ],
+        [
+          "Blok doirasi",
+          "Nomning tegishli qavslar ichida ko‘rinishi"
+        ],
+        [
+          "camelCase",
+          "So‘zlarni keyingi bosh harflar bilan ulab nomlash"
+        ]
+      ],
+      "questions": [
+        [
+          "Qaysi nom yaroqsiz?",
+          "2son",
+          "son2",
+          "jamiTolov",
+          "narx"
+        ],
+        [
+          "let x=3; x=x+1 dan keyin x nechchi?",
+          "4",
+          "3",
+          "1",
+          "31"
+        ],
+        [
+          "const massiv elementi o‘zgarishi mumkinmi?",
+          "Ha, bog‘lanish o‘zgarmasa",
+          "Hech qachon",
+          "Faqat internet bilan",
+          "Faqat son bo‘lmasa"
+        ],
+        [
+          "jami va Jami bir xil nommi?",
+          "Yo‘q",
+          "Ha",
+          "Faqat Windowsda",
+          "Faqat konsolda"
+        ],
+        [
+          "Oldin hisoblangan jami miqdor o‘zgarsa avtomatik yangilanadimi?",
+          "Yo‘q, qayta hisoblash kerak",
+          "Har doim",
+          "Faqat rang o‘zgarsa",
+          "Faqat const bilan"
+        ]
+      ],
+      "code": "const narx = 5000;\nlet miqdor = 2;\nlet jami = narx * miqdor;\nmiqdor = 3;\njami = narx * miqdor;\nconsole.log(jami);",
+      "output": "15000"
+    },
+    "8": {
+      "sections": [
+        [
+          "Qiymat turi va amal",
+          "Tur qiymat bilan qanday amallar bajarilishi va natija qanday talqin qilinishini belgilaydi. JavaScript dinamik tiplanadi: bir let nomiga turli vaqtda boshqa tur qiymati berilishi mumkin. Bu tekshirish kerak emas degani emas. Son, satr va mantiqiy qiymatni aralashtirish kutilmagan natija berishi mumkin."
+        ],
+        [
+          "Butun va haqiqiy son",
+          "Oddiy butun va kasr sonlar JavaScriptda odatda number turiga kiradi. Number.isInteger qiymatning butunligini tekshiradi. IEEE 754 hisoblash sabab ayrim o‘nli kasrlar aniq ifodalanmaydi; 0.1+0.2 natijasi aynan 0.3 bo‘lmasligi mumkin. Pul va aniq o‘lchovlarda talabga mos ifodalash va yaxlitlash usuli tanlanadi."
+        ],
+        [
+          "Belgili va mantiqiy qiymat",
+          "JavaScriptda alohida char turi yo‘q: bitta belgi ham string bilan ifodalanadi. true va false esa boolean qiymatlaridir; ular tirnoqqa olinmaydi. \"false\" bo‘sh bo‘lmagan satr bo‘lib, mantiqiy kontekstda true sifatida talqin qilinadi. Shuning uchun foydalanuvchi matnini ko‘r-ko‘rona Boolean bilan o‘girish xato bo‘lishi mumkin."
+        ],
+        [
+          "O‘girish va tekshirish",
+          "Number(\"12\") son 12 beradi, ammo Number(\"salom\") NaN beradi. NaNni Number.isNaN orqali aniqlash mumkin; Number.isFinite faqat chekli sonlarni qabul qiladi. Bo‘sh satr Number bilan 0 ga aylanishi mumkin, shuning uchun majburiy maydon bo‘shligini oldindan tekshirish zarur. Avval xom kirish, keyin turga o‘girish, so‘ng cheklov tekshiriladi."
+        ]
+      ],
+      "task": "\"12\", \"12.5\", \"abc\" va bo‘sh matn uchun son o‘girish natijalarini solishtiring.",
+      "answer": "12 va 12.5 son bo‘ladi; abc NaN beradi. Bo‘sh matn 0 ga aylanishi mumkin, lekin majburiy qiymat uchun oldindan rad etilishi kerak.",
+      "terms": [
+        [
+          "number",
+          "JavaScriptdagi odatiy son turi"
+        ],
+        [
+          "string",
+          "Matn qiymati turi"
+        ],
+        [
+          "boolean",
+          "true yoki false mantiqiy turi"
+        ],
+        [
+          "NaN",
+          "Sonli hisob natijasi yaroqsizligini bildiruvchi qiymat"
+        ],
+        [
+          "Turga o‘girish",
+          "Qiymatni boshqa turda ifodalash"
+        ]
+      ],
+      "questions": [
+        [
+          "JavaScriptda bitta belgi odatda qaysi tur?",
+          "string",
+          "char faqat",
+          "integer faqat",
+          "byte faqat"
+        ],
+        [
+          "true qanday tur?",
+          "boolean",
+          "string",
+          "array",
+          "function"
+        ],
+        [
+          "Number(\"abc\") nimani beradi?",
+          "NaN",
+          "0",
+          "abc",
+          "1"
+        ],
+        [
+          "\"false\" bo‘sh bo‘lmagan satri mantiqiy kontekstda qanday?",
+          "true",
+          "false",
+          "Har doim null",
+          "Sintaksis xato"
+        ],
+        [
+          "0.1+0.2 uchun nimani yodda tutish kerak?",
+          "Kasrlarni ifodalash aniqligi cheklangan",
+          "Barcha kasr aniq",
+          "Qo‘shish taqiqlangan",
+          "Faqat integer bor"
+        ]
+      ],
+      "code": "const son = Number(\"12.5\");\nconsole.log(typeof son);\nconsole.log(Number.isFinite(son));\nconsole.log(Number.isInteger(son));",
+      "output": "number\ntrue\nfalse"
+    },
+    "9": {
+      "sections": [
+        [
+          "Kiritish va chiqarish",
+          "Brauzerda prompt matn yoki bekor qilishda null qaytaradi; konsoldagi misollarda esa oldindan berilgan qiymatlar ishlatiladi. console.log kuzatiladigan natijani chiqaradi. Kirishning tashqi ko‘rinishi bilan haqiqiy turi bir xil bo‘lmasligi mumkin. Hisoblashdan avval kerakli o‘girish va validatsiya bajariladi."
+        ],
+        [
+          "Arifmetik ifodalar",
+          "Qo‘shish, ayirish, ko‘paytirish, bo‘lish, qoldiq va daraja amallari +, -, *, /, % va ** bilan yoziladi. Qavs talabni aniq ifodalaydi: (a+b)/2 o‘rtacha beradi. + satr bilan uchrashsa ulashga olib kelishi mumkin; \"2\"+3 natijasi \"23\", Number(\"2\")+3 esa 5 bo‘ladi."
+        ],
+        [
+          "Taqqoslash va mantiq",
+          "=== turga majburiy o‘girmasdan tenglikni, !== teng emaslikni tekshiradi. <, <=, > va >= tartib taqqoslashlaridir. && ikkala shart, || kamida bittasi va ! inkor uchun ishlatiladi. Oraliq uchun 0<=x<=100 deb zanjirlash o‘rniga x>=0 && x<=100 yoziladi."
+        ],
+        [
+          "Natijani talqin qilish",
+          "Bo‘luvchi nolga tengmi, son chekli va kerakli oraliqdami — masalaga ko‘ra tekshiriladi. JavaScript number soni nolga bo‘linganda Infinity yoki NaN chiqishi mumkin; bu foydalanuvchiga maqbul natija degani emas. Ifoda natijasi qiymat va birlik bilan chiqariladi, kutilgan javob bilan solishtiriladi."
+        ]
+      ],
+      "task": "Ikki sonning o‘rtachasini va ikkalasi ham 0–100 oralig‘ida ekanini hisoblang.",
+      "answer": "40 va 80 uchun o‘rtacha 60; ikkalasi yaroqli. Har ikki songa alohida pastki va yuqori chegara sharti qo‘llanadi.",
+      "terms": [
+        [
+          "Ifoda",
+          "Qiymat hosil qiluvchi yozuv"
+        ],
+        [
+          "Operator",
+          "Qiymatlarga amal bajaruvchi belgi"
+        ],
+        [
+          "Operand",
+          "Amal qo‘llanadigan qiymat"
+        ],
+        [
+          "Qoldiq",
+          "Bo‘lishdan qoladigan qism"
+        ],
+        [
+          "Ustuvorlik",
+          "Amallar bajarilish tartibi"
+        ]
+      ],
+      "questions": [
+        [
+          "\"2\"+3 natijasi qanday?",
+          "\"23\"",
+          "5",
+          "6",
+          "NaN doim"
+        ],
+        [
+          "Oraliq tekshirish qaysi?",
+          "x>=0 && x<=100",
+          "0<=x<=100",
+          "x=0=100",
+          "x+100"
+        ],
+        [
+          "(40+80)/2 nechchi?",
+          "60",
+          "80",
+          "40",
+          "120"
+        ],
+        [
+          "=== nimani tekshiradi?",
+          "Majburiy tur o‘girishsiz tenglikni",
+          "Faqat o‘zlashtirishni",
+          "Faqat ulashni",
+          "Faqat qoldiqni"
+        ],
+        [
+          "&& qachon rost bo‘ladi, operandlar boolean bo‘lsa?",
+          "Ikkalasi rost bo‘lsa",
+          "Faqat bittasi rost bo‘lsa",
+          "Ikkalasi yolg‘on bo‘lsa",
+          "Har doim"
+        ]
+      ],
+      "code": "const a = 40, b = 80;\nconst yaroqli = a >= 0 && a <= 100 && b >= 0 && b <= 100;\nconsole.log((a + b) / 2);\nconsole.log(yaroqli);",
+      "output": "60\ntrue"
+    },
+    "10": {
+      "sections": [
+        [
+          "Formula va shart",
+          "Amaliy vazifa: to‘rtburchakning yuzi va perimetrini topish. Kirishlar musbat chekli a va b, chiqishlar S=a×b va P=2×(a+b). Uzunliklar bir xil birlikda olinadi. Yuzaning birligi kvadrat birlik, perimetrniki uzunlik birligidir. Formula kodi masala modelidan keyin yoziladi."
+        ],
+        [
+          "Dastur ketma-ketligi",
+          "Dastlab kirish tayyorlanadi, turlar va cheklov tekshiriladi, so‘ng ikkala formula hisoblanadi. Koddagi oraliq nomlar tushunarli bo‘ladi. + va * ustuvorligiga tasodifan tayanish o‘rniga perimetr qavs bilan yoziladi. Hisoblashdan keyin natija chekli ekanini tekshirish juda katta qiymatlar uchun ham foydali."
+        ],
+        [
+          "Sinov va dalil",
+          "3 va 4 uchun yuza 12, perimetr 14. 1 va 1, 2.5 va 4, nol, manfiy va son bo‘lmagan qiymatlar sinovga olinadi. Noto‘g‘ri kirish uchun formula ishlatilmaydi. Test jadvalida kirish, kutilgan natija, haqiqiy natija va xulosa bo‘ladi."
+        ],
+        [
+          "Topshirish va yaxshilash",
+          "Hisobot algoritm, kod, birliklar va testlarni qamraydi. Xato tuzatilgach barcha tegishli testlar qayta bajariladi. Tasvir yoki chiroyli interfeys hisoblash to‘g‘riligini almashtirmaydi. Dastur avval sodda konsol ko‘rinishida ishonchli ishlaydi, keyingi bosqichda foydalanuvchi formasi bilan bog‘lanishi mumkin."
+        ]
+      ],
+      "task": "Yuza va perimetr dasturini yarating; kamida oltita test bilan tekshiring.",
+      "answer": "3×4=12 va 2×(3+4)=14. 2.5 va 4 uchun 10 hamda 13. Nol yoki manfiy tomon rad etiladi.",
+      "terms": [
+        [
+          "Formula",
+          "Qiymatlar orasidagi hisoblash bog‘lanishi"
+        ],
+        [
+          "Perimetr",
+          "Chegara tomonlari uzunliklari yig‘indisi"
+        ],
+        [
+          "Yuza",
+          "Tekis shakl egallagan maydon"
+        ],
+        [
+          "Valid kirish",
+          "Masala cheklovlarini qanoatlantiruvchi ma’lumot"
+        ],
+        [
+          "Hisobot",
+          "Bajarilgan ish va sinov dalillari bayoni"
+        ]
+      ],
+      "questions": [
+        [
+          "a=3 b=4 uchun perimetr qancha?",
+          "14",
+          "12",
+          "7",
+          "24"
+        ],
+        [
+          "a=2.5 b=4 uchun yuza qancha?",
+          "10",
+          "13",
+          "6.5",
+          "20"
+        ],
+        [
+          "Tomon 0 bo‘lsa ushbu masalada nima qilinadi?",
+          "Musbatlik talabi bo‘yicha rad etiladi",
+          "Har doim qabul qilinadi",
+          "Avtomatik 1 qilinadi",
+          "Avtomatik 10 qilinadi"
+        ],
+        [
+          "Yuza birligi qanday?",
+          "Kvadrat birlik",
+          "Faqat uzunlik",
+          "Faqat soniya",
+          "Faqat foiz"
+        ],
+        [
+          "Test jadvalida nima bo‘lishi kerak?",
+          "Kutilgan va haqiqiy natija",
+          "Faqat kod rangi",
+          "Faqat kompyuter modeli",
+          "Faqat fayl sanasi"
+        ]
+      ],
+      "code": "const a = 3, b = 4;\nif (Number.isFinite(a) && a > 0 &&\n    Number.isFinite(b) && b > 0) {\n  console.log(\"Yuza:\", a * b);\n  console.log(\"Perimetr:\", 2 * (a + b));\n} else {\n  console.log(\"Tomonlar musbat chekli son bo‘lsin\");\n}",
+      "output": "Yuza: 12\nPerimetr: 14"
+    },
+    "11": {
+      "sections": [
+        [
+          "if va else",
+          "if sharti mantiqiy jihatdan rost bo‘lsa tegishli blok bajariladi. else bo‘lsa, shart yolg‘on bo‘lganda boshqa blok tanlanadi. Bir if/else tuzilmasida shu ikki yo‘ldan biri ishlaydi. Shartni tekshirish ma’lumotning yaroqliligini tekshirish bilan bir xil vazifa emas; avval yaroqsiz kirish ajratilishi mumkin."
+        ],
+        [
+          "Chegaralar",
+          "O‘tish bali 60 bo‘lsa >=60 yoziladi; >60 esa aynan 60 ni chiqarib tashlaydi. 59, 60 va 61 holatlari chegara xatosini ko‘rsatadi. Bahoning 0–100 oralig‘ida ekanligi ham tekshiriladi. Aks holda 150 ni yuqori baho deb qabul qiladigan dastur masala talabiga mos kelmaydi."
+        ],
+        [
+          "Ichma-ich shartlar",
+          "Bir shartning ichida ikkinchi shart bo‘lishi mumkin. Masalan, kirish yaroqli bo‘lgandan keyin o‘tish yoki qayta o‘qish qarori olinadi. Jingalak qavs va surish qaysi else qaysi ifga tegishli ekanini ravshanlashtiradi. Juda chuqur ichma-ichlikni alohida tekshiruvlar bilan sodda qilish mumkin."
+        ],
+        [
+          "Mustaqil shartdan farqi",
+          "Ikki mustaqil if bir holatda ikkalasi ham ishlashi mumkin. Bir-birini istisno qiladigan natijalar uchun if/else yoki else if qulay. = qiymat beradi, === esa tenglikni tekshiradi. Shart yonidagi ortiqcha nuqtali vergul kutilgan blokning boshqaruvdan chiqishiga sabab bo‘lishi mumkin; kod qadamma-qadam kuzatiladi."
+        ]
+      ],
+      "task": "0–100 ballni tekshirib, 60 dan boshlab o‘tdi degan natija chiqaring.",
+      "answer": "59 qayta o‘qish, 60 va 61 o‘tdi; −1 va 101 yaroqsiz. Tenglik chegarasi alohida sinaladi.",
+      "terms": [
+        [
+          "Shart",
+          "Qaror uchun tekshiriladigan ifoda"
+        ],
+        [
+          "if",
+          "Rost shart blokini bajaruvchi tuzilma"
+        ],
+        [
+          "else",
+          "Yolg‘on shart uchun muqobil blok"
+        ],
+        [
+          "Ichma-ich shart",
+          "Boshqa shart blokidagi tanlash"
+        ],
+        [
+          "Chegara qiymati",
+          "Qaror almashadigan nuqta"
+        ]
+      ],
+      "questions": [
+        [
+          "O‘tish chegarasi 60 bo‘lsa qaysi yozuv mos?",
+          "ball >= 60",
+          "ball > 60",
+          "ball = 60",
+          "ball < 60"
+        ],
+        [
+          "60 ball natijasi qanday?",
+          "O‘tdi",
+          "Qayta o‘qish",
+          "Yaroqsiz doim",
+          "Natija yo‘q"
+        ],
+        [
+          "Ikki mustaqil if haqida nima to‘g‘ri?",
+          "Ikkalasi ham bajarilishi mumkin",
+          "Faqat bittasi har doim",
+          "Hech biri bajarilmaydi",
+          "Ular sikl bo‘ladi"
+        ],
+        [
+          "101 ball uchun avval nima tekshiriladi?",
+          "0–100 oraliq talabi",
+          "Faqat o‘tish holati",
+          "Faqat fayl turi",
+          "Faqat monitor"
+        ],
+        [
+          "= va === farqi qanday?",
+          "O‘zlashtirish va tenglik",
+          "Ikkalasi bir xil",
+          "Faqat shrift farqi",
+          "Ikkalasi qoldiq"
+        ]
+      ],
+      "code": "const ball = 60;\nif (!Number.isFinite(ball) || ball < 0 || ball > 100) {\n  console.log(\"Yaroqsiz ball\");\n} else if (ball >= 60) {\n  console.log(\"O‘tdi\");\n} else {\n  console.log(\"Qayta o‘qish\");\n}",
+      "output": "O‘tdi"
+    },
+    "12": {
+      "sections": [
+        [
+          "Ko‘p variantli tanlash",
+          "Bir qiymatning bir necha aniq variantini tekshirishda switch qulay bo‘lishi mumkin. switch ifodasi bir marta olinadi va case qiymatlari bilan qat’iy tenglik asosida taqqoslanadi. Masalan, menyudagi amal kodi hisoblashni tanlaydi. Oraliqlarni tekshirishda esa else if ko‘pincha o‘qilishi sodda bo‘ladi."
+        ],
+        [
+          "case va break",
+          "Mos case topilgach bajarilish shu nuqtadan boshlanadi. break switchdan chiqishga xizmat qiladi. U yozilmasa keyingi case tanasi ham bajarilishi mumkin; bu fall-through deyiladi. Bu xatti-harakat ba’zan ataylab kerak bo‘ladi, ammo boshlovchi har bir yo‘l tugashini ochiq belgilashi ma’qul."
+        ],
+        [
+          "default va tur",
+          "Hech bir case mos kelmasa default yaroqsiz tanlovni tushuntiradi. case 1 sonini \"1\" satri bilan bir xil deb bo‘lmaydi. Foydalanuvchi kiritgan satr kerak bo‘lsa oldindan son sifatida tekshiriladi yoki case qiymatlari satr ko‘rinishida yoziladi. Aralash tur yashirin xatolar keltiradi."
+        ],
+        [
+          "Tanlashni tekshirish",
+          "Kalkulyatorda +, −, × va ÷ variantlari uchun kutilgan natija, noma’lum belgi va nolga bo‘lish holati sinaladi. switchning o‘zi ma’lumotni avtomatik validatsiya qilmaydi. Natija chiqarish bilan xato xabarini aralashtirmaslik uchun umumiy natija holati va har yo‘lning vazifasi belgilanadi."
+        ]
+      ],
+      "task": "Ikki son uchun + va * amallarini switch bilan tanlang; noma’lum belgiga xabar bering.",
+      "answer": "2 va 3 uchun + natijasi 5, * natijasi 6. ? uchun noma’lum amal chiqadi. Har case break bilan tugaydi.",
+      "terms": [
+        [
+          "switch",
+          "Bitta ifodaga ko‘ra variant tanlash tuzilmasi"
+        ],
+        [
+          "case",
+          "Taqqoslanadigan variant belgisi"
+        ],
+        [
+          "break",
+          "Joriy switch yoki sikldan chiqish"
+        ],
+        [
+          "default",
+          "Mos variant topilmagandagi yo‘l"
+        ],
+        [
+          "Fall-through",
+          "Keyingi case tanasiga bajarilishning o‘tishi"
+        ]
+      ],
+      "questions": [
+        [
+          "switch case qiymatlarini qanday solishtiradi?",
+          "Qat’iy tenglik asosida",
+          "Har doim satrga o‘girib",
+          "Faqat uzunlik asosida",
+          "Tasodifiy"
+        ],
+        [
+          "break bo‘lmasa nima mumkin?",
+          "Keyingi case tanasi bajarilishi",
+          "Faqat fayl o‘chishi",
+          "Har doim sintaksis xato",
+          "Har doim chiqish"
+        ],
+        [
+          "Hech case mos kelmasa qaysi yo‘l kerak?",
+          "default",
+          "Faqat first",
+          "Faqat next",
+          "Faqat return 0"
+        ],
+        [
+          "case 1 \"1\" bilan mosmi?",
+          "Yo‘q",
+          "Har doim",
+          "Faqat Windowsda",
+          "Faqat brauzerda"
+        ],
+        [
+          "2 va 3 uchun * natijasi nechchi?",
+          "6",
+          "5",
+          "23",
+          "1"
+        ]
+      ],
+      "code": "const a = 2, b = 3, amal = \"*\";\nswitch (amal) {\n  case \"+\": console.log(a + b); break;\n  case \"*\": console.log(a * b); break;\n  default: console.log(\"Noma’lum amal\");\n}",
+      "output": "6"
+    },
+    "13": {
+      "sections": [
+        [
+          "Siklning uch tarkibi",
+          "Takrorlashda boshlang‘ich holat, davom etish sharti va keyingi holatga o‘tish bo‘ladi. Bu uch qism birga o‘ylab chiqiladi. Hisoblagich bir nuqtaga yetishi yoki qayta ishlanadigan ma’lumot tugashi mumkin. Har iteratsiya nima ish qilishi va sikldan keyin qaysi natija qolishi oldindan yoziladi."
+        ],
+        [
+          "for va while",
+          "for sanaladigan takrorlashda qulay: boshlanish, shart va yangilash bitta sarlavhada ko‘rinadi. while shartni har aylanishdan oldin tekshiradi. Shart boshida yolg‘on bo‘lsa, while tanasi bir marta ham bajarilmaydi. Bir xil masala har ikkala tuzilmada ifodalanishi mumkin."
+        ],
+        [
+          "do while",
+          "do-while avval tanani bajaradi, so‘ng davom etish shartini tekshiradi. Shu sabab kamida bir marta ishlaydi. Bu bir marta ko‘rsatilib keyin qayta taklif qilinadigan menyuga mos kelishi mumkin. JavaScriptda do-while bor; uni while bilan teng deb tasvirlash dastlabki tekshiruv farqini yashiradi."
+        ],
+        [
+          "Chegara va boshqaruv",
+          "i<n va i<=n turli miqdorda aylanish beradi. break sikldan chiqadi, continue keyingi iteratsiyaga o‘tadi; whileda continue yangilashni chetlab o‘tsa cheksiz takrorlash yuz berishi mumkin. Kichik n bilan qadamlar jadvali tuzib, hisoblagich qiymatlari va tugash sharti tekshiriladi."
+        ]
+      ],
+      "task": "1 dan 3 gacha sonlarni for bilan chiqaring. while va do-while boshida yolg‘on shartni qanday bajarishini solishtiring.",
+      "answer": "for 1,2,3 chiqaradi. Dastlab yolg‘on shartda while 0 marta, do-while 1 marta ishlaydi.",
+      "terms": [
+        [
+          "for",
+          "Sanashga qulay takrorlash tuzilmasi"
+        ],
+        [
+          "while",
+          "Shartni oldindan tekshiradigan sikl"
+        ],
+        [
+          "do-while",
+          "Shartni tanadan keyin tekshiradigan sikl"
+        ],
+        [
+          "continue",
+          "Keyingi iteratsiyaga o‘tish operatori"
+        ],
+        [
+          "Cheksiz sikl",
+          "Tugash shartiga yetmaydigan takrorlash"
+        ]
+      ],
+      "questions": [
+        [
+          "Boshlang‘ich sharti yolg‘on while necha marta bajariladi?",
+          "0",
+          "1",
+          "2",
+          "Cheksiz doim"
+        ],
+        [
+          "do-while eng kam necha marta bajariladi?",
+          "1",
+          "0",
+          "2",
+          "10"
+        ],
+        [
+          "for i=1; i<=3; i++ nechta aylanish?",
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        [
+          "continue nima qiladi?",
+          "Keyingi iteratsiyaga o‘tadi",
+          "Har doim dasturni tugatadi",
+          "Faqat qiymat qaytaradi",
+          "Massivni o‘chiradi"
+        ],
+        [
+          "Hisoblagich yangilanmasa nima yuz berishi mumkin?",
+          "Cheksiz sikl",
+          "Faqat yangi fayl",
+          "Har doim to‘g‘ri javob",
+          "Faqat satr chiqishi"
+        ]
+      ],
+      "code": "for (let i = 1; i <= 3; i++) {\n  console.log(i);\n}\nlet k = 0;\ndo {\n  console.log(\"Bir marta\");\n} while (k > 0);",
+      "output": "1\n2\n3\nBir marta"
+    },
+    "14": {
+      "sections": [
+        [
+          "Akkumulyator",
+          "Yig‘indini saqlovchi o‘zgaruvchi akkumulyator deyiladi. Qo‘shish uchun u 0 dan, ko‘paytma uchun 1 dan boshlanadi. Ko‘paytmani 0 dan boshlasak keyingi barcha ko‘paytirish 0 qoladi. Har iteratsiyada yangi son joriy natijaga qo‘shiladi yoki ko‘paytiriladi."
+        ],
+        [
+          "1 dan n gacha hisob",
+          "Ushbu amaliyotda n butun va 1–20 oralig‘ida olinadi. Sikl 1 dan n gacha, oxirgi sonni ham qamrab ishlaydi. Yig‘indi uchun n(n+1)/2 formulasi mustaqil tekshiruv vazifasini bajaradi. Ko‘paytma n! bilan bog‘liq, lekin number turining aniqligi cheklanganligi sabab katta n uchun natija aniq bo‘lmasligi mumkin."
+        ],
+        [
+          "Kuzatish jadvali",
+          "n=4 holatida yig‘indi 1,3,6,10; ko‘paytma 1,2,6,24 bo‘ladi. Jadvalda i, oldingi natija va yangilangan natija yoziladi. i<n xatosi oxirgi sonni tashlab yuboradi. Natija xato bo‘lsa boshlang‘ich qiymat, chegara va yangilash navbat bilan tekshiriladi."
+        ],
+        [
+          "Sinov va yakun",
+          "n=1 eng kichik yaroqli holat, n=4 oddiy misol, n=0 va kasr qiymat yaroqsiz holatlardir. Ko‘paytmaning aynan butun aniqligi talab qilingan misollarda xavfsiz butun oraliq tekshiriladi yoki BigInt kabi alohida usul o‘rganiladi. Ushbu mashqda kichik n bilan mantiqni isbotlashga e’tibor beriladi."
+        ]
+      ],
+      "task": "n=4 uchun yig‘indi va ko‘paytma hisoblang, barcha iteratsiyani jadvalda ko‘rsating.",
+      "answer": "Boshlanish summa=0, kopaytma=1. Yakunda 10 va 24. Yig‘indi formula bilan ham 4×5/2=10 chiqadi.",
+      "terms": [
+        [
+          "Akkumulyator",
+          "Bosqichma-bosqich natija yig‘uvchi o‘zgaruvchi"
+        ],
+        [
+          "Yig‘indi",
+          "Qiymatlarni qo‘shish natijasi"
+        ],
+        [
+          "Ko‘paytma",
+          "Qiymatlarni ko‘paytirish natijasi"
+        ],
+        [
+          "Faktorial",
+          "1 dan n gacha butun sonlar ko‘paytmasi"
+        ],
+        [
+          "Sikl chegarasi",
+          "Takrorlash qamrab oladigan qiymatlar"
+        ]
+      ],
+      "questions": [
+        [
+          "Yig‘indi odatda nimadan boshlanadi?",
+          "0",
+          "1",
+          "n",
+          "−1"
+        ],
+        [
+          "Ko‘paytma nimadan boshlanadi?",
+          "1",
+          "0",
+          "n doim",
+          "−1 doim"
+        ],
+        [
+          "1+2+3+4 natijasi nechchi?",
+          "10",
+          "24",
+          "6",
+          "4"
+        ],
+        [
+          "1×2×3×4 natijasi nechchi?",
+          "24",
+          "10",
+          "12",
+          "0"
+        ],
+        [
+          "i<n o‘rniga i<=n kerak bo‘lsa qanday xato bor?",
+          "Oxirgi son tushib qoladi",
+          "Birinchi son ikki marta",
+          "Har doim cheksiz",
+          "Hech farq yo‘q"
+        ]
+      ],
+      "code": "const n = 4;\nlet summa = 0, kopaytma = 1;\nfor (let i = 1; i <= n; i++) {\n  summa += i;\n  kopaytma *= i;\n}\nconsole.log(summa);\nconsole.log(kopaytma);",
+      "output": "10\n24"
+    },
+    "15": {
+      "sections": [
+        [
+          "Funksiya vazifasi",
+          "Funksiya ma’lum vazifani nomlangan yoki ifoda sifatidagi qayta ishlatiladigan qismga ajratadi. Hisoblash mantiqi bir joyda yozilib turli kirishlar bilan chaqiriladi. Bu kod takrorini kamaytiradi va testni yengillashtiradi. Funksiya faqat uzun kod uchun kerak degan fikr noto‘g‘ri: qisqa, aniq vazifa ham foydali bo‘lishi mumkin."
+        ],
+        [
+          "Parametr va argument",
+          "Ta’rifdagi a va b parametrlar, chaqirishdagi 4 va 6 argumentlardir. Parametrlar funksiya ichida shu chaqiruv qiymatlari bilan ishlaydi. Nomlar mos tushishi shart emas, lekin tartib muhim. Kerakli argument kelmasa undefined paydo bo‘lishi mumkin; buni masala shartiga ko‘ra tekshirish kerak."
+        ],
+        [
+          "return va console.log",
+          "return hisob natijasini chaqirgan joyga qaytaradi va shu funksiya bajarilishini tugatadi. console.log esa faqat konsolga chiqaradi. Natijani keyingi ifodada ishlatish kerak bo‘lsa uni qaytarish zarur. return bajarilmasa oddiy funksiya undefined qaytaradi; ekranga son chiqishi qaytariladigan qiymat borligini isbotlamaydi."
+        ],
+        [
+          "Doira va sof hisob",
+          "Funksiya ichidagi let va const tashqi kod bilan tasodifiy aralashmasligi kerak. Hisobni parametrdan olib natijani qaytaradigan funksiya turli holatda oson tekshiriladi. Bir xil yaroqli kirishga bir xil natija kutiladi. Tashqi o‘zgaruvchini yashirin o‘zgartirish kuzatishni qiyinlashtiradi va kerak bo‘lmasa ishlatilmaydi."
+        ]
+      ],
+      "task": "Ikki sonning o‘rtachasini qaytaradigan funksiya yozing; qaytgan natijani ikki baravar qiling.",
+      "answer": "ortacha(4,6) 5 qaytaradi. Natijani 2 ga ko‘paytirish 10 beradi. Faqat console.log bilan chiqaradigan funksiya bunga teng emas.",
+      "terms": [
+        [
+          "Funksiya",
+          "Muayyan vazifani bajaruvchi qayta ishlatiladigan kod"
+        ],
+        [
+          "Parametr",
+          "Funksiya ta’rifidagi kirish nomi"
+        ],
+        [
+          "Argument",
+          "Chaqiruvga berilgan haqiqiy qiymat"
+        ],
+        [
+          "return",
+          "Natijani chaqirgan joyga qaytarish"
+        ],
+        [
+          "Chaqiruv",
+          "Funksiyani argumentlar bilan ishga tushirish"
+        ]
+      ],
+      "questions": [
+        [
+          "function f(x) dagi x nima?",
+          "Parametr",
+          "Faqat chiqish",
+          "Faqat massiv",
+          "Kalit so‘z"
+        ],
+        [
+          "f(7) dagi 7 nima?",
+          "Argument",
+          "Parametr nomi",
+          "Funksiya nomi",
+          "Blok belgisi"
+        ],
+        [
+          "return nima qiladi?",
+          "Qiymat qaytarib funksiyani tugatadi",
+          "Faqat shriftni o‘zgartiradi",
+          "Faqat konsolga yozadi",
+          "Har doim sikl boshlaydi"
+        ],
+        [
+          "console.log bilan return bir xilmi?",
+          "Yo‘q",
+          "Ha",
+          "Faqat sonlarda",
+          "Faqat brauzerda"
+        ],
+        [
+          "ortacha(4,6) nechchi qaytaradi?",
+          "5",
+          "10",
+          "2",
+          "46"
+        ]
+      ],
+      "code": "function ortacha(a, b) {\n  return (a + b) / 2;\n}\nconst natija = ortacha(4, 6);\nconsole.log(natija * 2);",
+      "output": "10"
+    },
+    "16": {
+      "sections": [
+        [
+          "Massiv tushunchasi",
+          "Massiv ko‘p qiymatni bitta tartiblangan to‘plamda saqlashga yordam beradi. JavaScript Array boshqa tillardagi qat’iy bir turli massiv bilan barcha jihatdan bir xil emas: uzunligi o‘zgarishi va elementlari turli turda bo‘lishi mumkin. Ushbu darsda xatoni kamaytirish uchun faqat sonlardan iborat zich massiv bilan ishlanadi."
+        ],
+        [
+          "Indeks va uzunlik",
+          "Indeks 0 dan boshlanadi. Uch elementli massivda yaroqli indekslar 0,1,2; length esa 3. Oxirgi indeks length−1 bo‘ladi. Oddiy mavjud bo‘lmagan elementni o‘qish odatda undefined beradi; bu natijani son deb ishlatish NaNga olib kelishi mumkin. i<=length xatosi ortiqcha indeksni o‘qiydi."
+        ],
+        [
+          "Yaratish va yangilash",
+          "const ballar=[60,80,90] massiv yaratadi. ballar[1]=85 ikkinchi elementni yangilaydi. const bog‘lanishni boshqa massivga qayta berishni taqiqlaydi, lekin shu massiv ichini avtomatik o‘zgarmas qilmaydi. push oxiriga element qo‘shadi, pop oxirgi elementni olib qaytaradi; uzunlik o‘zgarishi kuzatiladi."
+        ],
+        [
+          "Massivdan o‘tish",
+          "Indeks kerak bo‘lsa for i=0; i<length; i++ shakli qulay. Faqat qiymat kerak bo‘lsa for...of ishlatiladi. for...in ko‘pincha xususiyat nomlarini beradi va bu mashqda qiymat aylanishi o‘rnida tanlanmaydi. Siklda massiv uzunligini o‘zgartirish qaysi elementlar ko‘rilishiga ta’sir qilishi mumkin, shuning uchun sodda topshiriqda tuzilma o‘zgartirilmaydi."
+        ]
+      ],
+      "task": "[60,80,90] massivining ikkinchi elementini 85 qiling va barcha elementni chiqaring.",
+      "answer": "Indeks 1 yangilanadi. Qiymatlar 60,85,90, uzunlik esa 3 bo‘lib qoladi.",
+      "terms": [
+        [
+          "Massiv",
+          "Tartiblangan elementlar to‘plami"
+        ],
+        [
+          "Indeks",
+          "Elementning noldan boshlanadigan o‘rni"
+        ],
+        [
+          "Element",
+          "Massivning bitta qiymati"
+        ],
+        [
+          "length",
+          "Massiv uzunligini bildiruvchi xususiyat"
+        ],
+        [
+          "push",
+          "Massiv oxiriga element qo‘shish metodi"
+        ]
+      ],
+      "questions": [
+        [
+          "3 elementli massivning oxirgi indeksi qaysi?",
+          "2",
+          "3",
+          "1",
+          "0"
+        ],
+        [
+          "ballar[1] qaysi element?",
+          "Ikkinchi",
+          "Birinchi",
+          "Oxirgi doim",
+          "Mavjud emas doim"
+        ],
+        [
+          "To‘g‘ri sikl sharti qaysi?",
+          "i < ballar.length",
+          "i <= ballar.length",
+          "i = ballar.length",
+          "i > ballar.length doim"
+        ],
+        [
+          "push nima qiladi?",
+          "Oxiriga element qo‘shadi",
+          "Har doim boshini o‘chiradi",
+          "Faqat saralaydi",
+          "Faqat uzunlikni o‘qiydi"
+        ],
+        [
+          "Mavjud bo‘lmagan oddiy indeksni o‘qish odatda nima beradi?",
+          "undefined",
+          "Har doim 0",
+          "Har doim −1",
+          "Har doim true"
+        ]
+      ],
+      "code": "const ballar = [60, 80, 90];\nballar[1] = 85;\nfor (let i = 0; i < ballar.length; i++) {\n  console.log(ballar[i]);\n}",
+      "output": "60\n85\n90"
+    },
+    "17": {
+      "sections": [
+        [
+          "Jadval modeli",
+          "Ikki o‘lchovli ma’lumot satr va ustun bilan ifodalanadi. Masalan, uch o‘quvchining ikki fan bali jadval bo‘ladi. JavaScriptda bu ko‘pincha massivlar massivi sifatida yoziladi. jadval[r][c] avval satrni, so‘ng shu satrdagi elementni tanlaydi. Har ikki indeks odatda noldan boshlanadi."
+        ],
+        [
+          "O‘lchamlar va notekis satrlar",
+          "jadval.length satrlar sonini, jadval[r].length o‘sha satr uzunligini bildiradi. Barcha satr teng uzunlikda bo‘lishi til tomonidan majburiy emas. To‘g‘ri to‘rtburchak jadval talab qilinsa shu cheklov alohida tekshiriladi. Bo‘sh jadvalda jadval[0].lengthni darhol o‘qish xatoga olib kelishi mumkin."
+        ],
+        [
+          "Ichma-ich sikl",
+          "Tashqi sikl satrlar, ichki sikl o‘sha satrdagi ustunlar bo‘yicha yuradi. Har iteratsiyada satr va ustun indeksi qayd qilinadi. Satr yig‘indisi uchun akkumulyator har yangi satr boshida 0 qilinadi. U tashqarida qolsa keyingi satr natijasiga oldingi satr ham qo‘shilib ketadi."
+        ],
+        [
+          "Yaratishdagi ehtiyot",
+          "Bir xil ichki massivni barcha satrga qayta ulash yashirin umumiy obyekt hosil qiladi. Bitta satr elementi o‘zgarsa boshqalarda ham ko‘rinishi mumkin. Har satr mustaqil massiv sifatida yaratiladi. Kichik 2×2 misol, bitta satr va notekis satr holatlari orqali indeks va umumiy bog‘lanish xatolari ajratiladi."
+        ]
+      ],
+      "task": "[[1,2],[3,4]] jadvalining har bir satr yig‘indisini hisoblang.",
+      "answer": "Birinchi satr 3, ikkinchisi 7. Satr akkumulyatori har tashqi iteratsiyada yangidan 0 qilinadi.",
+      "terms": [
+        [
+          "Matritsa",
+          "Satr va ustunli to‘g‘ri to‘rtburchak sonli jadval"
+        ],
+        [
+          "Satr",
+          "Jadvalning gorizontal elementlar guruhi"
+        ],
+        [
+          "Ustun",
+          "Bir xil o‘rindagi vertikal elementlar guruhi"
+        ],
+        [
+          "Ichma-ich sikl",
+          "Boshqa sikl ichidagi takrorlash"
+        ],
+        [
+          "Notekis massiv",
+          "Satr uzunliklari har xil bo‘lgan tuzilma"
+        ]
+      ],
+      "questions": [
+        [
+          "jadval[1][0] qaysi joyni ko‘rsatadi?",
+          "Ikkinchi satr birinchi ustun",
+          "Birinchi satr ikkinchi ustun",
+          "Ikkinchi satr ikkinchi ustun",
+          "Birinchi satr birinchi ustun"
+        ],
+        [
+          "[[1,2],[3,4]] satr yig‘indilari qanday?",
+          "3 va 7",
+          "4 va 6",
+          "10 va 10",
+          "1 va 4"
+        ],
+        [
+          "Har satr yig‘indisi qachon 0 qilinadi?",
+          "Har yangi satr boshida",
+          "Faqat dastur oxirida",
+          "Hech qachon",
+          "Har ustun tugaganda doim"
+        ],
+        [
+          "JavaScript ichki satrlari bir xil uzunlikda bo‘lishi shartmi?",
+          "Yo‘q",
+          "Ha, til majburlaydi",
+          "Faqat Windowsda",
+          "Faqat sonlar bo‘lsa"
+        ],
+        [
+          "Bo‘sh jadvalda jadval[0].lengthni o‘qish qanday?",
+          "Avval mavjudlik tekshiriladi",
+          "Har doim 0 beradi",
+          "Har doim 1 beradi",
+          "Har doim 2 beradi"
+        ]
+      ],
+      "code": "const jadval = [[1, 2], [3, 4]];\nfor (let r = 0; r < jadval.length; r++) {\n  let summa = 0;\n  for (let c = 0; c < jadval[r].length; c++) {\n    summa += jadval[r][c];\n  }\n  console.log(summa);\n}",
+      "output": "3\n7"
+    },
+    "18": {
+      "sections": [
+        [
+          "Satr va belgi",
+          "Satr matnni saqlaydi va tirnoq ichida yoziladi. JavaScriptda satrlar o‘zgarmas qiymatlardir: metod natijasi yangi satr bo‘lishi mumkin, asl satrning o‘zi joyida tahrirlanmaydi. trim yoki toUpperCase natijasini ishlatish uchun uni olish kerak. O‘quvchi matn bilan son ko‘rinishidagi satr farqini tushunadi."
+        ],
+        [
+          "Asosiy amallar",
+          "length uzunlikni, includes qism borligini tekshiradi; slice kerakli oraliqni ajratadi. trim ikki chetdagi bo‘shliqni olib tashlaydi, ichkaridagi barcha bo‘shliqni emas. split ajratkich bo‘yicha massiv hosil qiladi; join massiv elementlarini satrga birlashtiradi. Har metod natijasining turi alohida kuzatiladi."
+        ],
+        [
+          "Unicode va uzunlik",
+          "JavaScript length UTF-16 kod birliklarini sanaydi; emoji yoki ayrim murakkab belgilar foydalanuvchi ko‘radigan bitta belgi bo‘lsa ham uzunlik 1 bo‘lmasligi mumkin. O‘zbekchadagi turli apostrof belgilarining ko‘rinishi o‘xshash, kodi esa turlicha bo‘ladi. Qidiruvda kerak bo‘lsa aniq normalizatsiya qoidasi belgilanadi, ma’lumot yashirin o‘zgartirilmaydi."
+        ],
+        [
+          "Kirishni tozalash",
+          "Ism uchun chet bo‘shliqlarini olib, bo‘sh qolmaganini tekshirish mumkin. Harfni katta-kichikka o‘girish maqsadga bog‘liq: parol yoki shaxs nomini asossiz bir xillashtirish to‘g‘ri emas. Ushbu mashqda faqat matn namunasini tozalash bajariladi. Bo‘sh satr, chet bo‘shliq va ichki bo‘shliq holatlari sinaladi."
+        ]
+      ],
+      "task": "\"  Salom dunyo  \" matnini chet bo‘shliqlaridan tozalang, so‘zlarga ajrating va chiziqcha bilan ulang.",
+      "answer": "trim natijasi Salom dunyo; split orqali ikki element; join orqali Salom-dunyo. Ichki bo‘shliq alohida ajratkich vazifasini bajaradi.",
+      "terms": [
+        [
+          "Satr",
+          "Matn qiymati"
+        ],
+        [
+          "trim",
+          "Chetlardagi bo‘shliqlarni olib yangi satr qaytarish"
+        ],
+        [
+          "split",
+          "Satrni ajratkich bilan qismlarga bo‘lib massiv qaytarish"
+        ],
+        [
+          "join",
+          "Massiv elementlarini satrga birlashtirish"
+        ],
+        [
+          "Unicode",
+          "Belgilarni kodlash uchun umumiy tizim"
+        ]
+      ],
+      "questions": [
+        [
+          "trim qayerdagi bo‘shliqni olib tashlaydi?",
+          "Ikki chetdagi",
+          "Har bir ichki bo‘shliqni doim",
+          "Faqat o‘rtadagi",
+          "Faqat birinchi harfni"
+        ],
+        [
+          "split odatda nima qaytaradi?",
+          "Massiv",
+          "Faqat boolean",
+          "Faqat number",
+          "Har doim null"
+        ],
+        [
+          "join nima qiladi?",
+          "Elementlarni satrga birlashtiradi",
+          "Satrni son qilib qo‘shadi",
+          "Faqat massivni o‘chiradi",
+          "Faqat indeks chiqaradi"
+        ],
+        [
+          "Satr metodi asl qiymatni joyida o‘zgartiradimi?",
+          "Satrlar o‘zgarmas qiymatlardir",
+          "Har doim",
+          "Faqat trim",
+          "Faqat slice"
+        ],
+        [
+          "length ko‘rinadigan belgilar soniga doim tengmi?",
+          "Yo‘q, UTF-16 kod birliklarini sanaydi",
+          "Har doim",
+          "Faqat emojida doim 1",
+          "Faqat matn katta bo‘lsa"
+        ]
+      ],
+      "code": "const matn = \"  Salom dunyo  \";\nconst toza = matn.trim();\nconst sozlar = toza.split(\" \");\nconsole.log(sozlar.join(\"-\"));",
+      "output": "Salom-dunyo"
+    },
+    "19": {
+      "sections": [
+        [
+          "Yig‘indi va bo‘sh to‘plam",
+          "Amaliy vazifa: sonlar ro‘yxatining yig‘indisi, minimumi va maksimumini topish. Yig‘indi 0 dan boshlanadi. Bo‘sh ro‘yxat uchun yig‘indi 0 deb tanlanishi mumkin, lekin minimum va maksimum uchun element yo‘q. Shu sabab bo‘sh kirish alohida ko‘riladi; tasodifan 0 ni eng katta deb e’lon qilish mumkin emas."
+        ],
+        [
+          "Min va max algoritmi",
+          "Bo‘sh bo‘lmagan ro‘yxatda birinchi element min va max uchun boshlang‘ich qiymat bo‘ladi. Keyingi element kichik bo‘lsa min, katta bo‘lsa max yangilanadi. Barcha element manfiy holat bu tanlovni sinaydi. Har element chekli son bo‘lishi talab qilinsa satr, NaN va Infinity kirishlari validatsiyada rad etiladi."
+        ],
+        [
+          "Satrlarni qayta ishlash",
+          "Ismlar ro‘yxatida har bir satrning chet bo‘shliqlari tozalanadi; bo‘sh qolgani alohida belgilanadi yoki talabga ko‘ra chiqarib tashlanadi. Natijani yaratish bilan asl ro‘yxatni tahrirlash farqlanadi. Ism harflarini o‘zgartirish shart bo‘lmasa asl yozuv saqlanadi. O‘zgartirish qoidasi hisobotda ochiq ko‘rsatiladi."
+        ],
+        [
+          "Dalilli tekshirish",
+          "[−5,−2,−9] uchun yig‘indi −16, min −9 va max −2. Bitta element, teng elementlar, nol va bo‘sh ro‘yxat holatlari tekshiriladi. Natijani oldindan qo‘lda hisoblash kodni tekshirishga mustaqil asos beradi. Xato tuzatilgach sinovlar takrorlanadi va qaysi holat uchun qanday siyosat tanlangani yoziladi."
+        ]
+      ],
+      "task": "[-5,-2,-9] uchun yig‘indi, minimum va maksimumni toping; bo‘sh massivga xabar bering.",
+      "answer": "Yig‘indi −16, minimum −9, maksimum −2. Bo‘sh massivda min va max aniqlanmaganligi tushuntiriladi.",
+      "terms": [
+        [
+          "Minimum",
+          "To‘plamdagi eng kichik qiymat"
+        ],
+        [
+          "Zich massiv",
+          "Indekslari tashlab ketilmagan elementlar ketma-ketligi"
+        ],
+        [
+          "Agregat",
+          "Bir nechta qiymatdan olingan umumiy natija"
+        ],
+        [
+          "Bo‘sh massiv",
+          "Elementi yo‘q massiv"
+        ],
+        [
+          "Filtrlash",
+          "Shartga mos elementlarni tanlab olish"
+        ]
+      ],
+      "questions": [
+        [
+          "[-5,-2,-9] maksimumi nechchi?",
+          "−2",
+          "0",
+          "−9",
+          "−16"
+        ],
+        [
+          "Ushbu massiv minimumi nechchi?",
+          "−9",
+          "−2",
+          "0",
+          "−5"
+        ],
+        [
+          "Ushbu massiv yig‘indisi nechchi?",
+          "−16",
+          "16",
+          "−9",
+          "0"
+        ],
+        [
+          "Bo‘sh massiv maksimumi haqida nima qilinadi?",
+          "Element yo‘qligi alohida ko‘riladi",
+          "Har doim 0 deyiladi",
+          "Har doim 1 deyiladi",
+          "Har doim −1 deyiladi"
+        ],
+        [
+          "Min va max uchun yaxshi boshlanish nima?",
+          "Bo‘sh bo‘lmasa birinchi element",
+          "Har doim 0",
+          "Har doim 100",
+          "Faqat uzunlik"
+        ]
+      ],
+      "code": "const sonlar = [-5, -2, -9];\nif (sonlar.length === 0) {\n  console.log(\"Element yo‘q\");\n} else {\n  let summa = 0, min = sonlar[0], max = sonlar[0];\n  for (const x of sonlar) {\n    summa += x;\n    if (x < min) min = x;\n    if (x > max) max = x;\n  }\n  console.log(summa, min, max);\n}",
+      "output": "-16 -9 -2"
+    },
+    "20": {
+      "sections": [
+        [
+          "Yakuniy loyiha talabi",
+          "Loyiha o‘quv ballarining qisqa hisobotini yaratadi. Kirish — bo‘sh bo‘lmagan zich massivdagi 0–100 oraliq butun ballar. Chiqish — o‘rtacha ball va 60 yoki undan yuqori olganlar soni. Hisobot nomi satr sifatida beriladi. Bu darsdagi 60 chegara namuna mezonidir, platformaning test natijasi esa alohida hisoblanadi."
+        ],
+        [
+          "Yechimni qismlarga ajratish",
+          "Algoritmda kirishni tekshirish, yig‘indi va o‘tganlar sonini boshlash, har elementni ko‘rish, shartga ko‘ra sanash va o‘rtachani hisoblash bosqichlari ajratiladi. Funksiya hisoblash natijasini qaytaradi, tashqi qism uni chiqaradi. Bo‘sh massivda nolga bo‘lishga o‘tilmaydi; noto‘g‘ri kirishda tushunarli xabar beriladi."
+        ],
+        [
+          "Sikl va shartni birlashtirish",
+          "Har bir ball uchun yig‘indiga qo‘shish bajariladi. ball>=60 bo‘lsa o‘tganlar hisoblagichi oshadi. Boshlang‘ich hisoblagich 0, yig‘indi 0 bo‘ladi. Sikl tugagach yig‘indi elementlar soniga bo‘linadi. O‘rtacha bilan o‘tganlar soni bir xil ko‘rsatkich emas: bir nechta yuqori ball past balllarni o‘rtachada yashirishi mumkin."
+        ],
+        [
+          "Sinov rejalari",
+          "[40,60,80] uchun o‘rtacha 60 va o‘tganlar 2. [60] uchun 60 va 1, [0,100] uchun 50 va 1. Bo‘sh massiv, −1, 101, kasr va satr elementi rad etiladi. Har sinovda kutilgan natija oldin yoziladi. Hisobotda faqat o‘quv namunalari ishlatiladi; haqiqiy o‘quvchi shaxsiy ma’lumoti shart emas."
+        ],
+        [
+          "Baholash va topshirish",
+          "Yakuniy to‘plam masala modeli, algoritm yoki sxema, izohli kod va sinov jadvalidan iborat. Amaliy loyiha 100 ball bilan: model 20, shart va sikl 25, funksiya hamda massiv bilan ishlash 20, sinov va tuzatish 25, hisobot 10. Bu mezon platformadagi 10 savolli nazariy testdan alohida. Yechim ishlashi hamda cheklovlarga rioya qilishi bilan baholanadi."
+        ]
+      ],
+      "task": "Hisobot funksiyasini yarating, kamida yettita test bajaring va bitta mantiqiy xatoni qanday topganingizni izohlang.",
+      "answer": "[40,60,80] yig‘indisi 180, o‘rtachasi 60, o‘tganlar 2. 60 chegarasi aynan qamrab olinadi. Bo‘sh va yaroqsiz qiymatlar hisoblashdan avval rad etiladi.",
+      "terms": [
+        [
+          "Loyiha",
+          "Bir nechta tushunchani bitta yechimga birlashtirish"
+        ],
+        [
+          "Spetsifikatsiya",
+          "Kirish chiqish va cheklovlarning aniq tavsifi"
+        ],
+        [
+          "Qabul testi",
+          "Natijani talabga solishtiradigan tekshiruv"
+        ],
+        [
+          "Dekompozitsiya",
+          "Murakkab vazifani kichik qismlarga ajratish"
+        ],
+        [
+          "O‘rtacha",
+          "Qiymatlar yig‘indisining ularning soniga nisbati"
+        ]
+      ],
+      "questions": [
+        [
+          "[40,60,80] o‘rtachasi nechchi?",
+          "60",
+          "180",
+          "2",
+          "80"
+        ],
+        [
+          "60 dan boshlab o‘tganlar soni nechta?",
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        [
+          "Bo‘sh massiv qachon ajratiladi?",
+          "Bo‘lishdan oldin",
+          "Natijadan keyin doim",
+          "Hech qachon",
+          "Faqat shrift almashtirilganda"
+        ],
+        [
+          "[0,100] o‘rtacha va o‘tganlar soni qanday?",
+          "50 va 1",
+          "100 va 2",
+          "50 va 2",
+          "0 va 1"
+        ],
+        [
+          "Yakuniy loyiha nimani birlashtiradi?",
+          "Algoritm shart sikl funksiya va massivni",
+          "Faqat konsol rangini",
+          "Faqat matn shriftini",
+          "Faqat fayl nomini"
+        ]
+      ],
+      "code": "function hisobot(ballar) {\n  if (!Array.isArray(ballar) || ballar.length === 0) return null;\n  let summa = 0, otganlar = 0;\n  for (const ball of ballar) {\n    if (!Number.isInteger(ball) || ball < 0 || ball > 100) return null;\n    summa += ball;\n    if (ball >= 60) otganlar++;\n  }\n  return { ortacha: summa / ballar.length, otganlar };\n}\nconst natija = hisobot([40, 60, 80]);\nif (natija === null) console.log(\"Yaroqsiz kirish\");\nelse console.log(\"Hisobot:\", natija.ortacha, natija.otganlar);",
+      "output": "Hisobot: 60 2"
+    }
+  },
+  "groups": [
+    {
+      "name": "Algoritmlash asoslari",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Algoritm tushunchasi, maqsadi va asosiy xossalari",
+          "practical": false
+        },
+        {
+          "number": 2,
+          "title": "Algoritmni ifodalash usullari: so‘z, psevdokod, blok-sxema",
+          "practical": false
+        },
+        {
+          "number": 3,
+          "title": "Algoritm turlari: chiziqli, tarmoqlanuvchi, takrorlanuvchi",
+          "practical": false
+        },
+        {
+          "number": 4,
+          "title": "Masala shartini tahlil qilish, kiruvchi/chiquvchi ma’lumotlar; blok-sxema tuzish amaliyoti",
+          "practical": true
+        },
+        {
+          "number": 5,
+          "title": "Oddiy masalalar uchun algoritm ishlab chiqish va tekshirish",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Dasturlash asoslari",
+      "topics": [
+        {
+          "number": 6,
+          "title": "Dasturlash tillari, dastur tuzilishi va bajarilish jarayoni",
+          "practical": false
+        },
+        {
+          "number": 7,
+          "title": "O‘zgaruvchilar, konstantalar, identifikatorlar va nomlash qoidalari",
+          "practical": false
+        },
+        {
+          "number": 8,
+          "title": "Ma’lumotlar turlari: butun, haqiqiy, belgili va mantiqiy qiymatlar",
+          "practical": false
+        },
+        {
+          "number": 9,
+          "title": "Kiritish-chiqarish operatorlari, arifmetik va mantiqiy ifodalar",
+          "practical": false
+        },
+        {
+          "number": 10,
+          "title": "Formula asosida oddiy hisoblash dasturini tuzish va sinash",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Tarmoqlanish va sikllar",
+      "topics": [
+        {
+          "number": 11,
+          "title": "Shartli operatorlar: if, if/else va ichma-ich shartlar",
+          "practical": false
+        },
+        {
+          "number": 12,
+          "title": "Ko‘p tarmoqli tanlash operatorlari: switch/case yoki analoglari",
+          "practical": false
+        },
+        {
+          "number": 13,
+          "title": "Sikl operatorlari: for, while, do-while va ishlash prinsipi",
+          "practical": false
+        },
+        {
+          "number": 14,
+          "title": "Sikllar yordamida yig‘indi, ko‘paytma va takroriy hisoblash masalalarini yechish",
+          "practical": true
+        },
+        {
+          "number": 15,
+          "title": "Funksiya, parametr, argument va qaytariladigan qiymat tushunchalari",
+          "practical": true
+        }
+      ]
+    },
+    {
+      "name": "Massivlar va satrlar",
+      "topics": [
+        {
+          "number": 16,
+          "title": "Bir o‘lchovli massivlar: e’lon qilish, indeks va elementlar",
+          "practical": false
+        },
+        {
+          "number": 17,
+          "title": "Ikki o‘lchovli massivlar va jadval ko‘rinishidagi ma’lumotlar",
+          "practical": false
+        },
+        {
+          "number": 18,
+          "title": "Satrlar va ular ustida bajariladigan asosiy amallar",
+          "practical": false
+        },
+        {
+          "number": 19,
+          "title": "Massivdagi yig‘indi, eng katta/eng kichik qiymat va satrlarni qayta ishlash",
+          "practical": true
+        },
+        {
+          "number": 20,
+          "title": "Yakuniy topshiriq: algoritm, shart, sikl, massiv/satr va natijani chiqarishni birlashtirish",
+          "practical": true
+        }
+      ]
+    }
+  ],
+  "references": {
+    "guide": [
+      "MDN JavaScript qo‘llanmasi",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+    ],
+    "types": [
+      "MDN Grammar and types",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+    ],
+    "loops": [
+      "MDN Loops and iteration",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+    ],
+    "functions": [
+      "MDN Functions",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+    ],
+    "arrays": [
+      "MDN Indexed collections",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections"
+    ]
+  }
+}

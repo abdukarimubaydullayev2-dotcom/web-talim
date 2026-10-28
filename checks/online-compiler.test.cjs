@@ -1,0 +1,18 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const nodes={},listeners=new Map(),storage=new Map(),sent=[];
+const node=()=>({value:'',textContent:'',disabled:false,open:false,dispatchEvent(){},scrollIntoView(){},replaceChildren(){delete nodes['online-compiler-frame'];}});
+for(const id of ['compiler-frame-holder','compiler-status','compiler-check','compiler-run','lab-output','lab-editor','local-compiler','lab-status'])nodes[id]=node();
+nodes['lab-editor'].value='function jamiTolov(a,b){return a*b;}';
+nodes['compiler-frame-holder'].appendChild=frame=>{nodes[frame.id]=frame;};
+let runCount=0;const runModes=[];
+const context=vm.createContext({currentModule:4,currentLesson:4,activeData:()=>({lab:{starter:'starter'}}),Event:class{},runCodingLab:mode=>{runCount++;runModes.push(mode)},localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},window:{addEventListener:(k,v)=>listeners.set(k,v),removeEventListener:(k,v)=>{if(listeners.get(k)===v)listeners.delete(k);}},document:{getElementById:id=>nodes[id]??null,createElement:()=>({...node(),events:{},contentWindow:{postMessage:(data,origin)=>sent.push({data,origin})},addEventListener(k,v){this.events[k]=v;}})}});
+vm.runInContext(fs.readFileSync('dist/online-compiler.js','utf8'),context);vm.runInContext('ensureOnlineCompiler()',context);
+const frame=nodes['online-compiler-frame'];assert(frame.src.includes('listenToEvents=true'));assert(frame.src.includes('codeChangeEvent=true'));
+frame.events.load();assert.equal(sent[0].origin,'https://onecompiler.com');assert.equal(sent[0].data.files[0].content,nodes['lab-editor'].value);
+const message=listeners.get('message');const code='function jamiTolov(a,b){return a*b;}';
+message({origin:'https://evil.example',source:frame.contentWindow,data:{language:'javascript',files:[{name:'a.js',content:'bad'}]}});assert.equal(nodes['lab-editor'].value,code);
+message({origin:'https://onecompiler.com',source:{},data:{language:'javascript',files:[{name:'a.js',content:'bad'}]}});assert.equal(nodes['lab-editor'].value,code);
+message({origin:'https://onecompiler.com',source:frame.contentWindow,data:{language:'javascript',files:[{name:'index.js',content:'console.log(42);'}]}});assert.equal(nodes['lab-editor'].value,'console.log(42);');assert.equal(nodes['compiler-check'].disabled,false);vm.runInContext('checkOnlineCompiler()',context);assert.equal(runCount,1);vm.runInContext('runOnlineCompiler()',context);assert.equal(runCount,1);assert.equal(sent.at(-1).data.eventType,'triggerRun');assert.equal(sent.at(-1).origin,'https://onecompiler.com');assert.equal(nodes['lab-editor'].value,'console.log(42);');assert.equal(nodes['compiler-run'].disabled,false);
+message({origin:'https://onecompiler.com',source:frame.contentWindow,data:{language:'python',files:[{name:'main.py',content:'print(42)'}]}});assert.equal(nodes['compiler-check'].disabled,true);vm.runInContext('checkOnlineCompiler()',context);assert.equal(runCount,1);vm.runInContext('runOnlineCompiler()',context);assert.equal(runCount,1);assert.equal(nodes['compiler-run'].disabled,false);assert.equal(sent.at(-1).data.eventType,'triggerRun');
+vm.runInContext('stopOnlineCompiler()',context);assert.equal(listeners.size,0);
+console.log('Embed setup, exact-origin/source checks, code sync, language gate, OneCompiler triggerRun dispatch for JS and Python and cleanup passed.');

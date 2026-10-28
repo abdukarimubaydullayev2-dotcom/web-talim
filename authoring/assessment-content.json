@@ -1,0 +1,1852 @@
+{
+  "2-1": [
+    [
+      "Elektr o‘chganda saqlanmagan tahrir qayerda yo‘qolishi mumkin?",
+      "RAMda",
+      "SSDdagi saqlangan faylda",
+      "Printer xotirasiz qog‘ozida",
+      "Monitor korpusida"
+    ],
+    [
+      "Dastur ishga tushganda zarur kod odatda qayerdan RAMga olinadi?",
+      "Saqlash qurilmasidan",
+      "Klaviaturadan",
+      "Quvvat kabelidan",
+      "Monitor menyusidan"
+    ],
+    [
+      "CPU buyruq bilan qaysi ketma-ketlikda ishlaydi?",
+      "Oladi, dekodlaydi, bajaradi",
+      "Saqlaydi, chop etadi, o‘chiradi",
+      "Formatlaydi, ulaydi, bo‘yaydi",
+      "Skanerlaydi, siqadi, uzadi"
+    ],
+    [
+      "Katta loyiha ochilganda RAM yetishmasa nima kuzatilishi mumkin?",
+      "Diskka sahifalash ortadi",
+      "Monitor diagonali oshadi",
+      "SSD sig‘imi avtomatik ortadi",
+      "CPU yadrosi qo‘shiladi"
+    ],
+    [
+      "Konfiguratsiya tanlashning birinchi qadami nima?",
+      "Foydalanuvchi vazifasini aniqlash",
+      "Eng qimmat kartani olish",
+      "Faqat korpus rangini tanlash",
+      "Barcha disklarni formatlash"
+    ]
+  ],
+  "2-2": [
+    [
+      "Elektron lampadan tranzistorga o‘tish qanday imkoniyat berdi?",
+      "Ixchamlik va kamroq energiya sarfi",
+      "Faqat ekran rangini o‘zgartirish",
+      "Xotirani butunlay bekor qilish",
+      "Barcha dasturlarni internetsiz yaratish"
+    ],
+    [
+      "Integral sxemaning asosiy xususiyati nima?",
+      "Ko‘p element bitta kristallda",
+      "Har element alohida xonada",
+      "Faqat mexanik uzatma",
+      "Faqat tashqi xotira"
+    ],
+    [
+      "Server atamasi nimani ifodalaydi?",
+      "Xizmat ko‘rsatish vazifasini",
+      "Faqat lampa avlodini",
+      "Faqat ekran o‘lchamini",
+      "Faqat batareya turini"
+    ],
+    [
+      "Mobil kompyuterda qaysi mezon alohida muhim?",
+      "Energiya samaradorligi",
+      "Faqat korpus og‘irligi",
+      "Faqat printer tezligi",
+      "Faqat disk harfi"
+    ],
+    [
+      "Eski kompyuterning mosligi qanday baholanadi?",
+      "Vazifa va dastur talabi bilan",
+      "Faqat ishlab chiqarilgan yil bilan",
+      "Faqat tashqi rangi bilan",
+      "Faqat klaviatura soni bilan"
+    ]
+  ],
+  "2-3": [
+    [
+      "Bir xil GHzli CPUlar nega turlicha ishlaydi?",
+      "Arxitektura va bir takt ishi farqli",
+      "GHz har doim teng tezlik beradi",
+      "CPU ranglari farqli",
+      "SSD nomlari bir xil"
+    ],
+    [
+      "ALUga qaysi vazifa tegishli?",
+      "Butun sonlarni qo‘shish",
+      "Ekran diagonalini o‘lchash",
+      "Fayl litsenziyasini tekshirish",
+      "Korpusni sovitish"
+    ],
+    [
+      "Keshda kerakli ma’lumot topilmasa bu nima deyiladi?",
+      "Cache miss",
+      "Cache hit",
+      "Boot order",
+      "Print queue"
+    ],
+    [
+      "Ko‘p yadro qachon ko‘proq foyda beradi?",
+      "Dastur parallel ishlay olsa",
+      "Dastur faqat kutsa",
+      "Monitor o‘chirilgan bo‘lsa",
+      "Disk nomi o‘zgarsa"
+    ],
+    [
+      "CPU qizib chastotasi pasaysa nima ehtimol?",
+      "Throttling ishlagan",
+      "RAM sig‘imi oshgan",
+      "Fayl formati o‘zgargan",
+      "Monitor yangilangan"
+    ]
+  ],
+  "2-4": [
+    [
+      "CPU soketi mos. Yana nima tekshiriladi?",
+      "CPU ro‘yxati va BIOS versiyasi",
+      "Faqat ekran fon rasmi",
+      "Faqat sichqoncha modeli",
+      "Faqat diskdagi fayl nomi"
+    ],
+    [
+      "M.2 yozuvi nimani o‘zi kafolatlamaydi?",
+      "NVMe protokolini",
+      "Modul shakli mavjudligini",
+      "Ulagich oilasini",
+      "Montaj uchun joy ehtiyojini"
+    ],
+    [
+      "USB Type-C shakli nimani o‘zi bildirmaydi?",
+      "Uzatish tezligi va video imkonini",
+      "Ulagichning fizik shaklini",
+      "Mos kabelga ehtiyojni",
+      "Port mavjudligini"
+    ],
+    [
+      "Ona plata korpusga nima bilan moslanadi?",
+      "Form-faktor va tayanchlar bilan",
+      "Faqat OS tili bilan",
+      "Faqat SSD yorlig‘i bilan",
+      "Faqat ekran ruxsati bilan"
+    ],
+    [
+      "Yangi M.2dan keyin SATA disk ko‘rinmasa nima ko‘riladi?",
+      "Port resurslari bo‘lishish jadvali",
+      "Faqat klaviatura tili",
+      "Faqat internet narxi",
+      "Faqat sichqoncha sezgirligi"
+    ]
+  ],
+  "2-5": [
+    [
+      "Adres nimani ko‘rsatadi?",
+      "Ma’lumot joylashuvini",
+      "Ma’lumotning faqat qiymatini",
+      "Faqat quvvat sarfini",
+      "Faqat ekran rangini"
+    ],
+    [
+      "16 bitli bayt adreslash nazariy hajmi qancha?",
+      "64 KiB",
+      "16 bayt",
+      "16 GiB",
+      "256 TiB"
+    ],
+    [
+      "Bir so‘rovdan javobgacha vaqt nima?",
+      "Kechikish",
+      "Sig‘im",
+      "Form-faktor",
+      "Adres kengligi"
+    ],
+    [
+      "DMAning vazifasi nima?",
+      "Har baytni CPU ko‘chirishini kamaytirish",
+      "RAMni doimiy xotiraga aylantirish",
+      "Monitorni formatlash",
+      "USB shaklini almashtirish"
+    ],
+    [
+      "PCIe x4dagi 4 nimaga tegishli?",
+      "Liniyalar soniga",
+      "Disklar soniga",
+      "CPU GHziga",
+      "USB kuchlanishiga"
+    ]
+  ],
+  "2-6": [
+    [
+      "Konfiguratsiya tanlash nimadan boshlanadi?",
+      "Dasturlar va vazifalar talabidan",
+      "Faqat eng katta GPUdan",
+      "Faqat dizayn rangidan",
+      "Faqat brend nomidan"
+    ],
+    [
+      "Plata video chiqishi bor. Tasvir uchun yana nima kerak bo‘lishi mumkin?",
+      "Mos integratsiyalashgan grafika",
+      "Istalgan CPU nomi",
+      "Faqat SATA kabeli",
+      "Ikkinchi klaviatura"
+    ],
+    [
+      "QVL ro‘yxatining mazmuni nima?",
+      "Tekshirilgan komponentlar ro‘yxati",
+      "Faqat narxlar ro‘yxati",
+      "Faqat foydalanuvchilar ro‘yxati",
+      "Faqat drayver xatolari"
+    ],
+    [
+      "Disk tanlashda qaysi juftlik tekshiriladi?",
+      "Ulagich va protokol mosligi",
+      "Faqat nom va rang",
+      "Faqat og‘irlik va quti",
+      "Faqat sana va til"
+    ],
+    [
+      "GPU o‘rnatishda korpusning qaysi xususiyati muhim?",
+      "Karta uchun fizik joy",
+      "Faqat old chiroq",
+      "Faqat logotip kattaligi",
+      "Faqat fon rasmi"
+    ]
+  ],
+  "2-7": [
+    [
+      "Vazifa 80 s o‘rniga 64 s bajarildi. Vaqt qancha kamaydi?",
+      "20%",
+      "25%",
+      "16%",
+      "80%"
+    ],
+    [
+      "80 s va 64 s natijalarning tezlik nisbati qancha?",
+      "1,25 baravar",
+      "0,20 baravar",
+      "2 baravar",
+      "16 baravar"
+    ],
+    [
+      "Taqqoslashda qaysi shart saqlanadi?",
+      "Bir xil vazifa va muhit",
+      "Har safar boshqa loyiha",
+      "Birida boshqa quvvat rejimi",
+      "Faqat eng yaxshi natija"
+    ],
+    [
+      "Modular PSU kabellari bilan qanday yo‘l tutiladi?",
+      "Faqat mos model kabeli ishlatiladi",
+      "Shakli mos har kabel ulanadi",
+      "Rangi bir xil kabel olinadi",
+      "Barcha kabel bir xil hisoblanadi"
+    ],
+    [
+      "CPU faqat qiziganda sekinlashsa nima tekshiriladi?",
+      "Sovitish va chastota cheklovi",
+      "Faqat klaviatura tilini",
+      "Faqat fayl kengaytmasini",
+      "Faqat monitor diagonalini"
+    ]
+  ],
+  "2-8": [
+    [
+      "Windows tizim ma’lumotini qaysi vosita ko‘rsatadi?",
+      "msinfo32",
+      "Paint",
+      "Notepad",
+      "Kalkulyator"
+    ],
+    [
+      "Linuxda CPU ma’lumoti uchun qaysi buyruq mos?",
+      "lscpu",
+      "mkdir",
+      "touch",
+      "pwd"
+    ],
+    [
+      "Inventar hisobotiga nima kiritilmaydi?",
+      "Litsenziya kaliti va parol",
+      "CPU modeli",
+      "RAM hajmi",
+      "Disk ulanish turi"
+    ],
+    [
+      "Ko‘rinmaydigan plata modeli qanday qayd etiladi?",
+      "Aniqlanmadi deb, tekshirish rejasi bilan",
+      "Taxmin fakt sifatida",
+      "Eng mashhur model nomi bilan",
+      "Istalgan seriya bilan"
+    ],
+    [
+      "GB va GiB farqi nimadan keladi?",
+      "O‘nlik va ikkilik birliklardan",
+      "Disk rangidan",
+      "Monitor turidan",
+      "CPU yadrolaridan"
+    ]
+  ],
+  "2-9": [
+    [
+      "3200 MT/s CL16 uchun CAS vaqti taxminan qancha?",
+      "10 ns",
+      "16 ms",
+      "3200 ns",
+      "0,5 s"
+    ],
+    [
+      "3600 MT/s CL18 uchun CAS vaqti taxminan qancha?",
+      "10 ns",
+      "18 ms",
+      "3600 ns",
+      "2 s"
+    ],
+    [
+      "DDR4 modulni DDR5 slotiga o‘rnatish mumkinmi?",
+      "Yo‘q, avlodlar mos emas",
+      "Ha, kuch bilan",
+      "Ha, faqat nomini almashtirib",
+      "Ha, OTni almashtirib"
+    ],
+    [
+      "XMP yoki EXPO profili nimani talab qiladi?",
+      "Moslik va barqarorlik tekshiruvini",
+      "Diskni majburiy formatlashni",
+      "Firewallni o‘chirishni",
+      "Parolni olib tashlashni"
+    ],
+    [
+      "RAM sig‘imi yetishmasa qaysi yechim asosli?",
+      "Vazifaga yetarli mos sig‘imni tanlash",
+      "Faqat ekran yorqinligini oshirish",
+      "Faqat CL sonini yodlash",
+      "Disk nomini almashtirish"
+    ]
+  ],
+  "2-10": [
+    [
+      "Zamonaviy plata firmware kodi ko‘pincha qayerda?",
+      "Qayta yoziladigan flashda",
+      "Faqat CPU registrida",
+      "Faqat monitor panelida",
+      "Faqat printer kartrijida"
+    ],
+    [
+      "Ishga tushishning qaysi tartibi to‘g‘ri?",
+      "Firmware, yuklagich, OT yadrosi",
+      "Brauzer, printer, firmware",
+      "Fayl, monitor, klaviatura",
+      "RAM, hujjat, skaner"
+    ],
+    [
+      "Vaqt qayta o‘rnatilishi nimani anglatishi mumkin?",
+      "Batareya yoki sozlama muammosini",
+      "CPU kodi o‘chganini",
+      "SSD doim buzilganini",
+      "GPU xotirasi ortganini"
+    ],
+    [
+      "Firmware yangilashda eng muhim moslik nima?",
+      "Plataning aniq modeli",
+      "Faqat ekran ruxsati",
+      "Faqat korpus rangi",
+      "Faqat USB nomi"
+    ],
+    [
+      "Keshning asosiy vazifasi nima?",
+      "CPUga ma’lumotni tezroq yetkazish",
+      "Fayllarni umrbod arxivlash",
+      "Internetni bepul qilish",
+      "Disk bo‘limini yaratish"
+    ]
+  ],
+  "2-11": [
+    [
+      "M.2 SATA disk faqat PCIe slotida ishlaydimi?",
+      "Protokol mosligi tekshiriladi, kafolat yo‘q",
+      "Shakl bir xil bo‘lsa har doim",
+      "Har doim tezlashadi",
+      "Faqat nomi o‘zgartiriladi"
+    ],
+    [
+      "HDDda tasodifiy murojaatni nima sekinlashtiradi?",
+      "Mexanik qidirish va aylanish",
+      "Faqat kabel rangi",
+      "RAM yorlig‘i",
+      "Monitorning diagonali"
+    ],
+    [
+      "TBW nimani bildiradi?",
+      "Yozish chidamliligi ko‘rsatkichini",
+      "Aniq buzilish sanasini",
+      "Faqat o‘qish tezligini",
+      "CPU quvvatini"
+    ],
+    [
+      "Bitta diskdagi D bo‘lim zaxirami?",
+      "Fizik nosozlikka qarshi mustaqil zaxira emas",
+      "Har qanday xavfga to‘liq zaxira",
+      "Har doim tashqi nusxa",
+      "Har doim bulut nusxasi"
+    ],
+    [
+      "SMART yaxshi bo‘lsa nima qilish kerak?",
+      "Zaxiralashni davom ettirish",
+      "Barcha nusxani o‘chirish",
+      "Disk buzilmaydi deb hisoblash",
+      "Tiklash sinovini bekor qilish"
+    ]
+  ],
+  "2-12": [
+    [
+      "VRAM hajmi bir xil ikki GPU nega teng emas?",
+      "Hisoblash resurslari va arxitektura farqli",
+      "VRAM har doim teng tezlik beradi",
+      "Faqat quti rangi farqli",
+      "Faqat monitor brendi muhim"
+    ],
+    [
+      "Integratsiyalashgan GPU ko‘pincha nimadan foydalanadi?",
+      "Tizim RAMidan",
+      "Faqat printer xotirasidan",
+      "Faqat BIOS batareyasidan",
+      "Faqat USB kabelidan"
+    ],
+    [
+      "Kabel noto‘g‘ri video portga ulangan. Avval nima qilinadi?",
+      "Grafik konfiguratsiya va chiqish tekshiriladi",
+      "Disk formatlanadi",
+      "Barcha hisoblar o‘chiriladi",
+      "Firewall o‘chiriladi"
+    ],
+    [
+      "Ruxsat oshganda odatda nima ortadi?",
+      "Qayta ishlanadigan piksellar soni",
+      "CPU soketlari soni",
+      "RAM slotlari soni",
+      "PSU kabellari soni"
+    ],
+    [
+      "Oddiy web ishida diskret GPU tanlovi nimaga bog‘liq?",
+      "Real grafik va dastur talabiga",
+      "Faqat eng katta VRAMga",
+      "Faqat reklama nomiga",
+      "Faqat ventilyator rangiga"
+    ]
+  ],
+  "2-13": [
+    [
+      "Sensorli ekran qanday qurilma?",
+      "Kiritish va chiqarish",
+      "Faqat chiqarish",
+      "Faqat saqlash",
+      "Faqat quvvat"
+    ],
+    [
+      "OCR qanday vazifani bajaradi?",
+      "Tasvirdagi matnni tanish",
+      "Diskni bo‘limlash",
+      "CPUni sovitish",
+      "Tarmoqni shifrlash"
+    ],
+    [
+      "Monitor yangilanish chastotasi nimani bildiradi?",
+      "Tasvir yangilanish imkoniyatini",
+      "Disk hajmini",
+      "RAM avlodini",
+      "Printer rangini"
+    ],
+    [
+      "USB hubda qurilma beqaror ishlasa nima tekshiriladi?",
+      "Quvvat va ulanish imkoniyati",
+      "Faqat ekran foni",
+      "Faqat fayl nomi",
+      "Faqat tizim vaqti"
+    ],
+    [
+      "Printer uchun yakuniy funksional dalil nima?",
+      "Test sahifasi chiqishi",
+      "Faqat kabel mavjudligi",
+      "Faqat drayver nomi",
+      "Faqat qog‘oz qutisi"
+    ]
+  ],
+  "2-14": [
+    [
+      "Ichki RAMni o‘rnatish qachon bajariladi?",
+      "Quvvat uzilgan holatda",
+      "Kompyuter ishlayotganda",
+      "Faqat ekran o‘chganda",
+      "Internet uzilganda"
+    ],
+    [
+      "SATA disk uchun qaysi ulanishlar kerak?",
+      "Ma’lumot va quvvat",
+      "Faqat HDMI",
+      "Faqat audio",
+      "Faqat klaviatura"
+    ],
+    [
+      "Yangi disk fayl menejerida chiqmasa avval nima tekshiriladi?",
+      "Disk aniqlanishi va bo‘lim holati",
+      "Darhol barcha disk o‘chiriladi",
+      "Faqat ekran masshtabi",
+      "Faqat klaviatura tili"
+    ],
+    [
+      "M.2 vintiga qanday munosabat to‘g‘ri?",
+      "Mos tayanchga ehtiyotkor mahkamlash",
+      "Maksimal kuch bilan siqish",
+      "Istalgan teshikka burash",
+      "Diskni egib qo‘yish"
+    ],
+    [
+      "RAMdan keyin yuklanish bo‘lmasa nima asosli?",
+      "Tokni uzib joylashuvni tekshirish",
+      "OTni darhol qayta yozish",
+      "PSUni ochib ko‘rish",
+      "Hamma himoyani o‘chirish"
+    ]
+  ],
+  "2-15": [
+    [
+      "Monitor tasvir bermasa birinchi nima ko‘riladi?",
+      "Quvvat, kabel va input",
+      "Darhol RAM formati",
+      "Darhol OT litsenziyasi",
+      "Darhol disk bo‘limi"
+    ],
+    [
+      "Ikki ekranda ish stolini kengaytirish rejimi qaysi?",
+      "Extend",
+      "Duplicate",
+      "Format",
+      "Hibernate"
+    ],
+    [
+      "Ovoz yo‘q bo‘lsa OTda nima tekshiriladi?",
+      "Tanlangan chiqish qurilmasi",
+      "Faqat disk harfi",
+      "Faqat CPU soketi",
+      "Faqat printer navbati"
+    ],
+    [
+      "Printerning offline holatida nima tekshiriladi?",
+      "Ulanish va navbat holati",
+      "Faqat ekran chastotasi",
+      "Faqat RAM taymingi",
+      "Faqat tizim foni"
+    ],
+    [
+      "Mashg‘ulot oxirida nima qilinadi?",
+      "Sinov natijasi va sozlamalar qayd etiladi",
+      "Barcha fayllar ommaviy ulashiladi",
+      "Tarmoq himoyasi o‘chiriladi",
+      "Hisob paroli hisobotga yoziladi"
+    ]
+  ],
+  "2-16": [
+    [
+      "OTning asosiy vazifasi nima?",
+      "Resurs boshqaruvi va dastur xizmatlari",
+      "Faqat hujjat tahrirlash",
+      "Faqat sayt dizayni",
+      "Faqat monitor ishlab chiqarish"
+    ],
+    [
+      "Real vaqt tizimida nima muhim?",
+      "Belgilangan muddatga javob berish",
+      "Faqat chiroyli interfeys",
+      "Faqat disk hajmi",
+      "Faqat protsessor nomi"
+    ],
+    [
+      "GUI oynalari yopilsa nima bo‘ladi?",
+      "Yadro va fon xizmatlari ishlashi mumkin",
+      "OT butunlay yo‘qoladi",
+      "Firmware o‘chadi",
+      "RAM doim saqlanadi"
+    ],
+    [
+      "Dasturga xotira ajratish qaysi qatlam vazifasi?",
+      "OT xotira boshqaruvi",
+      "Faqat klaviatura",
+      "Faqat monitor menyusi",
+      "Faqat printer"
+    ],
+    [
+      "OT tanlashda qaysi mezon asosli?",
+      "Dastur va apparat mosligi",
+      "Faqat fon rasmi",
+      "Faqat ikonka soni",
+      "Faqat quti rangi"
+    ]
+  ],
+  "2-17": [
+    [
+      "User mode ilovasi yadro xizmatini qanday so‘raydi?",
+      "Nazoratli tizim chaqirig‘i orqali",
+      "Har qanday xotiraga erkin yozib",
+      "Quvvat kabeli orqali",
+      "Faqat printer tugmasi bilan"
+    ],
+    [
+      "Barcha drayverlar kernel modedami?",
+      "Yo‘q, user mode drayverlar ham bor",
+      "Ha, istisnosiz",
+      "Faqat brauzer ichida",
+      "Faqat RAMdan tashqarida"
+    ],
+    [
+      "Administratorlik va kernel mode qanday bog‘liq?",
+      "Turli vakolat tushunchalari",
+      "Mutlaqo bir xil",
+      "Faqat ekran rejimlari",
+      "Faqat disk formatlari"
+    ],
+    [
+      "Kernel drayveri xatosi nimaga ta’sir qilishi mumkin?",
+      "Butun tizim barqarorligiga",
+      "Faqat hujjat shriftiga",
+      "Faqat printer qog‘oziga",
+      "Faqat klaviatura tiliga"
+    ],
+    [
+      "Har API chaqirig‘i yadroga o‘tadimi?",
+      "Shart emas",
+      "Har doim",
+      "Hech qachon",
+      "Faqat GPU bo‘lsa"
+    ]
+  ],
+  "2-18": [
+    [
+      "Linux katalog daraxti qayerdan boshlanadi?",
+      "/ ildizidan",
+      "C: diskidan majburan",
+      "Desktop ikonkasidan",
+      "BIOS menyusidan"
+    ],
+    [
+      "apt metama’lumotini yangilash nimadan farq qiladi?",
+      "Paketlarning o‘zini yangilashdan",
+      "Faqat vaqtni ko‘rishdan",
+      "Faqat nom yozishdan",
+      "Faqat fayl o‘qishdan"
+    ],
+    [
+      "Logo.png va logo.png muammosi nimaga bog‘liq?",
+      "Harf registriga sezgirlikka",
+      "Faqat ekran rangiga",
+      "Faqat PSUga",
+      "Faqat USB shakliga"
+    ],
+    [
+      "Distributiv tarkibiga nima kiradi?",
+      "Yadro va tizim dasturlari",
+      "Faqat bitta brauzer",
+      "Faqat apparat kabeli",
+      "Faqat monitor drayveri"
+    ],
+    [
+      "sudo qanday ishlatiladi?",
+      "Zarur vakolatli amal uchun",
+      "Har bir oddiy amal uchun majburan",
+      "Faqat fayl nomlash uchun",
+      "Faqat ekran o‘lchami uchun"
+    ]
+  ],
+  "2-19": [
+    [
+      "Jarayon bilan dastur qanday farqlanadi?",
+      "Jarayon bajarilayotgan nusxa va resursdir",
+      "Ikkalasi faqat disk fayli",
+      "Jarayon faqat klaviatura",
+      "Dastur faqat fizik CPU"
+    ],
+    [
+      "Kutayotgan jarayon nimani kutishi mumkin?",
+      "Disk yoki tarmoq hodisasini",
+      "Faqat yangi monitorni",
+      "Faqat korpus rangini",
+      "Faqat klaviatura tilini"
+    ],
+    [
+      "Bir jarayon oqimlari nimani bo‘lishadi?",
+      "Ko‘plab jarayon resurslarini",
+      "Barcha stekni aynan bitta qilib",
+      "Har doim boshqa OTni",
+      "Faqat ekran kabelini"
+    ],
+    [
+      "Oqim sonini oshirish nega doim tezlashtirmaydi?",
+      "Sinxronlash va almashish xarajati bor",
+      "CPU har doim ishlamay qoladi",
+      "RAM doim doimiyga aylanadi",
+      "Disk sig‘imi yo‘qoladi"
+    ],
+    [
+      "Bir xil brauzer nomi ko‘p ko‘rinsa nima qilinadi?",
+      "Vazifasi va resurslari tekshiriladi",
+      "Darhol virus deb topiladi",
+      "Barcha tizim jarayoni yopiladi",
+      "OT darhol o‘chiriladi"
+    ]
+  ],
+  "2-20": [
+    [
+      "6 GiBli bitta fayl FAT32ga sig‘adimi?",
+      "Yo‘q, bitta fayl chegarasi bor",
+      "Ha, har qanday hajm",
+      "Faqat nomi qisqa bo‘lsa",
+      "Faqat rangi o‘zgarsa"
+    ],
+    [
+      "Fayl kengaytmasini almashtirish nimani kafolatlamaydi?",
+      "Ichki format konvertatsiyasini",
+      "Fayl nomi o‘zgarishini",
+      "Yangi kengaytma ko‘rinishini",
+      "Nom satri tahrirlanishini"
+    ],
+    [
+      "Jurnallash nima uchun xizmat qiladi?",
+      "Tuzilma izchilligini tiklashga yordam",
+      "Har tahrirni abadiy saqlashga",
+      "Barcha zaxirani almashtirishga",
+      "Diskni fizik tuzatishga"
+    ],
+    [
+      "Absolyut yo‘l nimadan boshlanadi?",
+      "Ildiz yoki to‘liq asos manzilidan",
+      "Faqat joriy fayl nomidan",
+      "Faqat matn kengaytmasidan",
+      "Faqat foydalanuvchi yoshidan"
+    ],
+    [
+      "Formatlashdan oldin nima tekshiriladi?",
+      "Nishon disk va zaxira",
+      "Faqat monitor rangi",
+      "Faqat klaviatura brendi",
+      "Faqat internet reklamalari"
+    ]
+  ],
+  "2-21": [
+    [
+      "ISOni USBga oddiy ko‘chirish nimani kafolatlamaydi?",
+      "Yuklanuvchi muhitni",
+      "Fayl nusxalanishini",
+      "USBda fayl bo‘lishini",
+      "Nom ko‘rinishini"
+    ],
+    [
+      "USBga tasvir yozishda qaysi xavf bor?",
+      "Undagi fayllar o‘chishi",
+      "CPU yadro soni ortishi",
+      "Monitor hajmi kamayishi",
+      "RAM turi o‘zgarishi"
+    ],
+    [
+      "Hash qaysi manba bilan solishtiriladi?",
+      "Ishonchli rasmiy qiymat bilan",
+      "Tasodifiy reklama bilan",
+      "USB nomi bilan",
+      "Monitor yorlig‘i bilan"
+    ],
+    [
+      "Bir martalik boot menyusi nima beradi?",
+      "Shu yuklanish uchun manba tanlash",
+      "Doimiy disk formatlash",
+      "Barcha parolni bekor qilish",
+      "OT litsenziyasini almashtirish"
+    ],
+    [
+      "Bu mashqda muvaffaqiyat dalili nima?",
+      "O‘rnatuvchi yoki sinov muhiti ochilishi",
+      "Ichki diskning o‘chirilishi",
+      "Firewallning o‘chirilishi",
+      "TPMning tozalanishi"
+    ]
+  ],
+  "2-22": [
+    [
+      "OT o‘rnatishni qayerda mashq qilish xavfsizroq?",
+      "Virtual mashina yoki bo‘sh o‘quv diskida",
+      "Muhim ishchi diskda zaxirasiz",
+      "Begona kompyuterda",
+      "Tasodifiy tanlangan bo‘limda"
+    ],
+    [
+      "Disk 0 yozuvi nimani kafolatlamaydi?",
+      "Disk bo‘shligini",
+      "Tizimda disk raqami borligini",
+      "Ro‘yxatda satr borligini",
+      "Disk aniqlanganini"
+    ],
+    [
+      "Snapshot nimaning o‘rnini bosmaydi?",
+      "Host nosozligiga qarshi alohida zaxirani",
+      "O‘quv holatiga qaytish imkonini",
+      "Virtual holat nusxasini",
+      "Tajriba oldi qaytish nuqtasini"
+    ],
+    [
+      "Hisobotga nima yozilmaydi?",
+      "Hisob paroli va tiklash kaliti",
+      "OT versiyasi",
+      "Sinov natijasi",
+      "Ajratilgan RAM"
+    ],
+    [
+      "Ish stoli ochilgach yana nima tekshiriladi?",
+      "Qayta yuklanish va funksional ish",
+      "Faqat fon rasmi",
+      "Faqat oynalar rangi",
+      "Faqat ikonka tartibi"
+    ]
+  ],
+  "2-23": [
+    [
+      "Drayver tanlashda nima kerak?",
+      "Aniq qurilma va OT mosligi",
+      "Faqat fayl nomining chiroyliligi",
+      "Faqat eng yangi sana",
+      "Faqat eng katta paket"
+    ],
+    [
+      "Drayver o‘rnatilgach nima bajariladi?",
+      "Qurilma funksional sinovi",
+      "Barcha fayl o‘chiriladi",
+      "Firewall to‘liq o‘chiriladi",
+      "BIOS majburiy yangilanadi"
+    ],
+    [
+      "Yangilashdan keyin muammo boshlandi. Nima tekshiriladi?",
+      "Avvalgi versiyaga qaytish",
+      "Darhol disk formatlash",
+      "Barcha hisobni yo‘qotish",
+      "Noma’lum drayverlar to‘plami"
+    ],
+    [
+      "Ogohlantirish belgisi yo‘qligi nimani kafolatlamaydi?",
+      "Barcha funksiya to‘liq ishlashini",
+      "Qurilma ro‘yxatda borligini",
+      "OT uni ko‘rayotganini",
+      "Status ko‘rilganini"
+    ],
+    [
+      "Drayver imzosini tekshirish bilan nima qilinadi?",
+      "Odatiy yechim sifatida o‘chirilmaydi",
+      "Har yangilashda o‘chiriladi",
+      "Tezlik uchun bekor qilinadi",
+      "Qurilma nomiga almashtiriladi"
+    ]
+  ],
+  "2-24": [
+    [
+      "Virtualizatsiyani yoqish nimani o‘zi bajarmaydi?",
+      "Virtual mashina o‘rnatishni",
+      "Apparat imkonini ochishni",
+      "Sozlama holatini o‘zgartirishni",
+      "Firmware parametrini saqlashni"
+    ],
+    [
+      "Load defaults nega ehtiyotkorlik talab qiladi?",
+      "Disk va xavfsizlik rejimi o‘zgarishi mumkin",
+      "Faqat fon rasmi o‘zgaradi",
+      "Har doim fayl nusxalanadi",
+      "RAM hajmi ikki baravar bo‘ladi"
+    ],
+    [
+      "Secure Boot bilan qanday yo‘l tutiladi?",
+      "Asossiz o‘chirilmaydi",
+      "Har o‘rnatishda majburiy o‘chiriladi",
+      "Faqat tezlik uchun bekor qilinadi",
+      "Faqat GPU o‘rniga ishlatiladi"
+    ],
+    [
+      "TPMni tushunmasdan tozalash nimaga ta’sir qilishi mumkin?",
+      "Shifrlangan ma’lumotga kirishga",
+      "Faqat ekran diagonaliga",
+      "Faqat sichqoncha rangiga",
+      "Faqat USB uzunligiga"
+    ],
+    [
+      "Sozlashdan keyin nima sinaladi?",
+      "Kerakli funksiya va odatiy yuklanish",
+      "Faqat menyu rangi",
+      "Faqat klaviatura ovozi",
+      "Faqat quti logotipi"
+    ]
+  ],
+  "2-25": [
+    [
+      "100 Mbit/s nazariy hajmi taxminan qancha?",
+      "12,5 MB/s",
+      "100 MB/s",
+      "800 MB/s",
+      "1 MB/s"
+    ],
+    [
+      "Disk 100% faol, lekin MB/s past. Nima mumkin?",
+      "Ko‘p kichik so‘rov va kechikish",
+      "Disk umuman ishlamayapti",
+      "CPU yadrosi oshgan",
+      "Monitor buzilgan"
+    ],
+    [
+      "CPU umumiy foizi past bo‘lsa nima mumkin?",
+      "Bitta yadro to‘liq band",
+      "Hech bir vazifa ishlamaydi",
+      "RAM cheksiz",
+      "Disk doim bo‘sh"
+    ],
+    [
+      "OT RAMni keshga ishlatsa qanday talqin qilinadi?",
+      "Bu odatiy samarali foydalanish bo‘lishi mumkin",
+      "Har doim virus belgisi",
+      "RAMni darhol almashtirish kerak",
+      "Har doim tizim buzilgan"
+    ],
+    [
+      "Optimallashtirish samarasini qanday tekshiramiz?",
+      "Bir xil vazifani qayta o‘lchab",
+      "Faqat bir hissiyot bilan",
+      "Faqat reklama bahosi bilan",
+      "Faqat yangi ikonka bilan"
+    ]
+  ],
+  "2-26": [
+    [
+      "Kimlikni tekshirish va ruxsat berish qanday farq qiladi?",
+      "Autentifikatsiya va avtorizatsiya",
+      "Ikkalasi faqat parol uzunligi",
+      "Ikkalasi faqat disk formati",
+      "Ikkalasi faqat ekran rejimi"
+    ],
+    [
+      "Kundalik ish uchun qaysi hisob ma’qul?",
+      "Yetarli cheklangan huquqli hisob",
+      "Doim to‘liq administrator",
+      "Barchaga bitta umumiy hisob",
+      "Parolsiz boshqaruv hisobi"
+    ],
+    [
+      "Linux katalogidagi x huquqi nimaga tegishli?",
+      "Katalogdan o‘tishga",
+      "Faqat fayl nusxasiga",
+      "Faqat shriftga",
+      "Faqat disk hajmiga"
+    ],
+    [
+      "Ruxsatni kimning hisobida sinash kerak?",
+      "Tegishli oddiy foydalanuvchi hisobida",
+      "Faqat administratorda",
+      "Faqat mehmon nomini yozib",
+      "Hisobsiz taxmin qilib"
+    ],
+    [
+      "Everyone Full Controlni butun diskka berish qanday?",
+      "Asossiz va ortiqcha vakolatli",
+      "Universal xavfsiz yechim",
+      "Faqat o‘qish ruxsati",
+      "Zaxiralash usuli"
+    ]
+  ],
+  "2-27": [
+    [
+      "Zaxiraning ishlashini nima tasdiqlaydi?",
+      "Faylni tiklab mazmunini tekshirish",
+      "Faqat nusxa belgisi",
+      "Faqat disk nomi",
+      "Faqat papka rangi"
+    ],
+    [
+      "Firewall vazifasi nima?",
+      "Tarmoq almashuvini qoida bilan filtrlash",
+      "Barcha faylni arxivlash",
+      "CPUni sovitish",
+      "Parolni yodlash"
+    ],
+    [
+      "Sinxronlashda o‘chirish nima qilishi mumkin?",
+      "Boshqa qurilmalarga tarqalishi",
+      "Har doim mustaqil nusxa yaratishi",
+      "CPUni almashtirishi",
+      "Diskni fizik tiklashi"
+    ],
+    [
+      "Shubhali karantin fayli bilan qanday yo‘l tutiladi?",
+      "Tajriba uchun qayta tiklanmaydi",
+      "Albatta ishga tushiriladi",
+      "Sinfdoshlarga yuboriladi",
+      "Firewall istisnosiga qo‘shiladi"
+    ],
+    [
+      "3-2-1 yondashuvida 1 nimaga tegishli?",
+      "Bir nusxani boshqa joyda saqlashga",
+      "Faqat bitta umumiy parolga",
+      "Faqat bitta bo‘limga",
+      "Faqat bitta test savoliga"
+    ]
+  ],
+  "2-28": [
+    [
+      "Event ID qanday talqin qilinadi?",
+      "Manba va vaqt bilan birga",
+      "Faqat raqamning o‘zi bilan",
+      "Faqat fayl hajmi bilan",
+      "Faqat monitor nomi bilan"
+    ],
+    [
+      "Kutilmagan o‘chish logi nimani o‘zi isbotlamaydi?",
+      "Elektr muammosining aniq sababini",
+      "Hodisa qayd etilganini",
+      "Vaqt borligini",
+      "Tizim yozuvi mavjudligini"
+    ],
+    [
+      "Dalil va taxmin qanday yoziladi?",
+      "Alohida qayd qilinadi",
+      "Bir xil fakt sifatida",
+      "Faqat taxmin yoziladi",
+      "Faqat natija o‘ylab topiladi"
+    ],
+    [
+      "Xotira diagnostikasida nima oldindan hisobga olinadi?",
+      "Qayta yuklash va ishlarni saqlash",
+      "Faqat ekran foni",
+      "Faqat USB nomi",
+      "Faqat printer siyohi"
+    ],
+    [
+      "Skrinshot topshirishdan oldin nima ko‘riladi?",
+      "Shaxsiy ma’lumotlarni yashirish",
+      "Parolni kattaroq ko‘rsatish",
+      "Barcha hisobni ulashish",
+      "Himoya kodini qo‘shish"
+    ]
+  ],
+  "2-29": [
+    [
+      "IP bilan ulanish bor, nom bilan yo‘q. Qaysi taxmin kuchayadi?",
+      "DNS muammosi",
+      "Monitor muammosi",
+      "RAM avlodi xatosi",
+      "Printer qog‘oz muammosi"
+    ],
+    [
+      "Ping javob bermasa qanday xulosa to‘g‘ri?",
+      "ICMP filtrlanishi ham mumkin",
+      "Tarmoq mutlaqo uzilgan",
+      "Disk buzilgan",
+      "OT yo‘qolgan"
+    ],
+    [
+      "169.254 bilan boshlangan IPv4 nimani ko‘rsatishi mumkin?",
+      "DHCP javobi olinmaganini",
+      "Har doim internet tezligini",
+      "GPU xotira hajmini",
+      "Printer ruxsatini"
+    ],
+    [
+      "Diagnostikada o‘zgarishlar qanday qilinadi?",
+      "Bittadan va qayta sinov bilan",
+      "Hammasi birdan",
+      "Natijasiz takrorlab",
+      "Dalilsiz formatlab"
+    ],
+    [
+      "Kuyish hidi aniqlansa nima qilinadi?",
+      "Ish to‘xtatilib mas’ulga topshiriladi",
+      "Og‘ir test davom ettiriladi",
+      "PSU ochiladi",
+      "Barcha himoya o‘chiriladi"
+    ]
+  ],
+  "2-30": [
+    [
+      "Yakuniy xulosa nimaga tayanadi?",
+      "O‘lchov va funksional dalillarga",
+      "Faqat umumiy taassurotga",
+      "Faqat eng qimmat detalga",
+      "Faqat korpus dizayniga"
+    ],
+    [
+      "Kompleks ishda diagnostika va qayta sinov necha ball?",
+      "25 ball",
+      "15 ball",
+      "5 ball",
+      "50 ball"
+    ],
+    [
+      "Bajarilmagan test qanday qayd etiladi?",
+      "Bajarilmadi yoki tekshirilmadi deb",
+      "Muvaffaqiyatli deb",
+      "Avtomatik 100% deb",
+      "Dalilsiz tayyor deb"
+    ],
+    [
+      "RAM yangilash tavsiyasi nimaga bog‘lanadi?",
+      "Aniqlangan xotira chekloviga",
+      "Faqat sotuvchi reklamasiga",
+      "Faqat ekran ruxsatiga",
+      "Faqat brauzer rangiga"
+    ],
+    [
+      "Hisobot boshqa mutaxassisga nima berishi kerak?",
+      "Tekshiruvni qayta bajarish imkonini",
+      "Hisob parollarini",
+      "Shaxsiy fayllarning barchasini",
+      "Litsenziya kalitlarini"
+    ]
+  ],
+  "1-1": [
+    [
+      "Kitob kodi topilmasa qanday talab aniq?",
+      "Kitob topilmadi xabarini ko‘rsatish",
+      "Chiroyli sahifa yaratish",
+      "Yaxshi dastur qilish",
+      "Tez ishlashi kerak deyish"
+    ],
+    [
+      "Serverdagi ruxsat tekshiruvini qaysi yo‘nalish bajaradi?",
+      "Backend",
+      "Frontend dizayni",
+      "Faqat tipografiya",
+      "Faqat animatsiya"
+    ],
+    [
+      "Kod ishlaydi, ammo ehtiyojni hal qilmaydi. Nima yetishmagan?",
+      "Muammoni aniqlashtirish",
+      "Ko‘proq rang",
+      "Yangi klaviatura",
+      "Katta monitor"
+    ],
+    [
+      "Ma’lumotni ko‘ra olish nimani anglatmaydi?",
+      "Uni boshqalarga yuborish vakolatini",
+      "Texnik kirish mavjudligini",
+      "Ko‘rish imkonini",
+      "Hisob ishlayotganini"
+    ],
+    [
+      "Dasturiy mahsulotga nima kirishi mumkin?",
+      "Dastur va zarur hujjatlar",
+      "Faqat bitta buyruq",
+      "Faqat algoritm nomi",
+      "Faqat ekran tasviri"
+    ]
+  ],
+  "1-2": [
+    [
+      "Portfolio guruh ishi bo‘lsa nima ko‘rsatiladi?",
+      "O‘z hissasi va jamoa hissasi",
+      "Barcha ish faqat o‘ziniki deb",
+      "Faqat jamoa nomi",
+      "Faqat sertifikat rasmi"
+    ],
+    [
+      "Ko‘nikma bo‘shlig‘i qanday aniqlanadi?",
+      "Talab va amaldagi daraja farqi",
+      "Faqat yosh farqi",
+      "Faqat maosh farqi",
+      "Faqat kompyuter narxi"
+    ],
+    [
+      "Rivojlanish rejasining tekshiriladigan natijasi qaysi?",
+      "Bir haftada qidiruv sahifasi va sinovlar",
+      "Ko‘proq o‘rganaman",
+      "Yaxshiroq bo‘laman",
+      "Hammasini bilaman"
+    ],
+    [
+      "Videoni ko‘rishdan keyin ko‘nikmani nima tasdiqlaydi?",
+      "Mustaqil ish va tushuntirish",
+      "Faqat ko‘rish vaqti",
+      "Faqat obuna soni",
+      "Faqat videoning uzunligi"
+    ],
+    [
+      "Vakansiya talabini qanday tahlil qilish kerak?",
+      "Vazifa va ko‘nikmalar bo‘yicha",
+      "Faqat sarlavha rangi bo‘yicha",
+      "Faqat reklama rasmi bo‘yicha",
+      "Faqat e’lon shriftiga qarab"
+    ]
+  ],
+  "1-3": [
+    [
+      "Vazifa tugaganini nima tasdiqlaydi?",
+      "Qabul mezonlari tekshirilgani",
+      "Faqat kod yozilgani",
+      "Faqat fayl nomi",
+      "Faqat vaqt tugagani"
+    ],
+    [
+      "Noaniq talab kelganda nima qilinadi?",
+      "Kutiladigan natija aniqlashtiriladi",
+      "Darhol kod ko‘paytiriladi",
+      "Tasodifiy dizayn tanlanadi",
+      "Faqat muddat qisqartiriladi"
+    ],
+    [
+      "Jamoa vazifasida nima kelishiladi?",
+      "Mas’ul va tekshirish mezoni",
+      "Faqat avatar",
+      "Faqat stol joyi",
+      "Faqat chat rangi"
+    ],
+    [
+      "Yangi talab muddatga ta’sir etsa nima qilinadi?",
+      "Ta’sir baholanib kelishiladi",
+      "Yashirincha bajariladi",
+      "Har doim rad etiladi",
+      "Dalilsiz tayyor deyiladi"
+    ],
+    [
+      "Kutubxonachi tizimdan kitob qidiradi. U kim?",
+      "Foydalanuvchi",
+      "Majburan buyurtmachi",
+      "Apparat ishlab chiqaruvchi",
+      "Faqat kuzatuvchi"
+    ]
+  ],
+  "1-4": [
+    [
+      "IT kasblari qanday taqqoslanadi?",
+      "Bir xil mezonlar bilan",
+      "Har biriga boshqa mezon bilan",
+      "Faqat nom uzunligi bilan",
+      "Faqat logotip bilan"
+    ],
+    [
+      "Kasbiy tanlov qanday asoslanadi?",
+      "Qiziqish va amaliy ko‘nikma bilan",
+      "Faqat tanish tanlovi bilan",
+      "Faqat reklama bilan",
+      "Faqat tasodif bilan"
+    ],
+    [
+      "Rejadagi natijaga erishilmadi. Nima ma’qul?",
+      "Sababni tahlil qilib bosqichni moslash",
+      "Natijani o‘ylab yozish",
+      "Dalilni yashirish",
+      "Rejani tekshirmaslik"
+    ],
+    [
+      "Ko‘nikma uchun dalil qaysi?",
+      "Ishlaydigan topshiriq va izoh",
+      "Faqat katta va’da",
+      "Faqat kurs rasmi",
+      "Faqat ish nomi"
+    ],
+    [
+      "Rejada tekshirish mezoni nega kerak?",
+      "Natijaga erishilganini bilish uchun",
+      "Faqat matnni uzaytirish uchun",
+      "Faqat jadval bezagi uchun",
+      "Faqat vaqtni yashirish uchun"
+    ]
+  ],
+  "1-5": [
+    [
+      "Yo‘lakdagi kabel va yiqilish qanday farqlanadi?",
+      "Manba va ehtimoliy oqibat",
+      "Ikkalasi faqat oqibat",
+      "Ikkalasi faqat me’yor",
+      "Ikkalasi faqat hisobot"
+    ],
+    [
+      "Yo‘riqnoma tushunarsiz. Nima qilinadi?",
+      "Mas’uldan aniqlashtiriladi",
+      "Taxmin bilan sinab ko‘riladi",
+      "Himoya bekor qilinadi",
+      "Boshqalarga tajriba qilinadi"
+    ],
+    [
+      "Shikast kabelni kim ta’mirlaydi?",
+      "Vakolatli mutaxassis",
+      "Istalgan o‘quvchi",
+      "Tasodifiy mehmon",
+      "Faqat foydalanuvchi"
+    ],
+    [
+      "Xavf xabariga nima yoziladi?",
+      "Joy va kuzatilgan belgi",
+      "Tasdiqlanmagan sabab fakt sifatida",
+      "Faqat aybdor taxmini",
+      "Faqat hissiy baho"
+    ],
+    [
+      "Mehnat muhofazasining markaziy maqsadi nima?",
+      "Hayot va sog‘liqni saqlash",
+      "Faqat ishni tez tugatish",
+      "Faqat qurilma narxini oshirish",
+      "Faqat hisobot hajmi"
+    ]
+  ],
+  "1-6": [
+    [
+      "Kuzatilmadi degan qayd nimani anglatadi?",
+      "Tekshiruvda belgi ko‘rilmagan",
+      "Xavf mutlaqo yo‘q",
+      "Barcha himoya tekshirilgan",
+      "Mutaxassis xulosasi tayyor"
+    ],
+    [
+      "Xavf ustuvorligi nimaga bog‘liq?",
+      "Oqibat va yuz berish ehtimoliga",
+      "Faqat xonaning rangiga",
+      "Faqat kabel uzunligiga",
+      "Faqat jadval tartibiga"
+    ],
+    [
+      "Ichki elektr himoyasi haqida kim xulosa beradi?",
+      "Vakolatli tekshiruvchi",
+      "Faqat tashqi surat olgan o‘quvchi",
+      "Tasodifiy foydalanuvchi",
+      "Faqat printer egasi"
+    ],
+    [
+      "Chora natijasi qanday baholanadi?",
+      "Oldingi va keyingi holat bilan",
+      "Faqat bajarildi degan gap bilan",
+      "Faqat yangi surat nomi bilan",
+      "Faqat vaqt o‘tishi bilan"
+    ],
+    [
+      "Xavfga ta’sirlanish sharoiti qaysi?",
+      "Odamlar kabel ustidan yurishi",
+      "Faqat kabel nomi",
+      "Faqat qurilma narxi",
+      "Faqat fayl hajmi"
+    ]
+  ],
+  "1-7": [
+    [
+      "Faylni saqlash hisobdan chiqishga tengmi?",
+      "Yo‘q, vazifalari farqli",
+      "Ha, seans avtomatik tugaydi",
+      "Ha, elektr uziladi",
+      "Ha, qurilma ta’mirlanadi"
+    ],
+    [
+      "Tutun belgisi bo‘lsa nima qilinadi?",
+      "Foydalanish to‘xtatilib xabar beriladi",
+      "Chop etish davom ettiriladi",
+      "Ichki qismlar ochiladi",
+      "Fayl uchun kutib turiladi"
+    ],
+    [
+      "Qurilmani foydalanishdan oldin nima tekshiriladi?",
+      "Modelga mos yo‘riqnoma",
+      "Faqat korpus rangi",
+      "Faqat stiker soni",
+      "Faqat ekran foni"
+    ],
+    [
+      "Natijani topshirishdan oldin nima sinaladi?",
+      "Fayl to‘liq ochilishi va mazmuni",
+      "Faqat fayl nomi",
+      "Faqat ikonka rangi",
+      "Faqat kompyuter brendi"
+    ],
+    [
+      "Ichki ta’mir oddiy foydalanishdan nimasi bilan farq qiladi?",
+      "Tayyorgarlik va vakolat talab qiladi",
+      "Faqat ko‘proq tugma bosiladi",
+      "Har kim bajara oladi",
+      "Yo‘riqnoma kerak bo‘lmaydi"
+    ]
+  ],
+  "1-8": [
+    [
+      "Jihoz ishlayotgani nimani isbotlamaydi?",
+      "Barcha elektr himoyasi sozligini",
+      "Quvvat olayotganini",
+      "Amal bajarayotganini",
+      "Tashqi belgi mavjudligini"
+    ],
+    [
+      "Kuyish izi bo‘lsa nima qayd etiladi?",
+      "Aniq joy va ko‘rilgan belgi",
+      "Taxminiy sabab fakt sifatida",
+      "Faqat qurilma narxi",
+      "Faqat aybdor ismi"
+    ],
+    [
+      "RCDning vazifasi nimaga aloqador?",
+      "Ayrim qoldiq tok holatlari",
+      "Fayl hajmini kamaytirish",
+      "CPUni tezlashtirish",
+      "Tarmoq nomini almashtirish"
+    ],
+    [
+      "Qayta foydalanish uchun nima kerak?",
+      "Vakolatli tekshiruv va ruxsat",
+      "Faqat tashqi belgi yo‘qolishi",
+      "Faqat vaqt o‘tishi",
+      "Faqat ekran yonishi"
+    ],
+    [
+      "Ichki elektr tekshiruvi kimga tegishli?",
+      "Malakali mutaxassisga",
+      "Faqat har bir o‘quvchiga",
+      "Tasodifiy tashrifchiga",
+      "Faqat fayl muallifiga"
+    ]
+  ],
+  "1-9": [
+    [
+      "Tutun paytida qaysi ish ustuvor?",
+      "Ogohlantirish va xavfsiz chiqish",
+      "Fayl saqlashni tugatish",
+      "Qurilmani olib chiqish",
+      "Hodisa videosini olish"
+    ],
+    [
+      "Asosiy chiqish xavfli bo‘lsa nima tanlanadi?",
+      "Rejadagi xavfsiz muqobil yo‘l",
+      "Tutun ichidagi qisqa yo‘l",
+      "Har doim derazadan sakrash",
+      "Jihozlar xonasi"
+    ],
+    [
+      "Yig‘ilish joyida kim yetishmasa nima qilinadi?",
+      "Mas’ulga oxirgi ma’lum joy aytiladi",
+      "O‘quvchi ichkariga qaytadi",
+      "Hamma tarqaladi",
+      "Hisob bekor qilinadi"
+    ],
+    [
+      "Chiqish yo‘liga quti qo‘yish qanday baholanadi?",
+      "Evakuatsiyaga xalaqit beruvchi xavf",
+      "Qo‘shimcha himoya",
+      "Qulay saqlash kafolati",
+      "Yong‘in oldini olish usuli"
+    ],
+    [
+      "Yonish sharoitlariga nima kiradi?",
+      "Yonuvchi modda va issiqlik",
+      "Faqat internet",
+      "Faqat yorug‘lik",
+      "Faqat printer qog‘ozi o‘lchami"
+    ]
+  ],
+  "1-10": [
+    [
+      "Xavfsizlik bahosidagi fakt qaysi?",
+      "Yo‘lakda kabel ko‘rildi",
+      "Barcha ichki sim soz",
+      "Hech qanday yashirin xavf yo‘q",
+      "Hammasi ideal"
+    ],
+    [
+      "O‘quvchi shikastlangan ulagichni qanday tekshiradi?",
+      "Tegmasdan kuzatib mas’ulga xabar beradi",
+      "Ochiq kontaktni ushlaydi",
+      "Tokda ajratadi",
+      "Ichini o‘zi ta’mirlaydi"
+    ],
+    [
+      "Ssenariyda aytilgan amal qanday belgilanadi?",
+      "Ssenariyda izohlandi",
+      "Amalda bajarildi deb",
+      "Mutaxassis tasdiqladi deb",
+      "Sinovdan o‘tdi deb"
+    ],
+    [
+      "Chora samarasi nimada ko‘rinadi?",
+      "Muammo kamaygani dalilida",
+      "Faqat yangi jadvalda",
+      "Faqat va’dada",
+      "Faqat belgi qo‘yishda"
+    ],
+    [
+      "Xavfsizlik taklifida yana nima bo‘lishi kerak?",
+      "Mas’ul va tekshirish usuli",
+      "Faqat chiroyli sarlavha",
+      "Faqat qurilma reklamasi",
+      "Faqat fayl nomi"
+    ]
+  ],
+  "1-11": [
+    [
+      "Ekranga engashib o‘qilsa nima birga ko‘riladi?",
+      "Masshtab, masofa va akslanish",
+      "Faqat monitor brendi",
+      "Faqat kabel rangi",
+      "Faqat tizim tili"
+    ],
+    [
+      "O‘rindiq ko‘tarilgach nima tekshiriladi?",
+      "Oyoq va qo‘l tayanchi",
+      "Faqat ekran rasmi",
+      "Faqat internet tezligi",
+      "Faqat disk bo‘limi"
+    ],
+    [
+      "Sichqoncha uzoqda. Qaysi yechim mos?",
+      "Klaviatura yaqiniga qulay joylashtirish",
+      "Qo‘lni doim cho‘zish",
+      "Stulni olib tashlash",
+      "Monitorni o‘chirish"
+    ],
+    [
+      "Ergonomik yechim nimaga moslanadi?",
+      "Foydalanuvchi va vazifaga",
+      "Hamma uchun bitta holatga",
+      "Faqat moda talabiga",
+      "Faqat stol rangiga"
+    ],
+    [
+      "O‘zgarishdan keyin nima baholanadi?",
+      "Qulaylik va yangi xavf yo‘qligi",
+      "Faqat surat chiroyi",
+      "Faqat bajarilgan vaqt",
+      "Faqat jihoz narxi"
+    ]
+  ],
+  "1-12": [
+    [
+      "Konditsioner sovitishi nimani kafolatlamaydi?",
+      "Yetarli yangi havo almashinuvini",
+      "Xonada qurilma borligini",
+      "Sovitish funksiyasi borligini",
+      "Qurilma ishlashini"
+    ],
+    [
+      "Jihozga tozalash suyuqligi qanday qo‘llanadi?",
+      "Modelga mos xavfsiz usulda",
+      "Bevosita klaviaturaga purkaladi",
+      "Elektr qismiga quyiladi",
+      "Istalgan miqdorda sepiladi"
+    ],
+    [
+      "Me’yorga moslik xulosasi nimaga tayanadi?",
+      "O‘lchov va tegishli hujjatga",
+      "Faqat sezgiga",
+      "Faqat deraza soniga",
+      "Faqat bir suratga"
+    ],
+    [
+      "Ekran akslansa nima tekshiriladi?",
+      "Yorug‘lik yo‘nalishi va joylashuv",
+      "Faqat yorqinlik maksimal qilinadi",
+      "Faqat klaviatura almashtiriladi",
+      "Faqat disk tozalanadi"
+    ],
+    [
+      "Vazifa almashinuvida nima muhim?",
+      "Yuklama yoki holat o‘zgarishi",
+      "Faqat boshqa ekranga o‘tish",
+      "Faqat tab almashtirish",
+      "Faqat fayl nomlash"
+    ]
+  ],
+  "1-13": [
+    [
+      "Ergonomik sozlashning boshlanishi nima?",
+      "Foydalanuvchi vazifasini aniqlash",
+      "Darhol barcha jihozni siljitish",
+      "Faqat yangi stul sotib olish",
+      "Faqat monitorni ko‘tarish"
+    ],
+    [
+      "Vakolatdan tashqari o‘zgarish qanday qayd etiladi?",
+      "Mas’ulga taklif sifatida",
+      "Amalda bajarildi deb",
+      "Sinov yakunlandi deb",
+      "Nosozlik yo‘q deb"
+    ],
+    [
+      "Jihoz mavjud bo‘lmasa mashq qanday qayd etiladi?",
+      "Ssenariy yoki kuzatilmadi sifatida",
+      "Amalda sozlandi sifatida",
+      "Mutaxassis xulosasi sifatida",
+      "Tayyor xizmat sifatida"
+    ],
+    [
+      "Natija qaydi qanday bo‘ladi?",
+      "Muammo, o‘zgarish va keyingi belgi",
+      "Faqat yangi surat",
+      "Faqat stul balandligi soni",
+      "Faqat matn hajmi"
+    ],
+    [
+      "Bitta jihoz siljishi nimaga ta’sir qiladi?",
+      "Boshqa joylashuv va xavfsizlikka",
+      "Faqat fayl hajmiga",
+      "Faqat parolga",
+      "Faqat tizim vaqtiga"
+    ]
+  ],
+  "1-14": [
+    [
+      "Davom etayotgan silkinishda nima hisobga olinadi?",
+      "Himoyalanish va hodisa bosqichi",
+      "Faqat tezlik bilan yugurish",
+      "Faqat fayl saqlash",
+      "Faqat video olish"
+    ],
+    [
+      "Elektr ta’siridagi insonga nega bevosita tegilmaydi?",
+      "Yordamchi ham zararlanishi mumkin",
+      "Faqat kiyim ifloslanadi",
+      "Faqat qurilma qimmat",
+      "Faqat vaqt ketadi"
+    ],
+    [
+      "Favqulodda xabarda nima aytiladi?",
+      "Manzil, joy va ko‘rilgan belgi",
+      "Faqat taxminiy aybdor",
+      "Faqat vahimali ta’rif",
+      "Faqat qurilma narxi"
+    ],
+    [
+      "Qayta kirish uchun nima kerak?",
+      "Vakolatli mas’ul ruxsati",
+      "Faqat tutun kamayishi",
+      "Faqat do‘st chaqirishi",
+      "Faqat telefon qolishi"
+    ],
+    [
+      "Hodisa turi nega ajratiladi?",
+      "Dastlabki xavfsiz harakat farqlanadi",
+      "Barcha harakat doim bir xil",
+      "Faqat hisobot bezagi uchun",
+      "Faqat surat tanlash uchun"
+    ]
+  ],
+  "1-15": [
+    [
+      "Ssenariy mashqida qaysi vosita mos?",
+      "Bosma karta va rolli muloqot",
+      "Haqiqiy olov",
+      "Ochiq elektr kontakti",
+      "Zaharli tutun"
+    ],
+    [
+      "Yangi xavf sharti kelganda nima qilinadi?",
+      "Qaror qayta baholanadi",
+      "Avvalgi yo‘l majburan davom etadi",
+      "Xabar yashiriladi",
+      "Hisob bekor qilinadi"
+    ],
+    [
+      "Yig‘ilish joyidagi hisob nimaga xizmat qiladi?",
+      "Yetishmayotganlarni aniqlashga",
+      "Faqat vaqt o‘tkazishga",
+      "Jihozlar narxiga",
+      "Fayl soniga"
+    ],
+    [
+      "Ssenariyda xabar kimga yo‘naltiriladi?",
+      "Rol bo‘yicha mas’ulga",
+      "Har qanday noma’lum kanalga",
+      "Faqat ommaviy guruhga",
+      "Faqat reklama sahifasiga"
+    ],
+    [
+      "Real xavf yaratish qanday baholanadi?",
+      "Mashqning xavfsiz tartibiga zid",
+      "Har doim zarur",
+      "Eng yaxshi dalil",
+      "Faqat tez usul"
+    ]
+  ],
+  "1-16": [
+    [
+      "Sinovdan o‘tmagan kod tayyor deb aytilsa nima buziladi?",
+      "Natija halolligi",
+      "Faqat shrift tanlovi",
+      "Faqat vaqt formati",
+      "Faqat dizayn"
+    ],
+    [
+      "Kod ko‘rigida qaysi izoh mos?",
+      "Bo‘sh qiymatda xato bor, tekshiruv qo‘shaylik",
+      "Sen hech narsani bilmaysan",
+      "Hamma yomon yozgan",
+      "Sababsiz o‘chir"
+    ],
+    [
+      "Manba qaydi nimani o‘zi bermaydi?",
+      "Foydalanish huquqini",
+      "Muallifni ko‘rsatishni",
+      "Manbaga ishorani",
+      "Kelish joyini bilishni"
+    ],
+    [
+      "Ish holatini xabar qilishda nima ajratiladi?",
+      "Fakt va kelgusi reja",
+      "Faqat chiroyli va’da",
+      "Faqat muddat",
+      "Faqat hissiyot"
+    ],
+    [
+      "Etik qarorda nima ko‘riladi?",
+      "Tomonlar va variant oqibatlari",
+      "Faqat shaxsiy qulaylik",
+      "Faqat tezlik",
+      "Faqat foyda va’dasi"
+    ]
+  ],
+  "1-17": [
+    [
+      "Etik tahlilning birinchi qadami nima?",
+      "Fakt va taxminni ajratish",
+      "Darhol ayblash",
+      "Faqat o‘z manfaatini yozish",
+      "Dalilni yashirish"
+    ],
+    [
+      "Variantlar qanday taqqoslanadi?",
+      "Bir xil mezon va oqibat bilan",
+      "Har biriga boshqa qoida bilan",
+      "Faqat kayfiyat bilan",
+      "Faqat sarlavha bilan"
+    ],
+    [
+      "Xizmat javobida cheklov qanday bildiriladi?",
+      "Hurmat bilan aniq aytiladi",
+      "Yashiriladi",
+      "Yolg‘on va’da bilan yopiladi",
+      "Mijoz ayblanadi"
+    ],
+    [
+      "Rolli mashqning natijasi nima?",
+      "Simulyatsiyada kuzatilgan dalil",
+      "Haqiqiy mijozga xizmat kafolati",
+      "Real shartnoma",
+      "Avtomatik to‘liq tajriba"
+    ],
+    [
+      "Etik qaror nimaga asoslanadi?",
+      "Vaziyatga mos prinsipga",
+      "Faqat tasodifga",
+      "Faqat shoshilishiga",
+      "Faqat boshqalar bosimiga"
+    ]
+  ],
+  "1-18": [
+    [
+      "Ruxsatsiz o‘zgarishdan himoya qaysi xususiyat?",
+      "Yaxlitlik",
+      "Mavjudlik",
+      "Faqat tezlik",
+      "Faqat dizayn"
+    ],
+    [
+      "Bir parol ko‘p hisobda bo‘lsa nima ortadi?",
+      "Bir oshkorlikning tarqalish xavfi",
+      "Hisoblar izolyatsiyasi",
+      "Avtomatik zaxira",
+      "Fayl yaxlitligi"
+    ],
+    [
+      "O‘zingiz boshlamagan MFA so‘rovi kelsa nima qilinadi?",
+      "Tasdiqlanmaydi va tekshiriladi",
+      "Darhol tasdiqlanadi",
+      "Kod guruhga yoziladi",
+      "Parol xabarga yuboriladi"
+    ],
+    [
+      "Shubhali xabar qaysi yo‘l bilan tekshiriladi?",
+      "Mustaqil rasmiy kanal orqali",
+      "Xabardagi havola orqali darhol",
+      "Noma’lum telefon talabi bilan",
+      "Faqat logotipga qarab"
+    ],
+    [
+      "Zaxira ishlashi qanday tekshiriladi?",
+      "Fayl tiklanib to‘liqligi ko‘riladi",
+      "Faqat papka nomi bilan",
+      "Faqat disk rangi bilan",
+      "Faqat nusxa sanasi bilan"
+    ]
+  ],
+  "1-19": [
+    [
+      "O‘quv mashqida qanday fayl tanlanadi?",
+      "Sun’iy test fayli",
+      "Haqiqiy shaxsiy hujjat",
+      "Parollar ro‘yxati",
+      "Tiklash kodlari"
+    ],
+    [
+      "Faqat ko‘rish ruxsati nimaga xizmat qiladi?",
+      "Mazmunni o‘qishga",
+      "Har doim tahrirlashga",
+      "Hisobni boshqarishga",
+      "Parolni almashtirishga"
+    ],
+    [
+      "Tiklashda fayl qayerga ochiladi?",
+      "Alohida tekshirish joyiga",
+      "Tasodifiy tizim papkasiga",
+      "Boshqa odam hisobiga",
+      "Faqat ommaviy saytga"
+    ],
+    [
+      "Umumiy qurilmada ish tugagach nima tekshiriladi?",
+      "Hisob seansi yakunlanganligi",
+      "Faqat ekran o‘chgani",
+      "Faqat oyna kichraygani",
+      "Faqat fayl nomi"
+    ],
+    [
+      "Ulashishdan oldin nima aniqlanadi?",
+      "Oluvchi va kerakli huquq",
+      "Faqat havola uzunligi",
+      "Faqat ikonka rangi",
+      "Faqat dastur mavzusi"
+    ]
+  ],
+  "1-20": [
+    [
+      "Individual baho nimaga tayanadi?",
+      "O‘quvchining o‘z dalili va izohiga",
+      "Faqat guruhning umumiy gapiga",
+      "Faqat tez tugatishga",
+      "Faqat fayl kattaligiga"
+    ],
+    [
+      "Kuzatilmadi qaydi kelganda nima qilinadi?",
+      "Keyingi tekshiruv rejalashtiriladi",
+      "Darhol nol deb yoziladi",
+      "Darhol 100% beriladi",
+      "Dalil o‘ylab topiladi"
+    ],
+    [
+      "Kompleks ishda to‘liq dastur shartmi?",
+      "Yo‘q, vazifadagi dalillar yetarli",
+      "Har doim katta server kerak",
+      "Har doim tijorat mahsuloti kerak",
+      "Har doim yangi qurilma kerak"
+    ],
+    [
+      "Kasbiy va xavfsizlik dalillari qanday ko‘riladi?",
+      "Tegishli indikatorlar bo‘yicha",
+      "Faqat bitta umumiy taxmin bilan",
+      "Faqat dizayn asosida",
+      "Faqat nomlar soni bilan"
+    ],
+    [
+      "Hisobotdagi bajarildi qaydi nimaga mos bo‘lishi kerak?",
+      "Amalda ko‘rsatilgan dalilga",
+      "Faqat rejalashtirilgan ishga",
+      "Faqat istakka",
+      "Faqat do‘stning gapiga"
+    ]
+  ]
+}

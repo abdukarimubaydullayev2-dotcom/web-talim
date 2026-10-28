@@ -1,0 +1,11 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx=vm.createContext({});vm.runInContext(fs.readFileSync('dist/frontend-data.js','utf8')+'\n'+fs.readFileSync('dist/frontend-resources.js','utf8')+'\nthis.data=frontendData;this.groups=frontendGroups',ctx);const d=ctx.data;
+assert.equal(ctx.groups[1].hours,16);assert.equal(ctx.groups[1].topics.length,8);assert.equal(ctx.groups[4].hours,56);assert.equal(ctx.groups[4].topics.length,28);assert.equal(ctx.groups.reduce((s,g)=>s+g.hours,0),220);
+for(let n=1;n<=3;n++){assert(!d[n].assignment);assert(d[n].html.includes('Vazifadan oldingi tushuntirish'));}assert.equal(d[4].assignment.mode,'files');
+const added={5:['html','head','meta','title','body','div','span'],6:['h1','h2','h3','h4','h5','h6','p','br','hr','strong','em','b'],7:['a','img'],8:['ul','ol','li','table','caption','thead','tbody','tr','th','td'],9:['header','nav','main','section','article','footer'],10:['form','label','input','button','select','option','textarea'],11:['video','audio','source'],12:[]},known=new Set();
+for(let n=5;n<=12;n++){for(const tag of added[n])known.add(tag);const a=d[n].assignment;assert.equal(a.mode,'html');assert(!/<style\b|<script\b|\sstyle\s*=|\son\w+\s*=/i.test(a.code));for(const m of a.code.matchAll(/<\/?([a-z][a-z0-9]*)\b/gi))assert(known.has(m[1].toLowerCase()),`Lesson ${n}: ${m[1]} not yet introduced`);assert(a.teaching.length>60);assert(a.prerequisite.length>10);}
+for(let n=13;n<=40;n++){assert.equal(d[n].assignment.mode,'css');assert(!/<script\b|\son\w+\s*=/i.test(d[n].assignment.code));}
+for(const n of [47,51,55,59,63,68]){assert.equal(d[n].kind,'Amaliy');assert.equal(d[n].assignment.mode,'js');assert.equal(d[n].quiz.length,10);assert(!/document\.|fetch\(|localStorage/.test(d[n].assignment.code));}
+assert(!/for\s*\(|while\s*\(/.test(d[51].assignment.code));assert(!/function\s|=>/.test(d[59].assignment.code));assert(!/getElementById|textContent/.test(d[42].assignment.code));assert(!/=>/.test(d[58].assignment.code));assert(!/reduce\(/.test(d[67].assignment.code));assert(!/async|await/.test(d[85].assignment.code));
+assert.deepEqual(Array.from(ctx.groups[5].topics,x=>x.number),[69,70,71,72,73,74,75,76,77,78]);
+console.log('HTML 16h/8 lessons; JavaScript 56h/28 lessons; six staged practice lessons; HTML/CSS order and unchanged DOM boundary validated.');

@@ -1,0 +1,41 @@
+{
+  "selection_basis": "Video title and creator description compared with lesson scope",
+  "selected": {
+    "1": {
+      "id": "_wJca0JCgkA",
+      "title": "Kompyuter tuzilishi haqida",
+      "channel": "Ilxom Xo‘jamurodov",
+      "language": "O‘zbekcha",
+      "coverage": "Kompyuterning ichki komponentlari va ularning vazifalariga kirish. CPU, ona plata, RAM va saqlash qurilmasini farqlashga e’tibor bering.",
+      "task": "Ko‘rilgan beshta komponentni sanab, har birining vazifasini bir jumlada yozing.",
+      "source": "https://www.youtube.com/watch?v=_wJca0JCgkA"
+    },
+    "16": {
+      "id": "jBYEKl-IoBg",
+      "title": "Operatsion tizimlar 1-dars Kirish",
+      "channel": "Milliy ta’lim resurslari",
+      "language": "O‘zbekcha",
+      "coverage": "Operatsion tizim tushunchasi va OTlar haqida boshlang‘ich tushuncha. Jarayon, xotira va qurilmalarni boshqarish vazifalarini konspekt bilan birga o‘rganing.",
+      "task": "OTning uchta vazifasini yozing va har biriga kompyuterdagi amaldan misol keltiring.",
+      "source": "https://t.me/s/uzeduonlinemaktab?q=%23milliy_talim_resurslari"
+    }
+  },
+  "excluded": [
+    {
+      "id": "v0WAMxK-Bto",
+      "reason": "BIOS update tutorial does not match BIOS settings and virtualization lesson"
+    },
+    {
+      "id": "rtxPTEZSmOw",
+      "reason": "Embedded YouTube player reports account deleted and video unavailable"
+    },
+    {
+      "id": "AfQi1x6D2Mg",
+      "reason": "Embedded YouTube player reports account deleted and video unavailable"
+    }
+  ],
+  "playback_checked": [
+    "_wJca0JCgkA",
+    "jBYEKl-IoBg"
+  ]
+}
