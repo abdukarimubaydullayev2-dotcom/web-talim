@@ -10,7 +10,7 @@ Platformaga login/parol bilan ro‘yxatdan o‘tib kiriladi. Google yoki ChatGPT
 Viloyat → tuman/shahar → texnikum → o‘quvchi/o‘qituvchi tanlanadi.
 O‘quvchi guruhini o‘zi yozishi majburiy, o‘qituvchida guruh maydoni chiqmaydi.
 Keyin ism, familiya, noyob login va kamida 10 belgili parol kiritiladi.
-Hisoblar D1da saqlanadi; parollar saltli PBKDF2 hash, sessiyalar HttpOnly cookie bilan ishlaydi.
+Hisoblar D1da saqlanadi; parollar bcrypt va serverdagi HMAC secret bilan himoyalangan hash, sessiyalar HttpOnly cookie bilan ishlaydi.
 Rol tanlovi tasniflash uchun, administrator vakolatini bermaydi.
 
 ## Mazmun
@@ -41,6 +41,8 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_married_rumiko_fujikawa.sql
 npm start
 ```
+
+Lokal ro‘yxatdan o‘tish uchun `.dev.vars` faylida `AUTH_PASSWORD_PEPPER`ga kamida 32 belgili tasodifiy maxfiy qiymat belgilang. Fayl Gitga kiritilmaydi; production qiymatini hosting secrets boshqaradi.
 
 Wrangler ko‘rsatgan lokal URLni oching. Hostingda D1 binding kerak; serverli versiya oddiy statik GitHub Pagesda avtomatik ishlamaydi.
 `.openai/hosting.json` mavjud Sites loyihasiga tegishli, uni boshqa loyiha IDsi bilan almashtirmang.

@@ -3,7 +3,7 @@ export function secure(response){const headers=new Headers(response.headers);hea
 export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clientJS,styleCSS}){
  const url=new URL(request.url),path=url.pathname;
  const content=(text,type='text/html; charset=utf-8',status=200)=>secure(new Response(text,{status,headers:{'Content-Type':type}}));
- if(path.startsWith('/api/'))return secure(await handleAuth(request,env.DB));
+ if(path.startsWith('/api/'))return secure(await handleAuth(request,env.DB,{pepper:env.AUTH_PASSWORD_PEPPER}));
  if(path==='/auth/client.js')return content(clientJS,'text/javascript; charset=utf-8');
  if(path==='/auth/style.css')return content(styleCSS,'text/css; charset=utf-8');
  if(path==='/assets/texnikum-building-2026.jpg')return env.ASSETS.fetch(request);

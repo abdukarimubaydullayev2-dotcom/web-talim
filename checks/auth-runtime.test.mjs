@@ -4,7 +4,7 @@ rmSync('.wrangler/auth-tests',{recursive:true,force:true});
 for(const migration of readdirSync('drizzle').filter(x=>x.endsWith('.sql')).sort()){
  const migrate=spawnSync(process.execPath,[...cli,'d1','execute','DB',...config,'--file','drizzle/'+migration],{encoding:'utf8'});if(migrate.status!==0)throw new Error(migrate.stderr+'\n'+migrate.stdout);
 }
-const child=spawn(process.execPath,[...cli,'dev','--config','dist/server/wrangler.json','--local','--persist-to','.wrangler/auth-tests','--ip','127.0.0.1','--inspector-port','0','--port','8789'],{stdio:['ignore','pipe','pipe']});let logs='';child.stdout.on('data',b=>logs+=b);child.stderr.on('data',b=>logs+=b);
+const child=spawn(process.execPath,[...cli,'dev','--config','dist/server/wrangler.json','--local','--persist-to','.wrangler/auth-tests','--ip','127.0.0.1','--inspector-port','0','--port','8789','--var','AUTH_PASSWORD_PEPPER:local-test-pepper-not-for-production-7394'],{stdio:['ignore','pipe','pipe']});let logs='';child.stdout.on('data',b=>logs+=b);child.stderr.on('data',b=>logs+=b);
 const base='http://127.0.0.1:8789';const request=(path,body,cookie,origin=base)=>fetch(base+path,{redirect:'manual',method:body===undefined?'GET':'POST',headers:{...(body===undefined?{}:{'Content-Type':'application/json',Origin:origin}),...(cookie?{Cookie:cookie}:{})},body:body===undefined?undefined:JSON.stringify(body)});
 try{
  let ready=false;for(let i=0;i<200;i++){try{const r=await request('/api/catalog');if(r.ok){ready=true;break;}}catch{}await new Promise(r=>setTimeout(r,150));}if(!ready)throw Error('Runtime not ready: '+logs);

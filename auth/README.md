@@ -13,7 +13,10 @@ Guruhning asl yozilishi saqlanadi, group_key NFKC/katta harf/separatorlarni olib
 Muassasa va group_key bo‘yicha indeks bor. O‘quvchi natijalari va o‘qituvchi boshqaruv paneli ushbu o‘zgarishga kiritilmagan.
 
 D1: accounts, auth_sessions, auth_rate_limits. Drizzle schema va ketma-ket migratsiyalar.
-Parollar: Web Crypto PBKDF2-HMAC-SHA256 600000 iteratsiya, har hisobga alohida 16-byte salt.
+Parollar: bcrypt cost 12, HMAC-SHA384 prehash va hosting secretidagi AUTH_PASSWORD_PEPPER.
+Bu Workers PBKDF2 iteratsiya chegarasini chetlab o‘tuvchi maxsus KDF yaratmaydi; standart bcrypt ishlatiladi.
+Legacy PBKDF2 yozuvlari o‘qiladi; yangi hisoblar bcrypt ishlatadi.
+Parolning to‘liq 128 belgisi ishlatiladi, bcryptning 72-byte chegarasida qirqilmaydi.
 Sessiya: 32-byte tasodifiy token, D1da faqat SHA256; HttpOnly Secure SameSite=Lax __Host cookie.
 Login/registration IP va login bo‘yicha cheklangan; statuslar uchun umumiy login xatosi.
 JSON body 8192 byte; faqat same-origin POST; ro‘yxatdagi region/district/college aloqasi va role serverda tekshiriladi.
