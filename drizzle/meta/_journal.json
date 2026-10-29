@@ -15,6 +15,13 @@
       "when": 1793205128804,
       "tag": "0001_married_rumiko_fujikawa",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793236224710,
+      "tag": "0002_flat_jigsaw",
+      "breakpoints": true
     }
   ]
 }

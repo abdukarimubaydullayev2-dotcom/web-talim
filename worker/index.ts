@@ -1,3 +1,6 @@
+import adminHTML from '../admin/index.html?raw';
+import adminJS from '../admin/client.js?raw';
+import adminCSS from '../admin/style.css?raw';
 import { gateway } from '../auth/gateway.mjs';
 import loginHTML from '../auth/login.html?raw';
 import accountHTML from '../auth/account.html?raw';
@@ -29,7 +32,7 @@ const worker = {
         },
       };
     }
-    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS}));
+    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS}));
   },
 };
 

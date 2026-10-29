@@ -1,0 +1,65 @@
+import catalog from '../auth/catalog.json' with {type:'json'};
+import assessments from './assessments.json' with {type:'json'};
+import {currentAccount,AuthError,readBody} from '../auth/service.mjs';
+export const TRACKING_STARTED='2026-10-29';
+import {isAdmin} from '../auth/access.mjs';
+export {isAdmin} from '../auth/access.mjs';
+const normalizeGroup=x=>x.normalize('NFKC').trim().toLocaleUpperCase('uz').replace(/[\s_\-‐‑–—−]/g,'');
+const idPattern=/^[a-zA-Z0-9-]{16,80}$/;
+const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'private, no-store'}});
+function dateBoundary(value){if(!/^\d{4}-\d{2}-\d{2}$/.test(value))throw new AuthError('Sana formati noto‘g‘ri.');const n=Date.parse(value+'T00:00:00+05:00');if(!Number.isFinite(n)||new Date(n+18000000).toISOString().slice(0,10)!==value)throw new AuthError('Sana noto‘g‘ri.');return n;}
+export function parseFilters(url){const p=url.searchParams,f={};
+ for(const [key,list] of [['regionId',catalog.regions],['districtId',catalog.districts],['collegeId',catalog.colleges]]){const value=p.get(key);if(value){if(!list.some(x=>x.id===value))throw new AuthError('Hudud filtri noto‘g‘ri.');f[key]=value;}}
+ if(f.districtId&&f.regionId&&catalog.districts.find(x=>x.id===f.districtId).regionId!==f.regionId)throw new AuthError('Tuman viloyatga mos emas.');
+ if(f.collegeId){const c=catalog.colleges.find(x=>x.id===f.collegeId);if((f.districtId&&c.districtId!==f.districtId)||(f.regionId&&c.regionId!==f.regionId))throw new AuthError('Texnikum hududga mos emas.');}
+ if(p.get('role')){if(!['student','teacher'].includes(p.get('role')))throw new AuthError('Rol noto‘g‘ri.');f.role=p.get('role');}
+ if(p.get('group')){if(p.get('group').length>40)throw new AuthError('Guruh filtri juda uzun.');f.group=normalizeGroup(p.get('group'));}
+ if(p.get('q')){if(p.get('q').length>80)throw new AuthError('Qidiruv matni juda uzun.');f.q=p.get('q').trim();}
+ if(p.get('accountId')){if(!/^[a-f0-9-]{36}$/.test(p.get('accountId')))throw new AuthError('Hisob filtri noto‘g‘ri.');f.accountId=p.get('accountId');}
+ for(const [key,max] of [['moduleId',8],['lessonId',500]])if(p.get(key)){const n=Number(p.get(key));if(!Number.isInteger(n)||n<1||n>max)throw new AuthError('Mavzu filtri noto‘g‘ri.');f[key]=n;}
+ if(p.get('from'))f.from=dateBoundary(p.get('from'));if(p.get('to'))f.to=dateBoundary(p.get('to'))+86400000;if(f.from!==undefined&&f.to!==undefined&&f.from>=f.to)throw new AuthError('Sana oralig‘i noto‘g‘ri.');
+ return f;
+}
+function accountWhere(f){const clauses=[],args=[];for(const [key,col] of [['regionId','region_id'],['districtId','district_id'],['collegeId','college_id'],['role','role'],['group','group_key'],['accountId','id']])if(f[key]){clauses.push('a.'+col+'=?');args.push(f[key]);}
+ if(f.q){clauses.push("(a.first_name||' '||a.last_name LIKE ? ESCAPE '\\' OR a.login LIKE ? ESCAPE '\\')");const q='%'+f.q.replace(/[\\%_]/g,'\\$&')+'%';args.push(q,q);}return {sql:clauses.join(' AND ')||'1',args};}
+function eventWhere(alias,f,lessons=true){const clauses=[],args=[];if(f.from!==undefined){clauses.push(alias+'.created_at>=?');args.push(f.from);}if(f.to!==undefined){clauses.push(alias+'.created_at<?');args.push(f.to);}if(lessons)for(const [key,col]of[['moduleId','module_id'],['lessonId','lesson_id']])if(f[key]){clauses.push(alias+'.'+col+'=?');args.push(f[key]);}return {sql:clauses.join(' AND ')||'1',args};}
+const fields='a.id,a.login,a.first_name,a.last_name,a.role,a.region_id,a.district_id,a.college_id,a.group_name,a.group_key,a.created_at';
+function common(f){const a=accountWhere(f),e=eventWhere('e',f),t=eventWhere('t',f),l=eventWhere('l',f,false);return {sql:`WITH fa AS(SELECT ${fields} FROM accounts a WHERE ${a.sql}),ev AS(SELECT e.account_id,MAX(e.created_at) last_seen,SUM(CASE WHEN e.kind='lesson_open' THEN 1 ELSE 0 END) views,COUNT(DISTINCT CASE WHEN e.kind='lesson_open' THEN e.module_id||':'||e.lesson_id END) lessons FROM activity_events e WHERE ${e.sql} AND e.account_id IN(SELECT id FROM fa) GROUP BY e.account_id),ta AS(SELECT t.account_id,COUNT(*) attempts,SUM(t.percent) total_percent,MAX(t.percent) best,MAX(t.created_at) last_test,SUM(CASE WHEN t.percent>=60 THEN 1 ELSE 0 END) passed FROM test_attempts t WHERE ${t.sql} AND t.account_id IN(SELECT id FROM fa) GROUP BY t.account_id),le AS(SELECT l.account_id,MAX(l.created_at) last_login,COUNT(*) logins FROM login_events l WHERE ${l.sql}${f.moduleId||f.lessonId?' AND 0':''} AND l.account_id IN(SELECT id FROM fa) GROUP BY l.account_id)`,args:[...a.args,...e.args,...t.args,...l.args]};}
+const joins='FROM fa LEFT JOIN ev ON ev.account_id=fa.id LEFT JOIN ta ON ta.account_id=fa.id LEFT JOIN le ON le.account_id=fa.id';
+const active='(ev.last_seen IS NOT NULL OR ta.last_test IS NOT NULL OR le.last_login IS NOT NULL)';
+function enrich(row){return {...row,college:catalog.colleges.find(x=>x.id===row.college_id)?.name||'',region:catalog.regions.find(x=>x.id===row.region_id)?.name||'',district:catalog.districts.find(x=>x.id===row.district_id)?.name||''};}
+export async function adminOverview(db,f){const c=common(f);const summary=await db.prepare(c.sql+` SELECT COUNT(*) registered,COALESCE(SUM(CASE WHEN fa.role='student' THEN 1 ELSE 0 END),0) students,COALESCE(SUM(CASE WHEN fa.role='teacher' THEN 1 ELSE 0 END),0) teachers,COUNT(CASE WHEN ${active} THEN 1 END) active,COUNT(CASE WHEN ${active} AND fa.role='student' THEN 1 END) activeStudents,COUNT(CASE WHEN ${active} AND fa.role='teacher' THEN 1 END) activeTeachers,COALESCE(SUM(ta.attempts),0) attempts,ROUND(SUM(ta.total_percent)*1.0/NULLIF(SUM(ta.attempts),0),1) averagePercent,COALESCE(SUM(ev.views),0) lessonOpens,COALESCE(SUM(le.logins),0) logins ${joins}`).bind(...c.args).first();return {summary,trackingStarted:TRACKING_STARTED,timezone:'Asia/Tashkent'};}
+export async function adminReport(db,f,section,page){const c=common(f),a=accountWhere(f),e=eventWhere('e',f),t=eventWhere('t',f);let sql,args;
+ if(section==='groups'){sql=c.sql+` SELECT fa.college_id,fa.group_key,MIN(fa.group_name) group_name,COUNT(*) students,COUNT(CASE WHEN ${active} THEN 1 END) active,COALESCE(SUM(ev.views),0) lesson_opens,COALESCE(SUM(ta.attempts),0) attempts,COUNT(CASE WHEN ta.attempts>0 THEN 1 END) tested_students,ROUND(SUM(ta.total_percent)*1.0/NULLIF(SUM(ta.attempts),0),1) average_percent,MAX(ta.best) best_percent,COALESCE(SUM(ta.passed),0) passed ${joins} WHERE fa.role='student' GROUP BY fa.college_id,fa.group_key`;args=c.args;
+ }else if(section==='users'){sql=c.sql+` SELECT fa.*,CASE WHEN ${active} THEN 1 ELSE 0 END active,ev.last_seen,le.last_login,COALESCE(ev.lessons,0) lessons,COALESCE(ta.attempts,0) attempts,ROUND(ta.total_percent*1.0/NULLIF(ta.attempts,0),1) average_percent ${joins}`;args=c.args;
+ }else if(section==='attempts'){sql=`WITH fa AS(SELECT ${fields} FROM accounts a WHERE ${a.sql}) SELECT t.id,fa.id account_id,fa.first_name,fa.last_name,fa.login,fa.role,fa.college_id,fa.region_id,fa.district_id,fa.group_name,t.module_id,t.lesson_id,t.lesson_title,t.correct,t.total,t.percent,t.created_at FROM test_attempts t JOIN fa ON fa.id=t.account_id WHERE ${t.sql}`;args=[...a.args,...t.args];
+ }else if(section==='lessons'){sql=`WITH fa AS(SELECT ${fields} FROM accounts a WHERE ${a.sql}) SELECT fa.id account_id,fa.first_name,fa.last_name,fa.login,fa.role,fa.college_id,fa.region_id,fa.district_id,fa.group_name,e.module_id,e.lesson_id,MIN(e.lesson_title) lesson_title,COUNT(*) opens,MIN(e.created_at) first_open,MAX(e.created_at) last_open FROM activity_events e JOIN fa ON fa.id=e.account_id WHERE e.kind='lesson_open' AND ${e.sql} GROUP BY fa.id,e.module_id,e.lesson_id`;args=[...a.args,...e.args];
+ }else throw new AuthError('Hisobot turi noto‘g‘ri.');
+ const order={groups:'college_id,group_name',users:'fa.created_at DESC,fa.id',attempts:'t.created_at DESC,t.id',lessons:'last_open DESC,account_id,module_id,lesson_id'}[section];const total=await db.prepare('SELECT COUNT(*) AS count FROM ('+sql+')').bind(...args).first();const size=50;const result=await db.prepare(sql+' ORDER BY '+order+' LIMIT ? OFFSET ?').bind(...args,size,(page-1)*size).all();return {section,page,pageSize:size,total:total.count,rows:result.results.map(enrich)};
+}
+export async function handleAnalytics(request,env){try{const url=new URL(request.url),user=await currentAccount(request,env.DB);if(!user)return json({error:'Hisobga kiring.'},401);
+ if(url.pathname.startsWith('/api/admin/')){
+  if(!isAdmin(user,env))return json({error:'Admin panelga kirish huquqi yo‘q.'},403);if(request.method!=='GET')return json({error:'GET so‘rovi kerak.'},405);
+  if(url.pathname==='/api/admin/options')return json({catalog,lessons:Object.values(assessments).map(({moduleId,lessonId,title})=>({moduleId,lessonId,title})),trackingStarted:TRACKING_STARTED});
+  const filters=parseFilters(url);
+  if(url.pathname==='/api/admin/overview')return json(await adminOverview(env.DB,filters));
+  if(url.pathname==='/api/admin/report'){const page=Number(url.searchParams.get('page')||1);if(!Number.isInteger(page)||page<1||page>10000)throw new AuthError('Sahifa noto‘g‘ri.');return json(await adminReport(env.DB,filters,url.searchParams.get('section')||'groups',page));}
+  return json({error:'Hisobot topilmadi.'},404);
+ }
+ if(!['/api/activity/event','/api/activity/test'].includes(url.pathname))return json({error:'Manzil topilmadi.'},404);
+ if(request.method!=='POST')return json({error:'POST so‘rovi kerak.'},405);
+ if(request.headers.get('Origin')!==url.origin||request.headers.get('Sec-Fetch-Site')==='cross-site')throw new AuthError('So‘rov manbasi noto‘g‘ri.',403);
+ const input=await readBody(request);if(!input||!idPattern.test(input.clientId||''))throw new AuthError('Qayd identifikatori noto‘g‘ri.');
+ const existing=await env.DB.prepare('SELECT COUNT(*) count FROM activity_events WHERE account_id=? AND created_at>?').bind(user.id,Date.now()-60000).first();if(existing.count>120)throw new AuthError('Juda ko‘p so‘rov. Bir daqiqadan so‘ng qayta uriniladi.',429);
+ const now=Date.now(),key=input.moduleId+':'+input.lessonId,assessment=assessments[key];
+ if(url.pathname==='/api/activity/event'){
+  if(!['visit','lesson_open'].includes(input.kind))throw new AuthError('Qayd turi noto‘g‘ri.');if(input.kind==='lesson_open'&&!assessment)throw new AuthError('Mavzu topilmadi.');
+  await env.DB.prepare('INSERT INTO activity_events(id,account_id,client_id,kind,module_id,lesson_id,lesson_title,created_at) VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(account_id,client_id) DO NOTHING').bind(crypto.randomUUID(),user.id,input.clientId,input.kind,input.kind==='lesson_open'?assessment.moduleId:null,input.kind==='lesson_open'?assessment.lessonId:null,input.kind==='lesson_open'?assessment.title:null,now).run();return json({saved:true});
+ }
+ if(!assessment||input.version!==assessment.version)throw new AuthError('Mavzu testi yangilangan. Sahifani yangilab, qayta ishlang.',409);
+ if(!Array.isArray(input.answers)||input.answers.length!==assessment.correct.length||input.answers.some((x,i)=>x!==null&&(!Number.isInteger(x)||x<0||x>=assessment.optionCounts[i])))throw new AuthError('Test javoblari noto‘g‘ri.');
+ const duplicate=await env.DB.prepare('SELECT id,correct,total,percent,created_at,answers_json FROM test_attempts WHERE account_id=? AND client_id=?').bind(user.id,input.clientId).first();if(duplicate){if(duplicate.answers_json!==JSON.stringify(input.answers))throw new AuthError('Urinish identifikatori takrorlangan.',409);const {answers_json,...saved}=duplicate;return json({saved:true,result:saved});}
+ const recent=await env.DB.prepare('SELECT COUNT(*) count FROM test_attempts WHERE account_id=? AND created_at>?').bind(user.id,now-60000).first();if(recent.count>=20)throw new AuthError('Test yuborishlar soni oshib ketdi. Bir daqiqadan so‘ng qayta uriniladi.',429);
+ const correct=input.answers.reduce((n,x,i)=>n+(x===assessment.correct[i]?1:0),0),total=assessment.correct.length,percent=Math.round(correct/total*100),id=crypto.randomUUID();
+ await env.DB.prepare('INSERT INTO test_attempts(id,account_id,client_id,module_id,lesson_id,lesson_title,assessment_version,answers_json,correct,total,percent,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(account_id,client_id) DO NOTHING').bind(id,user.id,input.clientId,assessment.moduleId,assessment.lessonId,assessment.title,assessment.version,JSON.stringify(input.answers),correct,total,percent,now).run();const stored=await env.DB.prepare('SELECT id,correct,total,percent,created_at,answers_json FROM test_attempts WHERE account_id=? AND client_id=?').bind(user.id,input.clientId).first();if(stored.answers_json!==JSON.stringify(input.answers))throw new AuthError('Urinish identifikatori takrorlangan.',409);const {answers_json,...result}=stored;return json({saved:true,result},201);
+ }catch(e){if(e instanceof AuthError)return json({error:e.message},e.status);console.error('analytics_request_failed',{name:e?.name||'Error'});return json({error:'Hisobot xizmati vaqtincha mavjud emas.'},503);}}

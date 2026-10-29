@@ -39,6 +39,7 @@ Har bir `drizzle/*.sql` faylini tartib bilan lokal DBga qo‘llang:
 ```sh
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_tan_pet_avengers.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_married_rumiko_fujikawa.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0002_flat_jigsaw.sql
 npm start
 ```
 
@@ -50,6 +51,8 @@ Wrangler ko‘rsatgan lokal URLni oching. Hostingda D1 binding kerak; serverli v
 ## Tekshiruv
 
 ```sh
+node checks/admin.test.mjs
+node checks/activity-client.test.cjs
 node checks/auth-ui.test.cjs
 node checks/auth-runtime.test.mjs
 node checks/integration-module.test.cjs
@@ -58,7 +61,9 @@ node checks/database-module.test.cjs
 
 Auth runtime testi alohida lokal test bazasini yaratadi; real foydalanuvchi yoki production bazasiga tegmaydi.
 Ishchi qoralamalar shu brauzerda hisob idsi bilan ajratiladi, qurilmalar orasida avtomatik sinxronlanmaydi.
-O‘qituvchi boshqaruv paneli va parolni email/SMS orqali tiklash hali qo‘shilmagan.
+Admin panel `/admin` orqali egasining mavjud hisobiga ochiladi. Hudud, texnikum, guruh, foydalanuvchi, mavzu va sana bo‘yicha foydalanuvchi faolligi hamda test natijalari filtrlanadi. O‘qituvchini tanlash admin huquqini bermaydi.
+
+Mavzu va test statistikasi 2026-10-29 dagi ushbu yangilanishdan boshlab yig‘iladi. Oldingi qurilmadagi mahalliy testlarni tiklash ko‘zda tutilmagan. Parolni email/SMS orqali tiklash hali qo‘shilmagan.
 
 ## Ma’lumotlar va manbalar
 

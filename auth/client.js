@@ -22,6 +22,6 @@ if($('login-form')){
  if(location.pathname==='/register'||new URLSearchParams(location.search).get('mode')==='register')tab('register');
 }
 if($('account-info')){
- api('/api/auth/me').then(({user})=>{const rows=[['Ism-familiya',user.firstName+' '+user.lastName],['Login',user.login],['Viloyat',user.region],['Tuman / shahar',user.district],['Texnikum',user.college],['Foydalanuvchi',user.role==='student'?'O‘quvchi':'O‘qituvchi']];if(user.role==='student')rows.push(['Guruh',user.groupName]);for(const [key,value] of rows){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=key;dd.textContent=value;$('account-info').append(dt,dd);}}).catch(()=>location.assign('/login'));
+ api('/api/auth/me').then(({user})=>{if(user.isAdmin)$('admin-link').hidden=false;const rows=[['Ism-familiya',user.firstName+' '+user.lastName],['Login',user.login],['Viloyat',user.region],['Tuman / shahar',user.district],['Texnikum',user.college],['Foydalanuvchi',user.role==='student'?'O‘quvchi':'O‘qituvchi']];if(user.role==='student')rows.push(['Guruh',user.groupName]);for(const [key,value] of rows){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=key;dd.textContent=value;$('account-info').append(dt,dd);}}).catch(()=>location.assign('/login'));
  $('account-exit').addEventListener('click',async()=>{try{await api('/api/auth/logout',{});location.assign('/login');}catch(e){message(e.message,true);}});
 }
