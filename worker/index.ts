@@ -8,6 +8,8 @@ import examHTML from '../exams/student.html?raw';
 import examJS from '../exams/student.js?raw';
 import resourcesHTML from '../resources/index.html?raw';
 import resourcesJS from '../resources/client.js?raw';
+import adminResourcesHTML from '../admin/resources.html?raw';
+import adminResourcesJS from '../admin/resources-client.js?raw';
 import { gateway } from '../auth/gateway.mjs';
 import loginHTML from '../auth/login.html?raw';
 import accountHTML from '../auth/account.html?raw';
@@ -39,7 +41,7 @@ const worker = {
         },
       };
     }
-    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS}));
+    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS,adminResourcesHTML,adminResourcesJS}));
   },
 };
 

@@ -17,7 +17,8 @@ Rol tanlovi tasniflash uchun, administrator vakolatini bermaydi.
 
 - `/teacher` — o‘z guruhlarini yaratish, Excel ro‘yxatidan o‘quvchi hisoblarini noyob login va tasodifiy boshlang‘ich parollar bilan ochish. Tayyor ma’lumotlarni Excel/PDFda yuklab olish, uzilgan importni davom ettirish.
 - Guruhdagi oraliq nazoratlar — Word `.docx`dagi `*` bilan belgilangan test bankini yuklash, masalan 300 savoldan 25 yoki 30 tasini berish. Savollar to‘plami har bir o‘quvchida turli, javoblar aralash; baholash serverda. `/controls` — o‘quvchi nazoratlari.
-- `/teacher/resources` — o‘z mustaqil ish, prezentatsiya va videodarslarini fayl/havola sifatida mavzuga biriktirish. Darsda faqat o‘sha o‘qituvchiga ko‘rinadi; fayllar shaxsiy R2 xotirasida saqlanadi.
+- `/teacher/resources` — o‘z mustaqil ish, prezentatsiya va videodarslarini fayl/havola sifatida mavzuga biriktirish. Darsda o‘sha o‘qituvchiga ko‘rinadi; administrator ham alohida panelda ko‘ra oladi; fayllar shaxsiy R2 xotirasida saqlanadi.
+- `/admin/resources` — administrator barcha o‘qituvchilar resurslarini filtrlaydi, fayl va videolarni ochadi.
 - `/account` — profil va parolni yangilash. O‘quvchi parolni yangilaganda boshlang‘ich parol o‘qituvchi eksportidan olib tashlanadi.
 - Bosh sahifa/dars yuqorisida rolga mos Admin panel, Mening resurslarim, Guruhlarim va Hisobim havolalari mavjud. Admin havolasi faqat serverda ruxsat berilgan hisobga chiqadi.
 

@@ -3,10 +3,12 @@ import {handleAuth,currentAccount} from './service.mjs';
 import {handleTeacher} from '../teacher/server.mjs';
 import {handleExams} from '../exams/server.mjs';
 import {handleResources} from '../resources/server.mjs';
+import {handleAdminResources} from '../admin/resources-server.mjs';
 export function secure(response){const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('X-Frame-Options','DENY');headers.set('Cache-Control','private, no-store');return new Response(response.body,{status:response.status,statusText:response.statusText,headers});}
-export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS}){
+export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS,adminResourcesHTML,adminResourcesJS}){
  const url=new URL(request.url),path=url.pathname;
  const content=(text,type='text/html; charset=utf-8',status=200)=>secure(new Response(text,{status,headers:{'Content-Type':type}}));
+ if(path==='/api/admin/resources'||path.startsWith('/api/admin/resources/'))return secure(await handleAdminResources(request,env));
  if(path.startsWith('/api/admin/')||path.startsWith('/api/activity/'))return secure(await handleAnalytics(request,env));
  if(path.startsWith('/api/teacher/'))return secure(await handleTeacher(request,env));
  if(path.startsWith('/api/exams/'))return secure(await handleExams(request,env));
@@ -22,7 +24,7 @@ export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clie
  if(path==='/teacher/resources'||path==='/teacher/resources/client.js'){if(user.role!=='teacher')return content('Bu bo‘lim o‘qituvchilar uchun.','text/plain; charset=utf-8',403);return path==='/teacher/resources'?content(resourcesHTML):content(resourcesJS,'text/javascript; charset=utf-8');}
  if(path==='/controls'||path==='/controls/client.js'){if(user.role!=='student')return content('Bu bo‘lim o‘quvchilar uchun.','text/plain; charset=utf-8',403);return path==='/controls'?content(examHTML):content(examJS,'text/javascript; charset=utf-8');}
  if(path==='/teacher'||path.startsWith('/teacher/')){if(user.role!=='teacher')return content('Bu bo‘lim o‘qituvchilar uchun.','text/plain; charset=utf-8',403);if(path==='/teacher')return content(teacherHTML);if(path==='/teacher/client.js')return content(teacherJS,'text/javascript; charset=utf-8');if(path==='/teacher/style.css')return content(teacherCSS,'text/css; charset=utf-8');return content('Topilmadi.','text/plain',404);}
- if(path==='/admin'||path.startsWith('/admin/')){if(!isAdmin(user,env))return content('Admin panelga kirish huquqi yo‘q.','text/plain; charset=utf-8',403);if(path==='/admin')return content(adminHTML);if(path==='/admin/client.js')return content(adminJS,'text/javascript; charset=utf-8');if(path==='/admin/style.css')return content(adminCSS,'text/css; charset=utf-8');return content('Topilmadi.','text/plain',404);}
+ if(path==='/admin'||path.startsWith('/admin/')){if(!isAdmin(user,env))return content('Admin panelga kirish huquqi yo‘q.','text/plain; charset=utf-8',403);if(path==='/admin/resources')return content(adminResourcesHTML);if(path==='/admin/resources/client.js')return content(adminResourcesJS,'text/javascript; charset=utf-8');if(path==='/admin')return content(adminHTML);if(path==='/admin/client.js')return content(adminJS,'text/javascript; charset=utf-8');if(path==='/admin/style.css')return content(adminCSS,'text/css; charset=utf-8');return content('Topilmadi.','text/plain',404);}
  if(path==='/'||path==='/index.html'){
   const scoped=courseHTML.replace('<script src="sidebar.js">', '<script>globalThis.webTalimAccountId='+JSON.stringify(user.id)+'</script><script src="sidebar.js">');
   const accountNav='<nav class="course-account-nav" aria-label="Hisob bo‘limlari">'+(isAdmin(user,env)?'<a class="course-admin-link" href="/admin">Admin panel</a>':'')+(user.role==='teacher'?'<a href="/teacher/resources">Mening resurslarim</a><a href="/teacher">Guruhlarim</a>':'<a href="/controls">Oraliq nazoratlar</a>')+'<a href="/account">Hisobim</a></nav>';

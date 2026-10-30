@@ -14,7 +14,9 @@ Qabul qilinadigan fayllar: PDF, DOC/DOCX, PPT/PPTX, XLS/XLSX, TXT, ZIP, JPG/JPEG
 
 ## Maxfiylik va mavzu integratsiyasi
 
-API har bir so‘rovda server sessiyasi, teacher roli va immutable owner IDni tekshiradi. Boshqa o‘qituvchiga, o‘quvchiga yoki mehmonlarga fayl/metadata ochilmaydi. Hatto to‘g‘ridan-to‘g‘ri object/resource ID topilsa ham. Admin roliga alohida bypass yo‘q.
+API har bir so‘rovda server sessiyasi, teacher roli va immutable owner IDni tekshiradi. Boshqa o‘qituvchiga, o‘quvchiga yoki mehmonlarga fayl/metadata ochilmaydi. Hatto to‘g‘ridan-to‘g‘ri object/resource ID topilsa ham. Admin `/admin/resources` orqali barcha o‘qituvchilarning resurslarini ko‘radi. `/api/admin/resources` va uning fayl endpointi immutable ADMIN_ACCOUNT_IDS orqali tekshiriladi, GET/HEAD bilan cheklangan. Egaga tegishli odatiy API ruxsatlari kengaytirilmaydi. Admin sahifasida o‘qituvchi, modul, mavzu, nom, tur, manba va holat filtrlari, 25 tadan pagination mavjud. Object key va parollar bu javoblarga chiqarilmaydi.
+
+O‘qituvchi interfeysida admin ham materiallarni ko‘rishi ochiq ko‘rsatiladi.
 
 Course HTMLga `personal-resources.js` faqat o‘qituvchi uchun qo‘shiladi. U mavjud renderResources zanjirini (analitika va dars kontenti) saqlagan holda, mavzuning yuqorisiga «Mening resurslarim»ni qo‘shadi. Har safar faqat joriy moduleId/lessonId va own teacher ID bilan tayyor resurslar olinadi. AbortController va generation tekshiruvi oldingi mavzuning kech javobini chiqarmaydi. Bosh sahifaga qaytganda panel/video olib tashlanadi. Mavzuga resurs qo‘shish linki formani oldindan tanlaydi; resursdagi «Mavzuni ochish» tegishli darsga olib boradi.
 

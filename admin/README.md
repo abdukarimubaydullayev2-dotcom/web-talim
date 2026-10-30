@@ -42,3 +42,12 @@ Admission panel uses the provided school building photograph and the five subjec
 areas in the user's original directions image, plus requested IT and jewellery.
 It omits unsupported phone numbers, dates, guaranteed jobs, grant or fee claims.
 No personal account data is committed to this repository.
+
+
+## O‘qituvchilar resurslari
+
+`/admin/resources` va admin menyusidagi «O‘qituvchi resurslari» orqali barcha o‘qituvchilarning mavzuga biriktirgan materiallarini ko‘rish mumkin. O‘qituvchi ismi/login, aniq account ID, modul, mavzu, resurs turi, manba, holat hamda resurs matni bo‘yicha server filtrlari mavjud. Natijalar 25 tadan sahifalanadi. Har kartada egasining ism-familiyasi, logini, texnikumi va mavzusi ko‘rsatiladi.
+
+GET/HEAD endpointlar `/api/admin/resources` ostida bo‘lib, faqat mavjud ADMIN_ACCOUNT_IDS allowlistiga tayanadi. Fayl va video oqimlari ham shu ruxsat bilan tekshiriladi; Range va HEAD qo‘llanadi. Admin uchun tahrirlash, o‘chirish yoki upload amallari ochilmagan. Oddiy o‘qituvchining `/api/resources` endpointi boshqa egalar ma’lumotini bermaydi. O‘qituvchiga administrator resurslarni ko‘rishi interfeysda ko‘rsatilgan.
+
+Bu imkoniyat uchun yangi DB migratsiyasi yoki yangi secret kerak emas. `checks/resources.test.mjs` va haqiqiy Worker/D1/R2 `checks/auth-runtime.test.mjs` admin ko‘rish huquqini hamda boshqa rollarning rad etilishini tekshiradi.
