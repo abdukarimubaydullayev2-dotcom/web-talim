@@ -13,6 +13,16 @@ Keyin ism, familiya, noyob login va kamida 10 belgili parol kiritiladi.
 Hisoblar D1da saqlanadi; parollar bcrypt va serverdagi HMAC secret bilan himoyalangan hash, sessiyalar HttpOnly cookie bilan ishlaydi.
 Rol tanlovi tasniflash uchun, administrator vakolatini bermaydi.
 
+## O‘qituvchi imkoniyatlari
+
+- `/teacher` — o‘z guruhlarini yaratish, Excel ro‘yxatidan o‘quvchi hisoblarini noyob login va tasodifiy boshlang‘ich parollar bilan ochish. Tayyor ma’lumotlarni Excel/PDFda yuklab olish, uzilgan importni davom ettirish.
+- Guruhdagi oraliq nazoratlar — Word `.docx`dagi `*` bilan belgilangan test bankini yuklash, masalan 300 savoldan 25 yoki 30 tasini berish. Savollar to‘plami har bir o‘quvchida turli, javoblar aralash; baholash serverda. `/controls` — o‘quvchi nazoratlari.
+- `/teacher/resources` — o‘z mustaqil ish, prezentatsiya va videodarslarini fayl/havola sifatida mavzuga biriktirish. Darsda faqat o‘sha o‘qituvchiga ko‘rinadi; fayllar shaxsiy R2 xotirasida saqlanadi.
+- `/account` — profil va parolni yangilash. O‘quvchi parolni yangilaganda boshlang‘ich parol o‘qituvchi eksportidan olib tashlanadi.
+- Bosh sahifa/dars yuqorisida rolga mos Admin panel, Mening resurslarim, Guruhlarim va Hisobim havolalari mavjud. Admin havolasi faqat serverda ruxsat berilgan hisobga chiqadi.
+
+Batafsil: `teacher/README.md`, `exams/README.md`, `resources/README.md`, `admin/README.md`.
+
 ## Mazmun
 
 8 modul: kasbiy faoliyat va mehnat muhofazasi; kompyuter arxitekturasi;
@@ -25,6 +35,7 @@ Test o‘tish chegarasi 60%. Word konspektlar Calibri 14, interval 1, Atamalar b
 
 - `course/` — darslar, statik JS, rasmlar, Word va ZIP materiallarining kanonik manbasi.
 - `auth/` — kirish, ro‘yxatdan o‘tish, profil, server validatsiyasi va rasmiy muassasalar katalogi.
+- `teacher/`, `exams/`, `resources/` — o‘qituvchi guruhlari, oraliq nazoratlar va shaxsiy fayllar.
 - `db/schema.ts` va `drizzle/` — D1 sxema va ketma-ket migratsiyalar.
 - `worker/` — barcha so‘rovlarda sessiyani tekshiradigan gateway.
 - `authoring/` — o‘quv materiallarini yaratish skriptlari va alohida demo loyihalar.
@@ -40,17 +51,27 @@ Har bir `drizzle/*.sql` faylini tartib bilan lokal DBga qo‘llang:
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_tan_pet_avengers.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_married_rumiko_fujikawa.sql
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0002_flat_jigsaw.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0003_spotty_cable.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0004_crazy_gargoyle.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0005_gray_ultragirl.sql
 npm start
 ```
 
 Lokal ro‘yxatdan o‘tish uchun `.dev.vars` faylida `AUTH_PASSWORD_PEPPER`ga kamida 32 belgili tasodifiy maxfiy qiymat belgilang. Fayl Gitga kiritilmaydi; production qiymatini hosting secrets boshqaradi.
 
-Wrangler ko‘rsatgan lokal URLni oching. Hostingda D1 binding kerak; serverli versiya oddiy statik GitHub Pagesda avtomatik ishlamaydi.
+Wrangler ko‘rsatgan lokal URLni oching. Hostingda D1 `DB` va shaxsiy fayllar uchun R2 `BUCKET` bindinglari kerak; serverli versiya oddiy statik GitHub Pagesda avtomatik ishlamaydi.
 `.openai/hosting.json` mavjud Sites loyihasiga tegishli, uni boshqa loyiha IDsi bilan almashtirmang.
 
 ## Tekshiruv
 
 ```sh
+node checks/teacher.test.mjs
+node checks/teacher-files.test.mjs
+node checks/exams.test.mjs
+node checks/exam-docx.test.mjs
+node checks/exam-client.test.cjs
+node checks/resources.test.mjs
+node checks/personal-resources.test.cjs
 node checks/admin.test.mjs
 node checks/activity-client.test.cjs
 node checks/auth-ui.test.cjs

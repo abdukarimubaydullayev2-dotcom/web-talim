@@ -45,7 +45,45 @@ try{
  r=await request('/api/auth/login',{login:input.login.toUpperCase(),password:input.password});assert.equal(r.status,200);const loginCookie=r.headers.get('set-cookie').split(';')[0];
  r=await request('/api/auth/logout',{},loginCookie);assert.equal(r.status,200);assert(r.headers.get('set-cookie').includes('Max-Age=0'));
  r=await request('/api/auth/me',undefined,loginCookie);assert.equal(r.status,401);
- r=await request('/api/auth/register',{...input,login:input.login+'-t',role:'teacher',groupName:'FORGED'});assert.equal(r.status,201);const teacher=await r.json();assert.equal(teacher.user.groupName,null);assert.equal(teacher.user.role,'teacher');
+ r=await request('/api/auth/register',{...input,login:input.login+'-t',role:'teacher',groupName:'FORGED'});assert.equal(r.status,201);const teacherSession=r.headers.get('set-cookie').split(';')[0],teacher=await r.json();assert.equal(teacher.user.groupName,null);assert.equal(teacher.user.role,'teacher');
+ r=await request('/teacher',undefined,teacherSession);assert.equal(r.status,200);assert((await r.text()).includes('Excel namuna'));
+ r=await request('/teacher',undefined,session);assert.equal(r.status,403);
+ for(const asset of ['/teacher/client.js','/teacher-files.js','/vendor/teacher/exceljs.min.js','/vendor/teacher/pdf-lib.min.js','/vendor/teacher/fontkit.umd.min.js','/vendor/teacher/DejaVuSans.ttf']){r=await request(asset,undefined,teacherSession);assert.equal(r.status,200,asset);assert((await r.arrayBuffer()).byteLength>100);}
+ r=await request('/api/teacher/groups',{name:'3-IT'},teacherSession);assert.equal(r.status,201);const group=(await r.json()).group;
+ r=await request('/api/teacher/groups/'+group.id+'/imports',{clientId:crypto.randomUUID(),rows:[{firstName:'O‘ktam',lastName:'G‘aniyev'},{firstName:'Malika',lastName:'Sodiqova'}]},teacherSession);assert.equal(r.status,201,await r.clone().text());const job=(await r.json()).importId;
+ for(let i=0;i<3;i++){r=await request('/api/teacher/groups/'+group.id+'/imports/'+job+'/next',{},teacherSession);assert.equal(r.status,200,await r.clone().text());}assert.equal((await r.json()).completed,2);
+ r=await request('/api/teacher/groups/'+group.id+'/credentials',{},teacherSession);assert.equal(r.status,200);const creds=await r.json();assert.equal(creds.students.length,2);assert.notEqual(creds.students[0].password,creds.students[1].password);
+ r=await request('/api/auth/login',{login:creds.students[0].login,password:creds.students[0].password});assert.equal(r.status,200);const provisionedCookie=r.headers.get('set-cookie').split(';')[0];
+ r=await request('/api/auth/password',{currentPassword:creds.students[0].password,password:'New-Student-Password-7394!'},provisionedCookie);assert.equal(r.status,200,await r.clone().text());
+ const examStudentCookie=r.headers.get('set-cookie').split(';')[0];
+ r=await request('/api/teacher/groups/'+group.id+'/credentials',{},teacherSession);assert.equal((await r.json()).students[0].password,null);
+ const examBank=Array.from({length:300},(_,i)=>({question:'Savol '+(i+1),options:['A '+i,'B '+i,'C '+i,'D '+i],correct:i%4}));
+ r=await request('/api/exams/teacher/create',{clientId:crypto.randomUUID(),groupId:group.id,title:'Oraliq nazorat',questionCount:25,questions:examBank},teacherSession);assert.equal(r.status,201,await r.clone().text());const exam=(await r.json()).exam;
+ r=await request('/controls',undefined,examStudentCookie);assert.equal(r.status,200);assert((await r.text()).includes('Oraliq nazoratlar'));
+ for(const asset of ['/controls.css','/controls-base.css','/controls/client.js','/exam-import.js','/exam-teacher.js','/vendor/teacher/jszip.min.js']){r=await request(asset,undefined,examStudentCookie);assert.equal(r.status,200,asset);}
+ r=await request('/api/exams/student/list',undefined,session);assert.equal((await r.json()).exams.length,0);
+ r=await request('/api/exams/student/list',undefined,examStudentCookie);assert.equal((await r.json()).exams.length,1);
+ r=await request('/api/exams/student/'+exam.id+'/start',{},examStudentCookie);assert.equal(r.status,201,await r.clone().text());const examPaper=(await r.json()).attempt;assert.equal(examPaper.questions.length,25);
+ const answers=examPaper.questions.map(q=>{const i=Number(q.question.slice(6))-1;return q.options.indexOf(String.fromCharCode(65+i%4)+' '+i);});
+ r=await request('/api/exams/student/'+exam.id+'/save',{answers,revision:0},examStudentCookie);assert.equal(r.status,200,await r.clone().text());
+ r=await request('/api/exams/student/'+exam.id+'/start',{},examStudentCookie);assert.equal(r.status,200);assert.deepEqual((await r.json()).attempt.questions,examPaper.questions);
+ r=await request('/api/exams/student/'+exam.id+'/submit',{answers,revision:1,percent:0},examStudentCookie);assert.equal(r.status,200,await r.clone().text());assert.equal((await r.json()).attempt.result.percent,100);
+ r=await request('/api/exams/teacher/'+exam.id+'/results',undefined,teacherSession);assert.equal(r.status,200);assert.equal((await r.json()).students.find(x=>x.login===creds.students[0].login).percent,100);
+ r=await request('/api/exams/student/'+exam.id+'/submit',{answers:Array(25).fill(null),revision:0},examStudentCookie);assert.equal((await r.json()).attempt.result.percent,100);
+ console.log('Real Worker+D1 group exams: 300-question bank, 25-question paper, membership isolation, student assets, stable resume, autosave, server grading and teacher results passed.');
+ r=await request('/teacher/resources',undefined,teacherSession);assert.equal(r.status,200);assert((await r.text()).includes('Mening resurslarim'));r=await request('/teacher/resources',undefined,examStudentCookie);assert.equal(r.status,403);
+ const resourceInput={clientId:crypto.randomUUID(),title:'Shaxsiy mustaqil ish',description:'Faqat o‘zimga',moduleId:5,lessonId:2,kind:'assignment',source:'link',url:'https://example.org/my-material'};
+ r=await request('/api/resources',resourceInput,teacherSession);assert.equal(r.status,201,await r.clone().text());const linkResource=(await r.json()).resource;
+ r=await request('/api/resources?moduleId=5&lessonId=2&ready=1',undefined,teacherSession);assert.equal((await r.json()).resources.length,1);
+ r=await request('/api/resources',undefined,examStudentCookie);assert.equal(r.status,403);r=await request('/api/resources/'+linkResource.id+'/update',{...resourceInput,title:'Yangilangan',moduleId:6,lessonId:1},adminCookie);assert.equal(r.status,404);
+ const fileBytes=new TextEncoder().encode('O‘qituvchining shaxsiy fayli — Web Ta’lim');r=await request('/api/resources',{...resourceInput,clientId:crypto.randomUUID(),source:'file',fileName:'mustaqil-ish.txt',byteSize:fileBytes.length},teacherSession);assert.equal(r.status,201);const fileResource=(await r.json()).resource;
+ r=await fetch(base+'/api/resources/'+fileResource.id+'/upload',{method:'POST',headers:{Cookie:teacherSession,Origin:base,'Content-Type':'application/octet-stream','Content-Length':String(fileBytes.length)},body:fileBytes});assert.equal(r.status,200,await r.clone().text());assert.equal((await r.json()).resource.status,'ready');
+ r=await request('/api/resources/'+fileResource.id+'/file',undefined,teacherSession);assert.equal(r.status,200);assert.deepEqual(new Uint8Array(await r.arrayBuffer()),fileBytes);assert(r.headers.get('content-disposition').startsWith('attachment;'));
+ r=await fetch(base+'/api/resources/'+fileResource.id+'/file',{headers:{Cookie:teacherSession,Range:'bytes=2-6'}});assert.equal(r.status,206,await r.clone().text());assert.equal(r.headers.get('content-range'),'bytes 2-6/'+fileBytes.length);assert.deepEqual(new Uint8Array(await r.arrayBuffer()),fileBytes.slice(2,7));
+ r=await request('/api/resources/'+fileResource.id+'/file',undefined,adminCookie);assert.equal(r.status,404);r=await request('/api/resources/'+fileResource.id+'/file',undefined,examStudentCookie);assert.equal(r.status,403);
+ r=await request('/',undefined,teacherSession);assert((await r.text()).includes('/personal-resources.js'));r=await request('/',undefined,examStudentCookie);assert(!(await r.text()).includes('/personal-resources.js'));
+ r=await request('/api/resources/'+fileResource.id+'/delete',{},teacherSession);assert.equal(r.status,200);r=await request('/api/resources/'+fileResource.id+'/file',undefined,teacherSession);assert.equal(r.status,404);
+ console.log('Real Worker+D1+R2 private resources: metadata, raw stream upload, byte-for-byte download, Range seek, own-teacher-only file access, lesson filters, course hook injection and deletion passed.');
  r=await request('/api/auth/register',{...input,login:input.login+'-a',role:'admin'});assert.equal(r.status,400);
  console.log('Admin pages/API, report filtering, server scoring and admission panel passed. Real Worker+D1 HTTP: registration chain, required student group, teacher null group, validation, CSRF, password login, duplicate login, session/logout, protected course/documents/WASM passed.');
 }finally{child.kill('SIGTERM');setTimeout(()=>child.kill('SIGKILL'),1500).unref();}

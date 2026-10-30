@@ -1,0 +1,63 @@
+import {AuthError,currentAccount,digest} from '../auth/service.mjs';
+import {validateBank,validateQuestionCount,selectUnusedSet,paperFor,studentPaper,validAnswers,grade} from './model.mjs';
+const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'private, no-store'}});
+const uuid=value=>/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/.test(value||'');
+async function body(request){if(!request.headers.get('Content-Type')?.startsWith('application/json'))throw new AuthError('JSON so‘rovi kerak.',415);let n=0;const parts=[];for await(const chunk of request.body||[]){n+=chunk.length;if(n>2000000)throw new AuthError('Test banki juda katta. Matn hajmini kamaytiring.',413);parts.push(chunk);}const bytes=new Uint8Array(n);let o=0;for(const p of parts){bytes.set(p,o);o+=p.length;}try{const value=JSON.parse(new TextDecoder().decode(bytes));if(!value||typeof value!=='object'||Array.isArray(value))throw Error();return value;}catch{throw new AuthError('So‘rov formati noto‘g‘ri.');}}
+async function ownerGroup(db,user,id){const g=await db.prepare('SELECT * FROM teaching_groups WHERE id=? AND owner_id=? AND college_id=?').bind(id,user.id,user.college_id).first();if(!g)throw new AuthError('Guruh topilmadi.',404);return g;}
+async function ownerExam(db,user,id){const exam=await db.prepare('SELECT e.* FROM group_exams e JOIN teaching_groups g ON g.id=e.group_id WHERE e.id=? AND e.owner_id=? AND g.owner_id=? AND g.college_id=?').bind(id,user.id,user.id,user.college_id).first();if(!exam)throw new AuthError('Nazorat topilmadi.',404);return exam;}
+async function studentExam(db,user,id){const exam=await db.prepare('SELECT e.*,g.name group_name FROM group_exams e JOIN teaching_groups g ON g.id=e.group_id WHERE e.id=? AND g.college_id=? AND EXISTS(SELECT 1 FROM roster_students r WHERE r.group_id=e.group_id AND r.account_id=?)').bind(id,user.college_id,user.id).first();if(!exam)throw new AuthError('Nazorat topilmadi yoki guruhingizga berilmagan.',404);return exam;}
+const summary=e=>({id:e.id,title:e.title,groupId:e.group_id,groupName:e.group_name,questionCount:e.question_count,bankCount:e.bank_count,status:e.status,createdAt:e.created_at});
+function attemptView(exam,row){if(!row)return {exam:summary(exam),attempt:null};const submitted=row.submitted_at!==null;return {exam:summary(exam),attempt:{id:row.id,revision:row.revision,startedAt:row.started_at,submittedAt:row.submitted_at,answers:submitted?[]:JSON.parse(row.answers_json),questions:submitted?[]:studentPaper(JSON.parse(exam.bank_json),JSON.parse(row.paper_json)),result:submitted?{correct:row.correct,total:exam.question_count,percent:row.percent}:null}};}
+async function startAttempt(db,exam,user){let row=await db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? AND account_id=?').bind(exam.id,user.id).first();if(row)return {row,created:false};if(exam.status!=='open')throw new AuthError('O‘qituvchi bu nazoratni yopgan.',409);const bank=JSON.parse(exam.bank_json);
+ for(let retry=0;retry<12;retry++){
+  const used=new Set((await db.prepare('SELECT variant_key FROM exam_attempts WHERE exam_id=?').bind(exam.id).all()).results.map(x=>x.variant_key)),{selection,key}=selectUnusedSet(bank.length,exam.question_count,used),paper=paperFor(bank,selection),id=crypto.randomUUID();
+  try{await db.prepare("INSERT INTO exam_attempts(id,exam_id,account_id,variant_key,paper_json,answers_json,revision,started_at) SELECT ?,?,?,?,?,?,0,? WHERE EXISTS(SELECT 1 FROM group_exams WHERE id=? AND status='open')").bind(id,exam.id,user.id,key,JSON.stringify(paper),JSON.stringify(Array(paper.length).fill(null)),Date.now(),exam.id).run();}catch(e){if(!/UNIQUE constraint/.test(String(e)))throw e;}
+  row=await db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? AND account_id=?').bind(exam.id,user.id).first();if(row)return {row,created:row.id===id};const current=await db.prepare('SELECT status FROM group_exams WHERE id=?').bind(exam.id).first();if(current?.status!=='open')throw new AuthError('O‘qituvchi bu nazoratni yopgan.',409);
+ }
+ throw new AuthError('Variant tayyorlashda so‘rovlar to‘qnashdi. Qayta urinib ko‘ring.',409);
+}
+async function rate(db,id){const now=Date.now(),key='exam:'+id,r=await db.prepare('INSERT INTO auth_rate_limits(key,count,reset_at) VALUES(?,1,?) ON CONFLICT(key) DO UPDATE SET count=CASE WHEN reset_at<=? THEN 1 ELSE count+1 END,reset_at=CASE WHEN reset_at<=? THEN excluded.reset_at ELSE reset_at END RETURNING count').bind(key,now+60000,now,now).first();if(r.count>300)throw new AuthError('So‘rovlar ko‘paydi. Bir daqiqadan keyin qayta urinib ko‘ring.',429);}
+export async function handleExams(request,env){try{
+ const user=await currentAccount(request,env.DB);if(!user)throw new AuthError('Hisobga kiring.',401);const url=new URL(request.url),db=env.DB,path=url.pathname;
+ if(!['GET','POST'].includes(request.method))throw new AuthError('Usul qo‘llanmaydi.',405);
+ if(request.method==='POST'){if(request.headers.get('Origin')!==url.origin||request.headers.get('Sec-Fetch-Site')==='cross-site')throw new AuthError('So‘rov manbasi tasdiqlanmadi.',403);await rate(db,user.id);}
+ if(path.startsWith('/api/exams/teacher/')){
+  if(user.role!=='teacher')throw new AuthError('O‘qituvchi huquqi kerak.',403);
+  if(path==='/api/exams/teacher/list'&&request.method==='GET'){
+   const group=await ownerGroup(db,user,url.searchParams.get('groupId'));
+   const rows=(await db.prepare('SELECT e.id,e.title,e.group_id,e.question_count,e.bank_count,e.status,e.created_at,COUNT(a.id) started,SUM(CASE WHEN a.submitted_at IS NOT NULL THEN 1 ELSE 0 END) submitted,AVG(CASE WHEN a.submitted_at IS NOT NULL THEN a.percent END) average_percent FROM group_exams e LEFT JOIN exam_attempts a ON a.exam_id=e.id WHERE e.group_id=? AND e.owner_id=? GROUP BY e.id ORDER BY e.created_at DESC').bind(group.id,user.id).all()).results;return json({exams:rows.map(r=>({...summary(r),started:r.started,submitted:r.submitted,averagePercent:r.average_percent}))});
+  }
+  if(path==='/api/exams/teacher/create'&&request.method==='POST'){
+   const data=await body(request),group=await ownerGroup(db,user,data.groupId);if(!uuid(data.clientId))throw new AuthError('Nazorat raqami noto‘g‘ri.');
+   if(typeof data.title!=='string'||!data.title.trim()||data.title.trim().length>120)throw new AuthError('Nazorat nomi 1–120 belgi bo‘lsin.');const title=data.title.trim(),bank=validateBank(data.questions),bankJson=JSON.stringify(bank);if(new TextEncoder().encode(bankJson).length>1500000)throw new AuthError('Test banki matni juda katta.',413);
+   const students=await db.prepare('SELECT COUNT(*) n FROM roster_students WHERE group_id=? AND account_id IS NOT NULL').bind(group.id).first();if(!students.n)throw new AuthError('Avval guruhda kamida bitta o‘quvchi hisobini yarating.');
+   const questionCount=validateQuestionCount(data.questionCount,bank.length,students.n),payloadHash=await digest(JSON.stringify({groupId:group.id,title,questionCount,bank}));
+   const previous=await db.prepare('SELECT * FROM group_exams WHERE owner_id=? AND client_id=?').bind(user.id,data.clientId).first();if(previous){if(previous.payload_hash!==payloadHash)throw new AuthError('Bu so‘rov raqami boshqa nazorat uchun ishlatilgan.',409);return json({exam:summary(previous)});}
+   const count=await db.prepare('SELECT COUNT(*) n FROM group_exams WHERE group_id=?').bind(group.id).first();if(count.n>=100)throw new AuthError('Guruh uchun 100 ta nazorat chegarasiga yetildi.');const id=crypto.randomUUID();
+   try{await db.prepare("INSERT INTO group_exams(id,owner_id,group_id,client_id,payload_hash,title,question_count,bank_count,bank_json,status,created_at) VALUES(?,?,?,?,?,?,?,?,?,'open',?)").bind(id,user.id,group.id,data.clientId,payloadHash,title,questionCount,bank.length,bankJson,Date.now()).run();}catch(e){if(!/UNIQUE constraint/.test(String(e)))throw e;const same=await db.prepare('SELECT * FROM group_exams WHERE owner_id=? AND client_id=?').bind(user.id,data.clientId).first();if(same?.payload_hash===payloadHash)return json({exam:summary(same)});throw new AuthError('Nazorat allaqachon saqlangan. Ro‘yxatni yangilang.',409);}return json({exam:summary(await ownerExam(db,user,id))},201);
+  }
+  const m=path.match(/^\/api\/exams\/teacher\/([a-f0-9-]{36})\/(results|status)$/);if(m){const exam=await ownerExam(db,user,m[1]);
+   if(m[2]==='status'&&request.method==='POST'){const data=await body(request);if(!['open','closed'].includes(data.status))throw new AuthError('Holat noto‘g‘ri.');await db.prepare('UPDATE group_exams SET status=? WHERE id=?').bind(data.status,exam.id).run();return json({ok:true,status:data.status});}
+   if(m[2]==='results'&&request.method==='GET'){const rows=(await db.prepare('SELECT r.first_name,r.last_name,r.login,a.started_at,a.submitted_at,a.correct,a.percent FROM roster_students r LEFT JOIN exam_attempts a ON a.account_id=r.account_id AND a.exam_id=? WHERE r.group_id=? AND r.account_id IS NOT NULL ORDER BY r.last_name,r.first_name,r.id').bind(exam.id,exam.group_id).all()).results;return json({exam:summary(exam),students:rows});}
+  }
+ }
+ if(path.startsWith('/api/exams/student/')){
+  if(user.role!=='student')throw new AuthError('O‘quvchi hisobi kerak.',403);
+  if(path==='/api/exams/student/list'&&request.method==='GET'){
+   const rows=(await db.prepare('SELECT e.id,e.title,e.group_id,e.question_count,e.bank_count,e.status,e.created_at,g.name group_name,a.id attempt_id,a.started_at,a.submitted_at,a.correct,a.percent FROM group_exams e JOIN teaching_groups g ON g.id=e.group_id LEFT JOIN exam_attempts a ON a.exam_id=e.id AND a.account_id=? WHERE g.college_id=? AND EXISTS(SELECT 1 FROM roster_students r WHERE r.group_id=e.group_id AND r.account_id=?) ORDER BY e.created_at DESC').bind(user.id,user.college_id,user.id).all()).results;return json({exams:rows.map(r=>({...summary(r),attemptId:r.attempt_id,startedAt:r.started_at,submittedAt:r.submitted_at,result:r.submitted_at!==null?{correct:r.correct,total:r.question_count,percent:r.percent}:null}))});
+  }
+  const m=path.match(/^\/api\/exams\/student\/([a-f0-9-]{36})(?:\/(start|save|submit))?$/);if(m){const exam=await studentExam(db,user,m[1]);
+   if(!m[2]&&request.method==='GET'){const row=await db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? AND account_id=?').bind(exam.id,user.id).first();return json(attemptView(exam,row));}
+   if(m[2]==='start'&&request.method==='POST'){await body(request);const {row,created}=await startAttempt(db,exam,user);return json(attemptView(exam,row),created?201:200);}
+   if(['save','submit'].includes(m[2])&&request.method==='POST'){
+    const data=await body(request),row=await db.prepare('SELECT * FROM exam_attempts WHERE exam_id=? AND account_id=?').bind(exam.id,user.id).first();if(!row)throw new AuthError('Avval nazoratni boshlang.',409);
+    if(row.submitted_at!==null)return json({attempt:attemptView(exam,row).attempt});if(exam.status!=='open')throw new AuthError('O‘qituvchi nazoratni yopgan. Javoblar qabul qilinmaydi.',409);
+    const paper=JSON.parse(row.paper_json),answers=validAnswers(data.answers,paper);if(!Number.isInteger(data.revision)||data.revision!==row.revision)throw new AuthError('Javoblar boshqa oynada o‘zgargan. Sahifani yangilang.',409);
+    if(m[2]==='save')await db.prepare("UPDATE exam_attempts SET answers_json=?,revision=revision+1 WHERE id=? AND revision=? AND submitted_at IS NULL AND EXISTS(SELECT 1 FROM group_exams WHERE id=? AND status='open')").bind(JSON.stringify(answers),row.id,row.revision,exam.id).run();
+    else{const result=grade(JSON.parse(exam.bank_json),paper,answers);await db.prepare("UPDATE exam_attempts SET answers_json=?,revision=revision+1,correct=?,percent=?,submitted_at=? WHERE id=? AND revision=? AND submitted_at IS NULL AND EXISTS(SELECT 1 FROM group_exams WHERE id=? AND status='open')").bind(JSON.stringify(answers),result.correct,result.percent,Date.now(),row.id,row.revision,exam.id).run();}
+    const saved=await db.prepare('SELECT * FROM exam_attempts WHERE id=?').bind(row.id).first();if(saved.submitted_at===null&&(m[2]==='submit'||saved.revision!==row.revision+1||saved.answers_json!==JSON.stringify(answers)))throw new AuthError('Nazorat holati yoki javoblar o‘zgardi. Sahifani yangilang.',409);return json({attempt:attemptView(exam,saved).attempt});
+   }
+  }
+ }
+ throw new AuthError('Manzil topilmadi.',404);
+ }catch(e){if(e instanceof AuthError)return json({error:e.message},e.status);console.error('exam_request_failed',{name:e?.name||'Error'});return json({error:'Nazorat xizmatida vaqtinchalik xato. Sahifani qayta ochib davom eting.'},503);}}

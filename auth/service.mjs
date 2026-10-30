@@ -48,12 +48,22 @@ export async function handleAuth(request,db,{pepper,adminAccountIds}={}){const u
  try{
   if(request.method==='GET'&&path==='/api/catalog')return json(catalog);
   if(request.method==='GET'&&path==='/api/auth/me'){const row=await currentAccount(request,db);return row?json({user:profile(row,adminAccountIds)}):json({user:null},401);}
-  if(!['/api/auth/register','/api/auth/login','/api/auth/logout'].includes(path))return json({error:'Manzil topilmadi.'},404);
+  if(!['/api/auth/register','/api/auth/login','/api/auth/logout','/api/auth/password'].includes(path))return json({error:'Manzil topilmadi.'},404);
   if(request.method!=='POST')return json({error:'POST so‘rovi kerak.'},405,{Allow:'POST'});
   if(request.headers.get('Origin')!==url.origin||request.headers.get('Sec-Fetch-Site')==='cross-site')throw new AuthError('So‘rov manbasi tasdiqlanmadi. Sahifani qayta oching.',403);
   if(path==='/api/auth/logout'){const raw=request.headers.get('Cookie')?.split(';').map(x=>x.trim()).find(x=>x.startsWith(COOKIE+'='))?.slice(COOKIE.length+1);if(raw&&/^[a-f0-9]{64}$/.test(raw))await db.prepare('DELETE FROM auth_sessions WHERE token_hash=?').bind(await digest(raw)).run();return json({ok:true},200,{'Set-Cookie':cookie('')});}
   const ip=request.headers.get('CF-Connecting-IP')||'local';await limit(db,path+':ip:'+ip,path.endsWith('register')?100:120,path.endsWith('register')?3600000:600000);
   const input=await readBody(request);
+  if(path==='/api/auth/password'){
+   const user=await currentAccount(request,db);if(!user)throw new AuthError('Hisobga kiring.',401);
+   await limit(db,'password:'+user.id,10,600000);
+   if(typeof input.currentPassword!=='string'||input.currentPassword.length>128||typeof input.password!=='string'||input.password.length<10||input.password.length>128)throw new AuthError('Yangi parol 10–128 belgi bo‘lsin.');
+   if(!await verifyPassword(input.currentPassword,user,pepper))throw new AuthError('Amaldagi parol noto‘g‘ri.',400);
+   if(input.currentPassword===input.password)throw new AuthError('Yangi parol avvalgisidan farq qilsin.');
+   const hash=await createPassword(input.password,pepper);
+   await db.batch([db.prepare('UPDATE accounts SET password_hash=?,salt=?,iterations=12 WHERE id=?').bind(hash,'',user.id),db.prepare('UPDATE roster_students SET initial_secret=NULL WHERE account_id=?').bind(user.id),db.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(user.id)]);
+   return json({ok:true},200,{'Set-Cookie':await session(db,user.id,request)});
+  }
   if(path.endsWith('register')){
    const value=validateRegistration(input);const existing=await db.prepare('SELECT id FROM accounts WHERE login=?').bind(value.login).first();if(existing)throw new AuthError('Bu login band. Boshqa login tanlang.',409);
    const salt='',hash=await createPassword(value.password,pepper),id=crypto.randomUUID();

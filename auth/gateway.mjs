@@ -1,10 +1,16 @@
 import {handleAnalytics,isAdmin} from '../analytics/server.mjs';
 import {handleAuth,currentAccount} from './service.mjs';
+import {handleTeacher} from '../teacher/server.mjs';
+import {handleExams} from '../exams/server.mjs';
+import {handleResources} from '../resources/server.mjs';
 export function secure(response){const headers=new Headers(response.headers);headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','strict-origin-when-cross-origin');headers.set('X-Frame-Options','DENY');headers.set('Cache-Control','private, no-store');return new Response(response.body,{status:response.status,statusText:response.statusText,headers});}
-export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS}){
+export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS}){
  const url=new URL(request.url),path=url.pathname;
  const content=(text,type='text/html; charset=utf-8',status=200)=>secure(new Response(text,{status,headers:{'Content-Type':type}}));
  if(path.startsWith('/api/admin/')||path.startsWith('/api/activity/'))return secure(await handleAnalytics(request,env));
+ if(path.startsWith('/api/teacher/'))return secure(await handleTeacher(request,env));
+ if(path.startsWith('/api/exams/'))return secure(await handleExams(request,env));
+ if(path==='/api/resources'||path.startsWith('/api/resources/'))return secure(await handleResources(request,env));
  if(path.startsWith('/api/'))return secure(await handleAuth(request,env.DB,{pepper:env.AUTH_PASSWORD_PEPPER,adminAccountIds:env.ADMIN_ACCOUNT_IDS}));
  if(path==='/auth/client.js')return content(clientJS,'text/javascript; charset=utf-8');
  if(path==='/auth/style.css')return content(styleCSS,'text/css; charset=utf-8');
@@ -13,11 +19,16 @@ export async function gateway(request,env,{loginHTML,accountHTML,courseHTML,clie
  if(path==='/login'||path==='/register')return user?secure(Response.redirect(url.origin+'/',303)):content(loginHTML);
  if(!user)return secure(Response.redirect(url.origin+'/login',303));
  if(path==='/account')return content(accountHTML);
+ if(path==='/teacher/resources'||path==='/teacher/resources/client.js'){if(user.role!=='teacher')return content('Bu bo‘lim o‘qituvchilar uchun.','text/plain; charset=utf-8',403);return path==='/teacher/resources'?content(resourcesHTML):content(resourcesJS,'text/javascript; charset=utf-8');}
+ if(path==='/controls'||path==='/controls/client.js'){if(user.role!=='student')return content('Bu bo‘lim o‘quvchilar uchun.','text/plain; charset=utf-8',403);return path==='/controls'?content(examHTML):content(examJS,'text/javascript; charset=utf-8');}
+ if(path==='/teacher'||path.startsWith('/teacher/')){if(user.role!=='teacher')return content('Bu bo‘lim o‘qituvchilar uchun.','text/plain; charset=utf-8',403);if(path==='/teacher')return content(teacherHTML);if(path==='/teacher/client.js')return content(teacherJS,'text/javascript; charset=utf-8');if(path==='/teacher/style.css')return content(teacherCSS,'text/css; charset=utf-8');return content('Topilmadi.','text/plain',404);}
  if(path==='/admin'||path.startsWith('/admin/')){if(!isAdmin(user,env))return content('Admin panelga kirish huquqi yo‘q.','text/plain; charset=utf-8',403);if(path==='/admin')return content(adminHTML);if(path==='/admin/client.js')return content(adminJS,'text/javascript; charset=utf-8');if(path==='/admin/style.css')return content(adminCSS,'text/css; charset=utf-8');return content('Topilmadi.','text/plain',404);}
  if(path==='/'||path==='/index.html'){
   const scoped=courseHTML.replace('<script src="sidebar.js">', '<script>globalThis.webTalimAccountId='+JSON.stringify(user.id)+'</script><script src="sidebar.js">');
-  const adminLink=isAdmin(user,env)?'<a href="/admin" style="position:fixed;bottom:66px;right:18px;z-index:20;background:#183d35;color:white;padding:10px 17px;border-radius:24px;text-decoration:none;font:14px system-ui">Admin panel</a>':'';
-  const html=scoped.replace('</html>',adminLink+'<script src="assessment-versions.js"></script><script src="analytics-client.js"></script>'+'<a href="/account" style="position:fixed;bottom:18px;right:18px;z-index:20;background:#176f58;color:white;border:1px solid #b9d7c8;padding:10px 17px;border-radius:24px;text-decoration:none;font:14px system-ui;box-shadow:0 3px 15px #173f3420">Hisobim</a></html>');return content(html);
+  const accountNav='<nav class="course-account-nav" aria-label="Hisob bo‘limlari">'+(isAdmin(user,env)?'<a class="course-admin-link" href="/admin">Admin panel</a>':'')+(user.role==='teacher'?'<a href="/teacher/resources">Mening resurslarim</a><a href="/teacher">Guruhlarim</a>':'<a href="/controls">Oraliq nazoratlar</a>')+'<a href="/account">Hisobim</a></nav>';
+  const withNav=scoped.replace('<header>','<header class="course-header">').replace(/(<span id="crumb">[\s\S]*?<\/span>)/,'<div class="course-header-main">$1'+accountNav+'</div>').replace('</style>','</style><link rel="stylesheet" href="/account-nav.css">');
+  const privateResources=user.role==='teacher'?'<link rel="stylesheet" href="/personal-resources.css"><script src="/personal-resources.js" type="module"></script>':'';
+  const html=withNav.replace('</html>','<script src="assessment-versions.js"></script><script src="analytics-client.js"></script>'+privateResources+'</html>');return content(html);
  }
  if(!['GET','HEAD'].includes(request.method))return content('Usul qo‘llanmaydi.','text/plain',405);
  return secure(await env.ASSETS.fetch(request));
