@@ -1,0 +1,4341 @@
+{
+  "41": {
+    "sections": [
+      {
+        "title": "UHD tasvirning mohiyati",
+        "text": "Ultra yuqori aniqlikdagi tasvir mayda detallarni ko‘rsatish uchun ko‘proq piksel ishlatadi. UHD 4 K formatining keng tarqalgan o‘lchami 3840×2160 bo‘lib, 1920×1080 tasvirdan to‘rt baravar ko‘p pikselga ega. Ekran diagonali, tomosha masofasi va asl videoning sifati natijaga birgalikda ta’sir qiladi; katta piksel soni xira manbani avtomatik ravishda tiniq qilmaydi."
+      },
+      {
+        "title": "Kadr chastotasi va uzatish",
+        "text": "Tasvir o‘lchami fazoviy tafsilotni, kadr chastotasi esa bir soniyadagi tasvirlar sonini bildiradi. Sportdagi tez harakatni ko‘rsatishda chastota seziladi. Kodek va bit tezligi fayl hajmini belgilaydi. Bir xil o‘lchamdagi ikki videoning hajmi turlicha bo‘lishi mumkin. Darsda ekran tavsifidan ko‘ra bir xil manbani bir xil sharoitda solishtirish ishonchliroq."
+      },
+      {
+        "title": "Ko‘rishga yordam beruvchi imkoniyatlar",
+        "text": "Kattalashtirish, matn o‘lchamini oshirish, yuqori kontrast, ekran o‘quvchi va ovozli tavsif raqamli materialga kirishni yengillashtiradi. Ular tibbiy davolash o‘rnini bosmaydi. Matnning rasm ichida qolishi ekran o‘quvchini qiyinlashtiradi; haqiqiy matn, rasmga muqobil izoh va aniq tugma nomlari qulayroq. Foydalanuvchi ehtiyojiga qarab bir nechta usul birga qo‘llanadi."
+      },
+      {
+        "title": "Virtual reallik qanday ishlaydi?",
+        "text": "VR foydalanuvchini kompyuter yaratgan muhitga joylashtiradi. Ko‘zoynakdagi alohida ko‘rinishlar chuqurlik taassurotini, bosh harakatini kuzatish esa qarash yo‘nalishi o‘zgarishini beradi. Boshqaruv qurilmasi bilan virtual obyekt tanlanadi. AR haqiqiy atrof tasviriga raqamli qatlam qo‘shadi; VR esa ko‘rinadigan muhitni asosan virtual sahna bilan almashtiradi."
+      },
+      {
+        "title": "Qo‘llash va cheklovlar",
+        "text": "Virtual laboratoriya qimmat yoki xavfli vaziyatni mashq qilish imkonini beradi. Ammo model real jarayonning barcha xususiyatlarini takrorlamaydi. Ko‘zoynak o‘lchami, kechikish, tasvir tezligi, bosh aylanishi va xavfsiz bo‘sh joy hisobga olinadi. Oddiy ikki o‘lchamli video uchun qimmat VR tanlash shart emas; vosita dars maqsadiga mos bo‘lishi kerak."
+      },
+      {
+        "title": "Natijani baholash",
+        "text": "UHD, qulaylik va VRni bir xil mezon bilan baholab bo‘lmaydi. UHDda tafsilot, qulaylikda vazifani mustaqil bajarish, VRda fazoviy tajriba va boshqarish tekshiriladi. Sinovda bir vaqtning o‘zida faqat bitta omil o‘zgartirilsa, kuzatilgan farqning sababi aniqroq bo‘ladi. Natija ekran rasmi va qisqa izoh bilan qayd etiladi."
+      }
+    ],
+    "example": {
+      "task": "Bir o‘quv sahifasining oddiy, kattalashtirilgan va yuqori kontrastli ko‘rinishlarini solishtiring; VR uchun mos bitta o‘quv vaziyatini tanlang.",
+      "steps": [
+        "Bir xil matnni 100% va 150% kattalashtirishda oching.",
+        "Tugmalar, satrlar va menyu sig‘ishini tekshiring.",
+        "Kontrastni o‘zgartirib matn o‘qilishini taqqoslang.",
+        "UHD va Full HD piksel sonini hisoblang.",
+        "Virtual tajriba uchun foyda, xavf va muvaffaqiyat mezonini yozing."
+      ],
+      "expected": "3840×2160=8294400, 1920×1080=2073600; nisbat 4. Hisobotda qulaylik uchun kamida uch mezon va VRni tanlashning asosli sababi beriladi.",
+      "pitfall": "Faqat ekran kattaligiga qarab tasvir sifatini yoki ko‘rishga qulayligini baholamang."
+    },
+    "qa": [
+      [
+        "UHD 4 Kning keng tarqalgan piksel o‘lchami qaysi?",
+        "3840×2160. Piksel o‘lchami tasvirning gorizontal va vertikal nuqtalarini bildiradi."
+      ],
+      [
+        "UHD 4 K Full HDdan necha baravar ko‘p pikselga ega?",
+        "4 baravar. Har ikki yo‘nalish ikki baravar oshadi:2×2=4."
+      ],
+      [
+        "Kadr chastotasi nimani bildiradi?",
+        "Bir soniyadagi kadrlar sonini. Chastota harakatning vaqt bo‘yicha aks etishiga tegishli."
+      ],
+      [
+        "Ko‘rishi qiyin foydalanuvchiga qaysi yechim yordam beradi?",
+        "Matnni kattalashtirish va yuqori kontrast. O‘qilish va boshqarish imkoniyatlari foydalanuvchi ehtiyojiga moslanadi."
+      ],
+      [
+        "VRning asosiy belgisi nima?",
+        "Kompyuter yaratgan muhitda ishtirok etish. VR bosh harakatiga mos virtual ko‘rinish berishi mumkin."
+      ],
+      [
+        "AR VRdan qanday farqlanadi?",
+        "Haqiqiy muhit ustiga raqamli obyekt qo‘shadi. ARda haqiqiy atrof saqlanadi."
+      ],
+      [
+        "VR mashg‘ulotidan oldin nima tekshiriladi?",
+        "Xavfsiz bo‘sh joy va qurilma mosligi. Harakat bilan ishlaydigan qurilma to‘qnashuv xavfini ham keltiradi."
+      ],
+      [
+        "Ko‘proq piksel xira asl videoni albatta tiniqlashtiradimi?",
+        "Yo‘q, asl manba sifati ham muhim. Yetishmagan asl tafsilot ekran o‘lchami bilan kafolatlanmaydi."
+      ],
+      [
+        "Ekran o‘quvchi uchun qaysi material qulayroq?",
+        "Haqiqiy matn va muqobil rasm izohi. Semantik matn yordamchi texnologiyalar tomonidan o‘qiladi."
+      ],
+      [
+        "UHD va Full HDni adolatli solishtirishda nima bir xil bo‘lishi kerak?",
+        "Manba va tomosha sharoiti. Sharoitni nazorat qilish sababni aniqlashga yordam beradi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "UHD 4 Kning keng tarqalgan piksel o‘lchami qaysi?",
+        "options": [
+          "640×480",
+          "3840×2160",
+          "1280×720",
+          "1920×1080"
+        ],
+        "correct": 1,
+        "explanation": "Piksel o‘lchami tasvirning gorizontal va vertikal nuqtalarini bildiradi."
+      },
+      {
+        "q": "UHD 4 K Full HDdan necha baravar ko‘p pikselga ega?",
+        "options": [
+          "2 baravar",
+          "8 baravar",
+          "4 baravar",
+          "16 baravar"
+        ],
+        "correct": 2,
+        "explanation": "Har ikki yo‘nalish ikki baravar oshadi:2×2=4."
+      },
+      {
+        "q": "Kadr chastotasi nimani bildiradi?",
+        "options": [
+          "Ekran diagonali uzunligini",
+          "Tasvirdagi rang nomini",
+          "Disklar sonini",
+          "Bir soniyadagi kadrlar sonini"
+        ],
+        "correct": 3,
+        "explanation": "Chastota harakatning vaqt bo‘yicha aks etishiga tegishli."
+      },
+      {
+        "q": "Ko‘rishi qiyin foydalanuvchiga qaysi yechim yordam beradi?",
+        "options": [
+          "Matnni kattalashtirish va yuqori kontrast",
+          "Barcha matnni rasmlarga aylantirish",
+          "Tugma nomlarini yashirish",
+          "Shriftni kichraytirish"
+        ],
+        "correct": 0,
+        "explanation": "O‘qilish va boshqarish imkoniyatlari foydalanuvchi ehtiyojiga moslanadi."
+      },
+      {
+        "q": "VRning asosiy belgisi nima?",
+        "options": [
+          "Faqat haqiqiy qog‘ozni ko‘rish",
+          "Kompyuter yaratgan muhitda ishtirok etish",
+          "Har qanday elektron xat",
+          "Monitor kabeli turi"
+        ],
+        "correct": 1,
+        "explanation": "VR bosh harakatiga mos virtual ko‘rinish berishi mumkin."
+      },
+      {
+        "q": "AR VRdan qanday farqlanadi?",
+        "options": [
+          "Har doim internetni o‘chiradi",
+          "Faqat audio chiqaradi",
+          "Haqiqiy muhit ustiga raqamli obyekt qo‘shadi",
+          "Piksel sonini doim kamaytiradi"
+        ],
+        "correct": 2,
+        "explanation": "ARda haqiqiy atrof saqlanadi."
+      },
+      {
+        "q": "VR mashg‘ulotidan oldin nima tekshiriladi?",
+        "options": [
+          "Faqat fayl nomining uzunligi",
+          "Faqat printerdagi qog‘oz",
+          "Ijtimoiy tarmoq obunachilari",
+          "Xavfsiz bo‘sh joy va qurilma mosligi"
+        ],
+        "correct": 3,
+        "explanation": "Harakat bilan ishlaydigan qurilma to‘qnashuv xavfini ham keltiradi."
+      },
+      {
+        "q": "Ko‘proq piksel xira asl videoni albatta tiniqlashtiradimi?",
+        "options": [
+          "Yo‘q, asl manba sifati ham muhim",
+          "Ha, istisnosiz",
+          "Faqat ekran o‘chirilsa",
+          "Faqat ovoz baland bo‘lsa"
+        ],
+        "correct": 0,
+        "explanation": "Yetishmagan asl tafsilot ekran o‘lchami bilan kafolatlanmaydi."
+      },
+      {
+        "q": "Ekran o‘quvchi uchun qaysi material qulayroq?",
+        "options": [
+          "Izohsiz matn rasmi",
+          "Haqiqiy matn va muqobil rasm izohi",
+          "Faqat rang bilan belgilangan tugma",
+          "Bo‘sh havola"
+        ],
+        "correct": 1,
+        "explanation": "Semantik matn yordamchi texnologiyalar tomonidan o‘qiladi."
+      },
+      {
+        "q": "UHD va Full HDni adolatli solishtirishda nima bir xil bo‘lishi kerak?",
+        "options": [
+          "Barcha videolarning nomi",
+          "Foydalanuvchi paroli",
+          "Manba va tomosha sharoiti",
+          "Internet provayder logosi"
+        ],
+        "correct": 2,
+        "explanation": "Sharoitni nazorat qilish sababni aniqlashga yordam beradi."
+      }
+    ],
+    "glossary": [
+      [
+        "UHD",
+        "Ultra yuqori aniqlikdagi tasvir"
+      ],
+      [
+        "Piksel",
+        "Rastr tasvirning nuqtasi"
+      ],
+      [
+        "VR",
+        "Kompyuter yaratgan virtual muhit"
+      ],
+      [
+        "AR",
+        "Haqiqiy muhitga raqamli qatlam qo‘shish"
+      ],
+      [
+        "Kadr chastotasi",
+        "Bir soniyadagi kadrlar soni"
+      ]
+    ]
+  },
+  "42": {
+    "sections": [
+      {
+        "title": "Elektron tijorat jarayoni",
+        "text": "Elektron tijorat mahsulot yoki xizmatni raqamli kanalda qidirish, buyurtma qilish, to‘lash va yetkazib berishni muvofiqlashtirishdir. Mahsulot kartasi, savat, buyurtma va to‘lov holati alohida obyektlardir. Tovar savatga qo‘shilishi hali sotuv tugaganini anglatmaydi. Qaytarish, yetkazish narxi va sotuvchi bilan aloqa shartlari xaridgacha tekshiriladi."
+      },
+      {
+        "title": "Internet banking",
+        "text": "Internet banking bank hisobini masofadan boshqarish, qoldiqni tekshirish, to‘lov va o‘tkazmani bajarish imkonini beradi. Foydalanuvchi rasmiy ilova yoki manzilni tanlaydi, oluvchini tekshiradi va tasdiqlash bosqichidan o‘tadi. Darsda haqiqiy bank hisobiga kirmaymiz: shartli summa va soxta rekvizitli sxema bilan jarayonni modellashtiramiz."
+      },
+      {
+        "title": "Elektron pul o‘tkazmasi",
+        "text": "O‘tkazmada jo‘natuvchi, oluvchi, summa, valyuta, vaqt, tranzaksiya identifikatori va holat muhim. Yuborildi, kutilmoqda, bajarildi va rad etildi bir xil emas. Bir tugmani qayta bosish takroriy to‘lov xavfini tug‘diradi. Avval operatsiyalar tarixidan holat tekshiriladi; noma’lum holatda yana yuborish o‘rniga bankning rasmiy yordam kanaliga murojaat qilinadi."
+      },
+      {
+        "title": "Xavfsizlik va firibgarlik",
+        "text": "Parol, PIN, CVV va tasdiqlash kodi begonalarga berilmaydi. Shoshiltirish yoki sovrin va’dasi bilan kelgan havolalar shubha uyg‘otishi kerak. HTTPS ulanishni himoyalaydi, lekin sotuvchining halolligini o‘zi kafolatlamaydi. Buyurtma tasdiqi va chek saqlanadi. Hisob va qurilmani himoya qilishda noyob parol, ko‘p bosqichli tasdiqlash va yangilanishlar birga ishlaydi."
+      },
+      {
+        "title": "Zaxiralarni avtomatik boshqarish",
+        "text": "Ombor tizimi kirim, sotuv, qaytarish va ajratib qo‘yilgan mahsulotni qayd etadi. Qoldiq=boshlang‘ich zaxira+kirim−chiqim. Minimal chegaraga yetganda qayta buyurtma ogohlantirishi berilishi mumkin. Bir mahsulotning turli rang yoki hajmi alohida identifikatorga ega bo‘lsa, noto‘g‘ri zaxira hisobining oldi olinadi. Hisobdagi qoldiq davriy jismoniy sanash bilan solishtiriladi."
+      },
+      {
+        "title": "Buyurtma va ombor bog‘liqligi",
+        "text": "Buyurtma qabul qilinganda mahsulot ajratilishi, to‘lov rad etilganda ajratma yechilishi, qaytarilgan tovar tekshirilgach qoldiqqa qo‘shilishi mumkin. Bular tashkilotning aniq qoidalariga bog‘liq. Hisobotda faqat umumiy sotuv emas, buyurtma holati va xatolik sababi ham ko‘rsatiladi. Shu yo‘l bilan to‘lov va ombor o‘rtasidagi nomuvofiqlik topiladi."
+      }
+    ],
+    "example": {
+      "task": "“Texnikum do‘koni” uchun shartli buyurtma va ombor hisobi jadvalini tuzing.",
+      "steps": [
+        "Daftar uchun boshlang‘ich qoldiq40, kirim15, sotuv12 deb yozing.",
+        "Qaytarilgan2 dona uchun alohida satr kiriting.",
+        "Buyurtmani yangi, to‘langan, jo‘natilgan holatlari bilan chizing.",
+        "Minimal zaxira10 bo‘lsa ogohlantirish qoidasini belgilang.",
+        "Soxta to‘lov xabari uchun xavfsiz tekshirish tartibini yozing."
+      ],
+      "expected": "Qaytarilgan tovar yaroqli deb qabul qilinsa qoldiq45 dona. Buyurtma holatlari bilan to‘lov holatlari ajratiladi; maxfiy bank rekvizitlari ishlatilmaydi.",
+      "pitfall": "Chek rasmi yuborilganini pul hisobga tushgani bilan tenglashtirmang; haqiqiy holat rasmiy hisob tarixida tekshiriladi."
+    },
+    "qa": [
+      [
+        "Savatga qo‘shish nimani bildiradi?",
+        "Mahsulot buyurtma uchun tanlanganini. Savat, buyurtma va to‘lov jarayonlari ajratiladi."
+      ],
+      [
+        "Internet bankingning vazifasi nima?",
+        "Bank xizmatlaridan masofadan foydalanish. Hisob, to‘lov va o‘tkazma xizmatlari raqamli kanalda bajariladi."
+      ],
+      [
+        "Begona shaxs so‘ragan SMS tasdiqlash kodini nima qilish kerak?",
+        "Ulashmaslik. Tasdiqlash kodi hisob va operatsiyani himoya qiladi."
+      ],
+      [
+        "Tranzaksiya “kutilmoqda” bo‘lsa to‘g‘ri qadam qaysi?",
+        "Tarixdan holatni tekshirish. Holat aniqlanmay qayta yuborish takroriy to‘lovga olib kelishi mumkin."
+      ],
+      [
+        "Qoldiqning asosiy hisobi qaysi?",
+        "Boshlang‘ich+kirim−chiqim. Tovar harakati dona birligida hisoblanadi."
+      ],
+      [
+        "40 dona zaxiraga15 qo‘shilib12 sotilsa qoldiq qancha?",
+        "43. 40+15−12=43."
+      ],
+      [
+        "Minimal zaxira chegarasi nimaga xizmat qiladi?",
+        "Qayta buyurtma zaruratini bildirishga. Kamaygan zaxira bo‘yicha ogohlantirish uzilishlarni kamaytiradi."
+      ],
+      [
+        "HTTPSning o‘zi nimani kafolatlamaydi?",
+        "Sotuvchining halolligini. Firibgar sayt ham sertifikatga ega bo‘lishi mumkin."
+      ],
+      [
+        "Ombor hisobini nima bilan solishtirish kerak?",
+        "Jismoniy sanash natijasi bilan. Jismoniy va yozuvdagi qoldiq farqi xatoni aniqlaydi."
+      ],
+      [
+        "Tranzaksiya identifikatori nima uchun kerak?",
+        "Operatsiyani alohida topish uchun. Identifikator murojaat va tekshirishda operatsiyani ajratadi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Savatga qo‘shish nimani bildiradi?",
+        "options": [
+          "To‘lov albatta yakunlanganini",
+          "Tovar yetkazilganini",
+          "Mahsulot buyurtma uchun tanlanganini",
+          "Pul qaytarilganini"
+        ],
+        "correct": 2,
+        "explanation": "Savat, buyurtma va to‘lov jarayonlari ajratiladi."
+      },
+      {
+        "q": "Internet bankingning vazifasi nima?",
+        "options": [
+          "Faqat rasm chizish",
+          "Printer sozlash",
+          "Video rangini o‘zgartirish",
+          "Bank xizmatlaridan masofadan foydalanish"
+        ],
+        "correct": 3,
+        "explanation": "Hisob, to‘lov va o‘tkazma xizmatlari raqamli kanalda bajariladi."
+      },
+      {
+        "q": "Begona shaxs so‘ragan SMS tasdiqlash kodini nima qilish kerak?",
+        "options": [
+          "Ulashmaslik",
+          "Darhol aytish",
+          "Ochiq guruhga yozish",
+          "Chekka qo‘shib yuborish"
+        ],
+        "correct": 0,
+        "explanation": "Tasdiqlash kodi hisob va operatsiyani himoya qiladi."
+      },
+      {
+        "q": "Tranzaksiya “kutilmoqda” bo‘lsa to‘g‘ri qadam qaysi?",
+        "options": [
+          "Darhol yana uch marta to‘lash",
+          "Tarixdan holatni tekshirish",
+          "Barcha ma’lumotni o‘chirish",
+          "Parolni xaridorga yuborish"
+        ],
+        "correct": 1,
+        "explanation": "Holat aniqlanmay qayta yuborish takroriy to‘lovga olib kelishi mumkin."
+      },
+      {
+        "q": "Qoldiqning asosiy hisobi qaysi?",
+        "options": [
+          "Boshlang‘ich−kirim−chiqim",
+          "Faqat sotuv narxi",
+          "Boshlang‘ich+kirim−chiqim",
+          "Kirim×parol uzunligi"
+        ],
+        "correct": 2,
+        "explanation": "Tovar harakati dona birligida hisoblanadi."
+      },
+      {
+        "q": "40 dona zaxiraga15 qo‘shilib12 sotilsa qoldiq qancha?",
+        "options": [
+          "13",
+          "67",
+          "28",
+          "43"
+        ],
+        "correct": 3,
+        "explanation": "40+15−12=43."
+      },
+      {
+        "q": "Minimal zaxira chegarasi nimaga xizmat qiladi?",
+        "options": [
+          "Qayta buyurtma zaruratini bildirishga",
+          "Har bir tovarni tekin qilishga",
+          "Barcha hisobni yashirishga",
+          "To‘lov kodini almashtirishga"
+        ],
+        "correct": 0,
+        "explanation": "Kamaygan zaxira bo‘yicha ogohlantirish uzilishlarni kamaytiradi."
+      },
+      {
+        "q": "HTTPSning o‘zi nimani kafolatlamaydi?",
+        "options": [
+          "Ulanishda shifrlash ishlatilishini",
+          "Sotuvchining halolligini",
+          "Brauzer xavfsizlik protokolini",
+          "Server bilan himoyalangan almashinuvni"
+        ],
+        "correct": 1,
+        "explanation": "Firibgar sayt ham sertifikatga ega bo‘lishi mumkin."
+      },
+      {
+        "q": "Ombor hisobini nima bilan solishtirish kerak?",
+        "options": [
+          "Faqat sayt ranglari bilan",
+          "Foydalanuvchi rasmi bilan",
+          "Jismoniy sanash natijasi bilan",
+          "Monitor chastotasi bilan"
+        ],
+        "correct": 2,
+        "explanation": "Jismoniy va yozuvdagi qoldiq farqi xatoni aniqlaydi."
+      },
+      {
+        "q": "Tranzaksiya identifikatori nima uchun kerak?",
+        "options": [
+          "Parolni ochiq chiqarish uchun",
+          "Mahsulot rangini almashtirish uchun",
+          "Tarmoqni o‘chirish uchun",
+          "Operatsiyani alohida topish uchun"
+        ],
+        "correct": 3,
+        "explanation": "Identifikator murojaat va tekshirishda operatsiyani ajratadi."
+      }
+    ],
+    "glossary": [
+      [
+        "Elektron tijorat",
+        "Raqamli kanalda xarid va sotuv"
+      ],
+      [
+        "Internet banking",
+        "Masofadan bank xizmatidan foydalanish"
+      ],
+      [
+        "Tranzaksiya",
+        "Alohida qayd etiladigan operatsiya"
+      ],
+      [
+        "Zaxira",
+        "Ombordagi mahsulot miqdori"
+      ],
+      [
+        "Minimal qoldiq",
+        "Qayta buyurtma uchun belgilangan chegara"
+      ]
+    ]
+  },
+  "43": {
+    "sections": [
+      {
+        "title": "Intellektual tahlilning maqsadi",
+        "text": "Ma’lumotlarni intellektual tahlillash katta to‘plamdan foydali naqsh, guruh yoki bashorat topishga yordam beradi. Masalan, kutubxona kitoblariga talabni mavsum bo‘yicha o‘rganish mumkin. Natija inson qarorini qo‘llab-quvvatlaydi, lekin har qanday topilgan bog‘liqlik sababiy munosabat bo‘lavermaydi. Savol aniq qo‘yilmasa ko‘p ma’lumot yig‘ishning o‘zi foyda bermaydi."
+      },
+      {
+        "title": "Tahlil bosqichlari",
+        "text": "Avval maqsad va kerakli maydonlar belgilanadi, keyin ma’lumot olinadi, takrorlar va bo‘sh qiymatlar tekshiriladi. Sana, birlik va yozilish formatlari birxillashtiriladi. Guruhlash yoki modeldan so‘ng natija yangi ma’lumotda baholanadi. O‘quv misolida soxta ma’lumotlar ishlatiladi; haqiqiy o‘quvchining shaxsiy profilini ruxsatsiz yig‘ish topshirig‘i berilmaydi."
+      },
+      {
+        "title": "Klassifikatsiya va klasterlash",
+        "text": "Klassifikatsiyada oldindan ma’lum yorliq bo‘yicha toifa taxmin qilinadi: masalan, xabar “spam” yoki “oddiy”. Klasterlashda esa o‘xshash obyektlar oldindan tayyor toifa bo‘lmasdan guruhlanadi. Bashorat kelajak qiymatni taxmin qiladi. Modeldagi xato, noto‘liq ma’lumot va tarafkash tanlov noto‘g‘ri qarorga sabab bo‘lishi mumkin."
+      },
+      {
+        "title": "Ijtimoiy tarmoqdagi axborot",
+        "text": "Ijtimoiy tarmoq matn, rasm, video va muloqotni tez tarqatadi. Tavsiya algoritmi foydalanuvchi harakati asosida ayrim materiallarni ko‘proq ko‘rsatishi mumkin. Ko‘p ko‘rilish rostlikning isboti emas. Manba, sana, asl kontekst va boshqa ishonchli manba tekshiriladi. Boshqalar haqidagi ma’lumotni tarqatishda rozilik va maxfiylik hisobga olinadi."
+      },
+      {
+        "title": "Videokonferensiya odobi va sifati",
+        "text": "Konferensiyada mikrofon, kamera, ekran almashish va chat birgalikda ishlaydi. Qurilma, yoritish, internet va xonadagi shovqin oldindan tekshiriladi. Havola begonalarga ochiq tarqatilmaydi; ekran ulashishdan oldin maxfiy oynalar yopiladi. Yozib olish haqida qatnashchilar xabardor qilinadi. Aloqa yomonlashsa kamerani o‘chirib audio yoki chatga o‘tish mumkin."
+      },
+      {
+        "title": "Amaliy natijani izohlash",
+        "text": "Jadvaldan “eng ko‘p qatnashgan guruh”ni aniqlash tavsifiy tahlildir; kelgusi qatnashuvni taxmin qilish bashoratdir. Xulosa chiqarishda guruh hajmi va yig‘ish usuli ko‘rsatiladi. Videoyig‘ilish qaydlaridan hisobot tuzish uchun barcha shaxsiy yozishmalarni saqlash shart emas. Kerakli ko‘rsatkichlar yetarli va aniq bo‘lishi kerak."
+      }
+    ],
+    "example": {
+      "task": "12 ta soxta kutubxona tashrifi yozuvidan qiziqish guruhlarini ajrating va natijani qisqa videoyig‘ilishda tushuntirish rejasini tuzing.",
+      "steps": [
+        "Sana, kitob turi va tashrif soni maydonlarini yarating.",
+        "Bitta takror va bo‘sh qiymatni aniqlab qaroringizni yozing.",
+        "Kitob turlari bo‘yicha jami tashrifni hisoblang.",
+        "Natija tavsifmi yoki bashoratmi ekanini belgilang.",
+        "Ekran ulashishda faqat jadval oynasini tanlash tartibini yozing."
+      ],
+      "expected": "Tozalangan jadval, hisoblangan guruhlar va sababni isbotlamaydigan ehtiyotkor xulosa. Konferensiya rejasida mikrofon va maxfiylik tekshiruvi bor.",
+      "pitfall": "Tavsiya algoritmi ko‘rsatgan xabarni avtomatik ishonchli deb qabul qilmang."
+    },
+    "qa": [
+      [
+        "Oldindan ma’lum “spam/oddiy” yorlig‘ini taxmin qilish nima?",
+        "Klassifikatsiya. Yorliqli toifani aniqlash klassifikatsiyadir."
+      ],
+      [
+        "Oldindan yorliqsiz o‘xshash yozuvlarni guruhlash nima?",
+        "Klasterlash. Klasterlash o‘xshashlikka asoslanadi."
+      ],
+      [
+        "Model qurishdan oldin nima zarur?",
+        "Ma’lumotni tozalash va tekshirish. Noto‘g‘ri kirish natijani buzadi."
+      ],
+      [
+        "Bog‘liqlik topilishi nimani albatta isbotlamaydi?",
+        "Sababiy munosabatni. Uchinchi omil yoki tanlov xatosi bo‘lishi mumkin."
+      ],
+      [
+        "Ijtimoiy tarmoqdagi ko‘p ko‘rilish nimaning isboti emas?",
+        "Xabarning rostligining. Manba va mazmun alohida tekshiriladi."
+      ],
+      [
+        "Ekran ulashishdan oldin nima qilinadi?",
+        "Maxfiy oynalar yopiladi. Keraksiz ma’lumot chiqib ketishining oldi olinadi."
+      ],
+      [
+        "Kelgusi oy tashrif sonini taxmin qilish qanday vazifa?",
+        "Bashorat. Kelajak qiymati baholanmoqda."
+      ],
+      [
+        "Takroriy yozuvlar hisobga qanday ta’sir qilishi mumkin?",
+        "Jami qiymatni sun’iy oshiradi. Bitta hodisa ikki marta sanalishi mumkin."
+      ],
+      [
+        "Konferensiya yozuvi haqida qatnashchilar nima qilinishi kerak?",
+        "Xabardor etilishi. Yozib olish maxfiylik bilan bog‘liq."
+      ],
+      [
+        "Model natijasini qayerda tekshirish foydali?",
+        "O‘qitishda ishlatilmagan ma’lumotda. Bu model yangi vaziyatda qanday ishlashini ko‘rsatadi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Oldindan ma’lum “spam/oddiy” yorlig‘ini taxmin qilish nima?",
+        "options": [
+          "Klasterlash",
+          "Formatlash",
+          "Arxivlash",
+          "Klassifikatsiya"
+        ],
+        "correct": 3,
+        "explanation": "Yorliqli toifani aniqlash klassifikatsiyadir."
+      },
+      {
+        "q": "Oldindan yorliqsiz o‘xshash yozuvlarni guruhlash nima?",
+        "options": [
+          "Klasterlash",
+          "Shifrlash",
+          "Instalyatsiya",
+          "Verifikatsiya"
+        ],
+        "correct": 0,
+        "explanation": "Klasterlash o‘xshashlikka asoslanadi."
+      },
+      {
+        "q": "Model qurishdan oldin nima zarur?",
+        "options": [
+          "Barcha xatolarni yashirish",
+          "Ma’lumotni tozalash va tekshirish",
+          "Faqat shriftni almashtirish",
+          "Nusxalarni ko‘paytirish"
+        ],
+        "correct": 1,
+        "explanation": "Noto‘g‘ri kirish natijani buzadi."
+      },
+      {
+        "q": "Bog‘liqlik topilishi nimani albatta isbotlamaydi?",
+        "options": [
+          "Ikkita ko‘rsatkich taqqoslanganini",
+          "Tahlil natijasi olinganini",
+          "Sababiy munosabatni",
+          "Birgalikdagi o‘zgarish bo‘lishini"
+        ],
+        "correct": 2,
+        "explanation": "Uchinchi omil yoki tanlov xatosi bo‘lishi mumkin."
+      },
+      {
+        "q": "Ijtimoiy tarmoqdagi ko‘p ko‘rilish nimaning isboti emas?",
+        "options": [
+          "Xabarga e’tibor bo‘lganining",
+          "Ko‘rish qayd etilganining",
+          "Tarqalish mavjudligining",
+          "Xabarning rostligining"
+        ],
+        "correct": 3,
+        "explanation": "Manba va mazmun alohida tekshiriladi."
+      },
+      {
+        "q": "Ekran ulashishdan oldin nima qilinadi?",
+        "options": [
+          "Maxfiy oynalar yopiladi",
+          "Barcha parollar ochiladi",
+          "Shaxsiy chat ekranga chiqariladi",
+          "Hamma fayl hammaga yuboriladi"
+        ],
+        "correct": 0,
+        "explanation": "Keraksiz ma’lumot chiqib ketishining oldi olinadi."
+      },
+      {
+        "q": "Kelgusi oy tashrif sonini taxmin qilish qanday vazifa?",
+        "options": [
+          "Faylni ko‘chirish",
+          "Bashorat",
+          "Drayver o‘rnatish",
+          "Tasvirni aylantirish"
+        ],
+        "correct": 1,
+        "explanation": "Kelajak qiymati baholanmoqda."
+      },
+      {
+        "q": "Takroriy yozuvlar hisobga qanday ta’sir qilishi mumkin?",
+        "options": [
+          "Har doim aniq natija beradi",
+          "Ma’lumot turini o‘zgartirmaydi va ta’sir qilmaydi",
+          "Jami qiymatni sun’iy oshiradi",
+          "Doim natijani nol qiladi"
+        ],
+        "correct": 2,
+        "explanation": "Bitta hodisa ikki marta sanalishi mumkin."
+      },
+      {
+        "q": "Konferensiya yozuvi haqida qatnashchilar nima qilinishi kerak?",
+        "options": [
+          "Yashirin kuzatilishi",
+          "Paroli olinishi",
+          "Ro‘yxati ommaga sotilishi",
+          "Xabardor etilishi"
+        ],
+        "correct": 3,
+        "explanation": "Yozib olish maxfiylik bilan bog‘liq."
+      },
+      {
+        "q": "Model natijasini qayerda tekshirish foydali?",
+        "options": [
+          "O‘qitishda ishlatilmagan ma’lumotda",
+          "Faqat sarlavhada",
+          "Faqat ranglar jadvalida",
+          "Faqat model nomida"
+        ],
+        "correct": 0,
+        "explanation": "Bu model yangi vaziyatda qanday ishlashini ko‘rsatadi."
+      }
+    ],
+    "glossary": [
+      [
+        "Intellektual tahlil",
+        "Ma’lumotlardan foydali naqsh izlash"
+      ],
+      [
+        "Klassifikatsiya",
+        "Oldindan ma’lum yorliqni taxmin qilish"
+      ],
+      [
+        "Klasterlash",
+        "O‘xshash obyektlarni yorliqsiz guruhlash"
+      ],
+      [
+        "Bashorat",
+        "Kelajak qiymatini taxmin qilish"
+      ],
+      [
+        "Videokonferensiya",
+        "Masofaviy audio-video muloqot"
+      ]
+    ]
+  },
+  "44": {
+    "sections": [
+      {
+        "title": "Masofadan ishlash tizimi",
+        "text": "Masofadan ishlashda vazifa, natija muddati, aloqa kanali va fayllarning joyi aniq kelishiladi. Xodim tashkilotning ruxsatli vositasidan foydalanadi. Uy interneti mavjudligi korxona fayllarini istalgan joyga ko‘chirish huquqini bermaydi. Ish va shaxsiy hisoblarni ajratish, ekran qulfi, yangilanish va zaxira nusxa oddiy, ammo muhim choralar hisoblanadi."
+      },
+      {
+        "title": "Hamkorlik va ishni kuzatish",
+        "text": "Umumiy hujjat, vazifalar taxtasi, versiyalar tarixi va videoyig‘ilish turli ehtiyojlarga xizmat qiladi. Bitta faylning ko‘plab “yakuniy” nusxalari o‘rniga kelishilgan asosiy nusxa saqlanadi. Natijani bajarilgan ish va sifat mezoni bilan baholash, faqat onlayn vaqtga qarashdan mazmunliroq. Internet uzilishiga audio yoki keyin yuboriladigan xabar kabi zaxira usul belgilanadi."
+      },
+      {
+        "title": "Sportdagi texnologiyalar",
+        "text": "Harakat sensori, vaqt o‘lchagich, video tahlil va taqiladigan qurilma mashg‘ulot yuklamasini kuzatishga yordam beradi. Qurilmaning o‘lchash xatosi va sharoit hisobga olinadi. Birgina ko‘rsatkich sportchining umumiy holatini to‘liq ifodalamaydi. Tahlil murabbiy qarorini qo‘llab-quvvatlaydi; natijalar shaxsga bog‘liq bo‘lsa himoyalanadi."
+      },
+      {
+        "title": "Tibbiyotdagi texnologiyalar",
+        "text": "Elektron tibbiy yozuv, tasvirlash, masofaviy maslahat va qarorni qo‘llab-quvvatlash tizimlari axborotga kirishni tezlashtiradi. Sog‘liq haqidagi ma’lumot maxfiy bo‘lib, tegishli ruxsat bilan ishlatiladi. Dastur natijasi mutaxassis bahosini almashtirmaydi. Texnik nosozlik yuz bersa xizmatning davomiyligi va muqobil tartib zarur; o‘quv mashqida faqat soxta bemor yozuvi ishlatiladi."
+      },
+      {
+        "title": "Ishlab chiqarish va avtomatlashtirish",
+        "text": "Sensor jarayon holatini o‘lchaydi, boshqaruvchi shartni baholaydi, aktuator esa mexanik ta’sir ko‘rsatadi. Robot takroriy yoki xavfli ishni bajarishi mumkin, ammo texnik xizmat va xavfsizlik hududi talab etiladi. Avtomatlashtirish sifati kiruvchi ma’lumot, dastur va qurilma mosligiga bog‘liq. Samaradorlik bilan birga to‘xtash, xato va inson nazorati ham baholanadi."
+      },
+      {
+        "title": "Ta’limdagi raqamli vositalar",
+        "text": "Ta’lim platformasi materialni taqdim etadi, javobni yig‘adi va fikr-mulohaza beradi. Test bali barcha ko‘nikmani to‘liq o‘lchamaydi; amaliy natija va tushuntirish ham tekshiriladi. Qurilmasi yoki interneti cheklangan o‘quvchiga yuklab olinadigan matn va yengil format kerak bo‘lishi mumkin. Vosita pedagogik maqsadga xizmat qilishi lozim."
+      }
+    ],
+    "example": {
+      "task": "To‘rt soha: sport, tibbiyot, ishlab chiqarish va ta’lim uchun bittadan texnologiya qo‘llash holatini taqqoslang.",
+      "steps": [
+        "Har soha uchun muammo va qurilma/dastur tanlang.",
+        "Kirish ma’lumoti, jarayon va chiqish natijasini yozing.",
+        "Har biriga bitta foyda va bitta cheklov qo‘shing.",
+        "Masofaviy jamoada fayl nomlash va versiya tartibini belgilang.",
+        "Internet bo‘lmasa ishlashning muqobil yo‘lini yozing."
+      ],
+      "expected": "To‘rt qatorli taqqoslash jadvali va masofaviy ish uchun aniq aloqa, muddat, ruxsat va zaxira tartibi.",
+      "pitfall": "Texnologiya borligini sifat kafolati deb olmang; vazifa bajarilgani va natija aniqligini tekshiring."
+    },
+    "qa": [
+      [
+        "Masofaviy ishda eng avval nima kelishiladi?",
+        "Vazifa, muddat va natija mezoni. Bajariladigan ish aniq bo‘lishi kerak."
+      ],
+      [
+        "Versiyalar tarixi nima uchun foydali?",
+        "O‘zgarishlarni kuzatish va tiklash uchun. Kim nima o‘zgartirgani va oldingi holat kuzatiladi."
+      ],
+      [
+        "Sportdagi sensor natijasi nimaga bog‘liq?",
+        "O‘lchash aniqligi va sharoitga. Sensor ko‘rsatkichi xatolik bilan olinishi mumkin."
+      ],
+      [
+        "Tibbiy o‘quv mashqida qaysi yozuv tanlanadi?",
+        "Soxta bemor ma’lumoti. Maxfiylik amalda saqlanishi kerak."
+      ],
+      [
+        "Sensor nima bajaradi?",
+        "Jarayon holatini o‘lchaydi. O‘lchov boshqaruv uchun kirish bo‘lishi mumkin."
+      ],
+      [
+        "Aktuator nima qiladi?",
+        "Boshqaruvga javoban fizik ta’sir ko‘rsatadi. Motor yoki klapan aktuatorga misol bo‘ladi."
+      ],
+      [
+        "Ta’limda test bali nimani to‘liq almashtirmaydi?",
+        "Amaliy ko‘nikmani baholashni. Ko‘nikma amalda ham namoyon etiladi."
+      ],
+      [
+        "Internet zaif o‘quvchi uchun nima foydali?",
+        "Yengil yuklab olinadigan matn. Muqobil format teng imkoniyatni yaxshilaydi."
+      ],
+      [
+        "Umumiy fayl bilan ishlashda nima to‘g‘ri?",
+        "Kelishilgan asosiy nusxa va ruxsatlar. Tartib ziddiyat va yo‘qotishni kamaytiradi."
+      ],
+      [
+        "Raqamli vosita qanday tanlanadi?",
+        "Maqsad va foydalanuvchi ehtiyojiga ko‘ra. Muammo va natija asosiy mezondir."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Masofaviy ishda eng avval nima kelishiladi?",
+        "options": [
+          "Vazifa, muddat va natija mezoni",
+          "Faqat fon rasmi",
+          "Faqat xabar rangi",
+          "Faqat profil surati"
+        ],
+        "correct": 0,
+        "explanation": "Bajariladigan ish aniq bo‘lishi kerak."
+      },
+      {
+        "q": "Versiyalar tarixi nima uchun foydali?",
+        "options": [
+          "Parollarni ommaga chiqarish uchun",
+          "O‘zgarishlarni kuzatish va tiklash uchun",
+          "Qurilmani qizdirish uchun",
+          "Internetni uzish uchun"
+        ],
+        "correct": 1,
+        "explanation": "Kim nima o‘zgartirgani va oldingi holat kuzatiladi."
+      },
+      {
+        "q": "Sportdagi sensor natijasi nimaga bog‘liq?",
+        "options": [
+          "Faqat dastur nomiga",
+          "Faqat fayl rangiga",
+          "O‘lchash aniqligi va sharoitga",
+          "Faqat obunachi soniga"
+        ],
+        "correct": 2,
+        "explanation": "Sensor ko‘rsatkichi xatolik bilan olinishi mumkin."
+      },
+      {
+        "q": "Tibbiy o‘quv mashqida qaysi yozuv tanlanadi?",
+        "options": [
+          "Ruxsatsiz haqiqiy kasallik tarixi",
+          "Ochiq tarqatilgan maxfiy tashxis",
+          "Begona parolli hisob",
+          "Soxta bemor ma’lumoti"
+        ],
+        "correct": 3,
+        "explanation": "Maxfiylik amalda saqlanishi kerak."
+      },
+      {
+        "q": "Sensor nima bajaradi?",
+        "options": [
+          "Jarayon holatini o‘lchaydi",
+          "Faqat qog‘oz kesadi",
+          "Har doim tahlil o‘rniga qaror beradi",
+          "Faylga rang beradi"
+        ],
+        "correct": 0,
+        "explanation": "O‘lchov boshqaruv uchun kirish bo‘lishi mumkin."
+      },
+      {
+        "q": "Aktuator nima qiladi?",
+        "options": [
+          "Faqat ma’lumotni saqlaydi",
+          "Boshqaruvga javoban fizik ta’sir ko‘rsatadi",
+          "Faqat foydalanuvchini ro‘yxatlaydi",
+          "Faqat matnni formatlaydi"
+        ],
+        "correct": 1,
+        "explanation": "Motor yoki klapan aktuatorga misol bo‘ladi."
+      },
+      {
+        "q": "Ta’limda test bali nimani to‘liq almashtirmaydi?",
+        "options": [
+          "Test natijasini qayd qilishni",
+          "Javoblarni sanashni",
+          "Amaliy ko‘nikmani baholashni",
+          "Foizni hisoblashni"
+        ],
+        "correct": 2,
+        "explanation": "Ko‘nikma amalda ham namoyon etiladi."
+      },
+      {
+        "q": "Internet zaif o‘quvchi uchun nima foydali?",
+        "options": [
+          "Faqat yuqori hajmli video",
+          "Majburiy doimiy VR",
+          "Barcha materialni yashirish",
+          "Yengil yuklab olinadigan matn"
+        ],
+        "correct": 3,
+        "explanation": "Muqobil format teng imkoniyatni yaxshilaydi."
+      },
+      {
+        "q": "Umumiy fayl bilan ishlashda nima to‘g‘ri?",
+        "options": [
+          "Kelishilgan asosiy nusxa va ruxsatlar",
+          "Bir-birini bilmasdan nusxalar yaratish",
+          "Hamma uchun tahrirni cheksiz ochish",
+          "Versiya tarixini o‘chirish"
+        ],
+        "correct": 0,
+        "explanation": "Tartib ziddiyat va yo‘qotishni kamaytiradi."
+      },
+      {
+        "q": "Raqamli vosita qanday tanlanadi?",
+        "options": [
+          "Faqat eng qimmatiga qarab",
+          "Maqsad va foydalanuvchi ehtiyojiga ko‘ra",
+          "Faqat logotipga qarab",
+          "Faqat reklama shioriga qarab"
+        ],
+        "correct": 1,
+        "explanation": "Muammo va natija asosiy mezondir."
+      }
+    ],
+    "glossary": [
+      [
+        "Masofaviy ish",
+        "Raqamli aloqa orqali ish joyidan tashqarida ishlash"
+      ],
+      [
+        "Versiyalar tarixi",
+        "Hujjat o‘zgarishlarining qaydi"
+      ],
+      [
+        "Sensor",
+        "Fizik holatni o‘lchovga aylantiruvchi qurilma"
+      ],
+      [
+        "Aktuator",
+        "Boshqaruvga javoban fizik ta’sir ko‘rsatuvchi qurilma"
+      ],
+      [
+        "Ta’lim platformasi",
+        "O‘quv materiallari va faoliyatini boshqaruvchi tizim"
+      ]
+    ]
+  },
+  "45": {
+    "sections": [
+      {
+        "title": "Tarmoqning asosiy qismlari",
+        "text": "Tarmoq tugun, adapter, uzatish muhiti, ulovchi qurilma va protokollardan tashkil topadi. Kompyuter, printer va server tugundir. Ethernet kabeli yoki radio signal muhit bo‘lishi mumkin. Qurilmalar fizik ulanganining o‘zi xizmat ishlashini kafolatlamaydi: adres, yo‘nalish, ruxsat va server xizmati ham mos bo‘lishi kerak."
+      },
+      {
+        "title": "Switch va bridge",
+        "text": "Bridge mahalliy tarmoq segmentlarini ulab, MAC manzillar asosida kadrlarni ajratadi. Switch ko‘p portli bridge sifatida qaraladi: o‘rgangan MAC jadvali orqali kadrni tegishli portga yo‘naltiradi. Noma’lum manzil yoki keng tarqatish kadriga ishlov boshqa bo‘lishi mumkin. Switchning oddiy vazifasi barcha trafikni internetga yo‘naltirish emas."
+      },
+      {
+        "title": "Simsiz ulanish nuqtasi",
+        "text": "Access point simsiz mijozlarni mahalliy tarmoqqa ulaydi. SSID tarmoq nomi, xavfsizlik rejimi esa autentifikatsiya va shifrlash bilan bog‘liq. AP odatda kabel orqali mavjud tarmoqqa ulanadi. Uy routerida router, switch va AP bir korpusda bo‘lishi mumkin; ularning vazifalari mantiqan alohida. Radio qamrov masofa, devor va xalaqitga bog‘liq."
+      },
+      {
+        "title": "Shlyuz va marshrutlash",
+        "text": "Shlyuz atamasi tarmoqlar yoki tizimlar orasidagi chiqish va moslashtirish nuqtasini bildiradi. IP sozlamasidagi standart shlyuz odatda boshqa tarmoqqa paket yuboradigan router interfeysidir. Bir tarmoq ichidagi aloqa har doim standart shlyuzdan o‘tishi shart emas. Noto‘g‘ri shlyuz lokal xizmat ishlasa ham tashqi tarmoqqa chiqishni buzishi mumkin."
+      },
+      {
+        "title": "Fayervol siyosati",
+        "text": "Fayervol trafikni oldindan belgilangan qoidalar bilan ruxsatlaydi yoki to‘sadi. Qoida manba, manzil, port, protokol yoki ulanish holatiga qarashi mumkin. U apparat yoki dastur ko‘rinishida bo‘ladi. Fayervol barcha virusni topuvchi universal vosita emas. Kerakli xizmatga eng kam zarur ruxsat berish va qoidani tekshirib hujjatlashtirish maqsadga muvofiq."
+      },
+      {
+        "title": "Bit oqimini uzatish",
+        "text": "Raqamli ma’lumot bitlarga ifodalanib, muhitga mos elektr, yorug‘lik yoki radio signal sifatida uzatiladi. Qabul qiluvchi signalni qayta talqin qiladi. Bit oqimi kadr va paketlarga tartiblanishi mumkin. Bit/s uzatish tezligi, bayt esa hajm birligidir;1 bayt=8 bit. Signal buzilishi, xalaqit va masofa uzatish sifatiga ta’sir qiladi."
+      }
+    ],
+    "example": {
+      "task": "Kompyuterlar, tarmoq printeri, switch, AP, router va fayervol qatnashgan sinf tarmog‘i sxemasini chizing.",
+      "steps": [
+        "Qurilmalarni nomlab kabel va simsiz aloqani ajrating.",
+        "Bir lokal segment uchun shartli IP manzillar belgilang.",
+        "Standart shlyuzni ko‘rsating.",
+        "Printer uchun faqat kerakli foydalanuvchilarga ruxsat yozing.",
+        "Internet ishlamay, printer ishlaydigan holat sababini tushuntiring."
+      ],
+      "expected": "Sxemada AP simsiz ulash, switch lokal ulash, router tarmoqlar orasidagi yo‘l va fayervol qoida vazifalarini alohida ko‘rsatadi.",
+      "pitfall": "Bir korpusdagi uy routerining barcha vazifalarini faqat “Wi‑Fi” deb atab yubormang."
+    },
+    "qa": [
+      [
+        "APning asosiy vazifasi qaysi?",
+        "Simsiz mijozni tarmoqqa ulash. Access point mahalliy tarmoqqa radio ulanish beradi."
+      ],
+      [
+        "Oddiy switch kadrni yo‘naltirishda nimadan foydalanadi?",
+        "MAC manzildan. U o‘rgangan MAC-port jadvaliga tayanadi."
+      ],
+      [
+        "Standart shlyuz nima uchun kerak?",
+        "Boshqa tarmoqlarga chiqish uchun. Router interfeysi tashqi yo‘nalish vazifasini bajaradi."
+      ],
+      [
+        "Fayervol nima qiladi?",
+        "Qoidalar asosida trafikni nazorat qiladi. U ruxsat berish va to‘sish siyosatini bajaradi."
+      ],
+      [
+        "1 bayt necha bit?",
+        "8. Hajm va bit tezligi hisobida bu farq muhim."
+      ],
+      [
+        "Mahalliy printer ishlaydi, internet yo‘q. Qaysi tekshiruv o‘rinli?",
+        "Shlyuz va tashqi ulanishni tekshirish. Lokal aloqa va tashqi yo‘l alohida tekshiriladi."
+      ],
+      [
+        "Bridge nimani ulaydi?",
+        "Mahalliy tarmoq segmentlarini. Bridge kadrlar darajasida segmentlarni bog‘laydi."
+      ],
+      [
+        "SSID nima?",
+        "Simsiz tarmoq nomi. Tarmoq nomi uning xavfsizligini o‘zi kafolatlamaydi."
+      ],
+      [
+        "Wi‑Fi qamroviga nima ta’sir qiladi?",
+        "Devor, masofa va radio xalaqit. Signalning fizik tarqalishi sharoitga bog‘liq."
+      ],
+      [
+        "Fayervolga to‘g‘ri yondashuv qaysi?",
+        "Faqat zarur trafikni ruxsatlash. Eng kam zarur ruxsat xavfni kamaytiradi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "APning asosiy vazifasi qaysi?",
+        "options": [
+          "Fayl formatini aylantirish",
+          "Simsiz mijozni tarmoqqa ulash",
+          "Matnni shifrlamasdan chop qilish",
+          "Monitor yorqinligini sozlash"
+        ],
+        "correct": 1,
+        "explanation": "Access point mahalliy tarmoqqa radio ulanish beradi."
+      },
+      {
+        "q": "Oddiy switch kadrni yo‘naltirishda nimadan foydalanadi?",
+        "options": [
+          "Fayl nomidan",
+          "Shrift o‘lchamidan",
+          "MAC manzildan",
+          "Bank hisobidan"
+        ],
+        "correct": 2,
+        "explanation": "U o‘rgangan MAC-port jadvaliga tayanadi."
+      },
+      {
+        "q": "Standart shlyuz nima uchun kerak?",
+        "options": [
+          "Har bir lokal faylni nomlash uchun",
+          "Ekranni aylantirish uchun",
+          "Printer siyohini to‘ldirish uchun",
+          "Boshqa tarmoqlarga chiqish uchun"
+        ],
+        "correct": 3,
+        "explanation": "Router interfeysi tashqi yo‘nalish vazifasini bajaradi."
+      },
+      {
+        "q": "Fayervol nima qiladi?",
+        "options": [
+          "Qoidalar asosida trafikni nazorat qiladi",
+          "Har bir xatoni avtomatik davolaydi",
+          "Har doim zaxira nusxa oladi",
+          "Faqat signalni kattalashtiradi"
+        ],
+        "correct": 0,
+        "explanation": "U ruxsat berish va to‘sish siyosatini bajaradi."
+      },
+      {
+        "q": "1 bayt necha bit?",
+        "options": [
+          "2",
+          "8",
+          "4",
+          "16"
+        ],
+        "correct": 1,
+        "explanation": "Hajm va bit tezligi hisobida bu farq muhim."
+      },
+      {
+        "q": "Mahalliy printer ishlaydi, internet yo‘q. Qaysi tekshiruv o‘rinli?",
+        "options": [
+          "Monitor shriftini almashtirish",
+          "Rasmni kattalashtirish",
+          "Shlyuz va tashqi ulanishni tekshirish",
+          "Qog‘ozni almashtirib internet kutish"
+        ],
+        "correct": 2,
+        "explanation": "Lokal aloqa va tashqi yo‘l alohida tekshiriladi."
+      },
+      {
+        "q": "Bridge nimani ulaydi?",
+        "options": [
+          "Faqat slayd sahifalarini",
+          "Faqat elektron xat maydonlarini",
+          "Faqat audio kliplarni",
+          "Mahalliy tarmoq segmentlarini"
+        ],
+        "correct": 3,
+        "explanation": "Bridge kadrlar darajasida segmentlarni bog‘laydi."
+      },
+      {
+        "q": "SSID nima?",
+        "options": [
+          "Simsiz tarmoq nomi",
+          "Foydalanuvchining maxfiy PINi",
+          "Fayl kengaytmasi",
+          "Tasvir o‘lchami"
+        ],
+        "correct": 0,
+        "explanation": "Tarmoq nomi uning xavfsizligini o‘zi kafolatlamaydi."
+      },
+      {
+        "q": "Wi‑Fi qamroviga nima ta’sir qiladi?",
+        "options": [
+          "Faqat jadval katagi rangi",
+          "Devor, masofa va radio xalaqit",
+          "Faqat fayl nomi",
+          "Faqat matn tili"
+        ],
+        "correct": 1,
+        "explanation": "Signalning fizik tarqalishi sharoitga bog‘liq."
+      },
+      {
+        "q": "Fayervolga to‘g‘ri yondashuv qaysi?",
+        "options": [
+          "Barcha portni sababsiz ochish",
+          "Qoidalarni hujjatsiz o‘chirish",
+          "Faqat zarur trafikni ruxsatlash",
+          "Hamma hisobga admin berish"
+        ],
+        "correct": 2,
+        "explanation": "Eng kam zarur ruxsat xavfni kamaytiradi."
+      }
+    ],
+    "glossary": [
+      [
+        "Switch",
+        "MAC asosida lokal kadrlarni yo‘naltiruvchi qurilma"
+      ],
+      [
+        "Bridge",
+        "Mahalliy segmentlarni bog‘lovchi qurilma"
+      ],
+      [
+        "AP",
+        "Simsiz mijozni tarmoqqa ulovchi nuqta"
+      ],
+      [
+        "Shlyuz",
+        "Boshqa tarmoqqa chiqish yo‘li"
+      ],
+      [
+        "Fayervol",
+        "Qoidalar asosida trafikni nazorat qiluvchi vosita"
+      ]
+    ]
+  },
+  "46": {
+    "sections": [
+      {
+        "title": "Kanalli kommutatsiyalash",
+        "text": "Kanalli usulda aloqa boshlanishida tomonlar uchun ajratilgan yo‘l yoki resurs yaratiladi va seans davomida saqlanadi. Resursning ajratilishi uzatishning barqaror xususiyatini ta’minlashi mumkin, ammo tomon jim turganda ham ajratilgan imkoniyat band bo‘lib qoladi. An’anaviy telefon aloqasi tushuntirish uchun sodda o‘xshatishdir."
+      },
+      {
+        "title": "Paketli kommutatsiyalash",
+        "text": "Xabar kichik paketlarga ajratiladi. Paketlar manzil va tartibga oid ma’lumot bilan umumiy tarmoqdan uzatiladi. Turli yo‘l, kechikish yoki yo‘qolish bo‘lishi mumkin; protokollar qayta yig‘ish va zarur hollarda qayta uzatishni boshqaradi. Internet paketli almashinuvdan foydalanadi. Har bir paket albatta boshqa yo‘ldan boradi deyish ham noto‘g‘ri."
+      },
+      {
+        "title": "Xabarli kommutatsiyalash",
+        "text": "Xabarli usulda oraliq tugun butun xabarni qabul qilib saqlaydi, so‘ng keyingi tugunga uzatadi. Doimiy ajratilgan kanal talab etilmaydi, ammo katta xabar uchun xotira va kutish vaqti kerak. Uni paketli usuldan ajratadigan belgi — oraliq bosqichda uzatilayotgan birlikning butun xabar bo‘lishidir."
+      },
+      {
+        "title": "Optik uzatish",
+        "text": "Optik tola ma’lumotni yorug‘lik signali bilan uzatadi. U katta o‘tkazish qobiliyati va elektromagnit xalaqitga chidamlilik beradi. Tola egilishi, ulanish sifati, optik modul va masofa loyihada hisobga olinadi. “Optik” degani kechikish nol yoki kabel hech qachon buzilmaydi degani emas. Tola uchidagi faol yorug‘lik manbasiga qaralmaydi."
+      },
+      {
+        "title": "Simsiz uzatish usullari",
+        "text": "Wi‑Fi mahalliy radio ulanish, Bluetooth odatda yaqin masofadagi qurilmalar aloqasi, uyali aloqa esa bazaviy stansiyalar orqali keng qamrov uchun ishlatiladi. Infraqizil aloqa ko‘rish chizig‘iga sezgir bo‘lishi mumkin. Tanlov qamrov, energiya, tezlik, qurilmalar soni va xavfsizlik talabiga bog‘liq. Simsiz aloqa fizik kabel yo‘qligini bildiradi, himoya keraksizligini emas."
+      },
+      {
+        "title": "Taqqoslash usuli",
+        "text": "Kommutatsiya ma’lumot tarmoq ichida qanday boshqarilishini, uzatish muhiti esa signal qayerdan o‘tishini bildiradi. Shu sabab paketli tarmoq optik kabelda ham, radioda ham ishlashi mumkin. Sifatni baholashda kechikish, o‘tkazish qobiliyati, yo‘qotish va barqarorlik alohida yoziladi. Bitta eng yuqori tezlik raqami butun aloqani tavsiflamaydi."
+      }
+    ],
+    "example": {
+      "task": "Qog‘oz kartalar yordamida bitta xabarni kanalli, xabarli va paketli uzatish modelida namoyish qiling.",
+      "steps": [
+        "Xabarni birinchi usulda alohida yo‘l ajratib uzating.",
+        "Ikkinchi usulda butun xabarni oraliq stolda yig‘ing.",
+        "Uchinchi usulda raqamlangan to‘rtta paketga bo‘ling.",
+        "Paketlar tartibini aralashtirib qayta yig‘ing.",
+        "Optik va simsiz muhitga mos bitta foydalanish holatini yozing."
+      ],
+      "expected": "Model uch usulning resurs ajratish va saqlash farqini ko‘rsatadi. Paket tartibi raqam orqali tiklanadi; muhit kommutatsiya usulidan alohida tanlanadi.",
+      "pitfall": "Paketli uzatish tushunchasini faqat simsiz aloqa bilan cheklamang."
+    },
+    "qa": [
+      [
+        "Qaysi usul seans uchun resurs ajratadi?",
+        "Kanalli kommutatsiyalash. Kanal seans davomida saqlanadi."
+      ],
+      [
+        "Paketli usulning belgisi nima?",
+        "Xabarni kichik uzatish birliklariga bo‘lish. Paketlar umumiy tarmoq resursini baham ko‘radi."
+      ],
+      [
+        "Xabarli usulda oraliq tugun nima saqlaydi?",
+        "Butun xabarni. Keyingi bosqichga uzatishdan oldin xabar qabul qilinadi."
+      ],
+      [
+        "Optik tolada signal nima ko‘rinishida?",
+        "Yorug‘lik. Optik muhit elektr signali bilan bir xil emas."
+      ],
+      [
+        "Yaqin masofadagi quloqchin aloqasiga odatiy misol qaysi?",
+        "Bluetooth. Bluetooth qisqa masofadagi qurilma aloqasida qo‘llanadi."
+      ],
+      [
+        "Paketlar tartibsiz kelsa nima zarur bo‘lishi mumkin?",
+        "Tartib bo‘yicha qayta yig‘ish. Tartib raqamlari va protokol qoidalari yordam beradi."
+      ],
+      [
+        "Kanalli usulning kamchiligi qaysi?",
+        "Jimlikda ham ajratilgan resurs band qolishi. Oldindan ajratilgan imkoniyat samarasiz ishlashi mumkin."
+      ],
+      [
+        "Paketli tarmoq optik tolada ishlaydimi?",
+        "Ha. Muhit va kommutatsiya usuli alohida tushunchalar."
+      ],
+      [
+        "Infraqizil aloqa nimaga sezgir bo‘lishi mumkin?",
+        "Ko‘rish chizig‘i to‘silishiga. To‘siq optik signalni uzishi mumkin."
+      ],
+      [
+        "Tarmoq sifatini faqat tezlik bilan baholash yetarlimi?",
+        "Yo‘q, kechikish va yo‘qotish ham muhim. Turli ilova turli aloqa xususiyatini talab qiladi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Qaysi usul seans uchun resurs ajratadi?",
+        "options": [
+          "Paketli kommutatsiyalash",
+          "Rastrlashtirish",
+          "Kanalli kommutatsiyalash",
+          "Mail merge"
+        ],
+        "correct": 2,
+        "explanation": "Kanal seans davomida saqlanadi."
+      },
+      {
+        "q": "Paketli usulning belgisi nima?",
+        "options": [
+          "Faqat butun xabarni saqlash",
+          "Har bir foydalanuvchiga doimiy yo‘l",
+          "Faylni faqat chop etish",
+          "Xabarni kichik uzatish birliklariga bo‘lish"
+        ],
+        "correct": 3,
+        "explanation": "Paketlar umumiy tarmoq resursini baham ko‘radi."
+      },
+      {
+        "q": "Xabarli usulda oraliq tugun nima saqlaydi?",
+        "options": [
+          "Butun xabarni",
+          "Faqat ekran pikselini",
+          "Faqat klaviatura tugmasini",
+          "Faqat fayl rangini"
+        ],
+        "correct": 0,
+        "explanation": "Keyingi bosqichga uzatishdan oldin xabar qabul qilinadi."
+      },
+      {
+        "q": "Optik tolada signal nima ko‘rinishida?",
+        "options": [
+          "Faqat tovush",
+          "Yorug‘lik",
+          "Mexanik aylanish",
+          "Qog‘oz belgi"
+        ],
+        "correct": 1,
+        "explanation": "Optik muhit elektr signali bilan bir xil emas."
+      },
+      {
+        "q": "Yaqin masofadagi quloqchin aloqasiga odatiy misol qaysi?",
+        "options": [
+          "SATA",
+          "HDMI monitor rejimi",
+          "Bluetooth",
+          "Gantt"
+        ],
+        "correct": 2,
+        "explanation": "Bluetooth qisqa masofadagi qurilma aloqasida qo‘llanadi."
+      },
+      {
+        "q": "Paketlar tartibsiz kelsa nima zarur bo‘lishi mumkin?",
+        "options": [
+          "Barcha ekranlarni o‘chirish",
+          "Hamma paketni boshqa faylga aylantirish",
+          "Faqat rangni o‘zgartirish",
+          "Tartib bo‘yicha qayta yig‘ish"
+        ],
+        "correct": 3,
+        "explanation": "Tartib raqamlari va protokol qoidalari yordam beradi."
+      },
+      {
+        "q": "Kanalli usulning kamchiligi qaysi?",
+        "options": [
+          "Jimlikda ham ajratilgan resurs band qolishi",
+          "Har doim xabarni yo‘qotishi",
+          "Hech qachon aloqa yaratmasligi",
+          "Faqat rasm yuborishi"
+        ],
+        "correct": 0,
+        "explanation": "Oldindan ajratilgan imkoniyat samarasiz ishlashi mumkin."
+      },
+      {
+        "q": "Paketli tarmoq optik tolada ishlaydimi?",
+        "options": [
+          "Yo‘q, faqat Wi‑Fida",
+          "Ha",
+          "Yo‘q, faqat Bluetoothda",
+          "Faqat printer ichida"
+        ],
+        "correct": 1,
+        "explanation": "Muhit va kommutatsiya usuli alohida tushunchalar."
+      },
+      {
+        "q": "Infraqizil aloqa nimaga sezgir bo‘lishi mumkin?",
+        "options": [
+          "Fayl nomining bosh harfiga",
+          "Jadval shriftiga",
+          "Ko‘rish chizig‘i to‘silishiga",
+          "Elektron xat mavzusiga"
+        ],
+        "correct": 2,
+        "explanation": "To‘siq optik signalni uzishi mumkin."
+      },
+      {
+        "q": "Tarmoq sifatini faqat tezlik bilan baholash yetarlimi?",
+        "options": [
+          "Ha, doim yetarli",
+          "Faqat shrift katta bo‘lsa",
+          "Faqat nomi qisqa bo‘lsa",
+          "Yo‘q, kechikish va yo‘qotish ham muhim"
+        ],
+        "correct": 3,
+        "explanation": "Turli ilova turli aloqa xususiyatini talab qiladi."
+      }
+    ],
+    "glossary": [
+      [
+        "Kanalli kommutatsiya",
+        "Seans uchun resurs ajratib uzatish"
+      ],
+      [
+        "Paketli kommutatsiya",
+        "Ma’lumotni paketlarga ajratib uzatish"
+      ],
+      [
+        "Xabarli kommutatsiya",
+        "Butun xabarni saqlab keyin uzatish"
+      ],
+      [
+        "Optik tola",
+        "Yorug‘lik orqali uzatish muhiti"
+      ],
+      [
+        "Bluetooth",
+        "Yaqin masofadagi radioaloqa"
+      ]
+    ]
+  },
+  "47": {
+    "sections": [
+      {
+        "title": "Polosa kengligi va bit tezligi",
+        "text": "Fizik signalda polosa kengligi chastotalar oralig‘ini bildiradi va gertsda o‘lchanadi. Tarmoq xizmatlarida bandwidth atamasi ko‘pincha kanal sig‘imi ma’nosida bit/s bilan ishlatiladi. Bit tezligi bir soniyada uzatilgan bitlar sonidir. Kanalning nazariy sig‘imi, amalda olingan throughput va foydali dastur ma’lumoti tezligi bir-biridan farq qiladi."
+      },
+      {
+        "title": "Hajm va vaqtni hisoblash",
+        "text": "Nazariy vaqt=ma’lumot hajmi(bit)/tezlik(bit/s). O‘nlik birlikda10 MB=80 Mb;20 Mbit/s tezlikda eng kam hisobiy vaqt4 soniya. Paket sarlavhasi, tarmoq bandligi va server cheklovi sabab haqiqiy vaqt ko‘proq bo‘lishi mumkin. Mb va MBni aralashtirmaslik kerak: kichik b bitni, katta B baytni bildiradi."
+      },
+      {
+        "title": "Kechikish va sifat",
+        "text": "Katta fayl yuklashda throughput, jonli suhbatda kechikish va uning o‘zgarishi seziladi. Paket yo‘qotilishi ovoz uzilishiga olib kelishi mumkin. Tezlik yuqori bo‘lsa ham uzoq javob vaqti o‘yin yoki konferensiyada noqulaylik tug‘diradi. O‘lchovni bir necha marta bir xil sharoitda olish va natijaga birlik yozish kerak."
+      },
+      {
+        "title": "BitTorrent modeli",
+        "text": "BitTorrent fayl bo‘laklarini bir nechta qatnashchidan almashish orqali tarqatadi. Peer yuklaydi va uzatishi mumkin; seeder to‘liq nusxaga ega. Torrent metama’lumoti yoki magnet havolasi faylning o‘zi emas. Protokol qonuniy material, masalan ochiq dastur tasvirini tarqatishda ishlatilishi mumkin. Mualliflik huquqi va manba ishonchliligi baribir tekshiriladi."
+      },
+      {
+        "title": "Tarmoq xavflari",
+        "text": "Ruxsatsiz kirish, trafikni kuzatish, soxta sayt, zararli fayl va xizmatni band qilish turli xavflardir. Himoya ham qatlamli bo‘ladi: yangilash, kuchli autentifikatsiya, shifrlangan protokol, fayervol, eng kam ruxsat va zaxira nusxa. Antivirus borligi shubhali havolaga ishonish uchun sabab emas."
+      },
+      {
+        "title": "Xavfsiz tekshirish",
+        "text": "O‘quvchi faqat o‘z qurilmasi yoki ruxsatli laboratoriyada o‘lchov oladi. Begona tarmoqni skanerlash yoki hujum qilish talab etilmaydi. Yuklab olingan fayl uchun rasmiy manba va nashriyot ko‘rsatgan nazorat yig‘indisi tekshirilishi mumkin. Hash mosligi fayl o‘zgarmaganini tekshiradi, manbaning halolligini o‘zi isbotlamaydi."
+      }
+    ],
+    "example": {
+      "task": "10 MB va 25 MB fayllar uchun 20 Mbit/s hamda50 Mbit/s kanaldagi nazariy uzatish vaqtini hisoblang.",
+      "steps": [
+        "O‘nlik MB birlik ishlatilishini yozing.",
+        "Baytlarni bitga aylantiring.",
+        "Har bir hajmni ikkala tezlikka bo‘ling.",
+        "Haqiqiy vaqt nega uzoqroq bo‘lishini uch sabab bilan izohlang.",
+        "Qonuniy torrent tarqatishga misol va xavfsizlik choralarini yozing."
+      ],
+      "expected": "10 MB uchun 4 s va 1,6 s;25 MB uchun 10 s va 4 s. Natijalar nazariy quyi hisob bo‘lib, protokol xarajati hisobga olinmagan.",
+      "pitfall": "MB/s bilan Mbit/sni tenglashtirmang; birlikni yozmasdan javob bermang."
+    },
+    "qa": [
+      [
+        "1 MB o‘nlik hajm necha megabit?",
+        "8 Mb. Har bayt8 bitdan iborat."
+      ],
+      [
+        "10 MB fayl 20 Mbit/sda nazariy qancha vaqt oladi?",
+        "4 soniya. 10×8/20=4."
+      ],
+      [
+        "Amaliy throughput nimani bildiradi?",
+        "Amalda uzatilgan ma’lumot tezligini. U kanalning e’lon qilingan sig‘imidan past bo‘lishi mumkin."
+      ],
+      [
+        "Jonli suhbatda qaysi omil muhim?",
+        "Kechikish va uning o‘zgarishi. Ovozning o‘z vaqtida yetib kelishi kerak."
+      ],
+      [
+        "BitTorrent seeder kim?",
+        "Faylning to‘liq nusxasiga ega qatnashchi. U bo‘laklarni boshqalarga uzatishi mumkin."
+      ],
+      [
+        "Torrent metama’lumoti faylning o‘zimi?",
+        "Yo‘q. U almashuv uchun ma’lumotni ko‘rsatadi."
+      ],
+      [
+        "Qaysi foydalanish qonuniy misol bo‘la oladi?",
+        "Ochiq litsenziyali dastur tasvirini tarqatish. Protokoldan foydalanish mazmun va huquqqa bog‘liq."
+      ],
+      [
+        "Tarmoq himoyasida to‘g‘ri yondashuv qaysi?",
+        "Bir necha himoya qatlamini birlashtirish. Har chora turli xavfni kamaytiradi."
+      ],
+      [
+        "Hash mosligi nimani o‘zi kafolatlamaydi?",
+        "Manbaning halolligini. Noto‘g‘ri manba zararli faylga ham hash berishi mumkin."
+      ],
+      [
+        "Fizik chastota polosasining birligi nima?",
+        "Gerts. Tarmoq sig‘imi ma’nosidagi bandwidth bilan adashtirilmaydi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "1 MB o‘nlik hajm necha megabit?",
+        "options": [
+          "1 Mb",
+          "2 Mb",
+          "4 Mb",
+          "8 Mb"
+        ],
+        "correct": 3,
+        "explanation": "Har bayt8 bitdan iborat."
+      },
+      {
+        "q": "10 MB fayl 20 Mbit/sda nazariy qancha vaqt oladi?",
+        "options": [
+          "4 soniya",
+          "0,5 soniya",
+          "20 soniya",
+          "80 soniya"
+        ],
+        "correct": 0,
+        "explanation": "10 MB = 80 Mbit. 80 Mbit / 20 Mbit/s = 4 soniya; bu xizmat sarlavhalari va boshqa kechikishlar hisobga olinmagan nazariy vaqt."
+      },
+      {
+        "q": "Amaliy throughput nimani bildiradi?",
+        "options": [
+          "Faqat ekran rangini",
+          "Amalda uzatilgan ma’lumot tezligini",
+          "Faqat fayl nomini",
+          "Faqat antennaning balandligini"
+        ],
+        "correct": 1,
+        "explanation": "U kanalning e’lon qilingan sig‘imidan past bo‘lishi mumkin."
+      },
+      {
+        "q": "Jonli suhbatda qaysi omil muhim?",
+        "options": [
+          "Faqat fayl kengaytmasi",
+          "Faqat disk nomi",
+          "Kechikish va uning o‘zgarishi",
+          "Faqat shrift turi"
+        ],
+        "correct": 2,
+        "explanation": "Ovozning o‘z vaqtida yetib kelishi kerak."
+      },
+      {
+        "q": "BitTorrent seeder kim?",
+        "options": [
+          "Faqat printer drayveri",
+          "Barcha tarmoq parolini biluvchi",
+          "Faqat slayd yaratuvchi",
+          "Faylning to‘liq nusxasiga ega qatnashchi"
+        ],
+        "correct": 3,
+        "explanation": "U bo‘laklarni boshqalarga uzatishi mumkin."
+      },
+      {
+        "q": "Torrent metama’lumoti faylning o‘zimi?",
+        "options": [
+          "Yo‘q",
+          "Ha, har doim to‘liq video",
+          "Ha, faqat musiqa",
+          "Ha, doim bajariluvchi dastur"
+        ],
+        "correct": 0,
+        "explanation": "U almashuv uchun ma’lumotni ko‘rsatadi."
+      },
+      {
+        "q": "Qaysi foydalanish qonuniy misol bo‘la oladi?",
+        "options": [
+          "Ruxsatsiz pulli film tarqatish",
+          "Ochiq litsenziyali dastur tasvirini tarqatish",
+          "Begona parolni o‘g‘irlash",
+          "Zararli faylni yashirish"
+        ],
+        "correct": 1,
+        "explanation": "Protokoldan foydalanish mazmun va huquqqa bog‘liq."
+      },
+      {
+        "q": "Tarmoq himoyasida to‘g‘ri yondashuv qaysi?",
+        "options": [
+          "Faqat bitta parolga tayanish",
+          "Yangilanishlarni doim o‘chirish",
+          "Bir necha himoya qatlamini birlashtirish",
+          "Barcha portni ochish"
+        ],
+        "correct": 2,
+        "explanation": "Har chora turli xavfni kamaytiradi."
+      },
+      {
+        "q": "Hash mosligi nimani o‘zi kafolatlamaydi?",
+        "options": [
+          "Nusxalar bit jihatdan mosligini",
+          "Fayl o‘zgarmaganini tekshirishni",
+          "Nazorat qiymati bir xilligini",
+          "Manbaning halolligini"
+        ],
+        "correct": 3,
+        "explanation": "Noto‘g‘ri manba zararli faylga ham hash berishi mumkin."
+      },
+      {
+        "q": "Fizik chastota polosasining birligi nima?",
+        "options": [
+          "Gerts",
+          "Bayt",
+          "Piksel",
+          "Volt-soat"
+        ],
+        "correct": 0,
+        "explanation": "Tarmoq sig‘imi ma’nosidagi bandwidth bilan adashtirilmaydi."
+      }
+    ],
+    "glossary": [
+      [
+        "Bit tezligi",
+        "Bir soniyada uzatilgan bitlar soni"
+      ],
+      [
+        "Throughput",
+        "Amalda erishilgan uzatish tezligi"
+      ],
+      [
+        "Kechikish",
+        "Yetib borish yoki javob olish vaqti"
+      ],
+      [
+        "Peer",
+        "Almashuvda qatnashuvchi tugun"
+      ],
+      [
+        "Seeder",
+        "Faylning to‘liq nusxasiga ega qatnashchi"
+      ]
+    ]
+  },
+  "48": {
+    "sections": [
+      {
+        "title": "Shaxsga doir ma’lumot",
+        "text": "Ism, aloqa ma’lumoti, identifikator yoki boshqa belgilar shaxsni aniqlashga imkon bersa, ular shaxsga doir ma’lumot bo‘lishi mumkin. Elektron jadvaldagi ro‘yxat ham himoya talab qiladi. O‘quv misolida haqiqiy telefon, pasport yoki sog‘liq yozuvi o‘rniga soxta qiymat ishlatiladi. Faylni ochiq havola bilan tarqatish ham ma’lumotni oshkor qilishi mumkin."
+      },
+      {
+        "title": "Qonuniy ishlov berish tamoyillari",
+        "text": "O‘zbekistonning “Shaxsga doir ma’lumotlar to‘g‘risida”gi O‘RQ-547-son Qonuni 5-moddasi huquqlarga rioya, maqsad va usullarning qonuniyligi, aniqlik, ishonchlilik, maxfiylik hamda himoyani belgilaydi. 18-moddada rozilik va boshqa qonuniy asoslar keltirilgan. Shuning uchun “har qanday ishlov faqat rozilik bilan mumkin” degan umumlashtirish to‘g‘ri emas. Amaliy qarorda amaldagi qonun matni tekshiriladi."
+      },
+      {
+        "title": "Maqsad, ruxsat va nazorat",
+        "text": "Ro‘yxat nima uchun yig‘ilayotgani tushuntiriladi; ortiqcha maydon so‘ralmaydi. Kim ko‘rishi, kim tahrirlashi, qancha muddat saqlanishi va kimga berilishi tashkilotning qonuniy tartibiga muvofiq belgilanadi. Noto‘g‘ri yozuv tuzatiladi, kirishlar nazorat qilinadi, nusxalar himoyalanadi. Ma’lumotni himoya qilish faqat parol qo‘yish bilan tugamaydi."
+      },
+      {
+        "title": "Subyekt huquqlari",
+        "text": "Qonunning 30-moddasida shaxsning o‘z ma’lumotlari borligi va ishlov berish haqida axborot olish, huquqlarini himoya qilish hamda belgilangan shartlarda rozilikni chaqirib olish kabi huquqlari nazarda tutiladi. Har bir so‘rovni tekshirish tartibi bo‘lishi kerak. Begona shaxs nomidan kelgan so‘rovga darhol maxfiy fayl yuborilmaydi."
+      },
+      {
+        "title": "Sun’iy yo‘ldosh aloqa tizimi",
+        "text": "Yer stansiyasi signalni yo‘ldoshga yuqoriga uzatadi, yo‘ldosh uni qabul qilib boshqa hududga pastga uzatadi. Keng qamrov chekka hudud, dengiz va avariya vaziyatlarida foydali. Antenna, terminal, radiochastota, elektr ta’minoti va xizmat infratuzilmasi kerak. Yo‘ldosh tizimi mavjudligi ma’lumot avtomatik xavfsiz degani emas; shifrlash va autentifikatsiya ham zarur."
+      },
+      {
+        "title": "Orbita va kechikish",
+        "text": "Geostatsionar yo‘ldosh Yer aylanishiga mos orbitada ma’lum hudud ustida ko‘rinadi; uzoq yo‘l signal kechikishini oshiradi. Past orbitadagi tizimlarda masofa qisqaroq, ammo yo‘ldoshlar harakatlanadi va ulanishni almashish talab etiladi. Qamrov, antenna ko‘rinishi, ob-havo va xizmat sig‘imi natijaga ta’sir qiladi. “Yo‘ldosh doim eng tez” degan xulosa to‘g‘ri emas."
+      }
+    ],
+    "example": {
+      "task": "Chekka hududdagi o‘quv markazi uchun ma’lumot yig‘ish va yo‘ldosh aloqasidan foydalanish sxemasini tahlil qiling.",
+      "steps": [
+        "Ishtirokchini ro‘yxatlashga zarur maydonlarni tanlang.",
+        "Har bir maydonning maqsadini yozing.",
+        "Ko‘rish va tahrirlash rollarini ajrating.",
+        "Yer stansiyasi→yo‘ldosh→yer stansiyasi yo‘lini chizing.",
+        "Maxfiylik va aloqa uzilishiga qarshi chorani belgilang."
+      ],
+      "expected": "Ortiqcha maxfiy ma’lumot yig‘ilmaydigan jadval, ruxsatlar matritsasi va aloqaning ikki yo‘nalishli sxemasi. Qonuniy asos amaldagi hujjatga murojaat bilan ko‘rsatiladi.",
+      "pitfall": "Rozilikni barcha boshqa qonuniy asoslarning o‘rniga qo‘ymang; qonunning aniq holatga tatbiqi tekshiriladi."
+    },
+    "qa": [
+      [
+        "Shaxsga doir ma’lumotning asosiy belgisi nima?",
+        "Shaxsni aniqlash imkonini berishi. Identifikatsiya bevosita yoki boshqa ma’lumot bilan bo‘lishi mumkin."
+      ],
+      [
+        "Qaysi tamoyil O‘RQ-547 ning5-moddasiga mos?",
+        "Aniqlik, maxfiylik va himoya. Qonun huquqlar va qonuniy ishlov berishga tayanadi."
+      ],
+      [
+        "Har qanday ishlov uchun yagona asos rozilikmi?",
+        "Yo‘q, qonunda boshqa asoslar ham bor. 18-modda bir nechta ishlov berish shartini belgilaydi."
+      ],
+      [
+        "Dars uchun qaysi ma’lumot xavfsizroq?",
+        "Soxta o‘quv yozuvlari. O‘quv maqsadida ortiqcha shaxsiy ma’lumot kerak emas."
+      ],
+      [
+        "Ma’lumotni himoyalash faqat paroldan iboratmi?",
+        "Yo‘q, ruxsat va tashkiliy tartib ham zarur. Himoya texnik va tashkiliy choralarni birlashtiradi."
+      ],
+      [
+        "Sun’iy yo‘ldosh aloqasida uplink nima?",
+        "Yerdan yo‘ldoshga uzatish. Yuqoriga va pastga yo‘nalishlar ajratiladi."
+      ],
+      [
+        "Yo‘ldoshdan yerga uzatish nima deyiladi?",
+        "Downlink. Pastga yo‘nalgan radioaloqa hisoblanadi."
+      ],
+      [
+        "Geostatsionar aloqada katta masofa nimani oshiradi?",
+        "Signal kechikishini. Signal uzoq yo‘l bosib o‘tadi."
+      ],
+      [
+        "Yo‘ldosh aloqa qayerda foydali bo‘lishi mumkin?",
+        "Yer usti infratuzilmasi cheklangan hududda. Keng qamrov uning afzalliklaridan biridir."
+      ],
+      [
+        "Ma’lumot so‘roviga javob berishdan oldin nima tekshiriladi?",
+        "So‘rovchi shaxsi va vakolati. Begonaga maxfiy yozuv berilmasligi kerak."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Shaxsga doir ma’lumotning asosiy belgisi nima?",
+        "options": [
+          "Shaxsni aniqlash imkonini berishi",
+          "Faqat son bo‘lishi",
+          "Faqat qog‘ozda yozilishi",
+          "Faqat rangli bo‘lishi"
+        ],
+        "correct": 0,
+        "explanation": "Identifikatsiya bevosita yoki boshqa ma’lumot bilan bo‘lishi mumkin."
+      },
+      {
+        "q": "Qaysi tamoyil O‘RQ-547 ning5-moddasiga mos?",
+        "options": [
+          "Ma’lumotni istalgancha sotish",
+          "Aniqlik, maxfiylik va himoya",
+          "Barcha parolni ochiq saqlash",
+          "Maqsadni yashirish"
+        ],
+        "correct": 1,
+        "explanation": "Qonun huquqlar va qonuniy ishlov berishga tayanadi."
+      },
+      {
+        "q": "Har qanday ishlov uchun yagona asos rozilikmi?",
+        "options": [
+          "Ha, istisnosiz",
+          "Faqat fayl nomi yetarli",
+          "Yo‘q, qonunda boshqa asoslar ham bor",
+          "Faqat internetga ulanish yetarli"
+        ],
+        "correct": 2,
+        "explanation": "18-modda bir nechta ishlov berish shartini belgilaydi."
+      },
+      {
+        "q": "Dars uchun qaysi ma’lumot xavfsizroq?",
+        "options": [
+          "Begona pasport nusxasi",
+          "Haqiqiy maxfiy tashxis",
+          "Ochiq qo‘yilgan parollar",
+          "Soxta o‘quv yozuvlari"
+        ],
+        "correct": 3,
+        "explanation": "O‘quv maqsadida ortiqcha shaxsiy ma’lumot kerak emas."
+      },
+      {
+        "q": "Ma’lumotni himoyalash faqat paroldan iboratmi?",
+        "options": [
+          "Yo‘q, ruxsat va tashkiliy tartib ham zarur",
+          "Ha, boshqa chora kerak emas",
+          "Faqat fayl rangi kerak",
+          "Faqat shrift kerak"
+        ],
+        "correct": 0,
+        "explanation": "Himoya texnik va tashkiliy choralarni birlashtiradi."
+      },
+      {
+        "q": "Sun’iy yo‘ldosh aloqasida uplink nima?",
+        "options": [
+          "Yo‘ldoshdan yerga uzatish",
+          "Yerdan yo‘ldoshga uzatish",
+          "Faqat faylni o‘chirish",
+          "Faqat printerga yuborish"
+        ],
+        "correct": 1,
+        "explanation": "Yuqoriga va pastga yo‘nalishlar ajratiladi."
+      },
+      {
+        "q": "Yo‘ldoshdan yerga uzatish nima deyiladi?",
+        "options": [
+          "Uplink",
+          "Mail merge",
+          "Downlink",
+          "Raster"
+        ],
+        "correct": 2,
+        "explanation": "Pastga yo‘nalgan radioaloqa hisoblanadi."
+      },
+      {
+        "q": "Geostatsionar aloqada katta masofa nimani oshiradi?",
+        "options": [
+          "Shrift o‘lchamini",
+          "Fayl nomini",
+          "Piksel rangini",
+          "Signal kechikishini"
+        ],
+        "correct": 3,
+        "explanation": "Signal uzoq yo‘l bosib o‘tadi."
+      },
+      {
+        "q": "Yo‘ldosh aloqa qayerda foydali bo‘lishi mumkin?",
+        "options": [
+          "Yer usti infratuzilmasi cheklangan hududda",
+          "Faqat bir xona ichida",
+          "Faqat USB disk ichida",
+          "Faqat qog‘oz arxivda"
+        ],
+        "correct": 0,
+        "explanation": "Keng qamrov uning afzalliklaridan biridir."
+      },
+      {
+        "q": "Ma’lumot so‘roviga javob berishdan oldin nima tekshiriladi?",
+        "options": [
+          "Faqat xabar rangi",
+          "So‘rovchi shaxsi va vakolati",
+          "Faqat fayl sarlavhasi",
+          "Faqat ekran o‘lchami"
+        ],
+        "correct": 1,
+        "explanation": "Begonaga maxfiy yozuv berilmasligi kerak."
+      }
+    ],
+    "sources": [
+      {
+        "title": "LexUZ: Shaxsga doir ma’lumotlar to‘g‘risida, O‘RQ-547",
+        "url": "https://www.lex.uz/uz/docs/-4396419?ONDATE=12.09.2026+02"
+      }
+    ],
+    "glossary": [
+      [
+        "Shaxsga doir ma’lumot",
+        "Shaxsni aniqlashga imkon beruvchi axborot"
+      ],
+      [
+        "Maxfiylik",
+        "Faqat vakolatli foydalanishni ta’minlash"
+      ],
+      [
+        "Uplink",
+        "Yerdan yo‘ldoshga uzatish"
+      ],
+      [
+        "Downlink",
+        "Yo‘ldoshdan yerga uzatish"
+      ],
+      [
+        "Geostatsionar orbita",
+        "Yer aylanishiga mos yo‘ldosh orbitasi"
+      ]
+    ]
+  },
+  "49": {
+    "sections": [
+      {
+        "title": "Loyiha va kundalik ish",
+        "text": "Loyiha ma’lum maqsad, boshlanish va yakun, cheklangan resurs hamda tekshiriladigan natijaga ega ishdir. “Kutubxona ro‘yxatini raqamlashtirish” loyiha bo‘la oladi, har kuni kitob berishni qayd etish esa davomiy operatsiyadir. Loyiha muvaffaqiyati faqat dastur ochilishi emas, foydalanuvchi ehtiyoji qondirilishi bilan belgilanadi. Vaqt, xarajat, sifat va hajm o‘zaro bog‘liq."
+      },
+      {
+        "title": "Konsepsiyani shakllantirish",
+        "text": "Konsepsiyada muammo, kimga foyda berishi, taklif etilgan yechim va taxminiy natija yoziladi. Masalan, kutubxonada kitob qidirish uzoq davom etsa, maqsad qidirish vaqtini kamaytirish bo‘ladi. Darhol dastur tanlashdan oldin amaldagi jarayon va muqobil yechimlar baholanadi. Ba’zan tartibli jadval qimmat yangi tizimdan yetarliroq bo‘lishi mumkin."
+      },
+      {
+        "title": "Boshlash va chegarani belgilash",
+        "text": "Boshlash bosqichida manfaatdor tomonlar, mas’ul rahbar, maqsad, budjet va asosiy xavflar aniqlanadi. Loyiha doirasiga nimalar kirishi va kirmasligi yoziladi. Qabul mezoni o‘lchanadigan bo‘ladi: masalan, foydalanuvchi kitobni nomi bo‘yicha topa olishi. Talablar keyin o‘zgarsa, muddat va xarajatga ta’siri alohida ko‘riladi."
+      },
+      {
+        "title": "Bosqichlar va nazorat",
+        "text": "Rejalashtirishda vazifalar kichik qismlarga ajratilib, bog‘liqlik, muddat va ijrochi belgilanadi. Bajarishda natijalar ishlab chiqiladi, kuzatishda reja va amaldagi holat taqqoslanadi. Yakunda mahsulot qabul qilinadi, hujjatlar topshiriladi va tajriba qayd etiladi. Bu bosqichlar bir martalik qat’iy chiziq bo‘lishi shart emas: takroriy ishlab chiqish ham qo‘llanadi."
+      },
+      {
+        "title": "Dasturiy vositalar turlari",
+        "text": "Elektron jadval oddiy budjet va ro‘yxat uchun, vazifalar taxtasi ish holatini ko‘rsatish uchun, Gantt vositasi vaqt va bog‘liqlik uchun xizmat qiladi. Umumiy hujjat talablar va qarorlarni saqlaydi; kod versiyalash vositasi o‘zgarish tarixini boshqaradi. Bir dastur barcha vazifaga birdek mos kelmaydi. Jamoa hajmi, foydalanish qulayligi va ruxsatlar hisobga olinadi."
+      },
+      {
+        "title": "Xavf va muloqot",
+        "text": "Xavf hali sodir bo‘lmagan, lekin loyihaga ta’sir qilishi mumkin bo‘lgan holatdir. Ehtimol, ta’sir, oldini olish chorasi va mas’ul shaxs qayd etiladi. Internet uzilishi, ma’lumot sifati pastligi yoki talabning noaniqligi misol bo‘ladi. Holat hisobotida bajarilgan ish, keyingi vazifa va to‘siq yoziladi; shunchaki “hammasi yaxshi” degan jumla boshqaruv uchun yetarli emas."
+      }
+    ],
+    "example": {
+      "task": "Kutubxona qidiruv jadvalini yaratish loyihasi uchun bir sahifalik boshlash hujjatini tuzing.",
+      "steps": [
+        "Muammoni bitta aniq jumlada ifodalang.",
+        "Natija va qabul mezonini belgilang.",
+        "Doiraga kiradigan va kirmaydigan ishlarni yozing.",
+        "Kamida beshta vazifaga ijrochi va muddat belgilang.",
+        "Ikki xavfga oldini olish chorasi yozing.",
+        "Mos boshqaruv vositasini sabab bilan tanlang."
+      ],
+      "expected": "Hujjatda maqsad, foydalanuvchi, natija, cheklov, vazifa va xavf bor. “Kitobni nomidan topish” mezoni namuna so‘rov orqali tekshiriladi.",
+      "pitfall": "Vazifa ro‘yxatini loyiha maqsadi bilan adashtirmang; har bir vazifa natijaga xizmat qilishi kerak."
+    },
+    "qa": [
+      [
+        "Loyihani davomiy ish jarayonidan ajratadigan belgi qaysi?",
+        "Aniq natija va yakun chegarasi. Loyiha vaqtinchalik va maqsadga yo‘naltirilgan ishdir."
+      ],
+      [
+        "Konsepsiyada birinchi navbatda nima aniqlanadi?",
+        "Muammo va kutilgan foyda. Yechim muammoga mos tanlanadi."
+      ],
+      [
+        "Loyiha doirasi nima?",
+        "Bajariladigan ish chegarasi. Doira nimalar kirishi va kirmasligini belgilaydi."
+      ],
+      [
+        "Yaxshi qabul mezoni qaysi?",
+        "Kitob nomi bo‘yicha qidiruv natija qaytaradi. Mezon tekshiriladigan xatti-harakatni ifodalaydi."
+      ],
+      [
+        "Gantt vositasi nimani ko‘rsatadi?",
+        "Vazifalar muddati va vaqt bo‘yicha joylashuvini. Bog‘liqlik va reja ko‘rinadi."
+      ],
+      [
+        "Xavf nima?",
+        "Sodir bo‘lishi mumkin bo‘lgan ta’sirli holat. Ehtimol va ta’sir oldindan baholanadi."
+      ],
+      [
+        "Talab o‘zgarsa nima baholanadi?",
+        "Muddat, xarajat va natijaga ta’siri. O‘zgarish resurslarga ta’sir qilishi mumkin."
+      ],
+      [
+        "Vazifalar taxtasi asosan nima uchun kerak?",
+        "Ishlarning holatini kuzatish uchun. Masalan, rejalangan, bajarilmoqda, tugagan ustunlari bo‘ladi."
+      ],
+      [
+        "Loyiha yakunida nima zarur?",
+        "Natijani qabul qilish va hujjatni topshirish. Topshirish va tajribani qayd etish yakunlashning qismidir."
+      ],
+      [
+        "Mazmunli holat hisobotida nima bo‘ladi?",
+        "Bajarilgan ish, keyingi vazifa va to‘siq. Jamoaga qaror uchun dalil kerak."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Loyihani davomiy ish jarayonidan ajratadigan belgi qaysi?",
+        "options": [
+          "Faqat kompyuter ishlatilishi",
+          "Aniq natija va yakun chegarasi",
+          "Faqat xabar yuborilishi",
+          "Faqat jadval bo‘lishi"
+        ],
+        "correct": 1,
+        "explanation": "Loyiha vaqtinchalik va maqsadga yo‘naltirilgan ishdir."
+      },
+      {
+        "q": "Konsepsiyada birinchi navbatda nima aniqlanadi?",
+        "options": [
+          "Faqat tugma rangi",
+          "Faqat fayl kengaytmasi",
+          "Muammo va kutilgan foyda",
+          "Faqat kompyuter seriyasi"
+        ],
+        "correct": 2,
+        "explanation": "Yechim muammoga mos tanlanadi."
+      },
+      {
+        "q": "Loyiha doirasi nima?",
+        "options": [
+          "Faqat ekran o‘lchami",
+          "Faqat jamoa yoshi",
+          "Faqat printer narxi",
+          "Bajariladigan ish chegarasi"
+        ],
+        "correct": 3,
+        "explanation": "Doira nimalar kirishi va kirmasligini belgilaydi."
+      },
+      {
+        "q": "Yaxshi qabul mezoni qaysi?",
+        "options": [
+          "Kitob nomi bo‘yicha qidiruv natija qaytaradi",
+          "Tizim juda zo‘r bo‘ladi",
+          "Hammasi chiroyli bo‘ladi",
+          "Hamma narsani qiladi"
+        ],
+        "correct": 0,
+        "explanation": "Mezon tekshiriladigan xatti-harakatni ifodalaydi."
+      },
+      {
+        "q": "Gantt vositasi nimani ko‘rsatadi?",
+        "options": [
+          "Faqat ma’lumotni shifrlashni",
+          "Vazifalar muddati va vaqt bo‘yicha joylashuvini",
+          "Faqat rasm pikselini",
+          "Faqat foydalanuvchi parolini"
+        ],
+        "correct": 1,
+        "explanation": "Bog‘liqlik va reja ko‘rinadi."
+      },
+      {
+        "q": "Xavf nima?",
+        "options": [
+          "Faqat allaqachon tugagan vazifa",
+          "Har qanday sarlavha",
+          "Sodir bo‘lishi mumkin bo‘lgan ta’sirli holat",
+          "Faqat foydalanuvchi nomi"
+        ],
+        "correct": 2,
+        "explanation": "Ehtimol va ta’sir oldindan baholanadi."
+      },
+      {
+        "q": "Talab o‘zgarsa nima baholanadi?",
+        "options": [
+          "Faqat fon rangi",
+          "Faqat fayl nomi",
+          "Faqat ekran yorqinligi",
+          "Muddat, xarajat va natijaga ta’siri"
+        ],
+        "correct": 3,
+        "explanation": "O‘zgarish resurslarga ta’sir qilishi mumkin."
+      },
+      {
+        "q": "Vazifalar taxtasi asosan nima uchun kerak?",
+        "options": [
+          "Ishlarning holatini kuzatish uchun",
+          "Faqat mikrofon ovozini oshirish uchun",
+          "Faqat diskni formatlash uchun",
+          "Faqat video kesish uchun"
+        ],
+        "correct": 0,
+        "explanation": "Masalan, rejalangan, bajarilmoqda, tugagan ustunlari bo‘ladi."
+      },
+      {
+        "q": "Loyiha yakunida nima zarur?",
+        "options": [
+          "Barcha tarixni yashirish",
+          "Natijani qabul qilish va hujjatni topshirish",
+          "Foydalanuvchini xabarsiz qoldirish",
+          "Talablarni tekshirmaslik"
+        ],
+        "correct": 1,
+        "explanation": "Topshirish va tajribani qayd etish yakunlashning qismidir."
+      },
+      {
+        "q": "Mazmunli holat hisobotida nima bo‘ladi?",
+        "options": [
+          "Faqat “yaxshi” so‘zi",
+          "Faqat ob-havo",
+          "Bajarilgan ish, keyingi vazifa va to‘siq",
+          "Faqat rasm nomi"
+        ],
+        "correct": 2,
+        "explanation": "Jamoaga qaror uchun dalil kerak."
+      }
+    ],
+    "glossary": [
+      [
+        "Loyiha",
+        "Aniq natija va muddatli vaqtinchalik ish"
+      ],
+      [
+        "Konsepsiya",
+        "Muammo va yechimning dastlabki ifodasi"
+      ],
+      [
+        "Loyiha doirasi",
+        "Bajariladigan ishlar chegarasi"
+      ],
+      [
+        "Qabul mezoni",
+        "Natijani tasdiqlovchi tekshiriladigan shart"
+      ],
+      [
+        "Xavf",
+        "Sodir bo‘lishi mumkin bo‘lgan ta’sirli holat"
+      ]
+    ]
+  },
+  "50": {
+    "sections": [
+      {
+        "title": "Bog‘liqlik va davomiylik",
+        "text": "Loyiha vazifalarining ayrimlari parallel, ayrimlari esa oldingi ish tugagach bajariladi. Davomiylik vazifa qancha vaqt olishini, bog‘liqlik qaysi ishga tayanishini bildiradi. Bir xil davomiylikka ega ikki rejaning tugash vaqti turlicha bo‘lishi mumkin. Tarmoq sxemasida ish tartibi va shartlari aniq ko‘rsatiladi; resurs mavjudligi ham rejalashtirishga ta’sir qiladi."
+      },
+      {
+        "title": "Kritik yo‘l tushunchasi",
+        "text": "Kritik yo‘l bog‘liq vazifalar tarmog‘idagi eng uzun davomiylikli yo‘ldir; u rejaning eng erta tugash muddatini belgilaydi. Kritik vazifa kechiksa, boshqa shartlar o‘zgarmaganda loyiha ham kechikadi. Eng uzun bitta vazifa har doim kritik yo‘l degani emas: butun bog‘liq zanjir hisoblanadi. Bir nechta kritik yo‘l ham bo‘lishi mumkin."
+      },
+      {
+        "title": "Eng erta vaqtlar",
+        "text": "Oldinga hisoblashda boshlang‘ich vazifa0 vaqtdan boshlanadi. Har vazifaning eng erta tugashi=eng erta boshlanish+davomiylik. Bir nechta oldingi ish bo‘lsa, eng kech tugaydiganining vaqti olinadi. Bu hisob “hamma ish bir vaqtda boshlanadi” degan noto‘g‘ri taxminning oldini oladi. Vaqt birliklari hamma vazifada bir xil bo‘lishi kerak."
+      },
+      {
+        "title": "Zaxira vaqt",
+        "text": "Orqaga hisoblash loyiha tugashidan boshlanib, eng kech tugash va boshlanishlarni beradi. Zaxira=eng kech boshlanish−eng erta boshlanish. Nol zaxirali vazifa odatda kritik yo‘lda bo‘ladi. Zaxira vaqtni boshqa vazifaga avtomatik ko‘chirish mumkin emas; bog‘liqlik va resurs cheklovlari qayta tekshiriladi. Reja o‘zgarsa hisob ham yangilanadi."
+      },
+      {
+        "title": "Gantt diagrammasi",
+        "text": "Ganttda vazifalar satrlarda, vaqt ustunlarda, davomiylik esa gorizontal tasma bilan ifodalanadi. Boshlanish, tugash, mas’ul va bajarilish darajasi qo‘shilishi mumkin. Muhim nazorat nuqtasi milestone odatda davomiyligi nol bo‘lgan hodisadir. Gantt vaqtni ko‘rsatadi; bog‘liqliklar belgilanmasa undan kritik yo‘lni taxmin bilan aniqlash yetarli emas."
+      },
+      {
+        "title": "Nazorat va yangilash",
+        "text": "Amaliy holat rejaga qo‘shilganda haqiqiy tugash, qolgan davomiylik va yangi cheklovlar qayd etiladi. Ishning50% bajarilgani vaqtning aynan 50% qolganini anglatmaydi. Kritik yo‘ldagi vazifani qisqartirish uchun qo‘shimcha resurs yoki ish tartibini o‘zgartirish mumkin, lekin sifat va xavf ham baholanadi. Grafik qaror uchun vosita, kafolat emas."
+      }
+    ],
+    "example": {
+      "task": "A=2 kun; B=3 kun, Aga bog‘liq; C=4 kun, Aga bog‘liq; D=2 kun, B va C ga bog‘liq rejasini hisoblang va Gantt chizing.",
+      "steps": [
+        "A, B, C, D vazifalarining bog‘liqlik sxemasini tuzing.",
+        "A0–2, B2–5, C2–6 ekanini hisoblang.",
+        "D eng erta6 da boshlanib8 da tugashini tekshiring.",
+        "A–B–D va A–C–D yo‘llarini solishtiring.",
+        "B uchun bir kun zaxirani belgilang.",
+        "D tugashini milestone sifatida ko‘rsating."
+      ],
+      "expected": "Loyiha8 kun. Kritik yo‘l A–C–D; Bning zaxirasi1 kun. Ganttda B va C parallel, D esa ikkisi tugagach boshlanadi.",
+      "pitfall": "Yo‘llarning davomiyligini jamlamasdan eng uzun bitta vazifani kritik yo‘l deb belgilamang."
+    },
+    "qa": [
+      [
+        "Kritik yo‘l nima?",
+        "Bog‘liq vazifalarning eng uzun davomiylikli yo‘li. U loyiha tugashining eng erta vaqtini belgilaydi."
+      ],
+      [
+        "A2 kun, so‘ng C4 kun, so‘ng D2 kun bo‘lsa yo‘l qancha?",
+        "8 kun. 2+4+2=8."
+      ],
+      [
+        "Dning oldingi ishlari5 va 6 kunda tugasa D qachon boshlanadi?",
+        "6 kunda. Barcha zarur oldingi ishlar tugashi kerak."
+      ],
+      [
+        "Gantt diagrammasida gorizontal yo‘nalish odatda nima?",
+        "Vaqt. Vazifalar vaqt bo‘yicha tasma bilan joylashadi."
+      ],
+      [
+        "Milestone nima?",
+        "Muhim nazorat hodisasi. U odatda nol davomiylikli nuqta sifatida belgilanadi."
+      ],
+      [
+        "Zaxira vaqt qaysi ayirma orqali topiladi?",
+        "Eng kech va eng erta boshlanish farqi. Bu vazifa loyiha muddatiga ta’sirsiz qancha surilishi mumkinligini bildiradi."
+      ],
+      [
+        "Namuna rejadagi kritik yo‘l qaysi?",
+        "A–C–D. 8 kunlik yo‘l7 kunlik yo‘ldan uzun."
+      ],
+      [
+        "Namuna rejada Bning zaxirasi qancha?",
+        "1 kun. B 5 kunda tugaydi, D 6 kunda boshlanadi."
+      ],
+      [
+        "Kritik vazifa bir kun kechiksa boshqa shartlar bir xil bo‘lsa nima bo‘ladi?",
+        "Loyiha tugashi ham bir kun kechikadi. Kritik yo‘lda zaxira yo‘q."
+      ],
+      [
+        "Davomiylik o‘zgarsa nima yangilanadi?",
+        "Bog‘liqlik va kritik yo‘l hisobi. Yangi eng uzun yo‘l paydo bo‘lishi mumkin."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Kritik yo‘l nima?",
+        "options": [
+          "Eng qisqa nomli vazifa",
+          "Faqat eng qimmat qurilma",
+          "Bog‘liq vazifalarning eng uzun davomiylikli yo‘li",
+          "Birinchi satrdagi vazifa"
+        ],
+        "correct": 2,
+        "explanation": "U loyiha tugashining eng erta vaqtini belgilaydi."
+      },
+      {
+        "q": "A ishi 2 kun, so‘ng C ishi 4 kun, so‘ng D ishi 2 kun davom etsa, yo‘l davomiyligi qancha?",
+        "options": [
+          "4 kun",
+          "6 kun",
+          "10 kun",
+          "8 kun"
+        ],
+        "correct": 3,
+        "explanation": "Ketma-ket bajariladigan A, C va D ishlarining davomiyligi qo‘shiladi: 2 + 4 + 2 = 8 kun."
+      },
+      {
+        "q": "Dning oldingi ishlari5 va 6 kunda tugasa D qachon boshlanadi?",
+        "options": [
+          "6 kunda",
+          "5 kunda",
+          "0 kunda",
+          "11 kunda"
+        ],
+        "correct": 0,
+        "explanation": "Barcha zarur oldingi ishlar tugashi kerak."
+      },
+      {
+        "q": "Gantt diagrammasida gorizontal yo‘nalish odatda nima?",
+        "options": [
+          "Parol kuchi",
+          "Vaqt",
+          "Tasvir rangi",
+          "Fayl hajmi"
+        ],
+        "correct": 1,
+        "explanation": "Vazifalar vaqt bo‘yicha tasma bilan joylashadi."
+      },
+      {
+        "q": "Milestone nima?",
+        "options": [
+          "Har doim uch kunlik ish",
+          "Faqat printer modeli",
+          "Muhim nazorat hodisasi",
+          "Ma’lumot turi"
+        ],
+        "correct": 2,
+        "explanation": "U odatda nol davomiylikli nuqta sifatida belgilanadi."
+      },
+      {
+        "q": "Zaxira vaqt qaysi ayirma orqali topiladi?",
+        "options": [
+          "Narx va rang farqi",
+          "Fayl nomi va hajmi farqi",
+          "Barcha ishlar yig‘indisi",
+          "Eng kech va eng erta boshlanish farqi"
+        ],
+        "correct": 3,
+        "explanation": "Bu vazifa loyiha muddatiga ta’sirsiz qancha surilishi mumkinligini bildiradi."
+      },
+      {
+        "q": "Namuna rejadagi kritik yo‘l qaysi?",
+        "options": [
+          "A–C–D",
+          "A–B–D",
+          "B–C",
+          "FaqatB"
+        ],
+        "correct": 0,
+        "explanation": "8 kunlik yo‘l7 kunlik yo‘ldan uzun."
+      },
+      {
+        "q": "Namuna rejada Bning zaxirasi qancha?",
+        "options": [
+          "0 kun",
+          "1 kun",
+          "3 kun",
+          "4 kun"
+        ],
+        "correct": 1,
+        "explanation": "B 5 kunda tugaydi, D 6 kunda boshlanadi."
+      },
+      {
+        "q": "Kritik vazifa bir kun kechiksa boshqa shartlar bir xil bo‘lsa nima bo‘ladi?",
+        "options": [
+          "Loyiha bir kun tezlashadi",
+          "Har doim hech ta’sir bo‘lmaydi",
+          "Loyiha tugashi ham bir kun kechikadi",
+          "Barcha vazifalar o‘chadi"
+        ],
+        "correct": 2,
+        "explanation": "Kritik yo‘lda zaxira yo‘q."
+      },
+      {
+        "q": "Davomiylik o‘zgarsa nima yangilanadi?",
+        "options": [
+          "Faqat logotip",
+          "Faqat shrift",
+          "Faqat fayl nomi",
+          "Bog‘liqlik va kritik yo‘l hisobi"
+        ],
+        "correct": 3,
+        "explanation": "Yangi eng uzun yo‘l paydo bo‘lishi mumkin."
+      }
+    ],
+    "glossary": [
+      [
+        "Kritik yo‘l",
+        "Bog‘liq vazifalarning eng uzun davomiylikli yo‘li"
+      ],
+      [
+        "Bog‘liqlik",
+        "Bir vazifaning boshqasiga tayanishi"
+      ],
+      [
+        "Zaxira vaqt",
+        "Yakun muddatiga ta’sirsiz surish mumkin bo‘lgan vaqt"
+      ],
+      [
+        "Gantt",
+        "Vazifalarni vaqt tasmalarida ko‘rsatuvchi diagramma"
+      ],
+      [
+        "Milestone",
+        "Muhim nazorat hodisasi"
+      ]
+    ]
+  },
+  "51": {
+    "sections": [
+      {
+        "title": "Tiklanish rejasining maqsadi",
+        "text": "Avariya yoki falokatdan keyingi tiklanish rejasi xizmat, ma’lumot va ish jarayonini kelishilgan tartibda qaytarishga xizmat qiladi. Disk buzilishi, elektr uzilishi, yong‘in yoki zararli dastur turli ta’sirga ega. Eng muhim xizmatlar oldindan aniqlanadi. Kim xabar beradi, kim qaror qiladi va kim tiklaydi degan savollar javobsiz qolmasligi kerak."
+      },
+      {
+        "title": "RPO va RTO",
+        "text": "RPO qanchalik eski ma’lumotgacha yo‘qotishga chidash mumkinligini, RTO esa xizmatni qancha vaqtda tiklash maqsadini bildiradi. Har soat nusxa olish nazariy yo‘qotish oralig‘ini kamaytiradi, ammo tiklash tezligini avtomatik kafolatlamaydi. Ikki ko‘rsatkich tashkilot ehtiyoji, xarajat va xavf asosida tanlanadi. Bu maqsadlar mashq orqali tekshiriladi."
+      },
+      {
+        "title": "Zaxira nusxa va sinov",
+        "text": "Nusxa olish, uni xavfsiz saqlash va undan tiklash uch alohida vazifadir. Bir diskdagi ikkinchi papka disk buzilishiga qarshi yetarli emas. Nusxaning alohida muhitda va zarur holda offline saqlanishi xavfni kamaytiradi. Ishlayotgan baza nusxasi uning maxsus backup usuli bilan izchil olinadi; oddiy fayl ko‘chirish har doim xavfsiz emas."
+      },
+      {
+        "title": "Hodisa vaqtida harakat",
+        "text": "Avval odamlar xavfsizligi va zararni cheklash, so‘ng holatni qayd etish, mas’ulni xabardor qilish va ruxsatli tiklash bajariladi. Shubhali qurilmadan nusxani darhol sog‘lom tizimga ko‘chirish zarar tarqatishi mumkin. Tozalangan yoki ishonchli muhitda tekshirilgan nusxa ochiladi. Hodisa sababi bartaraf qilinmasa tiklangan tizim yana zarar ko‘rishi mumkin."
+      },
+      {
+        "title": "Prototiplash",
+        "text": "Prototip kelajak tizimning g‘oya, ekran yoki asosiy ishini sinash uchun tayyorlangan dastlabki modeldir. Qog‘oz maket, bosiladigan ekranlar yoki cheklangan ishlovchi namuna bo‘lishi mumkin. Foydalanuvchi fikri erta olinadi. Prototip to‘liq xavfsiz va ishlab chiqarishga tayyor mahsulot degani emas; namuna uchun soxta ma’lumotdan foydalaniladi."
+      },
+      {
+        "title": "Ikki yondashuvni bog‘lash",
+        "text": "Prototipdagi sinov noaniq talabni aniqlaydi, tiklanish mashqi esa uzilishdagi tayyorgarlikni tekshiradi. Har ikkisi xatoni katta zarar yuz berishidan oldin ko‘rishga yordam beradi. Mashqda vaziyat, bajarilgan qadam, vaqt, natija va kamchilik qayd etiladi. Muvaffaqiyat faqat fayl ochilishi emas, kerakli ma’lumot va xizmatning to‘g‘ri ishlashidir."
+      }
+    ],
+    "example": {
+      "task": "Soxta kutubxona jadvali uchun nusxa olish va tiklash mashqini bajaring; tiklash oynasining qog‘oz prototipini chizing.",
+      "steps": [
+        "Asl namunani alohida papkaga saqlang.",
+        "Ikkinchi mustaqil muhit yoki vaqtinchalik laboratoriya nusxasini yarating.",
+        "Asl faylni o‘chirmasdan boshqa nom bilan “zararlangan” holatni modellashtiring.",
+        "Nusxani yangi papkaga tiklab satrlar sonini solishtiring.",
+        "Tiklash vaqtini yozib RTO bilan taqqoslang.",
+        "Prototipda nusxa sanasi, tanlash, tasdiqlash va natija joyini ko‘rsating."
+      ],
+      "expected": "Tiklangan jadvaldagi yozuvlar va nazorat qiymatlari mos; haqiqiy asl fayl yo‘qolmagan. Prototip xato nusxani tanlash xavfini kamaytiradi.",
+      "pitfall": "Backup mavjudligini tiklash muvaffaqiyatli bo‘lganining dalili deb hisoblamang; amalda sinang."
+    },
+    "qa": [
+      [
+        "RPO nimani bildiradi?",
+        "Qabul qilinadigan ma’lumot yo‘qotish oralig‘ini. U nusxa qanchalik yangi bo‘lishi kerakligiga bog‘liq."
+      ],
+      [
+        "RTO nimani bildiradi?",
+        "Xizmatni tiklash uchun maqsad vaqtni. Maqsad mashq va o‘lchov orqali tekshiriladi."
+      ],
+      [
+        "Bir diskdagi boshqa papka nimadan yetarli himoya bermaydi?",
+        "Shu diskning buzilishidan. Bir fizik diskdagi ikkala nusxa birga yo‘qolishi mumkin."
+      ],
+      [
+        "Backup sifati qanday tekshiriladi?",
+        "Undan tiklab natijani solishtirish bilan. Nusxa mavjud, ammo yaroqsiz bo‘lishi mumkin."
+      ],
+      [
+        "Hodisa vaqtida birinchi ustuvorlik nima?",
+        "Odamlar xavfsizligi va zararni cheklash. Tiklash tashkilotning ruxsatli tartibida bajariladi."
+      ],
+      [
+        "Prototipning vazifasi nima?",
+        "G‘oya va talablarni erta sinash. Dastlabki model foydalanuvchi fikrini olishga yordam beradi."
+      ],
+      [
+        "Prototipda qaysi ma’lumot ishlatiladi?",
+        "Soxta yoki ruxsatli namuna. Sinov maxfiylikni buzmasligi kerak."
+      ],
+      [
+        "Ishlayotgan bazadan nusxa olishda nima muhim?",
+        "Izchil backup usulidan foydalanish. Davom etayotgan yozuvlar oddiy nusxani buzishi mumkin."
+      ],
+      [
+        "Nega hodisa sababi bartaraf qilinadi?",
+        "Qayta zarar ko‘rishning oldini olish uchun. Tiklash xavfning o‘zini avtomatik yo‘qotmaydi."
+      ],
+      [
+        "Tiklash mashqida qaysi dalil kerak?",
+        "Vaqt va ma’lumot mosligi qaydi. Tekshirish qayta bajariladigan bo‘lishi lozim."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "RPO nimani bildiradi?",
+        "options": [
+          "Xizmat tiklash vaqtining o‘zini",
+          "Ekran pikselini",
+          "Fayl nomini",
+          "Qabul qilinadigan ma’lumot yo‘qotish oralig‘ini"
+        ],
+        "correct": 3,
+        "explanation": "U nusxa qanchalik yangi bo‘lishi kerakligiga bog‘liq."
+      },
+      {
+        "q": "RTO nimani bildiradi?",
+        "options": [
+          "Xizmatni tiklash uchun maqsad vaqtni",
+          "Faqat nusxa hajmini",
+          "Faqat parol uzunligini",
+          "Faqat disk rangini"
+        ],
+        "correct": 0,
+        "explanation": "Maqsad mashq va o‘lchov orqali tekshiriladi."
+      },
+      {
+        "q": "Bir diskdagi boshqa papka nimadan yetarli himoya bermaydi?",
+        "options": [
+          "Fayl nomini uzun yozishdan",
+          "Shu diskning buzilishidan",
+          "Matnni formatlashdan",
+          "Sarlavhani ko‘rishdan"
+        ],
+        "correct": 1,
+        "explanation": "Bir fizik diskdagi ikkala nusxa birga yo‘qolishi mumkin."
+      },
+      {
+        "q": "Backup sifati qanday tekshiriladi?",
+        "options": [
+          "Faqat fayl belgisiga qarab",
+          "Faqat nomini o‘zgartirib",
+          "Undan tiklab natijani solishtirish bilan",
+          "Faqat rasmga olib"
+        ],
+        "correct": 2,
+        "explanation": "Nusxa mavjud, ammo yaroqsiz bo‘lishi mumkin."
+      },
+      {
+        "q": "Hodisa vaqtida birinchi ustuvorlik nima?",
+        "options": [
+          "Darhol hamma faylni ommaga yuborish",
+          "Barcha jurnalni o‘chirish",
+          "Begona tizimga kirish",
+          "Odamlar xavfsizligi va zararni cheklash"
+        ],
+        "correct": 3,
+        "explanation": "Tiklash tashkilotning ruxsatli tartibida bajariladi."
+      },
+      {
+        "q": "Prototipning vazifasi nima?",
+        "options": [
+          "G‘oya va talablarni erta sinash",
+          "Har doim tayyor mahsulotni almashtirish",
+          "Faqat parol saqlash",
+          "Diskni formatlash"
+        ],
+        "correct": 0,
+        "explanation": "Dastlabki model foydalanuvchi fikrini olishga yordam beradi."
+      },
+      {
+        "q": "Prototipda qaysi ma’lumot ishlatiladi?",
+        "options": [
+          "Begona maxfiy ro‘yxat",
+          "Soxta yoki ruxsatli namuna",
+          "Haqiqiy ochiq parollar",
+          "Tasodifiy o‘g‘irlangan yozuv"
+        ],
+        "correct": 1,
+        "explanation": "Sinov maxfiylikni buzmasligi kerak."
+      },
+      {
+        "q": "Ishlayotgan bazadan nusxa olishda nima muhim?",
+        "options": [
+          "Har doim oddiy copy yetarli deyish",
+          "Fayl kengaytmasini almashtirish",
+          "Izchil backup usulidan foydalanish",
+          "Barcha jadvallarni rasmlash"
+        ],
+        "correct": 2,
+        "explanation": "Davom etayotgan yozuvlar oddiy nusxani buzishi mumkin."
+      },
+      {
+        "q": "Nega hodisa sababi bartaraf qilinadi?",
+        "options": [
+          "Faqat ekran bezagi uchun",
+          "Faqat faylni kichraytirish uchun",
+          "Faqat nomni o‘zgartirish uchun",
+          "Qayta zarar ko‘rishning oldini olish uchun"
+        ],
+        "correct": 3,
+        "explanation": "Tiklash xavfning o‘zini avtomatik yo‘qotmaydi."
+      },
+      {
+        "q": "Tiklash mashqida qaysi dalil kerak?",
+        "options": [
+          "Vaqt va ma’lumot mosligi qaydi",
+          "Faqat “ishladi” degan so‘z",
+          "Faqat fon rasmi",
+          "Faqat obunachi soni"
+        ],
+        "correct": 0,
+        "explanation": "Tekshirish qayta bajariladigan bo‘lishi lozim."
+      }
+    ],
+    "glossary": [
+      [
+        "RPO",
+        "Qabul qilinadigan ma’lumot yo‘qotish oralig‘i"
+      ],
+      [
+        "RTO",
+        "Xizmatni tiklashning maqsad vaqti"
+      ],
+      [
+        "Backup",
+        "Tiklash uchun saqlangan nusxa"
+      ],
+      [
+        "Tiklash sinovi",
+        "Nusxani qaytarib yaroqliligini tekshirish"
+      ],
+      [
+        "Prototip",
+        "G‘oya va talabni sinash uchun dastlabki model"
+      ]
+    ]
+  },
+  "52": {
+    "sections": [
+      {
+        "title": "CAD tushunchasi",
+        "text": "CAD kompyuter yordamida chizma va geometrik model yaratishdir. Ikki o‘lchamli chizmada kontur va o‘lchamlar, uch o‘lchamli modelda shakl va fazoviy munosabatlar ifodalanadi. Birlik, masshtab va cheklovlar aniqlanadi. Ekranda chiroyli ko‘ringan model ishlab chiqarish uchun yetarli bo‘lmasligi mumkin: o‘lcham va material talabi ham zarur."
+      },
+      {
+        "title": "CAM va ishlab chiqarish",
+        "text": "CAM kompyuter yordamida ishlab chiqarish jarayonini tayyorlash va boshqarishga xizmat qiladi. Modeldan asbob yo‘li yoki boshqa ishlab chiqarish ko‘rsatmasi olinishi mumkin. CNC qurilma raqamli ko‘rsatma asosida harakat qiladi. CAD modeli bilan tayyor mahsulot orasida material, asbob, stanok cheklovi va sinov bosqichlari bor. O‘quvchi ruxsatsiz real stanokni ishga tushirmaydi."
+      },
+      {
+        "title": "Modelni tekshirish",
+        "text": "Detal uchun barcha muhim o‘lchamlar, teshiklar va birikmalar tekshiriladi. Model ko‘lamini noto‘g‘ri tanlash mahsulot hajmini buzadi. Simulyatsiya to‘qnashuv va moslikni oldindan ko‘rishga yordam beradi, ammo har doim fizik sinovni to‘liq almashtirmaydi. O‘zgarishlar versiyalanadi; ishlab chiqarishga qaysi model berilgani aniq qayd etiladi."
+      },
+      {
+        "title": "Tizim tahlili",
+        "text": "Tahlil amaldagi jarayon, muammo va foydalanuvchi talablarini tushunishdan boshlanadi. Kim ma’lumot kiritadi, kim tekshiradi va kim natijani oladi degan savollar beriladi. Faqat dasturga qarab emas, ishning butun oqimiga qaraladi. Natijada muammo ta’rifi, talablar, cheklov va yaxshilanish mezoni yoziladi."
+      },
+      {
+        "title": "Hujjatlar tahlili usuli",
+        "text": "Buyurtma blankasi, jurnal, hisob-faktura, hisobot va yo‘riqnoma jarayon haqida dalil beradi. Hujjatdagi maydonlar, nusxalar, imzolar, hisoblash va yo‘nalish o‘rganiladi. Eskirgan shakl amaldagi ishni aniq aks ettirmasligi mumkin; kuzatuv yoki suhbat bilan solishtirish foydali. Maxfiy hujjatlar ruxsat bilan va shaxsiy ma’lumotlarni yashirib tahlil qilinadi."
+      },
+      {
+        "title": "Dalildan talabga o‘tish",
+        "text": "Masalan, buyurtma blankasida mahsulot kodi uch marta qayta yozilsa, xato va vaqt yo‘qotish xavfi bor. Talab “kod bir marta kiritilib boshqa joyda qayta ishlatilsin” tarzida belgilanadi. “Zamonaviy bo‘lsin”dan ko‘ra aniq talab sinov uchun qulay. CAD/CAM loyihasida ham dizayn chizmasi, ishlab chiqarish kartasi va tekshirish natijasi o‘zaro bog‘lanadi."
+      }
+    ],
+    "example": {
+      "task": "Sodda tokcha detali maketi va unga tegishli buyurtma blankasini tahlil qiling.",
+      "steps": [
+        "200×100 mm to‘rtburchak detalni qog‘oz yoki CADda chizing.",
+        "Birlik va o‘lchamlarni ko‘rsating.",
+        "Buyurtma shakliga kod, son, material va sana kiriting.",
+        "Qayta kiritiladigan yoki noaniq maydonni toping.",
+        "Shundan ikkita tekshiriladigan tizim talabi chiqaring.",
+        "Ishlab chiqarishdan oldingi uch tekshiruvni yozing."
+      ],
+      "expected": "O‘lchamli model, maydonlar tahlili va “son musbat butun bo‘lsin” kabi tekshiriladigan talablar. Real qurilma ishlatilmasdan jarayon tushuntiriladi.",
+      "pitfall": "Chizmada birlikni ko‘rsatmaslik yoki eski hujjatni tekshirmay yagona haqiqat deb olish xatodir."
+    },
+    "qa": [
+      [
+        "CADning vazifasi nima?",
+        "Chizma va geometrik model yaratish. Dizayn kompyuterda ifodalanadi."
+      ],
+      [
+        "CAM nimaga xizmat qiladi?",
+        "Ishlab chiqarishni kompyuter yordamida tayyorlashga. U modeldan ishlab chiqarish jarayoniga o‘tishni qo‘llaydi."
+      ],
+      [
+        "Chizmada qaysi ma’lumot zarur?",
+        "Birlik va muhim o‘lchamlar. O‘lchamsiz modelni aniq ishlab chiqarish qiyin."
+      ],
+      [
+        "CNC qurilma qanday boshqariladi?",
+        "Raqamli ko‘rsatmalar asosida. Real stanok faqat ruxsatli xavfsiz tartibda ishlatiladi."
+      ],
+      [
+        "Hujjatlar tahlilida nima o‘rganiladi?",
+        "Maydonlar, oqim va amaldagi yozuvlar. Hujjatlar jarayonning dalili bo‘lishi mumkin."
+      ],
+      [
+        "Eski blankani nega boshqa usul bilan solishtirish kerak?",
+        "Amaldagi ishga mos kelmasligi mumkinligi uchun. Suhbat va kuzatuv dalilni aniqlashtiradi."
+      ],
+      [
+        "Tekshiriladigan talab qaysi?",
+        "Buyurtma soni musbat butun bo‘lsin. Shartni aniq qiymatlar bilan sinash mumkin."
+      ],
+      [
+        "Simulyatsiya nimaga yordam beradi?",
+        "Xato va moslikni oldindan tekshirishga. U fizik tekshiruvni doim to‘liq almashtirmaydi."
+      ],
+      [
+        "Model versiyasi nima uchun qayd etiladi?",
+        "Qaysi dizayn ishlatilganini bilish uchun. O‘zgarishlar nazorati ishlab chiqarishda muhim."
+      ],
+      [
+        "Maxfiy buyurtma hujjati qanday tahlil qilinadi?",
+        "Ruxsat bilan, shaxsiy qismlar yashirilib. Dalil olish maxfiylikni buzmasligi kerak."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "CADning vazifasi nima?",
+        "options": [
+          "Chizma va geometrik model yaratish",
+          "Faqat xat yuborish",
+          "Faqat ovoz yozish",
+          "Faqat internetga ulash"
+        ],
+        "correct": 0,
+        "explanation": "Dizayn kompyuterda ifodalanadi."
+      },
+      {
+        "q": "CAM nimaga xizmat qiladi?",
+        "options": [
+          "Faqat shrift tanlashga",
+          "Ishlab chiqarishni kompyuter yordamida tayyorlashga",
+          "Faqat pochta ro‘yxatiga",
+          "Faqat videoni ko‘rishga"
+        ],
+        "correct": 1,
+        "explanation": "U modeldan ishlab chiqarish jarayoniga o‘tishni qo‘llaydi."
+      },
+      {
+        "q": "Chizmada qaysi ma’lumot zarur?",
+        "options": [
+          "Faqat fon rangi",
+          "Faqat muallif surati",
+          "Birlik va muhim o‘lchamlar",
+          "Faqat internet paroli"
+        ],
+        "correct": 2,
+        "explanation": "O‘lchamsiz modelni aniq ishlab chiqarish qiyin."
+      },
+      {
+        "q": "CNC qurilma qanday boshqariladi?",
+        "options": [
+          "Faqat qo‘lda yozilgan xat nomi bilan",
+          "Faqat ekran rangi bilan",
+          "Faqat audio balandligi bilan",
+          "Raqamli ko‘rsatmalar asosida"
+        ],
+        "correct": 3,
+        "explanation": "Real stanok faqat ruxsatli xavfsiz tartibda ishlatiladi."
+      },
+      {
+        "q": "Hujjatlar tahlilida nima o‘rganiladi?",
+        "options": [
+          "Maydonlar, oqim va amaldagi yozuvlar",
+          "Faqat qog‘oz rangi",
+          "Faqat papka nomi",
+          "Faqat monitor modeli"
+        ],
+        "correct": 0,
+        "explanation": "Hujjatlar jarayonning dalili bo‘lishi mumkin."
+      },
+      {
+        "q": "Eski blankani nega boshqa usul bilan solishtirish kerak?",
+        "options": [
+          "Har doim xato bo‘lgani uchun",
+          "Amaldagi ishga mos kelmasligi mumkinligi uchun",
+          "Qog‘oz albatta yaroqsizligi uchun",
+          "Hujjatlar hech foydasizligi uchun"
+        ],
+        "correct": 1,
+        "explanation": "Suhbat va kuzatuv dalilni aniqlashtiradi."
+      },
+      {
+        "q": "Tekshiriladigan talab qaysi?",
+        "options": [
+          "Tizim juda ajoyib bo‘lsin",
+          "Hammasi yaxshilansin",
+          "Buyurtma soni musbat butun bo‘lsin",
+          "Dizayn juda zamonaviy bo‘lsin"
+        ],
+        "correct": 2,
+        "explanation": "Shartni aniq qiymatlar bilan sinash mumkin."
+      },
+      {
+        "q": "Simulyatsiya nimaga yordam beradi?",
+        "options": [
+          "Har qanday sinovni butunlay bekor qilishga",
+          "Hamma maxfiylikni yo‘qotishga",
+          "Model birliklarini yashirishga",
+          "Xato va moslikni oldindan tekshirishga"
+        ],
+        "correct": 3,
+        "explanation": "U fizik tekshiruvni doim to‘liq almashtirmaydi."
+      },
+      {
+        "q": "Model versiyasi nima uchun qayd etiladi?",
+        "options": [
+          "Qaysi dizayn ishlatilganini bilish uchun",
+          "Faylni bezash uchun",
+          "Ekranni tozalash uchun",
+          "Faqat rasm nomini uzaytirish uchun"
+        ],
+        "correct": 0,
+        "explanation": "O‘zgarishlar nazorati ishlab chiqarishda muhim."
+      },
+      {
+        "q": "Maxfiy buyurtma hujjati qanday tahlil qilinadi?",
+        "options": [
+          "Ochiq guruhga yuborilib",
+          "Ruxsat bilan, shaxsiy qismlar yashirilib",
+          "Begona hisobdan o‘g‘irlanib",
+          "Parollar bilan birga tarqatilib"
+        ],
+        "correct": 1,
+        "explanation": "Dalil olish maxfiylikni buzmasligi kerak."
+      }
+    ],
+    "glossary": [
+      [
+        "CAD",
+        "Kompyuter yordamida dizayn yaratish"
+      ],
+      [
+        "CAM",
+        "Ishlab chiqarishni kompyuter yordamida tayyorlash"
+      ],
+      [
+        "CNC",
+        "Raqamli ko‘rsatmada boshqariluvchi qurilma"
+      ],
+      [
+        "Masshtab",
+        "Chizma va haqiqiy o‘lcham nisbati"
+      ],
+      [
+        "Hujjatlar tahlili",
+        "Jarayonni hujjatlar dalili orqali o‘rganish"
+      ]
+    ]
+  },
+  "53": {
+    "sections": [
+      {
+        "title": "Dizaynning vazifasi",
+        "text": "Tahlil nima kerakligini aniqlasa, dizayn tizim qanday ishlashini rejalashtiradi. Kirish, jarayon, chiqish, ma’lumot tuzilishi, ekran, ruxsat va xato holatlari birgalikda loyihalanadi. Dizayn ishlab chiqishdan oldin muammolarni arzonroq topishga yordam beradi. Yaxshi maket faqat rang emas: foydalanuvchi vazifani qanday bajarishi ham aniq bo‘ladi."
+      },
+      {
+        "title": "Ma’lumotlar oqimi diagrammasi",
+        "text": "DFD ma’lumot tashqi ishtirokchi, jarayon va saqlash joyi orasida qanday harakatlanishini ko‘rsatadi. Masalan, o‘quvchi so‘rov yuboradi, “kitob qidirish” jarayoni katalogdan ma’lumot oladi va natijani qaytaradi. O‘qlar ma’lumot nomi bilan belgilanadi. DFD vaqt tartibi yoki dasturdagi if operatorining o‘rnini bosmaydi."
+      },
+      {
+        "title": "Tizim blok-sxemasi",
+        "text": "Tizim blok-sxemasi qurilma, kiritish, ishlov berish, fayl va chiqish qismlarini belgilangan shakllar bilan tasvirlaydi. Masalan, skaner→tekshirish→ma’lumotlar bazasi→hisobot. Oqim yo‘nalishi va belgilar izohi bo‘lishi kerak. Algoritm blok-sxemasi qaror va sikl kabi bajarilish mantiqini batafsilroq ko‘rsatadi; diagramma maqsadi oldindan belgilanadi."
+      },
+      {
+        "title": "Ekran formasi",
+        "text": "Forma ma’lumot kiritish yoki ko‘rish uchun elementlar to‘plamidir. Har maydonning aniq yorlig‘i, mos turi, zarurligi va xato xabari bo‘ladi. Masalan, kitob soni butun musbat qiymat, sana esa kelishilgan formatda kiritiladi. Klaviatura bilan yurish, matn o‘qilishi va tasdiqlash xabari ham dizayn tarkibiga kiradi."
+      },
+      {
+        "title": "Texnik ta’minotni tanlash",
+        "text": "Qurilma tanlovida foydalanuvchi soni, ishlov hajmi, xotira, saqlash, tarmoq, uzluksizlik va kelajakdagi o‘sish baholanadi. Faqat protsessor nomi butun tizim mosligini anglatmaydi. Mavjud printer yoki skaner bilan moslik va xizmat ko‘rsatish imkoniyati ham tekshiriladi. O‘quv loyihasida talab real vazifadan kelib chiqadi."
+      },
+      {
+        "title": "Dasturiy ta’minot va qabul mezoni",
+        "text": "Operatsion tizim, amaliy dastur, baza vositasi, brauzer va drayverlar vazifaga mos bo‘lishi kerak. Litsenziya, yangilanish, xavfsizlik va ma’lumot ko‘chirish imkoniyati hisobga olinadi. Har dizayn qarori tegishli talabga bog‘lanadi. “Qidiruv bor” degan talab uchun tugma, jarayon, natija va sinov holati bir-biriga mos keladi."
+      }
+    ],
+    "example": {
+      "task": "Kutubxona qidiruv tizimi uchun DFD, tizim sxemasi va ekran maketini yarating.",
+      "steps": [
+        "Tashqi ishtirokchi sifatida o‘quvchini belgilang.",
+        "So‘rov, qidirish jarayoni, katalog va natija oqimlarini chizing.",
+        "Kompyuter, dastur va baza orasidagi tizim sxemasini alohida chizing.",
+        "Ekranga qidiruv yorlig‘i, maydon, tugma va natija joylashtiring.",
+        "Bo‘sh so‘rov va topilmagan kitob xabarlarini loyihalang.",
+        "Zarur qurilma va dasturlarni talab bilan asoslang."
+      ],
+      "expected": "Uch xil tasvir o‘z vazifasini bajaradi: DFD ma’lumotni, tizim sxemasi komponentlarni, maket esa foydalanuvchi ishini ko‘rsatadi.",
+      "pitfall": "DFDga tartib raqamini yozishning o‘zi algoritm mantiqini ifodalamaydi; diagramma turlarini aralashtirmang."
+    },
+    "qa": [
+      [
+        "Dizayn qaysi savolga ko‘proq javob beradi?",
+        "Tizim qanday ishlaydi. Tahlilda aniqlangan talab yechimga aylantiriladi."
+      ],
+      [
+        "DFD nimani ko‘rsatadi?",
+        "Ma’lumotning jarayon va saqlash joylari orasidagi oqimini. Ma’lumot manbasi, jarayon va natija ajratiladi."
+      ],
+      [
+        "DFD o‘qlariga nima yoziladi?",
+        "Uzatilayotgan ma’lumot nomi. Oqimning mazmuni tushunarli bo‘lishi lozim."
+      ],
+      [
+        "Ekran formasida har maydon uchun nima zarur?",
+        "Aniq yorliq va mos kiritish qoidasi. Foydalanuvchi nima kiritishni bilishi kerak."
+      ],
+      [
+        "“Kitob soni” uchun mos tekshiruv qaysi?",
+        "Musbat butun qiymat. Ma’lumot turi vazifaga moslanadi."
+      ],
+      [
+        "Qurilma tanlash qaysi asosda bo‘ladi?",
+        "Vazifa, foydalanuvchi soni va yuklama. Moslik va ehtiyoj asosiy mezondir."
+      ],
+      [
+        "Dastur tanlashda qaysi omil muhim?",
+        "Litsenziya, moslik va yangilanish. Tizim barqaror va qonuniy ishlashi kerak."
+      ],
+      [
+        "Topilmagan kitob uchun nima loyihalanadi?",
+        "Tushunarli natija yo‘q xabari. Xato va bo‘sh holatlar ham foydalanuvchi tajribasidir."
+      ],
+      [
+        "Klaviatura bilan forma boshqarish nimaga tegishli?",
+        "Foydalanish qulayligiga. Interfeys turli foydalanuvchiga mos bo‘lishi kerak."
+      ],
+      [
+        "Talab va dizayn qarori qanday bog‘lanadi?",
+        "Har qaror tegishli ehtiyojni bajarishi kerak. Bog‘liqlik keyingi sinov mezonini ham aniqlaydi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Dizayn qaysi savolga ko‘proq javob beradi?",
+        "options": [
+          "Faqat kim ta’tilga chiqadi?",
+          "Tizim qanday ishlaydi?",
+          "Faqat qanday rang yoqadi?",
+          "Faqat ob-havo qanday?"
+        ],
+        "correct": 1,
+        "explanation": "Tahlilda aniqlangan talab yechimga aylantiriladi."
+      },
+      {
+        "q": "DFD nimani ko‘rsatadi?",
+        "options": [
+          "Faqat bajarilish vaqtini",
+          "Faqat ekran piksellarini",
+          "Ma’lumotning jarayon va saqlash joylari orasidagi oqimini",
+          "Faqat parol uzunligini"
+        ],
+        "correct": 2,
+        "explanation": "Ma’lumot manbasi, jarayon va natija ajratiladi."
+      },
+      {
+        "q": "DFD o‘qlariga nima yoziladi?",
+        "options": [
+          "Faqat tasodifiy raqam",
+          "Foydalanuvchi maxfiy paroli",
+          "Faqat bezak belgisi",
+          "Uzatilayotgan ma’lumot nomi"
+        ],
+        "correct": 3,
+        "explanation": "Oqimning mazmuni tushunarli bo‘lishi lozim."
+      },
+      {
+        "q": "Ekran formasida har maydon uchun nima zarur?",
+        "options": [
+          "Aniq yorliq va mos kiritish qoidasi",
+          "Faqat bir xil rang",
+          "Faqat bo‘sh joy",
+          "Faqat kichik shrift"
+        ],
+        "correct": 0,
+        "explanation": "Foydalanuvchi nima kiritishni bilishi kerak."
+      },
+      {
+        "q": "“Kitob soni” uchun mos tekshiruv qaysi?",
+        "options": [
+          "Faqat ixtiyoriy rasm",
+          "Musbat butun qiymat",
+          "Faqat uzun matn",
+          "Faqat bo‘sh maydon"
+        ],
+        "correct": 1,
+        "explanation": "Ma’lumot turi vazifaga moslanadi."
+      },
+      {
+        "q": "Qurilma tanlash qaysi asosda bo‘ladi?",
+        "options": [
+          "Faqat eng yorqin korpus",
+          "Faqat reklama shiori",
+          "Vazifa, foydalanuvchi soni va yuklama",
+          "Faqat sotuvchi ismi"
+        ],
+        "correct": 2,
+        "explanation": "Moslik va ehtiyoj asosiy mezondir."
+      },
+      {
+        "q": "Dastur tanlashda qaysi omil muhim?",
+        "options": [
+          "Faqat ikonka rangi",
+          "Faqat nomining uzunligi",
+          "Faqat fon rasmi",
+          "Litsenziya, moslik va yangilanish"
+        ],
+        "correct": 3,
+        "explanation": "Tizim barqaror va qonuniy ishlashi kerak."
+      },
+      {
+        "q": "Topilmagan kitob uchun nima loyihalanadi?",
+        "options": [
+          "Tushunarli natija yo‘q xabari",
+          "Parolni oshkor qilish",
+          "Tizimni sababsiz o‘chirish",
+          "Bo‘sh va izohsiz ekran"
+        ],
+        "correct": 0,
+        "explanation": "Xato va bo‘sh holatlar ham foydalanuvchi tajribasidir."
+      },
+      {
+        "q": "Klaviatura bilan forma boshqarish nimaga tegishli?",
+        "options": [
+          "Faqat disk hajmiga",
+          "Foydalanish qulayligiga",
+          "Faqat kabel uzunligiga",
+          "Faqat kamera sifatiga"
+        ],
+        "correct": 1,
+        "explanation": "Interfeys turli foydalanuvchiga mos bo‘lishi kerak."
+      },
+      {
+        "q": "Talab va dizayn qarori qanday bog‘lanadi?",
+        "options": [
+          "Bir-biriga aloqasi yo‘q",
+          "Faqat rang orqali",
+          "Har qaror tegishli ehtiyojni bajarishi kerak",
+          "Faqat fayl nomi orqali"
+        ],
+        "correct": 2,
+        "explanation": "Bog‘liqlik keyingi sinov mezonini ham aniqlaydi."
+      }
+    ],
+    "glossary": [
+      [
+        "Dizayn",
+        "Talabni tizim yechimiga aylantirish"
+      ],
+      [
+        "DFD",
+        "Ma’lumotlar oqimi diagrammasi"
+      ],
+      [
+        "Forma",
+        "Kiritish va ko‘rsatish elementlari tuzilmasi"
+      ],
+      [
+        "Validatsiya",
+        "Qiymatning belgilangan qoidaga mosligini tekshirish"
+      ],
+      [
+        "Tizim blok-sxemasi",
+        "Komponent va ishlov oqimining tasviri"
+      ]
+    ]
+  },
+  "54": {
+    "sections": [
+      {
+        "title": "Ishlab chiqish va sinov rejasi",
+        "text": "Ishlab chiqish dizaynni ishlaydigan tizimga aylantiradi. Kichik qismlar ketma-ket yaratiladi, kod va sozlamalar versiyalanadi. Sinov rejasi talab, kiruvchi ma’lumot, kutilgan natija va haqiqiy natijani o‘z ichiga oladi. Faqat dastur ishga tushishi barcha talab bajarilganini anglatmaydi; har muhim vazifa alohida tekshiriladi."
+      },
+      {
+        "title": "Qora quti sinovi",
+        "text": "Qora quti sinovida ichki kodni bilmasdan kirish va chiqish xatti-harakati tekshiriladi. Masalan, yosh18–60 oralig‘ida bo‘lsa17,18,60,61 va matn qiymatlari bilan sinash mumkin. Normal, chegaraviy va noto‘g‘ri holatlar tanlanadi. Sinovchi foydalanuvchi nuqtayi nazaridan talab bajarilishini tekshiradi; kodning qaysi satri ishlagani alohida maqsad bo‘lmasligi mumkin."
+      },
+      {
+        "title": "Oq quti sinovi",
+        "text": "Oq quti sinovida ichki mantiq, tarmoq, shart va yo‘llar haqida bilim ishlatiladi. Ifning ikkala tomoni ishlaganmi, sikl nol va ko‘p marta aylanganmi kabi savollar beriladi. Yuqori qamrov xatosizlikni kafolatlamaydi: noto‘g‘ri talab yoki tekshirilmagan holat qolishi mumkin. Qora va oq quti yondashuvlari bir-birini to‘ldiradi."
+      },
+      {
+        "title": "Alfa va beta sinov",
+        "text": "Alfa sinovi odatda ishlab chiquvchi nazoratidagi muhitda dastlabki nuqsonlarni topish uchun o‘tkaziladi. Beta sinovda cheklangan tashqi foydalanuvchilar real sharoitga yaqin foydalanib fikr bildiradi. Versiya, topilgan xato, takrorlash qadami va ta’sir qayd etiladi. Beta mahsulot yakuniy va barcha ma’lumot uchun xavfsiz degan kafolat emas."
+      },
+      {
+        "title": "Instalyatsiya va hujjatlashtirish",
+        "text": "Joriy etishda moslik, ruxsat, zaxira, ma’lumot ko‘chirish va orqaga qaytish rejasi tekshiriladi. Foydalanuvchi hujjati kundalik vazifalarni, texnik hujjat o‘rnatish, arxitektura, sozlama va xizmatni tushuntiradi. Dastur versiyasi bilan hujjat mos saqlanadi. O‘rnatishdan keyin asosiy xizmatlar uchun qisqa tekshiruv bajariladi."
+      },
+      {
+        "title": "Tahlil va texnik xizmat",
+        "text": "Joriy tizim natijasi maqsadga nisbatan baholanadi: aniqlik, vaqt, qulaylik va nosozlik qaydlari ko‘riladi. Xatoni tuzatish korrektiv, muhitga moslashish adaptiv, imkoniyatni yaxshilash esa takomillashtiruvchi xizmat bo‘lishi mumkin. O‘zgarishdan keyin ilgari ishlagan funksiyalarni qayta tekshirish regressiya sinovidir. Xizmat doimiy kuzatuv va hujjatni talab qiladi."
+      }
+    ],
+    "example": {
+      "task": "Yosh18–60 va ism majburiy bo‘lgan ro‘yxat formasiga sinov rejasi tuzing.",
+      "steps": [
+        "18,60,17,61,bo‘sh va matn yosh qiymatlarini tanlang.",
+        "Har holat uchun kutilgan natijani oldindan yozing.",
+        "Formani sinab haqiqiy natijani qayd eting.",
+        "Bitta xato uchun takrorlash qadamlarini yozing.",
+        "Tuzatishdan so‘ng barcha eski holatni qayta sinang.",
+        "O‘rnatish va qaytarish uchun qisqa yo‘riqnoma tayyorlang."
+      ],
+      "expected": "Normal, chegaraviy va noto‘g‘ri kirishlar qamrab olingan jadval. Xato aniq takrorlanadi, tuzatishdan keyin regressiya natijasi yoziladi.",
+      "pitfall": "Kutilgan natijani dastur javobidan keyin o‘zgartirib moslashtirmang; mezon oldindan belgilanadi."
+    },
+    "qa": [
+      [
+        "Qora quti sinovi nimaga tayanadi?",
+        "Kirish va chiqish xatti-harakatiga. Ichki tuzilmani bilmasdan talab tekshiriladi."
+      ],
+      [
+        "Oq quti sinovida nima tekshiriladi?",
+        "Ichki mantiq va kod yo‘llari. Kod haqidagi bilim sinov tanlashga yordam beradi."
+      ],
+      [
+        "18–60 oralig‘i uchun chegaraviy juftlik qaysi?",
+        "17,18,60,61. Chegara va uning tashqarisidagi qiymatlar tanlanadi."
+      ],
+      [
+        "Alfa sinov odatda qayerda bo‘ladi?",
+        "Ishlab chiquvchi nazoratidagi muhitda. Dastlabki boshqariladigan sinov bosqichidir."
+      ],
+      [
+        "Beta sinovning ishtirokchisi kim bo‘lishi mumkin?",
+        "Cheklangan tashqi foydalanuvchilar. Real foydalanish sharoitidan fikr olinadi."
+      ],
+      [
+        "Regressiya sinovi nima?",
+        "O‘zgarishdan keyin eski funksiyalarni qayta tekshirish. Tuzatish boshqa joyni buzmaganini aniqlaydi."
+      ],
+      [
+        "Sinov rejasida nima oldindan yoziladi?",
+        "Kutilgan natija. Natija talabga nisbatan solishtiriladi."
+      ],
+      [
+        "Foydalanuvchi hujjati nimani tushuntiradi?",
+        "Kundalik vazifani bajarishni. Texnik hujjat bilan vazifasi farq qiladi."
+      ],
+      [
+        "Yuqori kod qamrovi xatosizlikni kafolatlaydimi?",
+        "Yo‘q. Qamrov tekshirilmagan talab xatolarini yo‘qotmaydi."
+      ],
+      [
+        "Joriy etishda nega orqaga qaytish rejasi kerak?",
+        "Nosoz relizdan avvalgi holatga qaytish uchun. Xizmat uzilishini kamaytirish uchun tayyorlanadi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Qora quti sinovi nimaga tayanadi?",
+        "options": [
+          "Faqat kod satrlari soniga",
+          "Faqat protsessor turiga",
+          "Kirish va chiqish xatti-harakatiga",
+          "Faqat ekran rangiga"
+        ],
+        "correct": 2,
+        "explanation": "Ichki tuzilmani bilmasdan talab tekshiriladi."
+      },
+      {
+        "q": "Oq quti sinovida nima tekshiriladi?",
+        "options": [
+          "Faqat tashqi yorliq",
+          "Faqat video chastota",
+          "Faqat fayl hajmi",
+          "Ichki mantiq va kod yo‘llari"
+        ],
+        "correct": 3,
+        "explanation": "Kod haqidagi bilim sinov tanlashga yordam beradi."
+      },
+      {
+        "q": "18–60 oralig‘i uchun chegaraviy juftlik qaysi?",
+        "options": [
+          "17,18,60,61",
+          "30,31,32,33",
+          "Faqat40",
+          "Faqat25"
+        ],
+        "correct": 0,
+        "explanation": "Chegara va uning tashqarisidagi qiymatlar tanlanadi."
+      },
+      {
+        "q": "Alfa sinov odatda qayerda bo‘ladi?",
+        "options": [
+          "Faqat ochiq global auditoriyada",
+          "Ishlab chiquvchi nazoratidagi muhitda",
+          "Faqat qog‘oz arxivda",
+          "Faqat printer ichida"
+        ],
+        "correct": 1,
+        "explanation": "Dastlabki boshqariladigan sinov bosqichidir."
+      },
+      {
+        "q": "Beta sinovning ishtirokchisi kim bo‘lishi mumkin?",
+        "options": [
+          "Faqat apparat kabeli",
+          "Faqat drayver",
+          "Cheklangan tashqi foydalanuvchilar",
+          "Faqat baza maydoni"
+        ],
+        "correct": 2,
+        "explanation": "Real foydalanish sharoitidan fikr olinadi."
+      },
+      {
+        "q": "Regressiya sinovi nima?",
+        "options": [
+          "Faqat yangi logo chizish",
+          "Faqat fayl nomini ko‘rish",
+          "Faqat nusxa olish",
+          "O‘zgarishdan keyin eski funksiyalarni qayta tekshirish"
+        ],
+        "correct": 3,
+        "explanation": "Tuzatish boshqa joyni buzmaganini aniqlaydi."
+      },
+      {
+        "q": "Sinov rejasida nima oldindan yoziladi?",
+        "options": [
+          "Kutilgan natija",
+          "Haqiqiy javobga mos bahona",
+          "Faqat fon rangi",
+          "Faqat xodim rasmi"
+        ],
+        "correct": 0,
+        "explanation": "Natija talabga nisbatan solishtiriladi."
+      },
+      {
+        "q": "Foydalanuvchi hujjati nimani tushuntiradi?",
+        "options": [
+          "Faqat barcha ichki kod satrini",
+          "Kundalik vazifani bajarishni",
+          "Faqat kompaniya reklamasini",
+          "Faqat qurilma narxini"
+        ],
+        "correct": 1,
+        "explanation": "Texnik hujjat bilan vazifasi farq qiladi."
+      },
+      {
+        "q": "Yuqori kod qamrovi xatosizlikni kafolatlaydimi?",
+        "options": [
+          "Ha, mutlaqo",
+          "Faqat fayl katta bo‘lsa",
+          "Yo‘q",
+          "Faqat ikonka yashil bo‘lsa"
+        ],
+        "correct": 2,
+        "explanation": "Qamrov tekshirilmagan talab xatolarini yo‘qotmaydi."
+      },
+      {
+        "q": "Joriy etishda nega orqaga qaytish rejasi kerak?",
+        "options": [
+          "Faqat ekran bezagi uchun",
+          "Fayl nomini uzaytirish uchun",
+          "Barcha tarixni yashirish uchun",
+          "Nosoz relizdan avvalgi holatga qaytish uchun"
+        ],
+        "correct": 3,
+        "explanation": "Xizmat uzilishini kamaytirish uchun tayyorlanadi."
+      }
+    ],
+    "glossary": [
+      [
+        "Qora quti sinovi",
+        "Ichki kodsiz kirish va chiqishni tekshirish"
+      ],
+      [
+        "Oq quti sinovi",
+        "Ichki mantiq va kod yo‘llarini tekshirish"
+      ],
+      [
+        "Alfa sinov",
+        "Ishlab chiquvchi nazoratidagi sinov"
+      ],
+      [
+        "Beta sinov",
+        "Cheklangan tashqi foydalanuvchilar sinovi"
+      ],
+      [
+        "Regressiya sinovi",
+        "O‘zgarishdan keyin eski funksiyalarni tekshirish"
+      ]
+    ]
+  },
+  "55": {
+    "sections": [
+      {
+        "title": "Vektorli va rastrli tasvir",
+        "text": "Vektorli tasvir chiziq, egri va shakllarning geometrik tavsifidan tuziladi; logotip va diagrammaga mos. Kattalashtirganda shakl qayta hisoblanadi. Rastrli tasvir piksel to‘ridan tashkil topadi va fotosuratga mos keladi. Uni haddan tashqari kattalashtirish piksellanishga olib keladi. Tasvir turini vazifaga qarab tanlash, “vektor doim yaxshi” deyishdan to‘g‘riroq."
+      },
+      {
+        "title": "Tanlash uskunalari",
+        "text": "Tanlash vositasi butun obyekt, tugun yoki rastrdagi hududni ajratishi mumkin. To‘rtburchak tanlash, erkin kontur va rangga o‘xshash hududni tanlash turli holatda ishlatiladi. Tanlov chegarasi ko‘rinishi tahrir butun tasvirga ta’sir qiladi degani emas. Avval qaysi qatlam yoki obyekt faol ekanini tekshirish noto‘g‘ri qismni o‘zgartirishdan saqlaydi."
+      },
+      {
+        "title": "Guruhlash va biriktirish",
+        "text": "Guruhlash bir nechta obyektni birga ko‘chirish yoki o‘lchashga imkon beradi, lekin guruhdan chiqarilganda qismlar alohida qoladi. Birlashtirishning union kabi geometrik amallari esa shakllarning chegarasini yangi konturga aylantirishi mumkin. Turli dasturda buyruq nomlari farqlanadi. Amalni bajarishdan oldin nusxa saqlash va kutilgan natijani tekshirish kerak."
+      },
+      {
+        "title": "Aylantirish va joylashtirish",
+        "text": "Aylantirishda burchak va tayanch nuqta muhim: markaz atrofida90 daraja aylantirish boshqa nuqta atrofidagidan farq qiladi. Tekislash vositasi obyektlarni chap, o‘ng yoki markaz bo‘yicha moslaydi; taqsimlash ular orasidagi masofani tartiblaydi. Ko‘z bilan taxmin qilish o‘rniga sonli qiymat yoki yo‘naltiruvchi chiziq aniqlikni oshiradi."
+      },
+      {
+        "title": "Transformatsiya uskunalari",
+        "text": "Ko‘chirish, masshtablash, aylantirish, akslantirish va qiyshaytirish transformatsiyalardir. Nisbatni saqlash rasmning cho‘zilib ketishini kamaytiradi. Gorizontal akslantirish matnni ham teskariga aylantirishi mumkin. Ketma-ket transformatsiya tartibi natijaga ta’sir qiladi. Rastrni takror kichraytirib-kattalashtirish sifatni yo‘qotishi mumkin, shuning uchun asl nusxa saqlanadi."
+      },
+      {
+        "title": "Qatlam va eksport",
+        "text": "Obyektlar old-orqa tartibda joylashadi; bir shakl boshqasini yopishi mumkin. Qatlamlar bilan ishlash murakkab dizaynni tartiblaydi. Tahrirlanadigan loyiha va yakuniy eksport alohida saqlanadi: SVG vektor uchun, PNG esa shaffof rastrli chiqish uchun misol bo‘la oladi. Format tanlashda qabul qiluvchi dastur mosligi va faylning amalda ochilishi tekshiriladi."
+      }
+    ],
+    "example": {
+      "task": "Uchta geometrik shakldan texnikum to‘garagi uchun sodda belgi yarating.",
+      "steps": [
+        "Doira, to‘rtburchak va uchburchakni joylashtiring.",
+        "Uchburchakni90 darajaga aylantiring.",
+        "Obyektlarni markaz bo‘yicha tekislang.",
+        "Guruhlab birga ko‘chiring, so‘ng guruhdan chiqaring.",
+        "Nusxada geometrik birlashtirishni sinab farqini yozing.",
+        "Tahrirlanadigan loyiha va PNG eksportni alohida saqlang."
+      ],
+      "expected": "Belgi nisbatlari saqlangan, aylantirish aniq, guruhlash va birlashtirish farqi izohlangan. Eksport qayta ochilib tekshirilgan.",
+      "pitfall": "Guruhlashni geometrik birlashtirish bilan, loyiha faylini esa yakuniy PNG bilan tenglashtirmang."
+    },
+    "qa": [
+      [
+        "Vektorli tasvir nimadan tashkil topadi?",
+        "Geometrik obyektlar tavsifidan. Chiziq va shakllar qayta hisoblanadi."
+      ],
+      [
+        "Rastrli tasvirning asosiy elementi nima?",
+        "Piksel. Rastr piksel to‘ridir."
+      ],
+      [
+        "Fotosurat uchun odatda qaysi tur mos?",
+        "Rastrli tasvir. Fotosuratdagi rang tafsiloti piksel bilan beriladi."
+      ],
+      [
+        "Guruhlash nimaga imkon beradi?",
+        "Obyektlarni birga boshqarishga. Qismlar guruhdan chiqarilganda alohida qoladi."
+      ],
+      [
+        "Geometrik union amali nimani o‘zgartirishi mumkin?",
+        "Shakllarning umumiy konturini. Bu guruhlashdan farq qiladi."
+      ],
+      [
+        "Aylantirish natijasiga qaysi omil ta’sir qiladi?",
+        "Burchak va tayanch nuqta. Tayanch nuqta aylanish markazini belgilaydi."
+      ],
+      [
+        "Nisbatni saqlab masshtablash nima uchun kerak?",
+        "Tasvir cho‘zilib ketmasligi uchun. En va bo‘y bir xil nisbatda o‘zgaradi."
+      ],
+      [
+        "Obyektlarni teng oraliqda qo‘yish qaysi amal?",
+        "Taqsimlash. Tekislash chegaralarini, taqsimlash masofalarni tartiblaydi."
+      ],
+      [
+        "Shaffof rastrli eksportga qaysi format mos?",
+        "PNG. PNG shaffoflikni qo‘llab-quvvatlaydi."
+      ],
+      [
+        "Nega tahrirlanadigan loyiha saqlanadi?",
+        "Obyekt va qatlamlarni keyin o‘zgartirish uchun. Eksportda ayrim tahrir imkoniyatlari yo‘qolishi mumkin."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Vektorli tasvir nimadan tashkil topadi?",
+        "options": [
+          "Faqat piksel to‘ridan",
+          "Faqat tovush namunasidan",
+          "Faqat ma’lumot satridan",
+          "Geometrik obyektlar tavsifidan"
+        ],
+        "correct": 3,
+        "explanation": "Chiziq va shakllar qayta hisoblanadi."
+      },
+      {
+        "q": "Rastrli tasvirning asosiy elementi nima?",
+        "options": [
+          "Piksel",
+          "Paket",
+          "Jarayon",
+          "Jadval kaliti"
+        ],
+        "correct": 0,
+        "explanation": "Rastr piksel to‘ridir."
+      },
+      {
+        "q": "Fotosurat uchun odatda qaysi tur mos?",
+        "options": [
+          "Faqat Gantt",
+          "Rastrli tasvir",
+          "Faqat DFD",
+          "Faqat ma’lumot lug‘ati"
+        ],
+        "correct": 1,
+        "explanation": "Fotosuratdagi rang tafsiloti piksel bilan beriladi."
+      },
+      {
+        "q": "Guruhlash nimaga imkon beradi?",
+        "options": [
+          "Barcha konturlarni albatta yo‘qotishga",
+          "Tasvirni faqat ovozga aylantirishga",
+          "Obyektlarni birga boshqarishga",
+          "Har doim eksportni o‘chirishga"
+        ],
+        "correct": 2,
+        "explanation": "Qismlar guruhdan chiqarilganda alohida qoladi."
+      },
+      {
+        "q": "Geometrik union amali nimani o‘zgartirishi mumkin?",
+        "options": [
+          "Faqat fayl nomini",
+          "Faqat monitor yorqinligini",
+          "Faqat parol uzunligini",
+          "Shakllarning umumiy konturini"
+        ],
+        "correct": 3,
+        "explanation": "Bu guruhlashdan farq qiladi."
+      },
+      {
+        "q": "Aylantirish natijasiga qaysi omil ta’sir qiladi?",
+        "options": [
+          "Burchak va tayanch nuqta",
+          "Faqat fayl nomi",
+          "Faqat internet tezligi",
+          "Faqat printer brendi"
+        ],
+        "correct": 0,
+        "explanation": "Tayanch nuqta aylanish markazini belgilaydi."
+      },
+      {
+        "q": "Nisbatni saqlab masshtablash nima uchun kerak?",
+        "options": [
+          "Parolni yashirish uchun",
+          "Tasvir cho‘zilib ketmasligi uchun",
+          "Internetni uzish uchun",
+          "Faylni virusga aylantirish uchun"
+        ],
+        "correct": 1,
+        "explanation": "En va bo‘y bir xil nisbatda o‘zgaradi."
+      },
+      {
+        "q": "Obyektlarni teng oraliqda qo‘yish qaysi amal?",
+        "options": [
+          "Shifrlash",
+          "Kodlash",
+          "Taqsimlash",
+          "Klasterlash"
+        ],
+        "correct": 2,
+        "explanation": "Tekislash chegaralarini, taqsimlash masofalarni tartiblaydi."
+      },
+      {
+        "q": "Shaffof rastrli eksportga qaysi format mos?",
+        "options": [
+          "TXT",
+          "CSV",
+          "MP3",
+          "PNG"
+        ],
+        "correct": 3,
+        "explanation": "PNG shaffoflikni qo‘llab-quvvatlaydi."
+      },
+      {
+        "q": "Nega tahrirlanadigan loyiha saqlanadi?",
+        "options": [
+          "Obyekt va qatlamlarni keyin o‘zgartirish uchun",
+          "Faqat faylni kattalashtirish uchun",
+          "Faqat internetni band qilish uchun",
+          "Faqat rasmni yashirish uchun"
+        ],
+        "correct": 0,
+        "explanation": "Eksportda ayrim tahrir imkoniyatlari yo‘qolishi mumkin."
+      }
+    ],
+    "glossary": [
+      [
+        "Vektor",
+        "Geometrik obyektli tasvir"
+      ],
+      [
+        "Rastr",
+        "Piksel to‘rli tasvir"
+      ],
+      [
+        "Guruhlash",
+        "Obyektlarni birga boshqarish uchun bog‘lash"
+      ],
+      [
+        "Transformatsiya",
+        "Geometrik o‘zgartirish amali"
+      ],
+      [
+        "Qatlam",
+        "Tasvir qismlarini alohida boshqarish sathi"
+      ]
+    ]
+  },
+  "56": {
+    "sections": [
+      {
+        "title": "Saqlash va eksport farqi",
+        "text": "Loyiha formatida qatlam, matn, effekt va animatsiya sozlamalari saqlanishi mumkin. Yakuniy eksport esa ko‘rish yoki tarqatish uchun tanlanadi. JPEG fotosuratlarda yo‘qotishli siqish, PNG esa yo‘qotishsiz siqish va shaffoflik uchun qo‘llanadi. Bir formatdagi faylni boshqa kengaytma bilan qayta nomlash haqiqiy konvertatsiya emas."
+      },
+      {
+        "title": "Hajmni kamaytirish",
+        "text": "Piksel o‘lchamini kamaytirish, keraksiz hududni kesish va mos siqish hajmni kamaytiradi. JPEG sifatini pasaytirish tafsilot va artefaktlarga ta’sir qiladi. Bir necha marta yo‘qotishli saqlash sifatni yomonlashtirishi mumkin. Avval asl nusxa saqlanib, tarqatiladigan alohida nusxa tayyorlanadi. Fayl hajmi bilan tasvirdagi piksel o‘lchami bir xil tushuncha emas."
+      },
+      {
+        "title": "Matn maydoni va o‘qilish",
+        "text": "Matn vositasida maydon yaratilib, matn, shrift, o‘lcham, tekislash va satr oralig‘i tanlanadi. Kontrast va fon matnni o‘qishga ta’sir qiladi. Matn tahrirlanadigan qatlamda qolsa keyin tuzatish oson. Rastrlashtirilgach harflar pikselga aylanib, oddiy matn sifatida tahrirlash yo‘qolishi mumkin. Imlo eksportdan oldin tekshiriladi."
+      },
+      {
+        "title": "Qizil ko‘zni tuzatish",
+        "text": "Flesh yorug‘ligi ko‘zdan qaytganda fotosuratda qizil ko‘z paydo bo‘lishi mumkin. Tuzatish vositasi ko‘z hududidagi rangni o‘zgartiradi. Butun yuzni yoki ikkala ko‘zni noto‘g‘ri belgilash tabiiy bo‘lmagan natija beradi. Kattalashtirib kichik hudud tanlanadi, kuchi ehtiyotkor sozlanadi va oldin-keyin ko‘rinish taqqoslanadi. Rasm egasining roziligi hisobga olinadi."
+      },
+      {
+        "title": "Animatsiya asoslari",
+        "text": "Animatsiya kadrlar yoki vaqt bo‘yicha o‘zgaradigan xususiyatlardan tuziladi. Kalit kadr obyektning ma’lum paytdagi holatini belgilaydi, oraliq harakat esa dastur tomonidan hisoblanishi mumkin. Davomiylik, takrorlash va kadr tezligi taassurotga ta’sir qiladi. Matn o‘qishga yetarli vaqt beriladi, bezovta qiluvchi tez chaqnash va ortiqcha effektlardan qochiladi."
+      },
+      {
+        "title": "Niqoblovchi qatlam",
+        "text": "Maska qatlamning qaysi qismi ko‘rinishini boshqaradi. Odatda oq ochadi, qora yashiradi, kulrang qisman ko‘rsatadi; aniq tartib dasturga qarab tekshiriladi. Maska bilan yashirish asl pikselni o‘chirishdan farq qiladi, shuning uchun qayta tuzatish osonroq. Maska tanlanganmi yoki tasvir qatlamimi tekshiriladi; noto‘g‘ri faol qismda chizish asl rasmni o‘zgartirishi mumkin."
+      }
+    ],
+    "example": {
+      "task": "Fotosuratdan matnli e’lon tayyorlang va qatlamni o‘chirmasdan maska orqali bir chetini yashiring.",
+      "steps": [
+        "Asl suratning nusxasini yarating.",
+        "Tarqatish uchun mos piksel o‘lchamini tanlang.",
+        "O‘qiladigan matn maydoni qo‘shing.",
+        "Maska orqali keraksiz chetni yashiring.",
+        "Matn kirib keladigan ikki kalit kadrni rejalashtiring.",
+        "Loyiha va eksportni alohida ochib, hajm va sifatni taqqoslang."
+      ],
+      "expected": "Tahrirlanadigan qatlamlar saqlangan loyiha, hajmi kamaygan lekin o‘qiladigan eksport va animatsiyaning boshlanish-yakun holatlari.",
+      "pitfall": "Rasmni qayta nomlash konvertatsiya emas; maskada yashirishni pikselni butunlay o‘chirish bilan adashtirmang."
+    },
+    "qa": [
+      [
+        "Fayl kengaytmasini o‘zgartirishning o‘zi konvertatsiyami?",
+        "Yo‘q. Ma’lumotni tegishli kodlovchi orqali eksport qilish kerak."
+      ],
+      [
+        "JPEG siqishi odatda qanday?",
+        "Yo‘qotishli. Sifat va hajm o‘rtasida muvozanat mavjud."
+      ],
+      [
+        "Piksel o‘lchamini kamaytirish nimaga yordam beradi?",
+        "Fayl hajmini kamaytirishga. Saqlanadigan tasvir nuqtalari kamayadi."
+      ],
+      [
+        "Tahrirlanadigan matn qatlamining foydasi nima?",
+        "Matnni keyin oson tuzatish. Rastrlashtirish bu imkoniyatni cheklashi mumkin."
+      ],
+      [
+        "Qizil ko‘zni tuzatishda nima tanlanadi?",
+        "Ko‘zning tegishli kichik hududi. Aniq tanlov tabiiyroq natija beradi."
+      ],
+      [
+        "Kalit kadr nima?",
+        "Obyektning ma’lum vaqtdagi holati. Oraliq holatlar dasturda hisoblanishi mumkin."
+      ],
+      [
+        "Maska nimani boshqaradi?",
+        "Qatlam qismlarining ko‘rinishini. Asl piksel saqlanib qolishi mumkin."
+      ],
+      [
+        "Odatdagi maskada qora rang nima qiladi?",
+        "Hududni yashiradi. Dasturdagi aniq tartib tekshiriladi."
+      ],
+      [
+        "Nega asl nusxa saqlanadi?",
+        "Sifat va tahrir imkoniyatini qaytarish uchun. Yo‘qotishli eksport asl tafsilotni kamaytirishi mumkin."
+      ],
+      [
+        "Animatsiyadagi matn uchun nima muhim?",
+        "O‘qishga yetarli vaqt. Effekt axborotni tushunishga xizmat qiladi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Fayl kengaytmasini o‘zgartirishning o‘zi konvertatsiyami?",
+        "options": [
+          "Yo‘q",
+          "Ha, har doim",
+          "Faqat JPGda ha",
+          "Faqat TXTda ha"
+        ],
+        "correct": 0,
+        "explanation": "Ma’lumotni tegishli kodlovchi orqali eksport qilish kerak."
+      },
+      {
+        "q": "JPEG siqishi odatda qanday?",
+        "options": [
+          "Har doim sifatsizlanmaydigan",
+          "Yo‘qotishli",
+          "Faqat vektorli",
+          "Faqat matnli"
+        ],
+        "correct": 1,
+        "explanation": "Sifat va hajm o‘rtasida muvozanat mavjud."
+      },
+      {
+        "q": "Piksel o‘lchamini kamaytirish nimaga yordam beradi?",
+        "options": [
+          "Parolni almashtirishga",
+          "Tarmoq qurishga",
+          "Fayl hajmini kamaytirishga",
+          "Baza kaliti yaratishga"
+        ],
+        "correct": 2,
+        "explanation": "Saqlanadigan tasvir nuqtalari kamayadi."
+      },
+      {
+        "q": "Tahrirlanadigan matn qatlamining foydasi nima?",
+        "options": [
+          "Faylni doim buzish",
+          "Rasmni faqat ovoz qilish",
+          "Barcha shriftni yashirish",
+          "Matnni keyin oson tuzatish"
+        ],
+        "correct": 3,
+        "explanation": "Rastrlashtirish bu imkoniyatni cheklashi mumkin."
+      },
+      {
+        "q": "Qizil ko‘zni tuzatishda nima tanlanadi?",
+        "options": [
+          "Ko‘zning tegishli kichik hududi",
+          "Butun ekran",
+          "Butun fayl tizimi",
+          "Barcha qatlamlar sababsiz"
+        ],
+        "correct": 0,
+        "explanation": "Aniq tanlov tabiiyroq natija beradi."
+      },
+      {
+        "q": "Kalit kadr nima?",
+        "options": [
+          "Fayl paroli",
+          "Obyektning ma’lum vaqtdagi holati",
+          "Tasvirning muallifi",
+          "Tarmoq manzili"
+        ],
+        "correct": 1,
+        "explanation": "Oraliq holatlar dasturda hisoblanishi mumkin."
+      },
+      {
+        "q": "Maska nimani boshqaradi?",
+        "options": [
+          "Faqat internet tezligini",
+          "Faqat ovoz balandligini",
+          "Qatlam qismlarining ko‘rinishini",
+          "Faqat fayl nomini"
+        ],
+        "correct": 2,
+        "explanation": "Asl piksel saqlanib qolishi mumkin."
+      },
+      {
+        "q": "Odatdagi maskada qora rang nima qiladi?",
+        "options": [
+          "Har doim rangli matn yaratadi",
+          "Faylni ochadi",
+          "Internetni ulaydi",
+          "Hududni yashiradi"
+        ],
+        "correct": 3,
+        "explanation": "Dasturdagi aniq tartib tekshiriladi."
+      },
+      {
+        "q": "Nega asl nusxa saqlanadi?",
+        "options": [
+          "Sifat va tahrir imkoniyatini qaytarish uchun",
+          "Faqat papkani to‘ldirish uchun",
+          "Faqat fayl nomini ko‘paytirish uchun",
+          "Faqat printer uchun"
+        ],
+        "correct": 0,
+        "explanation": "Yo‘qotishli eksport asl tafsilotni kamaytirishi mumkin."
+      },
+      {
+        "q": "Animatsiyadagi matn uchun nima muhim?",
+        "options": [
+          "Faqat eng tez harakat",
+          "O‘qishga yetarli vaqt",
+          "Har doim kuchli chaqnash",
+          "Matnni mutlaqo yashirish"
+        ],
+        "correct": 1,
+        "explanation": "Effekt axborotni tushunishga xizmat qiladi."
+      }
+    ],
+    "glossary": [
+      [
+        "Eksport",
+        "Natijani tarqatish formatiga chiqarish"
+      ],
+      [
+        "Yo‘qotishli siqish",
+        "Hajm uchun ayrim tafsilotni olib tashlash"
+      ],
+      [
+        "Matn maydoni",
+        "Matn joylashadigan hudud"
+      ],
+      [
+        "Kalit kadr",
+        "Animatsiyadagi ma’lum paytdagi holat"
+      ],
+      [
+        "Maska",
+        "Qatlam qismlarining ko‘rinishini boshqaruvchi vosita"
+      ]
+    ]
+  },
+  "57": {
+    "sections": [
+      {
+        "title": "Xatlarni birlashtirish mohiyati",
+        "text": "Mail merge bitta asosiy hujjatni ma’lumot manbasidagi ko‘plab yozuvlar bilan birlashtirib, shaxsiylashtirilgan xat yoki hujjatlar yaratadi. Masalan, 20 nafar soxta o‘quvchiga nomi va guruhi mos taklifnoma tayyorlanadi. “Elektron xatlarni birlashtirish” bu kontekstda xabarlarni bitta papkaga yig‘ish yoki sun’iy intellektga prompt yozish emas."
+      },
+      {
+        "title": "Master hujjat",
+        "text": "Asosiy yoki master hujjatda hamma oluvchiga bir xil bo‘lgan matn, sarlavha va dizayn bo‘ladi. O‘zgaruvchi joylarga birlashtirish maydonlari qo‘yiladi: masalan, «Ism», «Guruh», «Sana». Maydon nomi manba jadvalidagi ustun bilan mos bo‘ladi. Bitta odamning ma’lumotini qo‘lda barcha xatlarga ko‘chirib chiqish mail merge afzalligini yo‘qqa chiqaradi."
+      },
+      {
+        "title": "Manba faylni tayyorlash",
+        "text": "Elektron jadvalda birinchi qatorda ustun nomlari, keyingi har qatorda bitta oluvchi yozuvi turadi. Har ustun bir turdagi ma’lumotni saqlaydi. Bo‘sh sarlavha, birlashtirilgan katak va o‘rtadagi bo‘sh satr muammo tug‘dirishi mumkin. Sana, pochta manzili va boshidagi nolni saqlashi kerak bo‘lgan kodlar oldindan tekshiriladi. Faqat zarur va ruxsatli ma’lumot ishlatiladi."
+      },
+      {
+        "title": "Prompt matni va o‘zgaruvchi maydon",
+        "text": "Rejadagi “prompt matni” atamasi bu darsda foydalanuvchiga nima kiritishni ko‘rsatuvchi so‘rov yoki o‘rinbosar matn sifatida tushuntiriladi. Masalan, ASK/FILLIN turidagi maydonlar ayrim matn protsessorlarida qiymat so‘rashi mumkin. Birlashtirish maydoni esa manbadan olinadi. Oddiy “Ism kiriting” yozuvi avtomatik ravishda jadval maydoniga aylanmaydi; maydon mos buyruq bilan qo‘yiladi."
+      },
+      {
+        "title": "Yozuvlarni tanlash va shartlar",
+        "text": "Qabul qiluvchilar ro‘yxati guruh yoki boshqa mezon bilan filtrlanadi, keraksiz yozuv belgisi olib tashlanadi. Masalan, Guruh=2-IT bo‘lganlarga hujjat yaratiladi. Shartli maydon ayrim holatda boshqa iborani chiqarishi mumkin. Filtrdan keyin nechta yozuv qolganini hisoblash noto‘g‘ri odamga hujjat tayyorlashning oldini oladi."
+      },
+      {
+        "title": "Ko‘rib chiqish va yakunlash",
+        "text": "Preview orqali kamida birinchi, oxirgi va ma’lumoti uzun yozuvlar tekshiriladi. Maydonlar joyi, sana formati va matn sig‘ishi ko‘riladi. Yakuniy hujjatga birlashtirish, chop etish yoki elektron yuborish alohida tanlovdir. Darsda hech kimga haqiqiy xat yuborilmaydi: faqat faylga birlashtiriladi. Asosiy hujjat va manba keyingi foydalanish uchun alohida saqlanadi."
+      }
+    ],
+    "example": {
+      "task": "Uchta soxta oluvchi uchun taklifnomani mail merge bilan faylga yarating.",
+      "steps": [
+        "Manbada Ism, Guruh va Sana ustunlarini yarating.",
+        "Ikki yozuvni 2-IT, bittasini 3-IT deb belgilang.",
+        "Master hujjatga umumiy taklif matnini yozing.",
+        "Ism va Guruh joyiga birlashtirish maydonini qo‘ying.",
+        "Faqat 2-IT yozuvlarini filtrlang.",
+        "Preview dan so‘ng ikki hujjatni yangi faylga birlashtiring."
+      ],
+      "expected": "Ikki taklifnomada ism-familiya to‘g‘ri almashadi, 3-IT yozuvi chiqmaydi. Hech qanday real elektron yuborish bajarilmaydi.",
+      "pitfall": "Manba maydonini oddiy matn sifatida yozish avtomatik almashtirishni bermaydi; Insert Merge Field kabi mos buyruq kerak."
+    },
+    "qa": [
+      [
+        "Mail merge nima qiladi?",
+        "Asosiy hujjatni ko‘p yozuv bilan shaxsiylashtiradi. Umumiy matn va o‘zgaruvchi qiymatlar birlashtiriladi."
+      ],
+      [
+        "Master hujjatda nima bo‘ladi?",
+        "Umumiy matn va birlashtirish maydonlari. Oluvchiga xos ma’lumot manbadan keladi."
+      ],
+      [
+        "Manba jadvalida bitta satr odatda nimani bildiradi?",
+        "Bitta oluvchi yozuvini. Ustunlar maydonlar, satrlar yozuvlardir."
+      ],
+      [
+        "Birlashtirish maydoni nimaga mos bo‘lishi kerak?",
+        "Manba ustunining nomiga. Maydon qiymati tegishli ustundan olinadi."
+      ],
+      [
+        "Guruh=2-IT filtri nima qiladi?",
+        "Mos yozuvlarni tanlaydi. Tanlov manbani buzmasdan oluvchilarni cheklaydi."
+      ],
+      [
+        "“Ism kiriting”ni oddiy yozish avtomatik merge maydonimi?",
+        "Yo‘q. Maydon tegishli buyruq orqali qo‘yiladi."
+      ],
+      [
+        "Preview nima uchun kerak?",
+        "Yakunlashdan oldin almashgan qiymatni tekshirish uchun. Format va noto‘g‘ri oluvchini aniqlash mumkin."
+      ],
+      [
+        "Darsda xavfsiz yakunlash qaysi?",
+        "Soxta ma’lumotdan yangi faylga birlashtirish. Mashq yuborishni talab qilmaydi."
+      ],
+      [
+        "Nega uzun ismli yozuv ham tekshiriladi?",
+        "Matn joyga sig‘ishini bilish uchun. Turli uzunlik formatga ta’sir qiladi."
+      ],
+      [
+        "Birlashtirishdan keyin3-IT yozuvi chiqsa nima tekshiriladi?",
+        "Qabul qiluvchilar filtri va tanlovi. Tanlov mezoni kutilgan ro‘yxatga mos bo‘lishi kerak."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Mail merge nima qiladi?",
+        "options": [
+          "Faqat xatlarni arxivlaydi",
+          "Asosiy hujjatni ko‘p yozuv bilan shaxsiylashtiradi",
+          "Faqat parolni almashtiradi",
+          "Faqat video kesadi"
+        ],
+        "correct": 1,
+        "explanation": "Umumiy matn va o‘zgaruvchi qiymatlar birlashtiriladi."
+      },
+      {
+        "q": "Master hujjatda nima bo‘ladi?",
+        "options": [
+          "Faqat barcha parollar",
+          "Faqat tarmoq drayveri",
+          "Umumiy matn va birlashtirish maydonlari",
+          "Faqat audio to‘lqin"
+        ],
+        "correct": 2,
+        "explanation": "Oluvchiga xos ma’lumot manbadan keladi."
+      },
+      {
+        "q": "Manba jadvalida bitta satr odatda nimani bildiradi?",
+        "options": [
+          "Barcha fayllar yig‘indisini",
+          "Bitta pikselni",
+          "Bitta tarmoq paketini",
+          "Bitta oluvchi yozuvini"
+        ],
+        "correct": 3,
+        "explanation": "Ustunlar maydonlar, satrlar yozuvlardir."
+      },
+      {
+        "q": "Birlashtirish maydoni nimaga mos bo‘lishi kerak?",
+        "options": [
+          "Manba ustunining nomiga",
+          "Monitor diagonali uzunligiga",
+          "Fayl rangiga",
+          "Ovoz chastotasiga"
+        ],
+        "correct": 0,
+        "explanation": "Maydon qiymati tegishli ustundan olinadi."
+      },
+      {
+        "q": "Guruh=2-IT filtri nima qiladi?",
+        "options": [
+          "Barcha yozuvni o‘chiradi",
+          "Mos yozuvlarni tanlaydi",
+          "Har bir ismni2-ITqiladi",
+          "Faylni shifrlaydi"
+        ],
+        "correct": 1,
+        "explanation": "Tanlov manbani buzmasdan oluvchilarni cheklaydi."
+      },
+      {
+        "q": "“Ism kiriting”ni oddiy yozish avtomatik merge maydonimi?",
+        "options": [
+          "Ha, istisnosiz",
+          "Faqat qizil yozilsa",
+          "Yo‘q",
+          "Faqat katta harfda bo‘lsa"
+        ],
+        "correct": 2,
+        "explanation": "Maydon tegishli buyruq orqali qo‘yiladi."
+      },
+      {
+        "q": "Preview nima uchun kerak?",
+        "options": [
+          "Faqat barcha xatni darhol yuborish uchun",
+          "Faqat parolni ko‘rsatish uchun",
+          "Faqat serverni o‘chirish uchun",
+          "Yakunlashdan oldin almashgan qiymatni tekshirish uchun"
+        ],
+        "correct": 3,
+        "explanation": "Format va noto‘g‘ri oluvchini aniqlash mumkin."
+      },
+      {
+        "q": "Darsda xavfsiz yakunlash qaysi?",
+        "options": [
+          "Soxta ma’lumotdan yangi faylga birlashtirish",
+          "Haqiqiy odamlarga ruxsatsiz yuborish",
+          "Begona ro‘yxatni tarqatish",
+          "Maxfiy hujjatni ochiq joylash"
+        ],
+        "correct": 0,
+        "explanation": "Mashq yuborishni talab qilmaydi."
+      },
+      {
+        "q": "Nega uzun ismli yozuv ham tekshiriladi?",
+        "options": [
+          "Faqat faylni kattalashtirish uchun",
+          "Matn joyga sig‘ishini bilish uchun",
+          "Faqat xat sonini oshirish uchun",
+          "Faqat internetni band qilish uchun"
+        ],
+        "correct": 1,
+        "explanation": "Turli uzunlik formatga ta’sir qiladi."
+      },
+      {
+        "q": "Birlashtirishdan keyin3-IT yozuvi chiqsa nima tekshiriladi?",
+        "options": [
+          "Faqat ekran yorqinligi",
+          "Faqat klaviatura rangi",
+          "Qabul qiluvchilar filtri va tanlovi",
+          "Faqat printer markasi"
+        ],
+        "correct": 2,
+        "explanation": "Tanlov mezoni kutilgan ro‘yxatga mos bo‘lishi kerak."
+      }
+    ],
+    "glossary": [
+      [
+        "Mail merge",
+        "Hujjatni yozuvlar bilan shaxsiylashtirish"
+      ],
+      [
+        "Master hujjat",
+        "Umumiy matn va o‘zgaruvchi maydonli hujjat"
+      ],
+      [
+        "Ma’lumot manbasi",
+        "Oluvchi yozuvlari jadvali"
+      ],
+      [
+        "Birlashtirish maydoni",
+        "Manba ustunidan qiymat oluvchi element"
+      ],
+      [
+        "Preview",
+        "Yakuniy natijani oldindan ko‘rib tekshirish"
+      ]
+    ]
+  },
+  "58": {
+    "sections": [
+      {
+        "title": "HTML va JavaScript vazifalari",
+        "text": "HTML sahifaning mazmuni va tuzilishini belgilaydi: h1 — sarlavha, p — paragraf, button — tugma bo‘lishi mumkin. JavaScript esa qiymat hisoblash va hodisaga javob berish kabi xatti-harakatni qo‘shadi. CSS dizayn uchun xizmat qiladi, ammo bu mashqda yangi CSS bilimi talab etilmaydi. Dastlab oddiy element va JavaScript orasidagi bog‘lanish tushuntiriladi."
+      },
+      {
+        "title": "Ma’lumotni chiqarish",
+        "text": "console.log natijani ishlab chiquvchi konsoliga yozadi; foydalanuvchi sahifasiga chiqarish uchun elementning textContent xususiyati ishlatilishi mumkin. Masalan, document.getElementById(\"natija\").textContent=\"Salom\". Element id si aynan mos bo‘lishi kerak. Begona matnni innerHTML orqali qo‘yish xavf tug‘dirishi mumkin; oddiy matn uchun textContent tanlanadi."
+      },
+      {
+        "title": "O‘zgaruvchilar va turlar",
+        "text": "let o‘zgarishi mumkin bo‘lgan bog‘lanish, const esa qayta tayinlanmaydigan bog‘lanish yaratadi. Son, satr, mantiqiy qiymat, null va undefined asosiy tushunchalardir. const obyektning ichki qiymatlarini mutlaqo muzlatmaydi. \"12\" satr bilan 12 soni bir xil tur emas. Ism qiymatini satrda, hisob uchun sonni esa son turida saqlash natijani tushunarli qiladi."
+      },
+      {
+        "title": "Operatorlar va tur aylantirish",
+        "text": "+,−,*,/,%arifmetik amallar; === qat’iy tenglikni tekshiradi. + operatori satr qatnashganda birlashtirishi mumkin: \"2\"+3 natijasi \"23\". Number(\"2\")+3 natijasi 5. Kiritilgan qiymat son emasligi Number.isFinite orqali aniqlanishi mumkin. Qavslar hisob tartibini aniq qiladi; == ning yashirin aylantirishlari boshlovchi uchun chalkash bo‘lishi mumkin."
+      },
+      {
+        "title": "Satrlar bilan ishlash",
+        "text": "Satr qo‘shtirnoq yoki teskari qo‘shtirnoq bilan yoziladi. length uzunlikni, trim chet bo‘shliqlarni olib tashlashni, toUpperCase katta harfga o‘tishni bajaradi. slice qismni oladi; includes qism mavjudligini tekshiradi. Bu metodlar yangi satr beradi, asl satr qiymatini joyida o‘zgartirmaydi. Indekslar noldan boshlanadi; murakkab Unicode belgilari ko‘rinish va uzunlikda farq qilishi mumkin."
+      },
+      {
+        "title": "Birinchi ishlaydigan namuna",
+        "text": "Namuna: const ism=\"  Ali  \"; const son=Number(\"3\"); const xabar=ism.trim()+\" uchun \"+(son*2)+\" ta kitob\"; console.log(xabar); Natija “Ali uchun 6 ta kitob” bo‘ladi. Har qadam avval qiymat turini, so‘ng amalni tekshiradi. Xato bo‘lsa konsoldagi xabar va kod satri o‘qiladi, hammasini birdan o‘zgartirish o‘rniga kichik qadamda tuzatiladi."
+      }
+    ],
+    "example": {
+      "task": "Ism va kitob soni berilgan qiymatlardan tozalangan, hisoblangan xabar yarating.",
+      "steps": [
+        "const ism=\"  Madina  \" va const sonMatn=\"4\"ni yozing.",
+        "trim orqali ismni tozalang.",
+        "Number orqali miqdorni songa aylantiring.",
+        "Bir to‘plamda3 kitob bo‘lsa jami miqdorni hisoblang.",
+        "Konsolga “Madina uchun 12 ta kitob” xabarini chiqaring.",
+        "Alohida HTML p id=\"natija\"elementiga textContent bilan shu matnni yozishni ko‘rsating."
+      ],
+      "expected": "Konsolda va sahifadagi natija elementida bir xil mazmun chiqadi; arifmetik hisob son turida bajariladi. HTMLsiz faqat JavaScript konsolida ishlansa sahifaga yozish qismi alohida ko‘rsatiladi.",
+      "pitfall": "\"4\"+3 ni7 deb kutmang: satr ishtirokida + birlashtirishi mumkin."
+    },
+    "qa": [
+      [
+        "HTMLning asosiy vazifasi nima?",
+        "Sahifa tuzilishi va mazmunini belgilash. JavaScriptxatti-harakat, CSSesa dizayn beradi."
+      ],
+      [
+        "console.log natijani qayerga chiqaradi?",
+        "Ishlab chiquvchi konsoliga. Sahifadagi matn alohida elementga yoziladi."
+      ],
+      [
+        "Oddiy matnni elementga xavfsiz yozish uchun qaysi xususiyat mos?",
+        "textContent. Matn HTML sifatida talqin qilinmaydi."
+      ],
+      [
+        "Qaysi bog‘lanishni qayta tayinlash mumkin?",
+        "let. const bog‘lanishi qayta tayinlanmaydi."
+      ],
+      [
+        "\"2\"+3 natijasi nima?",
+        "\"23\". Satr va +birlashtirishga olib keladi."
+      ],
+      [
+        "Number(\"2\")+3 natijasi nima?",
+        "5. Avval satr songa aylantiriladi."
+      ],
+      [
+        "trim qanday ishlaydi?",
+        "Chet bo‘shliqlarsiz yangi satr beradi. Asl satr joyida o‘zgarmaydi."
+      ],
+      [
+        "=== nima uchun ishlatiladi?",
+        "Qat’iy tenglikni tekshirish uchun. Qiymat va tur mosligi yashirin aylantirishsiz tekshiriladi."
+      ],
+      [
+        "Satr indekslari odatda qayerdan boshlanadi?",
+        "0 dan. Birinchi element indeksi0."
+      ],
+      [
+        "Ism tozalangach miqdor4×3 bo‘lsa jami nechta?",
+        "12. Arifmetika son turida bajariladi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "HTMLning asosiy vazifasi nima?",
+        "options": [
+          "Faqat ma’lumotni shifrlash",
+          "Faqat tarmoq tezligini o‘lchash",
+          "Sahifa tuzilishi va mazmunini belgilash",
+          "Faqat faylni siqish"
+        ],
+        "correct": 2,
+        "explanation": "JavaScriptxatti-harakat, CSSesa dizayn beradi."
+      },
+      {
+        "q": "console.log natijani qayerga chiqaradi?",
+        "options": [
+          "Har doim printerga",
+          "Faqat elektron xatga",
+          "Faqat ma’lumotlar bazasiga",
+          "Ishlab chiquvchi konsoliga"
+        ],
+        "correct": 3,
+        "explanation": "Sahifadagi matn alohida elementga yoziladi."
+      },
+      {
+        "q": "Oddiy matnni elementga xavfsiz yozish uchun qaysi xususiyat mos?",
+        "options": [
+          "textContent",
+          "innerHTMLni tekshirmay ishlatish",
+          "outerHTMLni begona matnga almashtirish",
+          "Parol maydonini ochish"
+        ],
+        "correct": 0,
+        "explanation": "Matn HTML sifatida talqin qilinmaydi."
+      },
+      {
+        "q": "Qaysi bog‘lanishni qayta tayinlash mumkin?",
+        "options": [
+          "const",
+          "let",
+          "HTMLteg nomi",
+          "nullkalit so‘zi"
+        ],
+        "correct": 1,
+        "explanation": "const bog‘lanishi qayta tayinlanmaydi."
+      },
+      {
+        "q": "\"2\"+3 natijasi nima?",
+        "options": [
+          "5",
+          "6",
+          "\"23\"",
+          "NaN"
+        ],
+        "correct": 2,
+        "explanation": "Satr va +birlashtirishga olib keladi."
+      },
+      {
+        "q": "Number(\"2\")+3 natijasi nima?",
+        "options": [
+          "\"23\"",
+          "6",
+          "\"2+3\"",
+          "5"
+        ],
+        "correct": 3,
+        "explanation": "Avval satr songa aylantiriladi."
+      },
+      {
+        "q": "trim qanday ishlaydi?",
+        "options": [
+          "Chet bo‘shliqlarsiz yangi satr beradi",
+          "Barcha ichki harfni o‘chiradi",
+          "Sonni uchga ko‘paytiradi",
+          "Sahifani qayta yuklaydi"
+        ],
+        "correct": 0,
+        "explanation": "Asl satr joyida o‘zgarmaydi."
+      },
+      {
+        "q": "=== nima uchun ishlatiladi?",
+        "options": [
+          "Qiymat tayinlash uchun",
+          "Qat’iy tenglikni tekshirish uchun",
+          "Satrni bo‘lish uchun",
+          "Element yaratish uchun"
+        ],
+        "correct": 1,
+        "explanation": "Qiymat va tur mosligi yashirin aylantirishsiz tekshiriladi."
+      },
+      {
+        "q": "Satr indekslari odatda qayerdan boshlanadi?",
+        "options": [
+          "1 dan",
+          "10 dan",
+          "0 dan",
+          "−10 dan"
+        ],
+        "correct": 2,
+        "explanation": "Birinchi element indeksi0."
+      },
+      {
+        "q": "Ism tozalangach miqdor4×3 bo‘lsa jami nechta?",
+        "options": [
+          "7",
+          "43",
+          "1",
+          "12"
+        ],
+        "correct": 3,
+        "explanation": "Arifmetika son turida bajariladi."
+      }
+    ],
+    "glossary": [
+      [
+        "HTML",
+        "Sahifa tuzilishi va mazmunini belgilovchi til"
+      ],
+      [
+        "JavaScript",
+        "Xatti-harakat va hisoblashni bajaruvchi til"
+      ],
+      [
+        "O‘zgaruvchi",
+        "Qiymatga nom orqali murojaat qilish imkoniyati"
+      ],
+      [
+        "Satr",
+        "Matnli qiymat turi"
+      ],
+      [
+        "textContent",
+        "Elementning oddiy matn mazmuni xususiyati"
+      ]
+    ]
+  },
+  "59": {
+    "sections": [
+      {
+        "title": "Massiv tushunchasi",
+        "text": "Array bir nom ostida tartiblangan qiymatlar to‘plamini saqlaydi. Masalan, const ballar=[72,55,90] uchta elementga ega. ballar[0] birinchi qiymat72 ni beradi, ballar.length esa 3. Oxirgi indeks length−1 bo‘ladi. Mavjud bo‘lmagan indeksdan o‘qish undefined berishi mumkin. Massivni oddiy alohida o‘zgaruvchilarga nisbatan sikl bilan qayta ishlash qulayroq."
+      },
+      {
+        "title": "Massiv amallari",
+        "text": "push oxiriga element qo‘shadi, pop oxirgi elementni oladi; ikkisi ham massivni o‘zgartiradi. const bilan e’lon qilingan massivga element qo‘shish mumkin, chunki bog‘lanish boshqa massivga qayta tayinlanmayapti. slice odatda qismdan yangi massiv qaytaradi. O‘zgaradigan va yangi nusxa beradigan amallarni ajratish kutilmagan natijaning oldini oladi."
+      },
+      {
+        "title": "Shartli buyruqlar",
+        "text": "if shart rost bo‘lsa blokni bajaradi, else muqobil holatni beradi. Masalan, if(ball>=60){...}else{...}. Chegara aynan 60 bo‘lsa >= unga ruxsat beradi, > esa bermaydi. && ikkala shartni, || kamida bittasini tekshiradi. Har bir shartning kutilgan chegaraviy holatlari avval qog‘ozda sinab ko‘riladi."
+      },
+      {
+        "title": "Sikl turlari",
+        "text": "for hisoblagich, davom etish sharti va yangilash orqali ishlaydi. for(let i=0;i<ballar.length;i++) indekslar bo‘ylab yuradi. for...of qiymatlarni ketma-ket beradi. while esa shart rost ekan takrorlaydi; shartning yakunda o‘zgarishi ta’minlanmasa cheksiz sikl yuz beradi. Brauzerda nazoratsiz cheksiz sikl ishlatilmaydi."
+      },
+      {
+        "title": "Yig‘indi va sanash",
+        "text": "Yig‘uvchi qiymat sikldan oldin 0 bilan boshlanadi. Har element qo‘shilib boradi; shartga mos qiymatlar uchun alohida sanoq oshiriladi. ballar=[72,55,90] uchun yig‘indi217, >=60 ball olganlar2 ta. O‘rtacha217/3 bo‘lib, ko‘rsatishda yaxlitlash mumkin. Bo‘sh massivda nolga bo‘lishdan oldin length tekshiriladi."
+      },
+      {
+        "title": "Bosqichma-bosqich tekshirish",
+        "text": "Sikl jadvalida har qadam uchun indeks, joriy qiymat, yig‘indi va sanoq yoziladi. i<=length xatosi ortiqcha undefined qiymatga murojaat qilishi mumkin; to‘g‘ri chegara i<length. Sinovda oddiy, bo‘sh va faqat bitta elementli massiv olinadi. Dastur natijasi qo‘l hisobi bilan solishtiriladi, keyin yangi ma’lumotda qayta sinov qilinadi."
+      }
+    ],
+    "example": {
+      "task": "[72,55,90,60,43] ballaridan jami, o‘rtacha va 60 yoki undan yuqori natijalar sonini toping.",
+      "steps": [
+        "Massivni e’lon qiling.",
+        "let jami=0 va let otgan=0 yarating.",
+        "for...of yoki indeksli for orqali qiymatlarni o‘qing.",
+        "Har qiymatni jamlang; qiymat>=60 bo‘lsa sanoqni oshiring.",
+        "Bo‘sh massiv tekshiruvidan so‘ng o‘rtachani hisoblang.",
+        "Natijani qo‘l hisobiga solishtirib,[] va [60]bilan ham sinang."
+      ],
+      "expected": "Jami 320, o‘rtacha64, o‘tganlar3 ta. [60] uchun jami 60 va sanoq 1; [] uchun bo‘lish o‘rniga “ma’lumot yo‘q” xabari chiqadi.",
+      "pitfall": "Chegarani>60 deb yozsangiz aynan 60 ball olgan o‘quvchi sanalmaydi; shart matniga e’tibor bering."
+    },
+    "qa": [
+      [
+        "const a=[72,55,90]; a[0]qiymati nima?",
+        "72. Indekslash noldan boshlanadi."
+      ],
+      [
+        "Uch elementli massivning oxirgi indeksi nechchi?",
+        "2. Oxirgi indeks length−1."
+      ],
+      [
+        "push nima qiladi?",
+        "Massiv oxiriga element qo‘shadi. Bu massivni o‘zgartiradigan amaldir."
+      ],
+      [
+        "60 ball ham o‘tsin desak qaysi shart to‘g‘ri?",
+        "ball>=60. Tenglik chegarani qamrab oladi."
+      ],
+      [
+        "Qiymatlarni bevosita aylanib chiqishga qaysi sikl mos?",
+        "for...of. U har iteratsiyada element qiymatini beradi."
+      ],
+      [
+        "Indeksli siklda to‘g‘ri chegara qaysi?",
+        "i<a.length. Aks holda mavjud bo‘lmagan elementga murojaat bo‘lishi mumkin."
+      ],
+      [
+        "Yig‘uvchi qiymat odatda nimadan boshlanadi?",
+        "0 dan. Har element ketma-ket qo‘shiladi."
+      ],
+      [
+        "72,55,90,60,43 yig‘indisi qancha?",
+        "320. Barcha beshta qiymat jamlanadi."
+      ],
+      [
+        "Shu massivda>=60 qiymatlar nechta?",
+        "3. 72,90 va 60 mos keladi."
+      ],
+      [
+        "Bo‘sh massiv o‘rtachasini hisoblashdan oldin nima tekshiriladi?",
+        "length0 dan kattaligi. Nolga bo‘lish o‘rniga mazmunli xabar beriladi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "const a=[72,55,90]; a[0]qiymati nima?",
+        "options": [
+          "55",
+          "90",
+          "3",
+          "72"
+        ],
+        "correct": 3,
+        "explanation": "Indekslash noldan boshlanadi."
+      },
+      {
+        "q": "Uch elementli massivning oxirgi indeksi nechchi?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "0"
+        ],
+        "correct": 0,
+        "explanation": "Oxirgi indeks length−1."
+      },
+      {
+        "q": "push nima qiladi?",
+        "options": [
+          "Birinchi elementni har doim o‘chiradi",
+          "Massiv oxiriga element qo‘shadi",
+          "Faqat uzunlikni o‘qiydi",
+          "Massivni satrga majburiy aylantiradi"
+        ],
+        "correct": 1,
+        "explanation": "Bu massivni o‘zgartiradigan amaldir."
+      },
+      {
+        "q": "60 ball ham o‘tsin desak qaysi shart to‘g‘ri?",
+        "options": [
+          "ball>60",
+          "ball<60",
+          "ball>=60",
+          "ball===59"
+        ],
+        "correct": 2,
+        "explanation": "Tenglik chegarani qamrab oladi."
+      },
+      {
+        "q": "Qiymatlarni bevosita aylanib chiqishga qaysi sikl mos?",
+        "options": [
+          "if...else",
+          "const",
+          "return",
+          "for...of"
+        ],
+        "correct": 3,
+        "explanation": "U har iteratsiyada element qiymatini beradi."
+      },
+      {
+        "q": "Indeksli siklda to‘g‘ri chegara qaysi?",
+        "options": [
+          "i<a.length",
+          "i<=a.length",
+          "i>a.length",
+          "i===−1"
+        ],
+        "correct": 0,
+        "explanation": "Aks holda mavjud bo‘lmagan elementga murojaat bo‘lishi mumkin."
+      },
+      {
+        "q": "Yig‘uvchi qiymat odatda nimadan boshlanadi?",
+        "options": [
+          "undefineddan",
+          "0 dan",
+          "Tasodifiy100 dan",
+          "Massiv nomidan"
+        ],
+        "correct": 1,
+        "explanation": "Har element ketma-ket qo‘shiladi."
+      },
+      {
+        "q": "72,55,90,60,43 yig‘indisi qancha?",
+        "options": [
+          "300",
+          "217",
+          "320",
+          "64"
+        ],
+        "correct": 2,
+        "explanation": "Barcha beshta qiymat jamlanadi."
+      },
+      {
+        "q": "Shu massivda>=60 qiymatlar nechta?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "correct": 3,
+        "explanation": "72,90 va 60 mos keladi."
+      },
+      {
+        "q": "Bo‘sh massiv o‘rtachasini hisoblashdan oldin nima tekshiriladi?",
+        "options": [
+          "length0 dan kattaligi",
+          "Faqat nomi katta harfdaligi",
+          "Faqat pushmavjudligi",
+          "Faqat fon rangi"
+        ],
+        "correct": 0,
+        "explanation": "Nolga bo‘lish o‘rniga mazmunli xabar beriladi."
+      }
+    ],
+    "glossary": [
+      [
+        "Array",
+        "Tartiblangan qiymatlar to‘plami"
+      ],
+      [
+        "Indeks",
+        "Elementning noldan boshlanadigan raqami"
+      ],
+      [
+        "Shart",
+        "Rost yoki yolg‘on baholanadigan ifoda"
+      ],
+      [
+        "Sikl",
+        "Kod qismini takror bajarish"
+      ],
+      [
+        "Yig‘uvchi",
+        "Natijalarni jamlab boruvchi o‘zgaruvchi"
+      ]
+    ]
+  },
+  "60": {
+    "sections": [
+      {
+        "title": "Funksiya va qayta foydalanish",
+        "text": "Funksiya ma’lum vazifani bajaradigan nomlangan yoki ifoda ko‘rinishidagi koddir. Parametr kiritiladigan qiymat nomi, argument esa chaqirishdagi haqiqiy qiymatdir. function jami(a, b){return a+b;}misolida a, b — parametr, jami(2,3) dagi 2,3 argumentdir. return qiymatni chaqiruvchi joyga qaytaradi; console.log esa chiqaradi. Ular bir xil vazifa emas."
+      },
+      {
+        "title": "Qiymat va ko‘rinish doirasi",
+        "text": "Funksiya ichida let yoki const bilan e’lon qilingan qiymat odatda tegishli lokal doirada ko‘rinadi. Har hisob uchun alohida funksiyadan foydalanish uni turli kirishda tekshirishga imkon beradi. Masalan, narx×son hisobi alohida, sahifaga chiqarish alohida bo‘ladi. Bu xatoni topishni yengillashtiradi. Funksiya nomi bajaradigan ishini anglatishi kerak."
+      },
+      {
+        "title": "HTML formasi va boshqaruv elementlari",
+        "text": "form — ma’lumot kiritish tuzilmasi, label — maydon yorlig‘i, input — kiritish elementi, button — tugmadir. labelning for qiymati input id siga mos bo‘lsa bog‘lanish aniq bo‘ladi. Sonli maydonning value qiymati JavaScriptda satr ko‘rinishida olinadi; hisobdan oldin Number bilan aylantiriladi va tekshiriladi. Brauzer tekshiruvi server tekshiruvini almashtirmaydi."
+      },
+      {
+        "title": "Hodisani boshqarish",
+        "text": "addEventListener(\"submit\",handler) forma yuborilgandagi ishni belgilaydi. handler ichida event.preventDefault() namunada sahifaning standart yuborilib qayta yuklanishini to‘xtatadi. click — tugmaga bosish, input — qiymat o‘zgarishi kabi turli hodisalar mavjud. Hodisa nomi va element mos bo‘lishi kerak. Skript elementlar yaratilgach yoki defer bilan bajariladi."
+      },
+      {
+        "title": "Natija va xato xabari",
+        "text": "Kiritish bo‘sh yoki son emas bo‘lsa hisob bajarilmay, tushunarli xabar beriladi. Musbat miqdor kerak bo‘lsa Number.isFinite(son)&&son>0 tekshiriladi. Natija textContent bilan sahifaga chiqariladi; foydalanuvchi yozgan matn HTML sifatida bajarilmaydi. Funksiya normal, chegaraviy va noto‘g‘ri qiymatlarda tekshiriladi. Hisobni faqat tugma ko‘rinishiga qarab to‘g‘ri deb baholab bo‘lmaydi."
+      },
+      {
+        "title": "Pop-up oynalar",
+        "text": "alert xabar beradi, confirm mantiqiy tanlov qaytaradi, prompt esa foydalanuvchi kiritgan satr yoki bekor qilinsa null qaytaradi. Ular sodda namuna uchun qulay, ammo ishni to‘xtatishi va brauzer tomonidan cheklanishi mumkin. Doimiy interfeysda sahifa ichidagi forma va natija joyi ko‘proq qulay. Promptdagi bekor qilishni Number(null)=0 bilan bilmasdan qabul qilishdan oldin null tekshiriladi."
+      }
+    ],
+    "example": {
+      "task": "Kitob narxi va soni asosida jami summani hisoblaydigan sodda forma yarating.",
+      "steps": [
+        "HTMLda ikkita label, input, hisoblash tugmasi va natija uchun p qo‘ying.",
+        "function hisobla(narx, son){return narx*son;}yarating.",
+        "submit uchun addEventListener qo‘shing va preventDefault chaqiring.",
+        "value qiymatlarini Number bilan aylantiring.",
+        "Bo‘sh, manfiy yoki son bo‘lmagan qiymatni rad eting.",
+        "Narx 15000 va son 3 uchun 45000 chiqishini sinang.",
+        "confirm bekor qilishidagi false va prompt bekor qilishidagi null farqini izohlang."
+      ],
+      "expected": "Forma sahifani qayta yuklamasdan45000 natijasini chiqaradi, noto‘g‘ri kiritishda xabar beradi. Hisoblash funksiyasi konsolda alohida ham sinovdan o‘tadi.",
+      "pitfall": "Faqat alert bilan natija berish yoki prompt bekor qilinganda null ni tekshirmaslik foydalanuvchini chalkashtiradi."
+    },
+    "qa": [
+      [
+        "Parametr va argumentning farqi qaysi?",
+        "Parametr ta’rifdagi nom, argument chaqirishdagi qiymat. Funksiya kirishi shu yo‘l bilan beriladi."
+      ],
+      [
+        "return nima qiladi?",
+        "Qiymatni chaqiruvchi joyga qaytaradi. Chiqarish va qaytarish alohida amallardir."
+      ],
+      [
+        "input.value odatda qanday olinadi?",
+        "Satr sifatida. Hisobdan oldin kerakli turga aylantiriladi."
+      ],
+      [
+        "Forma yuborish hodisasi qaysi?",
+        "submit. Forma yuborilishi Enter orqali ham bo‘lishi mumkin."
+      ],
+      [
+        "preventDefault namunada nima qiladi?",
+        "Standart yuborish harakatini to‘xtatadi. Sahifani qayta yuklamasdan ishlashga imkon beradi."
+      ],
+      [
+        "labelning for qiymati nimaga mos bo‘ladi?",
+        "inputning idqiymatiga. Bu maydon va yorliqni bog‘laydi."
+      ],
+      [
+        "confirm natijasi qanday turda?",
+        "Boolean. Tasdiqlash true, bekor qilish false beradi."
+      ],
+      [
+        "prompt bekor qilinsa nima qaytaradi?",
+        "null. Satr qiymatidan oldin bekor qilish tekshiriladi."
+      ],
+      [
+        "Narx 15000,son 3 uchun jami qancha?",
+        "45000. Hisoblash funksiyasi ko‘paytirishni bajaradi."
+      ],
+      [
+        "Brauzer forma tekshiruvi server tekshiruvini almashtiradimi?",
+        "Yo‘q. Server o‘ziga kelgan ma’lumotni mustaqil tekshiradi."
+      ]
+    ],
+    "quiz": [
+      {
+        "q": "Parametr va argumentning farqi qaysi?",
+        "options": [
+          "Parametr ta’rifdagi nom, argument chaqirishdagi qiymat",
+          "Ikkisi har doim fayl nomi",
+          "Parametr faqat HTMLteg",
+          "Argument faqat parol"
+        ],
+        "correct": 0,
+        "explanation": "Funksiya kirishi shu yo‘l bilan beriladi."
+      },
+      {
+        "q": "return nima qiladi?",
+        "options": [
+          "Har doim konsolga yozadi",
+          "Qiymatni chaqiruvchi joyga qaytaradi",
+          "Har doim sahifani yopadi",
+          "Har doim fayl yaratadi"
+        ],
+        "correct": 1,
+        "explanation": "Chiqarish va qaytarish alohida amallardir."
+      },
+      {
+        "q": "input.value odatda qanday olinadi?",
+        "options": [
+          "Har doim butun son",
+          "Har doim massiv",
+          "Satr sifatida",
+          "Har doim HTMLhujjat"
+        ],
+        "correct": 2,
+        "explanation": "Hisobdan oldin kerakli turga aylantiriladi."
+      },
+      {
+        "q": "Forma yuborish hodisasi qaysi?",
+        "options": [
+          "mouseover",
+          "resize",
+          "scroll",
+          "submit"
+        ],
+        "correct": 3,
+        "explanation": "Forma yuborilishi Enter orqali ham bo‘lishi mumkin."
+      },
+      {
+        "q": "preventDefault namunada nima qiladi?",
+        "options": [
+          "Standart yuborish harakatini to‘xtatadi",
+          "Barcha funksiyalarni o‘chiradi",
+          "Ma’lumotni shifrlaydi",
+          "Faylni kichraytiradi"
+        ],
+        "correct": 0,
+        "explanation": "Sahifani qayta yuklamasdan ishlashga imkon beradi."
+      },
+      {
+        "q": "labelning for qiymati nimaga mos bo‘ladi?",
+        "options": [
+          "Fayl hajmiga",
+          "inputning idqiymatiga",
+          "Monitor modeliga",
+          "Parol uzunligiga"
+        ],
+        "correct": 1,
+        "explanation": "Bu maydon va yorliqni bog‘laydi."
+      },
+      {
+        "q": "confirm natijasi qanday turda?",
+        "options": [
+          "Har doim Number",
+          "Har doim Array",
+          "Boolean",
+          "Har doim HTML"
+        ],
+        "correct": 2,
+        "explanation": "Tasdiqlash true, bekor qilish false beradi."
+      },
+      {
+        "q": "prompt bekor qilinsa nima qaytaradi?",
+        "options": [
+          "Har doim0",
+          "Har doimfalse",
+          "Har doimbo‘sh massiv",
+          "null"
+        ],
+        "correct": 3,
+        "explanation": "Satr qiymatidan oldin bekor qilish tekshiriladi."
+      },
+      {
+        "q": "Narx 15000,son 3 uchun jami qancha?",
+        "options": [
+          "45000",
+          "15003",
+          "5000",
+          "18000"
+        ],
+        "correct": 0,
+        "explanation": "Hisoblash funksiyasi ko‘paytirishni bajaradi."
+      },
+      {
+        "q": "Brauzer forma tekshiruvi server tekshiruvini almashtiradimi?",
+        "options": [
+          "Ha, har doim",
+          "Yo‘q",
+          "Faqat tugma yashil bo‘lsa",
+          "Faqat ekran katta bo‘lsa"
+        ],
+        "correct": 1,
+        "explanation": "Server o‘ziga kelgan ma’lumotni mustaqil tekshiradi."
+      }
+    ],
+    "glossary": [
+      [
+        "Funksiya",
+        "Qayta chaqiriladigan vazifali kod"
+      ],
+      [
+        "Parametr",
+        "Funksiya ta’rifidagi kirish nomi"
+      ],
+      [
+        "Argument",
+        "Chaqirishda berilgan qiymat"
+      ],
+      [
+        "Hodisa",
+        "Bosish yoki yuborish kabi amal"
+      ],
+      [
+        "Handler",
+        "Hodisaga javoban bajariladigan funksiya"
+      ]
+    ]
+  }
+}

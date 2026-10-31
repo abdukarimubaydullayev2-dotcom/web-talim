@@ -33,7 +33,7 @@ try{
  r=await request('/admin',undefined,session);assert.equal(r.status,403);
  r=await request('/admin',undefined,adminCookie);assert.equal(r.status,200);assert((await r.text()).includes('Faollik va natijalar'));
  r=await request('/api/admin/overview',undefined,adminCookie);assert.equal(r.status,200);assert.equal((await r.json()).summary.registered,2);
- r=await request('/api/admin/options',undefined,adminCookie);assert.equal((await r.json()).lessons.length,405);
+ r=await request('/api/admin/options',undefined,adminCookie);assert.equal((await r.json()).lessons.length,465);
  const quiz=assessments['8:1'];
  r=await request('/api/activity/event',{clientId:crypto.randomUUID(),kind:'lesson_open',moduleId:8,lessonId:1},session);assert.equal(r.status,200);
  r=await request('/api/activity/test',{clientId:crypto.randomUUID(),moduleId:8,lessonId:1,version:quiz.version,answers:quiz.correct,percent:0},session);assert.equal(r.status,201);assert.equal((await r.json()).result.percent,100);
@@ -91,6 +91,15 @@ try{
  r=await request('/',undefined,teacherSession);assert((await r.text()).includes('/personal-resources.js'));r=await request('/',undefined,examStudentCookie);assert(!(await r.text()).includes('/personal-resources.js'));
  r=await request('/api/resources/'+fileResource.id+'/delete',{},teacherSession);assert.equal(r.status,200);r=await request('/api/resources/'+fileResource.id+'/file',undefined,teacherSession);assert.equal(r.status,404);
  console.log('Real Worker+D1+R2 private resources: metadata, raw stream upload, byte-for-byte download, Range seek, own-teacher-only file access, lesson filters, course hook injection and deletion passed.');
+ // Separate Informatics subject uses stable namespace 9; old Web IDs retain their meaning.
+ r=await request('/informatics-data.js',undefined,examStudentCookie);assert.equal(r.status,200);assert((await r.text()).includes('const informaticsData='));
+ const info=assessments['9:60'];assert.equal(info.correct.length,10);
+ r=await request('/api/activity/test',{clientId:crypto.randomUUID(),moduleId:9,lessonId:60,version:info.version,answers:info.correct},examStudentCookie);assert.equal(r.status,201,await r.clone().text());assert.equal((await r.json()).result.percent,100);
+ r=await request('/api/admin/report?section=attempts&moduleId=9&lessonId=60',undefined,adminCookie);assert.equal(r.status,200);const infoReport=await r.json();assert(infoReport.rows.some(x=>x.module_id===9&&x.percent===100));
+ r=await request('/api/resources',{clientId:crypto.randomUUID(),moduleId:9,lessonId:60,kind:'presentation',source:'link',title:'Informatika funksiyalar',description:'Sinov',url:'https://example.org/functions'},teacherSession);assert.equal(r.status,201,await r.clone().text());const infoResource=(await r.json()).resource;
+ r=await request('/api/resources?moduleId=9&lessonId=60',undefined,teacherSession);assert.equal(r.status,200);assert((await r.json()).resources.some(x=>x.id===infoResource.id));
+ r=await request('/api/admin/resources?moduleId=9&lessonId=60',undefined,adminCookie);assert.equal(r.status,200);assert((await r.json()).resources.some(x=>x.id===infoResource.id));
+ console.log('Informatics real HTTP: protected content asset, server scoring 100%, admin result subject filter, teacher topic binding, admin cross-teacher resource filter passed.');
  r=await request('/api/auth/register',{...input,login:input.login+'-a',role:'admin'});assert.equal(r.status,400);
  console.log('Admin pages/API, report filtering, server scoring and admission panel passed. Real Worker+D1 HTTP: registration chain, required student group, teacher null group, validation, CSRF, password login, duplicate login, session/logout, protected course/documents/WASM passed.');
 }finally{child.kill('SIGTERM');setTimeout(()=>child.kill('SIGKILL'),1500).unref();}

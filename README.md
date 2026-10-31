@@ -98,3 +98,8 @@ O‘quv materiallariga alohida umumiy litsenziya belgilanmagan.
 Foydalanuvchilar bazasi, parollar, sessiya tokenlari va mahalliy maxfiy sozlamalar bu repozitoriyga kiritilmaydi.
 
 GitHubdagi o‘zgarishlar amaldagi hostingga avtomatik chiqarilmaydi; build va alohida publish kerak.
+
+
+## Informatika va axborot texnologiyalari
+
+A separate subject with six chapters, 60 lessons and 120 teaching hours, preserving the supplied theory/practical flags. The subject selector switches between Web and Informatics; each Informatics lesson has a conspect, matching slide presentation, 10 answered questions and 10 scored test questions, with related videos where selected. No independent-education section is included. See `authoring/README-informatics.txt` for source generation and stable assessment IDs.

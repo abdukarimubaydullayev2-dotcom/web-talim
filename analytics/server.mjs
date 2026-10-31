@@ -16,7 +16,7 @@ export function parseFilters(url){const p=url.searchParams,f={};
  if(p.get('group')){if(p.get('group').length>40)throw new AuthError('Guruh filtri juda uzun.');f.group=normalizeGroup(p.get('group'));}
  if(p.get('q')){if(p.get('q').length>80)throw new AuthError('Qidiruv matni juda uzun.');f.q=p.get('q').trim();}
  if(p.get('accountId')){if(!/^[a-f0-9-]{36}$/.test(p.get('accountId')))throw new AuthError('Hisob filtri noto‘g‘ri.');f.accountId=p.get('accountId');}
- for(const [key,max] of [['moduleId',8],['lessonId',500]])if(p.get(key)){const n=Number(p.get(key));if(!Number.isInteger(n)||n<1||n>max)throw new AuthError('Mavzu filtri noto‘g‘ri.');f[key]=n;}
+ for(const [key,max] of [['moduleId',9],['lessonId',500]])if(p.get(key)){const n=Number(p.get(key));if(!Number.isInteger(n)||n<1||n>max)throw new AuthError('Mavzu filtri noto‘g‘ri.');f[key]=n;}
  if(p.get('from'))f.from=dateBoundary(p.get('from'));if(p.get('to'))f.to=dateBoundary(p.get('to'))+86400000;if(f.from!==undefined&&f.to!==undefined&&f.from>=f.to)throw new AuthError('Sana oralig‘i noto‘g‘ri.');
  return f;
 }

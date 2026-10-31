@@ -1,0 +1,524 @@
+{
+  "name": "Informatika va axborot texnologiyalari",
+  "hours": 120,
+  "chapters": [
+    {
+      "name": "I-bob. Ma'lumot, axborot, bilimlar bazasi va ma'lumotni qayta ishlash. Apparat va dasturiy ta'minot. Elektron xavfsizlik, salomatlik va xavfsizlik",
+      "hours": 20,
+      "lessons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "II-bob. Raqamli tengsizlik. Tarmoqlardan foydalanish. Ekspert tizimlar",
+      "hours": 14,
+      "lessons": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "name": "III-bob. Elektron jadvallar. Ma'lumot bazasi va fayl tushunchasi",
+      "hours": 32,
+      "lessons": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "name": "IV-bob. Audio va video faylni tahrirlash. Yangi texnologiyalar. Axborot texnologiyalarining jamiyatdagi o'rni va ta'siri. Tarmoqlar",
+      "hours": 26,
+      "lessons": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "name": "V-bob. Loyiha boshqaruvi. Tizimdan foydalanish sikli",
+      "hours": 16,
+      "lessons": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "name": "VI-bob. Grafika yaratish. Animatsiya. Veb uchun dasturlash",
+      "hours": 12,
+      "lessons": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Ma'lumot, axborot va bilimlar bazasi. Ma'lumot manbasi. Bevosita va bilvosita manbalardan ma'lumot to'plashning afzallik hamda kamchiliklari. Axborotning sifati.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 2,
+      "title": "Kod berish, kodlash va shifrlash. Ma'lumotlarni kodlashning afzallik va kamchiliklari. Simmetrik va asimmetrik shifrlash usullari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 3,
+      "title": "Ma'lumotlarning to'g'riligini tekshirish. Vizual tekshirish va ma'lumotlarni ikki marta kiritish.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 4,
+      "title": "Apparat ta'minot. Ichki va tashqi qurilmalar. Xotira qurilmalari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 5,
+      "title": "Tizimli dasturiy ta'minot. Amaliy dasturiy ta'minot. Drayverlar.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 6,
+      "title": "Fotosuratni tahrirlash dasturiy ta'minoti. Video tahrirlash dasturiy ta'minoti. Veb sahifa ishlab chiqish dasturiy ta'minoti.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 7,
+      "title": "Foydalanuvchi interfeysi dizaynidagi boshqaruv elementlari. Utilit dasturlar. Buyurtma yoki tayyor dasturiy ta'minot.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 8,
+      "title": "Sensorlar. Harakat va bosim sensorlari. Namlik, harorat va yorug'lik sensorlari.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 9,
+      "title": "Elektron xavfsizlik tushunchasi. Phishing, Pharming, Smishing, Vishing, Troyan, Worm, Spyware, Rootkit, Adware, Ransomware tushunchalari va xavfsizlikni ta'minlash.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 10,
+      "title": "Salomatlik va xavfsizlik.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 0
+    },
+    {
+      "number": 11,
+      "title": "Raqamli tengsizlik tushunchasi va sabablari. Sanoati rivojlangan va rivojlanmagan hududlar. Ijtimoiy-iqtisodiy guruhlar. Samarasi yuqori va past bo'lgan texnologiyalar. Turli davlatlardagi holatlarni o'rganish.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 12,
+      "title": "Tarmoq kompyuterlari. Lokal hududiy (Local area networks) va global hududiy tarmoq (Wide area networks). Kliyent-server va peer-to-peer tarmoqlari. Virtual shaxsiy tarmoq (VPN).",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 13,
+      "title": "Intranet va ekstranet. Internet va uning xususiyatlari. Internetda muloqot qilish. Mobil tarmoqlar.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 14,
+      "title": "Video va veb konferensiya. Videokonferensiyaning jamiyatga ta'siri.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 15,
+      "title": "Ekspert tizim haqida. Bilimlar bazasi va yakunlovchi mexanizm.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 16,
+      "title": "Foydalanuvchi interfeysi. Ekspert tizimlardan foydalanish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 17,
+      "title": "Ma'lumotlarni qayta ishlash tizimlari. Real vaqt rejimida qayta ishlash tizimi.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 1
+    },
+    {
+      "number": 18,
+      "title": "Elektron jadval yaratish. Qatorlar va ustunlarni boshqarish. Elektron jadval xavfsizligi.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 19,
+      "title": "Panel va oynalarni interfeysga mahkamlash. Elektron jadvalni formatlash. Shartli formatlash.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 20,
+      "title": "Formula va funksiyalarni yaratish. Katakka absolyut va nisbiy murojaat. Nomlangan katak va diapazon.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 21,
+      "title": "Yaxlitlash funksiyalari. Sana va vaqtga oid funksiyalar. Shartli funksiyalar. Qidirish funksiyalari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 22,
+      "title": "INDEX va MATCH funksiyalari. Shartli statistik funksiyalar.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 23,
+      "title": "Validatsiya qoidalari. Elektron jadvalga qo'llanadigan validatsiya.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 24,
+      "title": "Ma'lumotlar kiritilishini tekshirish. Ma'lumotlarni filtrlash va saralash.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 25,
+      "title": "Jamlovchi jadvallar va diagrammalar. Ma'lumotlarni import va eksport qilish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 26,
+      "title": "Grafik va diagrammalar. Modellashtirish. Simulyatorlar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 27,
+      "title": "Ma'lumotlar bazasini yaratish. Ma'lumot turlari va katak hajmlari. Uch tomonlama bog'lanish. Birga-bir va birga-ko'p bog'lanish. Ko'pga-ko'p bog'lanish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 28,
+      "title": "Bog'lanishlar yaratish va foydalanish. Oddiy yozuvli va relyatsion ma'lumotlar bazasi o'rtasidagi farq.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 29,
+      "title": "Ma'lumotlarni import qilish. Relyatsion ma'lumotlar bazasini yaratish. Kalitlar. Murakkab kalit. Tashqi kalit.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 30,
+      "title": "Bog'lanishlar yaxlitligi. Ma'lumotlar validatsiyasi va verifikatsiyasi. Qidirish amallari. Murakkab querylar. Ichki va jamlanma querylar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 31,
+      "title": "Statik va dinamik parametrlar. Ma'lumotlar bazasi doirasida hisoblashlarni amalga oshirish. Ma'lumotlarni saralash. Ma'lumot kiritish formalari.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 32,
+      "title": "Hisobotlar. Ma'lumotlarni eksport qilish. Formni normallashtirish. Ma'lumotlar bazasini 3NFga normallashtirish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 33,
+      "title": "Ma'lumotlar lug'ati. Ma'lumot turlari. Fayl va ma'lumotlarni boshqarish. Bevosita fayldan foydalanish. Boshqaruv axborot tizimlari.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 2
+    },
+    {
+      "number": 34,
+      "title": "Videoni tahrirlash dasturi. Mutanosiblikni belgilash. Videoklipni montaj qilish va kliplarni birlashtirish.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 35,
+      "title": "Matnli slayd va titr yaratish. Izoh va subtitr qo'shish. Animatsiya va effektlar qo'shish. Videoklipdan tasvir hosil qilish. Videoklipga ovozli ma'lumot qo'shish va o'chirish.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 36,
+      "title": "Videoklip tezligini o'zgartirish. Videoklipni turli fayl formatlarida eksport qilish. Audioni tahrirlash dasturlari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 37,
+      "title": "Audiokliplarni kesish va kliplarni birlashtirish. Audioklipning ovoz sozlamalarini tahrirlash.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 38,
+      "title": "Audioklipning tezligini va ovoz balandligini sozlash. Reverberatsiya effektini qo'shish yoki uni sozlash. Audiokliplarni turli fayl formatlarida eksport qilish.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 39,
+      "title": "Texnologiya va bizning turmush tarzimiz. Uch o'lchamli printer. To'rtinchi va beshinchi avlod uyali aloqasi. Sun'iy intellekt. Boyitilgan reallik. Biometrik axborot. Bulutli texnologiyalar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 40,
+      "title": "Avtomatlashtirilgan tarjima. Golografik tasvirlash. Robototexnika. QR kodlar. Taqiladigan hisoblash qurilmalari.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 41,
+      "title": "Ultra yuqori aniqlik darajasidagi televideniye. Ko'rish qobiliyatini yaxshilash. Virtual reallik.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 42,
+      "title": "Elektron tijorat va internet banking nima? Elektron pul o'tkazmalari. Zaxiralarni avtomatik boshqarish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 43,
+      "title": "Ma'lumotlarni intellektual tahlillash. Ijtimoiy tarmoq va videokonferensiyalar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 44,
+      "title": "Masofadan ishlash. Sport va tibbiyotda texnologiyalar. Ishlab chiqarish va ta'limda texnologiyalar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 45,
+      "title": "Kompyuter tarmoqlari komponentlari. Simsiz ulanish nuqtasi. Shlyuz, Bridj va Fayervol. Bit oqimini uzatish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 46,
+      "title": "Kanalli va paketli kommutatsiyalash. Xabarli kommutatsiyalash. Optik usulda ma'lumot almashish. Simsiz aloqa/uzatish usullari.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 3
+    },
+    {
+      "number": 47,
+      "title": "Ma'lumotlarni uzatishda polosa kengligi va bit tezligining ahamiyati. BitTorrent protokoli. Tarmoq xavfsizligi muammolari. Xavfsizlik usullari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 48,
+      "title": "Ma'lumotlarni himoya qilish haqidagi qonun tamoyillari. Sun'iy yo'ldosh aloqa tizimlari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 49,
+      "title": "Loyiha boshqaruvining bosqichlari. Konsepsiya va boshlash. Loyiha boshqaruvi uchun foydalaniladigan dasturiy ta'minot turlari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 50,
+      "title": "Kritik bosqichlarni tahlil qilish. Gantt diagrammalari. Amaliy mashg'ulot.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 51,
+      "title": "Avariya/falokatdan keyingi tiklanishni boshqarish. Prototiplash.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 52,
+      "title": "Kompyuter yordamida dizayn yaratish va ishlab chiqarish. Tahlil. Hujjatlar tahlili usuli.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 53,
+      "title": "Dizayn. Ma'lumotlar oqimi diagrammasi. Tizim blok-sxemasi. Ekran formasi. Yangi tizim uchun texnik va dasturiy ta'minot.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 54,
+      "title": "Ishlab chiqish va sinovdan o'tkazish. Qora quti va oq quti strategiyasi sinovlari. Alfa sinov va beta sinov. Instalyatsiya va hujjatlashtirish. Tahlil va texnik xizmat ko'rsatish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 4
+    },
+    {
+      "number": 55,
+      "title": "Vektorli va rastrli tasvirlar. Guruhlash va biriktirish. Elementni burchak bo'ylab aylantirish va joylashtirish. Transformatsiya uskunalari. Tanlash uskunalari.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 5
+    },
+    {
+      "number": 56,
+      "title": "Tasvirni saqlash va hajmini kichraytirish. Matn uchun maydon yaratish. Rastrli tasvirlar. Qizil ko'zni olib tashlash. Animatsiya asoslari. Niqoblovchi qatlam.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 5
+    },
+    {
+      "number": 57,
+      "title": "Elektron xatlarni birlashtirish. Master hujjatni manba faylga biriktirish. Prompt matni yaratish. Kerakli yozuvlarni avtomatik belgilash. O'zgaruvchi maydonlar.",
+      "type": "nazariy",
+      "hours": 2,
+      "chapter": 5
+    },
+    {
+      "number": 58,
+      "title": "Ma'lumotlarni chiqarish. HTML elementlari. O'zgaruvchilar bilan ishlash. Ma'lumot turlari. Operatorlar. Stringlarni boshqarish.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 5
+    },
+    {
+      "number": 59,
+      "title": "Array. Shartli buyruqlar. Luplar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 5
+    },
+    {
+      "number": 60,
+      "title": "Funksiyalar. HTML shakllari va boshqaruv hodisalari. Pop-up oynalar.",
+      "type": "amaliy",
+      "hours": 2,
+      "chapter": 5
+    }
+  ]
+}

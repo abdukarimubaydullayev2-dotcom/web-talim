@@ -6,4 +6,4 @@ function show(){clear();const article=document.querySelector('#content .article'
 }
 const baseRender=renderResources;renderResources=function(data){const value=baseRender(data);if(data)show();else clear();return value;};
 const baseHome=showHome;showHome=function(...args){clear();return baseHome.apply(this,args);};
-const params=new URLSearchParams(location.search),moduleId=Number(params.get('teacherModule')),lessonId=Number(params.get('teacherLesson'));if(Number.isInteger(moduleId)&&moduleId>=1&&moduleId<=8&&Number.isInteger(lessonId)&&lessonId>0&&globalThis.webTalimAssessmentVersions?.[moduleId+':'+lessonId]){currentModule=moduleId;activeLesson(lessonId);}
+const params=new URLSearchParams(location.search),moduleId=Number(params.get('teacherModule')),lessonId=Number(params.get('teacherLesson'));if(Number.isInteger(moduleId)&&moduleId>=1&&moduleId<=9&&Number.isInteger(lessonId)&&lessonId>0&&globalThis.webTalimAssessmentVersions?.[moduleId+':'+lessonId]){currentModule=moduleId;activeLesson(lessonId);}

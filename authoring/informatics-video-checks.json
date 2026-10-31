@@ -1,0 +1,386 @@
+[
+  {
+    "index": 1,
+    "id": "z5GvSe1M1yo",
+    "listedTitle": "1-bob 1-mavzu. Maʼlumot, axborot, bilimlar bazasi va ma’lumotni qayta ishlash (yuqori daraja).",
+    "title": "1-bob 1-mavzu. Maʼlumot, axborot, bilimlar bazasi va ma’lumotni qayta ishlash (yuqori daraja).",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 2,
+    "id": "zolcOFkBqu4",
+    "listedTitle": "1-bob 2-mavzu. Maʼlumot, axborot, bilimlar bazasi va ma’lumotni qayta ishlash (yuqori daraja)",
+    "title": "1-bob 2-mavzu. Maʼlumot, axborot, bilimlar bazasi va ma’lumotni qayta ishlash (yuqori daraja)",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 3,
+    "id": "YRj9o3UEWpg",
+    "listedTitle": "2-bob 1-mavzu. Apparat va dasturiy ta’minot (yuqori daraja) Apparat ta’minot.",
+    "title": "2-bob 1-mavzu. Apparat va dasturiy ta’minot (yuqori daraja) Apparat ta’minot.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 4,
+    "id": "29hQNSF4aZs",
+    "listedTitle": "2-bob 2-mavzu. Apparat va dasturiy ta’minot (yuqori daraja) Tizim dastur va foydalanuvchi interfeysi",
+    "title": "2-bob 2-mavzu. Apparat va dasturiy ta’minot (yuqori daraja) Tizim dastur va foydalanuvchi interfeysi",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 5,
+    "id": "D43B2oKqX-o",
+    "listedTitle": "2-bob 3-mavzu. Apparat va dasturiy ta’minot (yuqori daraja). Utilit dasturlar.",
+    "title": "2-bob 3-mavzu. Apparat va dasturiy ta’minot (yuqori daraja). Utilit dasturlar.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 6,
+    "id": "7CYzNpAlkNU",
+    "listedTitle": "3-bob 1-mavzu. Kuzatish va boshqarish (yuqori daraja). Sensorlar.",
+    "title": "3-bob 1-mavzu. Kuzatish va boshqarish (yuqori daraja). Sensorlar.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 7,
+    "id": "wCGuraqkf-M",
+    "listedTitle": "5-bob 1-mavzu. Tarmoqdan kompyuterlari.",
+    "title": "5-bob 1-mavzu. Tarmoqdan kompyuterlari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 8,
+    "id": "YvuxwuFxU6E",
+    "listedTitle": "5-bob 2-mavzu. Internet.",
+    "title": "5-bob 2-mavzu. Internet.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 9,
+    "id": "r1Y1xJEXN5w",
+    "listedTitle": "5-bob 3-mavzu. Butunjahon internet tarmog’i. Internetda muloqot qilish.",
+    "title": "5-bob 3-mavzu. Butunjahon internet tarmog’i. Internetda muloqot qilish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 10,
+    "id": "eiEiT-wG2fY",
+    "listedTitle": "5-bob 4-mavzu. Mobil tarmoqlar. Video va veb konferensiya.",
+    "title": "5-bob 4-mavzu. Mobil tarmoqlar. Video va veb konferensiya.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 11,
+    "id": "YcShQAXcUAg",
+    "listedTitle": "7-bob 1-mavzu. Elektron jadvallar. Elektron Jadval yaratish",
+    "title": "7-bob 1-mavzu. Elektron jadvallar. Elektron Jadval yaratish",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 12,
+    "id": "FN1aNdVqv1w",
+    "listedTitle": "7-bob 2-mavzu. Elektron jadvallar. Elektron Jadvalni formatlash",
+    "title": "7-bob 2-mavzu. Elektron jadvallar. Elektron Jadvalni formatlash",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 13,
+    "id": "3UtXrM2cQKY",
+    "listedTitle": "8-bob 3-mavzu. Elektron jadvallar. Elektron Formula va funksiyalarni yaratish",
+    "title": "8-bob 3-mavzu. Elektron jadvallar. Elektron Formula va funksiyalarni yaratish",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 14,
+    "id": "7xcA0872ZrI",
+    "listedTitle": "7-bob 4-mavzu. Elektron jadvallar. Elektron Validatsiya qoidalari.",
+    "title": "7-bob 4-mavzu. Elektron jadvallar. Elektron Validatsiya qoidalari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 15,
+    "id": "0lhMIVi46YM",
+    "listedTitle": "7-bob 5-mavzu. Elektron jadvallar. Elektron Maʼlumotlarni filtrlash. Maʼlumotlarni saralash.",
+    "title": "7-bob 5-mavzu. Elektron jadvallar. Elektron Maʼlumotlarni filtrlash. Maʼlumotlarni saralash.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 16,
+    "id": "j4u3QR1QkrA",
+    "listedTitle": "7-bob 6-mavzu. Elektron jadvallar. Grafik va diagrammalar",
+    "title": "7-bob 6-mavzu. Elektron jadvallar. Grafik va diagrammalar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 17,
+    "id": "Qd24fWS0HVA",
+    "listedTitle": "9-bob 1-mavzu. Ma’lumotlar bazasini yaratish.",
+    "title": "9-bob 1-mavzu. Ma’lumotlar bazasini yaratish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 18,
+    "id": "5XeOBA99Wxk",
+    "listedTitle": "9-bob 2-mavzu. Relyatsion maʼlumotlar bazasini yaratish.",
+    "title": "9-bob 2-mavzu. Relyatsion maʼlumotlar bazasini yaratish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 19,
+    "id": "Q3qFIO2-Kus",
+    "listedTitle": "9-bob 3-mavzu. Qidirish amallari",
+    "title": "9-bob 3-mavzu. Qidirish amallari",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 20,
+    "id": "IgPFtcxxZkw",
+    "listedTitle": "9-bob 4-mavzu. Ma’lumotlar bazasi doirasida hisoblashlarni amalga oshirish. Ma’lumotlarni saralash",
+    "title": "9-bob 4-mavzu. Ma’lumotlar bazasi doirasida hisoblashlarni amalga oshirish. Ma’lumotlarni saralash",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 21,
+    "id": "8xBdsbFqNfs",
+    "listedTitle": "9-bob 5-mavzu. Hisobotlar.Navigatsiya menyulari.Ma’lumotlarni eksport qilish.",
+    "title": "9-bob 5-mavzu. Hisobotlar.Navigatsiya menyulari.Ma’lumotlarni eksport qilish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 22,
+    "id": "PyzVWL86JlE",
+    "listedTitle": "9-bob 6-mavzu. Formni normallashtirish.",
+    "title": "9-bob 6-mavzu. Formni normallashtirish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 23,
+    "id": "te1uoyZA0xs",
+    "listedTitle": "9-bob 7-mavzu. Maʼlumotlar bazasini 3NFga normallashtirish. Normallashtirishning afzalligi.",
+    "title": "9-bob 7-mavzu. Maʼlumotlar bazasini 3NFga normallashtirish. Normallashtirishning afzalligi.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 24,
+    "id": "WiNhXMP3aNg",
+    "listedTitle": "9-bob 8-mavzu. Fayl va ma’lumotlarni boshqarish.",
+    "title": "9-bob 8-mavzu. Fayl va ma’lumotlarni boshqarish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 25,
+    "id": "To6T-bpaARE",
+    "listedTitle": "10-bob 1-mavzu. Audio va videofaylni tahrirlash.Videoni tahrirlash dasturi.",
+    "title": "10-bob 1-mavzu. Audio va videofaylni tahrirlash.Videoni tahrirlash dasturi.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 26,
+    "id": "M-ydTIdhRGI",
+    "listedTitle": "10-bob 2-mavzu. Audio va videofaylni tahrirlash. Videoklipdan tasvir hosil qilish.",
+    "title": "10-bob 2-mavzu. Audio va videofaylni tahrirlash. Videoklipdan tasvir hosil qilish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 27,
+    "id": "H4KFWDtLpQo",
+    "listedTitle": "10-bob 3-mavzu. Audio va videofaylni tahrirlash. Audioni tahrirlash dasturlari.",
+    "title": "10-bob 3-mavzu. Audio va videofaylni tahrirlash. Audioni tahrirlash dasturlari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 28,
+    "id": "F2k2sTaeZFk",
+    "listedTitle": "10-bob 4-mavzu. Audio va videofaylni tahrirlash. Audioklipni dublyaj qilish.",
+    "title": "10-bob 4-mavzu. Audio va videofaylni tahrirlash. Audioklipni dublyaj qilish.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 29,
+    "id": "pUeKqbSWvpk",
+    "listedTitle": "11-bob 1-mavzu. Texnologiya va bizning turmush tarzimiz. Uch oʻlchamli printer.",
+    "title": "11-bob 1-mavzu. Texnologiya va bizning turmush tarzimiz. Uch oʻlchamli printer.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 30,
+    "id": "WLSkrW7_amI",
+    "listedTitle": "11-bob 2-mavzu. Sunʼiy intellekt. Boyitilgan reallik. Biometrik axborot.",
+    "title": "11-bob 2-mavzu. Sunʼiy intellekt. Boyitilgan reallik. Biometrik axborot.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 31,
+    "id": "7hs-J_k28w0",
+    "listedTitle": "11.3 Bulutli texnologiyalar. Avtomatlashtirilgan tarjima.",
+    "title": "11.3 Bulutli texnologiyalar. Avtomatlashtirilgan tarjima.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 32,
+    "id": "zcuia6U-GDw",
+    "listedTitle": "11-bob 5-mavzu. QR kodlar. Taqiladigan hisoblash qurilmalari.",
+    "title": "11-bob 5-mavzu. QR kodlar. Taqiladigan hisoblash qurilmalari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 33,
+    "id": "Kwsqj8j5Mcw",
+    "listedTitle": "13-bob 1-mavzu. Tarmoq xarakteristikalari. Polosa kengligi va bit tezligi",
+    "title": "13-bob 1-mavzu. Tarmoq xarakteristikalari. Polosa kengligi va bit tezligi",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 34,
+    "id": "ZnepW-tw9HM",
+    "listedTitle": "13-bob 2-mavzu. Tarmoq xarakteristikalari. Polosa kengligi va bit tezligi",
+    "title": "13-bob 2-mavzu. Tarmoq xarakteristikalari. Polosa kengligi va bit tezligi",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 35,
+    "id": "Kna5fqS_DQw",
+    "listedTitle": "13-bob 3-mavzu. Tarmoq protokollari: Telnet, FTP, HTTP, POP, IMAP",
+    "title": "13-bob 3-mavzu. Tarmoq protokollari: Telnet, FTP, HTTP, POP, IMAP",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 36,
+    "id": "f4dQCOs50Pg",
+    "listedTitle": "13-bob 4-mavzu. Tarmoq xavfsizligini ta’minlash usullari va vositalari.",
+    "title": "13-bob 4-mavzu. Tarmoq xavfsizligini ta’minlash usullari va vositalari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 37,
+    "id": "XP2P4rVSakg",
+    "listedTitle": "13-bob 5-mavzu. Tarmoqlar. Sun’iy yoʻldosh aloqa tizimlari.",
+    "title": "13-bob 5-mavzu. Tarmoqlar. Sun’iy yoʻldosh aloqa tizimlari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 38,
+    "id": "Yhh7thB4s4s",
+    "listedTitle": "14-bob 1-mavzu. Loyiha boshqaruvi. Loyiha boshqaruvining bosqichlari.",
+    "title": "14-bob 1-mavzu. Loyiha boshqaruvi. Loyiha boshqaruvining bosqichlari.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 39,
+    "id": "OXIhbtF70Uk",
+    "listedTitle": "17-bob 1-mavzu. Grafika yaratish. Vektorli va rastrli tasvirlar",
+    "title": "17-bob 1-mavzu. Grafika yaratish. Vektorli va rastrli tasvirlar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 40,
+    "id": "J1tOr047GYc",
+    "listedTitle": "17-bob 2-mavzu. Grafika yaratish. Vektorli tasvirlar",
+    "title": "17-bob 2-mavzu. Grafika yaratish. Vektorli tasvirlar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 41,
+    "id": "vCkuefWswzk",
+    "listedTitle": "17-bob 3-mavzu. Animatsiya.",
+    "title": "17-bob 3-mavzu. Animatsiya.",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 42,
+    "id": "vnucvUJV9qg",
+    "listedTitle": "19-bob 1-mavzu. Veb uchun dasturlash. Javascriptga kirish",
+    "title": "19-bob 1-mavzu. Veb uchun dasturlash. Javascriptga kirish",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 43,
+    "id": "LbEHG1A7aBI",
+    "listedTitle": "19-bob 2-mavzu. Axborot turlari va o'zgaruvchilar",
+    "title": "19-bob 2-mavzu. Axborot turlari va o'zgaruvchilar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 44,
+    "id": "O_2omU_FOYM",
+    "listedTitle": "19-bob 4-mavzu. Arifmetik modul va operatorlar",
+    "title": "19-bob 4-mavzu. Arifmetik modul va operatorlar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 45,
+    "id": "lvzH2cBwOKw",
+    "listedTitle": "19-bob 5-mavzu. Funksiyalar",
+    "title": "19-bob 5-mavzu. Funksiyalar",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 46,
+    "id": "oDUUWNq1N0E",
+    "listedTitle": "19-bob 6-mavzu. If-else, loop",
+    "title": "19-bob 6-mavzu. If-else, loop",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 47,
+    "id": "pl3dnbmEQng",
+    "listedTitle": "19-bob 7-mavzu. Web saytga script qo'shish",
+    "title": "19-bob 7-mavzu. Web saytga script qo'shish",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  },
+  {
+    "index": 48,
+    "id": "O1uyn6b4vhU",
+    "listedTitle": "19-bob 8-mavzu. DOM",
+    "title": "19-bob 8-mavzu. DOM",
+    "channel": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "ok": true
+  }
+]
