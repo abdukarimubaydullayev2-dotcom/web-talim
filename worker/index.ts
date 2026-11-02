@@ -1,3 +1,4 @@
+import learningHTML from '../learning/index.html?raw';
 import adminHTML from '../admin/index.html?raw';
 import adminJS from '../admin/client.js?raw';
 import adminCSS from '../admin/style.css?raw';
@@ -41,7 +42,7 @@ const worker = {
         },
       };
     }
-    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS,adminResourcesHTML,adminResourcesJS}));
+    return runWithConnectorBinding(binding, () => gateway(request, env, {loginHTML,accountHTML,courseHTML,clientJS,styleCSS,adminHTML,adminJS,adminCSS,teacherHTML,teacherJS,teacherCSS,examHTML,examJS,resourcesHTML,resourcesJS,adminResourcesHTML,adminResourcesJS,learningHTML}));
   },
 };
 

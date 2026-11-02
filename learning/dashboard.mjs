@@ -1,0 +1,13 @@
+import {plainText} from '../analytics/plain-text.mjs';
+import assessments from '../analytics/assessments.json' with {type:'json'};
+import {all,json,student} from './common.mjs';
+import {tasks} from './tasks.mjs';
+// Authorization stays in SQL to keep dashboard query count bounded even after many revoked shares.
+const visible="EXISTS(SELECT 1 FROM learning_chapters h JOIN learning_courses c ON c.id=h.course_id JOIN accounts teacher ON teacher.id=c.owner_id JOIN learning_course_groups cg ON cg.course_id=c.id JOIN teaching_groups g ON g.id=cg.group_id JOIN roster_students r ON r.group_id=g.id WHERE h.id=l.chapter_id AND r.account_id=? AND g.owner_id=c.owner_id AND g.college_id=? AND teacher.college_id=g.college_id AND teacher.role='teacher' AND l.published=1)";
+export async function dashboard(request,env,user,path,url){if(path!=='/my'||request.method!=='GET')return null;student(user);const db=env.DB;
+ const opened=await all(db,"SELECT module_id,lesson_id,created_at FROM activity_events WHERE account_id=? AND kind='lesson_open' ORDER BY created_at DESC,id DESC LIMIT 30",[user.id]);let resume=null;for(const a of opened){const t=assessments[a.module_id+':'+a.lesson_id];if(t){resume={title:plainText(t.title),at:a.created_at,href:'/?moduleId='+a.module_id+'&lessonId='+a.lesson_id};break;}}
+ const custom=await all(db,'SELECT l.id,l.title,e.opened_at FROM learning_events e JOIN learning_lessons l ON l.id=e.lesson_id WHERE e.account_id=? AND '+visible+' ORDER BY e.opened_at DESC LIMIT 1',[user.id,user.id,user.college_id]);if(custom.length&&(!resume||custom[0].opened_at>resume.at))resume={title:custom[0].title,at:custom[0].opened_at,href:'/learn?lessonId='+custom[0].id};
+ const builtinResults=await all(db,'SELECT lesson_title title,module_id,lesson_id,percent,correct,total,created_at FROM test_attempts WHERE account_id=? ORDER BY created_at DESC,id DESC LIMIT 20',[user.id]);const recent=builtinResults.map(a=>({...a,title:plainText(a.title),href:'/?moduleId='+a.module_id+'&lessonId='+a.lesson_id}));
+ const customResults=await all(db,'SELECT a.*,l.title FROM learning_attempts a JOIN learning_lessons l ON l.id=a.lesson_id WHERE a.account_id=? AND '+visible+' ORDER BY a.created_at DESC,a.id DESC LIMIT 20',[user.id,user.id,user.college_id]);for(const a of customResults)recent.push({title:a.title,percent:a.percent,correct:a.correct,total:a.total,created_at:a.created_at,href:'/learn?lessonId='+a.lesson_id});
+ recent.sort((a,b)=>b.created_at-a.created_at);const result=await tasks(request,env,user,'/tasks',url),todo=await result.json();return json({resume,recent:recent.slice(0,20),tasks:todo.tasks,trackingStarted:'2026-10-29'});
+}

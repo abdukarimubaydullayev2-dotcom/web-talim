@@ -13,3 +13,6 @@ for(const [from,to] of [
  ['node_modules/jszip/dist/jszip.min.js','jszip.min.js'],
  ['node_modules/jszip/LICENSE.markdown','JSZIP-LICENSE.txt']
 ])await cp(from,'public/vendor/teacher/'+to);
+
+await cp('learning/client.js','public/learning-client.js');
+await cp('learning/style.css','public/learning-style.css');

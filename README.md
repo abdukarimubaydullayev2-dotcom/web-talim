@@ -103,3 +103,12 @@ GitHubdagi o‘zgarishlar amaldagi hostingga avtomatik chiqarilmaydi; build va a
 ## Informatika va axborot texnologiyalari
 
 A separate subject with six chapters, 60 lessons and 120 teaching hours, preserving the supplied theory/practical flags. The subject selector switches between Web and Informatics; each Informatics lesson has a conspect, matching slide presentation, 10 answered questions and 10 scored test questions, with related videos where selected. No independent-education section is included. See `authoring/README-informatics.txt` for source generation and stable assessment IDs.
+
+## Teacher and student learning workspace
+
+- `/teacher/courses`: private teacher-owned subjects, chapters, lessons and protected material files, with explicit access for selected roster groups.
+- `/teacher/assignments`: topic-linked practical tasks, student text/file submissions, 0–100 grading, feedback and return-for-revision.
+- `/teacher/insights`: roster-based topic matrix, first/latest/best attempts, compatible-version question errors and separate practical-work evidence. Admin can inspect other teachers' groups; ordinary teachers only their own.
+- `/learn`: student continuation, accessible teacher subjects, recent test results, pending tasks and feedback.
+
+See `learning/README.md` for access boundaries, limits, schema, version handling and tests. Existing standard-topic quiz IDs and auth secrets are unchanged.

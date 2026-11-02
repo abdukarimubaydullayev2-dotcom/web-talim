@@ -1,0 +1,2 @@
+// Course datasets escape code for legacy HTML rendering. Reporting uses plain text.
+export function plainText(value){return String(value??'').replace(/&(#x[\da-f]+|#\d+|amp|lt|gt|quot|apos);/gi,(whole,key)=>{if(key[0]==='#'){const n=key[1].toLowerCase()==='x'?parseInt(key.slice(2),16):Number(key.slice(1));return n>0&&n<=0x10ffff&&!(n>=0xd800&&n<=0xdfff)?String.fromCodePoint(n):'�';}return {amp:'&',lt:'<',gt:'>',quot:'"',apos:"'"}[key.toLowerCase()]??whole;});}

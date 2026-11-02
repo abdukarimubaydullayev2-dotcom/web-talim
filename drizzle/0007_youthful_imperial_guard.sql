@@ -1,0 +1,1 @@
+ALTER TABLE `learning_courses` ADD `mutation_token` text DEFAULT '' NOT NULL;
