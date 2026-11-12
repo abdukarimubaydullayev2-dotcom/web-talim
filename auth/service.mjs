@@ -61,7 +61,7 @@ export async function handleAuth(request,db,{pepper,adminAccountIds}={}){const u
    if(!await verifyPassword(input.currentPassword,user,pepper))throw new AuthError('Amaldagi parol noto‘g‘ri.',400);
    if(input.currentPassword===input.password)throw new AuthError('Yangi parol avvalgisidan farq qilsin.');
    const hash=await createPassword(input.password,pepper);
-   await db.batch([db.prepare('UPDATE accounts SET password_hash=?,salt=?,iterations=12 WHERE id=?').bind(hash,'',user.id),db.prepare('UPDATE roster_students SET initial_secret=NULL WHERE account_id=?').bind(user.id),db.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(user.id)]);
+   await db.batch([db.prepare('UPDATE accounts SET password_hash=?,salt=?,iterations=12 WHERE id=?').bind(hash,'',user.id),db.prepare('DELETE FROM auth_sessions WHERE account_id=?').bind(user.id)]);
    return json({ok:true},200,{'Set-Cookie':await session(db,user.id,request)});
   }
   if(path.endsWith('register')){

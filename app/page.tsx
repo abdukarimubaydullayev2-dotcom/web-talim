@@ -1,1 +1,1 @@
-export default function Home(){return <main>Web Ta’lim</main>}
+export default function Home(){return <main>Oshpaz Ta’lim</main>}

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Web Ta’lim",
-  description: "Texnikum o‘quvchilari va o‘qituvchilari uchun raqamli ta’lim resursi.",
+  title: "Oshpaz Ta’lim",
+  description: "Umarova Zulfiya bilan 1-kurs oshpazlik ta’limi.",
   icons: {
     icon: "/assets/texnikum-building-2026.jpg",
     shortcut: "/assets/texnikum-building-2026.jpg",

@@ -1,1 +1,0 @@
-CREATE INDEX `accounts_group_lookup` ON `accounts` (`college_id`,`group_key`);

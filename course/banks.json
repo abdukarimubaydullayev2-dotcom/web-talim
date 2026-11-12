@@ -1,0 +1,374 @@
+[
+  [
+    {
+      "question": "Xavf aniqlanganda birinchi to‘g‘ri ish qaysi?",
+      "options": [
+        "Ishni xavfsiz to‘xtatish va mas’ulga xabar berish",
+        "Ishni tezroq davom ettirish",
+        "Nosozlikni yashirish",
+        "Himoya qopqog‘ini yechish"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Yo‘riqnoma nima uchun qayd etiladi?",
+      "options": [
+        "O‘tkazilgan tushuntirish va mas’uliyatni hujjatlashtirish uchun",
+        "Taom rangini o‘zgartirish uchun",
+        "Ombor sig‘imini oshirish uchun",
+        "Jihoz tezligini ikki baravar qilish uchun"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Elektr jihozini tozalashdan oldin nima qilinadi?",
+      "options": [
+        "Quvvat manbai uziladi",
+        "Faqat tezligi kamaytiriladi",
+        "Ho‘l mato bilan ishlayotganida artiladi",
+        "Himoya qopqog‘i ochilib ish davom ettiriladi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Nam pol xavfi qanday kamaytiriladi?",
+      "options": [
+        "Hudud belgilanib, suyuqlik xavfsiz tozalanadi",
+        "Ustidan tez yugurib o‘tiladi",
+        "Faqat chiroq o‘chiriladi",
+        "Mahsulot ustiga tuz sepiladi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Yonayotgan yog‘ga suv quyish qanday baholanadi?",
+      "options": [
+        "Xavfli, yog‘ sachrab yong‘in tarqalishi mumkin",
+        "Eng xavfsiz usul",
+        "Yog‘ni oziq-ovqatga aylantiradi",
+        "Har qanday olovni xavfsiz o‘chiradi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Chiqindi kamaytirishning foydali usuli qaysi?",
+      "options": [
+        "Xarid va porsiyani rejalash, sarfni qayd etish",
+        "Muddati o‘tgan mahsulotni aralashtirish",
+        "Barcha chiqindini oqovaga tashlash",
+        "Yorliqlarni olib tashlash"
+      ],
+      "answer": 0
+    }
+  ],
+  [
+    {
+      "question": "Tozalash va dezinfeksiya farqi qaysi javobda to‘g‘ri?",
+      "options": [
+        "Tozalash kirni ketkazadi, dezinfeksiya mikroorganizmlarni kamaytiradi",
+        "Ikkalasi faqat idishni bo‘yaydi",
+        "Dezinfeksiya oziq qiymatini oshiradi",
+        "Tozalash mahsulotni muzlatadi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Brutto 12 kg, tara 0,8 kg. Netto qancha?",
+      "options": [
+        "11,2 kg",
+        "12,8 kg",
+        "12 kg",
+        "0,8 kg"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qayta ifloslanishga misol qaysi?",
+      "options": [
+        "Xom go‘sht taxtachasida tayyor salat kesish",
+        "Sabzavotni xavfsiz suvda yuvish",
+        "Toza idishga taom qo‘yish",
+        "Mahsulotni yopiq idishda saqlash"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Reja-taomnoma nimani belgilaydi?",
+      "options": [
+        "Taom turlari va tayyorlanadigan porsiyalar sonini",
+        "Faqat xodimning yoshini",
+        "Faqat bino rangini",
+        "Faqat ombor eshigi o‘lchamini"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Yaroqlilik muddati oldin tugaydigan mahsulot bilan nima qilinadi?",
+      "options": [
+        "Yaroqli bo‘lsa, belgilangan shartda avval ishlatiladi",
+        "Doim eng oxirida ishlatiladi",
+        "Sanasi o‘chirib tashlanadi",
+        "Yangi mahsulotga belgisiz qo‘shiladi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qo‘lqop qo‘l yuvish o‘rnini bosadimi?",
+      "options": [
+        "Yo‘q, qo‘l gigiyenasi baribir bajariladi",
+        "Ha, istalgan muddatga",
+        "Ha, faqat xom go‘shtda",
+        "Ha, faqat salatda"
+      ],
+      "answer": 0
+    }
+  ],
+  [
+    {
+      "question": "Jihozning ishchi organi nima qiladi?",
+      "options": [
+        "Mahsulotga bevosita texnologik ta’sir ko‘rsatadi",
+        "Faqat korpusni bezaydi",
+        "Faqat hisob varag‘ini chiqaradi",
+        "Faqat narxni belgilaydi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qiymalagichga mahsulot qanday uzatiladi?",
+      "options": [
+        "Mos itargich bilan",
+        "Barmoq bilan",
+        "Harakatdagi pichoq bilan",
+        "Istalgan metall buyum bilan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Marmitning asosiy vazifasi nima?",
+      "options": [
+        "Tayyor taomni issiq ushlash",
+        "Xom go‘shtni muzlatish",
+        "Unni elash",
+        "Xamirni yoyish"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Sovutish mahsulotni steril qiladimi?",
+      "options": [
+        "Yo‘q, ko‘payishni sekinlashtiradi",
+        "Ha, barcha mikroblarni yo‘q qiladi",
+        "Ha, faqat go‘shtni",
+        "Ha, faqat tuxumni"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Frityurda nam mahsulot nima uchun xavfli?",
+      "options": [
+        "Suv qizigan yog‘da kuchli sachrash hosil qiladi",
+        "Yog‘ni darhol muzlatadi",
+        "Jihozni sovutkichga aylantiradi",
+        "Savatning hajmini oshiradi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Jihoz nasadkasi qachon almashtiriladi?",
+      "options": [
+        "Jihoz to‘xtatilib quvvatdan uzilgach",
+        "Eng katta tezlikda",
+        "Motor ishlab turganda",
+        "Faqat qo‘lqop kiyib, quvvatni uzmasdan"
+      ],
+      "answer": 0
+    }
+  ],
+  [
+    {
+      "question": "Mahsulot yorlig‘ida avval nimalar tekshiriladi?",
+      "options": [
+        "Tarkib, sana va saqlash sharti",
+        "Faqat shrift chiroyi",
+        "Faqat qadoq rasmi",
+        "Faqat reklama shiori"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Mog‘orlagan non bilan to‘g‘ri yo‘l qaysi?",
+      "options": [
+        "Uni iste’mol uchun ishlatmaslik",
+        "Faqat mog‘orni qirqib hammasini ishlatish",
+        "Namlik qo‘shib saqlash",
+        "Yangi non bilan aralashtirish"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Oziq qiymatini solishtirishda qanday asos kerak?",
+      "options": [
+        "Bir xil massa yoki bir xil porsiya asosi",
+        "Faqat qadoq rangi",
+        "Faqat mahsulot nomi uzunligi",
+        "Faqat narx yorlig‘i kattaligi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Go‘sht bo‘lagiga usul tanlashda nima hisobga olinadi?",
+      "options": [
+        "Mushak va biriktiruvchi to‘qima xususiyati",
+        "Faqat idish rangi",
+        "Faqat oshpazning ismi",
+        "Faqat taxtacha kattaligi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Qadoq shishgan konservaga qanday munosabat kerak?",
+      "options": [
+        "Tatib ko‘rmasdan ajratish",
+        "Tuz qo‘shib darhol ishlatish",
+        "Faqat ismini o‘zgartirish",
+        "Boshqa mahsulotga aralashtirish"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Yog‘ning oksidlanishini nimalar kuchaytiradi?",
+      "options": [
+        "Havo, yorug‘lik va issiqlik",
+        "Faqat qadoqdagi matn",
+        "Faqat idish nomi",
+        "Faqat mahsulotning narxi"
+      ],
+      "answer": 0
+    }
+  ],
+  [
+    {
+      "question": "Bir xil kesim nima uchun kerak?",
+      "options": [
+        "Bo‘laklarning bir tekis pishishini osonlashtirish uchun",
+        "Har doim taomni muzlatish uchun",
+        "Suvni butunlay yo‘qotish uchun",
+        "Inventarni yuvmaslik uchun"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Tashqi qizarish ichki tayyorlikni to‘liq isbotlaydimi?",
+      "options": [
+        "Yo‘q, ichki tayyorlik ham tekshiriladi",
+        "Ha, har qanday taomda",
+        "Ha, faqat qalin bo‘lakda",
+        "Ha, faqat qiymada"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Brutto va netto farqi nima?",
+      "options": [
+        "Brutto dastlabki, netto ishlovdan keyingi foydalaniladigan massa bo‘lishi mumkin",
+        "Netto har doim kattaroq",
+        "Ikkalasi faqat idish rangi",
+        "Ikkalasi pishirish vaqti"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dimlash qaysi muhitga asoslanadi?",
+      "options": [
+        "Oz suyuqlik va nam issiqlik muhitiga",
+        "Faqat sovuq havoga",
+        "Faqat quruq unga",
+        "Faqat muzlatishga"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Kotletda bir xil porsiya nima beradi?",
+      "options": [
+        "Teng tayyorlanish va porsiya nazoratiga yordam beradi",
+        "Mahsulotni steril qiladi",
+        "Retseptni keraksiz qiladi",
+        "Sovutkich o‘rnini bosadi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Xom va pishgan mahsulot inventari qanday bo‘ladi?",
+      "options": [
+        "Ajratiladi va tegishli sanitariya ishlovi bajariladi",
+        "Har doim yuvmasdan almashiladi",
+        "Faqat nomi almashtiriladi",
+        "Faqat bir marta oyda tozalanadi"
+      ],
+      "answer": 0
+    }
+  ],
+  [
+    {
+      "question": "Palov va shavlaning asosiy tekstura farqi qaysi?",
+      "options": [
+        "Palovda don alohida, shavlada yumshoqroq bog‘langan tuzilma kutiladi",
+        "Palov doim suyuq ichimlik",
+        "Shavlada guruch bo‘lmaydi",
+        "Ikkalasi faqat non turi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Manti odatda qanday pishiriladi?",
+      "options": [
+        "Bug‘da",
+        "Muzlatkichda",
+        "Quruq xom holatda",
+        "Faqat quyoshda"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Chuchvara chokining vazifasi nima?",
+      "options": [
+        "Ichlikni ushlab, pishirishda butunlikni saqlash",
+        "Taomni sovutish",
+        "Unni elash",
+        "Yog‘ni tozalash"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Somsada nimaning tayyorligi tekshiriladi?",
+      "options": [
+        "Xamir bilan birga ichlikning ham",
+        "Faqat tashqi bezakning",
+        "Faqat list rangining",
+        "Faqat idishning"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Xamirga dam berish nimaga yordam beradi?",
+      "options": [
+        "Namlik taqsimlanishi va ishlov qulayligiga",
+        "Mahsulotni avtomatik steril qilishga",
+        "Unni go‘shtga aylantirishga",
+        "Tuzni butunlay yo‘qotishga"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Milliy taom retseptini ko‘paytirishda nima qilinadi?",
+      "options": [
+        "Porsiya me’yori kerakli porsiyalar soniga mos hisoblanadi",
+        "Faqat suv ikki baravar qilinadi",
+        "Faqat taom nomi o‘zgaradi",
+        "Mahsulot miqdori hisoblanmaydi"
+      ],
+      "answer": 0
+    }
+  ]
+]
